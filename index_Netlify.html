@@ -9,23 +9,25 @@
       body {
         margin: 0;
         height: 100%;
-        background: #fff;
+        height: 100dvh;
+        background: #07070a;
       }
       #site-frame {
         display: block;
         width: 100%;
         height: 100%;
+        height: 100dvh;
         border: 0;
       }
       #site-error {
         font-family: system-ui, sans-serif;
         padding: 2rem;
-        color: #333;
+        color: #f3f4f6;
       }
     </style>
   </head>
   <body>
-    <iframe id="site-frame" title="Voorhoorn"></iframe>
+    <iframe id="site-frame" title="Voorhoorn" allow="fullscreen; autoplay"></iframe>
     <script>
       (async function loadVoorhoorn() {
         const repo = "daanbrouwer0-collab/voorhoorn";
@@ -78,7 +80,6 @@
 
             const absolute = /^(https?:)?\/\//i.test(href);
             if (absolute) {
-              // Externe links openen normaal in het iframe / nieuw tabblad
               return;
             }
 
@@ -91,7 +92,11 @@
               : "";
             const resolved = new URL(href, `https://local.invalid/${currentDir}`);
             const nextPath = normalizePath(resolved.pathname.replace(/^\//, ""));
-            history.pushState({ path: nextPath }, "", `#${nextPath}`);
+            try {
+              history.pushState({ path: nextPath }, "", `#${nextPath}`);
+            } catch (_) {
+              try { history.pushState({ path: nextPath }, ""); } catch (__) {}
+            }
             show(nextPath);
           });
         }
@@ -123,7 +128,11 @@
         const initial = normalizePath(
           (location.hash || "#index.html").slice(1)
         );
-        history.replaceState({ path: initial }, "", `#${initial}`);
+        try {
+          history.replaceState({ path: initial }, "", `#${initial}`);
+        } catch (_) {
+          try { history.replaceState({ path: initial }, ""); } catch (__) {}
+        }
         await show(initial);
 
         window.addEventListener("popstate", (event) => {
