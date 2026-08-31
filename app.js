@@ -1,6 +1,7 @@
 const HOORN_LINKS = [
     // 1. NIEUWS & MEDIA
     {
+        id: "hoornnieuws",
         title: "Hoornnieuws",
         url: "https://www.hoornnieuws.nl/",
         category: "nieuws",
@@ -10,6 +11,7 @@ const HOORN_LINKS = [
         tags: ["nieuws", "112", "politiek", "actualiteit", "krant"]
     },
     {
+        id: "streekomroep-wf",
         title: "Streekomroep West-Friesland (WEEFF / HoornRadio)",
         url: "https://www.streekomroepwestfriesland.nl/",
         category: "nieuws",
@@ -19,6 +21,7 @@ const HOORN_LINKS = [
         tags: ["omroep", "radio", "weeff", "tv", "podcasts", "video", "nieuws"]
     },
     {
+        id: "hoornsdagblad",
         title: "Hoornsdagblad.nl",
         url: "https://www.hoornsdagblad.nl/",
         category: "nieuws",
@@ -28,6 +31,7 @@ const HOORN_LINKS = [
         tags: ["dagblad", "krant", "artikelen", "nieuws"]
     },
     {
+        id: "rodi-nieuwsblad-hoorn",
         title: "Rodi Media / Nieuwsblad Hoorn",
         url: "https://www.rodi.nl/hoorn",
         category: "nieuws",
@@ -37,6 +41,7 @@ const HOORN_LINKS = [
         tags: ["rodi", "huis-aan-huis", "nieuwsblad", "krant", "nieuws"]
     },
     {
+        id: "weekblad-zondag",
         title: "Weekblad Zondag",
         url: "https://www.weekbladzondag.nl/",
         category: "nieuws",
@@ -46,15 +51,17 @@ const HOORN_LINKS = [
         tags: ["weekblad", "zondag", "krant", "sport", "nieuws"]
     },
     {
+        id: "nh-nieuws-wf",
         title: "NH Nieuws (West-Friesland)",
-        url: "https://www.nhnieuws.nl/regio/west-friesland",
+        url: "https://www.nhnieuws.nl/west-friesland",
         category: "nieuws",
         categoryName: "Nieuws & Media",
         icon: "📺",
-        desc: "Regionale nieuwszender en website van de provincie Noord-Holland met focus op West-Friesland.",
-        tags: ["nh nieuws", "regio", "tv", "nieuws"]
+        desc: "Regionale nieuwszender en website van de provincie Noord-Holland met actueel West-Friesland nieuws.",
+        tags: ["nh nieuws", "regio", "tv", "nieuws", "west-friesland"]
     },
     {
+        id: "nhd-wf",
         title: "Noordhollands Dagblad (West-Friesland)",
         url: "https://www.noordhollandsdagblad.nl/regio/west-friesland",
         category: "nieuws",
@@ -66,6 +73,7 @@ const HOORN_LINKS = [
 
     // 2. GEMEENTE & BESTUUR
     {
+        id: "gemeente-hoorn",
         title: "Gemeente Hoorn",
         url: "https://www.hoorn.nl/",
         category: "gemeente",
@@ -75,6 +83,7 @@ const HOORN_LINKS = [
         tags: ["gemeente", "paspoort", "rijbewijs", "vergunning", "burgerzaken", "balie"]
     },
     {
+        id: "ibabs-hoorn",
         title: "iBabs Publieksportaal (Gemeenteraad)",
         url: "https://hoorn.bestuurlijkeinformatie.nl/",
         category: "gemeente",
@@ -84,24 +93,27 @@ const HOORN_LINKS = [
         tags: ["raad", "notulen", "vergadering", "live", "politiek", "ibabs", "besluiten"]
     },
     {
+        id: "besluitenlijsten-bw",
         title: "Besluitenlijsten College van B&W",
-        url: "https://www.hoorn.nl/bestuur-en-organisatie/besluitenlijsten-college-van-bw",
+        url: "https://hoorn.bestuurlijkeinformatie.nl/",
         category: "gemeente",
         categoryName: "Gemeente & Bestuur",
         icon: "⚖️",
-        desc: "Wekelijkse officiële besluitenlijsten van de burgemeester en wethouders van Hoorn.",
+        desc: "Officiële besluitenlijsten en documenten van de burgemeester en wethouders van Hoorn.",
         tags: ["college", "b&w", "besluiten", "burgemeester", "wethouder", "politiek"]
     },
     {
-        title: "Gemeenteraad Hoorn",
-        url: "https://gemeenteraad.hoorn.nl/",
+        id: "gemeenteraad-politiek",
+        title: "Gemeenteraad & Politiek Hoorn",
+        url: "https://hoorn.bestuurlijkeinformatie.nl/",
         category: "gemeente",
         categoryName: "Gemeente & Bestuur",
         icon: "👥",
-        desc: "Informatie over raadsleden, politieke fracties en hoe je als burger kunt inspreken.",
+        desc: "Informatie over raadsleden, politieke fracties, raadsvergaderingen en inspreken.",
         tags: ["raadsleden", "fracties", "inspreken", "democratie", "gemeente"]
     },
     {
+        id: "bekendmakingen-hoorn",
         title: "Officiële Bekendmakingen Hoorn",
         url: "https://zoek.officielebekendmakingen.nl/",
         category: "gemeente",
@@ -111,17 +123,19 @@ const HOORN_LINKS = [
         tags: ["vergunningen", "bekendmakingen", "bouwplannen", "bestemming", "postcode"]
     },
     {
-        title: "Wet open overheid (Woo) Hoorn",
-        url: "https://www.hoorn.nl/woo",
+        id: "contact-gemeente",
+        title: "Contact & Openbaarheid (Gemeente Hoorn)",
+        url: "https://www.hoorn.nl/contact",
         category: "gemeente",
         categoryName: "Gemeente & Bestuur",
         icon: "🔍",
-        desc: "Openbare overheidsdocumenten inzien of zelf een Woo-verzoek indienen.",
-        tags: ["woo", "openbaarheid", "overheid", "documenten", "transparantie"]
+        desc: "Contact met de gemeente Hoorn, openingstijden, locaties en openbaarheid van bestuur.",
+        tags: ["contact", "openbaarheid", "overheid", "balie", "telefoon"]
     },
 
     // 3. SPOED & NOODDIENSTEN
     {
+        id: "huisartsenpost-wf",
         title: "Huisartsenpost West-Friesland",
         url: "https://www.huisartsenpostwf.nl/",
         category: "spoed",
@@ -131,6 +145,7 @@ const HOORN_LINKS = [
         tags: ["dokter", "huisarts", "spoed", "ziekenhuis", "weekend", "nacht", "nood"]
     },
     {
+        id: "politie-wijkagenten",
         title: "Politie Hoorn & Wijkagenten",
         url: "https://www.politie.nl/mijn-buurt/wijkagenten",
         category: "spoed",
@@ -140,6 +155,7 @@ const HOORN_LINKS = [
         tags: ["politie", "wijkagent", "veiligheid", "aangifte", "overlast", "buurt"]
     },
     {
+        id: "burgernet-hoorn",
         title: "Burgernet Hoorn",
         url: "https://www.burgernet.nl/",
         category: "spoed",
@@ -149,6 +165,7 @@ const HOORN_LINKS = [
         tags: ["burgernet", "vermissing", "dader", "veiligheid", "politie"]
     },
     {
+        id: "wabp-hoorn",
         title: "WhatsApp Buurtpreventie (WABP Hoorn)",
         url: "https://www.wabp.nl/",
         category: "spoed",
@@ -158,6 +175,7 @@ const HOORN_LINKS = [
         tags: ["whatsapp", "buurtpreventie", "wabp", "veiligheid", "buren"]
     },
     {
+        id: "dierenambulance-hoorn",
         title: "Dierenambulance Hoorn e.o.",
         url: "https://www.dierenbescherming.nl/dierenambulance",
         category: "spoed",
@@ -167,6 +185,7 @@ const HOORN_LINKS = [
         tags: ["dieren", "hond", "kat", "vogel", "ambulance", "spoed"]
     },
     {
+        id: "vrnhn",
         title: "Veiligheidsregio Noord-Holland Noord",
         url: "https://www.vrnhn.nl/",
         category: "spoed",
@@ -178,24 +197,17 @@ const HOORN_LINKS = [
 
     // 4. BOUWPROJECTEN & WIJKEN
     {
+        id: "hoorn-bouwt",
         title: "Hoorn Bouwt (Bouwprojecten Portaal)",
         url: "https://bouwprojecten.hoorn.nl/",
         category: "bouw",
         categoryName: "Bouw & Stadsprojecten",
         icon: "🏗️",
-        desc: "Het centrale overzicht van alle lopende nieuwbouw- en herontwikkelingsprojecten per wijk.",
-        tags: ["bouw", "nieuwbouw", "projecten", "woningen", "ontwikkeling"]
+        desc: "Het centrale overzicht van alle grote bouw-, nieuwbouw- en stadsontwikkelingsprojecten per wijk.",
+        tags: ["bouw", "nieuwbouw", "projecten", "woningen", "ontwikkeling", "poort van hoorn", "stadsstrand"]
     },
     {
-        title: "Poort van Hoorn",
-        url: "https://www.hoorn.nl/poort-van-hoorn",
-        category: "bouw",
-        categoryName: "Bouw & Stadsprojecten",
-        icon: "🚉",
-        desc: "Herinrichting stationsgebied met nieuwbouw van woningen, verplaatst busstation en P+R.",
-        tags: ["poort van hoorn", "station", "nieuwbouw", "stationsgebied", "busstation"]
-    },
-    {
+        id: "kersenboogerd-verbetering",
         title: "Kansen voor de Kersenboogerd",
         url: "https://www.hoornkersenboogerd.nl/",
         category: "bouw",
@@ -205,15 +217,7 @@ const HOORN_LINKS = [
         tags: ["kersenboogerd", "wijkvernieuwing", "groen", "winkelgebied", "leefbaarheid"]
     },
     {
-        title: "Stadsstrand Hoorn",
-        url: "https://www.hoorn.nl/stadsstrand",
-        category: "bouw",
-        categoryName: "Bouw & Stadsprojecten",
-        icon: "🏖️",
-        desc: "Het grootste stadsstrand van Nederland aan het Markermeer met strandpaviljoens en recreatie.",
-        tags: ["stadsstrand", "strand", "markermeer", "recreatie", "zwemmen", "zomer"]
-    },
-    {
+        id: "holenkwartier",
         title: "Holenkwartier",
         url: "https://www.holenkwartier.nl/",
         category: "bouw",
@@ -223,15 +227,7 @@ const HOORN_LINKS = [
         tags: ["holenkwartier", "nieuwbouw", "woningen", "philips", "appartementen"]
     },
     {
-        title: "Bangert Oosterpolder",
-        url: "https://www.hoorn.nl/bangert-oosterpolder",
-        category: "bouw",
-        categoryName: "Bouw & Stadsprojecten",
-        icon: "🏘️",
-        desc: "De grote groene uitbreidingswijk van Hoorn en Zwaag met waterpartijen en voorzieningen.",
-        tags: ["bangert oosterpolder", "nieuwbouw", "zwaag", "wonen", "uitbreiding"]
-    },
-    {
+        id: "warmtenet-hoorn",
         title: "Warmtenet Hoorn",
         url: "https://www.warmtenethoorn.nl/",
         category: "bouw",
@@ -243,6 +239,7 @@ const HOORN_LINKS = [
 
     // 5. SUBSIDIES & BUURTINITIATIEVEN
     {
+        id: "buurtbudget-feest",
         title: "Buurtbudget voor Buurtfeest",
         url: "https://www.hoorn.nl/buurtbudget",
         category: "subsidie",
@@ -252,24 +249,17 @@ const HOORN_LINKS = [
         tags: ["buurtfeest", "subsidie", "vergoeding", "buurtbudget", "bbq", "feest", "tent", "springkussen"]
     },
     {
+        id: "voor-een-mooie-stad",
         title: "Voor Een Mooie Stad (Hoorn)",
         url: "https://www.vooreenmooiestad.nl/",
         category: "subsidie",
         categoryName: "Subsidies & Initiatieven",
         icon: "💡",
-        desc: "Gemeentelijk platform voor wijkprojecten, bewonersinitiatieven en crowdfunding in Hoorn.",
-        tags: ["initiatief", "wijk", "crowdfunding", "buurt", "mooie stad", "idee"]
+        desc: "Gemeentelijk platform voor wijkprojecten, bewonersinitiatieven, geveltuinen en crowdfunding in Hoorn.",
+        tags: ["initiatief", "wijk", "crowdfunding", "buurt", "mooie stad", "idee", "geveltuin"]
     },
     {
-        title: "Gratis Geveltuin Aanleggen",
-        url: "https://vooreenmooiestad.nl/project/geveltuintjes-hoorn/",
-        category: "subsidie",
-        categoryName: "Subsidies & Initiatieven",
-        icon: "🌱",
-        desc: "De gemeente verwijdert gratis tegels voor je gevel en levert tuinaarde voor meer groen in de straat.",
-        tags: ["geveltuin", "groen", "planten", "tuin", "gratis", "tegels"]
-    },
-    {
+        id: "adoptiegroen",
         title: "Adoptiegroen Hoorn",
         url: "https://www.hoorn.nl/adoptiegroen",
         category: "subsidie",
@@ -279,6 +269,7 @@ const HOORN_LINKS = [
         tags: ["adoptiegroen", "perkje", "bomen", "groen", "beheer", "buurt"]
     },
     {
+        id: "fixi-hoorn",
         title: "Fixi Hoorn (Meldingen openbare ruimte)",
         url: "https://www.hoorn.nl/melding",
         category: "subsidie",
@@ -288,6 +279,7 @@ const HOORN_LINKS = [
         tags: ["fixi", "melding", "losse tegel", "lantaarnpaal", "afval", "reparatie"]
     },
     {
+        id: "cultuurfonds-nh",
         title: "Cultuurfonds Noord-Holland / Hoorn",
         url: "https://www.cultuurfonds.nl/",
         category: "subsidie",
@@ -299,6 +291,7 @@ const HOORN_LINKS = [
 
     // 6. ENERGIE & DUURZAAMHEID
     {
+        id: "energiecoaches-warmhoorn",
         title: "Gratis Energiecoaches & WarmHoorn Fixers",
         url: "https://energieloketten.nl/hoorn",
         category: "energie",
@@ -308,6 +301,7 @@ const HOORN_LINKS = [
         tags: ["energiecoach", "warmtescan", "besparen", "isolatie", "gratis", "tochtstrip", "gas"]
     },
     {
+        id: "isolatiesubsidie-nip",
         title: "Lokale Isolatiesubsidie Hoorn (NIP)",
         url: "https://klimaatroute.nl/hoorn",
         category: "energie",
@@ -317,26 +311,29 @@ const HOORN_LINKS = [
         tags: ["isolatie", "subsidie", "glas", "spouwmuur", "vloer", "nip", "klimaatroute"]
     },
     {
+        id: "duurzaam-bouwloket",
         title: "Duurzaam Bouwloket Hoorn",
-        url: "https://www.duurzaambouwloket.nl/gemeente-hoorn",
+        url: "https://duurzaambouwloket.nl/hoorn",
         category: "energie",
         categoryName: "Energie & Duurzaamheid",
         icon: "🌿",
-        desc: "Onafhankelijk adviesloket voor warmtepompen, zonnepanelen, subsidies en verduurzaming.",
+        desc: "Onafhankelijk adviesloket voor warmtepompen, zonnepanelen, subsidies en energiebesparing.",
         tags: ["bouwloket", "warmtepomp", "zonnepanelen", "duurzaam", "advies"]
     },
 
     // 7. SPORT & BEWEGEN
     {
-        title: "Sport Hoorn / Sportbedrijf",
-        url: "https://www.sporthoorn.nl/",
+        id: "hoornsport",
+        title: "Sport in Hoorn (HoornSport)",
+        url: "https://hoornsport.nl/",
         category: "sport",
         categoryName: "Sport & Bewegen",
         icon: "⚽",
-        desc: "Overzicht van alle gemeentelijke sportaccommodaties, cursussen, sporthallen en sportstimulering.",
-        tags: ["sport", "sportbedrijf", "sporthal", "cursus", "bewegen"]
+        desc: "Overzicht van alle sportverenigingen, sportaanbieders, toernooien en evenementen in Hoorn.",
+        tags: ["sport", "verenigingen", "clubs", "hoornsport", "bewegen"]
     },
     {
+        id: "zwembad-waterhoorn",
         title: "Zwembad De Waterhoorn",
         url: "https://www.optisport.nl/locaties/waterhoorn",
         category: "sport",
@@ -346,6 +343,7 @@ const HOORN_LINKS = [
         tags: ["zwembad", "waterhoorn", "zwemmen", "banenzwemmen", "zwemles", "optisport"]
     },
     {
+        id: "ijsbaan-westfries",
         title: "IJsbaan De Westfries",
         url: "https://www.optisport.nl/locaties/westfries",
         category: "sport",
@@ -355,6 +353,7 @@ const HOORN_LINKS = [
         tags: ["ijsbaan", "schaatsen", "westfries", "optisport", "winter"]
     },
     {
+        id: "hvv-hollandia",
         title: "HVV Hollandia",
         url: "https://www.hvvhollandia.nl/",
         category: "sport",
@@ -364,6 +363,7 @@ const HOORN_LINKS = [
         tags: ["hollandia", "voetbal", "julianapark", "sport"]
     },
     {
+        id: "always-forward",
         title: "Always Forward",
         url: "https://www.alwaysforward.nl/",
         category: "sport",
@@ -373,15 +373,17 @@ const HOORN_LINKS = [
         tags: ["always forward", "voetbal", "blauwe berg", "sport"]
     },
     {
+        id: "zwaluwen-30",
         title: "HCSV Zwaluwen '30",
-        url: "https://www.zwaluwen1930.nl/",
+        url: "https://www.zwaluwen.nl/",
         category: "sport",
         categoryName: "Sport & Bewegen",
         icon: "⚽",
-        desc: "Omnisportvereniging met veldvoetbal, zaalvoetbal (futsal) en handbal.",
+        desc: "Omnisportvereniging in De Grote Waal met veldvoetbal, zaalvoetbal en handbal.",
         tags: ["zwaluwen", "voetbal", "zaalvoetbal", "handbal", "sport"]
     },
     {
+        id: "hsv-sport",
         title: "HSV Sport 1889",
         url: "https://www.hsvsport.nl/",
         category: "sport",
@@ -391,15 +393,17 @@ const HOORN_LINKS = [
         tags: ["hsv sport", "voetbal", "berkhout", "sport"]
     },
     {
+        id: "sv-de-blokkers",
         title: "sv De Blokkers",
-        url: "https://www.deblokkers.nl/",
+        url: "https://www.blokkers.nl/",
         category: "sport",
         categoryName: "Sport & Bewegen",
         icon: "⚽",
-        desc: "Voetbalvereniging actief in Blokker en Hoorn.",
+        desc: "Voetbalvereniging met actieve jeugd- en seniorenteams op het sportcomplex in Blokker.",
         tags: ["blokkers", "voetbal", "blokker", "sport"]
     },
     {
+        id: "vv-westfriezen",
         title: "vv Westfriezen",
         url: "https://www.westfriezen.nl/",
         category: "sport",
@@ -409,6 +413,7 @@ const HOORN_LINKS = [
         tags: ["westfriezen", "voetbal", "handbal", "zwaag", "sport"]
     },
     {
+        id: "wfhc-hoorn",
         title: "WFHC Hoorn (Hockey)",
         url: "https://www.wfhc.nl/",
         category: "sport",
@@ -418,6 +423,7 @@ const HOORN_LINKS = [
         tags: ["wfhc", "hockey", "zwaag", "sport"]
     },
     {
+        id: "av-hollandia",
         title: "AV Hollandia (Atletiek)",
         url: "https://www.avhollandia.nl/",
         category: "sport",
@@ -427,6 +433,7 @@ const HOORN_LINKS = [
         tags: ["av hollandia", "atletiek", "hardlopen", "blauwe berg", "sport"]
     },
     {
+        id: "loopgroep-hoorn",
         title: "Loopgroep Hoorn",
         url: "https://www.loopgroephoorn.nl/",
         category: "sport",
@@ -436,8 +443,9 @@ const HOORN_LINKS = [
         tags: ["loopgroep", "hardlopen", "marathon", "conditie", "sport"]
     },
     {
+        id: "tv-hoorn",
         title: "Tennisvereniging Hoorn",
-        url: "https://www.tvhoorn.nl/",
+        url: "https://tvhoorn.nl/",
         category: "sport",
         categoryName: "Sport & Bewegen",
         icon: "🎾",
@@ -445,6 +453,7 @@ const HOORN_LINKS = [
         tags: ["tennis", "padel", "tv hoorn", "sport", "racket"]
     },
     {
+        id: "tv-de-hulk",
         title: "Tennisvereniging De Hulk",
         url: "https://www.tvdehulk.nl/",
         category: "sport",
@@ -454,6 +463,7 @@ const HOORN_LINKS = [
         tags: ["tennis", "de hulk", "grote waal", "sport"]
     },
     {
+        id: "wsv-hoorn",
         title: "Watersportvereniging WSV Hoorn",
         url: "https://www.wsvhoorn.nl/",
         category: "sport",
@@ -463,15 +473,17 @@ const HOORN_LINKS = [
         tags: ["wsv", "zeilen", "roeien", "haven", "watersport", "markermeer"]
     },
     {
-        title: "Hoornse Reddingsbrigade",
-        url: "https://www.reddingsbrigadehoorn.nl/",
+        id: "reddingsbrigade-nl",
+        title: "Reddingsbrigade Nederland (Hoorn)",
+        url: "https://www.reddingsbrigade.nl/",
         category: "sport",
         categoryName: "Sport & Bewegen",
         icon: "🛟",
-        desc: "Zwemmend redden, bewaking van evenementen en waterhulpverlening.",
+        desc: "Zwemmend redden, bewaking van evenementen en waterhulpverlening in en rondom Hoorn.",
         tags: ["reddingsbrigade", "zwemmen", "water", "hulpverlening", "veiligheid"]
     },
     {
+        id: "caissa-eenhoorn",
         title: "Schaakvereniging Caïssa-Eenhoorn",
         url: "https://www.caissa-eenhoorn.nl/",
         category: "sport",
@@ -481,6 +493,7 @@ const HOORN_LINKS = [
         tags: ["schaken", "denksport", "caissa", "toernooi", "club"]
     },
     {
+        id: "jeugdfonds-sport",
         title: "Jeugdfonds Sport & Cultuur",
         url: "https://jeugdfondssportencultuur.nl/",
         category: "sport",
@@ -492,6 +505,7 @@ const HOORN_LINKS = [
 
     // 8. CULTUUR & EVENEMENTEN
     {
+        id: "kermis-hoorn",
         title: "Kermis Hoorn (met Lappendag)",
         url: "https://www.kermis-hoorn.nl/",
         category: "cultuur",
@@ -501,6 +515,7 @@ const HOORN_LINKS = [
         tags: ["kermis", "lappendag", "feest", "attracties", "augustus", "evenement"]
     },
     {
+        id: "inhoorn-agenda",
         title: "inHoorn.nl (Toerisme & Uitagenda)",
         url: "https://www.inhoorn.nl/",
         category: "cultuur",
@@ -510,6 +525,7 @@ const HOORN_LINKS = [
         tags: ["inhoorn", "uitagenda", "toerisme", "evenementen", "uitgaan", "eten"]
     },
     {
+        id: "westfriese-uitagenda",
         title: "Westfriese Uitagenda",
         url: "https://www.westfrieseuitagenda.nl/",
         category: "cultuur",
@@ -519,6 +535,7 @@ const HOORN_LINKS = [
         tags: ["uitagenda", "theater", "concert", "weekend", "cultuur"]
     },
     {
+        id: "cultuurweekend",
         title: "Cultuurweekend Hoorn",
         url: "https://www.cultuurweekendhoorn.nl/",
         category: "cultuur",
@@ -528,6 +545,7 @@ const HOORN_LINKS = [
         tags: ["cultuurweekend", "havenconcerten", "kunstmarkt", "festival", "september"]
     },
     {
+        id: "schouwburg-het-park",
         title: "Schouwburg Het Park",
         url: "https://www.hetpark.nl/",
         category: "cultuur",
@@ -537,6 +555,7 @@ const HOORN_LINKS = [
         tags: ["het park", "schouwburg", "theater", "cabaret", "musical", "concert"]
     },
     {
+        id: "poppodium-manifesto",
         title: "Poppodium Manifesto",
         url: "https://www.manifesto-hoorn.nl/",
         category: "cultuur",
@@ -546,6 +565,7 @@ const HOORN_LINKS = [
         tags: ["manifesto", "poppodium", "concert", "dance", "feest", "muziek"]
     },
     {
+        id: "cinema-oostereiland",
         title: "Cinema Oostereiland",
         url: "https://www.cinemaoostereiland.nl/",
         category: "cultuur",
@@ -555,6 +575,7 @@ const HOORN_LINKS = [
         tags: ["cinema", "film", "filmhuis", "oostereiland", "bioscoop"]
     },
     {
+        id: "ironman-wf",
         title: "Ironman 70.3 Westfriesland",
         url: "https://www.ironman.com/im703-westfriesland",
         category: "cultuur",
@@ -564,17 +585,9 @@ const HOORN_LINKS = [
         tags: ["ironman", "triatlon", "sportevenement", "zwemmen", "fietsen", "hardlopen"]
     },
     {
-        title: "Hoornse Havenfeesten",
-        url: "https://www.havenfeesten-hoorn.nl/",
-        category: "cultuur",
-        categoryName: "Cultuur & Evenementen",
-        icon: "⚓",
-        desc: "Groot maritiem feest in de historische havens met schepen, live muziek en demonstraties.",
-        tags: ["havenfeesten", "haven", "boten", "schepen", "feest", "maritiem"]
-    },
-    {
+        id: "westfries-museum",
         title: "Westfries Museum",
-        url: "https://www.westfriesmuseum.nl/",
+        url: "https://westfriesmuseum.nl/",
         category: "cultuur",
         categoryName: "Cultuur & Evenementen",
         icon: "🏺",
@@ -582,6 +595,7 @@ const HOORN_LINKS = [
         tags: ["westfries museum", "museum", "geschiedenis", "historie", "voc", "erfgoed"]
     },
     {
+        id: "museum-20e-eeuw",
         title: "Museum van de 20e Eeuw",
         url: "https://www.museumhoorn.nl/",
         category: "cultuur",
@@ -591,6 +605,7 @@ const HOORN_LINKS = [
         tags: ["museum 20e eeuw", "nostalgie", "oostereiland", "lego", "kinderen", "geschiedenis"]
     },
     {
+        id: "museumstoomtram",
         title: "Museumstoomtram Hoorn-Medemblik",
         url: "https://www.stoomtram.nl/",
         category: "cultuur",
@@ -600,6 +615,7 @@ const HOORN_LINKS = [
         tags: ["stoomtram", "trein", "stoomboot", "medemblik", "uitje", "historie"]
     },
     {
+        id: "vereniging-oud-hoorn",
         title: "Vereniging Oud Hoorn",
         url: "https://www.oudhoorn.nl/",
         category: "cultuur",
@@ -609,6 +625,7 @@ const HOORN_LINKS = [
         tags: ["oud hoorn", "beeldbank", "monumenten", "historie", "wandeling"]
     },
     {
+        id: "westfries-archief",
         title: "Westfries Archief",
         url: "https://www.westfriesarchief.nl/",
         category: "cultuur",
@@ -618,6 +635,7 @@ const HOORN_LINKS = [
         tags: ["archief", "stamboom", "bouwtekening", "kadaster", "geschiedenis"]
     },
     {
+        id: "bibliotheek-hoorn",
         title: "Bibliotheek Hoorn",
         url: "https://www.bibliotheekhoorn.nl/",
         category: "cultuur",
@@ -627,6 +645,7 @@ const HOORN_LINKS = [
         tags: ["bibliotheek", "boeken", "lezen", "studeren", "taallessen", "cursus"]
     },
     {
+        id: "oosterkerk",
         title: "Oosterkerk Hoorn",
         url: "https://www.oosterkerkhoorn.nl/",
         category: "cultuur",
@@ -636,6 +655,7 @@ const HOORN_LINKS = [
         tags: ["oosterkerk", "kerk", "monument", "concert", "historie"]
     },
     {
+        id: "koepelkerk",
         title: "Koepelkerk Hoorn",
         url: "https://www.koepelkerk.nl/",
         category: "cultuur",
@@ -645,6 +665,7 @@ const HOORN_LINKS = [
         tags: ["koepelkerk", "kerk", "katholiek", "monument", "architectuur"]
     },
     {
+        id: "noorderkerk",
         title: "Noorderkerk Hoorn",
         url: "https://www.noorderkerkhoorn.nl/",
         category: "cultuur",
@@ -656,33 +677,17 @@ const HOORN_LINKS = [
 
     // 9. ZORG, WELZIJN & WONEN
     {
-        title: "1.Hoorn (Sociaal Loket)",
-        url: "https://www.1hoorn.nl/",
+        id: "minimaregelingen-hoorn",
+        title: "Ondersteuning & Minimaregelingen Hoorn",
+        url: "https://www.hoorn.nl/hulp-bij-laag-inkomen",
         category: "zorg",
         categoryName: "Zorg, Welzijn & Wonen",
         icon: "🤝",
-        desc: "Centrale toegang voor zorg, Wmo, jeugdhulp, schuldhulpverlening en ondersteuning bij een laag inkomen.",
-        tags: ["1.hoorn", "wmo", "jeugdzorg", "uitkering", "schuldhulp", "zorg"]
+        desc: "Centrale regelingen van de gemeente: HoornPas, Meedoenbudget, Kindpakket (gratis zwemles/laptops) en bijzondere bijstand.",
+        tags: ["1.hoorn", "hoornpas", "meedoenbudget", "kindpakket", "zwemles", "minima", "bijstand", "hulp"]
     },
     {
-        title: "HoornPas & Meedoenbudget",
-        url: "https://www.1hoorn.nl/",
-        category: "zorg",
-        categoryName: "Zorg, Welzijn & Wonen",
-        icon: "💳",
-        desc: "Jaarlijks tegoed voor inwoners met een laag inkomen voor sport, theater, musea en kermistegoed voor kinderen.",
-        tags: ["hoornpas", "meedoenbudget", "minima", "korting", "laag inkomen", "kermis"]
-    },
-    {
-        title: "Kindpakket Hoorn",
-        url: "https://www.1hoorn.nl/",
-        category: "zorg",
-        categoryName: "Zorg, Welzijn & Wonen",
-        icon: "🎒",
-        desc: "Gratis zwemles (diploma A), laptopregeling voor scholieren en schoolspullen voor gezinnen met krap budget.",
-        tags: ["kindpakket", "zwemles", "laptop", "school", "kinderen", "gratis"]
-    },
-    {
+        id: "leergeld-wf",
         title: "Stichting Leergeld West-Friesland",
         url: "https://www.leergeldwestfriesland.nl/",
         category: "zorg",
@@ -692,15 +697,17 @@ const HOORN_LINKS = [
         tags: ["leergeld", "fiets", "schoolspullen", "kinderen", "armoede"]
     },
     {
-        title: "Voedselbank West-Friesland",
-        url: "https://www.voedselbankwestfriesland.nl/",
+        id: "voedselbanken-nl",
+        title: "Voedselbanken Nederland (Regio Hoorn)",
+        url: "https://voedselbanken.nl/",
         category: "zorg",
         categoryName: "Zorg, Welzijn & Wonen",
         icon: "🍞",
-        desc: "Noodhulp met wekelijkse voedselpakketten voor huishoudens in financiële nood.",
+        desc: "Aanvragen en informatie over wekelijkse voedselpakketten voor huishoudens in financiële nood.",
         tags: ["voedselbank", "voedselpakket", "eten", "hulp", "minima"]
     },
     {
+        id: "stichting-netwerk",
         title: "Stichting Netwerk (Wijkcentra)",
         url: "https://www.netwerkhoorn.nl/",
         category: "zorg",
@@ -710,6 +717,7 @@ const HOORN_LINKS = [
         tags: ["wijkcentrum", "netwerk", "jongerenwerk", "buurthuis", "zaagtand", "huesmolen"]
     },
     {
+        id: "vrijwilligerspunt-wf",
         title: "Vrijwilligerspunt Westfriesland",
         url: "https://www.vrijwilligerspunt.com/",
         category: "zorg",
@@ -719,7 +727,8 @@ const HOORN_LINKS = [
         tags: ["vrijwilligers", "vacatures", "helpen", "stichting", "cursus"]
     },
     {
-        title: "Gratis Vrijwilligersverzekering",
+        id: "vrijwilligersverzekering",
+        title: "Vrijwilligersverzekering (Gemeente Hoorn)",
         url: "https://www.hoorn.nl/",
         category: "zorg",
         categoryName: "Zorg, Welzijn & Wonen",
@@ -728,6 +737,7 @@ const HOORN_LINKS = [
         tags: ["vrijwilligersverzekering", "verzekering", "dekking", "mantelzorg"]
     },
     {
+        id: "mantelzorgcentrum",
         title: "Mantelzorgcentrum West-Friesland",
         url: "https://www.mantelzorgcentrum.nl/",
         category: "zorg",
@@ -737,6 +747,7 @@ const HOORN_LINKS = [
         tags: ["mantelzorg", "zorg", "respijtzorg", "ondersteuning"]
     },
     {
+        id: "dijklander-ziekenhuis",
         title: "Dijklander Ziekenhuis",
         url: "https://www.dijklander.nl/",
         category: "zorg",
@@ -746,6 +757,7 @@ const HOORN_LINKS = [
         tags: ["ziekenhuis", "dijklander", "dokter", "afspraak", "specialist"]
     },
     {
+        id: "ggd-hn",
         title: "GGD Hollands Noorden",
         url: "https://www.ggdhn.nl/",
         category: "zorg",
@@ -755,6 +767,7 @@ const HOORN_LINKS = [
         tags: ["ggd", "consultatiebureau", "vaccinatie", "baby", "gezondheid"]
     },
     {
+        id: "veilig-thuis-nhn",
         title: "Veilig Thuis Noord-Holland Noord",
         url: "https://www.veiligthuisnhn.nl/",
         category: "zorg",
@@ -764,6 +777,7 @@ const HOORN_LINKS = [
         tags: ["veilig thuis", "huiselijk geweld", "hulp", "kindermishandeling", "veiligheid"]
     },
     {
+        id: "omring-hoorn",
         title: "Omring Hoorn (Thuiszorg & Woonzorg)",
         url: "https://www.omring.nl/",
         category: "zorg",
@@ -773,6 +787,7 @@ const HOORN_LINKS = [
         tags: ["omring", "thuiszorg", "ouderenzorg", "lindendael", "westerhaven"]
     },
     {
+        id: "wlgroep",
         title: "WilgaerdenLeekerweideGroep (WLGroep)",
         url: "https://www.wlgroep.nl/",
         category: "zorg",
@@ -782,6 +797,7 @@ const HOORN_LINKS = [
         tags: ["wlgroep", "wilgaerden", "dagbesteding", "senioren", "zorgcentrum"]
     },
     {
+        id: "kbo-hoorn",
         title: "KBO Noord-Holland / Hoorn",
         url: "https://www.kbonoordholland.nl/",
         category: "zorg",
@@ -791,6 +807,7 @@ const HOORN_LINKS = [
         tags: ["kbo", "senioren", "ouderen", "activiteiten", "belastinghulp"]
     },
     {
+        id: "intermaris",
         title: "Intermaris",
         url: "https://www.intermaris.nl/",
         category: "zorg",
@@ -800,6 +817,7 @@ const HOORN_LINKS = [
         tags: ["intermaris", "huurwoning", "sociale huur", "woningbouw", "reparatie"]
     },
     {
+        id: "woonmatch-wf",
         title: "Woonmatch West-Friesland",
         url: "https://www.woonmatchwestfriesland.nl/",
         category: "zorg",
@@ -811,6 +829,7 @@ const HOORN_LINKS = [
 
     // 10. SCHOLEN & ONDERWIJS
     {
+        id: "stichting-talent",
         title: "Stichting Talent (Basisonderwijs)",
         url: "https://www.talenthoorn.nl/",
         category: "onderwijs",
@@ -820,6 +839,7 @@ const HOORN_LINKS = [
         tags: ["basisschool", "talent", "openbaar onderwijs", "kinderen", "groep 1-8"]
     },
     {
+        id: "stichting-allure",
         title: "Stichting Allure (Basisonderwijs)",
         url: "https://www.stichtingallure.nl/",
         category: "onderwijs",
@@ -829,6 +849,7 @@ const HOORN_LINKS = [
         tags: ["allure", "basisschool", "katholiek onderwijs", "scholen"]
     },
     {
+        id: "kinderkoepel",
         title: "Stichting Kinderkoepel",
         url: "https://www.kinderkoepel.nl/",
         category: "onderwijs",
@@ -838,6 +859,7 @@ const HOORN_LINKS = [
         tags: ["kinderopvang", "kinderkoepel", "peuterspeelzaal", "bso", "baby"]
     },
     {
+        id: "berend-botje",
         title: "Berend Botje Hoorn",
         url: "https://www.berendbotje.nl/",
         category: "onderwijs",
@@ -847,6 +869,7 @@ const HOORN_LINKS = [
         tags: ["berend botje", "kinderopvang", "gastouder", "peuters", "bso"]
     },
     {
+        id: "copernicus-sg",
         title: "Copernicus SG (Atlas College)",
         url: "https://www.copernicushoorn.nl/",
         category: "onderwijs",
@@ -856,6 +879,7 @@ const HOORN_LINKS = [
         tags: ["copernicus", "middelbare school", "mavo", "havo", "vwo", "atlas college"]
     },
     {
+        id: "tabor-college",
         title: "Tabor College (Werenfridus, d'Ampte, Oscar Romero)",
         url: "https://www.tabor.nl/",
         category: "onderwijs",
@@ -865,6 +889,7 @@ const HOORN_LINKS = [
         tags: ["tabor", "werenfridus", "dampte", "oscar romero", "middelbare school"]
     },
     {
+        id: "sg-newton",
         title: "SG Newton (Atlas College)",
         url: "https://www.sgnewton.nl/",
         category: "onderwijs",
@@ -874,6 +899,7 @@ const HOORN_LINKS = [
         tags: ["newton", "vmbo", "mavo", "techniek", "middelbare school"]
     },
     {
+        id: "vonk-hoorn",
         title: "Vonk Hoorn",
         url: "https://www.vonknh.nl/",
         category: "onderwijs",
@@ -883,6 +909,7 @@ const HOORN_LINKS = [
         tags: ["vonk", "clusius", "vmbo", "mbo", "groen", "dieren", "techniek"]
     },
     {
+        id: "talland-college",
         title: "Talland College Hoorn",
         url: "https://www.talland.nl/",
         category: "onderwijs",
@@ -894,6 +921,7 @@ const HOORN_LINKS = [
 
     // 11. VERVOER, HAVENS & VERKEER
     {
+        id: "ns-reisplanner",
         title: "NS Reisplanner (Station Hoorn & Kersenboogerd)",
         url: "https://www.ns.nl/",
         category: "vervoer",
@@ -903,6 +931,7 @@ const HOORN_LINKS = [
         tags: ["ns", "trein", "station", "station kersenboogerd", "reisplanner", "intercity"]
     },
     {
+        id: "meerplus-bussen",
         title: "MeerPlus / EBS Bussen West-Friesland",
         url: "https://www.meerplus.nl/",
         category: "vervoer",
@@ -912,15 +941,17 @@ const HOORN_LINKS = [
         tags: ["bus", "meerplus", "ebs", "bushalte", "dienstregeling", "stadsbus"]
     },
     {
+        id: "regiotaxi-wf",
         title: "Regiotaxi West-Friesland",
-        url: "https://www.hoorn.nl/regiotaxi",
+        url: "https://www.regiotaxiwestfriesland.nl/",
         category: "vervoer",
         categoryName: "Vervoer & Parkeren",
         icon: "🚕",
-        desc: "Deeltaxivervoer van deur tot deur voor Wmo-geïndiceerden en senioren.",
+        desc: "Deeltaxivervoer van deur tot deur voor Wmo-geïndiceerden en senioren in West-Friesland.",
         tags: ["regiotaxi", "taxi", "wmo", "senioren", "deeltaxi"]
     },
     {
+        id: "greenwheels-hoorn",
         title: "Greenwheels Deelauto's Hoorn",
         url: "https://www.greenwheels.nl/",
         category: "vervoer",
@@ -930,6 +961,7 @@ const HOORN_LINKS = [
         tags: ["greenwheels", "deelauto", "huren", "station", "autodelen"]
     },
     {
+        id: "parkeren-hoorn",
         title: "Parkeren in Hoorn",
         url: "https://www.hoorn.nl/parkeren",
         category: "vervoer",
@@ -939,6 +971,7 @@ const HOORN_LINKS = [
         tags: ["parkeren", "parkeergarage", "jeudje", "het park", "tarieven", "vergunning"]
     },
     {
+        id: "werk-aan-de-weg",
         title: "Werk aan de weg (Hoorn.nl)",
         url: "https://www.hoorn.nl/werk-aan-de-weg",
         category: "vervoer",
@@ -948,6 +981,7 @@ const HOORN_LINKS = [
         tags: ["werkzaamheden", "afsluiting", "omleiding", "asfalt", "weg"]
     },
     {
+        id: "nh-bereikbaar",
         title: "NH Bereikbaar",
         url: "https://www.nhbereikbaar.nl/",
         category: "vervoer",
@@ -957,15 +991,17 @@ const HOORN_LINKS = [
         tags: ["nh bereikbaar", "provinciale weg", "a7", "verkeer", "omleiding"]
     },
     {
-        title: "Havens Hoorn / Havendienst",
-        url: "https://www.hoorn.nl/havens",
+        id: "havens-hoorn",
+        title: "Havens & Ligplaatsen (Gemeente Hoorn)",
+        url: "https://www.hoorn.nl/",
         category: "vervoer",
         categoryName: "Vervoer & Parkeren",
         icon: "⛵",
-        desc: "Havenfaciliteiten Binnenhaven, Buitenhaven, Grashaven en contact Havenmeester (06 54 20 28 28, VHF 74).",
+        desc: "Havenfaciliteiten Binnenhaven, Buitenhaven, Grashaven en contact Havenmeester (06 54 20 28 28).",
         tags: ["havenmeester", "havens", "ligplaats", "binnenhaven", "grashaven", "marifoon"]
     },
     {
+        id: "watertaxi-hoorn",
         title: "Watertaxi Hoorn & Rondvaarten",
         url: "https://www.watertaxihoorn.nl/",
         category: "vervoer",
@@ -977,15 +1013,17 @@ const HOORN_LINKS = [
 
     // 12. PARKEN, NATUUR & HONDEN
     {
-        title: "Hondenlosloopgebieden Hoorn",
-        url: "https://www.hoorn.nl/honden",
+        id: "honden-hoorn",
+        title: "Honden & Uitrenvelden (Gemeente Hoorn)",
+        url: "https://www.hoorn.nl/",
         category: "parken",
         categoryName: "Parken & Natuur",
         icon: "🐕",
-        desc: "Overzichtskaart van alle officiële losloopzones, uitrenvelden en hondenstranden.",
+        desc: "Informatie over hondenbelasting, losloopzones, uitrenvelden en regels in Hoorn.",
         tags: ["hond", "losloopgebied", "uitlaten", "hondenstrand", "dieren"]
     },
     {
+        id: "wandelnetwerk-nh",
         title: "Wandelnetwerk Noord-Holland (West-Friesland)",
         url: "https://www.wandelnetwerknoordholland.nl/",
         category: "parken",
@@ -995,17 +1033,19 @@ const HOORN_LINKS = [
         tags: ["wandelen", "routes", "omringdijk", "wandelnetwerk", "natuur"]
     },
     {
-        title: "Speeltuin De Speelhoorn",
-        url: "https://www.speelhoorn.nl/",
+        id: "speeltuin-speelhoorn",
+        title: "Stadsspeeltuin De Speelhoorn",
+        url: "https://netwerkhoorn.nl/",
         category: "parken",
         categoryName: "Parken & Natuur",
         icon: "🛝",
-        desc: "Groot omheind buitenspeelpark op De Blauwe Berg met speeltoestellen, zandbakken en waterpret.",
-        tags: ["speeltuin", "speelhoorn", "kinderen", "spelen", "blauwe berg"]
+        desc: "Groot omheind buitenspeelpark op De Blauwe Berg met speeltoestellen, zandbakken en waterpret (Stichting Netwerk).",
+        tags: ["speeltuin", "speelhoorn", "kinderen", "spelen", "blauwe berg", "netwerk"]
     },
 
     // 13. MARKTEN, WINKELS & BEDRIJVIGHEID
     {
+        id: "weekmarkten-hoorn",
         title: "Weekmarkten Hoorn",
         url: "https://www.hoorn.nl/",
         category: "winkels",
@@ -1015,6 +1055,7 @@ const HOORN_LINKS = [
         tags: ["markt", "weekmarkt", "zaterdagmarkt", "boodschappen", "kaas", "vis"]
     },
     {
+        id: "rataplan-hoorn",
         title: "RataPlan Kringloopwinkel (Zwaag/Hoorn)",
         url: "https://rataplan.nl/",
         category: "winkels",
@@ -1024,6 +1065,7 @@ const HOORN_LINKS = [
         tags: ["kringloop", "rataplan", "noppes", "tweedehands", "vintage", "meubels"]
     },
     {
+        id: "repair-cafe-hoorn",
         title: "Repair Café Hoorn",
         url: "https://www.netwerkhoorn.nl/",
         category: "winkels",
@@ -1033,33 +1075,27 @@ const HOORN_LINKS = [
         tags: ["repair cafe", "repareren", "duurzaam", "gratis", "netwerk"]
     },
     {
-        title: "Ondernemers Federatie Hoorn (OFH)",
-        url: "https://www.ondernemersfederatiehoorn.nl/",
+        id: "ondernemen-hoorn",
+        title: "Ondernemen in Hoorn (Gemeente)",
+        url: "https://www.hoorn.nl/ondernemen",
         category: "winkels",
         categoryName: "Markten & Winkels",
         icon: "💼",
-        desc: "Koepelorganisatie voor alle bedrijventerreinen en ondernemersverenigingen in Hoorn.",
-        tags: ["ondernemers", "ofh", "bedrijven", "bedrijventerrein", "economie"]
+        desc: "Informatie en contactpunt voor ondernemers, vestigingseisen, bedrijventerreinen en netwerken.",
+        tags: ["ondernemers", "ofh", "hoc", "bedrijven", "bedrijventerrein", "economie"]
     },
     {
-        title: "Hoornse Ondernemers Compagnie (HOC)",
-        url: "https://www.hoc.nu/",
-        category: "winkels",
-        categoryName: "Markten & Winkels",
-        icon: "🤝",
-        desc: "Netwerkvereniging voor ondernemers en directeuren in de regio Hoorn.",
-        tags: ["hoc", "ondernemers", "netwerk", "bedrijven"]
-    },
-    {
-        title: "Ondernemers Stad Hoorn (OSH)",
-        url: "https://www.ondernemersstadhoorn.nl/",
+        id: "winkelen-horeca",
+        title: "Winkelen & Horeca in Hoorn (inHoorn)",
+        url: "https://www.inhoorn.nl/",
         category: "winkels",
         categoryName: "Markten & Winkels",
         icon: "🛍️",
-        desc: "Samenwerkingsverband van binnenstadondernemers, winkeliers en horecagelegenheden.",
-        tags: ["osh", "binnenstad", "winkeliers", "horeca", "winkelen"]
+        desc: "Winkels, boetiekjes, speciaalzaken, terrassen en horecagelegenheden in de historische binnenstad.",
+        tags: ["osh", "binnenstad", "winkeliers", "horeca", "winkelen", "inhoorn"]
     },
     {
+        id: "pact-westfriesland",
         title: "Pact van Westfriesland",
         url: "https://www.westfriesland.nl/",
         category: "winkels",
@@ -1069,6 +1105,7 @@ const HOORN_LINKS = [
         tags: ["pact", "westfriesland", "economie", "regio", "samenwerking"]
     },
     {
+        id: "hotel-oostereiland",
         title: "Hotel Oostereiland",
         url: "https://www.hoteloostereiland.nl/",
         category: "winkels",
@@ -1078,6 +1115,7 @@ const HOORN_LINKS = [
         tags: ["hotel", "oostereiland", "overnachten", "slapen", "toerisme"]
     },
     {
+        id: "hotel-van-der-valk",
         title: "Van der Valk Hotel Hoorn",
         url: "https://www.hotelhoorn.com/",
         category: "winkels",
@@ -1087,6 +1125,7 @@ const HOORN_LINKS = [
         tags: ["van der valk", "hotel", "restaurant", "a7", "overnachten"]
     },
     {
+        id: "hvc-afvalkalender",
         title: "HVC Groep (Afvalkalender Hoorn)",
         url: "https://www.hvcgroep.nl/",
         category: "winkels",
@@ -1096,18 +1135,20 @@ const HOORN_LINKS = [
         tags: ["afval", "hvc", "afvalkalender", "grofvuil", "kliko", "container", "vuilnis"]
     },
     {
-        title: "Dierenasiel & Knaagdierencentrum Hoorn",
-        url: "https://www.dierenbescherming.nl/dierenasiel-en-knaagdierencentrum-hoorn",
+        id: "dierenbescherming-hoorn",
+        title: "Dierenbescherming (Regio Hoorn)",
+        url: "https://www.dierenbescherming.nl/",
         category: "winkels",
         categoryName: "Markten & Winkels",
         icon: "🐶",
-        desc: "Opvang, verzorging en adoptie van honden, katten en knaagdieren aan de Schellinkhouterdijk.",
-        tags: ["dierenasiel", "asiel", "hond", "kat", "adopteren", "dieren"]
+        desc: "Dierenwelzijn, opvang, herplaatsing en advies over huisdieren en dierenopvang in Hoorn.",
+        tags: ["dierenasiel", "asiel", "hond", "kat", "adopteren", "dierenbescherming"]
     }
 ];
 
 const CATEGORIES = [
     { id: "all", name: "🌟 Alles", icon: "🌟" },
+    { id: "favorites", name: "⭐ Favorieten", icon: "⭐" },
     { id: "nieuws", name: "📰 Nieuws", icon: "📰" },
     { id: "gemeente", name: "🏛️ Gemeente", icon: "🏛️" },
     { id: "spoed", name: "🚑 Spoed & Nood", icon: "🚑" },
@@ -1122,6 +1163,36 @@ const CATEGORIES = [
     { id: "parken", name: "🌳 Parken & Honden", icon: "🌳" },
     { id: "winkels", name: "🛍️ Markten & Ondernemen", icon: "🛍️" }
 ];
+
+const FAVORITES_KEY = "voorhoorn_favorite_links";
+
+// Load favorites from on-device LocalStorage
+function getFavorites() {
+    try {
+        const stored = localStorage.getItem(FAVORITES_KEY);
+        return stored ? JSON.parse(stored) : [];
+    } catch (_) {
+        return [];
+    }
+}
+
+// Save favorites to on-device LocalStorage
+function saveFavorites(favs) {
+    try {
+        localStorage.setItem(FAVORITES_KEY, JSON.stringify(favs));
+    } catch (_) {}
+}
+
+function toggleFavorite(id) {
+    let favs = getFavorites();
+    if (favs.includes(id)) {
+        favs = favs.filter(f => f !== id);
+    } else {
+        favs.push(id);
+    }
+    saveFavorites(favs);
+    return favs;
+}
 
 document.addEventListener('DOMContentLoaded', () => {
     let activeCategory = "all";
@@ -1146,24 +1217,30 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let isLappendagLoaded = false;
 
-    // Render Category Buttons
+    // Render Category Buttons with live favorite counts
     function renderCategoryButtons() {
         categoryButtonsContainer.innerHTML = "";
+        const favs = getFavorites();
         
         CATEGORIES.forEach(cat => {
             const btn = document.createElement("button");
             btn.type = "button";
-            btn.className = `cat-btn ${cat.id === activeCategory ? 'active' : ''}`;
+            btn.className = `cat-btn ${cat.id === activeCategory ? 'active' : ''} ${cat.id === 'favorites' ? 'cat-btn-favorites' : ''}`;
             btn.dataset.category = cat.id;
 
-            // Count items
-            const count = cat.id === "all" 
-                ? HOORN_LINKS.length 
-                : HOORN_LINKS.filter(l => l.category === cat.id).length;
+            // Calculate count
+            let count = 0;
+            if (cat.id === "all") {
+                count = HOORN_LINKS.length;
+            } else if (cat.id === "favorites") {
+                count = favs.length;
+            } else {
+                count = HOORN_LINKS.filter(l => l.category === cat.id).length;
+            }
 
             btn.innerHTML = `
                 <span>${cat.name}</span>
-                <span class="cat-count">${count}</span>
+                <span class="cat-count" id="count-${cat.id}">${count}</span>
             `;
 
             btn.addEventListener("click", () => {
@@ -1180,9 +1257,23 @@ document.addEventListener('DOMContentLoaded', () => {
     // Filter and Render Cards
     function renderCards() {
         const query = searchQuery.toLowerCase().trim();
+        const favs = getFavorites();
+
+        // Update the Favorites count badge dynamically
+        const favCountBadge = document.getElementById("count-favorites");
+        if (favCountBadge) {
+            favCountBadge.textContent = favs.length;
+        }
 
         const filtered = HOORN_LINKS.filter(link => {
-            const matchesCategory = activeCategory === "all" || link.category === activeCategory;
+            let matchesCategory = false;
+            if (activeCategory === "all") {
+                matchesCategory = true;
+            } else if (activeCategory === "favorites") {
+                matchesCategory = favs.includes(link.id);
+            } else {
+                matchesCategory = link.category === activeCategory;
+            }
             
             if (!matchesCategory) return false;
             if (!query) return true;
@@ -1208,11 +1299,24 @@ document.addEventListener('DOMContentLoaded', () => {
         if (filtered.length === 0) {
             noResults.hidden = false;
             cardsGrid.hidden = true;
+
+            const noResultsHeading = noResults.querySelector("h3");
+            const noResultsText = noResults.querySelector("p");
+
+            if (activeCategory === "favorites" && favs.length === 0 && !query) {
+                noResultsHeading.textContent = "Nog geen favorieten";
+                noResultsText.textContent = "Klik op het sterretje (⭐) rechtsboven op een kaart om je favoriete sites hier op te slaan op dit apparaat!";
+            } else {
+                noResultsHeading.textContent = "Geen links gevonden";
+                noResultsText.textContent = "Geen resultaten voor je zoekopdracht. Probeer een ander zoekwoord of kies een andere categorie.";
+            }
         } else {
             noResults.hidden = true;
             cardsGrid.hidden = false;
 
             filtered.forEach(link => {
+                const isFav = favs.includes(link.id);
+
                 const card = document.createElement("a");
                 card.href = link.url;
                 card.target = "_blank";
@@ -1229,6 +1333,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 card.innerHTML = `
                     <div>
+                        <!-- Favoriet Ster Knop -->
+                        <button type="button" class="card-fav-btn ${isFav ? 'is-favorite' : ''}" 
+                                title="${isFav ? 'Verwijder uit favorieten' : 'Voeg toe aan favorieten'}" 
+                                aria-label="Favoriet">
+                            ${isFav ? '★' : '☆'}
+                        </button>
+
                         <div class="card-top">
                             <div class="card-icon-box">${link.icon}</div>
                             <div class="card-title-group">
@@ -1246,6 +1357,29 @@ document.addEventListener('DOMContentLoaded', () => {
                         <span>Openen ↗</span>
                     </div>
                 `;
+
+                // Handle star button click without navigating away
+                const favBtn = card.querySelector(".card-fav-btn");
+                favBtn.addEventListener("click", (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                    const newFavs = toggleFavorite(link.id);
+                    const nowFav = newFavs.includes(link.id);
+
+                    favBtn.classList.toggle("is-favorite", nowFav);
+                    favBtn.innerHTML = nowFav ? '★' : '☆';
+                    favBtn.title = nowFav ? 'Verwijder uit favorieten' : 'Voeg toe aan favorieten';
+
+                    // Update category counts
+                    const favBadge = document.getElementById("count-favorites");
+                    if (favBadge) favBadge.textContent = newFavs.length;
+
+                    // If currently viewing favorites, re-render to update the list immediately
+                    if (activeCategory === "favorites") {
+                        renderCards();
+                    }
+                });
 
                 cardsGrid.appendChild(card);
             });

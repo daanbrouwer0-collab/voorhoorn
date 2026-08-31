@@ -8,6 +8,8 @@
     --primary-light: #818cf8;
     --primary-glow: rgba(99, 102, 241, 0.25);
     --accent: #ec4899;
+    --star-gold: #fbbf24;
+    --star-glow: rgba(251, 191, 36, 0.35);
     --text-main: #f3f4f6;
     --text-muted: #94a3b8;
     --text-subtle: #64748b;
@@ -286,6 +288,12 @@ body {
     box-shadow: 0 4px 16px rgba(99, 102, 241, 0.35);
 }
 
+.cat-btn.cat-btn-favorites.active {
+    background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+    border-color: var(--star-gold);
+    box-shadow: 0 4px 16px var(--star-glow);
+}
+
 .cat-count {
     display: inline-block;
     padding: 2px 7px;
@@ -382,6 +390,7 @@ body {
 
 .card-title-group {
     flex: 1;
+    padding-right: 32px;
 }
 
 .card-title {
@@ -417,6 +426,40 @@ body {
     border-radius: 6px;
     text-transform: uppercase;
     letter-spacing: 0.4px;
+}
+
+/* Favorite Star Button on Card */
+.card-fav-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--text-subtle);
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    z-index: 5;
+}
+
+.card-fav-btn:hover {
+    background: rgba(251, 191, 36, 0.15);
+    border-color: rgba(251, 191, 36, 0.4);
+    color: var(--star-gold);
+    transform: scale(1.15);
+}
+
+.card-fav-btn.is-favorite {
+    background: rgba(251, 191, 36, 0.2);
+    border-color: var(--star-gold);
+    color: var(--star-gold);
+    box-shadow: 0 0 12px var(--star-glow);
 }
 
 .card-desc {
