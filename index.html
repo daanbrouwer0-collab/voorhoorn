@@ -1,26 +1,63 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="nl">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Lappendag</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Voorhoorn - Start Lappendag">
+    <title>Voorhoorn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="site-loading">
+    <!-- Landing View -->
+    <div id="landingView" class="landing-view">
+        <div class="background-glow"></div>
+        <div class="background-grid"></div>
+
+        <main class="container">
+            <div class="card" id="mainCard">
+                <div class="badge">Welkom</div>
+                <h1 class="title">Voorhoorn</h1>
+                <p class="subtitle">Klik hieronder om direct de <strong>Lappendag</strong> app op deze pagina te starten.</p>
+
+                <div class="button-group">
+                    <button type="button" id="startLappendagBtn" class="btn btn-primary">
+                        <span class="btn-icon">🏮</span>
+                        <span class="btn-text">Start Lappendag</span>
+                        <svg class="arrow-icon" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Fullscreen App Container -->
+    <div id="appContainer" class="app-container" hidden>
+        <button type="button" id="backBtn" class="floating-back-btn" title="Terug naar Voorhoorn" aria-label="Terug naar Voorhoorn">
+            <span class="back-icon">‹</span>
+            <span class="back-text">Voorhoorn</span>
+        </button>
+        <iframe id="site-frame" title="Lappendag" allow="fullscreen; autoplay"></iframe>
+    </div>
+
+    <!-- Loading Indicator -->
+    <div id="site-loading" hidden>
         <div class="loader-container">
             <div class="spinner"></div>
             <p class="loading-text">Lappendag laden…</p>
         </div>
     </div>
 
-    <iframe id="site-frame" title="Lappendag" allow="fullscreen; autoplay"></iframe>
-
+    <!-- Error View -->
     <div id="site-error" hidden>
         <div class="error-box">
             <h2>Fout bij laden</h2>
             <p id="error-message">Kon de Lappendag-site niet laden vanaf GitHub.</p>
-            <button id="retry-btn" onclick="location.reload()">Opnieuw proberen</button>
+            <button type="button" id="retry-btn" onclick="location.reload()">Opnieuw proberen</button>
         </div>
     </div>
 

@@ -1,12 +1,21 @@
-(async function loadLappendag() {
+document.addEventListener('DOMContentLoaded', () => {
     const repo = "daanbrouwer0-collab/Lappendag";
     const SHA_KEY = "lappendag-cdn-sha";
-    const loading = document.getElementById("site-loading");
+
+    const landingView = document.getElementById("landingView");
+    const mainCard = document.getElementById("mainCard");
+    const startBtn = document.getElementById("startLappendagBtn");
+    const appContainer = document.getElementById("appContainer");
+    const backBtn = document.getElementById("backBtn");
     const frame = document.getElementById("site-frame");
+    const loading = document.getElementById("site-loading");
     const errorContainer = document.getElementById("site-error");
     const errorMessage = document.getElementById("error-message");
 
     let version = "main";
+    let isLoaded = false;
+    let base = "";
+
     try {
         const cached = localStorage.getItem(SHA_KEY);
         if (cached && /^[0-9a-f]{40}$/i.test(cached)) {
@@ -14,31 +23,52 @@
         } else if (cached) {
             localStorage.removeItem(SHA_KEY);
         }
-    } catch (_) {
-        // localStorage not available
+    } catch (_) {}
+
+    // Subtle 3D Card tilt effect on mouse move
+    if (window.matchMedia('(pointer: fine)').matches && mainCard) {
+        document.addEventListener('mousemove', (e) => {
+            if (landingView.classList.contains('fade-out')) return;
+            const { innerWidth, innerHeight } = window;
+            const xOffset = (e.clientX / innerWidth - 0.5) * 14;
+            const yOffset = (e.clientY / innerHeight - 0.5) * 14;
+            mainCard.style.transform = `perspective(1000px) rotateY(${xOffset}deg) rotateX(${-yOffset}deg)`;
+        });
+
+        document.addEventListener('mouseleave', () => {
+            mainCard.style.transform = 'perspective(1000px) rotateY(0deg) rotateX(0deg)';
+        });
     }
 
-    let base = "";
-    let overlayHidden = false;
+    // Button ripple animation
+    startBtn.addEventListener('click', function (e) {
+        const rect = this.getBoundingClientRect();
+        const ripple = document.createElement('span');
+        const diameter = Math.max(rect.width, rect.height);
+        const radius = diameter / 2;
 
-    function hideOverlay() {
-        if (overlayHidden) return;
-        overlayHidden = true;
-        if (loading) {
-            loading.hidden = true;
-            loading.style.display = "none";
-        }
-    }
+        ripple.style.width = ripple.style.height = `${diameter}px`;
+        ripple.style.left = `${e.clientX - rect.left - radius}px`;
+        ripple.style.top = `${e.clientY - rect.top - radius}px`;
+        ripple.classList.add('ripple');
 
-    function showError(detail) {
-        hideOverlay();
-        if (errorContainer) {
-            errorContainer.hidden = false;
-            if (errorMessage && detail) {
-                errorMessage.innerHTML = `Kon de Lappendag-site niet laden vanaf GitHub.<br><small style="opacity: 0.7; font-size: 0.8em;">${detail}</small>`;
-            }
-        }
-    }
+        const existingRipple = this.querySelector('.ripple');
+        if (existingRipple) existingRipple.remove();
+
+        this.appendChild(ripple);
+        setTimeout(() => ripple.remove(), 600);
+
+        openLappendag();
+    });
+
+    backBtn.addEventListener('click', () => {
+        appContainer.classList.remove('fade-in');
+        setTimeout(() => {
+            appContainer.hidden = true;
+            landingView.classList.remove('fade-out');
+            document.title = "Voorhoorn";
+        }, 300);
+    });
 
     function setVersion(next) {
         version = next;
@@ -92,22 +122,13 @@
         throw new Error(lastErr || "Geen CDN bereikbaar");
     }
 
-    function refreshShaAndMaybeReload() {
+    function refreshSha() {
         fetch(`https://api.github.com/repos/${repo}/commits/main?per_page=1`)
             .then((res) => (res.ok ? res.json() : null))
             .then((data) => {
-                if (!data || !data.sha) return;
-                if (data.sha !== version) {
-                    setVersion(data.sha);
-                }
+                if (data && data.sha) setVersion(data.sha);
             })
             .catch(() => {});
-    }
-
-    function normalizePath(path) {
-        let p = (path || "index.html").replace(/^\/+/, "");
-        if (!p || p.endsWith("/")) p += "index.html";
-        return p;
     }
 
     function rewriteAssetUrls(html, pagePath) {
@@ -125,48 +146,50 @@
         return html;
     }
 
-    async function show(path) {
-        const pagePath = normalizePath(path);
-        const htmlRaw = await fetchPage(pagePath);
-        const html = rewriteAssetUrls(htmlRaw, pagePath);
+    async function openLappendag() {
+        if (isLoaded) {
+            landingView.classList.add('fade-out');
+            appContainer.hidden = false;
+            setTimeout(() => appContainer.classList.add('fade-in'), 50);
+            return;
+        }
 
-        frame.onload = () => {
-            hideOverlay();
-            try {
-                const doc = frame.contentDocument;
-                if (doc) {
-                    const title = doc.querySelector("title");
-                    if (title && title.textContent) {
-                        document.title = title.textContent;
-                    }
-                }
-            } catch (_) {}
-        };
-        frame.srcdoc = html;
-    }
+        loading.hidden = false;
 
-    refreshShaAndMaybeReload();
-
-    try {
-        await show("index.html");
-    } catch (err) {
-        clearCachedVersion();
         try {
-            await show("index.html");
-        } catch (err2) {
-            showError(String(err2 && err2.message ? err2.message : err2));
+            const htmlRaw = await fetchPage("index.html");
+            const html = rewriteAssetUrls(htmlRaw, "index.html");
+
+            frame.onload = () => {
+                loading.hidden = true;
+                landingView.classList.add('fade-out');
+                appContainer.hidden = false;
+                setTimeout(() => appContainer.classList.add('fade-in'), 50);
+                isLoaded = true;
+
+                try {
+                    const doc = frame.contentDocument;
+                    if (doc) {
+                        const title = doc.querySelector("title");
+                        if (title && title.textContent) {
+                            document.title = title.textContent;
+                        }
+                    }
+                } catch (_) {}
+            };
+
+            frame.srcdoc = html;
+        } catch (err) {
+            loading.hidden = true;
+            clearCachedVersion();
+            if (errorContainer) {
+                errorContainer.hidden = false;
+                if (errorMessage) {
+                    errorMessage.innerHTML = `Kon de Lappendag-site niet laden vanaf GitHub.<br><small style="opacity: 0.7; font-size: 0.8em;">${err && err.message ? err.message : err}</small>`;
+                }
+            }
         }
     }
-})().catch((err) => {
-    const loading = document.getElementById("site-loading");
-    if (loading) {
-        loading.hidden = true;
-        loading.style.display = "none";
-    }
-    const errorContainer = document.getElementById("site-error");
-    if (errorContainer) {
-        errorContainer.hidden = false;
-        const msg = document.getElementById("error-message");
-        if (msg) msg.textContent = String(err && err.message ? err.message : err);
-    }
+
+    refreshSha();
 });
