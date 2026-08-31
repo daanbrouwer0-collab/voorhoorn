@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Voorhoorn</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        background: #fff;
+      }
+      #site-frame {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+      #site-error {
+        font-family: system-ui, sans-serif;
+        padding: 2rem;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe id="site-frame" title="Voorhoorn"></iframe>
+    <script>
+      (async function loadVoorhoorn() {
+        const repo = "daanbrouwer0-collab/voorhoorn";
+        let version = "main";
+
+        try {
+          const res = await fetch(
+            `https://api.github.com/repos/${repo}/commits/main?per_page=1`
+          );
+          if (res.ok) {
+            const data = await res.json();
+            if (data.sha) version = data.sha;
+          }
+        } catch (_) {
+          // blijf op main als de API niet bereikbaar is
+        }
+
+        const base = `https://cdn.jsdelivr.net/gh/${repo}@${version}`;
+        const frame = document.getElementById("site-frame");
+
+        function normalizePath(path) {
+          let p = (path || "index.html").replace(/^\/+/, "");
+          if (!p || p.endsWith("/")) p += "index.html";
+          return p;
+        }
+
+        function rewriteAssetUrls(html, pagePath) {
+          const pageDir = pagePath.includes("/")
+            ? pagePath.slice(0, pagePath.lastIndexOf("/") + 1)
+            : "";
+          const pageBase = `${base}/${pageDir}`;
+
+          if (!/<base\s/i.test(html)) {
+            html = html.replace(
+              /<head([^>]*)>/i,
+              `<head$1><base href="${pageBase}">`
+            );
+          }
+          return html;
+        }
+
+        function wireNavigation(doc) {
+          doc.addEventListener("click", (event) => {
+            const anchor = event.target.closest("a");
+            if (!anchor) return;
+
+            const href = anchor.getAttribute("href");
+            if (!href || href.startsWith("#")) return;
+            if (/^(mailto:|tel:|javascript:)/i.test(href)) return;
+
+            const absolute = /^(https?:)?\/\//i.test(href);
+            if (absolute) {
+              // Externe links openen normaal in het iframe / nieuw tabblad
+              return;
+            }
+
+            event.preventDefault();
+            const current = normalizePath(
+              (location.hash || "#index.html").slice(1)
+            );
+            const currentDir = current.includes("/")
+              ? current.slice(0, current.lastIndexOf("/") + 1)
+              : "";
+            const resolved = new URL(href, `https://local.invalid/${currentDir}`);
+            const nextPath = normalizePath(resolved.pathname.replace(/^\//, ""));
+            history.pushState({ path: nextPath }, "", `#${nextPath}`);
+            show(nextPath);
+          });
+        }
+
+        async function show(path) {
+          const pagePath = normalizePath(path);
+          const res = await fetch(`${base}/${pagePath}`);
+          if (!res.ok) {
+            throw new Error(`Pagina niet gevonden: ${pagePath}`);
+          }
+
+          const html = rewriteAssetUrls(await res.text(), pagePath);
+          frame.onload = () => {
+            try {
+              const doc = frame.contentDocument;
+              if (!doc) return;
+              wireNavigation(doc);
+              const title = doc.querySelector("title");
+              if (title && title.textContent) {
+                document.title = title.textContent;
+              }
+            } catch (_) {
+              // negeer als iframe niet bereikbaar is
+            }
+          };
+          frame.srcdoc = html;
+        }
+
+        const initial = normalizePath(
+          (location.hash || "#index.html").slice(1)
+        );
+        history.replaceState({ path: initial }, "", `#${initial}`);
+        await show(initial);
+
+        window.addEventListener("popstate", (event) => {
+          const path =
+            (event.state && event.state.path) ||
+            normalizePath((location.hash || "#index.html").slice(1));
+          show(path).catch(() => {
+            document.body.innerHTML =
+              '<p id="site-error">Kon de Voorhoorn-site niet laden vanaf GitHub.</p>';
+          });
+        });
+      })().catch(() => {
+        document.body.innerHTML =
+          '<p id="site-error">Kon de Voorhoorn-site niet laden vanaf GitHub.</p>';
+      });
+    </script>
+  </body>
+</html>
