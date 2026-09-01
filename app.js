@@ -443,24 +443,34 @@ const HOORN_LINKS = [
         tags: ["loopgroep", "hardlopen", "marathon", "conditie", "sport"]
     },
     {
-        id: "tv-hoorn",
-        title: "Tennisvereniging Hoorn",
-        url: "https://tvhoorn.nl/",
+        id: "tpv-hoorn",
+        title: "TPV Hoorn (Tennis & Padel)",
+        url: "https://www.tpvhoorn.nl/",
         category: "sport",
         categoryName: "Sport & Bewegen",
         icon: "🎾",
-        desc: "Tennis- en padelvereniging met binnen- en buitenbanen aan de Drieboomlaan.",
-        tags: ["tennis", "padel", "tv hoorn", "sport", "racket"]
+        desc: "Tennis- en Padelvereniging Hoorn bij Sportcentrum Hoorn aan de Holenweg met binnen- en buitenbanen.",
+        tags: ["tennis", "padel", "tpv hoorn", "sport", "racket", "holenweg"]
     },
     {
-        id: "tv-de-hulk",
-        title: "Tennisvereniging De Hulk",
-        url: "https://www.tvdehulk.nl/",
+        id: "tpv-de-hulk",
+        title: "TPV De Hulk (Tennis & Padel)",
+        url: "https://www.tpvdehulk.nl/",
         category: "sport",
         categoryName: "Sport & Bewegen",
         icon: "🎾",
-        desc: "Tennisvereniging gelegen nabij natuurgebied De Hulk en de Grote Waal.",
-        tags: ["tennis", "de hulk", "grote waal", "sport"]
+        desc: "Tennis- en padelvereniging in het Dwaalpark nabij de Grote Waal en natuurgebied De Hulk.",
+        tags: ["tennis", "padel", "de hulk", "grote waal", "dwaalpark", "sport"]
+    },
+    {
+        id: "hltv-juliana",
+        title: "HLTV Juliana (Tennis)",
+        url: "https://www.hltvjuliana.nl/",
+        category: "sport",
+        categoryName: "Sport & Bewegen",
+        icon: "🎾",
+        desc: "Historische Hoornse Lawn Tennisvereniging Juliana op Sportcomplex De Blauwe Berg.",
+        tags: ["tennis", "juliana", "blauwe berg", "sport", "racket"]
     },
     {
         id: "wsv-hoorn",

@@ -125,7 +125,9 @@ Een compleet, diepgaand, geverifieerd en actueel overzicht van websites, portale
   * **[WFHC Hoorn](https://www.wfhc.nl/)** – De West-Friese Hockeyclub op sportpark Zwaag.
   * **[AV Hollandia](https://www.avhollandia.nl/)** – Atletiekvereniging op De Blauwe Berg.
   * **[Loopgroep Hoorn](https://www.loopgroephoorn.nl/)** – Hardloop- en atletiekvereniging.
-  * **[Tennisvereniging Hoorn](https://tvhoorn.nl/)** & **[TV De Hulk](https://www.tvdehulk.nl/)** – Tennis- en padelbanen.
+  * **[TPV Hoorn (Tennis & Padel)](https://www.tpvhoorn.nl/)** – Tennis- en padelbanen bij Sportcentrum Hoorn (Holenweg).
+  * **[TPV De Hulk](https://www.tpvdehulk.nl/)** – Tennis- en padelvereniging in het Dwaalpark (Grote Waal).
+  * **[HLTV Juliana](https://www.hltvjuliana.nl/)** – Tennisvereniging op De Blauwe Berg.
 * **Reddingsbrigade & Denksport:**
   * **[Reddingsbrigade Nederland (Hoorn)](https://www.reddingsbrigade.nl/)** – Zwemmend redden en waterhulpverlening.
   * **[Schaakvereniging Caïssa-Eenhoorn](https://www.caissa-eenhoorn.nl/)** – Schaken voor jeugd en senioren in Hoorn.
