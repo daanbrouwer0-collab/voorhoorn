@@ -38,7 +38,7 @@ body {
     --news-accent: #3b82f6;
     --news-accent-soft: rgba(59, 130, 246, 0.18);
     --news-glow: rgba(59, 130, 246, 0.22);
-    margin-bottom: 32px;
+    margin: 0 0 28px;
     padding: 20px;
     border-radius: 18px;
     background: var(--card-bg);
