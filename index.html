@@ -56,6 +56,27 @@
 
         <main class="main-content">
             <div class="content-container">
+                <!-- Lokaal nieuwsdigest (altijd zichtbaar) -->
+                <section class="news-digest theme-urgent" id="newsDigest" aria-label="Lokaal nieuws">
+                    <div class="news-digest-top">
+                        <h2 class="news-digest-title">Lokaal nieuws</h2>
+                        <nav class="news-tabs" role="tablist" aria-label="Nieuwscategorieën">
+                            <button type="button" class="news-tab is-active" role="tab" aria-selected="true" data-tab="urgent">
+                                Urgent
+                            </button>
+                            <button type="button" class="news-tab" role="tab" aria-selected="false" data-tab="cultuur">
+                                Cultuur
+                            </button>
+                            <button type="button" class="news-tab" role="tab" aria-selected="false" data-tab="sport">
+                                Sport
+                            </button>
+                        </nav>
+                    </div>
+                    <div id="digest-card" class="news-digest-card" aria-label="Nieuwsberichten">
+                        <p class="news-empty">Nieuws laden…</p>
+                    </div>
+                </section>
+
                 <!-- Status & Resultaten teller -->
                 <div class="results-header">
                     <h2 class="active-category-title" id="activeCategoryTitle">Alle Links</h2>
@@ -104,6 +125,7 @@
         </div>
     </div>
 
+    <script src="news.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
