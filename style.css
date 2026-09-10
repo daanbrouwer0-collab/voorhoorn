@@ -77,6 +77,45 @@ body {
     --news-glow: rgba(99, 102, 241, 0.22);
 }
 
+.news-digest.theme-agenda {
+    --news-accent: #fb7185;
+    --news-accent-soft: rgba(251, 113, 133, 0.16);
+    --news-glow: rgba(244, 63, 94, 0.2);
+}
+
+.agenda-filter-tabs {
+    margin: 0 0 10px;
+}
+
+.agenda-date-chip {
+    display: inline-block;
+    margin-right: 0.45rem;
+    padding: 0.12rem 0.45rem;
+    border-radius: 6px;
+    background: var(--news-accent-soft);
+    color: color-mix(in srgb, var(--news-accent) 80%, #fff);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.agenda-source-note {
+    margin: 10px 2px 0;
+    font-size: 0.78rem;
+    color: var(--text-subtle);
+}
+
+.agenda-source-note a {
+    color: var(--news-accent);
+    text-decoration: none;
+}
+
+.agenda-source-note a:hover {
+    text-decoration: underline;
+}
+
 /* Hoofd-tabbladen Nieuws / Links */
 .view-tabs {
     display: flex;

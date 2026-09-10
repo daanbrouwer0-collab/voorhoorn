@@ -1281,6 +1281,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const resetFiltersBtn = document.getElementById("resetFiltersBtn");
     const newsDigest = document.getElementById("newsDigest");
     const linksPanel = document.getElementById("linksPanel");
+    const agendaPanel = document.getElementById("agendaPanel");
     const viewTabs = [...document.querySelectorAll(".view-tab")];
 
     const promoTrack = document.getElementById("promoTrack");
@@ -1298,9 +1299,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function setView(view) {
         activeView = view;
-        const showNews = view === "nieuws";
-        if (newsDigest) newsDigest.hidden = !showNews;
-        if (linksPanel) linksPanel.hidden = showNews;
+        if (newsDigest) newsDigest.hidden = view !== "nieuws";
+        if (linksPanel) linksPanel.hidden = view !== "links";
+        if (agendaPanel) agendaPanel.hidden = view !== "agenda";
 
         viewTabs.forEach((btn) => {
             const on = btn.dataset.view === view;
@@ -1308,7 +1309,10 @@ document.addEventListener('DOMContentLoaded', () => {
             btn.setAttribute("aria-selected", on ? "true" : "false");
         });
 
-        if (!showNews) renderCards();
+        if (view === "links") renderCards();
+        if (view === "agenda" && window.VoorhoornAgenda) {
+            window.VoorhoornAgenda.show();
+        }
     }
 
     function countForCategory(cat, favs) {
