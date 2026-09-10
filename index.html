@@ -7,7 +7,7 @@
     <title>Voorhoorn - Startportaal Hoorn</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,11 +15,43 @@
     <div id="portalView" class="portal-view">
         <div class="background-glow"></div>
         <div class="background-grid"></div>
+        <div class="click-ripple-container" id="click-ripple-container" aria-hidden="true"></div>
 
         <header class="header">
             <div class="header-container">
                 <div class="logo-area">
-                    <h1 class="logo-title">Voorhoorn</h1>
+                    <h1 class="site-logo" id="siteLogo" aria-label="Voorhoorn">
+                        <span class="visually-hidden">Voorhoorn</span>
+                        <span class="word-wrapper word-modern" aria-hidden="true">
+                            <span class="char">V</span>
+                            <span class="eye-pair eye-set-1 eyes-googly-clean">
+                                <span class="eye googly-clean-eye">
+                                    <span class="googly-sclera">
+                                        <span class="googly-clean-pupil"></span>
+                                    </span>
+                                </span>
+                                <span class="eye googly-clean-eye">
+                                    <span class="googly-sclera">
+                                        <span class="googly-clean-pupil"></span>
+                                    </span>
+                                </span>
+                            </span>
+                            <span class="char">rh</span>
+                            <span class="eye-pair eye-set-2 eyes-googly-clean">
+                                <span class="eye googly-clean-eye">
+                                    <span class="googly-sclera">
+                                        <span class="googly-clean-pupil"></span>
+                                    </span>
+                                </span>
+                                <span class="eye googly-clean-eye">
+                                    <span class="googly-sclera">
+                                        <span class="googly-clean-pupil"></span>
+                                    </span>
+                                </span>
+                            </span>
+                            <span class="char">rn</span>
+                        </span>
+                    </h1>
                 </div>
             </div>
 
@@ -70,24 +102,46 @@
                 <div class="news-digest-top">
                     <h2 class="news-digest-title">Agenda Hoorn</h2>
                     <nav class="news-tabs" role="tablist" aria-label="Periode" id="agendaDateTabs">
-                        <button type="button" class="news-tab is-active" role="tab" aria-selected="true" data-date-range="this_week">Deze week</button>
-                        <button type="button" class="news-tab" role="tab" aria-selected="false" data-date-range="this_month">Deze maand</button>
+                        <button type="button" class="news-tab" role="tab" aria-selected="false" data-date-range="this_week">Deze week</button>
+                        <button type="button" class="news-tab is-active" role="tab" aria-selected="true" data-date-range="this_month">Deze maand</button>
                         <button type="button" class="news-tab" role="tab" aria-selected="false" data-date-range="next_month">Volgende maand</button>
                         <button type="button" class="news-tab" role="tab" aria-selected="false" data-date-range="this_year">Alles</button>
                     </nav>
                 </div>
 
                 <nav class="news-tabs links-tabs agenda-filter-tabs" role="tablist" aria-label="Agendacategorieën" id="agendaCategoryTabs"></nav>
-                <nav class="news-tabs links-tabs agenda-filter-tabs" role="tablist" aria-label="Toegang" id="agendaAccessTabs">
-                    <button type="button" class="news-tab is-active" role="tab" aria-selected="true" data-access="">Alles</button>
-                    <button type="button" class="news-tab" role="tab" aria-selected="false" data-access="gratis">Gratis</button>
-                    <button type="button" class="news-tab" role="tab" aria-selected="false" data-access="betaald">Betaald</button>
-                </nav>
+
+                <div class="agenda-toolbar">
+                    <span class="agenda-count" id="agendaCount">Evenementen laden…</span>
+                    <button type="button" class="agenda-more-btn" id="agendaMoreFiltersBtn" aria-expanded="false" aria-controls="agendaMoreFilters">
+                        Meer filters
+                    </button>
+                </div>
+
+                <div class="agenda-more-filters" id="agendaMoreFilters" hidden>
+                    <div class="agenda-more-group">
+                        <span class="agenda-more-label">Bron</span>
+                        <nav class="news-tabs links-tabs agenda-filter-tabs" role="tablist" aria-label="Bronnen" id="agendaSourceTabs">
+                            <button type="button" class="news-tab is-active" role="tab" aria-selected="true" data-source="">Alle bronnen</button>
+                            <button type="button" class="news-tab" role="tab" aria-selected="false" data-source="komnaarhoorn">Kom naar Hoorn</button>
+                            <button type="button" class="news-tab" role="tab" aria-selected="false" data-source="manifesto">Manifesto</button>
+                            <button type="button" class="news-tab" role="tab" aria-selected="false" data-source="netwerk">Netwerk</button>
+                        </nav>
+                    </div>
+                    <div class="agenda-more-group">
+                        <span class="agenda-more-label">Toegang</span>
+                        <nav class="news-tabs links-tabs agenda-filter-tabs" role="tablist" aria-label="Toegang" id="agendaAccessTabs">
+                            <button type="button" class="news-tab is-active" role="tab" aria-selected="true" data-access="">Alles</button>
+                            <button type="button" class="news-tab" role="tab" aria-selected="false" data-access="gratis">Gratis</button>
+                            <button type="button" class="news-tab" role="tab" aria-selected="false" data-access="betaald">Betaald</button>
+                        </nav>
+                    </div>
+                </div>
 
                 <div id="agendaList" class="news-digest-card" aria-label="Evenementen">
                     <p class="news-empty">Agenda laden…</p>
                 </div>
-                <p class="agenda-source-note">Bron: <a href="https://komnaarhoorn.nl/agenda/" target="_blank" rel="noopener noreferrer">Kom naar Hoorn</a></p>
+                <p class="agenda-source-note">Bronnen: Kom naar Hoorn, Manifesto, Netwerk Hoorn · <a href="https://komnaarhoorn.nl/agenda/" target="_blank" rel="noopener noreferrer">Volledige agenda</a></p>
             </section>
 
             <!-- Links-panel (zelfde stijl als nieuws) -->
@@ -155,6 +209,7 @@
         </div>
     </div>
 
+    <script src="logo-eyes.js"></script>
     <script src="news.js"></script>
     <script src="agenda.js"></script>
     <script src="app.js"></script>

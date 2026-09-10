@@ -565,14 +565,44 @@ const HOORN_LINKS = [
         tags: ["het park", "schouwburg", "theater", "cabaret", "musical", "concert"]
     },
     {
+        id: "komnaarhoorn-agenda",
+        title: "Kom naar Hoorn – Agenda",
+        url: "https://komnaarhoorn.nl/agenda/",
+        category: "cultuur",
+        categoryName: "Cultuur & Evenementen",
+        icon: "📅",
+        desc: "Officiële evenementenagenda van Hoorn: festivals, muziek, kids, sport en meer.",
+        tags: ["agenda", "evenementen", "kom naar hoorn", "uitagenda", "festival"]
+    },
+    {
+        id: "followthebeat-hoorn",
+        title: "Follow The Beat – Hoorn",
+        url: "https://followthebeat.nl/steden/hoorn",
+        category: "cultuur",
+        categoryName: "Cultuur & Evenementen",
+        icon: "🎧",
+        desc: "Nightlife- en eventoverzicht voor Hoorn: feesten, clubs en optredens.",
+        tags: ["follow the beat", "feest", "nightlife", "agenda", "uitgaan"]
+    },
+    {
+        id: "netwerk-activiteiten",
+        title: "Netwerk Hoorn – Activiteiten",
+        url: "https://netwerkhoorn.nl/activiteiten?page=1",
+        category: "cultuur",
+        categoryName: "Cultuur & Evenementen",
+        icon: "🏘️",
+        desc: "Wijkactiviteiten, inloopuren, kidsclubs en sportieve buurtactiviteiten via Stichting Netwerk.",
+        tags: ["netwerk", "wijk", "activiteiten", "buurt", "kidsclub", "inloop"]
+    },
+    {
         id: "poppodium-manifesto",
         title: "Poppodium Manifesto",
-        url: "https://www.manifesto-hoorn.nl/",
+        url: "https://manifesto-hoorn.nl/",
         category: "cultuur",
         categoryName: "Cultuur & Evenementen",
         icon: "🎸",
         desc: "Poppodium voor live concerten, dance-events, tribute bands en optredens van nieuw muziektalent.",
-        tags: ["manifesto", "poppodium", "concert", "dance", "feest", "muziek"]
+        tags: ["manifesto", "poppodium", "concert", "dance", "feest", "muziek", "agenda"]
     },
     {
         id: "cinema-oostereiland",
