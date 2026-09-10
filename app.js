@@ -1581,7 +1581,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function setPromoIndex(index, { restart = true } = {}) {
         if (!promoTrack || !PROMO_SLIDES.length) return;
-        promoIndex = ((index % PROMO_SLIDES.length) + PROMO_SLIDES.length) % PROMO_SLIDES.length;
+        const prev = promoIndex;
+        const next = ((index % PROMO_SLIDES.length) + PROMO_SLIDES.length) % PROMO_SLIDES.length;
+        const direction = next === prev ? 1 : next > prev || (prev === PROMO_SLIDES.length - 1 && next === 0) ? 1 : -1;
+
+        promoIndex = next;
         promoTrack.style.transform = `translateX(-${promoIndex * 100}%)`;
 
         if (promoDots) {
@@ -1590,6 +1594,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 dot.classList.toggle("is-active", on);
                 dot.setAttribute("aria-selected", on ? "true" : "false");
             });
+        }
+
+        // Ogen: alvast naar binnenkomende slide, dan meezweepen
+        if (prev !== next) {
+            window.voorhoornEngine?.onSlideshowChange?.({ direction });
         }
 
         if (restart) restartPromoTimer();

@@ -1,22 +1,23 @@
 /**
- * Voorhoorn oog-logo engine (uit ogen.html), voor één header-logo.
+ * Voorhoorn oog-logo: individuele blikken alle kanten op.
  */
 class VoorhoornEngine {
   constructor(logoId = "siteLogo") {
     this.cursor = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
-    this.virtualTarget = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
-    this.isMouseIdle = false;
+    this.isMouseIdle = true;
     this.lastMouseMoveTime = Date.now();
     this.isClickInteracting = false;
     this.mutualContact = false;
+    this.slideshowFocus = null; // { mode, start, duration, from, to } | { mode:'look', x, y, until }
     this.logos = [];
 
     this.initLogo(logoId);
     if (!this.logos.length) return;
 
     this.initEvents();
-    this.initSpontaneousEyeContact();
-    this.initAutonomousGaze();
+    this.initIndependentGaze();
+    this.initRareEyeContact();
+    this.initOccasionalSlideshowGlance();
     this.startRenderLoop();
   }
 
@@ -31,13 +32,17 @@ class VoorhoornEngine {
 
     set1El?.querySelectorAll(".eye").forEach((eyeEl) => {
       const pupil = eyeEl.querySelector(".googly-clean-pupil");
-      set1Eyes.push(this.createEyeObj(eyeEl, pupil, 0.46, 0.2, 1));
+      set1Eyes.push(this.createEyeObj(eyeEl, pupil));
     });
 
     set2El?.querySelectorAll(".eye").forEach((eyeEl) => {
       const pupil = eyeEl.querySelector(".googly-clean-pupil");
-      set2Eyes.push(this.createEyeObj(eyeEl, pupil, 0.46, 0.2, 2));
+      set2Eyes.push(this.createEyeObj(eyeEl, pupil));
     });
+
+    // Eigen richting per oogpaar (en lichte offset per oog)
+    this.pickRandomGaze(set1Eyes);
+    this.pickRandomGaze(set2Eyes);
 
     this.logos.push({
       id,
@@ -49,18 +54,34 @@ class VoorhoornEngine {
     });
   }
 
-  createEyeObj(container, pupil, maxTravelFactor, lerpSpeed, setIndex) {
+  createEyeObj(container, pupil) {
     return {
       container,
       pupil,
-      maxTravelFactor,
-      lerpSpeed,
-      setIndex,
+      maxTravelFactor: 0.52,
+      lerpSpeed: 0.14 + Math.random() * 0.06,
       currentX: 0,
       currentY: 0,
       targetX: 0,
       targetY: 0,
+      aimX: 0,
+      aimY: 0,
     };
+  }
+
+  /** Kies een willekeurige kijkrichting rondom het logo (alle kanten even waarschijnlijk). */
+  pickRandomGaze(eyes) {
+    if (!eyes.length) return;
+    const angle = Math.random() * Math.PI * 2;
+    const strength = 0.35 + Math.random() * 0.65; // 35–100% van max travel
+    eyes.forEach((eye, i) => {
+      // Kleine individuele afwijking per oog in het paar
+      const jitter = (i === 0 ? -1 : 1) * (0.08 + Math.random() * 0.12);
+      const a = angle + jitter;
+      const s = strength * (0.85 + Math.random() * 0.2);
+      eye.gazeAngle = a;
+      eye.gazeStrength = s;
+    });
   }
 
   initEvents() {
@@ -89,22 +110,32 @@ class VoorhoornEngine {
     );
 
     window.addEventListener("click", (e) => {
-      this.triggerClickInteraction(e.clientX, e.clientY);
+      // Alleen reageren als klik in/bij het logo is — anders te afleidend op de pagina
+      const logo = this.logos[0]?.el;
+      if (!logo) return;
+      const rect = logo.getBoundingClientRect();
+      const pad = 40;
+      const near =
+        e.clientX >= rect.left - pad &&
+        e.clientX <= rect.right + pad &&
+        e.clientY >= rect.top - pad &&
+        e.clientY <= rect.bottom + pad;
+      if (near) this.triggerClickInteraction(e.clientX, e.clientY);
     });
   }
 
-  initSpontaneousEyeContact() {
+  /** Zelden oogcontact — vooral individueel kijken. */
+  initRareEyeContact() {
     const triggerGlance = () => {
-      if (!this.isClickInteracting) {
-        this.executeMutualEyeContact(1200);
+      if (!this.isClickInteracting && Math.random() < 0.35) {
+        this.executeMutualEyeContact(700);
       }
-      const nextDelay = 3800 + Math.random() * 3200;
-      setTimeout(triggerGlance, nextDelay);
+      setTimeout(triggerGlance, 10000 + Math.random() * 12000);
     };
-    setTimeout(triggerGlance, 2800);
+    setTimeout(triggerGlance, 8000);
   }
 
-  executeMutualEyeContact(duration = 1200) {
+  executeMutualEyeContact(duration = 700) {
     this.mutualContact = true;
     this.logos.forEach((logo) => {
       logo.el.classList.add("making-eye-contact");
@@ -116,6 +147,11 @@ class VoorhoornEngine {
       this.logos.forEach((logo) => {
         logo.el.classList.remove("making-eye-contact");
       });
+      // Daarna weer alle kanten op
+      this.logos.forEach((logo) => {
+        this.pickRandomGaze(logo.set1Eyes);
+        this.pickRandomGaze(logo.set2Eyes);
+      });
     }, duration);
   }
 
@@ -125,16 +161,18 @@ class VoorhoornEngine {
     this.mutualContact = false;
     this.cursor.x = clickX;
     this.cursor.y = clickY;
+    this.isMouseIdle = false;
+    this.lastMouseMoveTime = Date.now();
 
     clearTimeout(this.clickTimeout1);
     clearTimeout(this.clickTimeout2);
 
     this.clickTimeout1 = setTimeout(() => {
-      this.executeMutualEyeContact(1100);
+      this.executeMutualEyeContact(800);
       this.clickTimeout2 = setTimeout(() => {
         this.isClickInteracting = false;
-      }, 1150);
-    }, 300);
+      }, 850);
+    }, 280);
   }
 
   createClickRipple(x, y) {
@@ -148,91 +186,201 @@ class VoorhoornEngine {
     setTimeout(() => ripple.remove(), 700);
   }
 
+  /** Per oogpaar (en soms per paar apart) nieuwe kijkrichting. */
+  initIndependentGaze() {
+    const tick = () => {
+      if (
+        !this.isClickInteracting &&
+        !this.mutualContact &&
+        !this.slideshowFocus
+      ) {
+        this.logos.forEach((logo) => {
+          if (Math.random() < 0.55) {
+            this.pickRandomGaze(logo.set1Eyes);
+          } else {
+            this.pickRandomGaze(logo.set2Eyes);
+          }
+          if (Math.random() < 0.25) {
+            this.pickRandomGaze(logo.set1Eyes);
+            this.pickRandomGaze(logo.set2Eyes);
+          }
+        });
+      }
+      setTimeout(tick, 700 + Math.random() * 1100);
+    };
+    setTimeout(tick, 400);
+  }
+
+  getSlideshowRect() {
+    const el =
+      document.getElementById("promoSlideshow") ||
+      document.querySelector(".promo-slideshow");
+    if (!el || el.offsetParent === null) return null;
+    return el.getBoundingClientRect();
+  }
+
+  /** Af en toe even naar de slideshow kijken (zonder slide-wissel). */
+  initOccasionalSlideshowGlance() {
+    const glance = () => {
+      if (!this.isClickInteracting && !this.mutualContact && !this.slideshowFocus) {
+        const rect = this.getSlideshowRect();
+        if (rect && Math.random() < 0.55) {
+          const x = rect.left + rect.width * (0.35 + Math.random() * 0.3);
+          const y = rect.top + rect.height * (0.4 + Math.random() * 0.25);
+          this.slideshowFocus = {
+            mode: "look",
+            x,
+            y,
+            until: performance.now() + 900 + Math.random() * 700,
+          };
+        }
+      }
+      setTimeout(glance, 4500 + Math.random() * 5500);
+    };
+    setTimeout(glance, 3500);
+  }
+
+  /**
+   * Bij slide-wissel: eerst naar rechts kijken (nieuwe slide komt eraan),
+   * daarna meezweepen naar het midden terwijl de kaart in beeld schuift.
+   */
+  onSlideshowChange({ direction = 1 } = {}) {
+    const rect = this.getSlideshowRect();
+    if (!rect) return;
+
+    const midY = rect.top + rect.height * 0.5;
+    // Nieuwe slide komt vanaf rechts (vooruit) of links (achteruit)
+    const incomingX =
+      direction >= 0 ? rect.right - rect.width * 0.08 : rect.left + rect.width * 0.08;
+    const settleX = rect.left + rect.width * 0.5;
+
+    // Kort alvast naar de binnenkomende kant kijken
+    this.slideshowFocus = {
+      mode: "look",
+      x: incomingX,
+      y: midY,
+      until: performance.now() + 180,
+    };
+
+    // Daarna sweep synchroniseren met CSS-transition (~550ms)
+    clearTimeout(this.slideshowSweepTimeout);
+    this.slideshowSweepTimeout = setTimeout(() => {
+      this.slideshowFocus = {
+        mode: "sweep",
+        start: performance.now(),
+        duration: 550,
+        from: { x: incomingX, y: midY },
+        to: { x: settleX, y: midY },
+      };
+    }, 160);
+  }
+
+  getSlideshowAimPoint(now = performance.now()) {
+    const focus = this.slideshowFocus;
+    if (!focus) return null;
+
+    if (focus.mode === "look") {
+      if (now > focus.until) {
+        this.slideshowFocus = null;
+        return null;
+      }
+      return { x: focus.x, y: focus.y };
+    }
+
+    if (focus.mode === "sweep") {
+      const t = Math.min(1, (now - focus.start) / focus.duration);
+      // Benadert cubic-bezier(0.4, 0, 0.2, 1)
+      const eased = t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
+      const x = focus.from.x + (focus.to.x - focus.from.x) * eased;
+      const y = focus.from.y + (focus.to.y - focus.from.y) * eased;
+      if (t >= 1) {
+        // Nog even op de nieuwe slide blijven kijken
+        this.slideshowFocus = {
+          mode: "look",
+          x: focus.to.x,
+          y: focus.to.y,
+          until: now + 650,
+        };
+      }
+      return { x, y };
+    }
+
+    return null;
+  }
+
   updateGaze() {
-    if (Date.now() - this.lastMouseMoveTime > 2200 && !this.isClickInteracting) {
+    if (Date.now() - this.lastMouseMoveTime > 1600 && !this.isClickInteracting) {
       this.isMouseIdle = true;
     }
 
-    const defaultAim =
-      this.isMouseIdle && !this.isClickInteracting
-        ? this.virtualTarget
-        : this.cursor;
+    const slideshowAim = this.getSlideshowAimPoint();
 
     this.logos.forEach((logo) => {
-      const set1Rect = logo.set1El
-        ? logo.set1El.getBoundingClientRect()
-        : null;
-      const set2Rect = logo.set2El
-        ? logo.set2El.getBoundingClientRect()
-        : null;
-
+      const set1Rect = logo.set1El?.getBoundingClientRect() || null;
+      const set2Rect = logo.set2El?.getBoundingClientRect() || null;
       const set1Center = set1Rect
         ? {
             x: set1Rect.left + set1Rect.width / 2,
             y: set1Rect.top + set1Rect.height / 2,
           }
-        : defaultAim;
+        : null;
       const set2Center = set2Rect
         ? {
             x: set2Rect.left + set2Rect.width / 2,
             y: set2Rect.top + set2Rect.height / 2,
           }
-        : defaultAim;
+        : null;
 
-      logo.set1Eyes.forEach((eye) => {
-        const aimPoint =
-          this.mutualContact && set2Rect ? set2Center : defaultAim;
-        this.computePupilOffset(eye, aimPoint.x, aimPoint.y);
-      });
+      const driveEye = (eye, partnerCenter) => {
+        if (slideshowAim) {
+          this.computePupilTowardPoint(eye, slideshowAim.x, slideshowAim.y, true);
+        } else if (this.mutualContact && partnerCenter) {
+          this.computePupilTowardPoint(eye, partnerCenter.x, partnerCenter.y, true);
+        } else if (!this.isMouseIdle) {
+          this.computePupilTowardPoint(eye, this.cursor.x, this.cursor.y, false);
+        } else {
+          this.computePupilFromAngle(eye);
+        }
+      };
 
-      logo.set2Eyes.forEach((eye) => {
-        const aimPoint =
-          this.mutualContact && set1Rect ? set1Center : defaultAim;
-        this.computePupilOffset(eye, aimPoint.x, aimPoint.y);
-      });
+      logo.set1Eyes.forEach((eye) => driveEye(eye, set2Center));
+      logo.set2Eyes.forEach((eye) => driveEye(eye, set1Center));
     });
   }
 
-  computePupilOffset(eye, aimX, aimY) {
+  computePupilFromAngle(eye) {
+    const rect = eye.container.getBoundingClientRect();
+    const maxDistance = (rect.width / 2) * eye.maxTravelFactor;
+    const angle = eye.gazeAngle || 0;
+    const strength = eye.gazeStrength ?? 0.7;
+    eye.targetX = Math.cos(angle) * maxDistance * strength;
+    eye.targetY = Math.sin(angle) * maxDistance * strength;
+    this.applyPupilLerp(eye);
+  }
+
+  computePupilTowardPoint(eye, aimX, aimY, fullPull) {
     const rect = eye.container.getBoundingClientRect();
     const eyeCenterX = rect.left + rect.width / 2;
     const eyeCenterY = rect.top + rect.height / 2;
-    const eyeRadius = rect.width / 2;
-    const maxDistance = eyeRadius * eye.maxTravelFactor;
+    const maxDistance = (rect.width / 2) * eye.maxTravelFactor;
 
     const dx = aimX - eyeCenterX;
     const dy = aimY - eyeCenterY;
     const dist = Math.hypot(dx, dy);
     const angle = Math.atan2(dy, dx);
 
-    let pull = Math.min(dist / 280, 1.0);
-    if (this.mutualContact) pull = 1.0;
+    const pull = fullPull ? 1 : Math.min(dist / 220, 1);
+    eye.targetX = Math.cos(angle) * pull * maxDistance;
+    eye.targetY = Math.sin(angle) * pull * maxDistance;
+    this.applyPupilLerp(eye);
+  }
 
-    const distanceOffset = pull * maxDistance;
-    eye.targetX = Math.cos(angle) * distanceOffset;
-    eye.targetY = Math.sin(angle) * distanceOffset;
-
+  applyPupilLerp(eye) {
     eye.currentX += (eye.targetX - eye.currentX) * eye.lerpSpeed;
     eye.currentY += (eye.targetY - eye.currentY) * eye.lerpSpeed;
-
     if (eye.pupil) {
       eye.pupil.style.transform = `translate3d(${eye.currentX.toFixed(2)}px, ${eye.currentY.toFixed(2)}px, 0)`;
     }
-  }
-
-  initAutonomousGaze() {
-    const triggerSaccade = () => {
-      if (this.isMouseIdle && !this.isClickInteracting && !this.mutualContact) {
-        const marginX = window.innerWidth * 0.2;
-        const marginY = window.innerHeight * 0.25;
-        this.virtualTarget.x =
-          marginX + Math.random() * (window.innerWidth - marginX * 2);
-        this.virtualTarget.y =
-          marginY + Math.random() * (window.innerHeight - marginY * 2);
-      }
-      setTimeout(triggerSaccade, 1500 + Math.random() * 2200);
-    };
-    setTimeout(triggerSaccade, 1200);
   }
 
   startRenderLoop() {
