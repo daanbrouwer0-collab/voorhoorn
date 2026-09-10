@@ -1157,26 +1157,17 @@ const HOORN_LINKS = [
 ];
 
 const CATEGORIES = [
-    { id: "all", name: "🌟 Alles", icon: "🌟" },
-    { id: "favorites", name: "⭐ Favorieten", icon: "⭐" },
-    { id: "nieuws", name: "📰 Nieuws", icon: "📰" },
-    { id: "gemeente", name: "🏛️ Gemeente", icon: "🏛️" },
-    { id: "spoed", name: "🚑 Spoed & Nood", icon: "🚑" },
-    { id: "subsidie", name: "💰 Subsidies", icon: "💰" },
-    { id: "sport", name: "⚽ Sport", icon: "⚽" },
-    { id: "cultuur", name: "🎭 Cultuur & Kermis", icon: "🎭" },
-    { id: "zorg", name: "🤝 Zorg & Hulp", icon: "🤝" },
-    { id: "bouw", name: "🏗️ Bouw & Wijken", icon: "🏗️" },
-    { id: "energie", name: "⚡ Duurzaamheid", icon: "⚡" },
-    { id: "onderwijs", name: "🏫 Onderwijs", icon: "🏫" },
-    { id: "vervoer", name: "🚍 Vervoer & Havens", icon: "🚍" },
-    { id: "parken", name: "🌳 Parken & Honden", icon: "🌳" },
-    { id: "winkels", name: "🛍️ Markten & Ondernemen", icon: "🛍️" }
+    { id: "all", name: "Alles", match: null },
+    { id: "favorites", name: "Favorieten", match: null },
+    { id: "gemeente", name: "Gemeente", match: ["gemeente", "bouw", "subsidie"] },
+    { id: "spoed", name: "Spoed", match: ["spoed"] },
+    { id: "sport", name: "Sport", match: ["sport"] },
+    { id: "cultuur", name: "Cultuur", match: ["cultuur", "parken"] },
+    { id: "praktisch", name: "Praktisch", match: ["zorg", "onderwijs", "vervoer", "energie", "winkels", "nieuws"] }
 ];
 
 const FAVORITES_KEY = "voorhoorn_favorite_links";
 
-// Load favorites from on-device LocalStorage
 function getFavorites() {
     try {
         const stored = localStorage.getItem(FAVORITES_KEY);
@@ -1186,7 +1177,6 @@ function getFavorites() {
     }
 }
 
-// Save favorites to on-device LocalStorage
 function saveFavorites(favs) {
     try {
         localStorage.setItem(FAVORITES_KEY, JSON.stringify(favs));
@@ -1204,20 +1194,38 @@ function toggleFavorite(id) {
     return favs;
 }
 
+function categoryMatches(cat, link) {
+    if (!cat || cat.id === "all") return true;
+    if (cat.id === "favorites") return false;
+    if (!cat.match) return link.category === cat.id;
+    return cat.match.includes(link.category);
+}
+
+function escapeHtml(text) {
+    return String(text)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;");
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     let activeCategory = "all";
     let searchQuery = "";
+    let activeView = "nieuws";
 
     const categoryButtonsContainer = document.getElementById("categoryButtonsContainer");
-    const cardsGrid = document.getElementById("cardsGrid");
+    const linksList = document.getElementById("linksList");
     const searchInput = document.getElementById("searchInput");
     const clearSearchBtn = document.getElementById("clearSearchBtn");
-    const resultsCount = document.getElementById("resultsCount");
     const activeCategoryTitle = document.getElementById("activeCategoryTitle");
+    const resultsCount = document.getElementById("resultsCount");
     const noResults = document.getElementById("noResults");
     const resetFiltersBtn = document.getElementById("resetFiltersBtn");
+    const newsDigest = document.getElementById("newsDigest");
+    const linksPanel = document.getElementById("linksPanel");
+    const viewTabs = [...document.querySelectorAll(".view-tab")];
 
-    // Lappendag Elements
     const startLappendagBtn = document.getElementById("startLappendagBtn");
     const appContainer = document.getElementById("appContainer");
     const backBtn = document.getElementById("backBtn");
@@ -1227,36 +1235,50 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let isLappendagLoaded = false;
 
-    // Render Category Buttons with live favorite counts
+    function setView(view) {
+        activeView = view;
+        const showNews = view === "nieuws";
+        if (newsDigest) newsDigest.hidden = !showNews;
+        if (linksPanel) linksPanel.hidden = showNews;
+
+        viewTabs.forEach((btn) => {
+            const on = btn.dataset.view === view;
+            btn.classList.toggle("is-active", on);
+            btn.setAttribute("aria-selected", on ? "true" : "false");
+        });
+
+        if (!showNews) renderCards();
+    }
+
+    function countForCategory(cat, favs) {
+        if (cat.id === "all") return HOORN_LINKS.length;
+        if (cat.id === "favorites") return favs.length;
+        return HOORN_LINKS.filter((l) => categoryMatches(cat, l)).length;
+    }
+
     function renderCategoryButtons() {
+        if (!categoryButtonsContainer) return;
         categoryButtonsContainer.innerHTML = "";
         const favs = getFavorites();
-        
-        CATEGORIES.forEach(cat => {
+
+        CATEGORIES.forEach((cat) => {
             const btn = document.createElement("button");
             btn.type = "button";
-            btn.className = `cat-btn ${cat.id === activeCategory ? 'active' : ''} ${cat.id === 'favorites' ? 'cat-btn-favorites' : ''}`;
+            btn.className = `news-tab ${cat.id === activeCategory ? "is-active" : ""} ${cat.id === "favorites" ? "news-tab-fav" : ""}`;
+            btn.role = "tab";
             btn.dataset.category = cat.id;
+            btn.setAttribute("aria-selected", cat.id === activeCategory ? "true" : "false");
 
-            // Calculate count
-            let count = 0;
-            if (cat.id === "all") {
-                count = HOORN_LINKS.length;
-            } else if (cat.id === "favorites") {
-                count = favs.length;
-            } else {
-                count = HOORN_LINKS.filter(l => l.category === cat.id).length;
-            }
-
-            btn.innerHTML = `
-                <span>${cat.name}</span>
-                <span class="cat-count" id="count-${cat.id}">${count}</span>
-            `;
+            const count = countForCategory(cat, favs);
+            btn.innerHTML = `${escapeHtml(cat.name)} <span class="cat-count" id="count-${cat.id}">${count}</span>`;
 
             btn.addEventListener("click", () => {
                 activeCategory = cat.id;
-                document.querySelectorAll(".cat-btn").forEach(b => b.classList.remove("active"));
-                btn.classList.add("active");
+                categoryButtonsContainer.querySelectorAll(".news-tab").forEach((b) => {
+                    const on = b.dataset.category === cat.id;
+                    b.classList.toggle("is-active", on);
+                    b.setAttribute("aria-selected", on ? "true" : "false");
+                });
                 renderCards();
             });
 
@@ -1264,169 +1286,190 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Filter and Render Cards
+    function bindLinkToggles() {
+        if (!linksList) return;
+        linksList.querySelectorAll(".news-toggle").forEach((btn) => {
+            btn.addEventListener("click", () => {
+                const row = btn.closest(".news-row");
+                const panel = row?.querySelector(".news-panel");
+                if (!panel) return;
+
+                const willOpen = panel.hidden;
+                linksList.querySelectorAll(".news-row.is-open").forEach((openRow) => {
+                    if (openRow === row) return;
+                    openRow.classList.remove("is-open");
+                    const openBtn = openRow.querySelector(".news-toggle");
+                    const openPanel = openRow.querySelector(".news-panel");
+                    if (openBtn) openBtn.setAttribute("aria-expanded", "false");
+                    if (openPanel) openPanel.hidden = true;
+                });
+
+                row.classList.toggle("is-open", willOpen);
+                btn.setAttribute("aria-expanded", willOpen ? "true" : "false");
+                panel.hidden = !willOpen;
+            });
+        });
+    }
+
     function renderCards() {
+        if (!linksList) return;
+
         const query = searchQuery.toLowerCase().trim();
         const favs = getFavorites();
+        const currentCat = CATEGORIES.find((c) => c.id === activeCategory) || CATEGORIES[0];
 
-        // Update the Favorites count badge dynamically
         const favCountBadge = document.getElementById("count-favorites");
-        if (favCountBadge) {
-            favCountBadge.textContent = favs.length;
-        }
+        if (favCountBadge) favCountBadge.textContent = favs.length;
 
-        const filtered = HOORN_LINKS.filter(link => {
+        const filtered = HOORN_LINKS.filter((link) => {
             let matchesCategory = false;
             if (activeCategory === "all") {
                 matchesCategory = true;
             } else if (activeCategory === "favorites") {
                 matchesCategory = favs.includes(link.id);
             } else {
-                matchesCategory = link.category === activeCategory;
+                matchesCategory = categoryMatches(currentCat, link);
             }
-            
+
             if (!matchesCategory) return false;
             if (!query) return true;
 
             const inTitle = link.title.toLowerCase().includes(query);
             const inDesc = link.desc.toLowerCase().includes(query);
-            const inTags = link.tags.some(tag => tag.toLowerCase().includes(query));
+            const inTags = link.tags.some((tag) => tag.toLowerCase().includes(query));
             const inCat = link.categoryName.toLowerCase().includes(query);
-
             return inTitle || inDesc || inTags || inCat;
         });
 
-        // Update Title and Counter
-        const currentCatObj = CATEGORIES.find(c => c.id === activeCategory) || CATEGORIES[0];
-        activeCategoryTitle.textContent = query 
-            ? `Zoekresultaten voor "${query}" in ${currentCatObj.name}` 
-            : currentCatObj.name;
-            
-        resultsCount.textContent = `${filtered.length} ${filtered.length === 1 ? 'link' : 'links'}`;
-
-        cardsGrid.innerHTML = "";
+        if (activeCategoryTitle) {
+            activeCategoryTitle.textContent = query
+                ? `Zoekresultaten voor "${query}"`
+                : currentCat.name;
+        }
+        if (resultsCount) {
+            resultsCount.textContent = `${filtered.length} ${filtered.length === 1 ? "link" : "links"}`;
+        }
 
         if (filtered.length === 0) {
+            linksList.hidden = true;
             noResults.hidden = false;
-            cardsGrid.hidden = true;
-
             const noResultsHeading = noResults.querySelector("h3");
             const noResultsText = noResults.querySelector("p");
-
             if (activeCategory === "favorites" && favs.length === 0 && !query) {
                 noResultsHeading.textContent = "Nog geen favorieten";
-                noResultsText.textContent = "Klik op het sterretje (⭐) rechtsboven op een kaart om je favoriete sites hier op te slaan op dit apparaat!";
+                noResultsText.textContent = "Open een link en tik op het sterretje om favorieten op dit apparaat te bewaren.";
             } else {
                 noResultsHeading.textContent = "Geen links gevonden";
-                noResultsText.textContent = "Geen resultaten voor je zoekopdracht. Probeer een ander zoekwoord of kies een andere categorie.";
+                noResultsText.textContent = "Geen resultaten voor je zoekopdracht. Probeer een ander zoekwoord of kies een categorie.";
             }
-        } else {
-            noResults.hidden = true;
-            cardsGrid.hidden = false;
-
-            filtered.forEach(link => {
-                const isFav = favs.includes(link.id);
-
-                const card = document.createElement("a");
-                card.href = link.url;
-                card.target = "_blank";
-                card.rel = "noopener noreferrer";
-                card.className = "card-item";
-
-                // Domain name for preview
-                let domain = "";
-                try {
-                    domain = new URL(link.url).hostname.replace(/^www\./, '');
-                } catch (_) {
-                    domain = link.url;
-                }
-
-                card.innerHTML = `
-                    <div>
-                        <!-- Favoriet Ster Knop -->
-                        <button type="button" class="card-fav-btn ${isFav ? 'is-favorite' : ''}" 
-                                title="${isFav ? 'Verwijder uit favorieten' : 'Voeg toe aan favorieten'}" 
-                                aria-label="Favoriet">
-                            ${isFav ? '★' : '☆'}
-                        </button>
-
-                        <div class="card-top">
-                            <div class="card-icon-box">${link.icon}</div>
-                            <div class="card-title-group">
-                                <div class="card-title">
-                                    <span>${link.title}</span>
-                                    <span class="card-arrow">↗</span>
-                                </div>
-                                <span class="card-badge">${link.categoryName}</span>
-                            </div>
-                        </div>
-                        <p class="card-desc">${link.desc}</p>
-                    </div>
-                    <div class="card-footer">
-                        <span class="card-url-preview">${domain}</span>
-                        <span>Openen ↗</span>
-                    </div>
-                `;
-
-                // Handle star button click without navigating away
-                const favBtn = card.querySelector(".card-fav-btn");
-                favBtn.addEventListener("click", (e) => {
-                    e.preventDefault();
-                    e.stopPropagation();
-
-                    const newFavs = toggleFavorite(link.id);
-                    const nowFav = newFavs.includes(link.id);
-
-                    favBtn.classList.toggle("is-favorite", nowFav);
-                    favBtn.innerHTML = nowFav ? '★' : '☆';
-                    favBtn.title = nowFav ? 'Verwijder uit favorieten' : 'Voeg toe aan favorieten';
-
-                    // Update category counts
-                    const favBadge = document.getElementById("count-favorites");
-                    if (favBadge) favBadge.textContent = newFavs.length;
-
-                    // If currently viewing favorites, re-render to update the list immediately
-                    if (activeCategory === "favorites") {
-                        renderCards();
-                    }
-                });
-
-                cardsGrid.appendChild(card);
-            });
+            return;
         }
+
+        noResults.hidden = true;
+        linksList.hidden = false;
+
+        const rows = filtered.map((link, index) => {
+            const isFav = favs.includes(link.id);
+            let domain = "";
+            try {
+                domain = new URL(link.url).hostname.replace(/^www\./, "");
+            } catch (_) {
+                domain = link.url;
+            }
+            const panelId = `link-panel-${index}`;
+
+            return `
+                <article class="news-row link-row">
+                    <button
+                        type="button"
+                        class="news-toggle"
+                        aria-expanded="false"
+                        aria-controls="${panelId}"
+                    >
+                        <span class="news-item-title">
+                            <span class="link-row-icon" aria-hidden="true">${link.icon}</span>
+                            ${escapeHtml(link.title)}
+                        </span>
+                        <span class="news-chevron" aria-hidden="true"></span>
+                    </button>
+                    <div class="news-panel" id="${panelId}" hidden>
+                        <div class="news-meta">
+                            <span class="news-source">${escapeHtml(link.categoryName)}</span>
+                            ${escapeHtml(domain)}
+                        </div>
+                        <p class="news-blurb">${escapeHtml(link.desc)}</p>
+                        <div class="link-panel-actions">
+                            <button type="button" class="link-fav-btn ${isFav ? "is-favorite" : ""}" data-link-id="${escapeHtml(link.id)}" title="${isFav ? "Verwijder uit favorieten" : "Voeg toe aan favorieten"}">
+                                ${isFav ? "★ Favoriet" : "☆ Favoriet"}
+                            </button>
+                            <a class="news-open" href="${escapeHtml(link.url)}" target="_blank" rel="noopener noreferrer">Open site →</a>
+                        </div>
+                    </div>
+                </article>
+            `;
+        }).join("");
+
+        linksList.innerHTML = `<div class="news-rows">${rows}</div>`;
+        bindLinkToggles();
+
+        linksList.querySelectorAll(".link-fav-btn").forEach((favBtn) => {
+            favBtn.addEventListener("click", (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                const id = favBtn.dataset.linkId;
+                const newFavs = toggleFavorite(id);
+                const nowFav = newFavs.includes(id);
+                favBtn.classList.toggle("is-favorite", nowFav);
+                favBtn.innerHTML = nowFav ? "★ Favoriet" : "☆ Favoriet";
+                favBtn.title = nowFav ? "Verwijder uit favorieten" : "Voeg toe aan favorieten";
+
+                const favBadge = document.getElementById("count-favorites");
+                if (favBadge) favBadge.textContent = newFavs.length;
+
+                if (activeCategory === "favorites") {
+                    renderCards();
+                }
+            });
+        });
     }
 
-    // Search input handler
-    searchInput.addEventListener("input", (e) => {
-        searchQuery = e.target.value;
-        clearSearchBtn.hidden = searchQuery.length === 0;
-        renderCards();
+    viewTabs.forEach((btn) => {
+        btn.addEventListener("click", () => setView(btn.dataset.view));
     });
 
-    clearSearchBtn.addEventListener("click", () => {
-        searchInput.value = "";
-        searchQuery = "";
-        clearSearchBtn.hidden = true;
-        searchInput.focus();
-        renderCards();
-    });
-
-    resetFiltersBtn.addEventListener("click", () => {
-        activeCategory = "all";
-        searchQuery = "";
-        searchInput.value = "";
-        clearSearchBtn.hidden = true;
-        document.querySelectorAll(".cat-btn").forEach(b => {
-            b.classList.toggle("active", b.dataset.category === "all");
+    if (searchInput) {
+        searchInput.addEventListener("input", (e) => {
+            searchQuery = e.target.value;
+            clearSearchBtn.hidden = searchQuery.length === 0;
+            renderCards();
         });
-        renderCards();
-    });
+    }
 
-    // Lappendag Integration (in-page runner)
+    if (clearSearchBtn) {
+        clearSearchBtn.addEventListener("click", () => {
+            searchInput.value = "";
+            searchQuery = "";
+            clearSearchBtn.hidden = true;
+            searchInput.focus();
+            renderCards();
+        });
+    }
+
+    if (resetFiltersBtn) {
+        resetFiltersBtn.addEventListener("click", () => {
+            activeCategory = "all";
+            searchQuery = "";
+            if (searchInput) searchInput.value = "";
+            if (clearSearchBtn) clearSearchBtn.hidden = true;
+            renderCategoryButtons();
+            renderCards();
+        });
+    }
+
     if (startLappendagBtn) {
         startLappendagBtn.addEventListener("click", async () => {
             const repo = "daanbrouwer0-collab/Lappendag";
-            
+
             if (isLappendagLoaded) {
                 appContainer.hidden = false;
                 return;
@@ -1456,7 +1499,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 if (!htmlRaw) throw new Error("Kon Lappendag niet laden.");
 
-                // Rewrite base
                 if (!/<base\s/i.test(htmlRaw)) {
                     htmlRaw = htmlRaw.replace(/<head([^>]*)>/i, `<head$1><base href="${base}/">`);
                 }
@@ -1484,7 +1526,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Initial render
     renderCategoryButtons();
-    renderCards();
+    setView("nieuws");
 });

@@ -37,7 +37,17 @@
                 </div>
             </div>
 
-            <!-- Lokaal nieuwsdigest (onder Lappendag DJ) -->
+            <!-- Hoofd-tabbladen: Nieuws / Links -->
+            <nav class="view-tabs" role="tablist" aria-label="Hoofdweergave">
+                <button type="button" class="view-tab is-active" role="tab" aria-selected="true" data-view="nieuws" id="viewTabNieuws">
+                    Nieuws
+                </button>
+                <button type="button" class="view-tab" role="tab" aria-selected="false" data-view="links" id="viewTabLinks">
+                    Link
+                </button>
+            </nav>
+
+            <!-- Lokaal nieuwsdigest -->
             <section class="news-digest theme-urgent" id="newsDigest" aria-label="Lokaal nieuws">
                 <div class="news-digest-top">
                     <h2 class="news-digest-title">Lokaal nieuws</h2>
@@ -58,43 +68,41 @@
                 </div>
             </section>
 
-            <!-- Zoekbalk & Snelle Filters -->
-            <div class="search-section">
-                <div class="search-bar-wrapper">
-                    <span class="search-icon">🔍</span>
-                    <input type="search" id="searchInput" placeholder="Zoek op onderwerp (bijv. nieuws, paspoort, zwemmen, afval, subsidie)..." autocomplete="off">
-                    <button type="button" id="clearSearchBtn" class="clear-search-btn" hidden title="Wis zoekopdracht">✕</button>
-                </div>
-            </div>
-
-            <!-- Categorie Knoppen Balk -->
-            <nav class="categories-nav" aria-label="Categorieën">
-                <div class="categories-scroll" id="categoryButtonsContainer">
-                    <!-- Dynamisch gegenereerd door JS -->
-                </div>
-            </nav>
-        </header>
-
-        <main class="main-content">
-            <div class="content-container">
-                <!-- Status & Resultaten teller -->
-                <div class="results-header">
-                    <h2 class="active-category-title" id="activeCategoryTitle">Alle Links</h2>
-                    <span class="results-count" id="resultsCount">0 links</span>
+            <!-- Links-panel (zelfde stijl als nieuws) -->
+            <section class="news-digest links-digest theme-links" id="linksPanel" aria-label="Handige links" hidden>
+                <div class="news-digest-top">
+                    <h2 class="news-digest-title">Handige links</h2>
+                    <nav class="news-tabs links-tabs" role="tablist" aria-label="Linkcategorieën" id="categoryButtonsContainer">
+                        <!-- Dynamisch gegenereerd door JS -->
+                    </nav>
                 </div>
 
-                <!-- Kaarten Grid -->
-                <div class="cards-grid" id="cardsGrid">
-                    <!-- Kaarten worden dynamisch geladen door app.js -->
+                <div class="search-section links-search">
+                    <div class="search-bar-wrapper">
+                        <span class="search-icon">🔍</span>
+                        <input type="search" id="searchInput" placeholder="Zoek een link (bijv. paspoort, zwemmen, afval)…" autocomplete="off">
+                        <button type="button" id="clearSearchBtn" class="clear-search-btn" hidden title="Wis zoekopdracht">✕</button>
+                    </div>
                 </div>
 
-                <!-- Geen resultaten melding -->
-                <div class="no-results" id="noResults" hidden>
-                    <div class="no-results-icon">🔎</div>
+                <div id="linksList" class="news-digest-card" aria-label="Linklijst"></div>
+
+                <div class="no-results news-empty-block" id="noResults" hidden>
                     <h3>Geen links gevonden</h3>
                     <p>Geen resultaten voor je zoekopdracht. Probeer een ander zoekwoord of kies een categorie.</p>
                     <button type="button" id="resetFiltersBtn" class="btn btn-secondary">Toon alles</button>
                 </div>
+            </section>
+        </header>
+
+        <main class="main-content" hidden aria-hidden="true">
+            <!-- Oude grid-structuur niet meer in gebruik; behouden voor eventuele compat -->
+            <div class="content-container">
+                <div class="results-header" hidden>
+                    <h2 class="active-category-title" id="activeCategoryTitle">Alle Links</h2>
+                    <span class="results-count" id="resultsCount">0 links</span>
+                </div>
+                <div class="cards-grid" id="cardsGrid" hidden></div>
             </div>
         </main>
     </div>

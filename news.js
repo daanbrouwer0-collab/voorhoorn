@@ -362,8 +362,8 @@ function textContent(node, selector) {
 }
 
 async function fetchViaRss2Json(feedUrl) {
-  const endpoint = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feedUrl)}`;
-  const response = await fetch(endpoint);
+  const endpoint = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feedUrl)}&_=${Date.now()}`;
+  const response = await fetch(endpoint, { cache: "no-store" });
   if (!response.ok) throw new Error(`rss2json HTTP ${response.status}`);
   const data = await response.json();
   if (data.status !== "ok" || !Array.isArray(data.items)) {
@@ -373,8 +373,9 @@ async function fetchViaRss2Json(feedUrl) {
 }
 
 async function fetchViaAllOrigins(feedUrl) {
-  const endpoint = `https://api.allorigins.win/raw?url=${encodeURIComponent(feedUrl)}`;
-  const response = await fetch(endpoint);
+  const bust = `${feedUrl}${feedUrl.includes("?") ? "&" : "?"}_=${Date.now()}`;
+  const endpoint = `https://api.allorigins.win/raw?url=${encodeURIComponent(bust)}`;
+  const response = await fetch(endpoint, { cache: "no-store" });
   if (!response.ok) throw new Error(`AllOrigins HTTP ${response.status}`);
   const xml = await response.text();
   const doc = new DOMParser().parseFromString(xml, "application/xml");
@@ -405,21 +406,26 @@ async function fetchViaAllOrigins(feedUrl) {
 }
 
 async function fetchFeed(source) {
+  // Snellste werkende proxy wint; geen wachten op de trage fallback
   try {
-    const items = await fetchViaRss2Json(source.url);
+    const { items, via } = await Promise.any([
+      fetchViaRss2Json(source.url).then((items) => ({
+        items,
+        via: "rss2json",
+      })),
+      fetchViaAllOrigins(source.url).then((items) => ({
+        items,
+        via: "allorigins",
+      })),
+    ]);
     return {
       source,
       items: normalizeItems(items, source),
-      via: "rss2json",
+      via,
     };
-  } catch (primaryError) {
-    console.warn(`${source.label} via rss2json mislukt:`, primaryError);
-    const items = await fetchViaAllOrigins(source.url);
-    return {
-      source,
-      items: normalizeItems(items, source),
-      via: "allorigins",
-    };
+  } catch (aggregateError) {
+    console.warn(`${source.label} mislukt via beide proxies:`, aggregateError);
+    throw new Error(`${source.label}: geen feed beschikbaar`);
   }
 }
 
@@ -437,14 +443,39 @@ function bucketCounts(items) {
   return counts;
 }
 
+function getOpenArticleTitle() {
+  return (
+    digestEl.querySelector(".news-row.is-open .news-item-title")?.textContent ||
+    null
+  );
+}
+
+function restoreOpenArticle(title) {
+  if (!title) return;
+  digestEl.querySelectorAll(".news-row").forEach((row) => {
+    const rowTitle = row.querySelector(".news-item-title")?.textContent;
+    if (rowTitle !== title) return;
+    const btn = row.querySelector(".news-toggle");
+    const panel = row.querySelector(".news-panel");
+    if (!btn || !panel) return;
+    row.classList.add("is-open");
+    btn.setAttribute("aria-expanded", "true");
+    panel.hidden = false;
+  });
+}
+
 function renderActiveTab() {
   const tab = TABS[activeTab];
   const filtered = tab.filter(allItems);
   const top = pickForTab(filtered, tab.score);
+  const openTitle = getOpenArticleTitle();
 
   if (!top.length) {
     digestEl.hidden = false;
-    digestEl.innerHTML = `<p class="news-empty">Geen berichten voor “${escapeHtml(tab.title)}”.</p>`;
+    const loading = newsDigestEl?.classList.contains("is-loading");
+    digestEl.innerHTML = loading
+      ? `<p class="news-empty">Nieuws laden…</p>`
+      : `<p class="news-empty">Geen berichten voor “${escapeHtml(tab.title)}”.</p>`;
     return;
   }
 
@@ -486,6 +517,7 @@ function renderActiveTab() {
   digestEl.innerHTML = `<div class="news-rows">${rows}</div>`;
 
   bindCardToggles();
+  restoreOpenArticle(openTitle);
 }
 
 function bindCardToggles() {
@@ -524,44 +556,53 @@ function setActiveTab(tabId) {
     btn.classList.toggle("is-active", on);
     btn.setAttribute("aria-selected", on ? "true" : "false");
   });
-  if (allItems.length) renderActiveTab();
+  renderActiveTab();
 }
 
 async function loadNews() {
-  setStatus("Feeds ophalen…");
+  allItems = [];
+  const feedResults = [];
+  let okCount = 0;
+  let failCount = 0;
 
-  const settled = await Promise.allSettled(FEEDS.map(fetchFeed));
-  const ok = settled
-    .filter((r) => r.status === "fulfilled")
-    .map((r) => r.value);
-  const failed = [];
-  settled.forEach((r, i) => {
-    if (r.status === "rejected") {
-      failed.push(FEEDS[i].label);
-      console.error(`${FEEDS[i].label} mislukt:`, r.reason);
-    }
-  });
+  newsDigestEl.classList.add("is-loading");
+  digestEl.hidden = false;
+  digestEl.innerHTML = '<p class="news-empty">Nieuws laden…</p>';
 
-  if (!ok.length) {
-    setStatus("Kon geen feeds ophalen. Probeer opnieuw.", true);
-    digestEl.hidden = false;
+  const ingest = (result) => {
+    feedResults.push(result);
+    okCount += 1;
+    allItems = mergeFeeds(feedResults);
+    renderActiveTab();
+  };
+
+  // Parallel: elke feed die klaar is → meteen op scherm
+  await Promise.all(
+    FEEDS.map(async (source) => {
+      try {
+        const result = await fetchFeed(source);
+        ingest(result);
+      } catch (err) {
+        failCount += 1;
+        console.error(`${source.label} mislukt:`, err);
+      }
+    })
+  );
+
+  newsDigestEl.classList.remove("is-loading");
+
+  if (!okCount) {
     digestEl.innerHTML =
       '<p class="news-empty">Geen berichten geladen. Vernieuw de pagina en probeer opnieuw.</p>';
     return;
   }
 
-  allItems = mergeFeeds(ok);
+  // Laatste render zonder loading-state
   renderActiveTab();
 
   const counts = bucketCounts(allItems);
-  const now = new Intl.DateTimeFormat("nl-NL", {
-    timeStyle: "medium",
-  }).format(new Date());
-  const sources = [...new Set(ok.map((r) => r.source.label))].join(" + ");
-  const warn = failed.length ? ` · ontbreekt: ${failed.join(", ")}` : "";
   setStatus(
-    `${allItems.length} items · U ${counts.urgent} · C ${counts.cultuur} · S ${counts.sport} · ${sources} · ${now}${warn}`,
-    failed.length > 0
+    `${allItems.length} items · U ${counts.urgent} · C ${counts.cultuur} · S ${counts.sport} · ${okCount} feeds${failCount ? ` · ${failCount} mislukt` : ""}`
   );
 }
 
