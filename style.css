@@ -481,25 +481,9 @@ body {
 
 .header-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 24px;
-    margin-bottom: 28px;
-}
-
-.logo-badge {
-    display: inline-block;
-    padding: 4px 12px;
-    background: rgba(99, 102, 241, 0.15);
-    border: 1px solid rgba(99, 102, 241, 0.3);
-    border-radius: 16px;
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.8px;
-    text-transform: uppercase;
-    color: var(--primary-light);
-    margin-bottom: 8px;
+    margin-bottom: 20px;
 }
 
 .logo-title {
@@ -508,20 +492,224 @@ body {
     font-weight: 800;
     letter-spacing: -0.5px;
     line-height: 1.1;
+    text-align: center;
     background: linear-gradient(135deg, #ffffff 30%, #cbd5e1 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 8px;
+    background-clip: text;
+    margin: 0;
 }
 
-.logo-subtitle {
-    font-size: 1rem;
+/* Uitgelichte slideshow */
+.promo-slideshow {
+    margin: 0 0 24px;
+}
+
+.promo-viewport {
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.promo-track {
+    display: flex;
+    transition: transform 0.55s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: transform;
+}
+
+.promo-slide {
+    flex: 0 0 100%;
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.promo-card {
+    --promo-accent: #818cf8;
+    --promo-glow: rgba(99, 102, 241, 0.35);
+    --promo-wash: rgba(99, 102, 241, 0.22);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    min-height: 112px;
+    padding: 20px 22px;
+    border: 1px solid color-mix(in srgb, var(--promo-accent) 42%, transparent);
+    border-radius: 20px;
+    background:
+        radial-gradient(circle at 92% 18%, var(--promo-wash), transparent 42%),
+        radial-gradient(circle at 8% 90%, color-mix(in srgb, var(--promo-accent) 18%, transparent), transparent 40%),
+        linear-gradient(135deg, rgba(18, 24, 38, 0.96) 0%, rgba(12, 16, 28, 0.92) 100%);
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font: inherit;
+    text-align: left;
+    appearance: none;
+    box-shadow:
+        0 12px 32px rgba(0, 0, 0, 0.28),
+        0 0 0 1px color-mix(in srgb, var(--promo-accent) 12%, transparent),
+        inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    transition:
+        border-color 0.25s ease,
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.promo-card:hover,
+.promo-card:focus-visible {
+    outline: none;
+    border-color: color-mix(in srgb, var(--promo-accent) 75%, #fff);
+    transform: translateY(-2px);
+    box-shadow:
+        0 16px 36px var(--promo-glow),
+        0 0 0 1px color-mix(in srgb, var(--promo-accent) 28%, transparent),
+        inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.promo-theme-lappendag {
+    --promo-accent: #f472b6;
+    --promo-glow: rgba(236, 72, 153, 0.35);
+    --promo-wash: rgba(236, 72, 153, 0.28);
+}
+
+.promo-theme-mooiestad {
+    --promo-accent: #34d399;
+    --promo-glow: rgba(16, 185, 129, 0.32);
+    --promo-wash: rgba(16, 185, 129, 0.24);
+}
+
+.promo-theme-buurtbudget {
+    --promo-accent: #fbbf24;
+    --promo-glow: rgba(245, 158, 11, 0.3);
+    --promo-wash: rgba(245, 158, 11, 0.22);
+}
+
+.promo-theme-cultuurfonds {
+    --promo-accent: #c084fc;
+    --promo-glow: rgba(168, 85, 247, 0.32);
+    --promo-wash: rgba(168, 85, 247, 0.24);
+}
+
+.promo-theme-parkeren {
+    --promo-accent: #60a5fa;
+    --promo-glow: rgba(59, 130, 246, 0.32);
+    --promo-wash: rgba(59, 130, 246, 0.24);
+}
+
+.promo-theme-dgame {
+    --promo-accent: #22d3ee;
+    --promo-glow: rgba(6, 182, 212, 0.32);
+    --promo-wash: rgba(6, 182, 212, 0.24);
+}
+
+.promo-card-icon {
+    flex: 0 0 auto;
+    display: grid;
+    place-items: center;
+    width: 3.1rem;
+    height: 3.1rem;
+    border-radius: 14px;
+    font-size: 1.55rem;
+    line-height: 1;
+    background: color-mix(in srgb, var(--promo-accent) 18%, rgba(255, 255, 255, 0.04));
+    border: 1px solid color-mix(in srgb, var(--promo-accent) 35%, transparent);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.promo-card-text {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.promo-card-title {
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+}
+
+.promo-card-sub {
+    font-size: 0.9rem;
     color: var(--text-muted);
-    max-width: 540px;
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
-/* Special Lappendag Action Button */
+.promo-card-cta {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 14px;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--promo-accent) 88%, #111);
+    color: #0b1020;
+    font-family: var(--font-heading);
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    box-shadow: 0 6px 16px color-mix(in srgb, var(--promo-accent) 28%, transparent);
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.promo-card:hover .promo-card-cta,
+.promo-card:focus-visible .promo-card-cta {
+    transform: translateX(2px);
+    background: color-mix(in srgb, var(--promo-accent) 75%, #fff);
+}
+
+.promo-card-arrow {
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.promo-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 14px;
+}
+
+.promo-dot {
+    width: 8px;
+    height: 8px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.22);
+    cursor: pointer;
+    transition: background 0.25s ease, transform 0.25s ease, width 0.25s ease;
+}
+
+.promo-dot:hover {
+    background: rgba(255, 255, 255, 0.45);
+}
+
+.promo-dot.is-active {
+    width: 24px;
+    border-radius: 999px;
+    background: var(--primary-light);
+}
+
+@media (max-width: 640px) {
+    .promo-card {
+        flex-wrap: wrap;
+        min-height: 0;
+        padding: 16px;
+        gap: 12px;
+    }
+
+    .promo-card-cta {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Special Lappendag Action Button (legacy, unused) */
 .btn-lappendag {
     display: inline-flex;
     align-items: center;
@@ -1087,12 +1275,8 @@ body {
     .logo-title {
         font-size: 2.2rem;
     }
-    .header-container {
-        flex-direction: column;
-        align-items: stretch;
-    }
-    .btn-lappendag {
-        justify-content: center;
+    .promo-card-title {
+        font-size: 1.05rem;
     }
     .cards-grid {
         grid-template-columns: 1fr;

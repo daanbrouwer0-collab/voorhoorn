@@ -1209,6 +1209,63 @@ function escapeHtml(text) {
         .replaceAll('"', "&quot;");
 }
 
+const PROMO_SLIDES = [
+    {
+        id: "lappendag",
+        title: "Lappendag DJ",
+        subtitle: "Interactieve music player voor de Lappendag",
+        cta: "Start DJ",
+        icon: "🏮",
+        theme: "lappendag",
+        action: "lappendag",
+    },
+    {
+        id: "voor-een-mooie-stad",
+        title: "Voor Een Mooie Stad",
+        subtitle: "Wijkprojecten, geveltuinen en crowdfunding in Hoorn",
+        cta: "Naar site",
+        icon: "💡",
+        theme: "mooiestad",
+        url: "https://vooreenmooiestad.nl/",
+    },
+    {
+        id: "buurtbudget-feest",
+        title: "Buurtbudget €300",
+        subtitle: "Vergoeding voor materialen bij een buurtfeest",
+        cta: "Aanvragen",
+        icon: "🎉",
+        theme: "buurtbudget",
+        url: "https://www.hoorn.nl/buurtbudget",
+    },
+    {
+        id: "cultuurfonds-nh",
+        title: "Cultuurfonds",
+        subtitle: "Bijdrage voor kunst-, muziek- en cultuurprojecten",
+        cta: "Bekijken",
+        icon: "🎨",
+        theme: "cultuurfonds",
+        url: "https://www.cultuurfonds.nl/",
+    },
+    {
+        id: "parkeerbon-bezwaar",
+        title: "Parkeerbon bezwaar",
+        subtitle: "Parkeerbon betalen of bezwaar maken in Hoorn",
+        cta: "Naar pagina",
+        icon: "🅿️",
+        theme: "parkeren",
+        url: "https://www.hoorn.nl/parkeerboete",
+    },
+    {
+        id: "d-game",
+        title: "D-Game",
+        subtitle: "Speel gratis spelletjes op d-game.nl",
+        cta: "Speel nu",
+        icon: "🎮",
+        theme: "dgame",
+        url: "https://www.d-game.nl/",
+    },
+];
+
 document.addEventListener('DOMContentLoaded', () => {
     let activeCategory = "all";
     let searchQuery = "";
@@ -1226,7 +1283,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const linksPanel = document.getElementById("linksPanel");
     const viewTabs = [...document.querySelectorAll(".view-tab")];
 
-    const startLappendagBtn = document.getElementById("startLappendagBtn");
+    const promoTrack = document.getElementById("promoTrack");
+    const promoDots = document.getElementById("promoDots");
+    const promoSlideshow = document.getElementById("promoSlideshow");
     const appContainer = document.getElementById("appContainer");
     const backBtn = document.getElementById("backBtn");
     const frame = document.getElementById("site-frame");
@@ -1234,6 +1293,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const errorContainer = document.getElementById("site-error");
 
     let isLappendagLoaded = false;
+    let promoIndex = 0;
+    let promoTimer = null;
 
     function setView(view) {
         activeView = view;
@@ -1265,7 +1326,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const btn = document.createElement("button");
             btn.type = "button";
             btn.className = `news-tab ${cat.id === activeCategory ? "is-active" : ""} ${cat.id === "favorites" ? "news-tab-fav" : ""}`;
-            btn.role = "tab";
+            btn.setAttribute("role", "tab");
             btn.dataset.category = cat.id;
             btn.setAttribute("aria-selected", cat.id === activeCategory ? "true" : "false");
 
@@ -1433,6 +1494,158 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    async function openLappendag() {
+        const repo = "daanbrouwer0-collab/Lappendag";
+
+        if (isLappendagLoaded) {
+            appContainer.hidden = false;
+            return;
+        }
+
+        loading.hidden = false;
+
+        try {
+            const tryBases = [
+                `https://cdn.jsdelivr.net/gh/${repo}@main`,
+                `https://raw.githubusercontent.com/${repo}/main`
+            ];
+
+            let htmlRaw = "";
+            let base = "";
+
+            for (const tryBase of tryBases) {
+                try {
+                    const res = await fetch(`${tryBase}/index.html`, { cache: "no-cache" });
+                    if (res.ok) {
+                        htmlRaw = await res.text();
+                        base = tryBase;
+                        break;
+                    }
+                } catch (_) {}
+            }
+
+            if (!htmlRaw) throw new Error("Kon Lappendag niet laden.");
+
+            if (!/<base\s/i.test(htmlRaw)) {
+                htmlRaw = htmlRaw.replace(/<head([^>]*)>/i, `<head$1><base href="${base}/">`);
+            }
+
+            frame.onload = () => {
+                loading.hidden = true;
+                appContainer.hidden = false;
+                isLappendagLoaded = true;
+            };
+
+            frame.srcdoc = htmlRaw;
+        } catch (err) {
+            loading.hidden = true;
+            if (errorContainer) {
+                errorContainer.hidden = false;
+            }
+        }
+    }
+
+    function setPromoIndex(index, { restart = true } = {}) {
+        if (!promoTrack || !PROMO_SLIDES.length) return;
+        promoIndex = ((index % PROMO_SLIDES.length) + PROMO_SLIDES.length) % PROMO_SLIDES.length;
+        promoTrack.style.transform = `translateX(-${promoIndex * 100}%)`;
+
+        if (promoDots) {
+            promoDots.querySelectorAll(".promo-dot").forEach((dot, i) => {
+                const on = i === promoIndex;
+                dot.classList.toggle("is-active", on);
+                dot.setAttribute("aria-selected", on ? "true" : "false");
+            });
+        }
+
+        if (restart) restartPromoTimer();
+    }
+
+    function restartPromoTimer() {
+        if (promoTimer) clearInterval(promoTimer);
+        promoTimer = setInterval(() => {
+            setPromoIndex(promoIndex + 1, { restart: false });
+        }, 5000);
+    }
+
+    function initPromoSlideshow() {
+        if (!promoTrack || !promoDots) return;
+
+        promoTrack.innerHTML = PROMO_SLIDES.map((slide, index) => {
+            const theme = escapeHtml(slide.theme || "default");
+            const cta = escapeHtml(slide.cta || "Open");
+
+            return `
+                <div class="promo-slide" data-slide-index="${index}">
+                    <button
+                        type="button"
+                        class="promo-card promo-theme-${theme}"
+                        data-slide-id="${escapeHtml(slide.id)}"
+                        aria-label="${escapeHtml(slide.title)} — ${cta}"
+                    >
+                        <span class="promo-card-icon" aria-hidden="true">${slide.icon}</span>
+                        <span class="promo-card-text">
+                            <span class="promo-card-title">${escapeHtml(slide.title)}</span>
+                            <span class="promo-card-sub">${escapeHtml(slide.subtitle)}</span>
+                        </span>
+                        <span class="promo-card-cta">
+                            <span>${cta}</span>
+                            <span class="promo-card-arrow" aria-hidden="true">→</span>
+                        </span>
+                    </button>
+                </div>
+            `;
+        }).join("");
+
+        promoDots.innerHTML = PROMO_SLIDES.map((slide, i) => `
+            <button
+                type="button"
+                class="promo-dot ${i === 0 ? "is-active" : ""}"
+                role="tab"
+                aria-label="Slide ${i + 1}: ${escapeHtml(slide.title)}"
+                aria-selected="${i === 0 ? "true" : "false"}"
+                data-index="${i}"
+            ></button>
+        `).join("");
+
+        promoTrack.querySelectorAll(".promo-card").forEach((card) => {
+            card.addEventListener("click", () => {
+                const slide = PROMO_SLIDES.find((s) => s.id === card.dataset.slideId);
+                if (!slide) return;
+                if (slide.action === "lappendag") {
+                    openLappendag();
+                    return;
+                }
+                if (slide.url) {
+                    window.open(slide.url, "_blank", "noopener,noreferrer");
+                }
+            });
+        });
+
+        promoDots.querySelectorAll(".promo-dot").forEach((dot) => {
+            dot.addEventListener("click", () => {
+                setPromoIndex(Number(dot.dataset.index));
+            });
+        });
+
+        if (promoSlideshow) {
+            promoSlideshow.addEventListener("mouseenter", () => {
+                if (promoTimer) clearInterval(promoTimer);
+                promoTimer = null;
+            });
+            promoSlideshow.addEventListener("mouseleave", () => restartPromoTimer());
+            promoSlideshow.addEventListener("focusin", () => {
+                if (promoTimer) clearInterval(promoTimer);
+                promoTimer = null;
+            });
+            promoSlideshow.addEventListener("focusout", (e) => {
+                if (!promoSlideshow.contains(e.relatedTarget)) restartPromoTimer();
+            });
+        }
+
+        setPromoIndex(0);
+    }
+
     viewTabs.forEach((btn) => {
         btn.addEventListener("click", () => setView(btn.dataset.view));
     });
@@ -1466,59 +1679,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    if (startLappendagBtn) {
-        startLappendagBtn.addEventListener("click", async () => {
-            const repo = "daanbrouwer0-collab/Lappendag";
-
-            if (isLappendagLoaded) {
-                appContainer.hidden = false;
-                return;
-            }
-
-            loading.hidden = false;
-
-            try {
-                const tryBases = [
-                    `https://cdn.jsdelivr.net/gh/${repo}@main`,
-                    `https://raw.githubusercontent.com/${repo}/main`
-                ];
-
-                let htmlRaw = "";
-                let base = "";
-
-                for (const tryBase of tryBases) {
-                    try {
-                        const res = await fetch(`${tryBase}/index.html`, { cache: "no-cache" });
-                        if (res.ok) {
-                            htmlRaw = await res.text();
-                            base = tryBase;
-                            break;
-                        }
-                    } catch (_) {}
-                }
-
-                if (!htmlRaw) throw new Error("Kon Lappendag niet laden.");
-
-                if (!/<base\s/i.test(htmlRaw)) {
-                    htmlRaw = htmlRaw.replace(/<head([^>]*)>/i, `<head$1><base href="${base}/">`);
-                }
-
-                frame.onload = () => {
-                    loading.hidden = true;
-                    appContainer.hidden = false;
-                    isLappendagLoaded = true;
-                };
-
-                frame.srcdoc = htmlRaw;
-            } catch (err) {
-                loading.hidden = true;
-                if (errorContainer) {
-                    errorContainer.hidden = false;
-                }
-            }
-        });
-    }
-
     if (backBtn) {
         backBtn.addEventListener("click", () => {
             appContainer.hidden = true;
@@ -1526,6 +1686,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    initPromoSlideshow();
     renderCategoryButtons();
     setView("nieuws");
 });

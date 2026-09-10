@@ -19,23 +19,17 @@
         <header class="header">
             <div class="header-container">
                 <div class="logo-area">
-                    <span class="logo-badge">Hoorn Portaal</span>
                     <h1 class="logo-title">Voorhoorn</h1>
-                    <p class="logo-subtitle">Alle handige websites, diensten, subsidies en evenementen in Hoorn op één plek.</p>
-                </div>
-
-                <!-- Speciale Lappendag Knop -->
-                <div class="special-action">
-                    <button type="button" id="startLappendagBtn" class="btn btn-lappendag" title="Start Lappendag DJ">
-                        <span class="btn-icon">🏮</span>
-                        <div class="btn-text-group">
-                            <span class="btn-primary-text">Lappendag DJ</span>
-                            <span class="btn-sub-text">Interactieve Music Player</span>
-                        </div>
-                        <span class="btn-arrow">→</span>
-                    </button>
                 </div>
             </div>
+
+            <!-- Uitgelichte links (slideshow) -->
+            <section class="promo-slideshow" id="promoSlideshow" aria-roledescription="carousel" aria-label="Uitgelichte links">
+                <div class="promo-viewport">
+                    <div class="promo-track" id="promoTrack"></div>
+                </div>
+                <div class="promo-dots" id="promoDots" role="tablist" aria-label="Slideshow navigatie"></div>
+            </section>
 
             <!-- Hoofd-tabbladen: Nieuws / Links -->
             <nav class="view-tabs" role="tablist" aria-label="Hoofdweergave">
