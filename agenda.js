@@ -1,12 +1,24 @@
 const AGENDA_API = "https://komnaarhoorn.nl/wp-json/agenda/v1";
 const MANIFESTO_FEED = "https://manifesto-hoorn.nl/upcoming_productions";
 const NETWERK_BASE = "https://netwerkhoorn.nl/activiteiten";
+const RAAD_CALENDAR_API =
+  "https://hoorn.bestuurlijkeinformatie.nl/Calendar/GetMonthAgendas";
+const RAAD_SITE = "https://hoorn.bestuurlijkeinformatie.nl";
 
 const AGENDA_DATE_LABELS = {
   this_week: "Deze week",
   this_month: "Deze maand",
   next_month: "Volgende maand",
   this_year: "Alles",
+};
+
+const AGENDA_VIEW_NOTES = {
+  stad:
+    'Bronnen: Kom naar Hoorn, Manifesto, Netwerk Hoorn · <a href="https://komnaarhoorn.nl/agenda/" target="_blank" rel="noopener noreferrer">Volledige agenda</a>',
+  kinderen:
+    'Activiteiten voor kids &amp; jongeren · <a href="https://komnaarhoorn.nl/agenda/" target="_blank" rel="noopener noreferrer">Kom naar Hoorn</a>',
+  raad:
+    'Vergaderingen via iBabs · <a href="https://hoorn.bestuurlijkeinformatie.nl/Calendar" target="_blank" rel="noopener noreferrer">Raadskalender</a>',
 };
 
 const DUTCH_MONTHS = {
@@ -36,30 +48,25 @@ const DUTCH_MONTHS = {
   december: 11,
 };
 
-const SPORT_STRONG_RE =
-  /\b(sport|voetbal|hockey|tennis|atletiek|wielrennen|fiets|bike|hardloop|marathon|zwem|fitness|toernooi|wedstrijd|ironman|padel|volleybal|basketbal)\b/i;
-
-const SPORT_FALSE_RE =
-  /\b(zoomer|bingo|quiz|concert|tribute|dans|muziek|karaoke|festival|theater|expositie|workshop schilderen|keramiek)\b/i;
+const KIDS_RE =
+  /\b(kind|kids|kinderen|jongeren|jeugd|familie|peuter|kleuter|schoolvakantie|jeugdtheater|voor\s+de\s+jeugd)\b/i;
 
 const agendaPanel = document.getElementById("agendaPanel");
 const agendaList = document.getElementById("agendaList");
-const agendaCategoryTabs = document.getElementById("agendaCategoryTabs");
+const agendaViewTabs = document.getElementById("agendaViewTabs");
 const agendaDateTabs = document.getElementById("agendaDateTabs");
-const agendaAccessTabs = document.getElementById("agendaAccessTabs");
-const agendaSourceTabs = document.getElementById("agendaSourceTabs");
 const agendaCount = document.getElementById("agendaCount");
-const agendaMoreFilters = document.getElementById("agendaMoreFilters");
-const agendaMoreFiltersBtn = document.getElementById("agendaMoreFiltersBtn");
+const agendaSourceNote = document.getElementById("agendaSourceNote");
 
 let agendaEvents = [];
-let agendaLoaded = false;
+let cityEventsCache = [];
+let raadEventsCache = [];
+let cityLoaded = false;
+let raadLoaded = false;
 let agendaLoading = false;
 let agendaFilters = {
   dateRange: "this_month",
-  category: "",
-  access: "",
-  source: "",
+  view: "stad",
 };
 
 function agendaEscape(text) {
@@ -93,7 +100,6 @@ function toIsoDate(year, monthIndex, day) {
 function parseDutchDateFromText(text) {
   if (!text) return "";
   const normalized = decodeEntities(text).toLowerCase().replace(/\./g, "");
-  // 11 september 2026 | 10 sep '26 | 10 sep 2026
   let m = normalized.match(
     /(\d{1,2})\s+(januari|februari|maart|april|mei|juni|juli|augustus|september|oktober|november|december|jan|feb|mrt|apr|jun|jul|aug|sep|sept|okt|nov|dec)\s+'?(\d{2,4})/i
   );
@@ -110,7 +116,7 @@ function startOfDay(d) {
 }
 
 function endOfWeek(d) {
-  const day = d.getDay(); // 0 sun
+  const day = d.getDay();
   const diff = day === 0 ? 0 : 7 - day;
   return new Date(d.getFullYear(), d.getMonth(), d.getDate() + diff, 23, 59, 59);
 }
@@ -137,7 +143,6 @@ function inSelectedDateRange(isoDate) {
     const nextYear = now.getMonth() === 11 ? now.getFullYear() + 1 : now.getFullYear();
     return eventDate.getFullYear() === nextYear && eventDate.getMonth() === nextMonth;
   }
-  // this_year / alles: from today onward this year + future
   return eventDate >= now;
 }
 
@@ -150,6 +155,22 @@ function formatAgendaDate(isoDate) {
     day: "numeric",
     month: "short",
   }).format(date);
+}
+
+/** Compacte chip: dagnummer + korte weekdag (bijv. 11 / vr). */
+function formatAgendaDateParts(isoDate) {
+  if (!isoDate) return null;
+  const date = new Date(`${isoDate}T12:00:00`);
+  if (Number.isNaN(date.getTime())) return null;
+  const weekday = new Intl.DateTimeFormat("nl-NL", { weekday: "short" })
+    .format(date)
+    .replace(/\./g, "")
+    .slice(0, 2);
+  return {
+    day: String(date.getDate()),
+    weekday: weekday.toLowerCase(),
+    label: formatAgendaDate(isoDate),
+  };
 }
 
 function formatAgendaWhen(event) {
@@ -188,15 +209,8 @@ async function fetchAgendaJson(url) {
 function buildAgendaQuery(page = 1) {
   const params = new URLSearchParams();
   params.set("page", String(page));
-  // Voor festivals e.d. altijd breed ophalen; periode filteren we client-side
-  // behalve access/category die de API goed kan.
-  const apiDateRange =
-    agendaFilters.category === "festival" || agendaFilters.category === "sport"
-      ? "this_year"
-      : agendaFilters.dateRange || "this_year";
-  params.set("dateRange", apiDateRange);
-  if (agendaFilters.category) params.set("categories", agendaFilters.category);
-  if (agendaFilters.access) params.set("access", agendaFilters.access);
+  // Breed ophalen; periode + kids filteren we client-side
+  params.set("dateRange", "this_year");
   return params.toString();
 }
 
@@ -247,17 +261,10 @@ function parseAgendaArticles(html) {
         endTime: clockTimes[1] || "",
         sourceId: "komnaarhoorn",
         sourceLabel: "Kom naar Hoorn",
-        categories: agendaFilters.category ? [agendaFilters.category] : [],
+        categories: [],
       };
     })
     .filter((item) => item.link && item.link !== "#");
-}
-
-function looksLikeRealSport(event) {
-  const text = `${event.title} ${event.description}`;
-  if (SPORT_STRONG_RE.test(text)) return true;
-  if (SPORT_FALSE_RE.test(text)) return false;
-  return true;
 }
 
 function parseManifestoFeed(xmlText) {
@@ -321,6 +328,7 @@ function parseNetwerkPage(html) {
     const dateText = dateSpan?.textContent?.trim() || "";
     const startDate = parseDutchDateFromText(dateText);
     const categoryHint = a.textContent || "";
+    const kids = /jongeren|kids|kind|jeugd|familie/i.test(categoryHint);
 
     events.push({
       id: `netwerk-${link}-${startDate || title}`,
@@ -334,13 +342,65 @@ function parseNetwerkPage(html) {
       endTime: "",
       sourceId: "netwerk",
       sourceLabel: "Netwerk Hoorn",
-      categories: /jongeren|kids|kind/i.test(categoryHint)
-        ? ["voor-kinderen"]
-        : ["creatief"],
+      categories: kids ? ["voor-kinderen"] : ["creatief"],
     });
   }
 
   return events;
+}
+
+function parseRaadMonthHtml(html) {
+  if (!html) return [];
+  const doc = new DOMParser().parseFromString(html, "text/html");
+  const events = [];
+
+  doc.querySelectorAll(".calendar-items-row").forEach((row) => {
+    row.querySelectorAll("a.calendar-item").forEach((a) => {
+      const href = a.getAttribute("href") || "";
+      const link = href.startsWith("http") ? href : `${RAAD_SITE}${href}`;
+      const labelEl = a.querySelector(".calendar-item-label");
+      const location =
+        labelEl?.querySelector(".calendar-item-location")?.textContent?.trim() ||
+        "Raadzaal";
+      const subtitle =
+        labelEl?.querySelector(".calendar-item-subtitle")?.textContent?.trim() ||
+        "";
+      const labelClone = labelEl?.cloneNode(true);
+      labelClone
+        ?.querySelectorAll(".calendar-item-location, .calendar-item-subtitle")
+        .forEach((el) => el.remove());
+      const mainTitle = labelClone?.textContent?.replace(/\s+/g, " ").trim();
+      const title = decodeEntities(mainTitle || subtitle || "Vergadering");
+
+      const srDate = a.querySelector(".sr-only")?.textContent?.trim() || "";
+      const startDate = parseDutchDateFromText(srDate);
+      if (!startDate) return;
+
+      const timeText = a.querySelector(".calendar-item-time")?.textContent?.trim() || "";
+      const timeMatch = timeText.match(/(\d{1,2}:\d{2})\s*-\s*(\d{1,2}:\d{2})/);
+      const descEl = a.parentElement?.querySelector(".calendar-item-description");
+      const description = descEl
+        ? stripTags(descEl.innerHTML)
+        : "Raads- of commissievergadering van de gemeente Hoorn.";
+
+      events.push({
+        id: `raad-${link}`,
+        title,
+        link,
+        location: decodeEntities(location.replace(/[()]/g, "").trim()),
+        description: decodeEntities(description).slice(0, 420),
+        startDate,
+        endDate: "",
+        startTime: timeMatch?.[1] || "",
+        endTime: timeMatch?.[2] || "",
+        sourceId: "raad",
+        sourceLabel: "Gemeenteraad",
+        categories: ["raad"],
+      });
+    });
+  });
+
+  return events.filter((e) => e.link && e.startDate);
 }
 
 function titleKey(title) {
@@ -376,41 +436,17 @@ function dedupeEvents(items) {
   return out;
 }
 
-function matchesCategoryLocally(event) {
-  const cat = agendaFilters.category;
-  if (!cat) return true;
-  if (event.categories?.includes(cat)) return true;
-
-  const text = `${event.title} ${event.description}`.toLowerCase();
-  if (cat === "muziek") {
-    return /muziek|concert|dj|band|pop|tribute|unplugged|manifesto|dans/.test(text);
-  }
-  if (cat === "festival") {
-    return /festival|kermis|weekend|ronde|week\b/.test(text);
-  }
-  if (cat === "sport") return looksLikeRealSport(event);
-  if (cat === "voor-kinderen") {
-    return /kind|kids|jongeren|jeugd|school/.test(text);
-  }
-  if (cat === "creatief") {
-    return /teken|schilder|workshop|creatief|naai|beelden|kunst/.test(text);
-  }
-  return false;
+function isKidsEvent(event) {
+  if (event.categories?.includes("voor-kinderen")) return true;
+  return KIDS_RE.test(`${event.title} ${event.description} ${event.location}`);
 }
 
 function applyClientFilters(events) {
   return events.filter((event) => {
-    if (agendaFilters.source && event.sourceId !== agendaFilters.source) {
-      return false;
-    }
     if (!inSelectedDateRange(event.startDate)) return false;
-    if (agendaFilters.category === "sport" && event.sourceId === "komnaarhoorn") {
-      // Kom naar Hoorn over-tagt soms (bijv. Zoomer als sport)
-      if (!looksLikeRealSport(event)) return false;
-    }
-    if (agendaFilters.category && event.sourceId !== "komnaarhoorn") {
-      if (!matchesCategoryLocally(event)) return false;
-    }
+    if (agendaFilters.view === "kinderen" && !isKidsEvent(event)) return false;
+    if (agendaFilters.view === "raad" && event.sourceId !== "raad") return false;
+    if (agendaFilters.view !== "raad" && event.sourceId === "raad") return false;
     return true;
   });
 }
@@ -424,81 +460,39 @@ function setActiveTabGroup(container, attr, value) {
   });
 }
 
-function renderAgendaCategoryTabs(categories = []) {
-  if (!agendaCategoryTabs) return;
-  const preferred = [
-    "festival",
-    "muziek",
-    "creatief",
-    "voor-kinderen",
-    "sport",
-    "eten-drinken",
-    "winkelen",
-  ];
-  const bySlug = Object.fromEntries(
-    categories.map((c) => [c.slug, decodeEntities(stripTags(c.name || c.slug))])
-  );
-  const buttons = [
-    { slug: "", name: "Alles" },
-    ...preferred
-      .filter((slug) => bySlug[slug] || true)
-      .map((slug) => ({ slug, name: bySlug[slug] || slug })),
-  ];
+function updateSourceNote() {
+  if (!agendaSourceNote) return;
+  agendaSourceNote.innerHTML =
+    AGENDA_VIEW_NOTES[agendaFilters.view] || AGENDA_VIEW_NOTES.stad;
+}
 
-  // Unique by slug
-  const seen = new Set();
-  const unique = buttons.filter((b) => {
-    if (seen.has(b.slug)) return false;
-    seen.add(b.slug);
-    return true;
-  });
-
-  agendaCategoryTabs.innerHTML = unique
-    .map(
-      (cat) => `
-      <button
-        type="button"
-        class="news-tab ${cat.slug === agendaFilters.category ? "is-active" : ""}"
-        role="tab"
-        aria-selected="${cat.slug === agendaFilters.category ? "true" : "false"}"
-        data-category="${agendaEscape(cat.slug)}"
-      >${agendaEscape(cat.name)}</button>
-    `
-    )
-    .join("");
-
-  agendaCategoryTabs.querySelectorAll(".news-tab").forEach((btn) => {
+function bindAgendaViewTabs() {
+  agendaViewTabs?.querySelectorAll(".news-tab").forEach((btn) => {
     btn.addEventListener("click", () => {
-      agendaFilters.category = btn.dataset.category || "";
-      setActiveTabGroup(agendaCategoryTabs, "data-category", agendaFilters.category);
-      // Festivals staan vaak later in het jaar
-      if (
-        agendaFilters.category === "festival" &&
-        (agendaFilters.dateRange === "this_week" ||
-          agendaFilters.dateRange === "this_month")
-      ) {
-        agendaFilters.dateRange = "this_year";
-        setActiveTabGroup(agendaDateTabs, "data-date-range", "this_year");
+      const next = btn.dataset.agendaView || "stad";
+      if (next === agendaFilters.view) return;
+      agendaFilters.view = next;
+      setActiveTabGroup(agendaViewTabs, "data-agenda-view", agendaFilters.view);
+      updateSourceNote();
+
+      if (next === "raad") {
+        if (raadLoaded) {
+          agendaEvents = raadEventsCache;
+          renderAgendaList();
+        } else {
+          loadAgenda({ force: true });
+        }
+        return;
+      }
+
+      if (cityLoaded) {
+        agendaEvents = cityEventsCache;
+        renderAgendaList();
+        return;
       }
       loadAgenda({ force: true });
     });
   });
-}
-
-function updateMoreFiltersButton() {
-  if (!agendaMoreFiltersBtn) return;
-  const extras = [];
-  if (agendaFilters.source === "komnaarhoorn") extras.push("Kom naar Hoorn");
-  if (agendaFilters.source === "manifesto") extras.push("Manifesto");
-  if (agendaFilters.source === "netwerk") extras.push("Netwerk");
-  if (agendaFilters.access === "gratis") extras.push("Gratis");
-  if (agendaFilters.access === "betaald") extras.push("Betaald");
-
-  const hasActive = extras.length > 0;
-  agendaMoreFiltersBtn.classList.toggle("has-active", hasActive);
-  agendaMoreFiltersBtn.textContent = hasActive
-    ? `Meer filters (${extras.length})`
-    : "Meer filters";
 }
 
 function bindAgendaFilterTabs() {
@@ -506,33 +500,18 @@ function bindAgendaFilterTabs() {
     btn.addEventListener("click", () => {
       agendaFilters.dateRange = btn.dataset.dateRange || "this_month";
       setActiveTabGroup(agendaDateTabs, "data-date-range", agendaFilters.dateRange);
+      // Periodefilter is client-side; herladen niet nodig als cache er is
+      if (
+        (agendaFilters.view === "raad" && raadLoaded) ||
+        (agendaFilters.view !== "raad" && cityLoaded)
+      ) {
+        agendaEvents =
+          agendaFilters.view === "raad" ? raadEventsCache : cityEventsCache;
+        renderAgendaList();
+        return;
+      }
       loadAgenda({ force: true });
     });
-  });
-
-  agendaAccessTabs?.querySelectorAll(".news-tab").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      agendaFilters.access = btn.dataset.access || "";
-      setActiveTabGroup(agendaAccessTabs, "data-access", agendaFilters.access);
-      updateMoreFiltersButton();
-      loadAgenda({ force: true });
-    });
-  });
-
-  agendaSourceTabs?.querySelectorAll(".news-tab").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      agendaFilters.source = btn.dataset.source || "";
-      setActiveTabGroup(agendaSourceTabs, "data-source", agendaFilters.source);
-      updateMoreFiltersButton();
-      loadAgenda({ force: true });
-    });
-  });
-
-  agendaMoreFiltersBtn?.addEventListener("click", () => {
-    if (!agendaMoreFilters) return;
-    const open = agendaMoreFilters.hidden;
-    agendaMoreFilters.hidden = !open;
-    agendaMoreFiltersBtn.setAttribute("aria-expanded", open ? "true" : "false");
   });
 }
 
@@ -572,22 +551,29 @@ function renderAgendaList() {
 
   if (agendaCount) {
     const n = filtered.length;
-    agendaCount.textContent =
-      n === 0
-        ? "Geen evenementen"
-        : `${n} ${n === 1 ? "evenement" : "evenementen"}`;
+    const noun =
+      agendaFilters.view === "raad"
+        ? n === 1
+          ? "vergadering"
+          : "vergaderingen"
+        : n === 1
+          ? "evenement"
+          : "evenementen";
+    agendaCount.textContent = n === 0 ? "Niets gevonden" : `${n} ${noun}`;
   }
-  updateMoreFiltersButton();
 
   if (!filtered.length) {
     const period = AGENDA_DATE_LABELS[agendaFilters.dateRange] || "deze periode";
     const hint =
-      agendaFilters.category === "festival"
-        ? " Tip: kies periode “Alles” — veel festivals vallen buiten deze week/maand."
+      agendaFilters.view === "kinderen"
+        ? " Tip: kies periode “Alles” voor meer kids-activiteiten."
         : "";
-    agendaList.innerHTML = `<p class="news-empty">Geen evenementen gevonden voor ${agendaEscape(period)}.${agendaEscape(hint)}</p>`;
+    agendaList.innerHTML = `<p class="news-empty">Geen items gevonden voor ${agendaEscape(period)}.${agendaEscape(hint)}</p>`;
     return;
   }
+
+  const openLabel =
+    agendaFilters.view === "raad" ? "Bekijk agenda →" : "Bekijk evenement →";
 
   const rows = filtered
     .map((event, index) => {
@@ -596,19 +582,31 @@ function renderAgendaList() {
       const metaParts = [when, event.location].filter(Boolean).join(" · ");
       const body =
         event.description || "Geen korte beschrijving. Open de pagina voor meer info.";
+      const dateParts = formatAgendaDateParts(event.startDate);
+      const dateChip = dateParts
+        ? `<span class="agenda-date-chip" aria-hidden="true">
+              <span class="agenda-date-day">${agendaEscape(dateParts.day)}</span>
+              <span class="agenda-date-wday">${agendaEscape(dateParts.weekday)}</span>
+            </span>`
+        : `<span class="agenda-date-chip agenda-date-chip--empty" aria-hidden="true">
+              <span class="agenda-date-day">–</span>
+              <span class="agenda-date-wday">?</span>
+            </span>`;
+      const toggleLabel = dateParts
+        ? `${dateParts.label}: ${event.title}`
+        : event.title;
 
       return `
         <article class="news-row">
           <button
             type="button"
-            class="news-toggle"
+            class="news-toggle agenda-toggle"
             aria-expanded="false"
             aria-controls="${panelId}"
+            aria-label="${agendaEscape(toggleLabel)}"
           >
-            <span class="news-item-title">
-              <span class="agenda-date-chip">${agendaEscape(formatAgendaDate(event.startDate) || "Agenda")}</span>
-              ${agendaEscape(event.title)}
-            </span>
+            ${dateChip}
+            <span class="news-item-title">${agendaEscape(event.title)}</span>
             <span class="news-chevron" aria-hidden="true"></span>
           </button>
           <div class="news-panel" id="${panelId}" hidden>
@@ -622,7 +620,7 @@ function renderAgendaList() {
               href="${agendaEscape(event.link)}"
               target="_blank"
               rel="noopener noreferrer"
-            >Bekijk evenement →</a>
+            >${openLabel}</a>
           </div>
         </article>
       `;
@@ -634,8 +632,6 @@ function renderAgendaList() {
 }
 
 async function loadKomNaarHoorn() {
-  if (agendaFilters.source && agendaFilters.source !== "komnaarhoorn") return [];
-  // Access filter only exists on KNH
   const first = await fetchAgendaJson(`${AGENDA_API}/items?${buildAgendaQuery(1)}`);
   let events = parseAgendaArticles(first.html || "");
   const totalPages = Math.min(8, Math.max(1, Number(first.totalPages) || 1));
@@ -658,27 +654,12 @@ async function loadKomNaarHoorn() {
 }
 
 async function loadManifesto() {
-  if (agendaFilters.source && agendaFilters.source !== "manifesto") return [];
-  if (agendaFilters.access === "gratis") return []; // vaak tickets
-  if (
-    agendaFilters.category &&
-    !["", "muziek", "festival"].includes(agendaFilters.category)
-  ) {
-    return [];
-  }
   const xml = await fetchText(MANIFESTO_FEED);
   return parseManifestoFeed(xml);
 }
 
 async function loadNetwerk() {
-  if (agendaFilters.source && agendaFilters.source !== "netwerk") return [];
-  if (
-    agendaFilters.category &&
-    !["", "creatief", "voor-kinderen", "sport"].includes(agendaFilters.category)
-  ) {
-    return [];
-  }
-  const pages = [1, 2, 3];
+  const pages = [1, 2, 3, 4, 5];
   let all = [];
   for (const page of pages) {
     try {
@@ -691,59 +672,91 @@ async function loadNetwerk() {
   return all;
 }
 
-async function loadAgendaFilters() {
-  try {
-    const data = await fetchAgendaJson(`${AGENDA_API}/filters`);
-    renderAgendaCategoryTabs(Array.isArray(data.categories) ? data.categories : []);
-  } catch (err) {
-    console.warn("Agenda filters laden mislukt:", err);
-    renderAgendaCategoryTabs([
-      { slug: "festival", name: "Festival" },
-      { slug: "muziek", name: "Muziek" },
-      { slug: "creatief", name: "Creatief" },
-      { slug: "voor-kinderen", name: "Voor kinderen" },
-      { slug: "sport", name: "Sport" },
-      { slug: "eten-drinken", name: "Eten & drinken" },
-      { slug: "winkelen", name: "Winkelen" },
-    ]);
+function raadMonthsToFetch() {
+  const now = new Date();
+  const months = [];
+  // Altijd ruim vooruit laden; periode filteren we client-side
+  for (let i = 0; i <= 5; i += 1) {
+    const d = new Date(now.getFullYear(), now.getMonth() + i, 1);
+    months.push({ year: d.getFullYear(), month: d.getMonth() }); // iBabs: 0-indexed
   }
+  return months;
+}
+
+async function loadRaad() {
+  const months = raadMonthsToFetch();
+  let all = [];
+  for (const { year, month } of months) {
+    try {
+      const html = await fetchText(
+        `${RAAD_CALENDAR_API}?year=${year}&month=${month}`
+      );
+      all = all.concat(parseRaadMonthHtml(html));
+    } catch (err) {
+      console.warn("Raadskalender maand mislukt", year, month, err);
+    }
+  }
+  return dedupeEvents(all);
+}
+
+async function loadCityAgenda() {
+  agendaEvents = [];
+  const knhPromise = loadKomNaarHoorn().catch((err) => {
+    console.error("Kom naar Hoorn mislukt:", err);
+    return [];
+  });
+  const otherPromise = Promise.all([
+    loadManifesto().catch((err) => {
+      console.warn("Manifesto mislukt:", err);
+      return [];
+    }),
+    loadNetwerk().catch((err) => {
+      console.warn("Netwerk mislukt:", err);
+      return [];
+    }),
+  ]);
+
+  const [, [manifesto, netwerk]] = await Promise.all([knhPromise, otherPromise]);
+  agendaEvents = dedupeEvents([...agendaEvents, ...manifesto, ...netwerk]);
+  cityEventsCache = agendaEvents;
+  cityLoaded = true;
+  renderAgendaList();
 }
 
 async function loadAgenda({ force = false } = {}) {
   if (!agendaList) return;
   if (agendaLoading && !force) return;
-  if (agendaLoaded && !force) {
-    renderAgendaList();
-    return;
+
+  const wantRaad = agendaFilters.view === "raad";
+
+  if (!force) {
+    if (wantRaad && raadLoaded) {
+      agendaEvents = raadEventsCache;
+      renderAgendaList();
+      return;
+    }
+    if (!wantRaad && cityLoaded) {
+      agendaEvents = cityEventsCache;
+      renderAgendaList();
+      return;
+    }
   }
 
   agendaLoading = true;
-  agendaLoaded = false;
-  agendaEvents = [];
   agendaPanel?.classList.add("is-loading");
   agendaList.innerHTML = '<p class="news-empty">Agenda laden…</p>';
+  updateSourceNote();
 
   try {
-    // Parallel bronnen; KNH streamt pagina’s progressief
-    const knhPromise = loadKomNaarHoorn().catch((err) => {
-      console.error("Kom naar Hoorn mislukt:", err);
-      return [];
-    });
-    const otherPromise = Promise.all([
-      loadManifesto().catch((err) => {
-        console.warn("Manifesto mislukt:", err);
-        return [];
-      }),
-      loadNetwerk().catch((err) => {
-        console.warn("Netwerk mislukt:", err);
-        return [];
-      }),
-    ]);
-
-    const [, [manifesto, netwerk]] = await Promise.all([knhPromise, otherPromise]);
-    agendaEvents = dedupeEvents([...agendaEvents, ...manifesto, ...netwerk]);
-    renderAgendaList();
-    agendaLoaded = true;
+    if (wantRaad) {
+      const raad = await loadRaad();
+      raadEventsCache = raad;
+      raadLoaded = true;
+      agendaEvents = raad;
+      renderAgendaList();
+    } else {
+      await loadCityAgenda();
+    }
   } catch (err) {
     console.error("Agenda laden mislukt:", err);
     if (!agendaEvents.length) {
@@ -757,17 +770,21 @@ async function loadAgenda({ force = false } = {}) {
 }
 
 function showAgendaView() {
-  if (!agendaLoaded) loadAgenda({ force: true });
-  else renderAgendaList();
+  updateSourceNote();
+  loadAgenda({ force: false });
 }
 
 window.VoorhoornAgenda = {
   show: showAgendaView,
-  reload: () => loadAgenda({ force: true }),
+  reload: () => {
+    cityLoaded = false;
+    raadLoaded = false;
+    loadAgenda({ force: true });
+  },
 };
 
 if (agendaPanel && agendaList) {
+  bindAgendaViewTabs();
   bindAgendaFilterTabs();
-  updateMoreFiltersButton();
-  loadAgendaFilters();
+  updateSourceNote();
 }

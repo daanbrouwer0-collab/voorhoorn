@@ -109,39 +109,20 @@
                     </nav>
                 </div>
 
-                <nav class="news-tabs links-tabs agenda-filter-tabs" role="tablist" aria-label="Agendacategorieën" id="agendaCategoryTabs"></nav>
+                <nav class="news-tabs links-tabs agenda-filter-tabs" role="tablist" aria-label="Agenda's" id="agendaViewTabs">
+                    <button type="button" class="news-tab is-active" role="tab" aria-selected="true" data-agenda-view="stad">Stad</button>
+                    <button type="button" class="news-tab" role="tab" aria-selected="false" data-agenda-view="kinderen">Voor kinderen</button>
+                    <button type="button" class="news-tab" role="tab" aria-selected="false" data-agenda-view="raad">Gemeenteraad</button>
+                </nav>
 
                 <div class="agenda-toolbar">
                     <span class="agenda-count" id="agendaCount">Evenementen laden…</span>
-                    <button type="button" class="agenda-more-btn" id="agendaMoreFiltersBtn" aria-expanded="false" aria-controls="agendaMoreFilters">
-                        Meer filters
-                    </button>
-                </div>
-
-                <div class="agenda-more-filters" id="agendaMoreFilters" hidden>
-                    <div class="agenda-more-group">
-                        <span class="agenda-more-label">Bron</span>
-                        <nav class="news-tabs links-tabs agenda-filter-tabs" role="tablist" aria-label="Bronnen" id="agendaSourceTabs">
-                            <button type="button" class="news-tab is-active" role="tab" aria-selected="true" data-source="">Alle bronnen</button>
-                            <button type="button" class="news-tab" role="tab" aria-selected="false" data-source="komnaarhoorn">Kom naar Hoorn</button>
-                            <button type="button" class="news-tab" role="tab" aria-selected="false" data-source="manifesto">Manifesto</button>
-                            <button type="button" class="news-tab" role="tab" aria-selected="false" data-source="netwerk">Netwerk</button>
-                        </nav>
-                    </div>
-                    <div class="agenda-more-group">
-                        <span class="agenda-more-label">Toegang</span>
-                        <nav class="news-tabs links-tabs agenda-filter-tabs" role="tablist" aria-label="Toegang" id="agendaAccessTabs">
-                            <button type="button" class="news-tab is-active" role="tab" aria-selected="true" data-access="">Alles</button>
-                            <button type="button" class="news-tab" role="tab" aria-selected="false" data-access="gratis">Gratis</button>
-                            <button type="button" class="news-tab" role="tab" aria-selected="false" data-access="betaald">Betaald</button>
-                        </nav>
-                    </div>
                 </div>
 
                 <div id="agendaList" class="news-digest-card" aria-label="Evenementen">
                     <p class="news-empty">Agenda laden…</p>
                 </div>
-                <p class="agenda-source-note">Bronnen: Kom naar Hoorn, Manifesto, Netwerk Hoorn · <a href="https://komnaarhoorn.nl/agenda/" target="_blank" rel="noopener noreferrer">Volledige agenda</a></p>
+                <p class="agenda-source-note" id="agendaSourceNote">Bronnen: Kom naar Hoorn, Manifesto, Netwerk Hoorn · <a href="https://komnaarhoorn.nl/agenda/" target="_blank" rel="noopener noreferrer">Volledige agenda</a></p>
             </section>
 
             <!-- Links-panel (zelfde stijl als nieuws) -->
