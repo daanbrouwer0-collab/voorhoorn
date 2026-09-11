@@ -123,6 +123,35 @@ function formatAgendaWhen(event) {
   return label;
 }
 
+const VOORHOORN_SHARE_URL = "https://voorhoorn.nl";
+
+function buildShareText(title, eventUrl) {
+  return [
+    title ? `Zin om mee te gaan? ${title}` : "Zin om mee te gaan?",
+    "",
+    VOORHOORN_SHARE_URL,
+    eventUrl,
+  ].join("\n");
+}
+
+async function shareEventInvite(title, eventUrl) {
+  const text = buildShareText(title, eventUrl);
+  if (navigator.share) {
+    try {
+      await navigator.share({
+        title: title || "Voorhoorn agenda",
+        text,
+      });
+      return;
+    } catch (err) {
+      if (err?.name === "AbortError") return;
+    }
+  }
+  // Fallback: WhatsApp (werkt op mobiel + desktop)
+  const wa = `https://wa.me/?text=${encodeURIComponent(text)}`;
+  window.open(wa, "_blank", "noopener,noreferrer");
+}
+
 function weekdayLong(isoDate) {
   const date = new Date(`${isoDate}T12:00:00`);
   if (Number.isNaN(date.getTime())) return "";
@@ -413,12 +442,20 @@ function renderAgendaList() {
               ${agendaEscape(metaParts)}
             </div>
             <p class="news-blurb">${agendaEscape(body)}</p>
-            <a
-              class="news-open"
-              href="${agendaEscape(event.link)}"
-              target="_blank"
-              rel="noopener noreferrer"
-            >Bekijk evenement →</a>
+            <div class="agenda-actions">
+              <a
+                class="news-open"
+                href="${agendaEscape(event.link)}"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Bekijk evenement →</a>
+              <button
+                type="button"
+                class="agenda-share-btn"
+                data-share-title="${agendaEscape(event.title)}"
+                data-share-url="${agendaEscape(event.link)}"
+              >Vraag vriend</button>
+            </div>
           </div>
         </article>
       `;
@@ -427,6 +464,17 @@ function renderAgendaList() {
 
   agendaList.innerHTML = `<div class="news-rows">${rows}</div>`;
   bindAgendaToggles();
+  bindAgendaShareButtons();
+}
+
+function bindAgendaShareButtons() {
+  agendaList?.querySelectorAll(".agenda-share-btn").forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      shareEventInvite(btn.dataset.shareTitle || "", btn.dataset.shareUrl || "");
+    });
+  });
 }
 
 async function loadAgendaData() {
