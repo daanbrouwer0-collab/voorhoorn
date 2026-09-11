@@ -49,7 +49,7 @@ const DUTCH_MONTHS = {
 };
 
 const KIDS_RE =
-  /\b(kind|kids|kinderen|jongeren|jeugd|familie|peuter|kleuter|schoolvakantie|jeugdtheater|voor\s+de\s+jeugd)\b/i;
+  /\b(kind|kids|kinderen|kleintjes|jongeren|jeugd|jong!?|familie|peuter|kleuter|schoolvakantie|jeugdtheater|voor\s+de\s+jeugd|lego|speel|tiener)\b/i;
 
 const agendaPanel = document.getElementById("agendaPanel");
 const agendaList = document.getElementById("agendaList");
@@ -60,8 +60,10 @@ const agendaSourceNote = document.getElementById("agendaSourceNote");
 
 let agendaEvents = [];
 let cityEventsCache = [];
+let kidsEventsCache = [];
 let raadEventsCache = [];
 let cityLoaded = false;
+let kidsLoaded = false;
 let raadLoaded = false;
 let agendaLoading = false;
 let agendaFilters = {
@@ -193,24 +195,45 @@ async function fetchText(url) {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return await response.text();
   } catch (primaryError) {
-    console.warn("Agenda fetch mislukt, proxy:", url, primaryError);
+    console.warn("Agenda fetch mislukt, probeer proxy:", url, primaryError);
+  }
+
+  // AllOrigins (soms down)
+  try {
     const proxy = `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`;
     const response = await fetch(proxy, { cache: "no-store" });
     if (!response.ok) throw new Error(`Proxy HTTP ${response.status}`);
     return await response.text();
+  } catch (proxyError) {
+    console.warn("AllOrigins mislukt:", proxyError);
   }
+
+  // Jina reader: CORS-vriendelijk, geeft markdown terug
+  const jina = `https://r.jina.ai/${url}`;
+  const response = await fetch(jina, { cache: "no-store" });
+  if (!response.ok) throw new Error(`Jina HTTP ${response.status}`);
+  return await response.text();
 }
 
 async function fetchAgendaJson(url) {
   const text = await fetchText(url);
-  return JSON.parse(text);
+  // Als we via Jina markdown kregen, is JSON.parse zinloos
+  const trimmed = text.trim();
+  if (trimmed.startsWith("{") || trimmed.startsWith("[")) {
+    return JSON.parse(trimmed);
+  }
+  const jsonMatch = trimmed.match(/\{[\s\S]*\}/);
+  if (jsonMatch) return JSON.parse(jsonMatch[0]);
+  throw new Error("Geen JSON in agenda-antwoord");
 }
 
 function buildAgendaQuery(page = 1) {
   const params = new URLSearchParams();
   params.set("page", String(page));
-  // Breed ophalen; periode + kids filteren we client-side
   params.set("dateRange", "this_year");
+  if (agendaFilters.view === "kinderen") {
+    params.set("categories", "voor-kinderen");
+  }
   return params.toString();
 }
 
@@ -261,7 +284,8 @@ function parseAgendaArticles(html) {
         endTime: clockTimes[1] || "",
         sourceId: "komnaarhoorn",
         sourceLabel: "Kom naar Hoorn",
-        categories: [],
+        categories:
+          agendaFilters.view === "kinderen" ? ["voor-kinderen"] : [],
       };
     })
     .filter((item) => item.link && item.link !== "#");
@@ -351,6 +375,15 @@ function parseNetwerkPage(html) {
 
 function parseRaadMonthHtml(html) {
   if (!html) return [];
+
+  // Via Jina komt markdown binnen i.p.v. HTML
+  if (
+    html.includes("Markdown Content:") ||
+    (!html.includes("calendar-item") && html.includes("/Agenda/Index/"))
+  ) {
+    return parseRaadMonthMarkdown(html);
+  }
+
   const doc = new DOMParser().parseFromString(html, "text/html");
   const events = [];
 
@@ -401,6 +434,48 @@ function parseRaadMonthHtml(html) {
   });
 
   return events.filter((e) => e.link && e.startDate);
+}
+
+/** Parse Jina-markdown van GetMonthAgendas */
+function parseRaadMonthMarkdown(md) {
+  const events = [];
+  const re =
+    /\[([^\]]+)\]\((https:\/\/hoorn\.bestuurlijkeinformatie\.nl\/Agenda\/Index\/[^)]+)\)/g;
+  let match;
+  while ((match = re.exec(md)) !== null) {
+    const label = decodeEntities(match[1]).replace(/\s+/g, " ").trim();
+    const link = match[2];
+    const startDate = parseDutchDateFromText(label);
+    if (!startDate) continue;
+
+    const timeMatch = label.match(/(\d{1,2}:\d{2})\s*-\s*(\d{1,2}:\d{2})/);
+    const locMatch = label.match(/\(([^)]+)\)\s*(?:[a-z]+dag|\d)/i);
+    let title = label
+      .replace(/\([^)]*\)/g, " ")
+      .replace(
+        /\b(?:maandag|dinsdag|woensdag|donderdag|vrijdag|zaterdag|zondag)\b[\s\S]*$/i,
+        ""
+      )
+      .replace(/\s+/g, " ")
+      .trim();
+    if (!title) title = "Vergadering";
+
+    events.push({
+      id: `raad-${link}`,
+      title,
+      link,
+      location: (locMatch?.[1] || "Raadzaal").trim(),
+      description: "Raads- of commissievergadering van de gemeente Hoorn.",
+      startDate,
+      endDate: "",
+      startTime: timeMatch?.[1] || "",
+      endTime: timeMatch?.[2] || "",
+      sourceId: "raad",
+      sourceLabel: "Gemeenteraad",
+      categories: ["raad"],
+    });
+  }
+  return events;
 }
 
 function titleKey(title) {
@@ -485,6 +560,16 @@ function bindAgendaViewTabs() {
         return;
       }
 
+      if (next === "kinderen") {
+        if (kidsLoaded) {
+          agendaEvents = kidsEventsCache;
+          renderAgendaList();
+        } else {
+          loadAgenda({ force: true });
+        }
+        return;
+      }
+
       if (cityLoaded) {
         agendaEvents = cityEventsCache;
         renderAgendaList();
@@ -500,13 +585,18 @@ function bindAgendaFilterTabs() {
     btn.addEventListener("click", () => {
       agendaFilters.dateRange = btn.dataset.dateRange || "this_month";
       setActiveTabGroup(agendaDateTabs, "data-date-range", agendaFilters.dateRange);
-      // Periodefilter is client-side; herladen niet nodig als cache er is
-      if (
-        (agendaFilters.view === "raad" && raadLoaded) ||
-        (agendaFilters.view !== "raad" && cityLoaded)
-      ) {
-        agendaEvents =
-          agendaFilters.view === "raad" ? raadEventsCache : cityEventsCache;
+      if (agendaFilters.view === "raad" && raadLoaded) {
+        agendaEvents = raadEventsCache;
+        renderAgendaList();
+        return;
+      }
+      if (agendaFilters.view === "kinderen" && kidsLoaded) {
+        agendaEvents = kidsEventsCache;
+        renderAgendaList();
+        return;
+      }
+      if (agendaFilters.view === "stad" && cityLoaded) {
+        agendaEvents = cityEventsCache;
         renderAgendaList();
         return;
       }
@@ -723,19 +813,44 @@ async function loadCityAgenda() {
   renderAgendaList();
 }
 
+async function loadKidsAgenda() {
+  agendaEvents = [];
+  const knhPromise = loadKomNaarHoorn().catch((err) => {
+    console.error("Kom naar Hoorn (kids) mislukt:", err);
+    return [];
+  });
+  const netwerkPromise = loadNetwerk()
+    .then((items) => items.filter(isKidsEvent))
+    .catch((err) => {
+      console.warn("Netwerk (kids) mislukt:", err);
+      return [];
+    });
+
+  const [, netwerk] = await Promise.all([knhPromise, netwerkPromise]);
+  agendaEvents = dedupeEvents([...agendaEvents, ...netwerk]);
+  kidsEventsCache = agendaEvents;
+  kidsLoaded = true;
+  renderAgendaList();
+}
+
 async function loadAgenda({ force = false } = {}) {
   if (!agendaList) return;
   if (agendaLoading && !force) return;
 
-  const wantRaad = agendaFilters.view === "raad";
+  const view = agendaFilters.view;
 
   if (!force) {
-    if (wantRaad && raadLoaded) {
+    if (view === "raad" && raadLoaded) {
       agendaEvents = raadEventsCache;
       renderAgendaList();
       return;
     }
-    if (!wantRaad && cityLoaded) {
+    if (view === "kinderen" && kidsLoaded) {
+      agendaEvents = kidsEventsCache;
+      renderAgendaList();
+      return;
+    }
+    if (view === "stad" && cityLoaded) {
       agendaEvents = cityEventsCache;
       renderAgendaList();
       return;
@@ -748,12 +863,14 @@ async function loadAgenda({ force = false } = {}) {
   updateSourceNote();
 
   try {
-    if (wantRaad) {
+    if (view === "raad") {
       const raad = await loadRaad();
       raadEventsCache = raad;
       raadLoaded = true;
       agendaEvents = raad;
       renderAgendaList();
+    } else if (view === "kinderen") {
+      await loadKidsAgenda();
     } else {
       await loadCityAgenda();
     }
@@ -778,6 +895,7 @@ window.VoorhoornAgenda = {
   show: showAgendaView,
   reload: () => {
     cityLoaded = false;
+    kidsLoaded = false;
     raadLoaded = false;
     loadAgenda({ force: true });
   },
