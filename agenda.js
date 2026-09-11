@@ -125,13 +125,36 @@ function formatAgendaWhen(event) {
 
 const VOORHOORN_SHARE_URL = "https://voorhoorn.nl";
 
+const SHARE_HOOKS = [
+  "Zin om mee te gaan?",
+  "Even iemand meesleuren?",
+  "Dit lijkt me niks voor alleen.",
+  "Buddy gezocht voor dit avontuur.",
+  "Zullen we dit samen doen?",
+  "Eentje is geen, twee is een feest.",
+  "Mijn plus-één-plek is nog vrij.",
+  "Kom je ook, of moet ik alleen stom staan?",
+  "Dit schreeuwt om gezelschap.",
+  "Ready voor een missie in Hoorn?",
+  "Ik ga — jij ook?",
+  "Te leuk om solo te doen.",
+  "Even een vriend kidnapen voor:",
+  "Sociale agenda-upgrade?",
+  "Zin in een kleine escapade?",
+  "Dit past in onze ‘dingen die we ooit doen’-lijst.",
+  "Geen FOMO, wel een uitnodiging.",
+  "Plan B was Netflix. Plan A is dit.",
+  "Kom je mee, of blijf je zielig thuis?",
+  "Hoorn-momentje? Graag met jou.",
+];
+
+function pickShareHook() {
+  return SHARE_HOOKS[Math.floor(Math.random() * SHARE_HOOKS.length)];
+}
+
 function buildShareText(title, eventUrl) {
-  return [
-    title ? `Zin om mee te gaan? ${title}` : "Zin om mee te gaan?",
-    "",
-    VOORHOORN_SHARE_URL,
-    eventUrl,
-  ].join("\n");
+  const hook = pickShareHook();
+  return [hook, title, "", VOORHOORN_SHARE_URL, eventUrl].filter(Boolean).join("\n");
 }
 
 async function shareEventInvite(title, eventUrl) {
