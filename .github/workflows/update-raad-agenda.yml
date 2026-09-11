@@ -1,8 +1,8 @@
-name: Update raad-agenda
+name: Update agenda cache
 
 on:
   schedule:
-    # Elke ochtend ~06:15 UTC
+    # Elke ochtend ~06:15 UTC (= 08:15 NL-tijd)
     - cron: "15 6 * * *"
   workflow_dispatch:
 
@@ -21,17 +21,17 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Scrape iBabs kalender
-        run: python3 scripts/scrape-raad-agenda.py
+      - name: Scrape alle agenda-bronnen
+        run: python3 scripts/scrape-agenda.py
 
       - name: Commit als er wijzigingen zijn
         run: |
-          if git diff --quiet -- raad-agenda.json; then
-            echo "Geen wijzigingen in raad-agenda.json"
+          if git diff --quiet -- agenda-data.json raad-agenda.json netwerk-kids-agenda.json; then
+            echo "Geen wijzigingen"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add raad-agenda.json
-          git commit -m "chore: update gemeenteraad-agenda van iBabs"
+          git add agenda-data.json raad-agenda.json netwerk-kids-agenda.json
+          git commit -m "chore: update agenda-cache (dagelijkse scrape)"
           git push

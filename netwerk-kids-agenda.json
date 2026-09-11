@@ -1,0 +1,726 @@
+{
+  "updated": "2026-09-11T05:44:46Z",
+  "source": "https://netwerkhoorn.nl/activiteiten",
+  "events": [
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/lego-in-het-museum/",
+      "title": "LEGO in het Museum",
+      "link": "https://komnaarhoorn.nl/agenda/lego-in-het-museum/",
+      "location": "Museum van de 20e Eeuw",
+      "description": "Twee zalen vol met de bekendste steentjes van de wereld! Bekijk fantastische bouwwerken.",
+      "startDate": "2025-03-04",
+      "endDate": "",
+      "startTime": "12:00",
+      "endTime": "17:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/creatief-atelier-1-2026-09-11",
+      "title": "Creatief atelier",
+      "link": "https://netwerkhoorn.nl/activiteit/creatief-atelier-1",
+      "location": "Bockxmeerschool",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-11",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/next-level-crew-2026-09-11",
+      "title": "Next Level Crew",
+      "link": "https://netwerkhoorn.nl/activiteit/next-level-crew",
+      "location": "Wijkcentrum De Cogge",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-11",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/open-monumentendag/",
+      "title": "Open monumentendag",
+      "link": "https://komnaarhoorn.nl/agenda/open-monumentendag/",
+      "location": "Hoorn",
+      "description": "Ontdek hidden gems in de stad, die normaal gesloten blijven voor publiek.",
+      "startDate": "2026-09-12",
+      "endDate": "",
+      "startTime": "11:00",
+      "endTime": "17:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/bloemen-plukken-bylobke/",
+      "title": "BLOEMEN PLUKKEN MET DE KLEINTJES",
+      "link": "https://komnaarhoorn.nl/agenda/bloemen-plukken-bylobke/",
+      "location": "By Lobke",
+      "description": "Een fleurige activiteit voor jong en oud!",
+      "startDate": "2026-09-13",
+      "endDate": "",
+      "startTime": "10:00",
+      "endTime": "14:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/zoomer-op-de-roode-steen/",
+      "title": "Zoomer op de Roode Steen",
+      "link": "https://komnaarhoorn.nl/agenda/zoomer-op-de-roode-steen/",
+      "location": "Roode Steen, Hoorn",
+      "description": "Sunday = funday! Laat je verrassen met dans, muziek en creativiteit!",
+      "startDate": "2026-09-13",
+      "endDate": "",
+      "startTime": "15:00",
+      "endTime": "19:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/girls-time-2026-09-14",
+      "title": "Girls Time",
+      "link": "https://netwerkhoorn.nl/activiteit/girls-time",
+      "location": "Wijkcentrum De Cogge",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-14",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/schaken-voor-kinderen-1-2026-09-14",
+      "title": "Schaken voor kinderen",
+      "link": "https://netwerkhoorn.nl/activiteit/schaken-voor-kinderen-1",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-14",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/sportinloop-de-cogge-2026-09-14",
+      "title": "Sportinloop De Cogge",
+      "link": "https://netwerkhoorn.nl/activiteit/sportinloop-de-cogge",
+      "location": "Wijkcentrum De Cogge",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-14",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/tekenen-en-schilderen-voor-kids-2-2026-09-14",
+      "title": "Tekenen en schilderen voor kids",
+      "link": "https://netwerkhoorn.nl/activiteit/tekenen-en-schilderen-voor-kids-2",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-14",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/tienerinloop-de-cogge-maandag-2026-09-14",
+      "title": "Tienerinloop De Cogge maandag",
+      "link": "https://netwerkhoorn.nl/activiteit/tienerinloop-de-cogge-maandag",
+      "location": "Wijkcentrum De Cogge",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-14",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/wijkinfopunt-grote-waal-woensdag-2026-09-14",
+      "title": "Wijkinfopunt Grote Waal woensdag",
+      "link": "https://netwerkhoorn.nl/activiteit/wijkinfopunt-grote-waal-woensdag",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-14",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/circusworkshop-mariaschool-1-2026-09-15",
+      "title": "Circusworkshop Mariaschool",
+      "link": "https://netwerkhoorn.nl/activiteit/circusworkshop-mariaschool-1",
+      "location": "Mariaschool",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-15",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/hulplessen-taal-1-2026-09-15",
+      "title": "Hulplessen taal",
+      "link": "https://netwerkhoorn.nl/activiteit/hulplessen-taal-1",
+      "location": "Wijkcentrum De Cogge",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-15",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/kinderkook-cafe-kersenboogerd-2026-2027-blok-1-2026-09-15",
+      "title": "Kinderkook Café Kersenboogerd 2026-2027 (blok 1)",
+      "link": "https://netwerkhoorn.nl/activiteit/kinderkook-cafe-kersenboogerd-2026-2027-blok-1",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-15",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/taichi-tao-qigong-2026-09-15",
+      "title": "Taichi Tao Qigong",
+      "link": "https://netwerkhoorn.nl/activiteit/taichi-tao-qigong",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-15",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/art-inn-grote-waal-2026-09-16",
+      "title": "Art Inn Grote Waal",
+      "link": "https://netwerkhoorn.nl/activiteit/art-inn-grote-waal",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-16",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/huiswerkbegeleiding-de-kersenboogerd-seizoen-2026-2027-2026-09-16",
+      "title": "Huiswerkbegeleiding De Kersenboogerd (seizoen 2026-2027)",
+      "link": "https://netwerkhoorn.nl/activiteit/huiswerkbegeleiding-de-kersenboogerd-seizoen-2026-2027",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-16",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/kidsclub-kersenboogerd-1-2026-09-16",
+      "title": "Kidsclub Kersenboogerd",
+      "link": "https://netwerkhoorn.nl/activiteit/kidsclub-kersenboogerd-1",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-16",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/jongereninloop-2026-09-17",
+      "title": "Jongereninloop",
+      "link": "https://netwerkhoorn.nl/activiteit/jongereninloop",
+      "location": "Wijkcentrum De Cogge",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-17",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/kidsclub-de-huesmolen-1-2026-09-17",
+      "title": "Kidsclub De Huesmolen",
+      "link": "https://netwerkhoorn.nl/activiteit/kidsclub-de-huesmolen-1",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-17",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/tekenen-mariaschool-2026-09-17",
+      "title": "Tekenen Mariaschool",
+      "link": "https://netwerkhoorn.nl/activiteit/tekenen-mariaschool",
+      "location": "Mariaschool",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-17",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/zingen-swingen-en-acteren-mariaschool-2-2026-09-17",
+      "title": "Zingen, swingen en acteren Mariaschool",
+      "link": "https://netwerkhoorn.nl/activiteit/zingen-swingen-en-acteren-mariaschool-2",
+      "location": "Mariaschool",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-17",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/zoomer-op-de-roode-steen-11/",
+      "title": "Zoomer op de Roode Steen",
+      "link": "https://komnaarhoorn.nl/agenda/zoomer-op-de-roode-steen-11/",
+      "location": "Roode Steen, Hoorn",
+      "description": "Deze zomer verrast de Roode Steen je elke zondag met muziek, dans en creativiteit.",
+      "startDate": "2026-09-20",
+      "endDate": "",
+      "startTime": "15:00",
+      "endTime": "19:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/hulplessen-taal-2026-09-22",
+      "title": "Hulplessen taal",
+      "link": "https://netwerkhoorn.nl/activiteit/hulplessen-taal",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/repaircafe-grote-waal-1-2026-09-22",
+      "title": "Repaircafé Grote Waal",
+      "link": "https://netwerkhoorn.nl/activiteit/repaircafe-grote-waal-1",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/rots-en-water-training-wijkcentrum-de-huesmolen-2026-09-24",
+      "title": "Rots en Water training Wijkcentrum de Huesmolen",
+      "link": "https://netwerkhoorn.nl/activiteit/rots-en-water-training-wijkcentrum-de-huesmolen",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-24",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/zoomer-op-de-roode-steen-12/",
+      "title": "Zoomer op de Roode Steen",
+      "link": "https://komnaarhoorn.nl/agenda/zoomer-op-de-roode-steen-12/",
+      "location": "Roode Steen, Hoorn",
+      "description": "Deze zomer verrast de Roode Steen je elke zondag met muziek, dans en creativiteit.",
+      "startDate": "2026-09-27",
+      "endDate": "",
+      "startTime": "15:00",
+      "endTime": "19:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/franse-les-op-maandag-2026-09-28",
+      "title": "Franse les op maandag",
+      "link": "https://netwerkhoorn.nl/activiteit/franse-les-op-maandag",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-28",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/franse-les-op-dinsdag-2026-09-29",
+      "title": "Franse les op dinsdag",
+      "link": "https://netwerkhoorn.nl/activiteit/franse-les-op-dinsdag",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-29",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/franse-les-op-woensdag-2026-09-30",
+      "title": "Franse les op woensdag",
+      "link": "https://netwerkhoorn.nl/activiteit/franse-les-op-woensdag",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-30",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/kleine-schatten-markt/",
+      "title": "Kleine schatten markt",
+      "link": "https://komnaarhoorn.nl/agenda/kleine-schatten-markt/",
+      "location": "Cultureel Centrum De Plataan in Zwaag",
+      "description": "Vinted, maar dan in RL! Een markt voor jonge ouders, bomvol met tweedehands baby- en kinderkleding en veel meer!",
+      "startDate": "2026-10-04",
+      "endDate": "",
+      "startTime": "09:30",
+      "endTime": "12:30",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/autumn-plate-party/",
+      "title": "Autumn Plate Party",
+      "link": "https://komnaarhoorn.nl/agenda/autumn-plate-party/",
+      "location": "FIKA Creative",
+      "description": "Een creatieve workshop voor jong én oud!",
+      "startDate": "2026-10-12",
+      "endDate": "",
+      "startTime": "13:30",
+      "endTime": "16:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/autumn-plate-party-2/",
+      "title": "Autumn Plate Party",
+      "link": "https://komnaarhoorn.nl/agenda/autumn-plate-party-2/",
+      "location": "FIKA Creative",
+      "description": "Een creatieve workshop voor jong én oud!",
+      "startDate": "2026-10-15",
+      "endDate": "",
+      "startTime": "16:15",
+      "endTime": "18:15",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/mineralenbeurs-hoorn/",
+      "title": "Mineralenbeurs",
+      "link": "https://komnaarhoorn.nl/agenda/mineralenbeurs-hoorn/",
+      "location": "Schouwburg / congrescentrum \"Het Park\"",
+      "description": "Een dag vol sprankeling, verwondering en ontdekking voor jong en oud!",
+      "startDate": "2026-10-18",
+      "endDate": "",
+      "startTime": "10:00",
+      "endTime": "16:30",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/sprookjesfeest/",
+      "title": "Sprookjesfeest",
+      "link": "https://komnaarhoorn.nl/agenda/sprookjesfeest/",
+      "location": "Van der Valk Hotel Hoorn",
+      "description": "Geniet van een prinsessenshow, een uitgebreid lunchbuffet en een feestelijk dessertbuffet.",
+      "startDate": "2026-10-18",
+      "endDate": "",
+      "startTime": "12:00",
+      "endTime": "14:30",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/eva-is-jarig-congres/",
+      "title": "Eva is Jarig congres",
+      "link": "https://komnaarhoorn.nl/agenda/eva-is-jarig-congres/",
+      "location": "Het park Schouwburg",
+      "description": "Een inspirerende dag over geboorte, opgroeien en de toekomst van kinderen.",
+      "startDate": "2026-10-22",
+      "endDate": "",
+      "startTime": "14:00",
+      "endTime": "21:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/kamermuziek-festival/",
+      "title": "KAMERMUZIEK FESTIVAL",
+      "link": "https://komnaarhoorn.nl/agenda/kamermuziek-festival/",
+      "location": "DIVERSE LOCATIES IN HOORN",
+      "description": "Luister naar betoverende klanken op bijzondere locaties, zoals kerken en sfeervolle kroegen.",
+      "startDate": "2026-11-05",
+      "endDate": "",
+      "startTime": "20:00",
+      "endTime": "22:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/sinterklaas-intocht/",
+      "title": "Sinterklaas intocht",
+      "link": "https://komnaarhoorn.nl/agenda/sinterklaas-intocht/",
+      "location": "Oude Doelenkade Hoorn",
+      "description": "Zie ginds komt de stoomboot van Sinterklaas aan in de haven van Hoorn! Mis dit grote feest niet.",
+      "startDate": "2026-11-14",
+      "endDate": "",
+      "startTime": "11:00",
+      "endTime": "15:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/pieten-expres/",
+      "title": "Pieten expres",
+      "link": "https://komnaarhoorn.nl/agenda/pieten-expres/",
+      "location": "Tramstation Hoorn",
+      "description": "Rij mee met een stoomtram vol Pieten naar Sinterklaas! Daar wacht hij op jou, met spelletjes en cadeaus.",
+      "startDate": "2026-11-15",
+      "endDate": "",
+      "startTime": "13:30",
+      "endTime": "15:30",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/sinterklaas-diner/",
+      "title": "Sinterklaas Diner",
+      "link": "https://komnaarhoorn.nl/agenda/sinterklaas-diner/",
+      "location": "Van der Valk Hotel Hoorn",
+      "description": "Geniet met het hele gezin van een Live Cooking dinerbuffet met een bezoek van Sinterklaas en pieten.",
+      "startDate": "2026-11-28",
+      "endDate": "",
+      "startTime": "17:00",
+      "endTime": "21:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/sinterklaasbrunch/",
+      "title": "Sinterklaasbrunch",
+      "link": "https://komnaarhoorn.nl/agenda/sinterklaasbrunch/",
+      "location": "Van der Valk Hotel Hoorn",
+      "description": "Geniet met het hele gezin van een uitgebreid brunchbuffet en een bezoek van Sint en pieten.",
+      "startDate": "2026-11-29",
+      "endDate": "",
+      "startTime": "12:00",
+      "endTime": "14:30",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/sinterklaasshow/",
+      "title": "Sinterklaasshow",
+      "link": "https://komnaarhoorn.nl/agenda/sinterklaasshow/",
+      "location": "Van der Valk Hotel Hoorn",
+      "description": "Een gezellige voorstelling met Sinterklaas en zijn Pieten, lekkers & drinken, en natuurlijk een cadeautje voor de kids.",
+      "startDate": "2026-11-29",
+      "endDate": "",
+      "startTime": "15:00",
+      "endTime": "16:30",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/live-cooking-kerstdiner/",
+      "title": "Live Cooking Kerstdiner",
+      "link": "https://komnaarhoorn.nl/agenda/live-cooking-kerstdiner/",
+      "location": "Van der Valk Hotel Hoorn",
+      "description": "Dit jaar hoef jij de show niet te stelen. Leun achterover en geniet.",
+      "startDate": "2026-12-24",
+      "endDate": "",
+      "startTime": "17:30",
+      "endTime": "21:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/kerst-brunch-buffet/",
+      "title": "Kerst Brunch Buffet",
+      "link": "https://komnaarhoorn.nl/agenda/kerst-brunch-buffet/",
+      "location": "Van der Valk Hotel Hoorn",
+      "description": "Geen kerststress = kerstbrunch @ Van der Valk",
+      "startDate": "2026-12-25",
+      "endDate": "",
+      "startTime": "12:00",
+      "endTime": "14:30",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    }
+  ]
+}

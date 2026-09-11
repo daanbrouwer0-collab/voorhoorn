@@ -1,0 +1,3105 @@
+{
+  "updated": "2026-09-11T05:44:46Z",
+  "sources": [
+    "komnaarhoorn",
+    "manifesto",
+    "netwerk",
+    "raad"
+  ],
+  "events": [
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/lego-in-het-museum/",
+      "title": "LEGO in het Museum",
+      "link": "https://komnaarhoorn.nl/agenda/lego-in-het-museum/",
+      "location": "Museum van de 20e Eeuw",
+      "description": "Twee zalen vol met de bekendste steentjes van de wereld! Bekijk fantastische bouwwerken.",
+      "startDate": "2025-03-04",
+      "endDate": "",
+      "startTime": "12:00",
+      "endTime": "17:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/ontdek-het-verhaal-van-hoorn/",
+      "title": "Ontdek het verhaal van Hoorn",
+      "link": "https://komnaarhoorn.nl/agenda/ontdek-het-verhaal-van-hoorn/",
+      "location": "Nieuwstraat 23A 1621 EA Hoorn",
+      "description": "Ontdek de stad met een multimediashow en audiotour. Kies je route en ga op pad.",
+      "startDate": "2026-05-01",
+      "endDate": "",
+      "startTime": "12:00",
+      "endTime": "17:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/jong-van-nozem-tot-tiktok/",
+      "title": "Jong! Van nozem tot TikTok",
+      "link": "https://komnaarhoorn.nl/agenda/jong-van-nozem-tot-tiktok/",
+      "location": "Museum van de 20e Eeuw",
+      "description": "Hoe zag jouw jeugd eruit? Of die van je ouders? Duik in 70 jaar jeugdcultuur!",
+      "startDate": "2026-07-04",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/tassen-schilderen/",
+      "title": "Tassen schilderen",
+      "link": "https://komnaarhoorn.nl/agenda/tassen-schilderen/",
+      "location": "",
+      "description": "Beschilder een canvas tas, en je hebt je eigen collector's item.",
+      "startDate": "2026-09-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/keramiek-schilderen/",
+      "title": "keramiek schilderen",
+      "link": "https://komnaarhoorn.nl/agenda/keramiek-schilderen/",
+      "location": "Fika Creative",
+      "description": "Creatief met Keramiek! Beschilder een kopje, bordje of vaas.",
+      "startDate": "2026-09-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/50-fit-grote-waal-vrijdag-2026-09-11",
+      "title": "50+ Fit Grote Waal vrijdag",
+      "link": "https://netwerkhoorn.nl/activiteit/50-fit-grote-waal-vrijdag",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-11",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/60-fit-mbvo-grote-waal-vrijdag-2026-09-11",
+      "title": "60+ Fit / MBVO Grote Waal vrijdag",
+      "link": "https://netwerkhoorn.nl/activiteit/60-fit-mbvo-grote-waal-vrijdag",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-11",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/creatief-atelier-1-2026-09-11",
+      "title": "Creatief atelier",
+      "link": "https://netwerkhoorn.nl/activiteit/creatief-atelier-1",
+      "location": "Bockxmeerschool",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-11",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/naai-inloop-grote-waal-vrij-2026-09-11",
+      "title": "Naai inloop Grote Waal vrij.",
+      "link": "https://netwerkhoorn.nl/activiteit/naai-inloop-grote-waal-vrij",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-11",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/next-level-crew-2026-09-11",
+      "title": "Next Level Crew",
+      "link": "https://netwerkhoorn.nl/activiteit/next-level-crew",
+      "location": "Wijkcentrum De Cogge",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-11",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/rdm-movement-class-2026-09-11",
+      "title": "RDM Movement Class",
+      "link": "https://netwerkhoorn.nl/activiteit/rdm-movement-class",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-11",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/klaverjas-rummikub-sjoelen-krs-2026-09-11",
+      "title": "klaverjas, rummikub, sjoelen KRS",
+      "link": "https://netwerkhoorn.nl/activiteit/klaverjas-rummikub-sjoelen-krs",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-11",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/de-nieuwe-grote-popquiz-met-hitster-komt-naar-hoorn/",
+      "title": "Grote PopQuiz met Hitster",
+      "link": "https://komnaarhoorn.nl/agenda/de-nieuwe-grote-popquiz-met-hitster-komt-naar-hoorn/",
+      "location": "Van der Valk Hotel Hoorn",
+      "description": "Ga met je eigen team de muzikale strijd aan. Zing & doe mee met de popquiz.",
+      "startDate": "2026-09-11",
+      "endDate": "",
+      "startTime": "19:30",
+      "endTime": "22:30",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/nbr/",
+      "title": "NBR - A Tribute to Classic Rock",
+      "link": "https://manifesto-hoorn.nl/productie/nbr/",
+      "location": "Manifesto Hoorn",
+      "description": "Zaterdag 12 september speelt NBR op het podium van Manifesto! De 'Natural Born Rockers' brengen ons A Tribute to Classic Rock. Vol overgave, vol gas!! Kom genieten van Black Sabbath, AC/DC, Led Zeppelin, Queen, Deep Purple, Led Zeppelin en zoveel meer 🎸 Tickets zijn nu verkrijgbaar: via deze link. NBR – Natural Born Rockers Sinds 2006 staat NBR – Natural Born Rockers garant voor een compromisloze rockshow waarin de g",
+      "startDate": "2026-09-12",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/open-monumentendag/",
+      "title": "Open monumentendag",
+      "link": "https://komnaarhoorn.nl/agenda/open-monumentendag/",
+      "location": "Hoorn",
+      "description": "Ontdek hidden gems in de stad, die normaal gesloten blijven voor publiek.",
+      "startDate": "2026-09-12",
+      "endDate": "",
+      "startTime": "11:00",
+      "endTime": "17:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/muntstraat-kunststraat-2/",
+      "title": "Muntstraat Kunststraat",
+      "link": "https://komnaarhoorn.nl/agenda/muntstraat-kunststraat-2/",
+      "location": "Ateliergebouwen Muntstraat 4 en 7",
+      "description": "Op deze dag is de Muntstraat een groot atelier.",
+      "startDate": "2026-09-12",
+      "endDate": "",
+      "startTime": "12:00",
+      "endTime": "17:30",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/bloemen-plukken-bylobke/",
+      "title": "BLOEMEN PLUKKEN MET DE KLEINTJES",
+      "link": "https://komnaarhoorn.nl/agenda/bloemen-plukken-bylobke/",
+      "location": "By Lobke",
+      "description": "Een fleurige activiteit voor jong en oud!",
+      "startDate": "2026-09-13",
+      "endDate": "",
+      "startTime": "10:00",
+      "endTime": "14:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/zoomer-op-de-roode-steen/",
+      "title": "Zoomer op de Roode Steen",
+      "link": "https://komnaarhoorn.nl/agenda/zoomer-op-de-roode-steen/",
+      "location": "Roode Steen, Hoorn",
+      "description": "Sunday = funday! Laat je verrassen met dans, muziek en creativiteit!",
+      "startDate": "2026-09-13",
+      "endDate": "",
+      "startTime": "15:00",
+      "endTime": "19:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/60-fit-de-zaagtand-ma1-1-2026-09-14",
+      "title": "60+ Fit De Zaagtand ma.1",
+      "link": "https://netwerkhoorn.nl/activiteit/60-fit-de-zaagtand-ma1-1",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-14",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/breien-en-haken-in-de-cogge-2026-09-14",
+      "title": "Breien en haken in De Cogge",
+      "link": "https://netwerkhoorn.nl/activiteit/breien-en-haken-in-de-cogge",
+      "location": "Wijkcentrum De Cogge",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-14",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/girls-time-2026-09-14",
+      "title": "Girls Time",
+      "link": "https://netwerkhoorn.nl/activiteit/girls-time",
+      "location": "Wijkcentrum De Cogge",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-14",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/kaarten-maken-de-cogge-2026-09-14",
+      "title": "Kaarten maken De Cogge",
+      "link": "https://netwerkhoorn.nl/activiteit/kaarten-maken-de-cogge",
+      "location": "Wijkcentrum De Cogge",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-14",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/klaverjassen-grote-waal-1-2026-09-14",
+      "title": "Klaverjassen Grote Waal",
+      "link": "https://netwerkhoorn.nl/activiteit/klaverjassen-grote-waal-1",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-14",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/naai-inloop-grote-waal-ma-2026-09-14",
+      "title": "Naai inloop Grote Waal ma.",
+      "link": "https://netwerkhoorn.nl/activiteit/naai-inloop-grote-waal-ma",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-14",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/nederlands-praten-voor-beginners-en-gevorderden-grote-waal-2026-09-14",
+      "title": "Nederlands praten voor beginners en gevorderden (Grote Waal)",
+      "link": "https://netwerkhoorn.nl/activiteit/nederlands-praten-voor-beginners-en-gevorderden-grote-waal",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-14",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/nederlandse-taalles-voor-gevorderden-in-kersenboogerd-maandagavond-2026-2027-blok-1-2026-09-14",
+      "title": "Nederlandse taalles voor gevorderden in Kersenboogerd maandagavond 2026-2027 (blok 1)",
+      "link": "https://netwerkhoorn.nl/activiteit/nederlandse-taalles-voor-gevorderden-in-kersenboogerd-maandagavond-2026-2027-blok-1",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-14",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/ringball-grote-waal-2026-09-14",
+      "title": "Ringball Grote Waal",
+      "link": "https://netwerkhoorn.nl/activiteit/ringball-grote-waal",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-14",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/schaken-voor-kinderen-1-2026-09-14",
+      "title": "Schaken voor kinderen",
+      "link": "https://netwerkhoorn.nl/activiteit/schaken-voor-kinderen-1",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-14",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/schoorkoor-grote-waal-5-2026-09-14",
+      "title": "Schoorkoor Grote Waal",
+      "link": "https://netwerkhoorn.nl/activiteit/schoorkoor-grote-waal-5",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-14",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/sportinloop-de-cogge-2026-09-14",
+      "title": "Sportinloop De Cogge",
+      "link": "https://netwerkhoorn.nl/activiteit/sportinloop-de-cogge",
+      "location": "Wijkcentrum De Cogge",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-14",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/tekenen-en-schilderen-voor-kids-2-2026-09-14",
+      "title": "Tekenen en schilderen voor kids",
+      "link": "https://netwerkhoorn.nl/activiteit/tekenen-en-schilderen-voor-kids-2",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-14",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/tienerinloop-de-cogge-maandag-2026-09-14",
+      "title": "Tienerinloop De Cogge maandag",
+      "link": "https://netwerkhoorn.nl/activiteit/tienerinloop-de-cogge-maandag",
+      "location": "Wijkcentrum De Cogge",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-14",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/wijkinfopunt-grote-waal-woensdag-2026-09-14",
+      "title": "Wijkinfopunt Grote Waal woensdag",
+      "link": "https://netwerkhoorn.nl/activiteit/wijkinfopunt-grote-waal-woensdag",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-14",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/50-fit-grote-waal-dinsdag-2026-09-15",
+      "title": "50+ Fit Grote Waal dinsdag",
+      "link": "https://netwerkhoorn.nl/activiteit/50-fit-grote-waal-dinsdag",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-15",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/60-fit-mbvo-grote-waal-dinsdag-2026-09-15",
+      "title": "60+ Fit / MBVO Grote Waal dinsdag",
+      "link": "https://netwerkhoorn.nl/activiteit/60-fit-mbvo-grote-waal-dinsdag",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-15",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/60-fit-kersenboogerd-3-2026-09-15",
+      "title": "60+ Fit Kersenboogerd",
+      "link": "https://netwerkhoorn.nl/activiteit/60-fit-kersenboogerd-3",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-15",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/bakken-met-kleuters-2026-09-15",
+      "title": "Bakken met kleuters",
+      "link": "https://netwerkhoorn.nl/activiteit/bakken-met-kleuters",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-15",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/buurtmoeder-ontmoetingsgroepen-1-2026-09-15",
+      "title": "Buurtmoeder ontmoetingsgroepen",
+      "link": "https://netwerkhoorn.nl/activiteit/buurtmoeder-ontmoetingsgroepen-1",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-15",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/circusworkshop-mariaschool-1-2026-09-15",
+      "title": "Circusworkshop Mariaschool",
+      "link": "https://netwerkhoorn.nl/activiteit/circusworkshop-mariaschool-1",
+      "location": "Mariaschool",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-15",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/hulplessen-taal-1-2026-09-15",
+      "title": "Hulplessen taal",
+      "link": "https://netwerkhoorn.nl/activiteit/hulplessen-taal-1",
+      "location": "Wijkcentrum De Cogge",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-15",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/kinderkook-cafe-kersenboogerd-2026-2027-blok-1-2026-09-15",
+      "title": "Kinderkook Café Kersenboogerd 2026-2027 (blok 1)",
+      "link": "https://netwerkhoorn.nl/activiteit/kinderkook-cafe-kersenboogerd-2026-2027-blok-1",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-15",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/koersbal-op-dinsdag-3-2026-09-15",
+      "title": "Koersbal op dinsdag",
+      "link": "https://netwerkhoorn.nl/activiteit/koersbal-op-dinsdag-3",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-15",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/mixed-media-seizoen-2026-2027-2026-09-15",
+      "title": "Mixed media (seizoen 2026-2027)",
+      "link": "https://netwerkhoorn.nl/activiteit/mixed-media-seizoen-2026-2027",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-15",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/nederlandse-taalles-voor-beginners-in-kersenboogerd-dinsdagochtend-2026-2027-blok-1-2026-09-15",
+      "title": "Nederlandse taalles voor beginners in Kersenboogerd dinsdagochtend 2026-2027 (blok 1)",
+      "link": "https://netwerkhoorn.nl/activiteit/nederlandse-taalles-voor-beginners-in-kersenboogerd-dinsdagochtend-2026-2027-blok-1",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-15",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/onvergetelijke-ontmoetingen-grote-waal-2026-09-15",
+      "title": "Onvergetelijke ontmoetingen Grote Waal",
+      "link": "https://netwerkhoorn.nl/activiteit/onvergetelijke-ontmoetingen-grote-waal",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-15",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/popkoor-hoorn-2026-09-15",
+      "title": "Popkoor Hoorn",
+      "link": "https://netwerkhoorn.nl/activiteit/popkoor-hoorn",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-15",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/schilderen-en-tekenen-kunstzinnig-grote-waal-1-2026-09-15",
+      "title": "Schilderen en tekenen 'Kunstzinnig' Grote Waal",
+      "link": "https://netwerkhoorn.nl/activiteit/schilderen-en-tekenen-kunstzinnig-grote-waal-1",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-15",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/taichi-tao-qigong-2026-09-15",
+      "title": "Taichi Tao Qigong",
+      "link": "https://netwerkhoorn.nl/activiteit/taichi-tao-qigong",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-15",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/yoga-voor-volwassenen-di2-2026-09-15",
+      "title": "Yoga voor volwassenen di.2",
+      "link": "https://netwerkhoorn.nl/activiteit/yoga-voor-volwassenen-di2",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-15",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/art-inn-grote-waal-2026-09-16",
+      "title": "Art Inn Grote Waal",
+      "link": "https://netwerkhoorn.nl/activiteit/art-inn-grote-waal",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-16",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/breien-voor-roemenie-1-2026-09-16",
+      "title": "Breien voor Roemenië",
+      "link": "https://netwerkhoorn.nl/activiteit/breien-voor-roemenie-1",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-16",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/dante-kunst-en-cultuur-cursus-op-woensdagavond-2026-09-16",
+      "title": "Dante kunst en cultuur cursus op woensdagavond",
+      "link": "https://netwerkhoorn.nl/activiteit/dante-kunst-en-cultuur-cursus-op-woensdagavond",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-16",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/hoorns-kamerkoor-2026-09-16",
+      "title": "Hoorns kamerkoor",
+      "link": "https://netwerkhoorn.nl/activiteit/hoorns-kamerkoor",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-16",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/huiswerkbegeleiding-de-kersenboogerd-seizoen-2026-2027-2026-09-16",
+      "title": "Huiswerkbegeleiding De Kersenboogerd (seizoen 2026-2027)",
+      "link": "https://netwerkhoorn.nl/activiteit/huiswerkbegeleiding-de-kersenboogerd-seizoen-2026-2027",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-16",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/kidsclub-kersenboogerd-1-2026-09-16",
+      "title": "Kidsclub Kersenboogerd",
+      "link": "https://netwerkhoorn.nl/activiteit/kidsclub-kersenboogerd-1",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-16",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/koersbal-op-woensdag-1-2026-09-16",
+      "title": "Koersbal op woensdag",
+      "link": "https://netwerkhoorn.nl/activiteit/koersbal-op-woensdag-1",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-16",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/koffie-en-ontmoetingsochtend-in-de-huesmolen-1-2026-09-16",
+      "title": "Koffie- en ontmoetingsochtend in De Huesmolen",
+      "link": "https://netwerkhoorn.nl/activiteit/koffie-en-ontmoetingsochtend-in-de-huesmolen-1",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-16",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/quilt-bee-huesmolen-3-2026-09-16",
+      "title": "Quilt Bee Huesmolen",
+      "link": "https://netwerkhoorn.nl/activiteit/quilt-bee-huesmolen-3",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-16",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/samen-creatief-1-2026-09-16",
+      "title": "Samen Creatief",
+      "link": "https://netwerkhoorn.nl/activiteit/samen-creatief-1",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-16",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/volksdansen-grote-waal-1-2026-09-16",
+      "title": "Volksdansen Grote Waal",
+      "link": "https://netwerkhoorn.nl/activiteit/volksdansen-grote-waal-1",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-16",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/60-fit-de-huesmolen-2-2026-09-17",
+      "title": "60+ Fit De Huesmolen",
+      "link": "https://netwerkhoorn.nl/activiteit/60-fit-de-huesmolen-2",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-17",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/beelden-maken-steenhoorn-1-2026-09-17",
+      "title": "Beelden maken 'Steenhoorn'",
+      "link": "https://netwerkhoorn.nl/activiteit/beelden-maken-steenhoorn-1",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-17",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/buurten-in-de-cogge-2026-09-17",
+      "title": "Buurten in De Cogge",
+      "link": "https://netwerkhoorn.nl/activiteit/buurten-in-de-cogge",
+      "location": "Wijkcentrum De Cogge",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-17",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/dante-kunst-en-cultuur-cursus-op-donderdagmorgen-2026-09-17",
+      "title": "Dante kunst en cultuur cursus op donderdagmorgen",
+      "link": "https://netwerkhoorn.nl/activiteit/dante-kunst-en-cultuur-cursus-op-donderdagmorgen",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-17",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/jongereninloop-2026-09-17",
+      "title": "Jongereninloop",
+      "link": "https://netwerkhoorn.nl/activiteit/jongereninloop",
+      "location": "Wijkcentrum De Cogge",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-17",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/kidsclub-de-huesmolen-1-2026-09-17",
+      "title": "Kidsclub De Huesmolen",
+      "link": "https://netwerkhoorn.nl/activiteit/kidsclub-de-huesmolen-1",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-17",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/nederlands-praten-voor-beginners-en-gevorderden-grote-waal-1-2026-09-17",
+      "title": "Nederlands praten voor beginners en gevorderden (Grote Waal)",
+      "link": "https://netwerkhoorn.nl/activiteit/nederlands-praten-voor-beginners-en-gevorderden-grote-waal-1",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-17",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/tekenen-mariaschool-2026-09-17",
+      "title": "Tekenen Mariaschool",
+      "link": "https://netwerkhoorn.nl/activiteit/tekenen-mariaschool",
+      "location": "Mariaschool",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-17",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/zingen-swingen-en-acteren-mariaschool-2-2026-09-17",
+      "title": "Zingen, swingen en acteren Mariaschool",
+      "link": "https://netwerkhoorn.nl/activiteit/zingen-swingen-en-acteren-mariaschool-2",
+      "location": "Mariaschool",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-17",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/griekse-avond/",
+      "title": "Griekse Avond",
+      "link": "https://komnaarhoorn.nl/agenda/griekse-avond/",
+      "location": "Van der Valk Hotel Hoorn",
+      "description": "Proef Griekse smaken en sferen. Yamas!",
+      "startDate": "2026-09-17",
+      "endDate": "",
+      "startTime": "17:00",
+      "endTime": "21:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/beyourself/",
+      "title": "Be Yourself – Kom en dans!",
+      "link": "https://manifesto-hoorn.nl/productie/beyourself/",
+      "location": "Manifesto Hoorn",
+      "description": "Op vrijdag 18 september is het weer feest in Manifesto met BE YOURSELF: kom en dans! Lekker dansen op de muziek van dj Aron, gezellig met elkaar een biertje of frisje doen, even helemaal los. En zet ook alvast vrijdag 13 november in je agenda, want dan is het alweer. Wat kost het? Entree is €5,-. Je kunt je kaartje op de avond aan de kassa kopen. Je betaalt zelf je consumpties bij de bar. Door wie wordt het georganis",
+      "startDate": "2026-09-18",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/eettafel-wijkcentrum-kersenboogerd-2026-2027-2026-09-18",
+      "title": "Eettafel Wijkcentrum Kersenboogerd 2026-2027",
+      "link": "https://netwerkhoorn.nl/activiteit/eettafel-wijkcentrum-kersenboogerd-2026-2027",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-18",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/trouwbeurs-hoorn/",
+      "title": "Trouwbeurs Hoorn",
+      "link": "https://komnaarhoorn.nl/agenda/trouwbeurs-hoorn/",
+      "location": "Noorderkerk",
+      "description": "Wacht nog even met het plannen van je bruiloft, op deze beurs staan 30 trouwprofessionals voor je klaar!",
+      "startDate": "2026-09-20",
+      "endDate": "",
+      "startTime": "11:00",
+      "endTime": "16:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/zoomer-op-de-roode-steen-11/",
+      "title": "Zoomer op de Roode Steen",
+      "link": "https://komnaarhoorn.nl/agenda/zoomer-op-de-roode-steen-11/",
+      "location": "Roode Steen, Hoorn",
+      "description": "Deze zomer verrast de Roode Steen je elke zondag met muziek, dans en creativiteit.",
+      "startDate": "2026-09-20",
+      "endDate": "",
+      "startTime": "15:00",
+      "endTime": "19:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/cursus-portret-tekenen-en-schilderen-2026-09-21",
+      "title": "Cursus portret tekenen en - schilderen",
+      "link": "https://netwerkhoorn.nl/activiteit/cursus-portret-tekenen-en-schilderen",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-21",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/hulplessen-taal-2026-09-22",
+      "title": "Hulplessen taal",
+      "link": "https://netwerkhoorn.nl/activiteit/hulplessen-taal",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/repaircafe-grote-waal-1-2026-09-22",
+      "title": "Repaircafé Grote Waal",
+      "link": "https://netwerkhoorn.nl/activiteit/repaircafe-grote-waal-1",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-5a45a5a9-1f9d-4125-ad0a-2841135c435d",
+      "title": "1. Opening en mededelingen",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#5a45a5a9-1f9d-4125-ad0a-2841135c435d",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 1",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "1",
+      "itemTitle": "Opening en mededelingen"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-cdb2a520-174a-441f-896c-54578dc49dfa",
+      "title": "10. B-agenda (Hamerstukken)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#cdb2a520-174a-441f-896c-54578dc49dfa",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 10",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "10",
+      "itemTitle": "B-agenda (Hamerstukken)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-a6ea3345-602f-487e-bbf9-2d28521aec48",
+      "title": "10.1. Rekenkamerrapportage groenbeleid Hoorn (Portefeuillehouder Dekker)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#a6ea3345-602f-487e-bbf9-2d28521aec48",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 10.1",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "10.1",
+      "itemTitle": "Rekenkamerrapportage groenbeleid Hoorn (Portefeuillehouder Dekker)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-40465902-74b8-4ad7-8377-e2b1ca98a08d",
+      "title": "10.2. Roode Steen, Kerkstraat en West (Portefeuillehouder Assendelft)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#40465902-74b8-4ad7-8377-e2b1ca98a08d",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 10.2",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "10.2",
+      "itemTitle": "Roode Steen, Kerkstraat en West (Portefeuillehouder Assendelft)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-b183d25b-77c9-443f-a4b0-553e3585a5e5",
+      "title": "10.3. Afgeven van een bindend advies en vaststellen Beeldkwaliteitsplan voor plan Buitenstad (Portefeuillehouder Heijne)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#b183d25b-77c9-443f-a4b0-553e3585a5e5",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 10.3",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "10.3",
+      "itemTitle": "Afgeven van een bindend advies en vaststellen Beeldkwaliteitsplan voor plan Buitenstad (Portefeuillehouder Heijne)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-c5b2bb2a-99c6-4fb4-8d51-22778148500a",
+      "title": "10.4. Bindend advies en vaststellen beeldkwaliteitsplan bouwplan Scheldeweg 2 in Hoorn (Portefeuillehouder Yousufi)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#c5b2bb2a-99c6-4fb4-8d51-22778148500a",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 10.4",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "10.4",
+      "itemTitle": "Bindend advies en vaststellen beeldkwaliteitsplan bouwplan Scheldeweg 2 in Hoorn (Portefeuillehouder Yousufi)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-9dc6bd72-f142-4409-8d1d-398e7a0f7944",
+      "title": "10.5. Extra uitvoeringskrediet Mariaschool (Portefeuillehouder Heijne)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#9dc6bd72-f142-4409-8d1d-398e7a0f7944",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 10.5",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "10.5",
+      "itemTitle": "Extra uitvoeringskrediet Mariaschool (Portefeuillehouder Heijne)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-28449d52-dfe8-4942-850d-221f3597157b",
+      "title": "10.6. Gedragscode college (Portefeuillehouder Nieuwenburg)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#28449d52-dfe8-4942-850d-221f3597157b",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 10.6",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "10.6",
+      "itemTitle": "Gedragscode college (Portefeuillehouder Nieuwenburg)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-30af129b-de3d-4074-ae53-cf8ad831d8fc",
+      "title": "10.7. Aanvullend besluit over vertegenwoordiging in besturen gemeenschappelijke regelingen (portefeuillehouder Nieuwenburg)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#30af129b-de3d-4074-ae53-cf8ad831d8fc",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 10.7",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "10.7",
+      "itemTitle": "Aanvullend besluit over vertegenwoordiging in besturen gemeenschappelijke regelingen (portefeuillehouder Nieuwenburg)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-4ccd62bf-62aa-4b1c-8311-094a4cbdcae7",
+      "title": "10.8. Personele besluiten gemeenteraad Hoorn in het kader van de Algemene verordening gegevensbescherming (AVG)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#4ccd62bf-62aa-4b1c-8311-094a4cbdcae7",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 10.8",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "10.8",
+      "itemTitle": "Personele besluiten gemeenteraad Hoorn in het kader van de Algemene verordening gegevensbescherming (AVG)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-651d697f-e8fc-4434-bc55-f8228da31741",
+      "title": "10.9. Verzameloverzicht begrotingswijzigingen raad september 2026",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#651d697f-e8fc-4434-bc55-f8228da31741",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 10.9",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "10.9",
+      "itemTitle": "Verzameloverzicht begrotingswijzigingen raad september 2026"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-b037bbb9-fd3e-4666-80dd-3ad5f915bc83",
+      "title": "11. Vragen raadsleden",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#b037bbb9-fd3e-4666-80dd-3ad5f915bc83",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 11",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "11",
+      "itemTitle": "Vragen raadsleden"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-50bbb2f0-858f-42e9-b6e8-1c6d94195162",
+      "title": "12. C-agenda (Wilde moties)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#50bbb2f0-858f-42e9-b6e8-1c6d94195162",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 12",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "12",
+      "itemTitle": "C-agenda (Wilde moties)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-6e76a87b-1f61-48f3-bd2b-1b5fa8444f3f",
+      "title": "13. Sluiting",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#6e76a87b-1f61-48f3-bd2b-1b5fa8444f3f",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 13",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "13",
+      "itemTitle": "Sluiting"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-289dd651-6070-4d0d-805e-c787083a7ab0",
+      "title": "2. Voorstel Kindergemeenteraad",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#289dd651-6070-4d0d-805e-c787083a7ab0",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 2",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "2",
+      "itemTitle": "Voorstel Kindergemeenteraad"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-47e4e6a1-85cf-41b5-8d5a-17d782c77fd2",
+      "title": "3. Vaststelling van de raadsagenda van 22 september 2026",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#47e4e6a1-85cf-41b5-8d5a-17d782c77fd2",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 3",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "3",
+      "itemTitle": "Vaststelling van de raadsagenda van 22 september 2026"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-abdc5372-911f-4b05-83fd-50c7202fbabb",
+      "title": "4. Vaststellen van de besluitenlijst van de openbare raadsvergadering van 16 en 23 juni 2026",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#abdc5372-911f-4b05-83fd-50c7202fbabb",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 4",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "4",
+      "itemTitle": "Vaststellen van de besluitenlijst van de openbare raadsvergadering van 16 en 23 juni 2026"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-9f8ccda4-38dd-40b2-89eb-24323a6168ca",
+      "title": "5. Spreekrecht burgers",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#9f8ccda4-38dd-40b2-89eb-24323a6168ca",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 5",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "5",
+      "itemTitle": "Spreekrecht burgers"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-cee7c9a0-3457-40db-a196-094758172d1b",
+      "title": "6. Personele besluiten",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#cee7c9a0-3457-40db-a196-094758172d1b",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 6",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "6",
+      "itemTitle": "Personele besluiten"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-7964c5e8-cdda-4abf-9f07-3e6ff1281ef7",
+      "title": "7. Vaststelling van de lijst van ingekomen stukken",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#7964c5e8-cdda-4abf-9f07-3e6ff1281ef7",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 7",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "7",
+      "itemTitle": "Vaststelling van de lijst van ingekomen stukken"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-34063bae-8eb2-4c59-8854-20f4d82af4a9",
+      "title": "8. Stand van zaken moties en toezeggingen",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#34063bae-8eb2-4c59-8854-20f4d82af4a9",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 8",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "8",
+      "itemTitle": "Stand van zaken moties en toezeggingen"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-ea256dfe-600b-4a5f-aee3-12c2949704a9",
+      "title": "9. A-agenda (Bespreekpunten)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#ea256dfe-600b-4a5f-aee3-12c2949704a9",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 9",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "9",
+      "itemTitle": "A-agenda (Bespreekpunten)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-77f86359-1dee-4ff7-bcaf-c6d72539c6a5",
+      "title": "9.1. Beleidsplan gladheidbestrijding 2026-2035 (Portefeuillehouder Dekker)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#77f86359-1dee-4ff7-bcaf-c6d72539c6a5",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 9.1",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "9.1",
+      "itemTitle": "Beleidsplan gladheidbestrijding 2026-2035 (Portefeuillehouder Dekker)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-85f5e0af-a995-41e5-81db-f199d1e18cb5",
+      "title": "9.2. Vaststellen nieuwe Verordening Duurzaamheids- en stimuleringsregeling VvE's 2026-2030 (Portefeuillehouder Yousufi)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#85f5e0af-a995-41e5-81db-f199d1e18cb5",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 9.2",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "9.2",
+      "itemTitle": "Vaststellen nieuwe Verordening Duurzaamheids- en stimuleringsregeling VvE's 2026-2030 (Portefeuillehouder Yousufi)"
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/seniorencircuit-1-2026-09-23",
+      "title": "Seniorencircuit",
+      "link": "https://netwerkhoorn.nl/activiteit/seniorencircuit-1",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-23",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/eettafel-de-cogge-2026-09-24",
+      "title": "Eettafel De Cogge",
+      "link": "https://netwerkhoorn.nl/activiteit/eettafel-de-cogge",
+      "location": "Wijkcentrum De Cogge",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-24",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/praatgroep-leven-in-nederland-donderdagochtend-2026-2027-blok-1-volgeboekt-2026-09-24",
+      "title": "Praatgroep Leven in Nederland donderdagochtend 2026-2027 (blok 1) VOLGEBOEKT!!!",
+      "link": "https://netwerkhoorn.nl/activiteit/praatgroep-leven-in-nederland-donderdagochtend-2026-2027-blok-1-volgeboekt",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-24",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/rots-en-water-training-wijkcentrum-de-huesmolen-2026-09-24",
+      "title": "Rots en Water training Wijkcentrum de Huesmolen",
+      "link": "https://netwerkhoorn.nl/activiteit/rots-en-water-training-wijkcentrum-de-huesmolen",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-24",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/storytrail-theaterwandeling-hoorn-4/",
+      "title": "StoryTrail Theaterwandeling",
+      "link": "https://komnaarhoorn.nl/agenda/storytrail-theaterwandeling-hoorn-4/",
+      "location": "Binnenstad Hoorn",
+      "description": "Ga mee terug in de tijd tijdens deze bijzondere wandeling.",
+      "startDate": "2026-09-24",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "20:30",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/cursus-portret-tekenen-en-schilderen-1-2026-09-25",
+      "title": "Cursus portret tekenen en - schilderen",
+      "link": "https://netwerkhoorn.nl/activiteit/cursus-portret-tekenen-en-schilderen-1",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-25",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/hoorn-modestad-2/",
+      "title": "hoorn modestad",
+      "link": "https://komnaarhoorn.nl/agenda/hoorn-modestad-2/",
+      "location": "Binnenstad",
+      "description": "Nieuw seizoen, nieuwe outfit! Ontdek dit weekend de laatste trends in fashion. Geniet van modeshows en hapjes & drankjes.",
+      "startDate": "2026-09-26",
+      "endDate": "",
+      "startTime": "10:00",
+      "endTime": "17:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/guitly-pleasure-music-bingo/",
+      "title": "Guitly Pleasure Music Bingo",
+      "link": "https://komnaarhoorn.nl/agenda/guitly-pleasure-music-bingo/",
+      "location": "Van der Valk",
+      "description": "Zing mee, streep af, trek je foute outfit aan beleef een topavond.",
+      "startDate": "2026-09-26",
+      "endDate": "",
+      "startTime": "20:00",
+      "endTime": "23:45",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/superkoopzondag-6/",
+      "title": "Superkoopzondag",
+      "link": "https://komnaarhoorn.nl/agenda/superkoopzondag-6/",
+      "location": "Binnenstad Hoorn",
+      "description": "Shop till you drop! Iedere aatste zondag van de maand is het Superkoopzondag.",
+      "startDate": "2026-09-27",
+      "endDate": "",
+      "startTime": "12:00",
+      "endTime": "17:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/zoomer-op-de-roode-steen-12/",
+      "title": "Zoomer op de Roode Steen",
+      "link": "https://komnaarhoorn.nl/agenda/zoomer-op-de-roode-steen-12/",
+      "location": "Roode Steen, Hoorn",
+      "description": "Deze zomer verrast de Roode Steen je elke zondag met muziek, dans en creativiteit.",
+      "startDate": "2026-09-27",
+      "endDate": "",
+      "startTime": "15:00",
+      "endTime": "19:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/franse-les-op-maandag-2026-09-28",
+      "title": "Franse les op maandag",
+      "link": "https://netwerkhoorn.nl/activiteit/franse-les-op-maandag",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-28",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/rouwgroep-liefde-blijft-praatavonden-inloop-2026-09-28",
+      "title": "Rouwgroep Liefde Blijft: praatavonden (inloop).",
+      "link": "https://netwerkhoorn.nl/activiteit/rouwgroep-liefde-blijft-praatavonden-inloop",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-28",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/samen-wandelen-2026-09-28",
+      "title": "Samen wandelen",
+      "link": "https://netwerkhoorn.nl/activiteit/samen-wandelen",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-28",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/franse-les-op-dinsdag-2026-09-29",
+      "title": "Franse les op dinsdag",
+      "link": "https://netwerkhoorn.nl/activiteit/franse-les-op-dinsdag",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-29",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/franse-les-op-woensdag-2026-09-30",
+      "title": "Franse les op woensdag",
+      "link": "https://netwerkhoorn.nl/activiteit/franse-les-op-woensdag",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-30",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/workshop-portrettekenen/",
+      "title": "Portret Schilderen",
+      "link": "https://komnaarhoorn.nl/agenda/workshop-portrettekenen/",
+      "location": "Fika Creative",
+      "description": "Doe mee aan deze unieke workshop van Pippa Knus. Creëer je eigen portret met aquarel.",
+      "startDate": "2026-09-30",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "21:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/yu-nanga-mi-2026-10-01",
+      "title": "Yu Nanga Mi",
+      "link": "https://netwerkhoorn.nl/activiteit/yu-nanga-mi",
+      "location": "Wijkcentrum De Cogge",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-01",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "raad-f3c5b127-a3f4-44bd-b540-d6a26d934a46",
+      "title": "Algemene Raadscommissie - Raadzaal",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/f3c5b127-a3f4-44bd-b540-d6a26d934a46",
+      "location": "Raadzaal",
+      "description": "Agenda nog niet (volledig) gepubliceerd.",
+      "startDate": "2026-10-01",
+      "endDate": "",
+      "startTime": "19:30",
+      "endTime": "22:00",
+      "sourceId": "raad",
+      "sourceLabel": "Algemene Raadscommissie - Raadzaal",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Algemene Raadscommissie - Raadzaal",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/f3c5b127-a3f4-44bd-b540-d6a26d934a46",
+      "itemNumber": "",
+      "itemTitle": "Algemene Raadscommissie - Raadzaal"
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/regenboogweek-wf/",
+      "title": "REGENBOOGWEEK",
+      "link": "https://komnaarhoorn.nl/agenda/regenboogweek-wf/",
+      "location": "Verschillende locaties",
+      "description": "Een week vol ontmoeting, kunst, theater, film en activiteiten rondom LHBTIQA+",
+      "startDate": "2026-10-03",
+      "endDate": "",
+      "startTime": "14:00",
+      "endTime": "20:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/kleine-schatten-markt/",
+      "title": "Kleine schatten markt",
+      "link": "https://komnaarhoorn.nl/agenda/kleine-schatten-markt/",
+      "location": "Cultureel Centrum De Plataan in Zwaag",
+      "description": "Vinted, maar dan in RL! Een markt voor jonge ouders, bomvol met tweedehands baby- en kinderkleding en veel meer!",
+      "startDate": "2026-10-04",
+      "endDate": "",
+      "startTime": "09:30",
+      "endTime": "12:30",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/bokken-happen/",
+      "title": "Bokken & Happen",
+      "link": "https://komnaarhoorn.nl/agenda/bokken-happen/",
+      "location": "Horeca in het centrum",
+      "description": "Bokbier & heerlijke hapjes in 5 cafés.",
+      "startDate": "2026-10-04",
+      "endDate": "",
+      "startTime": "13:00",
+      "endTime": "18:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/girls-time-kersenboogerd-1-2026-10-05",
+      "title": "Girls Time Kersenboogerd",
+      "link": "https://netwerkhoorn.nl/activiteit/girls-time-kersenboogerd-1",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-05",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/food-la-route-hoorn/",
+      "title": "Food La Route Hoorn",
+      "link": "https://komnaarhoorn.nl/agenda/food-la-route-hoorn/",
+      "location": "Hoorn",
+      "description": "Waarom kiezen? Wandel door de sfeervolle straten van de stad en geniet van 4 gangen in 4 verschillende restaurants.",
+      "startDate": "2026-10-06",
+      "endDate": "",
+      "startTime": "18:30",
+      "endTime": "22:15",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "raad-894a0935-bc4d-4f60-8128-2cd4ec49e44c",
+      "title": "Algemene Raadscommissie - Raadzaal",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c",
+      "location": "Raadzaal",
+      "description": "Agenda nog niet (volledig) gepubliceerd.",
+      "startDate": "2026-10-06",
+      "endDate": "",
+      "startTime": "19:30",
+      "endTime": "22:00",
+      "sourceId": "raad",
+      "sourceLabel": "Algemene Raadscommissie - Raadzaal",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Algemene Raadscommissie - Raadzaal",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c",
+      "itemNumber": "",
+      "itemTitle": "Algemene Raadscommissie - Raadzaal"
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/cafe-a-la-carte-1-2026-10-07",
+      "title": "Café à la Carte",
+      "link": "https://netwerkhoorn.nl/activiteit/cafe-a-la-carte-1",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/nederlandse-taalles-voor-beginners-in-kersenboogerd-woensdagochtend-2026-2027-blok-1-2026-10-07",
+      "title": "Nederlandse taalles voor beginners in Kersenboogerd woensdagochtend 2026-2027 (blok 1)",
+      "link": "https://netwerkhoorn.nl/activiteit/nederlandse-taalles-voor-beginners-in-kersenboogerd-woensdagochtend-2026-2027-blok-1",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/aziatische-avond-buffet-live-entertainment/",
+      "title": "Aziatische AVond | Buffet & Live Entertainment",
+      "link": "https://komnaarhoorn.nl/agenda/aziatische-avond-buffet-live-entertainment/",
+      "location": "Van der",
+      "description": "Azië in Hoorn. Oosterse specialiteiten, live harpmuziek en een indrukwekkende Chinese drakendans.",
+      "startDate": "2026-10-08",
+      "endDate": "",
+      "startTime": "17:00",
+      "endTime": "21:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/random-goes-brass/",
+      "title": "RandOm goes Brass",
+      "link": "https://komnaarhoorn.nl/agenda/random-goes-brass/",
+      "location": "Schouwburg het Park, Hoorn",
+      "description": "Mis geen een kans om te dansen! Ga los op de Hoornse Brassband en Coverband Rand0m.",
+      "startDate": "2026-10-09",
+      "endDate": "",
+      "startTime": "20:00",
+      "endTime": "23:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/hoorn-dance-event/",
+      "title": "Hoorn Dance Event",
+      "link": "https://komnaarhoorn.nl/agenda/hoorn-dance-event/",
+      "location": "The Saint Kerkplein",
+      "description": "Amsterdam eat your heart out! Hoorn heeft zijn eigen HDE in The Saint.",
+      "startDate": "2026-10-10",
+      "endDate": "",
+      "startTime": "21:00",
+      "endTime": "01:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/autumn-plate-party/",
+      "title": "Autumn Plate Party",
+      "link": "https://komnaarhoorn.nl/agenda/autumn-plate-party/",
+      "location": "FIKA Creative",
+      "description": "Een creatieve workshop voor jong én oud!",
+      "startDate": "2026-10-12",
+      "endDate": "",
+      "startTime": "13:30",
+      "endTime": "16:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/autumn-plate-party-2/",
+      "title": "Autumn Plate Party",
+      "link": "https://komnaarhoorn.nl/agenda/autumn-plate-party-2/",
+      "location": "FIKA Creative",
+      "description": "Een creatieve workshop voor jong én oud!",
+      "startDate": "2026-10-15",
+      "endDate": "",
+      "startTime": "16:15",
+      "endTime": "18:15",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/mineralenbeurs-hoorn/",
+      "title": "Mineralenbeurs",
+      "link": "https://komnaarhoorn.nl/agenda/mineralenbeurs-hoorn/",
+      "location": "Schouwburg / congrescentrum \"Het Park\"",
+      "description": "Een dag vol sprankeling, verwondering en ontdekking voor jong en oud!",
+      "startDate": "2026-10-18",
+      "endDate": "",
+      "startTime": "10:00",
+      "endTime": "16:30",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/sprookjesfeest/",
+      "title": "Sprookjesfeest",
+      "link": "https://komnaarhoorn.nl/agenda/sprookjesfeest/",
+      "location": "Van der Valk Hotel Hoorn",
+      "description": "Geniet van een prinsessenshow, een uitgebreid lunchbuffet en een feestelijk dessertbuffet.",
+      "startDate": "2026-10-18",
+      "endDate": "",
+      "startTime": "12:00",
+      "endTime": "14:30",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/rouwgroep-liefde-blijft-doe-avond-maandag-19-oktober-2026-10-19",
+      "title": "Rouwgroep Liefde Blijft: doe-avond maandag 19 oktober",
+      "link": "https://netwerkhoorn.nl/activiteit/rouwgroep-liefde-blijft-doe-avond-maandag-19-oktober",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-19",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "raad-5b28c4f4-d2e0-491d-9e6b-8316495135d9",
+      "title": "Gemeenteraad",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5b28c4f4-d2e0-491d-9e6b-8316495135d9",
+      "location": "Raadzaal",
+      "description": "Agenda nog niet (volledig) gepubliceerd.",
+      "startDate": "2026-10-20",
+      "endDate": "",
+      "startTime": "19:30",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5b28c4f4-d2e0-491d-9e6b-8316495135d9",
+      "itemNumber": "",
+      "itemTitle": "Gemeenteraad"
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/eva-is-jarig-congres/",
+      "title": "Eva is Jarig congres",
+      "link": "https://komnaarhoorn.nl/agenda/eva-is-jarig-congres/",
+      "location": "Het park Schouwburg",
+      "description": "Een inspirerende dag over geboorte, opgroeien en de toekomst van kinderen.",
+      "startDate": "2026-10-22",
+      "endDate": "",
+      "startTime": "14:00",
+      "endTime": "21:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/club-festo-oktober-2026/",
+      "title": "Club Festo (Fris 10 t/m 14)",
+      "link": "https://manifesto-hoorn.nl/productie/club-festo-oktober-2026/",
+      "location": "Manifesto Hoorn",
+      "description": "In Manifesto aan de Holenweg in Hoorn zijn vrijdag 23 oktober 2026 tieners tussen de tien en veertien jaar van harte welkom tijdens de tienerdisco. De disco begint om 19.30 uur en eindigt om 22.00 uur. Een dj zorgt voor de muziek en natuurlijk mag je verzoeknummers aanvragen.",
+      "startDate": "2026-10-23",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/queen/",
+      "title": "Valentine's Tribute To Queen",
+      "link": "https://manifesto-hoorn.nl/productie/queen/",
+      "location": "Manifesto Hoorn",
+      "description": "Na een volledig uitverkochte show in 2025 keert Valentine’s Tribute to Queen terug naar Manifesto op zaterdag 24 oktober 2026! Tickets zijn nu verkrijgbaar via: deze link. Robby Valentine brak begin jaren ’90 door met de hit Over And Over Again en groeide uit tot een van Nederlands meest eigenzinnige popartiesten. Zijn liefde voor Queen loopt als een rode draad door zijn carrière, wat zelfs werd erkend door Queen-git",
+      "startDate": "2026-10-24",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/superkoopzondag-5/",
+      "title": "superkoopzondag",
+      "link": "https://komnaarhoorn.nl/agenda/superkoopzondag-5/",
+      "location": "Binnenstad Hoorn",
+      "description": "Shop till you drop! Iedere laatste zondag van de maand is het Superkoopzondag.",
+      "startDate": "2026-10-25",
+      "endDate": "",
+      "startTime": "12:00",
+      "endTime": "17:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/het-misdaad-dinner/",
+      "title": "Het Misdaad Dinner",
+      "link": "https://komnaarhoorn.nl/agenda/het-misdaad-dinner/",
+      "location": "Restaurant De Kade",
+      "description": "Diner, spanning en speuren. Sounds like a plan!",
+      "startDate": "2026-10-25",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "23:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "raad-328e123e-04d8-4250-bcff-88ef3eb95e20-e921dfff-5349-42c6-9d73-0e53b502c51e",
+      "title": "Raadscafé",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/328e123e-04d8-4250-bcff-88ef3eb95e20#e921dfff-5349-42c6-9d73-0e53b502c51e",
+      "location": "De Witte Valk",
+      "description": "Raadscafé · agendapunt",
+      "startDate": "2026-10-29",
+      "endDate": "",
+      "startTime": "19:30",
+      "endTime": "22:00",
+      "sourceId": "raad",
+      "sourceLabel": "Raadscafé",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Raadscafé",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/328e123e-04d8-4250-bcff-88ef3eb95e20",
+      "itemNumber": "",
+      "itemTitle": "Raadscafé"
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/big-bike-night/",
+      "title": "Big Bike Night",
+      "link": "https://komnaarhoorn.nl/agenda/big-bike-night/",
+      "location": "Vue Cinema Hoorn",
+      "description": "Fietsliefhebbers opgelet!",
+      "startDate": "2026-10-30",
+      "endDate": "",
+      "startTime": "20:00",
+      "endTime": "22:30",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/quiz/",
+      "title": "QuizNight, de mooiste pubquiz van Hoorn!",
+      "link": "https://manifesto-hoorn.nl/productie/quiz/",
+      "location": "Manifesto Hoorn",
+      "description": "Quizmasters Thomas & Rob hebben weer een spannende en leuke quiz voor jou en je team! Op zaterdag 31 oktober is het weer tijd om met je favoriete quizteam (maximaal 6 personen per team) de strijd aan te gaan in deze avondvullende quiz vol muziek, film en andere trivia. Koop nu je tickets, kaartjes gaan per persoon, via de onderstaande button en geef daarna je teamnaam en aantal personen door via quizmasterhoorn@gmail",
+      "startDate": "2026-10-31",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/beleef-je-trouwdag-2/",
+      "title": "Beleef je trouwdag",
+      "link": "https://komnaarhoorn.nl/agenda/beleef-je-trouwdag-2/",
+      "location": "Noorderkerk",
+      "description": "Een dag vol met workshops, live muziek, proeven & gezelligheid Op deze dag vind je voor jullie bruiloft.",
+      "startDate": "2026-11-01",
+      "endDate": "",
+      "startTime": "11:00",
+      "endTime": "16:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "raad-6a5fb47f-487a-44ff-a3c5-8227f5c4d4d5",
+      "title": "Gemeenteraad",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/6a5fb47f-487a-44ff-a3c5-8227f5c4d4d5",
+      "location": "Raadzaal",
+      "description": "Agenda nog niet (volledig) gepubliceerd.",
+      "startDate": "2026-11-03",
+      "endDate": "",
+      "startTime": "14:00",
+      "endTime": "23:00",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/6a5fb47f-487a-44ff-a3c5-8227f5c4d4d5",
+      "itemNumber": "",
+      "itemTitle": "Gemeenteraad"
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/kamermuziek-festival/",
+      "title": "KAMERMUZIEK FESTIVAL",
+      "link": "https://komnaarhoorn.nl/agenda/kamermuziek-festival/",
+      "location": "DIVERSE LOCATIES IN HOORN",
+      "description": "Luister naar betoverende klanken op bijzondere locaties, zoals kerken en sfeervolle kroegen.",
+      "startDate": "2026-11-05",
+      "endDate": "",
+      "startTime": "20:00",
+      "endTime": "22:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/vroeg-pieken-2/",
+      "title": "Vroeg Pieken",
+      "link": "https://komnaarhoorn.nl/agenda/vroeg-pieken-2/",
+      "location": "Het Park",
+      "description": "Het leukste vroege feestje van Nederland! Dans en zing mee met bekende hitjes.",
+      "startDate": "2026-11-06",
+      "endDate": "",
+      "startTime": "20:00",
+      "endTime": "00:30",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/the-cats-aglow-dinnershow/",
+      "title": "The Cats Aglow Dinnershow",
+      "link": "https://komnaarhoorn.nl/agenda/the-cats-aglow-dinnershow/",
+      "location": "Van der Valk Hotel Hoorn",
+      "description": "Geniet van een compleet verzorgde avond met live cooking, onbeperkt eten en drinken én muziek van The Cats Aglow!",
+      "startDate": "2026-11-07",
+      "endDate": "",
+      "startTime": "17:00",
+      "endTime": "21:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/queer-coffee-creative-2/",
+      "title": "Queer Coffee Creative",
+      "link": "https://komnaarhoorn.nl/agenda/queer-coffee-creative-2/",
+      "location": "Hotel Maria Kapel",
+      "description": "Kom naar deze inspirerende meet-up voor queers, nieuwsgierigen en ally’s.",
+      "startDate": "2026-11-08",
+      "endDate": "",
+      "startTime": "11:00",
+      "endTime": "13:30",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "raad-300daf69-74dd-42e3-9b7a-05abb311f700",
+      "title": "Gemeenteraad",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/300daf69-74dd-42e3-9b7a-05abb311f700",
+      "location": "Raadzaal",
+      "description": "Agenda nog niet (volledig) gepubliceerd.",
+      "startDate": "2026-11-10",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "23:00",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/300daf69-74dd-42e3-9b7a-05abb311f700",
+      "itemNumber": "",
+      "itemTitle": "Gemeenteraad"
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/repair-cafe-kersenboogerd-2026-11-11",
+      "title": "Repair Café Kersenboogerd",
+      "link": "https://netwerkhoorn.nl/activiteit/repair-cafe-kersenboogerd",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-11-11",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/najaarsmarkt/",
+      "title": "Najaarsmarkt",
+      "link": "https://komnaarhoorn.nl/agenda/najaarsmarkt/",
+      "location": "Veemarkt, Breed, Gedempte Turfhaven, Gouw en Nieuwstraat.",
+      "description": "150 kramen met hippe winterkleding, accessoires, schoenen, tassen, boeken en natuurlijk de bekende koetaai.",
+      "startDate": "2026-11-11",
+      "endDate": "",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/kom-en-dans-be-yourself/",
+      "title": "Be Yourself – Kom en dans!",
+      "link": "https://manifesto-hoorn.nl/productie/kom-en-dans-be-yourself/",
+      "location": "Manifesto Hoorn",
+      "description": "Op vrijdag 13 november is het weer feest in Manifesto met BE YOURSELF: kom en dans! Lekker dansen op de muziek van dj Aron, gezellig met elkaar een biertje of frisje doen, even helemaal los. Wat kost het? Entree is €5,-. Je kunt je kaartje op de avond aan de kassa kopen. Je betaalt zelf je consumpties bij de bar. Door wie wordt het georganiseerd? Het wordt georganiseerd door Stichting Netwerk, in samenwerking met 1.H",
+      "startDate": "2026-11-13",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/sinterklaas-intocht/",
+      "title": "Sinterklaas intocht",
+      "link": "https://komnaarhoorn.nl/agenda/sinterklaas-intocht/",
+      "location": "Oude Doelenkade Hoorn",
+      "description": "Zie ginds komt de stoomboot van Sinterklaas aan in de haven van Hoorn! Mis dit grote feest niet.",
+      "startDate": "2026-11-14",
+      "endDate": "",
+      "startTime": "11:00",
+      "endTime": "15:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/pieten-expres/",
+      "title": "Pieten expres",
+      "link": "https://komnaarhoorn.nl/agenda/pieten-expres/",
+      "location": "Tramstation Hoorn",
+      "description": "Rij mee met een stoomtram vol Pieten naar Sinterklaas! Daar wacht hij op jou, met spelletjes en cadeaus.",
+      "startDate": "2026-11-15",
+      "endDate": "",
+      "startTime": "13:30",
+      "endTime": "15:30",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/popronde-hoorn/",
+      "title": "popronde hoorn",
+      "link": "https://komnaarhoorn.nl/agenda/popronde-hoorn/",
+      "location": "Binnenstad Hoorn",
+      "description": "Aanstormend muzikaal talent ontdekken en bewonderen in de binnenstad.",
+      "startDate": "2026-11-15",
+      "endDate": "",
+      "startTime": "14:00",
+      "endTime": "22:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/cursus-portret-tekenen-en-schilderen-2-2026-11-16",
+      "title": "Cursus portret tekenen en - schilderen",
+      "link": "https://netwerkhoorn.nl/activiteit/cursus-portret-tekenen-en-schilderen-2",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-11-16",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "raad-4564407d-08e4-413e-b363-a38581e67872",
+      "title": "Algemene Raadscommissie - Raadzaal",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/4564407d-08e4-413e-b363-a38581e67872",
+      "location": "Raadzaal",
+      "description": "Agenda nog niet (volledig) gepubliceerd.",
+      "startDate": "2026-11-17",
+      "endDate": "",
+      "startTime": "19:30",
+      "endTime": "22:00",
+      "sourceId": "raad",
+      "sourceLabel": "Algemene Raadscommissie - Raadzaal",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Algemene Raadscommissie - Raadzaal",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/4564407d-08e4-413e-b363-a38581e67872",
+      "itemNumber": "",
+      "itemTitle": "Algemene Raadscommissie - Raadzaal"
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/cursus-portret-tekenen-en-schilderen-3-2026-11-20",
+      "title": "Cursus portret tekenen en - schilderen",
+      "link": "https://netwerkhoorn.nl/activiteit/cursus-portret-tekenen-en-schilderen-3",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-11-20",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/het-misdaad-dinner-2/",
+      "title": "Het Misdaad Dinner",
+      "link": "https://komnaarhoorn.nl/agenda/het-misdaad-dinner-2/",
+      "location": "Restaurant De Kade",
+      "description": "Diner, spanning en speuren. Sounds like a plan!",
+      "startDate": "2026-11-20",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "23:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "raad-44982da7-5f0d-4fa4-9cde-063e2141e828",
+      "title": "Algemene Raadscommissie - Raadzaal",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/44982da7-5f0d-4fa4-9cde-063e2141e828",
+      "location": "Raadzaal",
+      "description": "Agenda nog niet (volledig) gepubliceerd.",
+      "startDate": "2026-11-24",
+      "endDate": "",
+      "startTime": "19:30",
+      "endTime": "22:00",
+      "sourceId": "raad",
+      "sourceLabel": "Algemene Raadscommissie - Raadzaal",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Algemene Raadscommissie - Raadzaal",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/44982da7-5f0d-4fa4-9cde-063e2141e828",
+      "itemNumber": "",
+      "itemTitle": "Algemene Raadscommissie - Raadzaal"
+    },
+    {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/club-festo-november-2026/",
+      "title": "Club Festo (Fris 10 t/m 14)",
+      "link": "https://manifesto-hoorn.nl/productie/club-festo-november-2026/",
+      "location": "Manifesto Hoorn",
+      "description": "In Manifesto aan de Holenweg in Hoorn zijn vrijdag 27 november 2026 tieners tussen de tien en veertien jaar van harte welkom tijdens de tienerdisco. De disco begint om 19.30 uur en eindigt om 22.00 uur. Een dj zorgt voor de muziek en natuurlijk mag je verzoeknummers aanvragen.",
+      "startDate": "2026-11-27",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/sinterklaas-diner/",
+      "title": "Sinterklaas Diner",
+      "link": "https://komnaarhoorn.nl/agenda/sinterklaas-diner/",
+      "location": "Van der Valk Hotel Hoorn",
+      "description": "Geniet met het hele gezin van een Live Cooking dinerbuffet met een bezoek van Sinterklaas en pieten.",
+      "startDate": "2026-11-28",
+      "endDate": "",
+      "startTime": "17:00",
+      "endTime": "21:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/sinterklaasbrunch/",
+      "title": "Sinterklaasbrunch",
+      "link": "https://komnaarhoorn.nl/agenda/sinterklaasbrunch/",
+      "location": "Van der Valk Hotel Hoorn",
+      "description": "Geniet met het hele gezin van een uitgebreid brunchbuffet en een bezoek van Sint en pieten.",
+      "startDate": "2026-11-29",
+      "endDate": "",
+      "startTime": "12:00",
+      "endTime": "14:30",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/superkoopzondag-4/",
+      "title": "superkoopzondag",
+      "link": "https://komnaarhoorn.nl/agenda/superkoopzondag-4/",
+      "location": "Binnenstad Hoorn",
+      "description": "Shop till you drop! Iedere laatste zondag van de maand is het Superkoopzondag.",
+      "startDate": "2026-11-29",
+      "endDate": "",
+      "startTime": "12:00",
+      "endTime": "17:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/sinterklaasshow/",
+      "title": "Sinterklaasshow",
+      "link": "https://komnaarhoorn.nl/agenda/sinterklaasshow/",
+      "location": "Van der Valk Hotel Hoorn",
+      "description": "Een gezellige voorstelling met Sinterklaas en zijn Pieten, lekkers & drinken, en natuurlijk een cadeautje voor de kids.",
+      "startDate": "2026-11-29",
+      "endDate": "",
+      "startTime": "15:00",
+      "endTime": "16:30",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/rouwgroep-liefde-blijft-doe-avond-maandag-30-november-2026-11-30",
+      "title": "Rouwgroep liefde blijft doe-avond maandag 30 november",
+      "link": "https://netwerkhoorn.nl/activiteit/rouwgroep-liefde-blijft-doe-avond-maandag-30-november",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-11-30",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "raad-806f5493-2273-4488-9a20-dd4a382c60ba",
+      "title": "Algemene Raadscommissie - Raadzaal",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/806f5493-2273-4488-9a20-dd4a382c60ba",
+      "location": "Raadzaal",
+      "description": "Agenda nog niet (volledig) gepubliceerd.",
+      "startDate": "2026-12-01",
+      "endDate": "",
+      "startTime": "19:30",
+      "endTime": "22:00",
+      "sourceId": "raad",
+      "sourceLabel": "Algemene Raadscommissie - Raadzaal",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Algemene Raadscommissie - Raadzaal",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/806f5493-2273-4488-9a20-dd4a382c60ba",
+      "itemNumber": "",
+      "itemTitle": "Algemene Raadscommissie - Raadzaal"
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/het-misdaad-dinner-3/",
+      "title": "Het Misdaad Dinner",
+      "link": "https://komnaarhoorn.nl/agenda/het-misdaad-dinner-3/",
+      "location": "Restaurant De Kade",
+      "description": "Diner, spanning en speuren. Sounds like a plan!",
+      "startDate": "2026-12-13",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "23:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/club-festo-december-2026/",
+      "title": "Club Festo (Fris 10 t/m 14)",
+      "link": "https://manifesto-hoorn.nl/productie/club-festo-december-2026/",
+      "location": "Manifesto Hoorn",
+      "description": "In Manifesto aan de Holenweg in Hoorn zijn vrijdag 18 december 2026 tieners tussen de tien en veertien jaar van harte welkom tijdens de tienerdisco. De disco begint om 19.30 uur en eindigt om 22.00 uur. Een dj zorgt voor de muziek en natuurlijk mag je verzoeknummers aanvragen.",
+      "startDate": "2026-12-18",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/live-cooking-kerstdiner/",
+      "title": "Live Cooking Kerstdiner",
+      "link": "https://komnaarhoorn.nl/agenda/live-cooking-kerstdiner/",
+      "location": "Van der Valk Hotel Hoorn",
+      "description": "Dit jaar hoef jij de show niet te stelen. Leun achterover en geniet.",
+      "startDate": "2026-12-24",
+      "endDate": "",
+      "startTime": "17:30",
+      "endTime": "21:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/kerst-brunch-buffet/",
+      "title": "Kerst Brunch Buffet",
+      "link": "https://komnaarhoorn.nl/agenda/kerst-brunch-buffet/",
+      "location": "Van der Valk Hotel Hoorn",
+      "description": "Geen kerststress = kerstbrunch @ Van der Valk",
+      "startDate": "2026-12-25",
+      "endDate": "",
+      "startTime": "12:00",
+      "endTime": "14:30",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/wereld-koken-2027-01-01",
+      "title": "Wereld koken",
+      "link": "https://netwerkhoorn.nl/activiteit/wereld-koken",
+      "location": "Wijkcentrum De Cogge",
+      "description": "Netwerk Hoorn",
+      "startDate": "2027-01-01",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/bowie/",
+      "title": "David Bowie Tribute: Diamond Dogs",
+      "link": "https://manifesto-hoorn.nl/productie/bowie/",
+      "location": "Manifesto Hoorn",
+      "description": "De Britse zanger en muzikant David Bowie is voorgoed verankerd in de geschiedenis van de popmuziek. In januari 2016 overleed hij maar zijn muziek is nog altijd springlevend! Op 8 januari 2027 komt tribute-band Diamond Dogs naar Manifesto om een ode te brengen aan Bowie en zijn legendarische songs. Tickets zijn nu verkrijgbaar: via deze link. Na de plotselinge dood van David Bowie in 2016 startten de Hoornse muzikante",
+      "startDate": "2027-01-08",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/burlesque/",
+      "title": "Burlesque Show: The Night of the Living Dancers",
+      "link": "https://manifesto-hoorn.nl/productie/burlesque/",
+      "location": "Manifesto Hoorn",
+      "description": "Op vrijdag 30 oktober een gewaagde avond in Manifesto: Bureau Burlesque trakteert op een speciale show in Halloween thema: \"The Night of the Living Dancers\". De dames brengen een griezelig goede performance met veel humor. Kun je blozen als je bang bent? Kun je het aan? Kom erachter... als je durft! Tickets zijn nu verkrijgbaar: via deze link. Vanaf 20.00 uur ben je welkom. Om 20:30 start de show! Om 23:00 is de show",
+      "startDate": "",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/danny/",
+      "title": "Danny Bryant - Nothing Left Behind Tour",
+      "link": "https://manifesto-hoorn.nl/productie/danny/",
+      "location": "Manifesto Hoorn",
+      "description": "Op vrijdag 11 december is Danny Bryant terug in Hoorn! De Britse gitarist en zanger komt terug naar Europa en ook in Manifesto mogen we hem verwelkomen. Tickets zijn nu verkrijgbaar: via deze link. Met zijn recente album “Nothing Left Behind”, dat begin dit jaar verscheen, slaat de Britse gitarist en zanger Danny Bryant een nieuw hoofdstuk open. Het album kwam direct binnen op nummer 1 in de Amazon-bestsellerlijsten ",
+      "startDate": "",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/dm/",
+      "title": "Depeche Mode Tribute: Depeche Mood",
+      "link": "https://manifesto-hoorn.nl/productie/dm/",
+      "location": "Manifesto Hoorn",
+      "description": "Op zaterdag 28 november klinkt Depeche Mode weer in Hoorn. Live gebracht door tribute-band Depeche Mood. Bij Poppodium Manifesto beleef je de songs van de legendarische Britse act. Kom het meemaken! Tickets zijn nu verkrijgbaar via: deze link. Tijdens het tribute concert ervaar je het complete Depeche Mode-gevoel: van wereldhits tot obscure b-kantjes All you’ve ever wanted, all you’ve ever needed! Een ode aan het Bri",
+      "startDate": "",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/donderpop-3-december-2026/",
+      "title": "Donderpop met 70's Alive en ... ook optreden? Laat het weten!",
+      "link": "https://manifesto-hoorn.nl/productie/donderpop-3-december-2026/",
+      "location": "Manifesto Hoorn",
+      "description": "Donderpop: De muziekavond voor lokale en regionale acts. Gratis entree! Deze avond op het programma van Donderpop: 70's Alive en ... ook optreden? Laat het weten! Stuur een mail naar info appestaartje manifesto-hoorn.nl Entree = Gratis. 70's Alive 70's Alive is een Tribute to the seventies coverband met hoofdzakelijk rock muziek zoals van Deep Purple, Status Quo, Manfred Mann, Cream, Whitesnake, Alice Cooper, Pink Fl",
+      "startDate": "",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/donderpop-1-oktober-2026/",
+      "title": "Donderpop met Riviera + Billbunker + Dogbone",
+      "link": "https://manifesto-hoorn.nl/productie/donderpop-1-oktober-2026/",
+      "location": "Manifesto Hoorn",
+      "description": "Donderpop: De muziekavond voor lokale en regionale acts. Gratis entree! Deze avond op het programma van Donderpop: Riviera, Billbunker en Dogbone. Entree = Gratis. Riviera Riviera is een vijfkoppige classicrockband ontstaan vanuit een gedeelde liefde voor blues, rock en sterke liveperformance. De band bestaat uit Joep (drums), Jessey (bas), Hilco (gitaar), Thijs (zang) en Hugo (gitaar). Ze vonden elkaar in hun passie",
+      "startDate": "",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/donderpop-5-november-2026/",
+      "title": "Donderpop met SLATT, Mucho Tibio en Rock of Ages",
+      "link": "https://manifesto-hoorn.nl/productie/donderpop-5-november-2026/",
+      "location": "Manifesto Hoorn",
+      "description": "Donderpop: De muziekavond voor lokale en regionale acts. Gratis entree! Deze avond op het programma van Donderpop: SLATT, Mucho Tibio en Rock of Ages Entree = Gratis. SLATT SLATT maakt snoeiharde Blues en swamprock geïnspireerd door acts zoals Herman Brood en The Stones en gevoed door bier en sigaretten. Verwacht gezellige chaos op en voor het podium, met eigenzinnige songs die je op de fiets naar huis blijft fluiten",
+      "startDate": "",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/focus/",
+      "title": "Focus",
+      "link": "https://manifesto-hoorn.nl/productie/focus/",
+      "location": "Manifesto Hoorn",
+      "description": "Op vrijdagavond 25 september geeft Focus een concert in Hoorn! De bekende progrockband komt naar Manifesto om een weergaloze show te geven. Kom het meemaken! Tickets zijn nu verkrijgbaar: via deze link. De legendarische en invloedrijke band Focus is inmiddels ruim een halve eeuw verantwoordelijk voor een volstrekt unieke vorm van progressieve rock. Met het nieuwe en door de media en fans goed ontvangen studioalbum ‘F",
+      "startDate": "",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/gary/",
+      "title": "Gary Moore Tribute Band",
+      "link": "https://manifesto-hoorn.nl/productie/gary/",
+      "location": "Manifesto Hoorn",
+      "description": "Zaterdag 3 oktober: Gary Moore Tribute Band in Manifesto! In 2026 is het vijftien jaar geleden dat gitaarlegende Gary Moore onverwacht overleed. Zijn muziek leeft echter sterker dan ooit in de harten van fans, gitaristen en muziek-liefhebbers wereldwijd. Tickets zijn nu verkrijgbaar: via deze link. Tijdens deze bijzondere Memorial Tour brengen Peter Vleeshouwers ( Remember Phil & Gary ) en de Gary Moore Tribute Band ",
+      "startDate": "",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/ironic/",
+      "title": "Iron Maiden Tribute: Ironic Maiden",
+      "link": "https://manifesto-hoorn.nl/productie/ironic/",
+      "location": "Manifesto Hoorn",
+      "description": "Zaterdag 10 oktober beleef je de muziek van Iron Maiden in Manifesto met Ironic Maiden! Tijdens het tribute concert worden de klassiekers met volle overgave gebracht. Support-act: metalband Scar 🤘 Tickets zijn nu verkrijgbaar: via deze link. Elke muziekliefhebber kan natuurlijk de hits The Number of the Beast, Fear of the Dark en Run to the Hills meezingen. Iron Maiden heeft niet voor niets ruim 100 miljoen albums ve",
+      "startDate": "",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/anomic/",
+      "title": "Metal Manifesto: Anomic + Damnation + Hakselaer",
+      "link": "https://manifesto-hoorn.nl/productie/anomic/",
+      "location": "Manifesto Hoorn",
+      "description": "De eerste Metal-show na de zomervakantie: vrijdag 11 september ontvangen we Anomic! met als supportbands Damnation en Hakselaer. De bands staan te trappelen om Hoorn te laten horen wat ze in huis hebben. Als je houdt van een harde avond: kom het meemaken! Tickets zijn nu verkrijgbaar: via deze link. Anomic (NL / DE) Anomic verlegt grenzen van moderne metal met een rauwe intensiteit en een compromisloze sound. Met hun",
+      "startDate": "",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/nirvana/",
+      "title": "Nirvana Tribute: Come As You Were + Queens Of The Stone Age, Foo Fighters, Soundgarden gespeeld door Layne",
+      "link": "https://manifesto-hoorn.nl/productie/nirvana/",
+      "location": "Manifesto Hoorn",
+      "description": "Op vrijdag 20 november beleef je in Manifesto een bijzonder Nirvana Tribute Concert door Come As You Were, de vijfkoppige band uit Andijk. Ook de muziek van aanverwante bands Queens Of The Stone Age, Foo Fighters, Soundgarden en Alice in Chains wordt vertolkt, door de rockband Layne. Twee bands op één avond die ons terugbrengen naar de oorsprong van Grunge en wat daaruit voortvloeide. Kom het meemaken! Tickets zijn n",
+      "startDate": "",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/tibbs/",
+      "title": "The Tibbs Jaarafsluiting in Manifesto",
+      "link": "https://manifesto-hoorn.nl/productie/tibbs/",
+      "location": "Manifesto Hoorn",
+      "description": "Op 19 december komt soulformatie The Tibbs het jaar traditiegetrouw afsluiten met een concert in Manifesto. Met bekende en nieuwe songs wordt er weer een swingend feest van gemaakt. De ideale uitsmijter van het jaar! Tickets zijn nu verkrijgbaar: via deze link. The Tibbs is in 2012 opgericht door een groep fervente Northern Soul- en Funk liefhebbers. Inmiddels is de groep niet meer weg te denken uit het Nederlandse m",
+      "startDate": "",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/rhb/",
+      "title": "Tribute to the Blues: Ruben Hoeke Band + Doghouse Tenants",
+      "link": "https://manifesto-hoorn.nl/productie/rhb/",
+      "location": "Manifesto Hoorn",
+      "description": "Zaterdag 7 november brengt Ruben Hoeke met zijn band zijn 'Tribute to the Blues' naar Manifesto. Een ode aan de muziek die hem zo inspireert! Ook bluesrockband Doghouse Tenants is van de partij. Tickets zijn nu verkrijgbaar: via deze link . Ruben Hoeke Band RHB laat zich deze keer van een andere kant horen met een repertoire uiteenlopend van Fleetwood Mac, BB King, JJ Cale, Jimmy Reed, Ten Years After, John Lee Hooke",
+      "startDate": "",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/unplugged/",
+      "title": "Unplugged: Crowded House, Eurythmics & Fleetwood Mac - Zondagmiddagconcert",
+      "link": "https://manifesto-hoorn.nl/productie/unplugged/",
+      "location": "Manifesto Hoorn",
+      "description": "Op zondagmiddag 20 september de tweede editie van Unplugged: 3 bands spelen de muziek van Crowded House, Eurythmics en Fleetwood Mac. Om 14:00 uur gaan de deuren open. Om 14:30 start de show! Tickets zijn nu verkrijgbaar: via deze link. In de jaren ’90 waren de MTV Unplugged sessies legendarisch. Wereldberoemde artiesten speelden hun grootste hits in een intieme, akoestische setting, wat vaak leidde tot iconische en ",
+      "startDate": "",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    }
+  ]
+}
