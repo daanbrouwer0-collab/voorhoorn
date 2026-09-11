@@ -553,46 +553,68 @@ function bindAgendaToggles() {
 
 function renderRaadCalendar(events) {
   if (agendaCount) {
+    const meetings = new Set(
+      events.map((e) => e.meetingLink || e.link).filter(Boolean)
+    );
+    const n = events.length;
+    const m = meetings.size;
     agendaCount.textContent =
-      events.length === 0
+      n === 0
         ? "Geen aankomende vergaderingen"
-        : `${events.length} aankomend`;
+        : `${n} agendapunten · ${m} ${m === 1 ? "vergadering" : "vergaderingen"}`;
   }
 
-  const byMonth = new Map();
+  // Groepeer per vergadering
+  const byMeeting = new Map();
   for (const event of events) {
-    const key = (event.startDate || "").slice(0, 7);
-    if (!byMonth.has(key)) byMonth.set(key, []);
-    byMonth.get(key).push(event);
+    const key = event.meetingLink || `${event.startDate}|${event.meetingTitle || event.title}`;
+    if (!byMeeting.has(key)) byMeeting.set(key, []);
+    byMeeting.get(key).push(event);
   }
 
-  const monthsHtml = [...byMonth.entries()]
-    .map(([monthKey, items]) => {
-      const heading = monthHeading(items[0].startDate);
+  const meetingsHtml = [...byMeeting.values()]
+    .map((items) => {
+      const first = items[0];
+      const meetingTitle = first.meetingTitle || first.sourceLabel || "Vergadering";
+      const when = [
+        weekdayLong(first.startDate),
+        first.startDate ? formatAgendaDate(first.startDate) : "",
+        first.startTime
+          ? `${first.startTime}${first.endTime ? `–${first.endTime}` : ""}`
+          : "",
+      ]
+        .filter(Boolean)
+        .join(" · ");
+      const meetingUrl = first.meetingLink || first.link;
+
+      const hasPoints = items.some((e) => e.itemNumber);
       const rows = items
         .map((event) => {
-          const day = event.startDate ? String(Number(event.startDate.slice(8, 10))) : "–";
-          const when = [
-            weekdayLong(event.startDate),
-            event.startTime
-              ? `${event.startTime}${event.endTime ? ` – ${event.endTime}` : ""}`
-              : "",
-          ]
-            .filter(Boolean)
-            .join(" · ");
+          const num = event.itemNumber || "";
+          const title = event.itemTitle || event.title;
+          const isSection = /^(A|B|C)-agenda/i.test(title) || /^Sluiting$/i.test(title);
           return `
-            <a class="raad-item" href="${agendaEscape(event.link)}" target="_blank" rel="noopener noreferrer">
-              <span class="raad-item-day">${agendaEscape(day)}</span>
+            <a class="raad-item ${isSection ? "raad-item--section" : ""}" href="${agendaEscape(event.link)}" target="_blank" rel="noopener noreferrer">
+              <span class="raad-item-num">${agendaEscape(num || "·")}</span>
               <span class="raad-item-body">
-                <span class="raad-item-title">${agendaEscape(event.title)}</span>
-                <span class="raad-item-meta">${agendaEscape([when, event.location].filter(Boolean).join(" · "))}</span>
+                <span class="raad-item-title">${agendaEscape(title)}</span>
+                ${
+                  event.description && event.itemNumber
+                    ? `<span class="raad-item-meta">${agendaEscape(event.description.slice(0, 140))}</span>`
+                    : ""
+                }
               </span>
             </a>`;
         })
         .join("");
+
       return `
-        <section class="raad-month">
-          <h3 class="raad-month-title">${agendaEscape(heading)}</h3>
+        <section class="raad-meeting">
+          <a class="raad-meeting-head" href="${agendaEscape(meetingUrl)}" target="_blank" rel="noopener noreferrer">
+            <span class="raad-meeting-title">${agendaEscape(meetingTitle)}</span>
+            <span class="raad-meeting-meta">${agendaEscape([when, first.location].filter(Boolean).join(" · "))}</span>
+            ${hasPoints ? "" : '<span class="raad-meeting-meta">Agenda nog niet gepubliceerd</span>'}
+          </a>
           <div class="raad-month-list">${rows}</div>
         </section>`;
     })
@@ -601,12 +623,11 @@ function renderRaadCalendar(events) {
   agendaList.innerHTML = `
     <div class="raad-calendar">
       <p class="raad-scrape-note">
-        Vergaderingen gescrapet van iBabs
-        (browser mag die site niet live ophalen).
-        <a href="${RAAD_CALENDAR_URL}" target="_blank" rel="noopener noreferrer">Open bronkalender</a>
+        Agendapunten gescrapet van iBabs.
+        <a href="${RAAD_CALENDAR_URL}" target="_blank" rel="noopener noreferrer">Bronkalender</a>
       </p>
       ${
-        monthsHtml ||
+        meetingsHtml ||
         '<p class="news-empty">Geen aankomende vergaderingen. Open de bronkalender of vernieuw de scrape.</p>'
       }
     </div>`;
@@ -616,17 +637,37 @@ function renderAgendaList() {
   if (!agendaList) return;
   updateAgendaChrome();
 
+  if (agendaFilters.view === "raad") {
+    const sorted = applyClientFilters(agendaEvents).sort((a, b) => {
+      const da = a.startDate || "9999-99-99";
+      const db = b.startDate || "9999-99-99";
+      if (da !== db) return da.localeCompare(db);
+      const ta = a.startTime || "";
+      const tb = b.startTime || "";
+      if (ta !== tb) return ta.localeCompare(tb);
+      const parts = (num) =>
+        String(num || "999")
+          .split(".")
+          .map((p) => (Number.isFinite(Number(p)) ? Number(p) : 999));
+      const pa = parts(a.itemNumber);
+      const pb = parts(b.itemNumber);
+      for (let i = 0; i < Math.max(pa.length, pb.length); i += 1) {
+        const x = pa[i] ?? 0;
+        const y = pb[i] ?? 0;
+        if (x !== y) return x - y;
+      }
+      return (a.title || "").localeCompare(b.title || "");
+    });
+    renderRaadCalendar(sorted);
+    return;
+  }
+
   const filtered = applyClientFilters(agendaEvents).sort((a, b) => {
     const da = a.startDate || "9999-99-99";
     const db = b.startDate || "9999-99-99";
     if (da !== db) return da.localeCompare(db);
     return (a.startTime || "").localeCompare(b.startTime || "");
   });
-
-  if (agendaFilters.view === "raad") {
-    renderRaadCalendar(filtered);
-    return;
-  }
 
   if (agendaCount) {
     const n = filtered.length;

@@ -1,45 +1,13 @@
 {
-  "updated": "2026-09-11T05:04:48Z",
+  "updated": "2026-09-11T05:23:20Z",
   "source": "https://hoorn.bestuurlijkeinformatie.nl/Calendar",
   "events": [
     {
-      "id": "raad-/Agenda/Index/a40d8486-804e-4db6-9387-d87db5d8168b",
-      "title": "Algemene Raadscommissie - Raadzaal",
-      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/a40d8486-804e-4db6-9387-d87db5d8168b",
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-5a45a5a9-1f9d-4125-ad0a-2841135c435d",
+      "title": "1. Opening en mededelingen",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#5a45a5a9-1f9d-4125-ad0a-2841135c435d",
       "location": "Raadzaal",
-      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
-      "startDate": "2026-09-01",
-      "endDate": "",
-      "startTime": "19:30",
-      "endTime": "21:15",
-      "sourceId": "raad",
-      "sourceLabel": "Gemeenteraad",
-      "categories": [
-        "raad"
-      ]
-    },
-    {
-      "id": "raad-/Agenda/Index/c20c673a-bc96-4a16-9278-ce3af663449a",
-      "title": "Algemene Raadscommissie - Raadzaal",
-      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/c20c673a-bc96-4a16-9278-ce3af663449a",
-      "location": "Raadzaal",
-      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
-      "startDate": "2026-09-08",
-      "endDate": "",
-      "startTime": "19:30",
-      "endTime": "21:45",
-      "sourceId": "raad",
-      "sourceLabel": "Gemeenteraad",
-      "categories": [
-        "raad"
-      ]
-    },
-    {
-      "id": "raad-/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
-      "title": "Gemeenteraad",
-      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
-      "location": "Raadzaal",
-      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
+      "description": "Gemeenteraad · 2026-09-22 · agendapunt 1",
       "startDate": "2026-09-22",
       "endDate": "",
       "startTime": "19:00",
@@ -48,46 +16,518 @@
       "sourceLabel": "Gemeenteraad",
       "categories": [
         "raad"
-      ]
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "1",
+      "itemTitle": "Opening en mededelingen"
     },
     {
-      "id": "raad-/Agenda/Index/f3c5b127-a3f4-44bd-b540-d6a26d934a46",
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-289dd651-6070-4d0d-805e-c787083a7ab0",
+      "title": "2. Voorstel Kindergemeenteraad",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#289dd651-6070-4d0d-805e-c787083a7ab0",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · 2026-09-22 · agendapunt 2",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "2",
+      "itemTitle": "Voorstel Kindergemeenteraad"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-47e4e6a1-85cf-41b5-8d5a-17d782c77fd2",
+      "title": "3. Vaststelling van de raadsagenda van 22 september 2026",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#47e4e6a1-85cf-41b5-8d5a-17d782c77fd2",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · 2026-09-22 · agendapunt 3",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "3",
+      "itemTitle": "Vaststelling van de raadsagenda van 22 september 2026"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-abdc5372-911f-4b05-83fd-50c7202fbabb",
+      "title": "4. Vaststellen van de besluitenlijst van de openbare raadsvergadering van 16 en 23 juni 2026",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#abdc5372-911f-4b05-83fd-50c7202fbabb",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · 2026-09-22 · agendapunt 4",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "4",
+      "itemTitle": "Vaststellen van de besluitenlijst van de openbare raadsvergadering van 16 en 23 juni 2026"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-9f8ccda4-38dd-40b2-89eb-24323a6168ca",
+      "title": "5. Spreekrecht burgers",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#9f8ccda4-38dd-40b2-89eb-24323a6168ca",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · 2026-09-22 · agendapunt 5",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "5",
+      "itemTitle": "Spreekrecht burgers"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-cee7c9a0-3457-40db-a196-094758172d1b",
+      "title": "6. Personele besluiten",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#cee7c9a0-3457-40db-a196-094758172d1b",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · 2026-09-22 · agendapunt 6",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "6",
+      "itemTitle": "Personele besluiten"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-7964c5e8-cdda-4abf-9f07-3e6ff1281ef7",
+      "title": "7. Vaststelling van de lijst van ingekomen stukken",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#7964c5e8-cdda-4abf-9f07-3e6ff1281ef7",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · 2026-09-22 · agendapunt 7",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "7",
+      "itemTitle": "Vaststelling van de lijst van ingekomen stukken"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-34063bae-8eb2-4c59-8854-20f4d82af4a9",
+      "title": "8. Stand van zaken moties en toezeggingen",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#34063bae-8eb2-4c59-8854-20f4d82af4a9",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · 2026-09-22 · agendapunt 8",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "8",
+      "itemTitle": "Stand van zaken moties en toezeggingen"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-ea256dfe-600b-4a5f-aee3-12c2949704a9",
+      "title": "9. A-agenda (Bespreekpunten)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#ea256dfe-600b-4a5f-aee3-12c2949704a9",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · 2026-09-22 · agendapunt 9",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "9",
+      "itemTitle": "A-agenda (Bespreekpunten)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-77f86359-1dee-4ff7-bcaf-c6d72539c6a5",
+      "title": "9.1. Beleidsplan gladheidbestrijding 2026-2035 (Portefeuillehouder Dekker)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#77f86359-1dee-4ff7-bcaf-c6d72539c6a5",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · 2026-09-22 · agendapunt 9.1",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "9.1",
+      "itemTitle": "Beleidsplan gladheidbestrijding 2026-2035 (Portefeuillehouder Dekker)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-85f5e0af-a995-41e5-81db-f199d1e18cb5",
+      "title": "9.2. Vaststellen nieuwe Verordening Duurzaamheids- en stimuleringsregeling VvE's 2026-2030 (Portefeuillehouder Yousufi)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#85f5e0af-a995-41e5-81db-f199d1e18cb5",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · 2026-09-22 · agendapunt 9.2",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "9.2",
+      "itemTitle": "Vaststellen nieuwe Verordening Duurzaamheids- en stimuleringsregeling VvE's 2026-2030 (Portefeuillehouder Yousufi)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-cdb2a520-174a-441f-896c-54578dc49dfa",
+      "title": "10. B-agenda (Hamerstukken)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#cdb2a520-174a-441f-896c-54578dc49dfa",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · 2026-09-22 · agendapunt 10",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "10",
+      "itemTitle": "B-agenda (Hamerstukken)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-a6ea3345-602f-487e-bbf9-2d28521aec48",
+      "title": "10.1. Rekenkamerrapportage groenbeleid Hoorn (Portefeuillehouder Dekker)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#a6ea3345-602f-487e-bbf9-2d28521aec48",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · 2026-09-22 · agendapunt 10.1",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "10.1",
+      "itemTitle": "Rekenkamerrapportage groenbeleid Hoorn (Portefeuillehouder Dekker)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-40465902-74b8-4ad7-8377-e2b1ca98a08d",
+      "title": "10.2. Roode Steen, Kerkstraat en West (Portefeuillehouder Assendelft)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#40465902-74b8-4ad7-8377-e2b1ca98a08d",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · 2026-09-22 · agendapunt 10.2",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "10.2",
+      "itemTitle": "Roode Steen, Kerkstraat en West (Portefeuillehouder Assendelft)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-b183d25b-77c9-443f-a4b0-553e3585a5e5",
+      "title": "10.3. Afgeven van een bindend advies en vaststellen Beeldkwaliteitsplan voor plan Buitenstad (Portefeuillehouder Heijne)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#b183d25b-77c9-443f-a4b0-553e3585a5e5",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · 2026-09-22 · agendapunt 10.3",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "10.3",
+      "itemTitle": "Afgeven van een bindend advies en vaststellen Beeldkwaliteitsplan voor plan Buitenstad (Portefeuillehouder Heijne)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-c5b2bb2a-99c6-4fb4-8d51-22778148500a",
+      "title": "10.4. Bindend advies en vaststellen beeldkwaliteitsplan bouwplan Scheldeweg 2 in Hoorn (Portefeuillehouder Yousufi)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#c5b2bb2a-99c6-4fb4-8d51-22778148500a",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · 2026-09-22 · agendapunt 10.4",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "10.4",
+      "itemTitle": "Bindend advies en vaststellen beeldkwaliteitsplan bouwplan Scheldeweg 2 in Hoorn (Portefeuillehouder Yousufi)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-9dc6bd72-f142-4409-8d1d-398e7a0f7944",
+      "title": "10.5. Extra uitvoeringskrediet Mariaschool (Portefeuillehouder Heijne)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#9dc6bd72-f142-4409-8d1d-398e7a0f7944",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · 2026-09-22 · agendapunt 10.5",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "10.5",
+      "itemTitle": "Extra uitvoeringskrediet Mariaschool (Portefeuillehouder Heijne)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-28449d52-dfe8-4942-850d-221f3597157b",
+      "title": "10.6. Gedragscode college (Portefeuillehouder Nieuwenburg)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#28449d52-dfe8-4942-850d-221f3597157b",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · 2026-09-22 · agendapunt 10.6",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "10.6",
+      "itemTitle": "Gedragscode college (Portefeuillehouder Nieuwenburg)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-30af129b-de3d-4074-ae53-cf8ad831d8fc",
+      "title": "10.7. Aanvullend besluit over vertegenwoordiging in besturen gemeenschappelijke regelingen (portefeuillehouder Nieuwenburg)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#30af129b-de3d-4074-ae53-cf8ad831d8fc",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · 2026-09-22 · agendapunt 10.7",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "10.7",
+      "itemTitle": "Aanvullend besluit over vertegenwoordiging in besturen gemeenschappelijke regelingen (portefeuillehouder Nieuwenburg)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-4ccd62bf-62aa-4b1c-8311-094a4cbdcae7",
+      "title": "10.8. Personele besluiten gemeenteraad Hoorn in het kader van de Algemene verordening gegevensbescherming (AVG)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#4ccd62bf-62aa-4b1c-8311-094a4cbdcae7",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · 2026-09-22 · agendapunt 10.8",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "10.8",
+      "itemTitle": "Personele besluiten gemeenteraad Hoorn in het kader van de Algemene verordening gegevensbescherming (AVG)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-651d697f-e8fc-4434-bc55-f8228da31741",
+      "title": "10.9. Verzameloverzicht begrotingswijzigingen raad september 2026",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#651d697f-e8fc-4434-bc55-f8228da31741",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · 2026-09-22 · agendapunt 10.9",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "10.9",
+      "itemTitle": "Verzameloverzicht begrotingswijzigingen raad september 2026"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-b037bbb9-fd3e-4666-80dd-3ad5f915bc83",
+      "title": "11. Vragen raadsleden",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#b037bbb9-fd3e-4666-80dd-3ad5f915bc83",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · 2026-09-22 · agendapunt 11",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "11",
+      "itemTitle": "Vragen raadsleden"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-50bbb2f0-858f-42e9-b6e8-1c6d94195162",
+      "title": "12. C-agenda (Wilde moties)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#50bbb2f0-858f-42e9-b6e8-1c6d94195162",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · 2026-09-22 · agendapunt 12",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "12",
+      "itemTitle": "C-agenda (Wilde moties)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-6e76a87b-1f61-48f3-bd2b-1b5fa8444f3f",
+      "title": "13. Sluiting",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#6e76a87b-1f61-48f3-bd2b-1b5fa8444f3f",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · 2026-09-22 · agendapunt 13",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "13",
+      "itemTitle": "Sluiting"
+    },
+    {
+      "id": "raad-f3c5b127-a3f4-44bd-b540-d6a26d934a46",
       "title": "Algemene Raadscommissie - Raadzaal",
       "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/f3c5b127-a3f4-44bd-b540-d6a26d934a46",
       "location": "Raadzaal",
-      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
+      "description": "Agenda nog niet (volledig) gepubliceerd. Open de vergadering op iBabs.",
       "startDate": "2026-10-01",
       "endDate": "",
       "startTime": "19:30",
       "endTime": "22:00",
       "sourceId": "raad",
-      "sourceLabel": "Gemeenteraad",
+      "sourceLabel": "Algemene Raadscommissie - Raadzaal",
       "categories": [
         "raad"
-      ]
+      ],
+      "meetingTitle": "Algemene Raadscommissie - Raadzaal",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/f3c5b127-a3f4-44bd-b540-d6a26d934a46",
+      "itemNumber": "",
+      "itemTitle": "Algemene Raadscommissie - Raadzaal"
     },
     {
-      "id": "raad-/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c",
+      "id": "raad-894a0935-bc4d-4f60-8128-2cd4ec49e44c",
       "title": "Algemene Raadscommissie - Raadzaal",
       "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c",
       "location": "Raadzaal",
-      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
+      "description": "Agenda nog niet (volledig) gepubliceerd. Open de vergadering op iBabs.",
       "startDate": "2026-10-06",
       "endDate": "",
       "startTime": "19:30",
       "endTime": "22:00",
       "sourceId": "raad",
-      "sourceLabel": "Gemeenteraad",
+      "sourceLabel": "Algemene Raadscommissie - Raadzaal",
       "categories": [
         "raad"
-      ]
+      ],
+      "meetingTitle": "Algemene Raadscommissie - Raadzaal",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c",
+      "itemNumber": "",
+      "itemTitle": "Algemene Raadscommissie - Raadzaal"
     },
     {
-      "id": "raad-/Agenda/Index/5b28c4f4-d2e0-491d-9e6b-8316495135d9",
+      "id": "raad-5b28c4f4-d2e0-491d-9e6b-8316495135d9",
       "title": "Gemeenteraad",
       "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5b28c4f4-d2e0-491d-9e6b-8316495135d9",
       "location": "Raadzaal",
-      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
+      "description": "Agenda nog niet (volledig) gepubliceerd. Open de vergadering op iBabs.",
       "startDate": "2026-10-20",
       "endDate": "",
       "startTime": "19:30",
@@ -96,30 +536,38 @@
       "sourceLabel": "Gemeenteraad",
       "categories": [
         "raad"
-      ]
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5b28c4f4-d2e0-491d-9e6b-8316495135d9",
+      "itemNumber": "",
+      "itemTitle": "Gemeenteraad"
     },
     {
-      "id": "raad-/Agenda/Index/328e123e-04d8-4250-bcff-88ef3eb95e20",
+      "id": "raad-328e123e-04d8-4250-bcff-88ef3eb95e20-e921dfff-5349-42c6-9d73-0e53b502c51e",
       "title": "Raadscafé",
-      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/328e123e-04d8-4250-bcff-88ef3eb95e20",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/328e123e-04d8-4250-bcff-88ef3eb95e20#e921dfff-5349-42c6-9d73-0e53b502c51e",
       "location": "De Witte Valk",
-      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
+      "description": "Raadscafé · 2026-10-29",
       "startDate": "2026-10-29",
       "endDate": "",
       "startTime": "19:30",
       "endTime": "22:00",
       "sourceId": "raad",
-      "sourceLabel": "Gemeenteraad",
+      "sourceLabel": "Raadscafé",
       "categories": [
         "raad"
-      ]
+      ],
+      "meetingTitle": "Raadscafé",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/328e123e-04d8-4250-bcff-88ef3eb95e20",
+      "itemNumber": "",
+      "itemTitle": "Raadscafé"
     },
     {
-      "id": "raad-/Agenda/Index/6a5fb47f-487a-44ff-a3c5-8227f5c4d4d5",
+      "id": "raad-6a5fb47f-487a-44ff-a3c5-8227f5c4d4d5",
       "title": "Gemeenteraad",
       "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/6a5fb47f-487a-44ff-a3c5-8227f5c4d4d5",
       "location": "Raadzaal",
-      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
+      "description": "Agenda nog niet (volledig) gepubliceerd. Open de vergadering op iBabs.",
       "startDate": "2026-11-03",
       "endDate": "",
       "startTime": "14:00",
@@ -128,14 +576,18 @@
       "sourceLabel": "Gemeenteraad",
       "categories": [
         "raad"
-      ]
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/6a5fb47f-487a-44ff-a3c5-8227f5c4d4d5",
+      "itemNumber": "",
+      "itemTitle": "Gemeenteraad"
     },
     {
-      "id": "raad-/Agenda/Index/300daf69-74dd-42e3-9b7a-05abb311f700",
+      "id": "raad-300daf69-74dd-42e3-9b7a-05abb311f700",
       "title": "Gemeenteraad",
       "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/300daf69-74dd-42e3-9b7a-05abb311f700",
       "location": "Raadzaal",
-      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
+      "description": "Agenda nog niet (volledig) gepubliceerd. Open de vergadering op iBabs.",
       "startDate": "2026-11-10",
       "endDate": "",
       "startTime": "19:00",
@@ -144,71 +596,71 @@
       "sourceLabel": "Gemeenteraad",
       "categories": [
         "raad"
-      ]
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/300daf69-74dd-42e3-9b7a-05abb311f700",
+      "itemNumber": "",
+      "itemTitle": "Gemeenteraad"
     },
     {
-      "id": "raad-/Agenda/Index/4564407d-08e4-413e-b363-a38581e67872",
+      "id": "raad-4564407d-08e4-413e-b363-a38581e67872",
       "title": "Algemene Raadscommissie - Raadzaal",
       "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/4564407d-08e4-413e-b363-a38581e67872",
       "location": "Raadzaal",
-      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
+      "description": "Agenda nog niet (volledig) gepubliceerd. Open de vergadering op iBabs.",
       "startDate": "2026-11-17",
       "endDate": "",
       "startTime": "19:30",
       "endTime": "22:00",
       "sourceId": "raad",
-      "sourceLabel": "Gemeenteraad",
+      "sourceLabel": "Algemene Raadscommissie - Raadzaal",
       "categories": [
         "raad"
-      ]
+      ],
+      "meetingTitle": "Algemene Raadscommissie - Raadzaal",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/4564407d-08e4-413e-b363-a38581e67872",
+      "itemNumber": "",
+      "itemTitle": "Algemene Raadscommissie - Raadzaal"
     },
     {
-      "id": "raad-/Agenda/Index/44982da7-5f0d-4fa4-9cde-063e2141e828",
+      "id": "raad-44982da7-5f0d-4fa4-9cde-063e2141e828",
       "title": "Algemene Raadscommissie - Raadzaal",
       "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/44982da7-5f0d-4fa4-9cde-063e2141e828",
       "location": "Raadzaal",
-      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
+      "description": "Agenda nog niet (volledig) gepubliceerd. Open de vergadering op iBabs.",
       "startDate": "2026-11-24",
       "endDate": "",
       "startTime": "19:30",
       "endTime": "22:00",
       "sourceId": "raad",
-      "sourceLabel": "Gemeenteraad",
+      "sourceLabel": "Algemene Raadscommissie - Raadzaal",
       "categories": [
         "raad"
-      ]
+      ],
+      "meetingTitle": "Algemene Raadscommissie - Raadzaal",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/44982da7-5f0d-4fa4-9cde-063e2141e828",
+      "itemNumber": "",
+      "itemTitle": "Algemene Raadscommissie - Raadzaal"
     },
     {
-      "id": "raad-/Agenda/Index/806f5493-2273-4488-9a20-dd4a382c60ba",
+      "id": "raad-806f5493-2273-4488-9a20-dd4a382c60ba",
       "title": "Algemene Raadscommissie - Raadzaal",
       "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/806f5493-2273-4488-9a20-dd4a382c60ba",
       "location": "Raadzaal",
-      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
+      "description": "Agenda nog niet (volledig) gepubliceerd. Open de vergadering op iBabs.",
       "startDate": "2026-12-01",
       "endDate": "",
       "startTime": "19:30",
       "endTime": "22:00",
       "sourceId": "raad",
-      "sourceLabel": "Gemeenteraad",
+      "sourceLabel": "Algemene Raadscommissie - Raadzaal",
       "categories": [
         "raad"
-      ]
-    },
-    {
-      "id": "raad-/Agenda/Index/5faea5fe-61cf-4cb5-9fa7-4e85be3445bd",
-      "title": "Gemeenteraad",
-      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5faea5fe-61cf-4cb5-9fa7-4e85be3445bd",
-      "location": "Raadzaal",
-      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
-      "startDate": "2026-12-08",
-      "endDate": "",
-      "startTime": "19:30",
-      "endTime": "23:00",
-      "sourceId": "raad",
-      "sourceLabel": "Gemeenteraad",
-      "categories": [
-        "raad"
-      ]
+      ],
+      "meetingTitle": "Algemene Raadscommissie - Raadzaal",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/806f5493-2273-4488-9a20-dd4a382c60ba",
+      "itemNumber": "",
+      "itemTitle": "Algemene Raadscommissie - Raadzaal"
     }
   ]
 }
