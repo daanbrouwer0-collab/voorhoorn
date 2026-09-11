@@ -1,0 +1,37 @@
+name: Update raad-agenda
+
+on:
+  schedule:
+    # Elke ochtend ~06:15 UTC
+    - cron: "15 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Scrape iBabs kalender
+        run: python3 scripts/scrape-raad-agenda.py
+
+      - name: Commit als er wijzigingen zijn
+        run: |
+          if git diff --quiet -- raad-agenda.json; then
+            echo "Geen wijzigingen in raad-agenda.json"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add raad-agenda.json
+          git commit -m "chore: update gemeenteraad-agenda van iBabs"
+          git push

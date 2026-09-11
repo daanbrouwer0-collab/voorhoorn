@@ -1,0 +1,214 @@
+{
+  "updated": "2026-09-11T05:04:48Z",
+  "source": "https://hoorn.bestuurlijkeinformatie.nl/Calendar",
+  "events": [
+    {
+      "id": "raad-/Agenda/Index/a40d8486-804e-4db6-9387-d87db5d8168b",
+      "title": "Algemene Raadscommissie - Raadzaal",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/a40d8486-804e-4db6-9387-d87db5d8168b",
+      "location": "Raadzaal",
+      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
+      "startDate": "2026-09-01",
+      "endDate": "",
+      "startTime": "19:30",
+      "endTime": "21:15",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ]
+    },
+    {
+      "id": "raad-/Agenda/Index/c20c673a-bc96-4a16-9278-ce3af663449a",
+      "title": "Algemene Raadscommissie - Raadzaal",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/c20c673a-bc96-4a16-9278-ce3af663449a",
+      "location": "Raadzaal",
+      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
+      "startDate": "2026-09-08",
+      "endDate": "",
+      "startTime": "19:30",
+      "endTime": "21:45",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ]
+    },
+    {
+      "id": "raad-/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "title": "Gemeenteraad",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "location": "Raadzaal",
+      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ]
+    },
+    {
+      "id": "raad-/Agenda/Index/f3c5b127-a3f4-44bd-b540-d6a26d934a46",
+      "title": "Algemene Raadscommissie - Raadzaal",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/f3c5b127-a3f4-44bd-b540-d6a26d934a46",
+      "location": "Raadzaal",
+      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
+      "startDate": "2026-10-01",
+      "endDate": "",
+      "startTime": "19:30",
+      "endTime": "22:00",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ]
+    },
+    {
+      "id": "raad-/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c",
+      "title": "Algemene Raadscommissie - Raadzaal",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c",
+      "location": "Raadzaal",
+      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
+      "startDate": "2026-10-06",
+      "endDate": "",
+      "startTime": "19:30",
+      "endTime": "22:00",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ]
+    },
+    {
+      "id": "raad-/Agenda/Index/5b28c4f4-d2e0-491d-9e6b-8316495135d9",
+      "title": "Gemeenteraad",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5b28c4f4-d2e0-491d-9e6b-8316495135d9",
+      "location": "Raadzaal",
+      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
+      "startDate": "2026-10-20",
+      "endDate": "",
+      "startTime": "19:30",
+      "endTime": "22:30",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ]
+    },
+    {
+      "id": "raad-/Agenda/Index/328e123e-04d8-4250-bcff-88ef3eb95e20",
+      "title": "Raadscafé",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/328e123e-04d8-4250-bcff-88ef3eb95e20",
+      "location": "De Witte Valk",
+      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
+      "startDate": "2026-10-29",
+      "endDate": "",
+      "startTime": "19:30",
+      "endTime": "22:00",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ]
+    },
+    {
+      "id": "raad-/Agenda/Index/6a5fb47f-487a-44ff-a3c5-8227f5c4d4d5",
+      "title": "Gemeenteraad",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/6a5fb47f-487a-44ff-a3c5-8227f5c4d4d5",
+      "location": "Raadzaal",
+      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
+      "startDate": "2026-11-03",
+      "endDate": "",
+      "startTime": "14:00",
+      "endTime": "23:00",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ]
+    },
+    {
+      "id": "raad-/Agenda/Index/300daf69-74dd-42e3-9b7a-05abb311f700",
+      "title": "Gemeenteraad",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/300daf69-74dd-42e3-9b7a-05abb311f700",
+      "location": "Raadzaal",
+      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
+      "startDate": "2026-11-10",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "23:00",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ]
+    },
+    {
+      "id": "raad-/Agenda/Index/4564407d-08e4-413e-b363-a38581e67872",
+      "title": "Algemene Raadscommissie - Raadzaal",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/4564407d-08e4-413e-b363-a38581e67872",
+      "location": "Raadzaal",
+      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
+      "startDate": "2026-11-17",
+      "endDate": "",
+      "startTime": "19:30",
+      "endTime": "22:00",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ]
+    },
+    {
+      "id": "raad-/Agenda/Index/44982da7-5f0d-4fa4-9cde-063e2141e828",
+      "title": "Algemene Raadscommissie - Raadzaal",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/44982da7-5f0d-4fa4-9cde-063e2141e828",
+      "location": "Raadzaal",
+      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
+      "startDate": "2026-11-24",
+      "endDate": "",
+      "startTime": "19:30",
+      "endTime": "22:00",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ]
+    },
+    {
+      "id": "raad-/Agenda/Index/806f5493-2273-4488-9a20-dd4a382c60ba",
+      "title": "Algemene Raadscommissie - Raadzaal",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/806f5493-2273-4488-9a20-dd4a382c60ba",
+      "location": "Raadzaal",
+      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
+      "startDate": "2026-12-01",
+      "endDate": "",
+      "startTime": "19:30",
+      "endTime": "22:00",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ]
+    },
+    {
+      "id": "raad-/Agenda/Index/5faea5fe-61cf-4cb5-9fa7-4e85be3445bd",
+      "title": "Gemeenteraad",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5faea5fe-61cf-4cb5-9fa7-4e85be3445bd",
+      "location": "Raadzaal",
+      "description": "Raads- of commissievergadering van de gemeente Hoorn.",
+      "startDate": "2026-12-08",
+      "endDate": "",
+      "startTime": "19:30",
+      "endTime": "23:00",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ]
+    }
+  ]
+}
