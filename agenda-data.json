@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T10:45:55Z",
+  "updated": "2026-09-13T11:51:16Z",
   "sources": [
     "komnaarhoorn",
     "manifesto",
@@ -75,52 +75,6 @@
       "endDate": "",
       "startTime": "",
       "endTime": "",
-      "sourceId": "komnaarhoorn",
-      "sourceLabel": "Kom naar Hoorn",
-      "categories": []
-    },
-    {
-      "id": "manifesto-https://manifesto-hoorn.nl/productie/nbr/",
-      "title": "NBR - A Tribute to Classic Rock",
-      "link": "https://manifesto-hoorn.nl/productie/nbr/",
-      "location": "Manifesto Hoorn",
-      "description": "Zaterdag 12 september speelt NBR op het podium van Manifesto! De 'Natural Born Rockers' brengen ons A Tribute to Classic Rock. Vol overgave, vol gas!! Kom genieten van Black Sabbath, AC/DC, Led Zeppelin, Queen, Deep Purple, Led Zeppelin en zoveel meer 🎸 Tickets zijn nu verkrijgbaar: via deze link. NBR – Natural Born Rockers Sinds 2006 staat NBR – Natural Born Rockers garant voor een compromisloze rockshow waarin de g",
-      "startDate": "2026-09-12",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "manifesto",
-      "sourceLabel": "Manifesto",
-      "categories": [
-        "muziek"
-      ]
-    },
-    {
-      "id": "knh-https://komnaarhoorn.nl/agenda/open-monumentendag/",
-      "title": "Open monumentendag",
-      "link": "https://komnaarhoorn.nl/agenda/open-monumentendag/",
-      "location": "Hoorn",
-      "description": "Ontdek hidden gems in de stad, die normaal gesloten blijven voor publiek.",
-      "startDate": "2026-09-12",
-      "endDate": "",
-      "startTime": "11:00",
-      "endTime": "17:00",
-      "sourceId": "komnaarhoorn",
-      "sourceLabel": "Kom naar Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "knh-https://komnaarhoorn.nl/agenda/muntstraat-kunststraat-2/",
-      "title": "Muntstraat Kunststraat",
-      "link": "https://komnaarhoorn.nl/agenda/muntstraat-kunststraat-2/",
-      "location": "Ateliergebouwen Muntstraat 4 en 7",
-      "description": "Op deze dag is de Muntstraat een groot atelier.",
-      "startDate": "2026-09-12",
-      "endDate": "",
-      "startTime": "12:00",
-      "endTime": "17:30",
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
       "categories": []

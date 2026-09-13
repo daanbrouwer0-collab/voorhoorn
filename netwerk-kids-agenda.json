@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T10:45:55Z",
+  "updated": "2026-09-13T11:51:16Z",
   "source": "https://netwerkhoorn.nl/activiteiten",
   "events": [
     {
@@ -11,22 +11,6 @@
       "startDate": "2025-03-04",
       "endDate": "",
       "startTime": "12:00",
-      "endTime": "17:00",
-      "sourceId": "komnaarhoorn",
-      "sourceLabel": "Kom naar Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "knh-https://komnaarhoorn.nl/agenda/open-monumentendag/",
-      "title": "Open monumentendag",
-      "link": "https://komnaarhoorn.nl/agenda/open-monumentendag/",
-      "location": "Hoorn",
-      "description": "Ontdek hidden gems in de stad, die normaal gesloten blijven voor publiek.",
-      "startDate": "2026-09-12",
-      "endDate": "",
-      "startTime": "11:00",
       "endTime": "17:00",
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
