@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T11:51:16Z",
+  "updated": "2026-09-14T12:45:49Z",
   "sources": [
     "komnaarhoorn",
     "manifesto",
@@ -78,38 +78,6 @@
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
       "categories": []
-    },
-    {
-      "id": "knh-https://komnaarhoorn.nl/agenda/bloemen-plukken-bylobke/",
-      "title": "BLOEMEN PLUKKEN MET DE KLEINTJES",
-      "link": "https://komnaarhoorn.nl/agenda/bloemen-plukken-bylobke/",
-      "location": "By Lobke",
-      "description": "Een fleurige activiteit voor jong en oud!",
-      "startDate": "2026-09-13",
-      "endDate": "",
-      "startTime": "10:00",
-      "endTime": "14:00",
-      "sourceId": "komnaarhoorn",
-      "sourceLabel": "Kom naar Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "knh-https://komnaarhoorn.nl/agenda/zoomer-op-de-roode-steen/",
-      "title": "Zoomer op de Roode Steen",
-      "link": "https://komnaarhoorn.nl/agenda/zoomer-op-de-roode-steen/",
-      "location": "Roode Steen, Hoorn",
-      "description": "Sunday = funday! Laat je verrassen met dans, muziek en creativiteit!",
-      "startDate": "2026-09-13",
-      "endDate": "",
-      "startTime": "15:00",
-      "endTime": "19:00",
-      "sourceId": "komnaarhoorn",
-      "sourceLabel": "Kom naar Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
     },
     {
       "id": "netwerk-https://netwerkhoorn.nl/activiteit/60-fit-de-zaagtand-ma1-1-2026-09-14",
@@ -1086,6 +1054,22 @@
       ]
     },
     {
+      "id": "knh-https://komnaarhoorn.nl/agenda/bloemen-plukken-bylobke/",
+      "title": "BLOEMEN PLUKKEN MET DE KLEINTJES",
+      "link": "https://komnaarhoorn.nl/agenda/bloemen-plukken-bylobke/",
+      "location": "By Lobke",
+      "description": "Een fleurige activiteit voor jong en oud!",
+      "startDate": "2026-09-20",
+      "endDate": "",
+      "startTime": "10:00",
+      "endTime": "14:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
       "id": "knh-https://komnaarhoorn.nl/agenda/trouwbeurs-hoorn/",
       "title": "Trouwbeurs Hoorn",
       "link": "https://komnaarhoorn.nl/agenda/trouwbeurs-hoorn/",
@@ -1116,6 +1100,22 @@
       ]
     },
     {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/aerobic-voor-vrouwen-in-de-zaagtand-maandag-2026-09-21",
+      "title": "Aerobic voor vrouwen in De Zaagtand: Maandag",
+      "link": "https://netwerkhoorn.nl/activiteit/aerobic-voor-vrouwen-in-de-zaagtand-maandag",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-21",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
       "id": "netwerk-https://netwerkhoorn.nl/activiteit/cursus-portret-tekenen-en-schilderen-2026-09-21",
       "title": "Cursus portret tekenen en - schilderen",
       "link": "https://netwerkhoorn.nl/activiteit/cursus-portret-tekenen-en-schilderen",
@@ -1129,6 +1129,22 @@
       "sourceLabel": "Netwerk Hoorn",
       "categories": [
         "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/nederlandse-taalles-beginners-2026-09-21",
+      "title": "Nederlandse taalles beginners",
+      "link": "https://netwerkhoorn.nl/activiteit/nederlandse-taalles-beginners",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-21",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
       ]
     },
     {
@@ -2246,6 +2262,20 @@
       "categories": []
     },
     {
+      "id": "knh-https://komnaarhoorn.nl/agenda/bbq-night/",
+      "title": "BBQ night",
+      "link": "https://komnaarhoorn.nl/agenda/bbq-night/",
+      "location": "Strandpaviljoen Reuring",
+      "description": "Een vurige avond, met live muziek en een 5-gangen grill menu.",
+      "startDate": "2026-10-08",
+      "endDate": "",
+      "startTime": "18:30",
+      "endTime": "",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
       "id": "knh-https://komnaarhoorn.nl/agenda/random-goes-brass/",
       "title": "RandOm goes Brass",
       "link": "https://komnaarhoorn.nl/agenda/random-goes-brass/",
@@ -2304,6 +2334,20 @@
       "categories": [
         "voor-kinderen"
       ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/motown-dinnershow/",
+      "title": "Motown dinnershow",
+      "link": "https://komnaarhoorn.nl/agenda/motown-dinnershow/",
+      "location": "Strandpaviljoen Reuring",
+      "description": "Een swingende zwoele avond met live muziek en een 5-gangen diner.",
+      "startDate": "2026-10-16",
+      "endDate": "",
+      "startTime": "18:30",
+      "endTime": "23:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
     },
     {
       "id": "knh-https://komnaarhoorn.nl/agenda/mineralenbeurs-hoorn/",
