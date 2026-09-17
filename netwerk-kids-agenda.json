@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T11:32:46Z",
+  "updated": "2026-09-17T11:41:02Z",
   "source": "https://netwerkhoorn.nl/activiteiten",
   "events": [
     {
@@ -14,86 +14,6 @@
       "endTime": "17:00",
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/art-inn-grote-waal-2026-09-16",
-      "title": "Art Inn Grote Waal",
-      "link": "https://netwerkhoorn.nl/activiteit/art-inn-grote-waal",
-      "location": "Wijkcentrum Grote Waal",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-16",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/huiswerkbegeleiding-de-kersenboogerd-seizoen-2026-2027-2026-09-16",
-      "title": "Huiswerkbegeleiding De Kersenboogerd (seizoen 2026-2027)",
-      "link": "https://netwerkhoorn.nl/activiteit/huiswerkbegeleiding-de-kersenboogerd-seizoen-2026-2027",
-      "location": "Wijkcentrum Kersenboogerd",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-16",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/kidsclub-kersenboogerd-1-2026-09-16",
-      "title": "Kidsclub Kersenboogerd",
-      "link": "https://netwerkhoorn.nl/activiteit/kidsclub-kersenboogerd-1",
-      "location": "Wijkcentrum Kersenboogerd",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-16",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/modelbouwclub-2026-09-16",
-      "title": "Modelbouwclub",
-      "link": "https://netwerkhoorn.nl/activiteit/modelbouwclub",
-      "location": "Wijkcentrum De Zaagtand",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-16",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/muziek-voor-ouder-en-kind-2026-09-16",
-      "title": "Muziek voor ouder en kind",
-      "link": "https://netwerkhoorn.nl/activiteit/muziek-voor-ouder-en-kind",
-      "location": "Wijkcentrum De Zaagtand",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-16",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
       "categories": [
         "voor-kinderen"
       ]
@@ -204,22 +124,6 @@
       "endDate": "",
       "startTime": "10:00",
       "endTime": "14:00",
-      "sourceId": "komnaarhoorn",
-      "sourceLabel": "Kom naar Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "knh-https://komnaarhoorn.nl/agenda/zoomer-op-de-roode-steen-11/",
-      "title": "Zoomer op de Roode Steen",
-      "link": "https://komnaarhoorn.nl/agenda/zoomer-op-de-roode-steen-11/",
-      "location": "Roode Steen, Hoorn",
-      "description": "Deze zomer verrast de Roode Steen je elke zondag met muziek, dans en creativiteit.",
-      "startDate": "2026-09-20",
-      "endDate": "",
-      "startTime": "15:00",
-      "endTime": "19:00",
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
       "categories": [
@@ -467,6 +371,118 @@
       ]
     },
     {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/art-inn-grote-waal-2026-09-23",
+      "title": "Art Inn Grote Waal",
+      "link": "https://netwerkhoorn.nl/activiteit/art-inn-grote-waal",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-23",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/girlsclub-de-kreek-1-2026-09-23",
+      "title": "Girlsclub De Kreek",
+      "link": "https://netwerkhoorn.nl/activiteit/girlsclub-de-kreek-1",
+      "location": "De Kreek",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-23",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/huiswerkbegeleiding-de-kersenboogerd-seizoen-2026-2027-2026-09-23",
+      "title": "Huiswerkbegeleiding De Kersenboogerd (seizoen 2026-2027)",
+      "link": "https://netwerkhoorn.nl/activiteit/huiswerkbegeleiding-de-kersenboogerd-seizoen-2026-2027",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-23",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/kidsclub-de-kreek-2-2026-09-23",
+      "title": "Kidsclub De Kreek",
+      "link": "https://netwerkhoorn.nl/activiteit/kidsclub-de-kreek-2",
+      "location": "De Kreek",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-23",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/kidsclub-kersenboogerd-1-2026-09-23",
+      "title": "Kidsclub Kersenboogerd",
+      "link": "https://netwerkhoorn.nl/activiteit/kidsclub-kersenboogerd-1",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-23",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/modelbouwclub-2026-09-23",
+      "title": "Modelbouwclub",
+      "link": "https://netwerkhoorn.nl/activiteit/modelbouwclub",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-23",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/muziek-voor-ouder-en-kind-2026-09-23",
+      "title": "Muziek voor ouder en kind",
+      "link": "https://netwerkhoorn.nl/activiteit/muziek-voor-ouder-en-kind",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-23",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
       "id": "netwerk-https://netwerkhoorn.nl/activiteit/rots-en-water-training-wijkcentrum-de-huesmolen-2026-09-24",
       "title": "Rots en Water training Wijkcentrum de Huesmolen",
       "link": "https://netwerkhoorn.nl/activiteit/rots-en-water-training-wijkcentrum-de-huesmolen",
@@ -478,22 +494,6 @@
       "endTime": "",
       "sourceId": "netwerk",
       "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "knh-https://komnaarhoorn.nl/agenda/zoomer-op-de-roode-steen-12/",
-      "title": "Zoomer op de Roode Steen",
-      "link": "https://komnaarhoorn.nl/agenda/zoomer-op-de-roode-steen-12/",
-      "location": "Roode Steen, Hoorn",
-      "description": "Deze zomer verrast de Roode Steen je elke zondag met muziek, dans en creativiteit.",
-      "startDate": "2026-09-27",
-      "endDate": "",
-      "startTime": "15:00",
-      "endTime": "19:00",
-      "sourceId": "komnaarhoorn",
-      "sourceLabel": "Kom naar Hoorn",
       "categories": [
         "voor-kinderen"
       ]
@@ -558,6 +558,22 @@
       "endTime": "",
       "sourceId": "netwerk",
       "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/bakkie-buggy-dadwalk-voor-vaders/",
+      "title": "Bakkie & Buggy – dadwalk voor vaders",
+      "link": "https://komnaarhoorn.nl/agenda/bakkie-buggy-dadwalk-voor-vaders/",
+      "location": "het koffielokaal atelier",
+      "description": "Is het papa-dag? Of gewoon zin om te wandelen met die kleine?",
+      "startDate": "2026-10-03",
+      "endDate": "",
+      "startTime": "10:30",
+      "endTime": "12:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
       "categories": [
         "voor-kinderen"
       ]
