@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T11:41:02Z",
+  "updated": "2026-09-18T11:15:58Z",
   "source": "https://hoorn.bestuurlijkeinformatie.nl/Calendar",
   "events": [
     {
@@ -403,6 +403,26 @@
       "itemTitle": "Personele besluiten"
     },
     {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-bc4664b6-8854-4c3d-9e3f-1d9f426adcd2",
+      "title": "6.1. Personele benoemingen algemene raadscommissie",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#bc4664b6-8854-4c3d-9e3f-1d9f426adcd2",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 6.1",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "20:00",
+      "endTime": "22:00",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "6.1",
+      "itemTitle": "Personele benoemingen algemene raadscommissie"
+    },
+    {
       "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-7964c5e8-cdda-4abf-9f07-3e6ff1281ef7",
       "title": "7. Vaststelling van de lijst van ingekomen stukken",
       "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#7964c5e8-cdda-4abf-9f07-3e6ff1281ef7",
@@ -704,14 +724,14 @@
     },
     {
       "id": "raad-894a0935-bc4d-4f60-8128-2cd4ec49e44c-edd930d7-7787-4ebe-ba19-eb02f56aa8c3",
-      "title": "1. Opening",
+      "title": "1. Opening - 19:30",
       "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c#edd930d7-7787-4ebe-ba19-eb02f56aa8c3",
       "location": "Raadzaal",
       "description": "Algemene Raadscommissie - Raadzaal · agendapunt 1",
       "startDate": "2026-10-06",
       "endDate": "",
       "startTime": "19:30",
-      "endTime": "22:00",
+      "endTime": "22:45",
       "sourceId": "raad",
       "sourceLabel": "Algemene Raadscommissie - Raadzaal",
       "categories": [
@@ -720,18 +740,18 @@
       "meetingTitle": "Algemene Raadscommissie - Raadzaal",
       "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c",
       "itemNumber": "1",
-      "itemTitle": "Opening"
+      "itemTitle": "Opening - 19:30"
     },
     {
       "id": "raad-894a0935-bc4d-4f60-8128-2cd4ec49e44c-9f9e94e6-5bf1-4173-952b-44e060bdf0d0",
-      "title": "2. Publieksrondvraag",
+      "title": "2. Publieksrondvraag - 19:30",
       "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c#9f9e94e6-5bf1-4173-952b-44e060bdf0d0",
       "location": "Raadzaal",
       "description": "Algemene Raadscommissie - Raadzaal · agendapunt 2",
       "startDate": "2026-10-06",
       "endDate": "",
       "startTime": "19:30",
-      "endTime": "22:00",
+      "endTime": "22:45",
       "sourceId": "raad",
       "sourceLabel": "Algemene Raadscommissie - Raadzaal",
       "categories": [
@@ -740,18 +760,18 @@
       "meetingTitle": "Algemene Raadscommissie - Raadzaal",
       "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c",
       "itemNumber": "2",
-      "itemTitle": "Publieksrondvraag"
+      "itemTitle": "Publieksrondvraag - 19:30"
     },
     {
       "id": "raad-894a0935-bc4d-4f60-8128-2cd4ec49e44c-9c1b9eba-b809-4527-b891-2b4981f39b7b",
-      "title": "3. Vaststellen agenda 6 oktober 2026 en mededelingen",
+      "title": "3. Vaststellen agenda 6 oktober 2026 en mededelingen - 19:35",
       "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c#9c1b9eba-b809-4527-b891-2b4981f39b7b",
       "location": "Raadzaal",
       "description": "Algemene Raadscommissie - Raadzaal · agendapunt 3",
       "startDate": "2026-10-06",
       "endDate": "",
       "startTime": "19:30",
-      "endTime": "22:00",
+      "endTime": "22:45",
       "sourceId": "raad",
       "sourceLabel": "Algemene Raadscommissie - Raadzaal",
       "categories": [
@@ -760,18 +780,18 @@
       "meetingTitle": "Algemene Raadscommissie - Raadzaal",
       "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c",
       "itemNumber": "3",
-      "itemTitle": "Vaststellen agenda 6 oktober 2026 en mededelingen"
+      "itemTitle": "Vaststellen agenda 6 oktober 2026 en mededelingen - 19:35"
     },
     {
       "id": "raad-894a0935-bc4d-4f60-8128-2cd4ec49e44c-82359562-54db-4510-bfef-87ecd8bf1bc9",
-      "title": "4. Rondvraag algemeen",
+      "title": "4. Rondvraag algemeen - 19:40",
       "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c#82359562-54db-4510-bfef-87ecd8bf1bc9",
       "location": "Raadzaal",
       "description": "Algemene Raadscommissie - Raadzaal · agendapunt 4",
       "startDate": "2026-10-06",
       "endDate": "",
       "startTime": "19:30",
-      "endTime": "22:00",
+      "endTime": "22:45",
       "sourceId": "raad",
       "sourceLabel": "Algemene Raadscommissie - Raadzaal",
       "categories": [
@@ -780,7 +800,7 @@
       "meetingTitle": "Algemene Raadscommissie - Raadzaal",
       "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c",
       "itemNumber": "4",
-      "itemTitle": "Rondvraag algemeen"
+      "itemTitle": "Rondvraag algemeen - 19:40"
     },
     {
       "id": "raad-894a0935-bc4d-4f60-8128-2cd4ec49e44c-44f4570b-50f4-4d63-b6be-865cbac3a0c7",
@@ -791,7 +811,7 @@
       "startDate": "2026-10-06",
       "endDate": "",
       "startTime": "19:30",
-      "endTime": "22:00",
+      "endTime": "22:45",
       "sourceId": "raad",
       "sourceLabel": "Algemene Raadscommissie - Raadzaal",
       "categories": [
@@ -804,14 +824,14 @@
     },
     {
       "id": "raad-894a0935-bc4d-4f60-8128-2cd4ec49e44c-d9f6abfd-e929-4fee-a6b6-2c14b574556a",
-      "title": "5.1. Discussienotitie Volkshuisvestingsprogramma (portefeuillehouder Heijne)",
+      "title": "5.1. Meningvormend voorstel Discussienotitie Volkshuisvestingsprogramma (portefeuillehouder Heijne) - 19:45",
       "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c#d9f6abfd-e929-4fee-a6b6-2c14b574556a",
       "location": "Raadzaal",
       "description": "Algemene Raadscommissie - Raadzaal · agendapunt 5.1",
       "startDate": "2026-10-06",
       "endDate": "",
       "startTime": "19:30",
-      "endTime": "22:00",
+      "endTime": "22:45",
       "sourceId": "raad",
       "sourceLabel": "Algemene Raadscommissie - Raadzaal",
       "categories": [
@@ -820,18 +840,18 @@
       "meetingTitle": "Algemene Raadscommissie - Raadzaal",
       "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c",
       "itemNumber": "5.1",
-      "itemTitle": "Discussienotitie Volkshuisvestingsprogramma (portefeuillehouder Heijne)"
+      "itemTitle": "Meningvormend voorstel Discussienotitie Volkshuisvestingsprogramma (portefeuillehouder Heijne) - 19:45"
     },
     {
       "id": "raad-894a0935-bc4d-4f60-8128-2cd4ec49e44c-f818c71b-7581-4264-8e13-0c60d961a103",
-      "title": "5.2. Vaststelling Strategisch Integraal Huisvestingsplan primair onderwijs 2026-2040 (portefeuillehouder Heijne)",
+      "title": "5.2. Vaststelling Strategisch Integraal Huisvestingsplan primair onderwijs 2026-2040 (portefeuillehouder Heijne) - 20:45",
       "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c#f818c71b-7581-4264-8e13-0c60d961a103",
       "location": "Raadzaal",
       "description": "Algemene Raadscommissie - Raadzaal · agendapunt 5.2",
       "startDate": "2026-10-06",
       "endDate": "",
       "startTime": "19:30",
-      "endTime": "22:00",
+      "endTime": "22:45",
       "sourceId": "raad",
       "sourceLabel": "Algemene Raadscommissie - Raadzaal",
       "categories": [
@@ -840,18 +860,18 @@
       "meetingTitle": "Algemene Raadscommissie - Raadzaal",
       "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c",
       "itemNumber": "5.2",
-      "itemTitle": "Vaststelling Strategisch Integraal Huisvestingsplan primair onderwijs 2026-2040 (portefeuillehouder Heijne)"
+      "itemTitle": "Vaststelling Strategisch Integraal Huisvestingsplan primair onderwijs 2026-2040 (portefeuillehouder Heijne) - 20:45"
     },
     {
       "id": "raad-894a0935-bc4d-4f60-8128-2cd4ec49e44c-c05c24e7-0216-4555-b5ea-5a4d00901ef7",
-      "title": "5.3. Uitvoeringskrediet renovatie IKC Wingerd (portefeuillehouder Heijne)",
+      "title": "5.3. Uitvoeringskrediet renovatie IKC Wingerd (portefeuillehouder Heijne) - 21:45",
       "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c#c05c24e7-0216-4555-b5ea-5a4d00901ef7",
       "location": "Raadzaal",
       "description": "Algemene Raadscommissie - Raadzaal · agendapunt 5.3",
       "startDate": "2026-10-06",
       "endDate": "",
       "startTime": "19:30",
-      "endTime": "22:00",
+      "endTime": "22:45",
       "sourceId": "raad",
       "sourceLabel": "Algemene Raadscommissie - Raadzaal",
       "categories": [
@@ -860,18 +880,18 @@
       "meetingTitle": "Algemene Raadscommissie - Raadzaal",
       "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c",
       "itemNumber": "5.3",
-      "itemTitle": "Uitvoeringskrediet renovatie IKC Wingerd (portefeuillehouder Heijne)"
+      "itemTitle": "Uitvoeringskrediet renovatie IKC Wingerd (portefeuillehouder Heijne) - 21:45"
     },
     {
       "id": "raad-894a0935-bc4d-4f60-8128-2cd4ec49e44c-9d9c5b49-3cd8-46bd-988f-9ef19ad2a9f3",
-      "title": "6.1. Voorbereidingskredieten projecten Strategisch Integraal Huisvestingsplan fase 1 en fase 2 (portefeuillehouder Heijne) - 19:30",
+      "title": "6.1. Voorbereidingskredieten projecten Strategisch Integraal Huisvestingsplan fase 1 en fase 2 (portefeuillehouder Heijne) - 22:45",
       "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c#9d9c5b49-3cd8-46bd-988f-9ef19ad2a9f3",
       "location": "Raadzaal",
       "description": "Algemene Raadscommissie - Raadzaal · agendapunt 6.1",
       "startDate": "2026-10-06",
       "endDate": "",
       "startTime": "19:30",
-      "endTime": "22:00",
+      "endTime": "22:45",
       "sourceId": "raad",
       "sourceLabel": "Algemene Raadscommissie - Raadzaal",
       "categories": [
@@ -880,18 +900,18 @@
       "meetingTitle": "Algemene Raadscommissie - Raadzaal",
       "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c",
       "itemNumber": "6.1",
-      "itemTitle": "Voorbereidingskredieten projecten Strategisch Integraal Huisvestingsplan fase 1 en fase 2 (portefeuillehouder Heijne) - 19:30"
+      "itemTitle": "Voorbereidingskredieten projecten Strategisch Integraal Huisvestingsplan fase 1 en fase 2 (portefeuillehouder Heijne) - 22:45"
     },
     {
       "id": "raad-894a0935-bc4d-4f60-8128-2cd4ec49e44c-27d3cc67-3f24-47a3-8356-a698845bcf9e",
-      "title": "6.2. Onteigeningsbeschikking voor de Ontwikkeling Stationsgebied (portefeuillehouder Heijne) - 19:30",
+      "title": "6.2. Onteigeningsbeschikking voor de Ontwikkeling Stationsgebied (portefeuillehouder Heijne) - 22:45",
       "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c#27d3cc67-3f24-47a3-8356-a698845bcf9e",
       "location": "Raadzaal",
       "description": "Algemene Raadscommissie - Raadzaal · agendapunt 6.2",
       "startDate": "2026-10-06",
       "endDate": "",
       "startTime": "19:30",
-      "endTime": "22:00",
+      "endTime": "22:45",
       "sourceId": "raad",
       "sourceLabel": "Algemene Raadscommissie - Raadzaal",
       "categories": [
@@ -900,18 +920,18 @@
       "meetingTitle": "Algemene Raadscommissie - Raadzaal",
       "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c",
       "itemNumber": "6.2",
-      "itemTitle": "Onteigeningsbeschikking voor de Ontwikkeling Stationsgebied (portefeuillehouder Heijne) - 19:30"
+      "itemTitle": "Onteigeningsbeschikking voor de Ontwikkeling Stationsgebied (portefeuillehouder Heijne) - 22:45"
     },
     {
       "id": "raad-894a0935-bc4d-4f60-8128-2cd4ec49e44c-f180a999-62b3-4323-8cc0-95fcb9824b7b",
-      "title": "6.3. Algemeen Belang Besluit Wet Markt en Overheid (burgemeester Nieuwenburg) - 19:30",
+      "title": "6.3. Algemeen Belang Besluit Wet Markt en Overheid (burgemeester Nieuwenburg) - 22:45",
       "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c#f180a999-62b3-4323-8cc0-95fcb9824b7b",
       "location": "Raadzaal",
       "description": "Algemene Raadscommissie - Raadzaal · agendapunt 6.3",
       "startDate": "2026-10-06",
       "endDate": "",
       "startTime": "19:30",
-      "endTime": "22:00",
+      "endTime": "22:45",
       "sourceId": "raad",
       "sourceLabel": "Algemene Raadscommissie - Raadzaal",
       "categories": [
@@ -920,18 +940,18 @@
       "meetingTitle": "Algemene Raadscommissie - Raadzaal",
       "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c",
       "itemNumber": "6.3",
-      "itemTitle": "Algemeen Belang Besluit Wet Markt en Overheid (burgemeester Nieuwenburg) - 19:30"
+      "itemTitle": "Algemeen Belang Besluit Wet Markt en Overheid (burgemeester Nieuwenburg) - 22:45"
     },
     {
       "id": "raad-894a0935-bc4d-4f60-8128-2cd4ec49e44c-a8d3d9c5-043c-465d-80b3-a5e648738e53",
-      "title": "6.4. Wensen en bedenkingen op ontwerpbesluit oprichting stichting Knooppunt Coördinatie Rijk-Regio’s (burgemeester Nieuwenburg) - 19:30",
+      "title": "6.4. Wensen en bedenkingen op ontwerpbesluit oprichting stichting Knooppunt Coördinatie Rijk-Regio’s (burgemeester Nieuwenburg) - 22:45",
       "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c#a8d3d9c5-043c-465d-80b3-a5e648738e53",
       "location": "Raadzaal",
       "description": "Algemene Raadscommissie - Raadzaal · agendapunt 6.4",
       "startDate": "2026-10-06",
       "endDate": "",
       "startTime": "19:30",
-      "endTime": "22:00",
+      "endTime": "22:45",
       "sourceId": "raad",
       "sourceLabel": "Algemene Raadscommissie - Raadzaal",
       "categories": [
@@ -940,7 +960,7 @@
       "meetingTitle": "Algemene Raadscommissie - Raadzaal",
       "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/894a0935-bc4d-4f60-8128-2cd4ec49e44c",
       "itemNumber": "6.4",
-      "itemTitle": "Wensen en bedenkingen op ontwerpbesluit oprichting stichting Knooppunt Coördinatie Rijk-Regio’s (burgemeester Nieuwenburg) - 19:30"
+      "itemTitle": "Wensen en bedenkingen op ontwerpbesluit oprichting stichting Knooppunt Coördinatie Rijk-Regio’s (burgemeester Nieuwenburg) - 22:45"
     },
     {
       "id": "raad-894a0935-bc4d-4f60-8128-2cd4ec49e44c-90180e2a-f1ee-4556-a2a6-e3aaeb9680f9",
@@ -951,7 +971,7 @@
       "startDate": "2026-10-06",
       "endDate": "",
       "startTime": "19:30",
-      "endTime": "22:00",
+      "endTime": "22:45",
       "sourceId": "raad",
       "sourceLabel": "Algemene Raadscommissie - Raadzaal",
       "categories": [
