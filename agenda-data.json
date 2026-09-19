@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T11:15:58Z",
+  "updated": "2026-09-19T10:58:18Z",
   "sources": [
     "komnaarhoorn",
     "manifesto",
@@ -78,150 +78,6 @@
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
       "categories": []
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/50-fit-grote-waal-vrijdag-2026-09-18",
-      "title": "50+ Fit Grote Waal vrijdag",
-      "link": "https://netwerkhoorn.nl/activiteit/50-fit-grote-waal-vrijdag",
-      "location": "Wijkcentrum Grote Waal",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-18",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "creatief"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/60-fit-mbvo-grote-waal-vrijdag-2026-09-18",
-      "title": "60+ Fit / MBVO Grote Waal vrijdag",
-      "link": "https://netwerkhoorn.nl/activiteit/60-fit-mbvo-grote-waal-vrijdag",
-      "location": "Wijkcentrum Grote Waal",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-18",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "creatief"
-      ]
-    },
-    {
-      "id": "manifesto-https://manifesto-hoorn.nl/productie/beyourself/",
-      "title": "Be Yourself – Kom en dans!",
-      "link": "https://manifesto-hoorn.nl/productie/beyourself/",
-      "location": "Manifesto Hoorn",
-      "description": "Op vrijdag 18 september is het weer feest in Manifesto met BE YOURSELF: kom en dans! Lekker dansen op de muziek van dj Aron, gezellig met elkaar een biertje of frisje doen, even helemaal los. En zet ook alvast vrijdag 13 november in je agenda, want dan is het alweer. Wat kost het? Entree is €5,-. Je kunt je kaartje op de avond aan de kassa kopen. Je betaalt zelf je consumpties bij de bar. Door wie wordt het georganis",
-      "startDate": "2026-09-18",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "manifesto",
-      "sourceLabel": "Manifesto",
-      "categories": [
-        "muziek"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/creatief-atelier-1-2026-09-18",
-      "title": "Creatief atelier",
-      "link": "https://netwerkhoorn.nl/activiteit/creatief-atelier-1",
-      "location": "Bockxmeerschool",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-18",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/eettafel-wijkcentrum-kersenboogerd-2026-2027-2026-09-18",
-      "title": "Eettafel Wijkcentrum Kersenboogerd 2026-2027",
-      "link": "https://netwerkhoorn.nl/activiteit/eettafel-wijkcentrum-kersenboogerd-2026-2027",
-      "location": "Wijkcentrum Kersenboogerd",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-18",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "creatief"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/naai-inloop-grote-waal-vrij-2026-09-18",
-      "title": "Naai inloop Grote Waal vrij.",
-      "link": "https://netwerkhoorn.nl/activiteit/naai-inloop-grote-waal-vrij",
-      "location": "Wijkcentrum Grote Waal",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-18",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "creatief"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/next-level-crew-2026-09-18",
-      "title": "Next Level Crew",
-      "link": "https://netwerkhoorn.nl/activiteit/next-level-crew",
-      "location": "Wijkcentrum De Cogge",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-18",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/rdm-movement-class-2026-09-18",
-      "title": "RDM Movement Class",
-      "link": "https://netwerkhoorn.nl/activiteit/rdm-movement-class",
-      "location": "Wijkcentrum De Zaagtand",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-18",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "creatief"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/klaverjas-rummikub-sjoelen-krs-2026-09-18",
-      "title": "klaverjas, rummikub, sjoelen KRS",
-      "link": "https://netwerkhoorn.nl/activiteit/klaverjas-rummikub-sjoelen-krs",
-      "location": "Wijkcentrum Kersenboogerd",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-18",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "creatief"
-      ]
     },
     {
       "id": "knh-https://komnaarhoorn.nl/agenda/bloemen-plukken-bylobke/",
@@ -1240,6 +1096,26 @@
       "itemTitle": "Wilde motie HC - Toenemende dak- en thuisloosheid vraagt ook om landelijke actie"
     },
     {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-b1e743e8-5def-42ff-aa95-24c1cbdbe026",
+      "title": "12.2. Wilde motie PvdD - Dieren als volwaardig medebewoner",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#b1e743e8-5def-42ff-aa95-24c1cbdbe026",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 12.2",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "20:00",
+      "endTime": "22:00",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "12.2",
+      "itemTitle": "Wilde motie PvdD - Dieren als volwaardig medebewoner"
+    },
+    {
       "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-6e76a87b-1f61-48f3-bd2b-1b5fa8444f3f",
       "title": "13. Sluiting",
       "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#6e76a87b-1f61-48f3-bd2b-1b5fa8444f3f",
@@ -1956,10 +1832,122 @@
       ]
     },
     {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/50-fit-grote-waal-vrijdag-2026-09-25",
+      "title": "50+ Fit Grote Waal vrijdag",
+      "link": "https://netwerkhoorn.nl/activiteit/50-fit-grote-waal-vrijdag",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-25",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/60-fit-mbvo-grote-waal-vrijdag-2026-09-25",
+      "title": "60+ Fit / MBVO Grote Waal vrijdag",
+      "link": "https://netwerkhoorn.nl/activiteit/60-fit-mbvo-grote-waal-vrijdag",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-25",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/creatief-atelier-1-2026-09-25",
+      "title": "Creatief atelier",
+      "link": "https://netwerkhoorn.nl/activiteit/creatief-atelier-1",
+      "location": "Bockxmeerschool",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-25",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
       "id": "netwerk-https://netwerkhoorn.nl/activiteit/cursus-portret-tekenen-en-schilderen-1-2026-09-25",
       "title": "Cursus portret tekenen en - schilderen",
       "link": "https://netwerkhoorn.nl/activiteit/cursus-portret-tekenen-en-schilderen-1",
       "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-25",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/naai-inloop-grote-waal-vrij-2026-09-25",
+      "title": "Naai inloop Grote Waal vrij.",
+      "link": "https://netwerkhoorn.nl/activiteit/naai-inloop-grote-waal-vrij",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-25",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/next-level-crew-2026-09-25",
+      "title": "Next Level Crew",
+      "link": "https://netwerkhoorn.nl/activiteit/next-level-crew",
+      "location": "Wijkcentrum De Cogge",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-25",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/rdm-movement-class-2026-09-25",
+      "title": "RDM Movement Class",
+      "link": "https://netwerkhoorn.nl/activiteit/rdm-movement-class",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-09-25",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/klaverjas-rummikub-sjoelen-krs-2026-09-25",
+      "title": "klaverjas, rummikub, sjoelen KRS",
+      "link": "https://netwerkhoorn.nl/activiteit/klaverjas-rummikub-sjoelen-krs",
+      "location": "Wijkcentrum Kersenboogerd",
       "description": "Netwerk Hoorn",
       "startDate": "2026-09-25",
       "endDate": "",
@@ -2938,6 +2926,22 @@
       ]
     },
     {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/eettafel-wijkcentrum-kersenboogerd-2026-2027-2026-10-23",
+      "title": "Eettafel Wijkcentrum Kersenboogerd 2026-2027",
+      "link": "https://netwerkhoorn.nl/activiteit/eettafel-wijkcentrum-kersenboogerd-2026-2027",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-23",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
       "id": "manifesto-https://manifesto-hoorn.nl/productie/queen/",
       "title": "Valentine's Tribute To Queen",
       "link": "https://manifesto-hoorn.nl/productie/queen/",
@@ -3636,6 +3640,22 @@
       ]
     },
     {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/plaguefest/",
+      "title": "Plaguefest: Man As Plague, Vinegar Hill, Temptations for the Weak",
+      "link": "https://manifesto-hoorn.nl/productie/plaguefest/",
+      "location": "Manifesto Hoorn",
+      "description": "6 november is Plaguefest terug in Manifesto met de eindbaas zelf op de line-up: Man As Plague! Ze worden bijgestaan door de snoeiharde bands Vinegar Hill uit Oostenrijk en Temptations for the Weak uit België. Kom deze internationale editie checken! Tickets zijn nu verkrijgbaar: via deze link. Meer info over de bands volgt snel! Ticketinfo €8,50 early bird (50st) €10 voorverkoop €15 aan de deur Locatie: Manifesto op H",
+      "startDate": "",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
       "id": "manifesto-https://manifesto-hoorn.nl/productie/tibbs/",
       "title": "The Tibbs Jaarafsluiting in Manifesto",
       "link": "https://manifesto-hoorn.nl/productie/tibbs/",
@@ -3657,6 +3677,22 @@
       "link": "https://manifesto-hoorn.nl/productie/rhb/",
       "location": "Manifesto Hoorn",
       "description": "Zaterdag 7 november brengt Ruben Hoeke met zijn band zijn 'Tribute to the Blues' naar Manifesto. Een ode aan de muziek die hem zo inspireert! Ook bluesrockband Doghouse Tenants is van de partij. Tickets zijn nu verkrijgbaar: via deze link . Ruben Hoeke Band RHB laat zich deze keer van een andere kant horen met een repertoire uiteenlopend van Fleetwood Mac, BB King, JJ Cale, Jimmy Reed, Ten Years After, John Lee Hooke",
+      "startDate": "",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/mtv/",
+      "title": "Unplugged Zondagmiddagconcert",
+      "link": "https://manifesto-hoorn.nl/productie/mtv/",
+      "location": "Manifesto Hoorn",
+      "description": "Op zondagmiddag 6 december een nieuwe editie van Unplugged: drie bands spelen in de sfeer van de MTV Unplugged sessies. Om 14:00 uur gaan de deuren open. Om 14:30 start de show! Tickets zijn al verkrijgbaar: via deze link. In de jaren ’90 waren de MTV Unplugged sessies legendarisch. Wereldberoemde artiesten speelden hun grootste hits in een intieme, akoestische setting, wat vaak leidde tot iconische en ontroerende ui",
       "startDate": "",
       "endDate": "",
       "startTime": "",

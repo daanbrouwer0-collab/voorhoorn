@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T11:15:58Z",
+  "updated": "2026-09-19T10:58:18Z",
   "source": "https://hoorn.bestuurlijkeinformatie.nl/Calendar",
   "events": [
     {
@@ -301,6 +301,26 @@
       "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
       "itemNumber": "12.1",
       "itemTitle": "Wilde motie HC - Toenemende dak- en thuisloosheid vraagt ook om landelijke actie"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-b1e743e8-5def-42ff-aa95-24c1cbdbe026",
+      "title": "12.2. Wilde motie PvdD - Dieren als volwaardig medebewoner",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#b1e743e8-5def-42ff-aa95-24c1cbdbe026",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 12.2",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "20:00",
+      "endTime": "22:00",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "12.2",
+      "itemTitle": "Wilde motie PvdD - Dieren als volwaardig medebewoner"
     },
     {
       "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-6e76a87b-1f61-48f3-bd2b-1b5fa8444f3f",
