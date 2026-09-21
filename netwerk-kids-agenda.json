@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T11:22:47Z",
+  "updated": "2026-09-21T12:47:28Z",
   "source": "https://netwerkhoorn.nl/activiteiten",
   "events": [
     {
@@ -12,22 +12,6 @@
       "endDate": "",
       "startTime": "12:00",
       "endTime": "17:00",
-      "sourceId": "komnaarhoorn",
-      "sourceLabel": "Kom naar Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "knh-https://komnaarhoorn.nl/agenda/bloemen-plukken-bylobke/",
-      "title": "BLOEMEN PLUKKEN MET DE KLEINTJES",
-      "link": "https://komnaarhoorn.nl/agenda/bloemen-plukken-bylobke/",
-      "location": "By Lobke",
-      "description": "Een fleurige activiteit voor jong en oud!",
-      "startDate": "2026-09-20",
-      "endDate": "",
-      "startTime": "10:00",
-      "endTime": "14:00",
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
       "categories": [
@@ -499,6 +483,22 @@
       ]
     },
     {
+      "id": "knh-https://komnaarhoorn.nl/agenda/speksteen-bewerken/",
+      "title": "Speksteen bewerken",
+      "link": "https://komnaarhoorn.nl/agenda/speksteen-bewerken/",
+      "location": "MAK Blokweer",
+      "description": "Maak iets unieks van speksteen.",
+      "startDate": "2026-09-27",
+      "endDate": "",
+      "startTime": "10:00",
+      "endTime": "15:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
       "id": "netwerk-https://netwerkhoorn.nl/activiteit/franse-les-op-maandag-2026-09-28",
       "title": "Franse les op maandag",
       "link": "https://netwerkhoorn.nl/activiteit/franse-les-op-maandag",
@@ -611,6 +611,22 @@
       ]
     },
     {
+      "id": "knh-https://komnaarhoorn.nl/agenda/uilenballen-pluizen/",
+      "title": "Uilenballen pluizen",
+      "link": "https://komnaarhoorn.nl/agenda/uilenballen-pluizen/",
+      "location": "MAK Blokweer",
+      "description": "Door een uilenbal uit te pluizen ontdek je welke prooi de uil gegeten heeft.",
+      "startDate": "2026-10-14",
+      "endDate": "",
+      "startTime": "10:00",
+      "endTime": "15:30",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
       "id": "knh-https://komnaarhoorn.nl/agenda/autumn-plate-party-2/",
       "title": "Autumn Plate Party",
       "link": "https://komnaarhoorn.nl/agenda/autumn-plate-party-2/",
@@ -620,6 +636,38 @@
       "endDate": "",
       "startTime": "16:15",
       "endTime": "18:15",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/maak-je-eigen-herfstzeep/",
+      "title": "Maak je eigen herfstzeep",
+      "link": "https://komnaarhoorn.nl/agenda/maak-je-eigen-herfstzeep/",
+      "location": "MAK Blokweer",
+      "description": "Laat je verrassen door de herfst en maak je eigen heerlijk geurende herfstzeep.",
+      "startDate": "2026-10-16",
+      "endDate": "",
+      "startTime": "13:00",
+      "endTime": "16:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/uilenballen-pluizen-2/",
+      "title": "Uilenballen pluizen",
+      "link": "https://komnaarhoorn.nl/agenda/uilenballen-pluizen-2/",
+      "location": "MAK Blokweer",
+      "description": "Door een uilenbal uit te pluizen ontdek je welke prooi de uil gegeten heeft.",
+      "startDate": "2026-10-16",
+      "endDate": "",
+      "startTime": "14:00",
+      "endTime": "15:30",
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
       "categories": [
@@ -668,6 +716,22 @@
       "endDate": "",
       "startTime": "14:00",
       "endTime": "21:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/pompoenen-snijden/",
+      "title": "Pompoenen snijden",
+      "link": "https://komnaarhoorn.nl/agenda/pompoenen-snijden/",
+      "location": "MAK Blokweer",
+      "description": "Het ultieme herfstuitje. Leuk met de kids.",
+      "startDate": "2026-10-25",
+      "endDate": "",
+      "startTime": "10:00",
+      "endTime": "15:00",
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
       "categories": [

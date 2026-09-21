@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T11:22:47Z",
+  "updated": "2026-09-21T12:47:28Z",
   "sources": [
     "komnaarhoorn",
     "manifesto",
@@ -75,50 +75,6 @@
       "endDate": "",
       "startTime": "",
       "endTime": "",
-      "sourceId": "komnaarhoorn",
-      "sourceLabel": "Kom naar Hoorn",
-      "categories": []
-    },
-    {
-      "id": "knh-https://komnaarhoorn.nl/agenda/bloemen-plukken-bylobke/",
-      "title": "BLOEMEN PLUKKEN MET DE KLEINTJES",
-      "link": "https://komnaarhoorn.nl/agenda/bloemen-plukken-bylobke/",
-      "location": "By Lobke",
-      "description": "Een fleurige activiteit voor jong en oud!",
-      "startDate": "2026-09-20",
-      "endDate": "",
-      "startTime": "10:00",
-      "endTime": "14:00",
-      "sourceId": "komnaarhoorn",
-      "sourceLabel": "Kom naar Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "knh-https://komnaarhoorn.nl/agenda/trouwbeurs-hoorn/",
-      "title": "Trouwbeurs Hoorn",
-      "link": "https://komnaarhoorn.nl/agenda/trouwbeurs-hoorn/",
-      "location": "Noorderkerk",
-      "description": "Wacht nog even met het plannen van je bruiloft, op deze beurs staan 30 trouwprofessionals voor je klaar!",
-      "startDate": "2026-09-20",
-      "endDate": "",
-      "startTime": "11:00",
-      "endTime": "16:00",
-      "sourceId": "komnaarhoorn",
-      "sourceLabel": "Kom naar Hoorn",
-      "categories": []
-    },
-    {
-      "id": "knh-https://komnaarhoorn.nl/agenda/proef-de-wereld/",
-      "title": "Proef de wereld",
-      "link": "https://komnaarhoorn.nl/agenda/proef-de-wereld/",
-      "location": "West 72",
-      "description": "Een culinair rondje om de wereld op 1 dag!",
-      "startDate": "2026-09-20",
-      "endDate": "",
-      "startTime": "13:00",
-      "endTime": "17:00",
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
       "categories": []
@@ -896,9 +852,9 @@
       "itemTitle": "Roode Steen, Kerkstraat en West (Portefeuillehouder Assendelft)"
     },
     {
-      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-b183d25b-77c9-443f-a4b0-553e3585a5e5",
-      "title": "10.3. Afgeven van een bindend advies en vaststellen Beeldkwaliteitsplan voor plan Buitenstad (Portefeuillehouder Heijne)",
-      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#b183d25b-77c9-443f-a4b0-553e3585a5e5",
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-c5b2bb2a-99c6-4fb4-8d51-22778148500a",
+      "title": "10.3. Bindend advies en vaststellen beeldkwaliteitsplan bouwplan Scheldeweg 2 in Hoorn (Portefeuillehouder Yousufi)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#c5b2bb2a-99c6-4fb4-8d51-22778148500a",
       "location": "Raadzaal",
       "description": "Gemeenteraad · agendapunt 10.3",
       "startDate": "2026-09-22",
@@ -913,12 +869,12 @@
       "meetingTitle": "Gemeenteraad",
       "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
       "itemNumber": "10.3",
-      "itemTitle": "Afgeven van een bindend advies en vaststellen Beeldkwaliteitsplan voor plan Buitenstad (Portefeuillehouder Heijne)"
+      "itemTitle": "Bindend advies en vaststellen beeldkwaliteitsplan bouwplan Scheldeweg 2 in Hoorn (Portefeuillehouder Yousufi)"
     },
     {
-      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-c5b2bb2a-99c6-4fb4-8d51-22778148500a",
-      "title": "10.4. Bindend advies en vaststellen beeldkwaliteitsplan bouwplan Scheldeweg 2 in Hoorn (Portefeuillehouder Yousufi)",
-      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#c5b2bb2a-99c6-4fb4-8d51-22778148500a",
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-9dc6bd72-f142-4409-8d1d-398e7a0f7944",
+      "title": "10.4. Extra uitvoeringskrediet Mariaschool (Portefeuillehouder Heijne)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#9dc6bd72-f142-4409-8d1d-398e7a0f7944",
       "location": "Raadzaal",
       "description": "Gemeenteraad · agendapunt 10.4",
       "startDate": "2026-09-22",
@@ -933,12 +889,12 @@
       "meetingTitle": "Gemeenteraad",
       "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
       "itemNumber": "10.4",
-      "itemTitle": "Bindend advies en vaststellen beeldkwaliteitsplan bouwplan Scheldeweg 2 in Hoorn (Portefeuillehouder Yousufi)"
+      "itemTitle": "Extra uitvoeringskrediet Mariaschool (Portefeuillehouder Heijne)"
     },
     {
-      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-9dc6bd72-f142-4409-8d1d-398e7a0f7944",
-      "title": "10.5. Extra uitvoeringskrediet Mariaschool (Portefeuillehouder Heijne)",
-      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#9dc6bd72-f142-4409-8d1d-398e7a0f7944",
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-28449d52-dfe8-4942-850d-221f3597157b",
+      "title": "10.5. Gedragscode college (Portefeuillehouder Nieuwenburg)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#28449d52-dfe8-4942-850d-221f3597157b",
       "location": "Raadzaal",
       "description": "Gemeenteraad · agendapunt 10.5",
       "startDate": "2026-09-22",
@@ -953,12 +909,12 @@
       "meetingTitle": "Gemeenteraad",
       "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
       "itemNumber": "10.5",
-      "itemTitle": "Extra uitvoeringskrediet Mariaschool (Portefeuillehouder Heijne)"
+      "itemTitle": "Gedragscode college (Portefeuillehouder Nieuwenburg)"
     },
     {
-      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-28449d52-dfe8-4942-850d-221f3597157b",
-      "title": "10.6. Gedragscode college (Portefeuillehouder Nieuwenburg)",
-      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#28449d52-dfe8-4942-850d-221f3597157b",
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-30af129b-de3d-4074-ae53-cf8ad831d8fc",
+      "title": "10.6. Aanvullend besluit over vertegenwoordiging in besturen gemeenschappelijke regelingen (portefeuillehouder Nieuwenburg)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#30af129b-de3d-4074-ae53-cf8ad831d8fc",
       "location": "Raadzaal",
       "description": "Gemeenteraad · agendapunt 10.6",
       "startDate": "2026-09-22",
@@ -973,12 +929,12 @@
       "meetingTitle": "Gemeenteraad",
       "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
       "itemNumber": "10.6",
-      "itemTitle": "Gedragscode college (Portefeuillehouder Nieuwenburg)"
+      "itemTitle": "Aanvullend besluit over vertegenwoordiging in besturen gemeenschappelijke regelingen (portefeuillehouder Nieuwenburg)"
     },
     {
-      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-30af129b-de3d-4074-ae53-cf8ad831d8fc",
-      "title": "10.7. Aanvullend besluit over vertegenwoordiging in besturen gemeenschappelijke regelingen (portefeuillehouder Nieuwenburg)",
-      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#30af129b-de3d-4074-ae53-cf8ad831d8fc",
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-4ccd62bf-62aa-4b1c-8311-094a4cbdcae7",
+      "title": "10.7. Personele besluiten gemeenteraad Hoorn in het kader van de Algemene verordening gegevensbescherming (AVG)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#4ccd62bf-62aa-4b1c-8311-094a4cbdcae7",
       "location": "Raadzaal",
       "description": "Gemeenteraad · agendapunt 10.7",
       "startDate": "2026-09-22",
@@ -993,12 +949,12 @@
       "meetingTitle": "Gemeenteraad",
       "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
       "itemNumber": "10.7",
-      "itemTitle": "Aanvullend besluit over vertegenwoordiging in besturen gemeenschappelijke regelingen (portefeuillehouder Nieuwenburg)"
+      "itemTitle": "Personele besluiten gemeenteraad Hoorn in het kader van de Algemene verordening gegevensbescherming (AVG)"
     },
     {
-      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-4ccd62bf-62aa-4b1c-8311-094a4cbdcae7",
-      "title": "10.8. Personele besluiten gemeenteraad Hoorn in het kader van de Algemene verordening gegevensbescherming (AVG)",
-      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#4ccd62bf-62aa-4b1c-8311-094a4cbdcae7",
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-651d697f-e8fc-4434-bc55-f8228da31741",
+      "title": "10.8. Verzameloverzicht begrotingswijzigingen raad september 2026",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#651d697f-e8fc-4434-bc55-f8228da31741",
       "location": "Raadzaal",
       "description": "Gemeenteraad · agendapunt 10.8",
       "startDate": "2026-09-22",
@@ -1013,26 +969,6 @@
       "meetingTitle": "Gemeenteraad",
       "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
       "itemNumber": "10.8",
-      "itemTitle": "Personele besluiten gemeenteraad Hoorn in het kader van de Algemene verordening gegevensbescherming (AVG)"
-    },
-    {
-      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-651d697f-e8fc-4434-bc55-f8228da31741",
-      "title": "10.9. Verzameloverzicht begrotingswijzigingen raad september 2026",
-      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#651d697f-e8fc-4434-bc55-f8228da31741",
-      "location": "Raadzaal",
-      "description": "Gemeenteraad · agendapunt 10.9",
-      "startDate": "2026-09-22",
-      "endDate": "",
-      "startTime": "20:00",
-      "endTime": "22:00",
-      "sourceId": "raad",
-      "sourceLabel": "Gemeenteraad",
-      "categories": [
-        "raad"
-      ],
-      "meetingTitle": "Gemeenteraad",
-      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
-      "itemNumber": "10.9",
       "itemTitle": "Verzameloverzicht begrotingswijzigingen raad september 2026"
     },
     {
@@ -1114,6 +1050,26 @@
       "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
       "itemNumber": "12.2",
       "itemTitle": "Wilde motie PvdD - Dieren als volwaardig medebewoner"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-653108ec-42f7-49a0-bc01-dd0cd9281644",
+      "title": "12.3. Wilde motie SP - Van leegstaand Philipsgebouw naar artistieke vrijplaats",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#653108ec-42f7-49a0-bc01-dd0cd9281644",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 12.3",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "20:00",
+      "endTime": "22:00",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "12.3",
+      "itemTitle": "Wilde motie SP - Van leegstaand Philipsgebouw naar artistieke vrijplaats"
     },
     {
       "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-6e76a87b-1f61-48f3-bd2b-1b5fa8444f3f",
@@ -1216,9 +1172,9 @@
       "itemTitle": "Personele besluiten"
     },
     {
-      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-bc4664b6-8854-4c3d-9e3f-1d9f426adcd2",
-      "title": "6.1. Personele benoemingen algemene raadscommissie",
-      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#bc4664b6-8854-4c3d-9e3f-1d9f426adcd2",
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-37cab0b8-1bcb-492f-a2fb-1b20c3f439ac",
+      "title": "6.1. Personele besluiten gemeenteraad",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#37cab0b8-1bcb-492f-a2fb-1b20c3f439ac",
       "location": "Raadzaal",
       "description": "Gemeenteraad · agendapunt 6.1",
       "startDate": "2026-09-22",
@@ -1233,6 +1189,26 @@
       "meetingTitle": "Gemeenteraad",
       "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
       "itemNumber": "6.1",
+      "itemTitle": "Personele besluiten gemeenteraad"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-bc4664b6-8854-4c3d-9e3f-1d9f426adcd2",
+      "title": "6.2. Personele benoemingen algemene raadscommissie",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#bc4664b6-8854-4c3d-9e3f-1d9f426adcd2",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 6.2",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "20:00",
+      "endTime": "22:00",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "6.2",
       "itemTitle": "Personele benoemingen algemene raadscommissie"
     },
     {
@@ -1334,6 +1310,26 @@
       "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
       "itemNumber": "9.2",
       "itemTitle": "Vaststellen nieuwe Verordening Duurzaamheids- en stimuleringsregeling VvE's 2026-2030 (Portefeuillehouder Yousufi)"
+    },
+    {
+      "id": "raad-5819a3bd-8910-46d0-aad7-c25f4f086664-b183d25b-77c9-443f-a4b0-553e3585a5e5",
+      "title": "9.3. Afgeven van een bindend advies en vaststellen Beeldkwaliteitsplan voor plan Buitenstad (Portefeuillehouder Heijne)",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664#b183d25b-77c9-443f-a4b0-553e3585a5e5",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 9.3",
+      "startDate": "2026-09-22",
+      "endDate": "",
+      "startTime": "20:00",
+      "endTime": "22:00",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/5819a3bd-8910-46d0-aad7-c25f4f086664",
+      "itemNumber": "9.3",
+      "itemTitle": "Afgeven van een bindend advies en vaststellen Beeldkwaliteitsplan voor plan Buitenstad (Portefeuillehouder Heijne)"
     },
     {
       "id": "netwerk-https://netwerkhoorn.nl/activiteit/art-inn-grote-waal-2026-09-23",
@@ -1986,6 +1982,36 @@
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
       "categories": []
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/maks-biomarkt-2/",
+      "title": "MAKs Biomarkt",
+      "link": "https://komnaarhoorn.nl/agenda/maks-biomarkt-2/",
+      "location": "MAK Blokweer",
+      "description": "Struin langs lokale en duurzame producten zoals kaas, olijfolie & planten.",
+      "startDate": "2026-09-27",
+      "endDate": "",
+      "startTime": "10:00",
+      "endTime": "16:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/speksteen-bewerken/",
+      "title": "Speksteen bewerken",
+      "link": "https://komnaarhoorn.nl/agenda/speksteen-bewerken/",
+      "location": "MAK Blokweer",
+      "description": "Maak iets unieks van speksteen.",
+      "startDate": "2026-09-27",
+      "endDate": "",
+      "startTime": "10:00",
+      "endTime": "15:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
     },
     {
       "id": "knh-https://komnaarhoorn.nl/agenda/superkoopzondag-6/",
@@ -2752,6 +2778,34 @@
       "categories": []
     },
     {
+      "id": "knh-https://komnaarhoorn.nl/agenda/lezing-vogeltrek-in-het-najaar/",
+      "title": "Lezing: Vogeltrek in het najaar",
+      "link": "https://komnaarhoorn.nl/agenda/lezing-vogeltrek-in-het-najaar/",
+      "location": "MAK Blokweer",
+      "description": "Wat zijn de wintergasten, zomergasten, standvogels en doortrekkers? Leer alles van een volgelexpert.",
+      "startDate": "2026-10-08",
+      "endDate": "",
+      "startTime": "19:30",
+      "endTime": "21:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/meet-me-under-the-tree-door-melissa-cijntje/",
+      "title": "Meet Me Under the Tree door Melissa Cijntje",
+      "link": "https://komnaarhoorn.nl/agenda/meet-me-under-the-tree-door-melissa-cijntje/",
+      "location": "Hotel Maria Kapel",
+      "description": "Koloniale geschiedenis, materialiteit en collectief geheugen komen samen in een installatie.",
+      "startDate": "2026-10-09",
+      "endDate": "",
+      "startTime": "13:00",
+      "endTime": "17:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
       "id": "knh-https://komnaarhoorn.nl/agenda/random-goes-brass/",
       "title": "RandOm goes Brass",
       "link": "https://komnaarhoorn.nl/agenda/random-goes-brass/",
@@ -2782,6 +2836,22 @@
       ]
     },
     {
+      "id": "knh-https://komnaarhoorn.nl/agenda/uilenballen-pluizen/",
+      "title": "Uilenballen pluizen",
+      "link": "https://komnaarhoorn.nl/agenda/uilenballen-pluizen/",
+      "location": "MAK Blokweer",
+      "description": "Door een uilenbal uit te pluizen ontdek je welke prooi de uil gegeten heeft.",
+      "startDate": "2026-10-14",
+      "endDate": "",
+      "startTime": "10:00",
+      "endTime": "15:30",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
       "id": "knh-https://komnaarhoorn.nl/agenda/storytrail-theaterwandeling-hoorn-4/",
       "title": "StoryTrail Theaterwandeling",
       "link": "https://komnaarhoorn.nl/agenda/storytrail-theaterwandeling-hoorn-4/",
@@ -2805,6 +2875,38 @@
       "endDate": "",
       "startTime": "16:15",
       "endTime": "18:15",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/maak-je-eigen-herfstzeep/",
+      "title": "Maak je eigen herfstzeep",
+      "link": "https://komnaarhoorn.nl/agenda/maak-je-eigen-herfstzeep/",
+      "location": "MAK Blokweer",
+      "description": "Laat je verrassen door de herfst en maak je eigen heerlijk geurende herfstzeep.",
+      "startDate": "2026-10-16",
+      "endDate": "",
+      "startTime": "13:00",
+      "endTime": "16:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/uilenballen-pluizen-2/",
+      "title": "Uilenballen pluizen",
+      "link": "https://komnaarhoorn.nl/agenda/uilenballen-pluizen-2/",
+      "location": "MAK Blokweer",
+      "description": "Door een uilenbal uit te pluizen ontdek je welke prooi de uil gegeten heeft.",
+      "startDate": "2026-10-16",
+      "endDate": "",
+      "startTime": "14:00",
+      "endTime": "15:30",
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
       "categories": [
@@ -2958,6 +3060,36 @@
       ]
     },
     {
+      "id": "knh-https://komnaarhoorn.nl/agenda/maks-biomarkt-3/",
+      "title": "MAKs Biomarkt",
+      "link": "https://komnaarhoorn.nl/agenda/maks-biomarkt-3/",
+      "location": "MAK blokweer",
+      "description": "Struin langs lokale en duurzame producten of ga pompoenen uithollen!",
+      "startDate": "2026-10-25",
+      "endDate": "",
+      "startTime": "10:00",
+      "endTime": "16:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/pompoenen-snijden/",
+      "title": "Pompoenen snijden",
+      "link": "https://komnaarhoorn.nl/agenda/pompoenen-snijden/",
+      "location": "MAK Blokweer",
+      "description": "Het ultieme herfstuitje. Leuk met de kids.",
+      "startDate": "2026-10-25",
+      "endDate": "",
+      "startTime": "10:00",
+      "endTime": "15:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
       "id": "knh-https://komnaarhoorn.nl/agenda/superkoopzondag-5/",
       "title": "superkoopzondag",
       "link": "https://komnaarhoorn.nl/agenda/superkoopzondag-5/",
@@ -2967,6 +3099,20 @@
       "endDate": "",
       "startTime": "12:00",
       "endTime": "17:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/charley-cruz-the-paradise-people/",
+      "title": "Charley Cruz & The Paradise People",
+      "link": "https://komnaarhoorn.nl/agenda/charley-cruz-the-paradise-people/",
+      "location": "Het Huis Verloren",
+      "description": "Geniet van de nieuwe band, denk aan; americana tot aan folkpop en bluegrass.",
+      "startDate": "2026-10-25",
+      "endDate": "",
+      "startTime": "15:00",
+      "endTime": "17:30",
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
       "categories": []
@@ -3480,6 +3626,22 @@
       ]
     },
     {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/marley/",
+      "title": "Bob Marley Experience by Mo Ali ❤️💛💚",
+      "link": "https://manifesto-hoorn.nl/productie/marley/",
+      "location": "Manifesto Hoorn",
+      "description": "\"One Love, One Heart, Let's get together and feel all right.\" Zaterdag 3 april staat Manifesto in het teken van de King of Reggae! Met The Bob Marley Experience brengt Mo Ali een eerbetoon aan Bob Marley & The Wailers die je van binnen voelt. Tickets zijn nu verkrijgbaar: via deze link. Bob Marley is één van de meest invloedrijke muzikanten ooit. Hij bracht zijn reggae, ska en rocksteady van Jamaica naar het wereldto",
+      "startDate": "",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
       "id": "manifesto-https://manifesto-hoorn.nl/productie/burlesque/",
       "title": "Burlesque Show: The Night of the Living Dancers",
       "link": "https://manifesto-hoorn.nl/productie/burlesque/",
@@ -3529,10 +3691,10 @@
     },
     {
       "id": "manifesto-https://manifesto-hoorn.nl/productie/donderpop-3-december-2026/",
-      "title": "Donderpop met 70's Alive en ... ook optreden? Laat het weten!",
+      "title": "Donderpop met 70's Alive, Amplified en ... ook optreden? Laat het weten!",
       "link": "https://manifesto-hoorn.nl/productie/donderpop-3-december-2026/",
       "location": "Manifesto Hoorn",
-      "description": "Donderpop: De muziekavond voor lokale en regionale acts. Gratis entree! Deze avond op het programma van Donderpop: 70's Alive en ... ook optreden? Laat het weten! Stuur een mail naar info appestaartje manifesto-hoorn.nl Entree = Gratis. 70's Alive 70's Alive is een Tribute to the seventies coverband met hoofdzakelijk rock muziek zoals van Deep Purple, Status Quo, Manfred Mann, Cream, Whitesnake, Alice Cooper, Pink Fl",
+      "description": "Donderpop: De muziekavond voor lokale en regionale acts. Gratis entree! Deze avond op het programma van Donderpop: 70's Alive, Amplified en ... ook optreden? Laat het weten! Stuur een mail naar info appestaartje manifesto-hoorn.nl Entree = Gratis. 70's Alive 70's Alive is een Tribute to the seventies coverband met hoofdzakelijk rock muziek zoals van Deep Purple, Status Quo, Manfred Mann, Cream, Whitesnake, Alice Coop",
       "startDate": "",
       "endDate": "",
       "startTime": "",
@@ -3693,22 +3855,6 @@
       "link": "https://manifesto-hoorn.nl/productie/mtv/",
       "location": "Manifesto Hoorn",
       "description": "Op zondagmiddag 6 december een nieuwe editie van Unplugged: drie bands spelen in de sfeer van de MTV Unplugged sessies. Om 14:00 uur gaan de deuren open. Om 14:30 start de show! Tickets zijn al verkrijgbaar: via deze link. In de jaren ’90 waren de MTV Unplugged sessies legendarisch. Wereldberoemde artiesten speelden hun grootste hits in een intieme, akoestische setting, wat vaak leidde tot iconische en ontroerende ui",
-      "startDate": "",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "manifesto",
-      "sourceLabel": "Manifesto",
-      "categories": [
-        "muziek"
-      ]
-    },
-    {
-      "id": "manifesto-https://manifesto-hoorn.nl/productie/unplugged/",
-      "title": "Unplugged: Crowded House, Eurythmics & Fleetwood Mac - Zondagmiddagconcert",
-      "link": "https://manifesto-hoorn.nl/productie/unplugged/",
-      "location": "Manifesto Hoorn",
-      "description": "Op zondagmiddag 20 september de tweede editie van Unplugged: 3 bands spelen de muziek van Crowded House, Eurythmics en Fleetwood Mac. Om 14:00 uur gaan de deuren open. Om 14:30 start de show! Tickets zijn nu verkrijgbaar: via deze link. In de jaren ’90 waren de MTV Unplugged sessies legendarisch. Wereldberoemde artiesten speelden hun grootste hits in een intieme, akoestische setting, wat vaak leidde tot iconische en ",
       "startDate": "",
       "endDate": "",
       "startTime": "",
