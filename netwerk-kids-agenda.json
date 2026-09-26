@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T11:50:29Z",
+  "updated": "2026-09-26T11:24:23Z",
   "source": "https://netwerkhoorn.nl/activiteiten",
   "events": [
     {
@@ -14,38 +14,6 @@
       "endTime": "17:00",
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/creatief-atelier-1-2026-09-25",
-      "title": "Creatief atelier",
-      "link": "https://netwerkhoorn.nl/activiteit/creatief-atelier-1",
-      "location": "Bockxmeerschool",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-25",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/next-level-crew-2026-09-25",
-      "title": "Next Level Crew",
-      "link": "https://netwerkhoorn.nl/activiteit/next-level-crew",
-      "location": "Wijkcentrum De Cogge",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-25",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
       "categories": [
         "voor-kinderen"
       ]
@@ -537,6 +505,38 @@
       "location": "Mariaschool",
       "description": "Netwerk Hoorn",
       "startDate": "2026-10-01",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/creatief-atelier-1-2026-10-02",
+      "title": "Creatief atelier",
+      "link": "https://netwerkhoorn.nl/activiteit/creatief-atelier-1",
+      "location": "Bockxmeerschool",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-02",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/next-level-crew-2026-10-02",
+      "title": "Next Level Crew",
+      "link": "https://netwerkhoorn.nl/activiteit/next-level-crew",
+      "location": "Wijkcentrum De Cogge",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-02",
       "endDate": "",
       "startTime": "",
       "endTime": "",
