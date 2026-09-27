@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T11:24:23Z",
+  "updated": "2026-09-27T12:01:38Z",
   "sources": [
     "komnaarhoorn",
     "manifesto",
@@ -89,20 +89,6 @@
       "endDate": "",
       "startTime": "10:00",
       "endTime": "17:00",
-      "sourceId": "komnaarhoorn",
-      "sourceLabel": "Kom naar Hoorn",
-      "categories": []
-    },
-    {
-      "id": "knh-https://komnaarhoorn.nl/agenda/guitly-pleasure-music-bingo/",
-      "title": "Guitly Pleasure Music Bingo",
-      "link": "https://komnaarhoorn.nl/agenda/guitly-pleasure-music-bingo/",
-      "location": "Van der Valk",
-      "description": "Zing mee, streep af, trek je foute outfit aan beleef een topavond.",
-      "startDate": "2026-09-26",
-      "endDate": "",
-      "startTime": "20:00",
-      "endTime": "23:45",
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
       "categories": []
@@ -3251,22 +3237,6 @@
       "endDate": "",
       "startTime": "17:30",
       "endTime": "21:00",
-      "sourceId": "komnaarhoorn",
-      "sourceLabel": "Kom naar Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "knh-https://komnaarhoorn.nl/agenda/kerst-brunch-buffet/",
-      "title": "Kerst Brunch Buffet",
-      "link": "https://komnaarhoorn.nl/agenda/kerst-brunch-buffet/",
-      "location": "Van der Valk Hotel Hoorn",
-      "description": "Geen kerststress = kerstbrunch @ Van der Valk",
-      "startDate": "2026-12-25",
-      "endDate": "",
-      "startTime": "12:00",
-      "endTime": "14:30",
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
       "categories": [
