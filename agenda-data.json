@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T12:01:38Z",
+  "updated": "2026-09-28T13:53:36Z",
   "sources": [
     "komnaarhoorn",
     "manifesto",
@@ -75,80 +75,6 @@
       "endDate": "",
       "startTime": "",
       "endTime": "",
-      "sourceId": "komnaarhoorn",
-      "sourceLabel": "Kom naar Hoorn",
-      "categories": []
-    },
-    {
-      "id": "knh-https://komnaarhoorn.nl/agenda/hoorn-modestad-2/",
-      "title": "hoorn modestad",
-      "link": "https://komnaarhoorn.nl/agenda/hoorn-modestad-2/",
-      "location": "Binnenstad",
-      "description": "Nieuw seizoen, nieuwe outfit! Ontdek dit weekend de laatste trends in fashion.",
-      "startDate": "2026-09-26",
-      "endDate": "",
-      "startTime": "10:00",
-      "endTime": "17:00",
-      "sourceId": "komnaarhoorn",
-      "sourceLabel": "Kom naar Hoorn",
-      "categories": []
-    },
-    {
-      "id": "knh-https://komnaarhoorn.nl/agenda/bloemen-plukken-bylobke/",
-      "title": "BLOEMEN PLUKKEN MET DE KLEINTJES",
-      "link": "https://komnaarhoorn.nl/agenda/bloemen-plukken-bylobke/",
-      "location": "By Lobke",
-      "description": "Een fleurige activiteit voor jong en oud!",
-      "startDate": "2026-09-27",
-      "endDate": "",
-      "startTime": "10:00",
-      "endTime": "14:00",
-      "sourceId": "komnaarhoorn",
-      "sourceLabel": "Kom naar Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "knh-https://komnaarhoorn.nl/agenda/maks-biomarkt-2/",
-      "title": "MAKs Biomarkt",
-      "link": "https://komnaarhoorn.nl/agenda/maks-biomarkt-2/",
-      "location": "MAK Blokweer",
-      "description": "Struin langs lokale en duurzame producten zoals kaas, olijfolie & planten.",
-      "startDate": "2026-09-27",
-      "endDate": "",
-      "startTime": "10:00",
-      "endTime": "16:00",
-      "sourceId": "komnaarhoorn",
-      "sourceLabel": "Kom naar Hoorn",
-      "categories": []
-    },
-    {
-      "id": "knh-https://komnaarhoorn.nl/agenda/speksteen-bewerken/",
-      "title": "Speksteen bewerken",
-      "link": "https://komnaarhoorn.nl/agenda/speksteen-bewerken/",
-      "location": "MAK Blokweer",
-      "description": "Maak iets unieks van speksteen.",
-      "startDate": "2026-09-27",
-      "endDate": "",
-      "startTime": "10:00",
-      "endTime": "15:00",
-      "sourceId": "komnaarhoorn",
-      "sourceLabel": "Kom naar Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "knh-https://komnaarhoorn.nl/agenda/superkoopzondag-6/",
-      "title": "Superkoopzondag",
-      "link": "https://komnaarhoorn.nl/agenda/superkoopzondag-6/",
-      "location": "Binnenstad Hoorn",
-      "description": "Shop till you drop! Iedere laatste zondag van de maand is het Superkoopzondag.",
-      "startDate": "2026-09-27",
-      "endDate": "",
-      "startTime": "12:00",
-      "endTime": "17:00",
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
       "categories": []
@@ -1932,6 +1858,22 @@
       ]
     },
     {
+      "id": "knh-https://komnaarhoorn.nl/agenda/bloemen-plukken-bylobke/",
+      "title": "BLOEMEN PLUKKEN MET DE KLEINTJES",
+      "link": "https://komnaarhoorn.nl/agenda/bloemen-plukken-bylobke/",
+      "location": "By Lobke",
+      "description": "Een fleurige activiteit voor jong en oud!",
+      "startDate": "2026-10-04",
+      "endDate": "",
+      "startTime": "10:00",
+      "endTime": "14:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
       "id": "knh-https://komnaarhoorn.nl/agenda/bokken-happen/",
       "title": "Bokken & Happen",
       "link": "https://komnaarhoorn.nl/agenda/bokken-happen/",
@@ -2629,6 +2571,22 @@
       ]
     },
     {
+      "id": "knh-https://komnaarhoorn.nl/agenda/halloween-horrordance/",
+      "title": "Halloween Horrordance",
+      "link": "https://komnaarhoorn.nl/agenda/halloween-horrordance/",
+      "location": "Noorderkerk",
+      "description": "Zin in een avondje kippenvel, schrikken en griezelen?",
+      "startDate": "2026-10-24",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "00:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
       "id": "knh-https://komnaarhoorn.nl/agenda/maks-biomarkt-3/",
       "title": "MAKs Biomarkt",
       "link": "https://komnaarhoorn.nl/agenda/maks-biomarkt-3/",
@@ -2930,6 +2888,20 @@
       "categories": [
         "muziek"
       ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/gewoon-de-dijk-ode-aan-de-dijk/",
+      "title": "Gewoon de Dijk – Ode aan De Dijk",
+      "link": "https://komnaarhoorn.nl/agenda/gewoon-de-dijk-ode-aan-de-dijk/",
+      "location": "Van der Valk Hotel Hoorn",
+      "description": "Een liveshow vol met Hollandse meezingers.",
+      "startDate": "2026-11-13",
+      "endDate": "",
+      "startTime": "20:00",
+      "endTime": "01:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": []
     },
     {
       "id": "knh-https://komnaarhoorn.nl/agenda/sinterklaas-intocht/",
@@ -3436,11 +3408,27 @@
       ]
     },
     {
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/openhouse/",
+      "title": "Open House Battle of the Schoolbands",
+      "link": "https://manifesto-hoorn.nl/productie/openhouse/",
+      "location": "Manifesto Hoorn",
+      "description": "Op zondagmiddag 18 oktober ben je welkom bij het Open House van Battle of the Schoolbands. Deze middag in Manifesto staat in het teken van muzikale verkenning. Met onder meer bands van de vorige editie en een bijzonder gastoptreden. Entree is gratis voor iedereen die van muziek houdt. Als je erover nadenkt om mee te doen met de volgende editie van Battle of the Schoolbands in Het Park kun je hier je muzikale interess",
+      "startDate": "",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "manifesto",
+      "sourceLabel": "Manifesto",
+      "categories": [
+        "muziek"
+      ]
+    },
+    {
       "id": "manifesto-https://manifesto-hoorn.nl/productie/plaguefest/",
       "title": "Plaguefest: Man As Plague, Vinegar Hill, Temptations for the Weak",
       "link": "https://manifesto-hoorn.nl/productie/plaguefest/",
       "location": "Manifesto Hoorn",
-      "description": "6 november is Plaguefest terug in Manifesto met de eindbaas zelf op de line-up: Man As Plague! Ze worden bijgestaan door de snoeiharde bands Vinegar Hill uit Oostenrijk en Temptations for the Weak uit België. Kom deze internationale editie checken! Tickets zijn nu verkrijgbaar: via deze link. Meer info over de bands volgt snel! Ticketinfo €8,50 early bird (50st) €10 voorverkoop €15 aan de deur Locatie: Manifesto op H",
+      "description": "6 november is Plaguefest terug in Manifesto met de eindbaas zelf op de line-up: Man As Plague! Ze worden bijgestaan door de snoeiharde bands Vinegar Hill uit Oostenrijk en Temptations for the Weak uit België. Kom deze internationale editie checken! Tickets zijn nu verkrijgbaar: via deze link. TEMPTATIONS FOR THE WEAK (BE) Deze Belgen brengen metalcore zoals metalcore bedoeld is: catchy refreinen, melodieus gitaarwerk",
       "startDate": "",
       "endDate": "",
       "startTime": "",

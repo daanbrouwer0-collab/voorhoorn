@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T12:01:38Z",
+  "updated": "2026-09-28T13:53:36Z",
   "source": "https://netwerkhoorn.nl/activiteiten",
   "events": [
     {
@@ -12,38 +12,6 @@
       "endDate": "",
       "startTime": "12:00",
       "endTime": "17:00",
-      "sourceId": "komnaarhoorn",
-      "sourceLabel": "Kom naar Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "knh-https://komnaarhoorn.nl/agenda/bloemen-plukken-bylobke/",
-      "title": "BLOEMEN PLUKKEN MET DE KLEINTJES",
-      "link": "https://komnaarhoorn.nl/agenda/bloemen-plukken-bylobke/",
-      "location": "By Lobke",
-      "description": "Een fleurige activiteit voor jong en oud!",
-      "startDate": "2026-09-27",
-      "endDate": "",
-      "startTime": "10:00",
-      "endTime": "14:00",
-      "sourceId": "komnaarhoorn",
-      "sourceLabel": "Kom naar Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "knh-https://komnaarhoorn.nl/agenda/speksteen-bewerken/",
-      "title": "Speksteen bewerken",
-      "link": "https://komnaarhoorn.nl/agenda/speksteen-bewerken/",
-      "location": "MAK Blokweer",
-      "description": "Maak iets unieks van speksteen.",
-      "startDate": "2026-09-27",
-      "endDate": "",
-      "startTime": "10:00",
-      "endTime": "15:00",
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
       "categories": [
@@ -595,6 +563,22 @@
       ]
     },
     {
+      "id": "knh-https://komnaarhoorn.nl/agenda/bloemen-plukken-bylobke/",
+      "title": "BLOEMEN PLUKKEN MET DE KLEINTJES",
+      "link": "https://komnaarhoorn.nl/agenda/bloemen-plukken-bylobke/",
+      "location": "By Lobke",
+      "description": "Een fleurige activiteit voor jong en oud!",
+      "startDate": "2026-10-04",
+      "endDate": "",
+      "startTime": "10:00",
+      "endTime": "14:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
       "id": "knh-https://komnaarhoorn.nl/agenda/familie-funmiddag/",
       "title": "Family Fun XL",
       "link": "https://komnaarhoorn.nl/agenda/familie-funmiddag/",
@@ -817,6 +801,22 @@
       "endDate": "",
       "startTime": "14:00",
       "endTime": "21:00",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "knh-https://komnaarhoorn.nl/agenda/halloween-horrordance/",
+      "title": "Halloween Horrordance",
+      "link": "https://komnaarhoorn.nl/agenda/halloween-horrordance/",
+      "location": "Noorderkerk",
+      "description": "Zin in een avondje kippenvel, schrikken en griezelen?",
+      "startDate": "2026-10-24",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "00:00",
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
       "categories": [
