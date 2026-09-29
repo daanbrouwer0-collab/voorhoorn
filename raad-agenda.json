@@ -1,7 +1,27 @@
 {
-  "updated": "2026-09-28T13:53:36Z",
+  "updated": "2026-09-29T12:52:05Z",
   "source": "https://hoorn.bestuurlijkeinformatie.nl/Calendar",
   "events": [
+    {
+      "id": "raad-dfc6ad16-2e78-41e4-8d37-33a744a81a20-d971aebd-a9e6-4cbc-bfe8-924a9ed62f86",
+      "title": "1. Test ivm camera's",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/dfc6ad16-2e78-41e4-8d37-33a744a81a20#d971aebd-a9e6-4cbc-bfe8-924a9ed62f86",
+      "location": "Raadzaal",
+      "description": "Gemeenteraad · agendapunt 1",
+      "startDate": "2026-09-29",
+      "endDate": "",
+      "startTime": "12:00",
+      "endTime": "14:00",
+      "sourceId": "raad",
+      "sourceLabel": "Gemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Gemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/dfc6ad16-2e78-41e4-8d37-33a744a81a20",
+      "itemNumber": "1",
+      "itemTitle": "Test ivm camera's"
+    },
     {
       "id": "raad-f3c5b127-a3f4-44bd-b540-d6a26d934a46-a1cf4308-b4fc-4131-a3c8-108d7774eaee",
       "title": "1. Opening - 19:30",
@@ -601,26 +621,6 @@
       "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/806f5493-2273-4488-9a20-dd4a382c60ba",
       "itemNumber": "",
       "itemTitle": "Algemene Raadscommissie - Raadzaal"
-    },
-    {
-      "id": "raad-9e6e642b-6008-4c1b-9ffd-d121934194f4",
-      "title": "Gemeenteraad",
-      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/9e6e642b-6008-4c1b-9ffd-d121934194f4",
-      "location": "Raadzaal",
-      "description": "Agenda nog niet (volledig) gepubliceerd.",
-      "startDate": "2026-12-08",
-      "endDate": "",
-      "startTime": "19:30",
-      "endTime": "22:00",
-      "sourceId": "raad",
-      "sourceLabel": "Gemeenteraad",
-      "categories": [
-        "raad"
-      ],
-      "meetingTitle": "Gemeenteraad",
-      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/9e6e642b-6008-4c1b-9ffd-d121934194f4",
-      "itemNumber": "",
-      "itemTitle": "Gemeenteraad"
     }
   ]
 }
