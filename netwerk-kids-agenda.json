@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T12:33:50Z",
+  "updated": "2026-10-01T13:13:07Z",
   "source": "https://netwerkhoorn.nl/activiteiten",
   "events": [
     {
@@ -19,129 +19,17 @@
       ]
     },
     {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/art-inn-grote-waal-2026-09-30",
-      "title": "Art Inn Grote Waal",
-      "link": "https://netwerkhoorn.nl/activiteit/art-inn-grote-waal",
-      "location": "Wijkcentrum Grote Waal",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-30",
+      "id": "knh-https://komnaarhoorn.nl/agenda/100-jaar-hema/",
+      "title": "100 jaar HEMA",
+      "link": "https://komnaarhoorn.nl/agenda/100-jaar-hema/",
+      "location": "Museum van de 20e eeuw",
+      "description": "Duik in de geschiedenis van de bekendste winkel van Nederland.",
+      "startDate": "2026-10-01",
       "endDate": "",
       "startTime": "",
       "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/franse-les-op-woensdag-2026-09-30",
-      "title": "Franse les op woensdag",
-      "link": "https://netwerkhoorn.nl/activiteit/franse-les-op-woensdag",
-      "location": "Wijkcentrum De Huesmolen",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-30",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/girlsclub-de-kreek-1-2026-09-30",
-      "title": "Girlsclub De Kreek",
-      "link": "https://netwerkhoorn.nl/activiteit/girlsclub-de-kreek-1",
-      "location": "De Kreek",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-30",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/huiswerkbegeleiding-de-kersenboogerd-seizoen-2026-2027-2026-09-30",
-      "title": "Huiswerkbegeleiding De Kersenboogerd (seizoen 2026-2027)",
-      "link": "https://netwerkhoorn.nl/activiteit/huiswerkbegeleiding-de-kersenboogerd-seizoen-2026-2027",
-      "location": "Wijkcentrum Kersenboogerd",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-30",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/kidsclub-de-kreek-2-2026-09-30",
-      "title": "Kidsclub De Kreek",
-      "link": "https://netwerkhoorn.nl/activiteit/kidsclub-de-kreek-2",
-      "location": "De Kreek",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-30",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/kidsclub-kersenboogerd-1-2026-09-30",
-      "title": "Kidsclub Kersenboogerd",
-      "link": "https://netwerkhoorn.nl/activiteit/kidsclub-kersenboogerd-1",
-      "location": "Wijkcentrum Kersenboogerd",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-30",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/modelbouwclub-2026-09-30",
-      "title": "Modelbouwclub",
-      "link": "https://netwerkhoorn.nl/activiteit/modelbouwclub",
-      "location": "Wijkcentrum De Zaagtand",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-30",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/muziek-voor-ouder-en-kind-2026-09-30",
-      "title": "Muziek voor ouder en kind",
-      "link": "https://netwerkhoorn.nl/activiteit/muziek-voor-ouder-en-kind",
-      "location": "Wijkcentrum De Zaagtand",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-30",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
+      "sourceId": "komnaarhoorn",
+      "sourceLabel": "Kom naar Hoorn",
       "categories": [
         "voor-kinderen"
       ]
@@ -595,6 +483,134 @@
       ]
     },
     {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/art-inn-grote-waal-2026-10-07",
+      "title": "Art Inn Grote Waal",
+      "link": "https://netwerkhoorn.nl/activiteit/art-inn-grote-waal",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/franse-les-op-woensdag-2026-10-07",
+      "title": "Franse les op woensdag",
+      "link": "https://netwerkhoorn.nl/activiteit/franse-les-op-woensdag",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/girlsclub-de-kreek-1-2026-10-07",
+      "title": "Girlsclub De Kreek",
+      "link": "https://netwerkhoorn.nl/activiteit/girlsclub-de-kreek-1",
+      "location": "De Kreek",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/huiswerkbegeleiding-de-kersenboogerd-seizoen-2026-2027-2026-10-07",
+      "title": "Huiswerkbegeleiding De Kersenboogerd (seizoen 2026-2027)",
+      "link": "https://netwerkhoorn.nl/activiteit/huiswerkbegeleiding-de-kersenboogerd-seizoen-2026-2027",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/kidsclub-de-kreek-2-2026-10-07",
+      "title": "Kidsclub De Kreek",
+      "link": "https://netwerkhoorn.nl/activiteit/kidsclub-de-kreek-2",
+      "location": "De Kreek",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/kidsclub-kersenboogerd-1-2026-10-07",
+      "title": "Kidsclub Kersenboogerd",
+      "link": "https://netwerkhoorn.nl/activiteit/kidsclub-kersenboogerd-1",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/modelbouwclub-2026-10-07",
+      "title": "Modelbouwclub",
+      "link": "https://netwerkhoorn.nl/activiteit/modelbouwclub",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/muziek-voor-ouder-en-kind-2026-10-07",
+      "title": "Muziek voor ouder en kind",
+      "link": "https://netwerkhoorn.nl/activiteit/muziek-voor-ouder-en-kind",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
       "id": "knh-https://komnaarhoorn.nl/agenda/autumn-plate-party/",
       "title": "Autumn Plate Party",
       "link": "https://komnaarhoorn.nl/agenda/autumn-plate-party/",
@@ -905,6 +921,23 @@
       "categories": [
         "voor-kinderen"
       ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/hoorn-en-het-slavernijverleden-2026-11-07",
+      "title": "Hoorn en het slavernijverleden",
+      "link": "https://netwerkhoorn.nl/activiteit/hoorn-en-het-slavernijverleden",
+      "location": "Noorderkerk",
+      "description": "Netwerk Hoorn · Jongeren",
+      "startDate": "2026-11-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ],
+      "audience": "Jongeren"
     },
     {
       "id": "knh-https://komnaarhoorn.nl/agenda/sinterklaas-intocht/",

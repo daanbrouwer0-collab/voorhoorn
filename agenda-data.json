@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T12:33:50Z",
+  "updated": "2026-10-01T13:13:07Z",
   "sources": [
     "komnaarhoorn",
     "manifesto",
@@ -80,290 +80,20 @@
       "categories": []
     },
     {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/art-inn-grote-waal-2026-09-30",
-      "title": "Art Inn Grote Waal",
-      "link": "https://netwerkhoorn.nl/activiteit/art-inn-grote-waal",
-      "location": "Wijkcentrum Grote Waal",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-30",
+      "id": "knh-https://komnaarhoorn.nl/agenda/100-jaar-hema/",
+      "title": "100 jaar HEMA",
+      "link": "https://komnaarhoorn.nl/agenda/100-jaar-hema/",
+      "location": "Museum van de 20e eeuw",
+      "description": "Duik in de geschiedenis van de bekendste winkel van Nederland.",
+      "startDate": "2026-10-01",
       "endDate": "",
       "startTime": "",
       "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/breien-voor-roemenie-1-2026-09-30",
-      "title": "Breien voor Roemenië",
-      "link": "https://netwerkhoorn.nl/activiteit/breien-voor-roemenie-1",
-      "location": "Wijkcentrum Grote Waal",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-30",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "creatief"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/conditietraining-mannen-50-2-2026-09-30",
-      "title": "Conditietraining mannen 50+",
-      "link": "https://netwerkhoorn.nl/activiteit/conditietraining-mannen-50-2",
-      "location": "Wijkcentrum De Zaagtand",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-30",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "creatief"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/dante-kunst-en-cultuur-cursus-op-woensdagavond-2026-09-30",
-      "title": "Dante kunst en cultuur cursus op woensdagavond",
-      "link": "https://netwerkhoorn.nl/activiteit/dante-kunst-en-cultuur-cursus-op-woensdagavond",
-      "location": "Wijkcentrum De Huesmolen",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-30",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "creatief"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/franse-les-op-woensdag-2026-09-30",
-      "title": "Franse les op woensdag",
-      "link": "https://netwerkhoorn.nl/activiteit/franse-les-op-woensdag",
-      "location": "Wijkcentrum De Huesmolen",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-30",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/girlsclub-de-kreek-1-2026-09-30",
-      "title": "Girlsclub De Kreek",
-      "link": "https://netwerkhoorn.nl/activiteit/girlsclub-de-kreek-1",
-      "location": "De Kreek",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-30",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/hoorns-kamerkoor-2026-09-30",
-      "title": "Hoorns kamerkoor",
-      "link": "https://netwerkhoorn.nl/activiteit/hoorns-kamerkoor",
-      "location": "Wijkcentrum De Huesmolen",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-30",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "creatief"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/huiswerkbegeleiding-de-kersenboogerd-seizoen-2026-2027-2026-09-30",
-      "title": "Huiswerkbegeleiding De Kersenboogerd (seizoen 2026-2027)",
-      "link": "https://netwerkhoorn.nl/activiteit/huiswerkbegeleiding-de-kersenboogerd-seizoen-2026-2027",
-      "location": "Wijkcentrum Kersenboogerd",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-30",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/kidsclub-de-kreek-2-2026-09-30",
-      "title": "Kidsclub De Kreek",
-      "link": "https://netwerkhoorn.nl/activiteit/kidsclub-de-kreek-2",
-      "location": "De Kreek",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-30",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/kidsclub-kersenboogerd-1-2026-09-30",
-      "title": "Kidsclub Kersenboogerd",
-      "link": "https://netwerkhoorn.nl/activiteit/kidsclub-kersenboogerd-1",
-      "location": "Wijkcentrum Kersenboogerd",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-30",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/koersbal-op-woensdag-1-2026-09-30",
-      "title": "Koersbal op woensdag",
-      "link": "https://netwerkhoorn.nl/activiteit/koersbal-op-woensdag-1",
-      "location": "Wijkcentrum De Huesmolen",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-30",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "creatief"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/koffie-en-ontmoetingsochtend-in-de-huesmolen-1-2026-09-30",
-      "title": "Koffie- en ontmoetingsochtend in De Huesmolen",
-      "link": "https://netwerkhoorn.nl/activiteit/koffie-en-ontmoetingsochtend-in-de-huesmolen-1",
-      "location": "Wijkcentrum De Huesmolen",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-30",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "creatief"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/modelbouwclub-2026-09-30",
-      "title": "Modelbouwclub",
-      "link": "https://netwerkhoorn.nl/activiteit/modelbouwclub",
-      "location": "Wijkcentrum De Zaagtand",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-30",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/muziek-voor-ouder-en-kind-2026-09-30",
-      "title": "Muziek voor ouder en kind",
-      "link": "https://netwerkhoorn.nl/activiteit/muziek-voor-ouder-en-kind",
-      "location": "Wijkcentrum De Zaagtand",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-30",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/quilt-bee-huesmolen-3-2026-09-30",
-      "title": "Quilt Bee Huesmolen",
-      "link": "https://netwerkhoorn.nl/activiteit/quilt-bee-huesmolen-3",
-      "location": "Wijkcentrum De Huesmolen",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-30",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "creatief"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/samen-creatief-1-2026-09-30",
-      "title": "Samen Creatief",
-      "link": "https://netwerkhoorn.nl/activiteit/samen-creatief-1",
-      "location": "Wijkcentrum De Huesmolen",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-30",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "creatief"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/volksdansen-grote-waal-1-2026-09-30",
-      "title": "Volksdansen Grote Waal",
-      "link": "https://netwerkhoorn.nl/activiteit/volksdansen-grote-waal-1",
-      "location": "Wijkcentrum Grote Waal",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-09-30",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "creatief"
-      ]
-    },
-    {
-      "id": "knh-https://komnaarhoorn.nl/agenda/workshop-portrettekenen/",
-      "title": "Portret Schilderen",
-      "link": "https://komnaarhoorn.nl/agenda/workshop-portrettekenen/",
-      "location": "Fika Creative",
-      "description": "Doe mee aan deze unieke workshop van Pippa Knus. Creëer je eigen portret met aquarel.",
-      "startDate": "2026-09-30",
-      "endDate": "",
-      "startTime": "19:00",
-      "endTime": "21:00",
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
-      "categories": []
+      "categories": [
+        "voor-kinderen"
+      ]
     },
     {
       "id": "netwerk-https://netwerkhoorn.nl/activiteit/60-fit-de-huesmolen-2-2026-10-01",
@@ -2114,6 +1844,38 @@
       "itemTitle": "Sluiting"
     },
     {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/art-inn-grote-waal-2026-10-07",
+      "title": "Art Inn Grote Waal",
+      "link": "https://netwerkhoorn.nl/activiteit/art-inn-grote-waal",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/breien-voor-roemenie-1-2026-10-07",
+      "title": "Breien voor Roemenië",
+      "link": "https://netwerkhoorn.nl/activiteit/breien-voor-roemenie-1",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
       "id": "netwerk-https://netwerkhoorn.nl/activiteit/cafe-a-la-carte-1-2026-10-07",
       "title": "Café à la Carte",
       "link": "https://netwerkhoorn.nl/activiteit/cafe-a-la-carte-1",
@@ -2127,6 +1889,198 @@
       "sourceLabel": "Netwerk Hoorn",
       "categories": [
         "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/conditietraining-mannen-50-2-2026-10-07",
+      "title": "Conditietraining mannen 50+",
+      "link": "https://netwerkhoorn.nl/activiteit/conditietraining-mannen-50-2",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/dante-kunst-en-cultuur-cursus-op-woensdagavond-2026-10-07",
+      "title": "Dante kunst en cultuur cursus op woensdagavond",
+      "link": "https://netwerkhoorn.nl/activiteit/dante-kunst-en-cultuur-cursus-op-woensdagavond",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/franse-les-op-woensdag-2026-10-07",
+      "title": "Franse les op woensdag",
+      "link": "https://netwerkhoorn.nl/activiteit/franse-les-op-woensdag",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/girlsclub-de-kreek-1-2026-10-07",
+      "title": "Girlsclub De Kreek",
+      "link": "https://netwerkhoorn.nl/activiteit/girlsclub-de-kreek-1",
+      "location": "De Kreek",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/hoorns-kamerkoor-2026-10-07",
+      "title": "Hoorns kamerkoor",
+      "link": "https://netwerkhoorn.nl/activiteit/hoorns-kamerkoor",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/huiswerkbegeleiding-de-kersenboogerd-seizoen-2026-2027-2026-10-07",
+      "title": "Huiswerkbegeleiding De Kersenboogerd (seizoen 2026-2027)",
+      "link": "https://netwerkhoorn.nl/activiteit/huiswerkbegeleiding-de-kersenboogerd-seizoen-2026-2027",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/kidsclub-de-kreek-2-2026-10-07",
+      "title": "Kidsclub De Kreek",
+      "link": "https://netwerkhoorn.nl/activiteit/kidsclub-de-kreek-2",
+      "location": "De Kreek",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/kidsclub-kersenboogerd-1-2026-10-07",
+      "title": "Kidsclub Kersenboogerd",
+      "link": "https://netwerkhoorn.nl/activiteit/kidsclub-kersenboogerd-1",
+      "location": "Wijkcentrum Kersenboogerd",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/koersbal-op-woensdag-1-2026-10-07",
+      "title": "Koersbal op woensdag",
+      "link": "https://netwerkhoorn.nl/activiteit/koersbal-op-woensdag-1",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/koffie-en-ontmoetingsochtend-in-de-huesmolen-1-2026-10-07",
+      "title": "Koffie- en ontmoetingsochtend in De Huesmolen",
+      "link": "https://netwerkhoorn.nl/activiteit/koffie-en-ontmoetingsochtend-in-de-huesmolen-1",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/modelbouwclub-2026-10-07",
+      "title": "Modelbouwclub",
+      "link": "https://netwerkhoorn.nl/activiteit/modelbouwclub",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/muziek-voor-ouder-en-kind-2026-10-07",
+      "title": "Muziek voor ouder en kind",
+      "link": "https://netwerkhoorn.nl/activiteit/muziek-voor-ouder-en-kind",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
       ]
     },
     {
@@ -2146,10 +2100,58 @@
       ]
     },
     {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/quilt-bee-huesmolen-3-2026-10-07",
+      "title": "Quilt Bee Huesmolen",
+      "link": "https://netwerkhoorn.nl/activiteit/quilt-bee-huesmolen-3",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/samen-creatief-1-2026-10-07",
+      "title": "Samen Creatief",
+      "link": "https://netwerkhoorn.nl/activiteit/samen-creatief-1",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
       "id": "netwerk-https://netwerkhoorn.nl/activiteit/seniorencircuit-1-2026-10-07",
       "title": "Seniorencircuit",
       "link": "https://netwerkhoorn.nl/activiteit/seniorencircuit-1",
       "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/volksdansen-grote-waal-1-2026-10-07",
+      "title": "Volksdansen Grote Waal",
+      "link": "https://netwerkhoorn.nl/activiteit/volksdansen-grote-waal-1",
+      "location": "Wijkcentrum Grote Waal",
       "description": "Netwerk Hoorn",
       "startDate": "2026-10-07",
       "endDate": "",
@@ -2573,6 +2575,26 @@
       ]
     },
     {
+      "id": "raad-acee3d42-38ea-42d4-9b73-fd10a5aac42a-f74ce5f2-b78e-4323-8b3b-2d21e8e55ce2",
+      "title": "Installatie kindergemeenteraad",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/acee3d42-38ea-42d4-9b73-fd10a5aac42a#f74ce5f2-b78e-4323-8b3b-2d21e8e55ce2",
+      "location": "Raadzaal",
+      "description": "Installatie kindergemeenteraad · agendapunt",
+      "startDate": "2026-10-22",
+      "endDate": "",
+      "startTime": "19:00",
+      "endTime": "20:00",
+      "sourceId": "raad",
+      "sourceLabel": "Installatie kindergemeenteraad",
+      "categories": [
+        "raad"
+      ],
+      "meetingTitle": "Installatie kindergemeenteraad",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/acee3d42-38ea-42d4-9b73-fd10a5aac42a",
+      "itemNumber": "",
+      "itemTitle": "Installatie kindergemeenteraad"
+    },
+    {
       "id": "manifesto-https://manifesto-hoorn.nl/productie/club-festo-oktober-2026/",
       "title": "Club Festo (Fris 10 t/m 14)",
       "link": "https://manifesto-hoorn.nl/productie/club-festo-oktober-2026/",
@@ -2860,6 +2882,23 @@
       "categories": []
     },
     {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/hoorn-en-het-slavernijverleden-2026-11-07",
+      "title": "Hoorn en het slavernijverleden",
+      "link": "https://netwerkhoorn.nl/activiteit/hoorn-en-het-slavernijverleden",
+      "location": "Noorderkerk",
+      "description": "Netwerk Hoorn · Jongeren",
+      "startDate": "2026-11-07",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ],
+      "audience": "Jongeren"
+    },
+    {
       "id": "knh-https://komnaarhoorn.nl/agenda/the-cats-aglow-dinnershow/",
       "title": "The Cats Aglow Dinnershow",
       "link": "https://komnaarhoorn.nl/agenda/the-cats-aglow-dinnershow/",
@@ -2998,9 +3037,9 @@
       "categories": []
     },
     {
-      "id": "raad-4564407d-08e4-413e-b363-a38581e67872",
+      "id": "raad-bc294305-3458-43e7-a923-0ce82d1ac2f3",
       "title": "Algemene Raadscommissie - Raadzaal",
-      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/4564407d-08e4-413e-b363-a38581e67872",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/bc294305-3458-43e7-a923-0ce82d1ac2f3",
       "location": "Raadzaal",
       "description": "Agenda nog niet (volledig) gepubliceerd.",
       "startDate": "2026-11-17",
@@ -3013,7 +3052,7 @@
         "raad"
       ],
       "meetingTitle": "Algemene Raadscommissie - Raadzaal",
-      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/4564407d-08e4-413e-b363-a38581e67872",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/bc294305-3458-43e7-a923-0ce82d1ac2f3",
       "itemNumber": "",
       "itemTitle": "Algemene Raadscommissie - Raadzaal"
     },
@@ -3066,9 +3105,9 @@
       "categories": []
     },
     {
-      "id": "raad-44982da7-5f0d-4fa4-9cde-063e2141e828",
+      "id": "raad-4230f3bf-89f2-4f83-a5e6-74397b590baa",
       "title": "Algemene Raadscommissie - Raadzaal",
-      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/44982da7-5f0d-4fa4-9cde-063e2141e828",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/4230f3bf-89f2-4f83-a5e6-74397b590baa",
       "location": "Raadzaal",
       "description": "Agenda nog niet (volledig) gepubliceerd.",
       "startDate": "2026-11-24",
@@ -3081,7 +3120,7 @@
         "raad"
       ],
       "meetingTitle": "Algemene Raadscommissie - Raadzaal",
-      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/44982da7-5f0d-4fa4-9cde-063e2141e828",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/4230f3bf-89f2-4f83-a5e6-74397b590baa",
       "itemNumber": "",
       "itemTitle": "Algemene Raadscommissie - Raadzaal"
     },
@@ -3164,9 +3203,9 @@
       ]
     },
     {
-      "id": "raad-806f5493-2273-4488-9a20-dd4a382c60ba",
+      "id": "raad-645769fa-56bc-4288-8821-e7b0cddd1560",
       "title": "Algemene Raadscommissie - Raadzaal",
-      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/806f5493-2273-4488-9a20-dd4a382c60ba",
+      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/645769fa-56bc-4288-8821-e7b0cddd1560",
       "location": "Raadzaal",
       "description": "Agenda nog niet (volledig) gepubliceerd.",
       "startDate": "2026-12-01",
@@ -3179,7 +3218,7 @@
         "raad"
       ],
       "meetingTitle": "Algemene Raadscommissie - Raadzaal",
-      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/806f5493-2273-4488-9a20-dd4a382c60ba",
+      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/645769fa-56bc-4288-8821-e7b0cddd1560",
       "itemNumber": "",
       "itemTitle": "Algemene Raadscommissie - Raadzaal"
     },
@@ -3196,26 +3235,6 @@
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
       "categories": []
-    },
-    {
-      "id": "raad-9e6e642b-6008-4c1b-9ffd-d121934194f4",
-      "title": "Gemeenteraad",
-      "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/9e6e642b-6008-4c1b-9ffd-d121934194f4",
-      "location": "Raadzaal",
-      "description": "Agenda nog niet (volledig) gepubliceerd.",
-      "startDate": "2026-12-08",
-      "endDate": "",
-      "startTime": "19:30",
-      "endTime": "22:00",
-      "sourceId": "raad",
-      "sourceLabel": "Gemeenteraad",
-      "categories": [
-        "raad"
-      ],
-      "meetingTitle": "Gemeenteraad",
-      "meetingLink": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/9e6e642b-6008-4c1b-9ffd-d121934194f4",
-      "itemNumber": "",
-      "itemTitle": "Gemeenteraad"
     },
     {
       "id": "knh-https://komnaarhoorn.nl/agenda/het-misdaad-dinner-3/",
@@ -3360,11 +3379,11 @@
       ]
     },
     {
-      "id": "manifesto-https://manifesto-hoorn.nl/productie/donderpop-1-oktober-2026/",
-      "title": "Donderpop met Riviera + Billbunker + Dogbone",
-      "link": "https://manifesto-hoorn.nl/productie/donderpop-1-oktober-2026/",
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/donderpop-5-november-2026/",
+      "title": "Donderpop met Mucho Tibio, Rock of Ages en... ook optreden? Laat het weten!",
+      "link": "https://manifesto-hoorn.nl/productie/donderpop-5-november-2026/",
       "location": "Manifesto Hoorn",
-      "description": "Donderpop: De muziekavond voor lokale en regionale acts. Gratis entree! Deze avond op het programma van Donderpop: Riviera, Billbunker en Dogbone. Entree = Gratis. Riviera Riviera is een vijfkoppige classicrockband ontstaan vanuit een gedeelde liefde voor blues, rock en sterke liveperformance. De band bestaat uit Joep (drums), Jessey (bas), Hilco (gitaar), Thijs (zang) en Hugo (gitaar). Ze vonden elkaar in hun passie",
+      "description": "Donderpop: De muziekavond voor lokale en regionale acts. Gratis entree! Deze avond op het programma van Donderpop: Mucho Tibio en Rock of Ages Entree = Gratis. Mucho Tibio Het Colombiaans-Nederlandse Mucho Tibio mengt champeta, cumbia en elektronische punk met halfkapotte drumcomputers en baslijnen. Verre wortels in de punkscene van rond de eeuwwisseling. Geïmproviseerd, klungelig dansen: laat de tropische beats besm",
       "startDate": "",
       "endDate": "",
       "startTime": "",
@@ -3376,11 +3395,11 @@
       ]
     },
     {
-      "id": "manifesto-https://manifesto-hoorn.nl/productie/donderpop-5-november-2026/",
-      "title": "Donderpop met SLATT, Mucho Tibio en Rock of Ages",
-      "link": "https://manifesto-hoorn.nl/productie/donderpop-5-november-2026/",
+      "id": "manifesto-https://manifesto-hoorn.nl/productie/donderpop-1-oktober-2026/",
+      "title": "Donderpop met Riviera + Billbunker + ...",
+      "link": "https://manifesto-hoorn.nl/productie/donderpop-1-oktober-2026/",
       "location": "Manifesto Hoorn",
-      "description": "Donderpop: De muziekavond voor lokale en regionale acts. Gratis entree! Deze avond op het programma van Donderpop: SLATT, Mucho Tibio en Rock of Ages Entree = Gratis. SLATT SLATT maakt snoeiharde Blues en swamprock geïnspireerd door acts zoals Herman Brood en The Stones en gevoed door bier en sigaretten. Verwacht gezellige chaos op en voor het podium, met eigenzinnige songs die je op de fiets naar huis blijft fluiten",
+      "description": "Donderpop: De muziekavond voor lokale en regionale acts. Gratis entree! Deze avond op het programma van Donderpop: Riviera, Billbunker en Dogbone. UPDATE: Helaas heeft Dogbone wegens ziekte moeten afzeggen. Entree = Gratis. Riviera Riviera is een vijfkoppige classicrockband ontstaan vanuit een gedeelde liefde voor blues, rock en sterke liveperformance. De band bestaat uit Joep (drums), Jessey (bas), Hilco (gitaar), T",
       "startDate": "",
       "endDate": "",
       "startTime": "",
@@ -3412,7 +3431,7 @@
       "title": "Halloween Feest 🌈👻",
       "link": "https://manifesto-hoorn.nl/productie/halloween/",
       "location": "Manifesto Hoorn",
-      "description": "Op vrijdag 9 oktober: Halloween Feest! Voor wie uit zijn dak wil gaan en niet genoeg krijgt van griezelen 🎃 Op het programma staan onder andere de band OHM en singer-songwriter Casper. De playlist staat vol met de beste nummers. Het allerleukste is het als iedereen verkleed gaat (al is het niet verplicht). Kom het meemaken... als je durft! De deuren van Manifesto gaan open vanaf 19:30. Info Locatie: Manifesto Hoorn A",
+      "description": "Op vrijdag 9 oktober: Halloween Feest! Voor wie uit zijn dak wil gaan en niet genoeg krijgt van griezelen 🎃 De playlist staat vol met de beste nummers. Het allerleukste is het als iedereen verkleed gaat (al is het niet verplicht). Kom het meemaken... als je durft! De deuren van Manifesto gaan open vanaf 19:30. Info Locatie: Manifesto Hoorn Adres: Holenweg 14c Leeftijd: 16 tot 30 jaar Entree: Gratis toegang tot 21:00 ",
       "startDate": "",
       "endDate": "",
       "startTime": "",
