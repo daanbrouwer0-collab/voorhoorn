@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T13:13:07Z",
+  "updated": "2026-10-02T12:34:04Z",
   "source": "https://netwerkhoorn.nl/activiteiten",
   "events": [
     {
@@ -30,86 +30,6 @@
       "endTime": "",
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/jongereninloop-2026-10-01",
-      "title": "Jongereninloop",
-      "link": "https://netwerkhoorn.nl/activiteit/jongereninloop",
-      "location": "Wijkcentrum De Cogge",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-10-01",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/kidsclub-de-huesmolen-1-2026-10-01",
-      "title": "Kidsclub De Huesmolen",
-      "link": "https://netwerkhoorn.nl/activiteit/kidsclub-de-huesmolen-1",
-      "location": "Wijkcentrum De Huesmolen",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-10-01",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/rots-en-water-training-wijkcentrum-de-huesmolen-2026-10-01",
-      "title": "Rots en Water training Wijkcentrum de Huesmolen",
-      "link": "https://netwerkhoorn.nl/activiteit/rots-en-water-training-wijkcentrum-de-huesmolen",
-      "location": "Wijkcentrum De Huesmolen",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-10-01",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/tekenen-mariaschool-2026-10-01",
-      "title": "Tekenen Mariaschool",
-      "link": "https://netwerkhoorn.nl/activiteit/tekenen-mariaschool",
-      "location": "Mariaschool",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-10-01",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/zingen-swingen-en-acteren-mariaschool-2-2026-10-01",
-      "title": "Zingen, swingen en acteren Mariaschool",
-      "link": "https://netwerkhoorn.nl/activiteit/zingen-swingen-en-acteren-mariaschool-2",
-      "location": "Mariaschool",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-10-01",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
       "categories": [
         "voor-kinderen"
       ]
@@ -611,6 +531,86 @@
       ]
     },
     {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/jongereninloop-2026-10-08",
+      "title": "Jongereninloop",
+      "link": "https://netwerkhoorn.nl/activiteit/jongereninloop",
+      "location": "Wijkcentrum De Cogge",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-08",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/kidsclub-de-huesmolen-1-2026-10-08",
+      "title": "Kidsclub De Huesmolen",
+      "link": "https://netwerkhoorn.nl/activiteit/kidsclub-de-huesmolen-1",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-08",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/rots-en-water-training-wijkcentrum-de-huesmolen-2026-10-08",
+      "title": "Rots en Water training Wijkcentrum de Huesmolen",
+      "link": "https://netwerkhoorn.nl/activiteit/rots-en-water-training-wijkcentrum-de-huesmolen",
+      "location": "Wijkcentrum De Huesmolen",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-08",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/tekenen-mariaschool-2026-10-08",
+      "title": "Tekenen Mariaschool",
+      "link": "https://netwerkhoorn.nl/activiteit/tekenen-mariaschool",
+      "location": "Mariaschool",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-08",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/zingen-swingen-en-acteren-mariaschool-2-2026-10-08",
+      "title": "Zingen, swingen en acteren Mariaschool",
+      "link": "https://netwerkhoorn.nl/activiteit/zingen-swingen-en-acteren-mariaschool-2",
+      "location": "Mariaschool",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-08",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
       "id": "knh-https://komnaarhoorn.nl/agenda/autumn-plate-party/",
       "title": "Autumn Plate Party",
       "link": "https://komnaarhoorn.nl/agenda/autumn-plate-party/",
@@ -631,7 +631,7 @@
       "title": "Lichtjesavond dinsdag 13 oktober",
       "link": "https://netwerkhoorn.nl/activiteit/lichtjesavond-dinsdag-13-oktober",
       "location": "Stadsspeeltuin De Speelhoorn",
-      "description": "Netwerk Hoorn · Jeugd",
+      "description": "Netwerk Hoorn",
       "startDate": "2026-10-13",
       "endDate": "",
       "startTime": "",
@@ -640,15 +640,14 @@
       "sourceLabel": "Netwerk Hoorn",
       "categories": [
         "voor-kinderen"
-      ],
-      "audience": "Jeugd"
+      ]
     },
     {
       "id": "netwerk-https://netwerkhoorn.nl/activiteit/lichtjesavond-woensdag-13-oktober-vanaf-18-uur-2026-10-13",
       "title": "Lichtjesavond woensdag 13 oktober (vanaf 18 uur)",
       "link": "https://netwerkhoorn.nl/activiteit/lichtjesavond-woensdag-13-oktober-vanaf-18-uur",
       "location": "Stadsspeeltuin De Speelhoorn",
-      "description": "Netwerk Hoorn · Jeugd",
+      "description": "Netwerk Hoorn",
       "startDate": "2026-10-13",
       "endDate": "",
       "startTime": "",
@@ -657,8 +656,7 @@
       "sourceLabel": "Netwerk Hoorn",
       "categories": [
         "voor-kinderen"
-      ],
-      "audience": "Jeugd"
+      ]
     },
     {
       "id": "netwerk-https://netwerkhoorn.nl/activiteit/lichtjesavond-woensdag-14-oktober-2026-10-14",
