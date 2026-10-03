@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T12:34:04Z",
+  "updated": "2026-10-03T11:38:58Z",
   "source": "https://netwerkhoorn.nl/activiteiten",
   "events": [
     {
@@ -30,54 +30,6 @@
       "endTime": "",
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/creatief-atelier-1-2026-10-02",
-      "title": "Creatief atelier",
-      "link": "https://netwerkhoorn.nl/activiteit/creatief-atelier-1",
-      "location": "Bockxmeerschool",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-10-02",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/next-level-crew-2026-10-02",
-      "title": "Next Level Crew",
-      "link": "https://netwerkhoorn.nl/activiteit/next-level-crew",
-      "location": "Wijkcentrum De Cogge",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-10-02",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/repair-cafe-de-zaagtand-1-2026-10-02",
-      "title": "Repair Café De Zaagtand",
-      "link": "https://netwerkhoorn.nl/activiteit/repair-cafe-de-zaagtand-1",
-      "location": "Wijkcentrum De Zaagtand",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-10-02",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
       "categories": [
         "voor-kinderen"
       ]
@@ -611,6 +563,22 @@
       ]
     },
     {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/next-level-crew-2026-10-09",
+      "title": "Next Level Crew",
+      "link": "https://netwerkhoorn.nl/activiteit/next-level-crew",
+      "location": "Wijkcentrum De Cogge",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-09",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
       "id": "knh-https://komnaarhoorn.nl/agenda/autumn-plate-party/",
       "title": "Autumn Plate Party",
       "link": "https://komnaarhoorn.nl/agenda/autumn-plate-party/",
@@ -663,7 +631,7 @@
       "title": "Lichtjesavond woensdag 14 oktober",
       "link": "https://netwerkhoorn.nl/activiteit/lichtjesavond-woensdag-14-oktober",
       "location": "Stadsspeeltuin De Speelhoorn",
-      "description": "Netwerk Hoorn · Jeugd",
+      "description": "Netwerk Hoorn",
       "startDate": "2026-10-14",
       "endDate": "",
       "startTime": "",
@@ -672,15 +640,14 @@
       "sourceLabel": "Netwerk Hoorn",
       "categories": [
         "voor-kinderen"
-      ],
-      "audience": "Jeugd"
+      ]
     },
     {
       "id": "netwerk-https://netwerkhoorn.nl/activiteit/lichtjesavond-woensdag-14-oktober-vanaf-18-uur-2026-10-14",
       "title": "Lichtjesavond woensdag 14 oktober (vanaf 18 uur)",
       "link": "https://netwerkhoorn.nl/activiteit/lichtjesavond-woensdag-14-oktober-vanaf-18-uur",
       "location": "Stadsspeeltuin De Speelhoorn",
-      "description": "Netwerk Hoorn · Jeugd",
+      "description": "Netwerk Hoorn",
       "startDate": "2026-10-14",
       "endDate": "",
       "startTime": "",
@@ -689,8 +656,7 @@
       "sourceLabel": "Netwerk Hoorn",
       "categories": [
         "voor-kinderen"
-      ],
-      "audience": "Jeugd"
+      ]
     },
     {
       "id": "knh-https://komnaarhoorn.nl/agenda/uilenballen-pluizen/",
@@ -903,6 +869,23 @@
         "voor-kinderen"
       ],
       "audience": "Peuters"
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/repair-cafe-de-zaagtand-1-2026-11-02",
+      "title": "Repair Café De Zaagtand",
+      "link": "https://netwerkhoorn.nl/activiteit/repair-cafe-de-zaagtand-1",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn · Jongeren",
+      "startDate": "2026-11-02",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ],
+      "audience": "Jongeren"
     },
     {
       "id": "knh-https://komnaarhoorn.nl/agenda/kamermuziek-festival/",

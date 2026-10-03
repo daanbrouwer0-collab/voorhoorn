@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T12:34:04Z",
+  "updated": "2026-10-03T11:38:58Z",
   "sources": [
     "komnaarhoorn",
     "manifesto",
@@ -93,166 +93,6 @@
       "sourceLabel": "Kom naar Hoorn",
       "categories": [
         "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/50-fit-grote-waal-vrijdag-2026-10-02",
-      "title": "50+ Fit Grote Waal vrijdag",
-      "link": "https://netwerkhoorn.nl/activiteit/50-fit-grote-waal-vrijdag",
-      "location": "Wijkcentrum Grote Waal",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-10-02",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "creatief"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/60-fit-mbvo-grote-waal-vrijdag-2026-10-02",
-      "title": "60+ Fit / MBVO Grote Waal vrijdag",
-      "link": "https://netwerkhoorn.nl/activiteit/60-fit-mbvo-grote-waal-vrijdag",
-      "location": "Wijkcentrum Grote Waal",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-10-02",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "creatief"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/cafe-maroc-1-2026-10-02",
-      "title": "Café Maroc",
-      "link": "https://netwerkhoorn.nl/activiteit/cafe-maroc-1",
-      "location": "Wijkcentrum De Zaagtand",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-10-02",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "creatief"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/creatief-atelier-1-2026-10-02",
-      "title": "Creatief atelier",
-      "link": "https://netwerkhoorn.nl/activiteit/creatief-atelier-1",
-      "location": "Bockxmeerschool",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-10-02",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/cursus-portret-tekenen-en-schilderen-1-2026-10-02",
-      "title": "Cursus portret tekenen en - schilderen",
-      "link": "https://netwerkhoorn.nl/activiteit/cursus-portret-tekenen-en-schilderen-1",
-      "location": "Wijkcentrum De Zaagtand",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-10-02",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "creatief"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/naai-inloop-grote-waal-vrij-2026-10-02",
-      "title": "Naai inloop Grote Waal vrij.",
-      "link": "https://netwerkhoorn.nl/activiteit/naai-inloop-grote-waal-vrij",
-      "location": "Wijkcentrum Grote Waal",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-10-02",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "creatief"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/next-level-crew-2026-10-02",
-      "title": "Next Level Crew",
-      "link": "https://netwerkhoorn.nl/activiteit/next-level-crew",
-      "location": "Wijkcentrum De Cogge",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-10-02",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/rdm-movement-class-2026-10-02",
-      "title": "RDM Movement Class",
-      "link": "https://netwerkhoorn.nl/activiteit/rdm-movement-class",
-      "location": "Wijkcentrum De Zaagtand",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-10-02",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "creatief"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/repair-cafe-de-zaagtand-1-2026-10-02",
-      "title": "Repair Café De Zaagtand",
-      "link": "https://netwerkhoorn.nl/activiteit/repair-cafe-de-zaagtand-1",
-      "location": "Wijkcentrum De Zaagtand",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-10-02",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "netwerk-https://netwerkhoorn.nl/activiteit/klaverjas-rummikub-sjoelen-krs-2026-10-02",
-      "title": "klaverjas, rummikub, sjoelen KRS",
-      "link": "https://netwerkhoorn.nl/activiteit/klaverjas-rummikub-sjoelen-krs",
-      "location": "Wijkcentrum Kersenboogerd",
-      "description": "Netwerk Hoorn",
-      "startDate": "2026-10-02",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "netwerk",
-      "sourceLabel": "Netwerk Hoorn",
-      "categories": [
-        "creatief"
       ]
     },
     {
@@ -1990,10 +1830,138 @@
       "categories": []
     },
     {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/50-fit-grote-waal-vrijdag-2026-10-09",
+      "title": "50+ Fit Grote Waal vrijdag",
+      "link": "https://netwerkhoorn.nl/activiteit/50-fit-grote-waal-vrijdag",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-09",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/60-fit-mbvo-grote-waal-vrijdag-2026-10-09",
+      "title": "60+ Fit / MBVO Grote Waal vrijdag",
+      "link": "https://netwerkhoorn.nl/activiteit/60-fit-mbvo-grote-waal-vrijdag",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-09",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/cafe-maroc-1-2026-10-09",
+      "title": "Café Maroc",
+      "link": "https://netwerkhoorn.nl/activiteit/cafe-maroc-1",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-09",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/cursus-portret-tekenen-en-schilderen-1-2026-10-09",
+      "title": "Cursus portret tekenen en - schilderen",
+      "link": "https://netwerkhoorn.nl/activiteit/cursus-portret-tekenen-en-schilderen-1",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-09",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/naai-inloop-grote-waal-vrij-2026-10-09",
+      "title": "Naai inloop Grote Waal vrij.",
+      "link": "https://netwerkhoorn.nl/activiteit/naai-inloop-grote-waal-vrij",
+      "location": "Wijkcentrum Grote Waal",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-09",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/next-level-crew-2026-10-09",
+      "title": "Next Level Crew",
+      "link": "https://netwerkhoorn.nl/activiteit/next-level-crew",
+      "location": "Wijkcentrum De Cogge",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-09",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/rdm-movement-class-2026-10-09",
+      "title": "RDM Movement Class",
+      "link": "https://netwerkhoorn.nl/activiteit/rdm-movement-class",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-09",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
       "id": "netwerk-https://netwerkhoorn.nl/activiteit/uitgaansavond-de-soos-2026-10-09",
       "title": "Uitgaansavond \"De Soos\"",
       "link": "https://netwerkhoorn.nl/activiteit/uitgaansavond-de-soos",
       "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn",
+      "startDate": "2026-10-09",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "creatief"
+      ]
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/klaverjas-rummikub-sjoelen-krs-2026-10-09",
+      "title": "klaverjas, rummikub, sjoelen KRS",
+      "link": "https://netwerkhoorn.nl/activiteit/klaverjas-rummikub-sjoelen-krs",
+      "location": "Wijkcentrum Kersenboogerd",
       "description": "Netwerk Hoorn",
       "startDate": "2026-10-09",
       "endDate": "",
@@ -2100,7 +2068,7 @@
       "title": "Lichtjesavond woensdag 14 oktober",
       "link": "https://netwerkhoorn.nl/activiteit/lichtjesavond-woensdag-14-oktober",
       "location": "Stadsspeeltuin De Speelhoorn",
-      "description": "Netwerk Hoorn · Jeugd",
+      "description": "Netwerk Hoorn",
       "startDate": "2026-10-14",
       "endDate": "",
       "startTime": "",
@@ -2109,15 +2077,14 @@
       "sourceLabel": "Netwerk Hoorn",
       "categories": [
         "voor-kinderen"
-      ],
-      "audience": "Jeugd"
+      ]
     },
     {
       "id": "netwerk-https://netwerkhoorn.nl/activiteit/lichtjesavond-woensdag-14-oktober-vanaf-18-uur-2026-10-14",
       "title": "Lichtjesavond woensdag 14 oktober (vanaf 18 uur)",
       "link": "https://netwerkhoorn.nl/activiteit/lichtjesavond-woensdag-14-oktober-vanaf-18-uur",
       "location": "Stadsspeeltuin De Speelhoorn",
-      "description": "Netwerk Hoorn · Jeugd",
+      "description": "Netwerk Hoorn",
       "startDate": "2026-10-14",
       "endDate": "",
       "startTime": "",
@@ -2126,8 +2093,7 @@
       "sourceLabel": "Netwerk Hoorn",
       "categories": [
         "voor-kinderen"
-      ],
-      "audience": "Jeugd"
+      ]
     },
     {
       "id": "knh-https://komnaarhoorn.nl/agenda/uilenballen-pluizen/",
@@ -2582,6 +2548,23 @@
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
       "categories": []
+    },
+    {
+      "id": "netwerk-https://netwerkhoorn.nl/activiteit/repair-cafe-de-zaagtand-1-2026-11-02",
+      "title": "Repair Café De Zaagtand",
+      "link": "https://netwerkhoorn.nl/activiteit/repair-cafe-de-zaagtand-1",
+      "location": "Wijkcentrum De Zaagtand",
+      "description": "Netwerk Hoorn · Jongeren",
+      "startDate": "2026-11-02",
+      "endDate": "",
+      "startTime": "",
+      "endTime": "",
+      "sourceId": "netwerk",
+      "sourceLabel": "Netwerk Hoorn",
+      "categories": [
+        "voor-kinderen"
+      ],
+      "audience": "Jongeren"
     },
     {
       "id": "raad-137056ad-d577-4e3e-b217-e13d1661d1cc-51330112-a184-41c4-a931-8318b5f17e2c",
@@ -3389,7 +3372,7 @@
       "title": "Open House Battle of the Schoolbands",
       "link": "https://manifesto-hoorn.nl/productie/openhouse/",
       "location": "Manifesto Hoorn",
-      "description": "Op zondagmiddag 18 oktober ben je welkom bij het Open House van Battle of the Schoolbands. Deze middag in Manifesto staat in het teken van muzikale verkenning. Met onder meer bands van de vorige editie en een bijzonder gastoptreden. Entree is gratis voor iedereen die van muziek houdt. Als je erover nadenkt om mee te doen met de volgende editie van Battle of the Schoolbands in Het Park kun je hier je muzikale interess",
+      "description": "Op zondagmiddag 18 oktober zetten we de deuren van Manifesto open voor iedereen die van muziek houdt. Tijdens het Open House van Battle of the Schoolbands draait alles om ontdekken, ontmoeten en genieten. Je ziet de finalisten van vorig jaar op het podium, waaronder winnaar NW3, en we sluiten af met een bijzonder gastoptreden van No Offense. De entree is gratis! Denk je erover na om mee te doen aan de volgende editie",
       "startDate": "",
       "endDate": "",
       "startTime": "",
