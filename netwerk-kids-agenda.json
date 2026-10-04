@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T11:38:58Z",
+  "updated": "2026-10-04T12:20:52Z",
   "source": "https://netwerkhoorn.nl/activiteiten",
   "events": [
     {
@@ -28,22 +28,6 @@
       "endDate": "",
       "startTime": "",
       "endTime": "",
-      "sourceId": "komnaarhoorn",
-      "sourceLabel": "Kom naar Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
-      "id": "knh-https://komnaarhoorn.nl/agenda/bakkie-buggy-dadwalk-voor-vaders/",
-      "title": "Bakkie & Buggy – dadwalk voor vaders",
-      "link": "https://komnaarhoorn.nl/agenda/bakkie-buggy-dadwalk-voor-vaders/",
-      "location": "Het Koffielokaal Atelier",
-      "description": "Is het papa-dag? Of gewoon zin om te wandelen met die kleine?",
-      "startDate": "2026-10-03",
-      "endDate": "",
-      "startTime": "10:30",
-      "endTime": "12:00",
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
       "categories": [

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T11:38:58Z",
+  "updated": "2026-10-04T12:20:52Z",
   "sources": [
     "komnaarhoorn",
     "manifesto",
@@ -96,22 +96,6 @@
       ]
     },
     {
-      "id": "knh-https://komnaarhoorn.nl/agenda/bakkie-buggy-dadwalk-voor-vaders/",
-      "title": "Bakkie & Buggy – dadwalk voor vaders",
-      "link": "https://komnaarhoorn.nl/agenda/bakkie-buggy-dadwalk-voor-vaders/",
-      "location": "Het Koffielokaal Atelier",
-      "description": "Is het papa-dag? Of gewoon zin om te wandelen met die kleine?",
-      "startDate": "2026-10-03",
-      "endDate": "",
-      "startTime": "10:30",
-      "endTime": "12:00",
-      "sourceId": "komnaarhoorn",
-      "sourceLabel": "Kom naar Hoorn",
-      "categories": [
-        "voor-kinderen"
-      ]
-    },
-    {
       "id": "knh-https://komnaarhoorn.nl/agenda/regenboogweek-wf/",
       "title": "REGENBOOGWEEK",
       "link": "https://komnaarhoorn.nl/agenda/regenboogweek-wf/",
@@ -121,20 +105,6 @@
       "endDate": "",
       "startTime": "14:00",
       "endTime": "20:00",
-      "sourceId": "komnaarhoorn",
-      "sourceLabel": "Kom naar Hoorn",
-      "categories": []
-    },
-    {
-      "id": "knh-https://komnaarhoorn.nl/agenda/pride-walk/",
-      "title": "Pride walk",
-      "link": "https://komnaarhoorn.nl/agenda/pride-walk/",
-      "location": "Foreestenhuis",
-      "description": "Loop mee met de regenboogvlag en een trots gevoel.",
-      "startDate": "2026-10-03",
-      "endDate": "",
-      "startTime": "15:00",
-      "endTime": "",
       "sourceId": "komnaarhoorn",
       "sourceLabel": "Kom naar Hoorn",
       "categories": []
@@ -3293,22 +3263,6 @@
       "link": "https://manifesto-hoorn.nl/productie/donderpop-5-november-2026/",
       "location": "Manifesto Hoorn",
       "description": "Donderpop: De muziekavond voor lokale en regionale acts. Gratis entree! Deze avond op het programma van Donderpop: Mucho Tibio en Rock of Ages Entree = Gratis. Mucho Tibio Het Colombiaans-Nederlandse Mucho Tibio mengt champeta, cumbia en elektronische punk met halfkapotte drumcomputers en baslijnen. Verre wortels in de punkscene van rond de eeuwwisseling. Geïmproviseerd, klungelig dansen: laat de tropische beats besm",
-      "startDate": "",
-      "endDate": "",
-      "startTime": "",
-      "endTime": "",
-      "sourceId": "manifesto",
-      "sourceLabel": "Manifesto",
-      "categories": [
-        "muziek"
-      ]
-    },
-    {
-      "id": "manifesto-https://manifesto-hoorn.nl/productie/gary/",
-      "title": "Gary Moore Tribute Band",
-      "link": "https://manifesto-hoorn.nl/productie/gary/",
-      "location": "Manifesto Hoorn",
-      "description": "Zaterdag 3 oktober: Gary Moore Tribute Band in Manifesto! In 2026 is het vijftien jaar geleden dat gitaarlegende Gary Moore onverwacht overleed. Zijn muziek leeft echter sterker dan ooit in de harten van fans, gitaristen en muziek-liefhebbers wereldwijd. Tickets zijn nu verkrijgbaar: via deze link. Tijdens deze bijzondere Memorial Tour brengen Peter Vleeshouwers ( Remember Phil & Gary ) en de Gary Moore Tribute Band ",
       "startDate": "",
       "endDate": "",
       "startTime": "",
