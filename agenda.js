@@ -1,5 +1,5 @@
 /**
- * Agenda UI — data komt uit agenda-data.json (dagelijkse scrape).
+ * Agenda UI — data komt uit agenda-data.json (zelfde opbouw als Web Agenda).
  * Nieuws blijft live in news.js. Filters (periode / stad / kids / raad) zijn client-side.
  */
 const AGENDA_DATA_FEED = "agenda-data.json";
@@ -109,17 +109,17 @@ function formatAgendaDateParts(isoDate) {
   };
 }
 
+function eventDate(event) {
+  const match = String(event.datum || event.startDate || "").match(/\d{4}-\d{2}-\d{2}/);
+  return match ? match[0] : "";
+}
+
 function formatAgendaWhen(event) {
-  const start = formatAgendaDate(event.startDate);
-  if (!start) return "Datum onbekend";
+  const start = formatAgendaDate(eventDate(event));
+  if (!start) return event.datum && event.datum !== "Onbekend" ? event.datum : "Datum onbekend";
   let label = start;
-  if (event.endDate && event.endDate !== event.startDate) {
-    label += ` t/m ${formatAgendaDate(event.endDate)}`;
-  }
-  if (event.startTime) {
-    label += ` · ${event.startTime}`;
-    if (event.endTime) label += `–${event.endTime}`;
-  }
+  if (event.tijd && event.tijd !== "Onbekend") label += ` · ${event.tijd}`;
+  else if (event.startTime) label += ` · ${event.startTime}${event.endTime ? `–${event.endTime}` : ""}`;
   return label;
 }
 
@@ -182,35 +182,34 @@ function weekdayLong(isoDate) {
 }
 
 function isKidsEvent(event) {
+  if (/^(peuter|kind)$/i.test(event.leeftijd || "")) return true;
   if (event.categories?.includes("voor-kinderen")) return true;
   if (event.audience && /jeugd|jongeren|peuters/i.test(event.audience)) return true;
-  return KIDS_RE.test(`${event.title} ${event.description} ${event.location}`);
+  return KIDS_RE.test(`${event.titel || event.title || ""} ${event.beschrijving || event.description || ""} ${event.locatie || event.location || ""}`);
+}
+
+function isRaadEvent(event) {
+  return /vergadering/i.test(event.laag || "") || event.sourceId === "raad";
 }
 
 function eventsForView(view) {
-  if (view === "raad") {
-    return allAgendaEvents.filter((e) => e.sourceId === "raad");
-  }
-  if (view === "kinderen") {
-    return allAgendaEvents.filter(
-      (e) => e.sourceId !== "raad" && isKidsEvent(e)
-    );
-  }
-  // stad: alles behalve raad
-  return allAgendaEvents.filter((e) => e.sourceId !== "raad");
+  if (view === "raad") return allAgendaEvents.filter((event) => isRaadEvent(event));
+  if (view === "kinderen") return allAgendaEvents.filter((event) => !isRaadEvent(event) && isKidsEvent(event));
+  return allAgendaEvents.filter((event) => !isRaadEvent(event));
 }
 
 function applyClientFilters(events) {
   return events.filter((event) => {
     if (agendaFilters.view === "raad") {
-      if (event.sourceId !== "raad") return false;
-      if (!event.startDate) return true;
-      const eventDate = startOfDay(new Date(`${event.startDate}T12:00:00`));
-      return !Number.isNaN(eventDate.getTime()) && eventDate >= startOfDay(new Date());
+      if (!isRaadEvent(event)) return false;
+      const iso = eventDate(event);
+      if (!iso) return true;
+      const when = startOfDay(new Date(`${iso}T12:00:00`));
+      return !Number.isNaN(when.getTime()) && when >= startOfDay(new Date());
     }
-    if (!inSelectedDateRange(event.startDate)) return false;
+    if (!inSelectedDateRange(eventDate(event))) return false;
     if (agendaFilters.view === "kinderen" && !isKidsEvent(event)) return false;
-    if (event.sourceId === "raad") return false;
+    if (isRaadEvent(event)) return false;
     return true;
   });
 }
@@ -397,16 +396,16 @@ function renderAgendaList() {
   if (!agendaList) return;
   updateAgendaChrome();
 
-  if (agendaFilters.view === "raad") {
+  if (agendaFilters.view === "raad" && agendaEvents.some((event) => event.itemNumber)) {
     renderRaadCalendar(sortRaadEvents(applyClientFilters(agendaEvents)));
     return;
   }
 
   const filtered = applyClientFilters(agendaEvents).sort((a, b) => {
-    const da = a.startDate || "9999-99-99";
-    const db = b.startDate || "9999-99-99";
+    const da = eventDate(a) || "9999-99-99";
+    const db = eventDate(b) || "9999-99-99";
     if (da !== db) return da.localeCompare(db);
-    return (a.startTime || "").localeCompare(b.startTime || "");
+    return String(a.tijd || a.startTime || "").localeCompare(String(b.tijd || b.startTime || ""));
   });
 
   if (agendaCount) {
@@ -428,11 +427,27 @@ function renderAgendaList() {
   const rows = filtered
     .map((event, index) => {
       const panelId = `agenda-panel-${index}`;
+      const title = event.titel || event.title || "Onbekend";
       const when = formatAgendaWhen(event);
-      const metaParts = [when, event.location].filter(Boolean).join(" · ");
-      const body =
-        event.description || "Geen korte beschrijving. Open de pagina voor meer info.";
-      const dateParts = formatAgendaDateParts(event.startDate);
+      const place = event.locatie && event.locatie !== "Onbekend" ? event.locatie : event.location || "";
+      const metaParts = [when, place].filter(Boolean).join(" · ");
+      const body = event.beschrijving && event.beschrijving !== "Onbekend"
+        ? event.beschrijving
+        : event.description || "Geen korte beschrijving. Open de pagina voor meer info.";
+      const facts = [
+        ["Categorie", event.categorie],
+        ["Leeftijd", event.leeftijd],
+        ["Prijs", event.prijs],
+        ["Interval", event.interval],
+        ["Laag", event.laag],
+      ].filter(([, value]) => value && value !== "Onbekend");
+      const program = Array.isArray(event.programma)
+        ? event.programma
+            .map((act) => `${act.tijd && act.tijd !== "Onbekend" ? `${act.tijd} ` : ""}${act.titel}${act.locatie && act.locatie !== "Onbekend" ? ` · ${act.locatie}` : ""}`)
+            .join("\n")
+        : "";
+      const upcoming = Array.isArray(event.komende) && event.komende.length > 1 ? event.komende.join(", ") : "";
+      const dateParts = formatAgendaDateParts(eventDate(event));
       const dateChip = dateParts
         ? `<span class="agenda-date-chip" aria-hidden="true">
               <span class="agenda-date-day">${agendaEscape(dateParts.day)}</span>
@@ -444,7 +459,9 @@ function renderAgendaList() {
             </span>`;
       const toggleLabel = dateParts
         ? `${dateParts.label}: ${event.title}`
-        : event.title;
+        : title;
+      const sourceLabel = event.bron || event.sourceLabel || "";
+      const link = event.link && event.link !== "Onbekend" ? event.link : "";
 
       return `
         <article class="news-row">
@@ -456,27 +473,29 @@ function renderAgendaList() {
             aria-label="${agendaEscape(toggleLabel)}"
           >
             ${dateChip}
-            <span class="news-item-title">${agendaEscape(event.title)}</span>
+            <span class="news-item-title">${agendaEscape(title)}</span>
             <span class="news-chevron" aria-hidden="true"></span>
           </button>
           <div class="news-panel" id="${panelId}" hidden>
             <div class="news-meta">
-              <span class="news-source source-${agendaEscape(event.sourceId)}">${agendaEscape(event.sourceLabel)}</span>
+              <span class="news-source">${agendaEscape(sourceLabel)}</span>
               ${agendaEscape(metaParts)}
             </div>
+            ${facts.length ? `<p class="news-blurb">${agendaEscape(facts.map(([name, value]) => `${name}: ${value}`).join(" · "))}</p>` : ""}
             <p class="news-blurb">${agendaEscape(body)}</p>
+            ${program ? `<p class="news-blurb">${agendaEscape(program)}</p>` : ""}
+            ${upcoming ? `<p class="news-blurb">Komende datums: ${agendaEscape(upcoming)}</p>` : ""}
             <div class="agenda-actions">
-              <a
-                class="news-open"
-                href="${agendaEscape(event.link)}"
-                target="_blank"
-                rel="noopener noreferrer"
-              >Bekijk evenement →</a>
+              ${
+                link
+                  ? `<a class="news-open" href="${agendaEscape(link)}" target="_blank" rel="noopener noreferrer">Bekijk evenement →</a>`
+                  : ""
+              }
               <button
                 type="button"
                 class="agenda-share-btn"
-                data-share-title="${agendaEscape(event.title)}"
-                data-share-url="${agendaEscape(event.link)}"
+                data-share-title="${agendaEscape(title)}"
+                data-share-url="${agendaEscape(link)}"
               >Vraag vriend</button>
             </div>
           </div>
@@ -534,7 +553,7 @@ async function loadAgenda({ force = false } = {}) {
   } catch (err) {
     console.error("Agenda-cache laden mislukt:", err);
     agendaList.innerHTML =
-      '<p class="news-empty">Kon agenda-data.json niet laden. Draai <code>python3 scripts/scrape-agenda.py</code> of wacht op de dagelijkse Action.</p>';
+      '<p class="news-empty">Kon agenda-data.json niet laden. Draai <code>node scripts/build-agenda.mjs</code> of wacht op de dagelijkse Action.</p>';
   } finally {
     agendaLoading = false;
     agendaPanel?.classList.remove("is-loading");

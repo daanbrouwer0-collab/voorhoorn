@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Agenda · Hoorn</title>
+  <meta name="description" content="Losse agenda-app voor Hoorn. Live data van Kom naar Hoorn, Stichting Netwerk, de gemeente, Manifesto, inHoorn, de Uitagenda en de Bibliotheek.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glow" aria-hidden="true"></div>
+  <main class="shell">
+    <header class="top">
+      <div>
+        <p class="eyebrow">Hoorn</p>
+        <h1>Web Agenda</h1>
+        <p class="lede">Live uit dezelfde bronnen als de dagelijkse Voorhoorn-update. Filter per bron, periode en zoekwoord.</p>
+      </div>
+      <button type="button" class="refresh" id="refreshBtn">Vernieuwen</button>
+    </header>
+
+    <p class="status" id="statusLine" role="status">Agenda laden…</p>
+    <ul class="alerts" id="sourceAlerts" hidden></ul>
+
+    <nav class="source-tabs" id="sourceTabs" role="tablist" aria-label="Bronsoort"></nav>
+
+    <div class="toolbar">
+      <label class="search">
+        <span class="visually-hidden">Zoeken</span>
+        <input id="searchInput" type="search" placeholder="Zoek op titel, plek of tekst" autocomplete="off">
+      </label>
+      <div class="period" id="periodTabs" role="tablist" aria-label="Periode">
+        <button type="button" data-range="this_week">Deze week</button>
+        <button type="button" data-range="this_month">Deze maand</button>
+        <button type="button" data-range="next_month">Volgende maand</button>
+        <button type="button" data-range="upcoming" class="is-active" aria-selected="true">Alles komend</button>
+      </div>
+      <label class="kids">
+        <input id="kidsToggle" type="checkbox">
+        Kids &amp; jongeren
+      </label>
+      <button type="button" class="export" id="exportBtn">JSON</button>
+    </div>
+    <div class="price-filter">
+      <h3>Prijs</h3>
+      <label>Van <input id="priceMin" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0"></label>
+      <label>Tot <input id="priceMax" type="number" min="0" step="0.01" inputmode="decimal" placeholder="—"></label>
+      <span>euro</span>
+    </div>
+    <div class="filters" id="labelFilters" role="group" aria-label="Extra filters"></div>
+
+    <section id="agendaList" class="list" aria-live="polite"></section>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
