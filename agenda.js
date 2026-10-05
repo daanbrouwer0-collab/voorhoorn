@@ -426,13 +426,12 @@ function renderAgendaList() {
       const body = event.beschrijving && event.beschrijving !== "Onbekend"
         ? event.beschrijving
         : event.description || "Geen korte beschrijving. Open de pagina voor meer info.";
-      const facts = [
-        ["Categorie", event.categorie],
-        ["Leeftijd", event.leeftijd],
-        ["Prijs", event.prijs],
-        ["Interval", event.interval],
-        ["Laag", event.laag],
-      ].filter(([, value]) => value && value !== "Onbekend");
+      const known = (value) => value && value !== "Onbekend";
+      const facts = [event.categorie, event.interval, event.laag].filter(known);
+      const extra = [
+        known(event.leeftijd) ? event.leeftijd : "",
+        known(event.prijs) ? event.prijs : "",
+      ].filter(Boolean);
       const program = Array.isArray(event.programma)
         ? event.programma
             .map((act) => `${act.tijd && act.tijd !== "Onbekend" ? `${act.tijd} ` : ""}${act.titel}${act.locatie && act.locatie !== "Onbekend" ? ` · ${act.locatie}` : ""}`)
@@ -473,7 +472,7 @@ function renderAgendaList() {
               <span class="news-source">${agendaEscape(sourceLabel)}</span>
               ${agendaEscape(metaParts)}
             </div>
-            ${facts.length ? `<p class="news-blurb">${agendaEscape(facts.map(([name, value]) => `${name}: ${value}`).join(" · "))}</p>` : ""}
+            ${facts.length || extra.length ? `<p class="news-blurb">${agendaEscape([...facts, ...extra].join(" - "))}</p>` : ""}
             <p class="news-blurb">${agendaEscape(body)}</p>
             ${program ? `<p class="news-blurb">${agendaEscape(program)}</p>` : ""}
             ${upcoming ? `<p class="news-blurb">Komende datums: ${agendaEscape(upcoming)}</p>` : ""}
