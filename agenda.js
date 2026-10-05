@@ -12,7 +12,7 @@ const AGENDA_DATE_LABELS = {
   this_year: "Alles",
 };
 
-const AGENDA_NOTE = "of toont een van de aanstaande soorten. en toont alleen wat aan alle aanstaande soorten voldoet. Alles uit toont niets.";
+const AGENDA_NOTE = "en: een knop uit haalt die soort weg. Club uit en Muziek aan toont alleen muziek die geen club is.";
 const AGENDA_FILTER_KEY = "voorhoorn-agenda-custom";
 const AGE_LABELS = ["Kind", "Kind en volwassen", "Volwassen", "Volwassen en senior", "Senior"];
 const AGE_BANDS = [
@@ -242,12 +242,13 @@ function kindHit(event, chip) {
 }
 
 function matchesChips(event) {
+  const kinds = ["film", "club", "muziek"];
   const on = agendaFilters.chips;
+  const off = kinds.filter((chip) => !on.includes(chip));
   if (!on.length) return false;
+  const allowed = on.length === 3 || on.some((chip) => kindHit(event, chip));
   const visible =
-    agendaFilters.kindJoin === "and"
-      ? on.every((chip) => kindHit(event, chip))
-      : on.length === 3 || on.some((chip) => kindHit(event, chip));
+    agendaFilters.kindJoin === "and" ? allowed && off.every((chip) => !kindHit(event, chip)) : allowed;
   if (!visible) return false;
   if (agendaFilters.gemeente && !isRaadEvent(event)) return false;
   return true;
