@@ -234,6 +234,29 @@ body {
     color: #fff;
 }
 
+.agenda-custom-row,
+.agenda-age {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+.agenda-age input[type="range"] {
+    width: 9rem;
+    accent-color: #fb7185;
+}
+
+.agenda-age input[type="range"]:disabled {
+    opacity: 0.35;
+}
+
+.agenda-age span {
+    font-size: 0.78rem;
+    color: var(--text-subtle);
+    min-width: 9rem;
+}
+
 .agenda-count {
     margin-left: auto;
     font-size: 0.78rem;

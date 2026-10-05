@@ -12,8 +12,16 @@ const AGENDA_DATE_LABELS = {
   this_year: "Alles",
 };
 
-const AGENDA_NOTE =
-  'Zelfde agenda als de dagelijkse update. Kinderen, Film en Vergadering tellen samen.';
+const AGENDA_NOTE = "Bewaar zet je huidige keuze op dit apparaat. Mijn filter zet die keuze weer aan.";
+const AGENDA_FILTER_KEY = "voorhoorn-agenda-custom";
+const AGE_LABELS = ["Kind", "Kind en volwassen", "Volwassen", "Volwassen en senior", "Senior"];
+const AGE_BANDS = [
+  ["Peuter", "Kind", "Jongere"],
+  ["Peuter", "Kind", "Jongere", "Volwassene", "Alle leeftijden"],
+  ["Volwassene", "Alle leeftijden"],
+  ["Volwassene", "Senior", "Alle leeftijden"],
+  ["Senior"],
+];
 
 const KIDS_RE =
   /\b(kind|kids|kinderen|kleintjes|jongeren|jeugd|jong!?|familie|peuter|kleuter|schoolvakantie|jeugdtheater|voor\s+de\s+jeugd|lego|speel|tiener)\b/i;
@@ -31,8 +39,13 @@ let agendaDataLoaded = false;
 let agendaLoading = false;
 let agendaFilters = {
   dateRange: "this_month",
+  time: "",
+  ageOn: false,
+  age: 1,
   chips: [],
+  gemeente: false,
   query: "",
+  customOn: false,
 };
 
 function agendaEscape(text) {
@@ -191,12 +204,42 @@ function isFilmEvent(event) {
   return /film/i.test(event.categorie || "") || /\b(film|bioscoop)\b/i.test(`${event.titel || event.title || ""} ${event.beschrijving || ""}`);
 }
 
+const MUSIC_RE = /\b(muziek|concert|optreden|band|dj|jazz|pop|rock|klassiek|blues|house)\b/i;
+
+function isClubEvent(event) {
+  return /reeks/i.test(event.laag || "") || /^(wekelijks|maandelijks)$/i.test(event.interval || "");
+}
+
+function isMusicEvent(event) {
+  return /^(jazz|pop|rock|klassiek|blues|house|tribute|jam|muziek)$/i.test(event.categorie || "") || MUSIC_RE.test(`${event.titel || event.title || ""} ${event.beschrijving || ""} ${event.categorie || ""}`);
+}
+
+function matchesTime(event) {
+  if (!agendaFilters.time) return true;
+  const iso = eventDate(event);
+  if (!iso) return false;
+  const date = new Date(`${iso}T12:00:00`);
+  if (agendaFilters.time === "vandaag") return startOfDay(date).getTime() === startOfDay(new Date()).getTime();
+  const day = date.getDay();
+  return day === 0 || day === 6;
+}
+
+function matchesAge(event) {
+  if (!agendaFilters.ageOn) return true;
+  const band = AGE_BANDS[agendaFilters.age - 1] || AGE_BANDS[0];
+  const age = event.leeftijd || "";
+  if (band.includes(age)) return true;
+  if (agendaFilters.age <= 2 && isKidsEvent(event)) return true;
+  return false;
+}
+
 function matchesChips(event) {
   for (const chip of agendaFilters.chips) {
-    if (chip === "kinderen" && !isKidsEvent(event)) return false;
     if (chip === "film" && !isFilmEvent(event)) return false;
-    if (chip === "vergadering" && !isRaadEvent(event)) return false;
+    if (chip === "club" && !isClubEvent(event)) return false;
+    if (chip === "muziek" && !isMusicEvent(event)) return false;
   }
+  if (agendaFilters.gemeente && !isRaadEvent(event)) return false;
   return true;
 }
 
@@ -209,7 +252,79 @@ function matchesQuery(event) {
 }
 
 function applyClientFilters(events) {
-  return events.filter((event) => inSelectedDateRange(eventDate(event)) && matchesChips(event) && matchesQuery(event));
+  return events.filter(
+    (event) => inSelectedDateRange(eventDate(event)) && matchesTime(event) && matchesAge(event) && matchesChips(event) && matchesQuery(event)
+  );
+}
+
+function currentPreset() {
+  return {
+    dateRange: agendaFilters.dateRange,
+    time: agendaFilters.time,
+    ageOn: agendaFilters.ageOn,
+    age: agendaFilters.age,
+    chips: [...agendaFilters.chips],
+    gemeente: agendaFilters.gemeente,
+  };
+}
+
+function savedPreset() {
+  try {
+    const raw = localStorage.getItem(AGENDA_FILTER_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
+}
+
+function savePreset() {
+  const preset = currentPreset();
+  localStorage.setItem(AGENDA_FILTER_KEY, JSON.stringify(preset));
+  agendaFilters.customOn = true;
+  syncFilterControls();
+}
+
+function applyPreset(preset) {
+  agendaFilters.dateRange = preset.dateRange || "this_month";
+  agendaFilters.time = preset.time === "vandaag" || preset.time === "weekend" ? preset.time : "";
+  agendaFilters.ageOn = Boolean(preset.ageOn);
+  agendaFilters.age = Math.min(5, Math.max(1, Number(preset.age) || 1));
+  agendaFilters.chips = (preset.chips || []).filter((chip) => ["film", "club", "muziek"].includes(chip));
+  agendaFilters.gemeente = Boolean(preset.gemeente);
+  agendaFilters.customOn = true;
+  syncFilterControls();
+  renderAgendaList();
+}
+
+function syncFilterControls() {
+  document.querySelectorAll("#agendaTimeTabs [data-time]").forEach((btn) => {
+    const on = btn.dataset.time === agendaFilters.time;
+    btn.classList.toggle("is-active", on);
+    btn.setAttribute("aria-pressed", String(on));
+  });
+  document.querySelectorAll("#agendaViewTabs [data-agenda-filter]").forEach((btn) => {
+    const on = agendaFilters.chips.includes(btn.dataset.agendaFilter);
+    btn.classList.toggle("is-active", on);
+    btn.setAttribute("aria-pressed", String(on));
+  });
+  const gemeente = document.getElementById("agendaGemeente");
+  gemeente?.classList.toggle("is-active", agendaFilters.gemeente);
+  gemeente?.setAttribute("aria-pressed", String(agendaFilters.gemeente));
+  const ageToggle = document.getElementById("agendaAgeToggle");
+  ageToggle?.classList.toggle("is-active", agendaFilters.ageOn);
+  ageToggle?.setAttribute("aria-pressed", String(agendaFilters.ageOn));
+  const age = document.getElementById("agendaAge");
+  const ageLabel = document.getElementById("agendaAgeLabel");
+  if (age) {
+    age.value = String(agendaFilters.age);
+    age.disabled = !agendaFilters.ageOn;
+  }
+  if (ageLabel) ageLabel.textContent = AGE_LABELS[agendaFilters.age - 1] || AGE_LABELS[0];
+  setActiveTabGroup(agendaDateTabs, "data-date-range", agendaFilters.dateRange);
+  const custom = document.getElementById("agendaCustom");
+  custom?.classList.toggle("is-active", agendaFilters.customOn);
+  custom?.setAttribute("aria-pressed", String(agendaFilters.customOn));
+  if (custom) custom.disabled = !savedPreset() && !agendaFilters.customOn;
 }
 
 function setActiveTabGroup(container, attr, value) {
@@ -226,16 +341,63 @@ function updateSourceNote() {
   agendaSourceNote.textContent = AGENDA_NOTE;
 }
 
+function markCustomOff() {
+  agendaFilters.customOn = false;
+  document.getElementById("agendaCustom")?.classList.remove("is-active");
+  document.getElementById("agendaCustom")?.setAttribute("aria-pressed", "false");
+}
+
 function bindAgendaViewTabs() {
+  document.getElementById("agendaSave")?.addEventListener("click", () => savePreset());
+  document.getElementById("agendaCustom")?.addEventListener("click", () => {
+    const preset = savedPreset();
+    if (!preset) return;
+    if (agendaFilters.customOn) {
+      agendaFilters.time = "";
+      agendaFilters.ageOn = false;
+      agendaFilters.chips = [];
+      agendaFilters.gemeente = false;
+      agendaFilters.customOn = false;
+      syncFilterControls();
+      renderAgendaList();
+      return;
+    }
+    applyPreset(preset);
+  });
+  document.getElementById("agendaGemeente")?.addEventListener("click", () => {
+    agendaFilters.gemeente = !agendaFilters.gemeente;
+    markCustomOff();
+    syncFilterControls();
+    renderAgendaList();
+  });
+  document.querySelectorAll("#agendaTimeTabs [data-time]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      agendaFilters.time = agendaFilters.time === btn.dataset.time ? "" : btn.dataset.time;
+      markCustomOff();
+      syncFilterControls();
+      renderAgendaList();
+    });
+  });
+  document.getElementById("agendaAgeToggle")?.addEventListener("click", () => {
+    agendaFilters.ageOn = !agendaFilters.ageOn;
+    markCustomOff();
+    syncFilterControls();
+    renderAgendaList();
+  });
+  document.getElementById("agendaAge")?.addEventListener("input", (event) => {
+    agendaFilters.age = Number(event.target.value) || 1;
+    markCustomOff();
+    syncFilterControls();
+    renderAgendaList();
+  });
   agendaViewTabs?.querySelectorAll("[data-agenda-filter]").forEach((btn) => {
     btn.addEventListener("click", () => {
       const id = btn.dataset.agendaFilter;
       agendaFilters.chips = agendaFilters.chips.includes(id)
         ? agendaFilters.chips.filter((chip) => chip !== id)
         : [...agendaFilters.chips, id];
-      const on = agendaFilters.chips.includes(id);
-      btn.classList.toggle("is-active", on);
-      btn.setAttribute("aria-pressed", String(on));
+      markCustomOff();
+      syncFilterControls();
       renderAgendaList();
     });
   });
@@ -244,12 +406,14 @@ function bindAgendaViewTabs() {
     agendaFilters.query = search.value;
     renderAgendaList();
   });
+  syncFilterControls();
 }
 
 function bindAgendaFilterTabs() {
   agendaDateTabs?.querySelectorAll(".news-tab").forEach((btn) => {
     btn.addEventListener("click", () => {
       agendaFilters.dateRange = btn.dataset.dateRange || "this_month";
+      markCustomOff();
       setActiveTabGroup(agendaDateTabs, "data-date-range", agendaFilters.dateRange);
       renderAgendaList();
     });
@@ -411,7 +575,9 @@ function renderAgendaList() {
   if (!filtered.length) {
     const period = AGENDA_DATE_LABELS[agendaFilters.dateRange] || "deze periode";
     const hint =
-      agendaFilters.chips.length ? " Zet een filter uit of kies periode Alles." : "";
+      agendaFilters.chips.length || agendaFilters.gemeente || agendaFilters.time || agendaFilters.ageOn
+        ? " Zet een filter uit of kies periode Alles."
+        : "";
     agendaList.innerHTML = `<p class="news-empty">Geen items gevonden voor ${agendaEscape(period)}.${agendaEscape(hint)}</p>`;
     return;
   }

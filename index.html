@@ -110,11 +110,25 @@
                 </div>
 
                 <div class="agenda-toolbar">
+                    <div class="agenda-custom-row">
+                        <button type="button" class="news-tab" id="agendaCustom" aria-pressed="false" title="Zet je bewaarde filter aan">Mijn filter</button>
+                        <button type="button" class="news-tab" id="agendaSave" title="Bewaar de huidige filters op dit apparaat">Bewaar</button>
+                        <button type="button" class="news-tab" id="agendaGemeente" aria-pressed="false">Gemeente</button>
+                    </div>
                     <input type="search" id="agendaSearch" class="agenda-search" placeholder="Zoek titel, plek of bron" autocomplete="off" aria-label="Zoek in de agenda">
-                    <nav class="news-tabs links-tabs agenda-filter-tabs" aria-label="Filters" id="agendaViewTabs">
-                        <button type="button" class="news-tab" aria-pressed="false" data-agenda-filter="kinderen">Kinderen</button>
+                    <nav class="news-tabs links-tabs agenda-filter-tabs" aria-label="Tijd" id="agendaTimeTabs">
+                        <button type="button" class="news-tab" aria-pressed="false" data-time="vandaag">Vandaag</button>
+                        <button type="button" class="news-tab" aria-pressed="false" data-time="weekend">Weekend</button>
+                    </nav>
+                    <div class="agenda-age">
+                        <button type="button" class="news-tab" id="agendaAgeToggle" aria-pressed="false">Leeftijd</button>
+                        <input id="agendaAge" type="range" min="1" max="5" step="1" value="1" disabled aria-label="Leeftijd van kind tot senior">
+                        <span id="agendaAgeLabel">Kind</span>
+                    </div>
+                    <nav class="news-tabs links-tabs agenda-filter-tabs" aria-label="Soort" id="agendaViewTabs">
                         <button type="button" class="news-tab" aria-pressed="false" data-agenda-filter="film">Film</button>
-                        <button type="button" class="news-tab" aria-pressed="false" data-agenda-filter="vergadering">Vergadering</button>
+                        <button type="button" class="news-tab" aria-pressed="false" data-agenda-filter="club">Club</button>
+                        <button type="button" class="news-tab" aria-pressed="false" data-agenda-filter="muziek">Muziek</button>
                     </nav>
                     <span class="agenda-count" id="agendaCount">Evenementen laden…</span>
                 </div>
@@ -122,7 +136,7 @@
                 <div id="agendaList" class="news-digest-card" aria-label="Evenementen">
                     <p class="news-empty">Agenda laden…</p>
                 </div>
-                <p class="agenda-source-note" id="agendaSourceNote">Zelfde agenda als de dagelijkse update. Filters tellen samen: Kinderen én Film toont kinderfilms.</p>
+                <p class="agenda-source-note" id="agendaSourceNote">Bewaar zet je huidige keuze op dit apparaat. Mijn filter zet die keuze weer aan.</p>
             </section>
 
             <!-- Links-panel (zelfde stijl als nieuws) -->
