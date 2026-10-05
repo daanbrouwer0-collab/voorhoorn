@@ -109,20 +109,20 @@
                     </nav>
                 </div>
 
-                <nav class="news-tabs links-tabs agenda-filter-tabs" role="tablist" aria-label="Agenda's" id="agendaViewTabs">
-                    <button type="button" class="news-tab is-active" role="tab" aria-selected="true" data-agenda-view="stad">Stad</button>
-                    <button type="button" class="news-tab" role="tab" aria-selected="false" data-agenda-view="kinderen">Voor kinderen</button>
-                    <button type="button" class="news-tab" role="tab" aria-selected="false" data-agenda-view="raad">Gemeenteraad</button>
-                </nav>
-
                 <div class="agenda-toolbar">
+                    <input type="search" id="agendaSearch" class="agenda-search" placeholder="Zoek titel, plek of bron" autocomplete="off" aria-label="Zoek in de agenda">
+                    <nav class="news-tabs links-tabs agenda-filter-tabs" aria-label="Filters" id="agendaViewTabs">
+                        <button type="button" class="news-tab" aria-pressed="false" data-agenda-filter="kinderen">Kinderen</button>
+                        <button type="button" class="news-tab" aria-pressed="false" data-agenda-filter="film">Film</button>
+                        <button type="button" class="news-tab" aria-pressed="false" data-agenda-filter="vergadering">Vergadering</button>
+                    </nav>
                     <span class="agenda-count" id="agendaCount">Evenementen laden…</span>
                 </div>
 
                 <div id="agendaList" class="news-digest-card" aria-label="Evenementen">
                     <p class="news-empty">Agenda laden…</p>
                 </div>
-                <p class="agenda-source-note" id="agendaSourceNote">Bronnen: Kom naar Hoorn, Manifesto, Netwerk Hoorn · <a href="https://komnaarhoorn.nl/agenda/" target="_blank" rel="noopener noreferrer">Volledige agenda</a></p>
+                <p class="agenda-source-note" id="agendaSourceNote">Zelfde agenda als de dagelijkse update. Filters tellen samen: Kinderen én Film toont kinderfilms.</p>
             </section>
 
             <!-- Links-panel (zelfde stijl als nieuws) -->

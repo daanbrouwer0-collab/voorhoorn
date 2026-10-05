@@ -201,6 +201,45 @@ body {
     gap: 0.55rem;
 }
 
+.agenda-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin: 0 0 10px;
+}
+
+.agenda-search {
+    flex: 1 1 12rem;
+    min-width: 0;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.22);
+    color: var(--text-main);
+    font: inherit;
+    font-size: 0.85rem;
+    padding: 7px 12px;
+}
+
+.agenda-search:focus {
+    outline: 1px solid color-mix(in srgb, var(--news-accent) 55%, transparent);
+}
+
+.agenda-toolbar .agenda-filter-tabs {
+    margin: 0;
+}
+
+.agenda-toolbar .news-tab[aria-pressed="true"] {
+    background: var(--news-accent-soft);
+    color: #fff;
+}
+
+.agenda-count {
+    margin-left: auto;
+    font-size: 0.78rem;
+    color: var(--text-subtle);
+}
+
 .agenda-source-note {
     margin: 10px 2px 0;
     font-size: 0.78rem;
