@@ -242,13 +242,12 @@ function kindHit(event, chip) {
 }
 
 function matchesChips(event) {
-  const kinds = ["film", "club", "muziek"];
   const on = agendaFilters.chips;
-  const off = kinds.filter((chip) => !on.includes(chip));
   if (!on.length) return false;
-  const allowed = on.length === 3 || on.some((chip) => kindHit(event, chip));
   const visible =
-    agendaFilters.kindJoin === "and" ? allowed && off.every((chip) => !kindHit(event, chip)) : allowed;
+    agendaFilters.kindJoin === "and"
+      ? on.every((chip) => kindHit(event, chip))
+      : on.some((chip) => kindHit(event, chip));
   if (!visible) return false;
   if (agendaFilters.gemeente && !isRaadEvent(event)) return false;
   return true;
