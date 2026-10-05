@@ -12,7 +12,7 @@ const AGENDA_DATE_LABELS = {
   this_year: "Alles",
 };
 
-const AGENDA_NOTE = "Bewaar zet je huidige keuze op dit apparaat. Mijn filter zet die keuze weer aan.";
+const AGENDA_NOTE = "Film, Club en Muziek aan betekent zichtbaar. Alles aan toont alles, alles uit toont niets.";
 const AGENDA_FILTER_KEY = "voorhoorn-agenda-custom";
 const AGE_LABELS = ["Kind", "Kind en volwassen", "Volwassen", "Volwassen en senior", "Senior"];
 const AGE_BANDS = [
@@ -42,7 +42,7 @@ let agendaFilters = {
   time: "",
   ageOn: false,
   age: 1,
-  chips: [],
+  chips: ["film", "club", "muziek"],
   gemeente: false,
   query: "",
   customOn: false,
@@ -234,11 +234,14 @@ function matchesAge(event) {
 }
 
 function matchesChips(event) {
-  for (const chip of agendaFilters.chips) {
-    if (chip === "film" && !isFilmEvent(event)) return false;
-    if (chip === "club" && !isClubEvent(event)) return false;
-    if (chip === "muziek" && !isMusicEvent(event)) return false;
-  }
+  const on = agendaFilters.chips;
+  if (!on.length) return false;
+  const visible =
+    on.length === 3 ||
+    (on.includes("film") && isFilmEvent(event)) ||
+    (on.includes("club") && isClubEvent(event)) ||
+    (on.includes("muziek") && isMusicEvent(event));
+  if (!visible) return false;
   if (agendaFilters.gemeente && !isRaadEvent(event)) return false;
   return true;
 }
@@ -355,7 +358,7 @@ function bindAgendaViewTabs() {
     if (agendaFilters.customOn) {
       agendaFilters.time = "";
       agendaFilters.ageOn = false;
-      agendaFilters.chips = [];
+      agendaFilters.chips = ["film", "club", "muziek"];
       agendaFilters.gemeente = false;
       agendaFilters.customOn = false;
       syncFilterControls();
