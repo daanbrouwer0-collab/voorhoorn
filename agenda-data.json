@@ -1,100 +1,22 @@
 {
-  "updated": "2026-10-04T20:18:22.555Z",
-  "failedSources": [],
-  "count": 660,
+  "updated": "2026-10-05T14:37:53.508Z",
+  "failedSources": [
+    {
+      "id": "popronde",
+      "label": "Popronde",
+      "error": "Bron gaf 403"
+    }
+  ],
+  "count": 655,
   "lagen": {
-    "Optreden": 390,
-    "Verzameling": 65,
-    "Reeks": 144,
-    "Festival": 6,
+    "Reeks": 145,
+    "Optreden": 389,
+    "Verzameling": 60,
+    "Festival": 5,
     "Vergadering": 27,
-    "Optreden, Verzameling": 28
+    "Optreden, Verzameling": 29
   },
   "events": [
-    {
-      "datum": "2026-10-04",
-      "tijd": "15:00",
-      "titel": "“Het antwoord op miscommunicatie” door Bart Molenaar",
-      "beschrijving": "Afghanistan, 2005 Tijdens een nachtelijke bevoorradingsmissie stort de Chinook-helikopter van vlieger Bart Molenaar en zijn bemanning neer. Wat volgt, is een intense strijd om te overleven én een confronterende zoektocht naar de waarheid. Hoe kon dit gebeuren, en wat zegt dit over hoe wij communiceren en samenwerken? In deze lezing neemt Bart u mee in de spanning van die nacht, het onderzoek dat volgde en de menselij",
-      "categorie": "Lezing",
-      "locatie": "Het Pakhuis, Zaal 1 – Theater Het Pakhuis",
-      "leeftijd": "Onbekend",
-      "prijs": "€2,50–€23",
-      "interval": "Eenmalig",
-      "laag": "Optreden",
-      "bron": "Het Pakhuis",
-      "link": "https://www.pakhuishoorn.nl/voorstelling/het-antwoord-op-miscommunicatie-door-bart-molenaar/"
-    },
-    {
-      "datum": "2026-10-04",
-      "tijd": "10:00–14:00",
-      "titel": "BLOEMEN PLUKKEN MET DE KLEINTJES",
-      "beschrijving": "Een fleurige activiteit voor jong en oud!",
-      "categorie": "Onbekend",
-      "locatie": "By Lobke",
-      "leeftijd": "Kind",
-      "prijs": "Onbekend",
-      "interval": "Onbekend",
-      "laag": "Verzameling",
-      "bron": "Kom naar Hoorn",
-      "link": "https://komnaarhoorn.nl/agenda/bloemen-plukken-bylobke/"
-    },
-    {
-      "datum": "2026-10-04",
-      "tijd": "13:00–18:00",
-      "titel": "Bokken & Happen",
-      "beschrijving": "Bokbier & heerlijke hapjes in 5 cafés.",
-      "categorie": "Onbekend",
-      "locatie": "Horeca in het centrum",
-      "leeftijd": "Onbekend",
-      "prijs": "Onbekend",
-      "interval": "Onbekend",
-      "laag": "Verzameling",
-      "bron": "Kom naar Hoorn",
-      "link": "https://komnaarhoorn.nl/agenda/bokken-happen/"
-    },
-    {
-      "datum": "2026-10-04",
-      "tijd": "13:00–16:00",
-      "titel": "Family Fun XL",
-      "beschrijving": "Ontdek het plezier van schaatsen! Er zijn deze middag veel speelattributen voor de kids.",
-      "categorie": "Schaatsen",
-      "locatie": "IJsbaan de Westfries",
-      "leeftijd": "Kind",
-      "prijs": "Onbekend",
-      "interval": "Onbekend",
-      "laag": "Verzameling",
-      "bron": "Kom naar Hoorn",
-      "link": "https://komnaarhoorn.nl/agenda/familie-funmiddag/"
-    },
-    {
-      "datum": "2026-10-04",
-      "tijd": "09:30–12:30",
-      "titel": "Kleine schatten markt",
-      "beschrijving": "Vinted, maar dan in RL! Een markt voor jonge ouders, bomvol met tweedehands baby- en kinderkleding en veel meer!",
-      "categorie": "Markt",
-      "locatie": "Cultureel Centrum De Plataan in Zwaag",
-      "leeftijd": "Kind",
-      "prijs": "Onbekend",
-      "interval": "Onbekend",
-      "laag": "Verzameling",
-      "bron": "Kom naar Hoorn",
-      "link": "https://komnaarhoorn.nl/agenda/kleine-schatten-markt/"
-    },
-    {
-      "datum": "2026-10-04",
-      "tijd": "19:30–21:16",
-      "titel": "The Match",
-      "beschrijving": "Veertig jaar na een legendarische WK-wedstrijd blikt deze documentaire terug op de historische rivaliteit tussen Engeland en Argentinië, met Diego Maradona als onvergetelijke hoofdrolspeler. Mexico, 1986. Engeland en Argentinië staan tegenover elkaar in de kwartfinale van het wereldkampioenschap voetbal. Vier jaar na de Falklandoorlog is de spanning tussen beide landen nog altijd voelbaar. Wat voor de buitenwereld ee",
-      "categorie": "Voetbal",
-      "locatie": "Cinema Oostereiland",
-      "leeftijd": "Onbekend",
-      "prijs": "Onbekend",
-      "interval": "Onbekend",
-      "laag": "Verzameling",
-      "bron": "inHoorn",
-      "link": "https://www.inhoorn.nl/agenda-item/the-match/"
-    },
     {
       "datum": "2026-10-05",
       "tijd": "10:00–11:00",
@@ -125,7 +47,7 @@
     },
     {
       "datum": "2026-10-05",
-      "tijd": "16:00–19:46",
+      "tijd": "19:30–23:16",
       "titel": "Avengers: Endgame Encore",
       "beschrijving": "Het epische slotstuk van de Infinity Saga keert op 23 september 2026 tijdelijk terug naar de bioscoop met Avengers: Endgame – Encore. Zaal 7 INFINITY VISION, D-Box",
       "categorie": "Film",
@@ -135,7 +57,7 @@
       "interval": "Onbekend",
       "laag": "Optreden",
       "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000198/3595"
+      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000198/3588"
     },
     {
       "datum": "2026-10-05",
@@ -167,84 +89,17 @@
     },
     {
       "datum": "2026-10-05",
-      "tijd": "13:20–16:09",
+      "tijd": "21:00–23:49",
       "titel": "Digger",
-      "beschrijving": "Alejandro G. Iñárritu, de met een Oscar bekroonde filmmaker, keert terug met de film Digger, met Tom Cruise in de titelrol. Zaal 7 D-Box, Dolby Atmos",
+      "beschrijving": "Alejandro G. Iñárritu, de met een Oscar bekroonde filmmaker, keert terug met de film Digger, met Tom Cruise in de titelrol. Zaal 4",
       "categorie": "Film",
       "locatie": "Vue Hoorn, Westfriese Parkweg 3",
       "leeftijd": "Jongere",
-      "prijs": "€13,25",
+      "prijs": "€12",
       "interval": "Onbekend",
       "laag": "Optreden",
       "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000173/3590"
-    },
-    {
-      "datum": "2026-10-05",
-      "tijd": "13:00–15:00",
-      "titel": "Digitaal inloopspreekuur",
-      "beschrijving": "Elke week · Heb je vragen over je smartphone, tablet, laptop of iets anders digitaals? Bij het spreekuur helpen we je graag verder. Neem, indien mogelijk, het apparaat waar je vragen over hebt mee naar de bibliotheek.",
-      "categorie": "Lezing",
-      "locatie": "Bibliotheek Centrum, Wisselstraat 8",
-      "leeftijd": "Onbekend",
-      "prijs": "Onbekend",
-      "interval": "Wekelijks",
-      "laag": "Reeks",
-      "bron": "Bibliotheek",
-      "link": "https://www.bibliotheekhoorn.nl/doen/Agenda/digitaal-spreekuurmaandag.05102026.html",
-      "komende": [
-        "2026-10-05",
-        "2026-10-08",
-        "2026-10-12",
-        "2026-10-15",
-        "2026-10-19",
-        "2026-10-22",
-        "2026-10-26",
-        "2026-10-29",
-        "2026-11-02",
-        "2026-11-05",
-        "2026-11-09",
-        "2026-11-12",
-        "2026-11-16",
-        "2026-11-19",
-        "2026-11-23",
-        "2026-11-26",
-        "2026-11-30",
-        "2026-12-03",
-        "2026-12-07",
-        "2026-12-10",
-        "2026-12-14",
-        "2026-12-17",
-        "2026-12-21"
-      ]
-    },
-    {
-      "datum": "2026-10-05",
-      "tijd": "14:00–16:00",
-      "titel": "Formulierenbrigade | Inloopspreekuur",
-      "beschrijving": "Elke week · De Formulierenbrigade biedt gratis hulp en uitleg bij het invullen van formulieren en correspondentie met instanties. Elke week bij Bibliotheek Centrum in Hoorn.",
-      "categorie": "Boek",
-      "locatie": "Bibliotheek Centrum, Wisselstraat 8",
-      "leeftijd": "Onbekend",
-      "prijs": "Gratis",
-      "interval": "Wekelijks",
-      "laag": "Reeks",
-      "bron": "Bibliotheek",
-      "link": "https://www.bibliotheekhoorn.nl/doen/Agenda/formulierenbrigade.05102026.html",
-      "komende": [
-        "2026-10-05",
-        "2026-10-12",
-        "2026-10-19",
-        "2026-10-26",
-        "2026-11-02",
-        "2026-11-09",
-        "2026-11-16",
-        "2026-11-23",
-        "2026-11-30",
-        "2026-12-07",
-        "2026-12-14",
-        "2026-12-21"
-      ]
+      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000173/3582"
     },
     {
       "datum": "2026-10-05",
@@ -276,9 +131,9 @@
     },
     {
       "datum": "2026-10-05",
-      "tijd": "16:10–18:31",
+      "tijd": "18:40–21:01",
       "titel": "Heart of the Beast",
-      "beschrijving": "Na een angstaanjagend vliegtuigongeluk komen Special Forces-officier James Belmont en zijn legerhond Odin diep in de wildernis van Alaska terecht. Zaal 6",
+      "beschrijving": "Na een angstaanjagend vliegtuigongeluk komen Special Forces-officier James Belmont en zijn legerhond Odin diep in de wildernis van Alaska terecht. Zaal 1",
       "categorie": "Film",
       "locatie": "Vue Hoorn, Westfriese Parkweg 3",
       "leeftijd": "Volwassene",
@@ -286,21 +141,7 @@
       "interval": "Onbekend",
       "laag": "Optreden",
       "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000395/3591"
-    },
-    {
-      "datum": "2026-10-05",
-      "tijd": "15:40–18:09",
-      "titel": "Het Vergeten Eiland",
-      "beschrijving": "DreamWorks Animation komt met een schitterend emotioneel verhaal over twee hartsvriendinnen die dichter tot elkaar moeten komen voor ze uit elkaar groeien Zaal 1 NL",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Kind",
-      "prijs": "€10",
-      "interval": "Onbekend",
-      "laag": "Optreden",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000455/3597"
+      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000395/3586"
     },
     {
       "datum": "2026-10-05",
@@ -371,20 +212,6 @@
       "laag": "Reeks",
       "bron": "Stichting Netwerk",
       "link": "https://netwerkhoorn.nl/activiteit/low-impact-wandelen"
-    },
-    {
-      "datum": "2026-10-05",
-      "tijd": "16:00–18:10",
-      "titel": "Minions & Monsters (NL)",
-      "beschrijving": "Van de grootste animatiefranchise ooit is hier nu Minions & Monsters wordt geregisseerd door Pierre Coffin, een van de regisseurs van de eerste drie Despicable Me-films en de eerste Minions-film. Zaal 4 NL",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Kind",
-      "prijs": "€10",
-      "interval": "Onbekend",
-      "laag": "Optreden",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000327/3594"
     },
     {
       "datum": "2026-10-05",
@@ -459,20 +286,6 @@
       "laag": "Reeks",
       "bron": "Stichting Netwerk",
       "link": "https://netwerkhoorn.nl/activiteit/nederlandse-taalles-voor-gevorderden-in-kersenboogerd-maandagavond-2026-2027-blok-1"
-    },
-    {
-      "datum": "2026-10-05",
-      "tijd": "11:00–13:20",
-      "titel": "Pressure",
-      "beschrijving": "Pressure is het meeslepende, waargebeurde verhaal van de uitermate stressvolle 72 uur voorafgaand aan D-Day waarin keuzes gemaakt moeten worden die de loop Zaal 6",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Jongere",
-      "prijs": "€12",
-      "interval": "Eenmalig",
-      "laag": "Optreden",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000423/3661"
     },
     {
       "datum": "2026-10-05",
@@ -560,20 +373,6 @@
     },
     {
       "datum": "2026-10-05",
-      "tijd": "12:30–15:35",
-      "titel": "Spider-Man: Brand New Day",
-      "beschrijving": "Na het wereldwijde kassucces van Spider-Man: No Way Home begint er met Spider-Man: Brand New Day compleet nieuw hoofdstuk voor Peter Parker en Spider-Man. Zaal 4",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Jongere",
-      "prijs": "€12",
-      "interval": "Onbekend",
-      "laag": "Optreden",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000166/3599"
-    },
-    {
-      "datum": "2026-10-05",
       "tijd": "16:00–17:30",
       "titel": "Sportinloop De Cogge",
       "beschrijving": "Zin om lekker te bewegen? Kom dan naar de Sportinloop in Sporthal De Opgang (Naast Jongerencentrum De Cogge)! Iedere maandag van 16.00 tot 17.30 uur kun je",
@@ -588,9 +387,9 @@
     },
     {
       "datum": "2026-10-05",
-      "tijd": "13:40–15:49",
+      "tijd": "18:30–20:39",
       "titel": "Sugar",
-      "beschrijving": "Chyna is dé stylist van de buurt. In de kapsalon die ze runt met haar zussen wordt ze niet alleen bewonderd om haar talent, maar ook omdat ze de vriendin is van Raoul Zaal 6 NL",
+      "beschrijving": "Chyna is dé stylist van de buurt. In de kapsalon die ze runt met haar zussen wordt ze niet alleen bewonderd om haar talent, maar ook omdat ze de vriendin is van Raoul Zaal 4 NL",
       "categorie": "Film",
       "locatie": "Vue Hoorn, Westfriese Parkweg 3",
       "leeftijd": "Volwassene",
@@ -598,11 +397,11 @@
       "interval": "Onbekend",
       "laag": "Optreden",
       "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000487/3660"
+      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000487/3659"
     },
     {
       "datum": "2026-10-05",
-      "tijd": "12:00–15:33",
+      "tijd": "20:10–23:43",
       "titel": "The Odyssey",
       "beschrijving": "Christopher Nolans nieuwe film The Odyssey is een avontuurlijk mythisch epos dat op locaties over de hele wereld is opgenomen. Zaal 5 Flitsende beelden",
       "categorie": "Film",
@@ -612,7 +411,7 @@
       "interval": "Onbekend",
       "laag": "Optreden",
       "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000135/3598"
+      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000135/3587"
     },
     {
       "datum": "2026-10-05",
@@ -630,17 +429,17 @@
     },
     {
       "datum": "2026-10-05",
-      "tijd": "12:40–15:17",
+      "tijd": "16:30–19:07",
       "titel": "Verity",
       "beschrijving": "Het verhaal volgt een noodlijdende schrijfster die tijdelijk naar het afgelegen landhuis van de Crawfords verhuist om als ghostwriter voor Verity te werken. Zaal 7 D-Box, Dolby Atmos",
       "categorie": "Film",
       "locatie": "Vue Hoorn, Westfriese Parkweg 3",
       "leeftijd": "Jongere",
-      "prijs": "€12",
+      "prijs": "€13,25",
       "interval": "Onbekend",
       "laag": "Optreden",
       "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000397/3589"
+      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000397/3593"
     },
     {
       "datum": "2026-10-05",
@@ -1491,7 +1290,7 @@
       "locatie": "Vue Hoorn, Westfriese Parkweg 3",
       "leeftijd": "Alle leeftijden",
       "prijs": "€10",
-      "interval": "Eenmalig",
+      "interval": "Onbekend",
       "laag": "Optreden",
       "bron": "Vue Hoorn",
       "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000493/3623"
@@ -1701,7 +1500,7 @@
       "locatie": "Vue Hoorn, Westfriese Parkweg 3",
       "leeftijd": "Kind",
       "prijs": "€10",
-      "interval": "Onbekend",
+      "interval": "Eenmalig",
       "laag": "Optreden",
       "bron": "Vue Hoorn",
       "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000327/3632"
@@ -2085,7 +1884,7 @@
     },
     {
       "datum": "2026-10-08",
-      "tijd": "21:00–23:00",
+      "tijd": "21:00–22:55",
       "titel": "De Tatta's: Daan",
       "beschrijving": "Daan wil maar één ding: indruk maken op z'n crush Layla. Hij belooft spontaan het meest epische cadeau ooit te fixen voor haar verjaardagsfeest. Zaal 5 NL",
       "categorie": "Film",
@@ -2096,6 +1895,44 @@
       "laag": "Optreden",
       "bron": "Vue Hoorn",
       "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000534/3563"
+    },
+    {
+      "datum": "2026-10-08",
+      "tijd": "13:00–15:00",
+      "titel": "Digitaal inloopspreekuur",
+      "beschrijving": "Elke week · Heb je vragen over je smartphone, tablet, laptop of iets anders digitaals? Bij het spreekuur helpen we je graag verder. Neem, indien mogelijk, het apparaat waar je vragen over hebt mee naar de bibliotheek.",
+      "categorie": "Lezing",
+      "locatie": "Bibliotheek Centrum, Wisselstraat 8",
+      "leeftijd": "Onbekend",
+      "prijs": "Onbekend",
+      "interval": "Wekelijks",
+      "laag": "Reeks",
+      "bron": "Bibliotheek",
+      "link": "https://www.bibliotheekhoorn.nl/doen/Agenda/digitaal-spreekuur.08102026.html",
+      "komende": [
+        "2026-10-08",
+        "2026-10-12",
+        "2026-10-15",
+        "2026-10-19",
+        "2026-10-22",
+        "2026-10-26",
+        "2026-10-29",
+        "2026-11-02",
+        "2026-11-05",
+        "2026-11-09",
+        "2026-11-12",
+        "2026-11-16",
+        "2026-11-19",
+        "2026-11-23",
+        "2026-11-26",
+        "2026-11-30",
+        "2026-12-03",
+        "2026-12-07",
+        "2026-12-10",
+        "2026-12-14",
+        "2026-12-17",
+        "2026-12-21"
+      ]
     },
     {
       "datum": "2026-10-08",
@@ -2224,7 +2061,7 @@
     },
     {
       "datum": "2026-10-08",
-      "tijd": "15:00–17:47",
+      "tijd": "15:00–17:42",
       "titel": "Michael",
       "beschrijving": "Michael is het filmportret van het leven en de artistieke nalatenschap van een van de meest invloedrijke artiesten die de wereld ooit heeft gekend. Zaal 5 Vue Plus",
       "categorie": "Film",
@@ -2647,7 +2484,7 @@
       "locatie": "Vue Hoorn, Westfriese Parkweg 3",
       "leeftijd": "Jongere",
       "prijs": "€12",
-      "interval": "Eenmalig",
+      "interval": "Onbekend",
       "laag": "Optreden",
       "bron": "Vue Hoorn",
       "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000555/3204"
@@ -2735,6 +2572,34 @@
       "laag": "Optreden, Verzameling",
       "bron": "Het Park, inHoorn, Uitagenda",
       "link": "https://www.inhoorn.nl/agenda-item/wij-zijn-toch-familie/"
+    },
+    {
+      "datum": "2026-10-11",
+      "tijd": "11:00–12:54",
+      "titel": "De Grote Sinterklaasfilm en de Vliegende Pieten",
+      "beschrijving": "Nederland wordt getroffen door extreem winterweer en Pakjesavond dreigt letterlijk in de sneeuw te vallen. Zaal 7 Mini Mornings, Donald Duck, NL",
+      "categorie": "Film",
+      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
+      "leeftijd": "Alle leeftijden",
+      "prijs": "€10",
+      "interval": "Onbekend",
+      "laag": "Optreden",
+      "bron": "Vue Hoorn",
+      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000493/3396"
+    },
+    {
+      "datum": "2026-10-11",
+      "tijd": "17:00–20:22",
+      "titel": "Lalka",
+      "beschrijving": "Zaal 1 Poolse Film",
+      "categorie": "Film",
+      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
+      "leeftijd": "Jongere",
+      "prijs": "€12",
+      "interval": "Onbekend",
+      "laag": "Optreden",
+      "bron": "Vue Hoorn",
+      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000555/3205"
     },
     {
       "datum": "2026-10-11",
@@ -2850,6 +2715,33 @@
     },
     {
       "datum": "2026-10-12",
+      "tijd": "14:00–16:00",
+      "titel": "Formulierenbrigade | Inloopspreekuur",
+      "beschrijving": "Elke week · De Formulierenbrigade biedt gratis hulp en uitleg bij het invullen van formulieren en correspondentie met instanties. Elke week bij Bibliotheek Centrum in Hoorn.",
+      "categorie": "Boek",
+      "locatie": "Bibliotheek Centrum, Wisselstraat 8",
+      "leeftijd": "Onbekend",
+      "prijs": "Gratis",
+      "interval": "Wekelijks",
+      "laag": "Reeks",
+      "bron": "Bibliotheek",
+      "link": "https://www.bibliotheekhoorn.nl/doen/Agenda/formulierenbrigade.12102026.html",
+      "komende": [
+        "2026-10-12",
+        "2026-10-19",
+        "2026-10-26",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-11-23",
+        "2026-11-30",
+        "2026-12-07",
+        "2026-12-14",
+        "2026-12-21"
+      ]
+    },
+    {
+      "datum": "2026-10-12",
       "tijd": "13:30–14:30",
       "titel": "Theaterhelden Academy",
       "beschrijving": "Kindertheaterweek",
@@ -2907,21 +2799,7 @@
     {
       "datum": "2026-10-13",
       "tijd": "17:00–20:30",
-      "titel": "Lichtjesavond dinsdag 13 oktober",
-      "beschrijving": "Ook dit jaar sluiten we het speelseizoen af met een betoverende Lichtjesavond in de leukste speeltuin van Hoorn: stadsspeeltuin De Speelhoorn. Het thema dit j",
-      "categorie": "Onbekend",
-      "locatie": "Stadsspeeltuin De Speelhoorn",
-      "leeftijd": "Kind",
-      "prijs": "Onbekend",
-      "interval": "Onbekend",
-      "laag": "Reeks",
-      "bron": "Stichting Netwerk",
-      "link": "https://netwerkhoorn.nl/activiteit/lichtjesavond-dinsdag-13-oktober"
-    },
-    {
-      "datum": "2026-10-13",
-      "tijd": "18:00–20:30",
-      "titel": "Lichtjesavond woensdag 13 oktober (vanaf 18 uur)",
+      "titel": "Lichtjesavond dinsdag 13 oktober (vanaf 18 uur)",
       "beschrijving": "Ook dit jaar sluiten we het speelseizoen af met een betoverende Lichtjesavond in de leukste speeltuin van Hoorn: stadsspeeltuin De Speelhoorn. Het thema dit ja",
       "categorie": "Onbekend",
       "locatie": "Stadsspeeltuin De Speelhoorn",
@@ -2930,7 +2808,7 @@
       "interval": "Onbekend",
       "laag": "Reeks",
       "bron": "Stichting Netwerk",
-      "link": "https://netwerkhoorn.nl/activiteit/lichtjesavond-woensdag-13-oktober-vanaf-18-uur"
+      "link": "https://netwerkhoorn.nl/activiteit/lichtjesavond-dinsdag-13-oktober-vanaf-18-uur"
     },
     {
       "datum": "2026-10-13",
@@ -3153,7 +3031,7 @@
       "prijs": "€69",
       "interval": "Onbekend",
       "laag": "Optreden, Verzameling",
-      "bron": "Het Park, Uitagenda",
+      "bron": "Het Park, inHoorn, Uitagenda",
       "link": "https://hetpark.nl/agenda/titanique-10352357/"
     },
     {
@@ -4068,6 +3946,20 @@
     },
     {
       "datum": "2026-10-31",
+      "tijd": "18:30–21:30",
+      "titel": "Jachtseizombie",
+      "beschrijving": "Tijdens Jachtseizombie speel je een spannend Jachtseizoen, maar dit keer word je opgejaagd door… zombies! Na de jacht sluiten we de avond af met een k",
+      "categorie": "Onbekend",
+      "locatie": "Wielerbaan, Holenweg 14C",
+      "leeftijd": "Jongere",
+      "prijs": "Onbekend",
+      "interval": "Onbekend",
+      "laag": "Reeks",
+      "bron": "Stichting Netwerk",
+      "link": "https://netwerkhoorn.nl/activiteit/jachtseizombie"
+    },
+    {
+      "datum": "2026-10-31",
       "tijd": "20:15–22:00",
       "titel": "Mr. Jones & Just in Case",
       "beschrijving": "From here to Las Vegas",
@@ -4564,6 +4456,20 @@
     },
     {
       "datum": "2026-11-07",
+      "tijd": "14:00–15:00",
+      "titel": "Ontmoet de wereld met Servas",
+      "beschrijving": "Hoe bijzonder is het om niet als toerist, maar als gast bij mensen thuis een ander land te ontdekken? Servas Nederland vertelt over het internationale gastvrijheidsnetwerk dat mensen wereldwijd met elkaar verbindt.",
+      "categorie": "Boek",
+      "locatie": "Bibliotheek Centrum, Wisselstraat 8",
+      "leeftijd": "Onbekend",
+      "prijs": "Gratis",
+      "interval": "Onbekend",
+      "laag": "Reeks",
+      "bron": "Bibliotheek",
+      "link": "https://www.bibliotheekhoorn.nl/doen/Agenda/servas_presentatie.html"
+    },
+    {
+      "datum": "2026-11-07",
       "tijd": "17:00–21:00",
       "titel": "The Cats Aglow Dinnershow",
       "beschrijving": "Geniet van een compleet verzorgde avond met live cooking, onbeperkt eten en drinken én muziek van The Cats Aglow!",
@@ -4752,7 +4658,7 @@
       "categorie": "Tribute",
       "locatie": "Schouwburg Het Park",
       "leeftijd": "Onbekend",
-      "prijs": "€40",
+      "prijs": "€42",
       "interval": "Eenmalig",
       "laag": "Optreden",
       "bron": "Het Park",
@@ -4970,424 +4876,17 @@
     },
     {
       "datum": "2026-11-15",
-      "tijd": "13:00–22:00",
-      "titel": "Popronde Hoorn",
-      "beschrijving": "45 optredens op 22 locaties.",
-      "categorie": "Pop",
-      "locatie": "Diverse locaties",
+      "tijd": "14:00–22:00",
+      "titel": "popronde hoorn",
+      "beschrijving": "Aanstormend muzikaal talent ontdekken en bewonderen in de binnenstad.",
+      "categorie": "Onbekend",
+      "locatie": "Binnenstad",
       "leeftijd": "Onbekend",
       "prijs": "Onbekend",
-      "interval": "Eenmalig",
-      "laag": "Festival",
-      "bron": "Popronde",
-      "link": "https://popronde.nl/steden/hoorn",
-      "programma": [
-        {
-          "tijd": "13:00",
-          "titel": "Fabienne Julie",
-          "beschrijving": "Folk, Indie. De cinematische folk van Fabienne Julie bevraagt hoopvol het leven, de liefde en haar patronen. Haar mysterieuze, melancholische verhalen vonden tijdens de Amsterdamse Popprijs al de Melkweg en Paradiso. Geïnspireerd door Patrick Watson, Florence + The Machine en Lizzy McAlpine, biedt ze haar publiek de ruimte te voelen in de mooiste en lelijkste vorm.",
-          "categorie": "Folk",
-          "locatie": "De Beiaard, Kerkplein 3",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/37371"
-        },
-        {
-          "tijd": "13:15",
-          "titel": "Wendy Moore",
-          "beschrijving": "Alternative, Pop. Donkere gitaar gedreven alt-pop, rauwe emoties en songs die onder je huid kruipen. Wendy Moore maakt muziek die voelt als een lichtpunt in het donker. Met optredens van Berlijn tot China geeft ze een stem aan dromers, buitenbeentjes en iedereen die zich ooit onzichtbaar voelde. Haar boodschap is simpel: You are seen, You are heard, and you belong.",
-          "categorie": "Pop",
-          "locatie": "Boedijn, Noorderstraat 3",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/36243"
-        },
-        {
-          "tijd": "13:30",
-          "titel": "Lucy Fabienne",
-          "beschrijving": "Pop, Country. Lucy Fabienne maakt country-pop voor dwalende harten en wannabe cowboys. Met haar kenmerkende vibrato zingt ze over opgroeien in een klein dorp, mentale problemen en het geloof. Haar missie is om buitenbeentjes een veilige haven te bieden. Eerder stond zij al op podia als 013, Het Paard en De Helling.",
-          "categorie": "Pop",
-          "locatie": "De Beiaard, Kerkplein 3",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/37244"
-        },
-        {
-          "tijd": "13:45",
-          "titel": "Marieke Schenk",
-          "beschrijving": "Pop, Nederlandstalig. Marieke Schenk: een popartiest met een krachtige, energieke liveshow. Ze stond op de ESNS '26 line-up en speelt op grote festivals. Debuutsingle Verward Persoon (38K streams) ging viraal op TikTok. Nieuwe muziek kreeg airplay op 3FM. Gemixt met rock maakt ze rauwe, catchy songs, geïnspireerd door Pommelien Thijs, voor wie ze de aftershow speelde in AFAS Live",
-          "categorie": "Pop",
-          "locatie": "Boedijn, Noorderstraat 3",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/36521"
-        },
-        {
-          "tijd": "14:00",
-          "titel": "Angelo Benson",
-          "beschrijving": "Pop, Soul. Angelo Benson is in de basis een popartiest. Zijn muziek is een mengeling van bombastische pop met een soulvolle boventoon en meeslepende donkere ballads. Kwetsbare Engelstalige teksten over onbereikbare liefde, verlangen en onzekerheid nemen je mee in een dreigende wanhoop. Met zijn aangrijpende stemgeluid laat Angelo het publiek ontwapend achter.",
-          "categorie": "Pop",
-          "locatie": "De Beiaard, Kerkplein 3",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/37368"
-        },
-        {
-          "tijd": "14:00",
-          "titel": "RubinCarter",
-          "beschrijving": "Indie, Alternative. RubinCarter is het soloproject van Sal Rubinstein (Queen’s Pleasure). Hoewel zijn hart bij drums lag, groeide de drang om zelf songs te schrijven. Jarenlang hield hij die voor zich en speelde alleen in zijn eigen kamer. Geïnspireerd door grootheden als Bob Dylan en Leonard Cohen brengt hij nu eigen werk: eerlijke storytelling met rauwe garagerock-energie.",
-          "categorie": "Indie",
-          "locatie": "Schouwburg Het Park, Westerdijk 4",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/36916"
-        },
-        {
-          "tijd": "14:30",
-          "titel": "Maxime",
-          "beschrijving": "Singer/songwriter, Indie. Muziek is voor Maxime een plek van begrip, een omhelzing voor de ziel. Ze maakt Nederlandstalige indiepop waarbij klassieke elementen zoals akoestische gitaar, piano en meerstemmigheid samenkomen met elektronische invloeden. Meeslepend, doordacht en bedoeld om te raken. Denk Billie Eilish, Raye, MARO en Froukje. Te boeken als solo- of duo-act.",
-          "categorie": "Singer/songwriter",
-          "locatie": "Proeflokaal Charlies, Dubbele Buurt 4",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/36817"
-        },
-        {
-          "tijd": "14:30",
-          "titel": "SUUS",
-          "beschrijving": "Indie, Pop. SUUS verpakt ongemak in glitter. Achter haar vrolijke, dansbare sound schuilt een scherpe blik op opgroeien als vrouw binnen de gen-z generatie. Haar songs balanceren tussen licht en gelaagd, speels en eerlijk, met heel veel subtiel sarcasme.",
-          "categorie": "Pop",
-          "locatie": "HEMA, Gouw 4-14",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/36633"
-        },
-        {
-          "tijd": "14:45",
-          "titel": "tays",
-          "beschrijving": "Hip Hop, Pop. In de wereld van tays botst onrust met zachte symmetrie, de muziek kwetsbaar als een bloem en dwingend als het nu. Hiphop en alt-pop dansen om elkaar heen in een show die vergankelijkheid een gezicht geeft. Na ESNS 2026 en Paradiso brengt de Hit The North-alumnus zijn ontworteling naar het podium als een kind in het pak van een man.",
-          "categorie": "Pop",
-          "locatie": "Noorderkerk, Kleine Noord 32",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/37037"
-        },
-        {
-          "tijd": "14:45",
-          "titel": "Wilson A.",
-          "beschrijving": "Alternative, Electro. Wat begon als een mislukte boekenclub ontspoorde al snel tot Wilson A.: een vierkoppig gezelligheidscollectief gewapend met gitaren en oldschool synthesizers. Een slonzige blend van electropunk en gruizige garagerock zorgt voor liveshows vol ongemak, plezier en een rits aan dansbangers voor mensen die clubs liever vermijden.",
-          "categorie": "Alternative",
-          "locatie": "Blue Striker, Grote Noord 130",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/37482"
-        },
-        {
-          "tijd": "15:00",
-          "titel": "Imme",
-          "beschrijving": "Pop, Jazz. Imme is een singer-songwriter met een krachtige, warme stem. Ze brengt een eigen mix van pop, soul en jazz, geïnspireerd door Norah Jones, Eloise en Olivia Dean. Met karakteristiek gitaarspel, sterke vocalen en soulvolle arrangementen met blazers beweegt ze moeiteloos tussen intieme luisterliedjes en moderne grooves.",
-          "categorie": "Jazz",
-          "locatie": "Westfries Museum (locatie Ceciliakapel), Nieuwsteeg 42",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/37060"
-        },
-        {
-          "tijd": "15:15",
-          "titel": "LAHAYE",
-          "beschrijving": "Singer/songwriter, Indie. Met sterke gevoelens in een zacht stemgeluid nodigt LAHAYE je uit om écht te luisteren. Ze vertaalt de teksten uit haar dagboek naar dromerige indiepop songs vol warme gitaarklanken en zachte melodieën. Geïnspireerd door artiesten als Lizzy McAlpine, Alanis Morissette en Phoebe Bridgers is ze op een missie om gevoelig zijn weer cool te maken.",
-          "categorie": "Singer/songwriter",
-          "locatie": "Het Koffielokaal, 't Glop 7",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/36797"
-        },
-        {
-          "tijd": "15:15",
-          "titel": "MAYTE",
-          "beschrijving": "Pop, Alternative. Eigenwijze alt-pop met Fryske teksten, recht uit het hart. Geïnspireerd door o.a. PJ Harvey, Tori Amos en met thema's als verloren liefdes en opgroeien, neemt MAYTE je mee in haar explosieve, theatrale performance. In 2025 won ze de Kleine Prijs van Friesland, Fries songfestival LIET én de Bernlefpriis. In 2026 debuteert ze met haar EP \"Himel Iepen\".",
-          "categorie": "Pop",
-          "locatie": "Schouwburg Het Park, Westerdijk 4",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/36950"
-        },
-        {
-          "tijd": "15:15",
-          "titel": "WABR",
-          "beschrijving": "Electro, Nederlandstalig. WABR zoekt in Nederlandse teksten en speelse elektronische muziek naar de balans tussen realiteit en simulatie. Ontstaan in onze slaapkamerstudio met één regel: we zeggen altijd ja. De invloeden lopen van Mura Masa tot Doe Maar en retro game-muziek. We bespreken dokters, tijdgebrek en allerlei andere vage zaken. Neem het niet te serieus, of juist wel.",
-          "categorie": "Spel",
-          "locatie": "Kinki Kappers, Gouw 28",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/37243"
-        },
-        {
-          "tijd": "15:30",
-          "titel": "Day Mosh",
-          "beschrijving": "Onbekend",
-          "categorie": "Onbekend",
-          "locatie": "GOOS, Kerkplein 35",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/37678"
-        },
-        {
-          "tijd": "15:30",
-          "titel": "Eyesores",
-          "beschrijving": "Onbekend",
-          "categorie": "Onbekend",
-          "locatie": "'t Kroegie, Kerkplein 1",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/36557"
-        },
-        {
-          "tijd": "15:45",
-          "titel": "Mees",
-          "beschrijving": "Onbekend",
-          "categorie": "Onbekend",
-          "locatie": "'t Drietje, Dubbele Buurt 3",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/37509"
-        },
-        {
-          "tijd": "15:45",
-          "titel": "Merle",
-          "beschrijving": "Onbekend",
-          "categorie": "Onbekend",
-          "locatie": "HEMA, Gouw 4-14",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/37682"
-        },
-        {
-          "tijd": "16:00",
-          "titel": "Anna Joan",
-          "beschrijving": "Onbekend",
-          "categorie": "Onbekend",
-          "locatie": "De Boterhal, Kerkplein 39",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/36943"
-        },
-        {
-          "tijd": "16:00",
-          "titel": "Fabienne Julie",
-          "beschrijving": "Folk, Indie. De cinematische folk van Fabienne Julie bevraagt hoopvol het leven, de liefde en haar patronen. Haar mysterieuze, melancholische verhalen vonden tijdens de Amsterdamse Popprijs al de Melkweg en Paradiso. Geïnspireerd door Patrick Watson, Florence + The Machine en Lizzy McAlpine, biedt ze haar publiek de ruimte te voelen in de mooiste en lelijkste vorm.",
-          "categorie": "Folk",
-          "locatie": "Proeflokaal Charlies, Dubbele Buurt 4",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/37371"
-        },
-        {
-          "tijd": "16:00",
-          "titel": "Kidd Nebula & The Voodoo-Funk Conspiracy",
-          "beschrijving": "Funk, Jazz. FUNK FUNK FUNK FUNK! De energieke Kidd Nebula verovert planeten en zonnestelsels met een mix van kosmische Funk, Jazz en Hip-Hop. Samen met zijn zeskoppige band neem hij je mee in een dansbare trip geïnspireerd door Prince, Funkadelic en Jamiroquai.",
-          "categorie": "Jazz",
-          "locatie": "The 80's",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/36789"
-        },
-        {
-          "tijd": "16:00",
-          "titel": "The Hook",
-          "beschrijving": "Rock, Alternative. The Hook is een energiek rocktrio uit Utrecht dat staat voor melodieuze gitaarrock met pakkende hooks en een aangrijpende en energieke live-drive. In 2025 verscheen hun debuut-EP op het legendarische Kelt Records. Daarnaast speelden ze door heel het land als voorprogramma van Daryll-Ann en Claw Boys Claw, wat hen lovende reacties en recensies opleverde.",
-          "categorie": "Rock",
-          "locatie": "Backstage, Koepoortsplein 3",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/37235"
-        },
-        {
-          "tijd": "16:00",
-          "titel": "xico",
-          "beschrijving": "Ambient, Pop. SOM FLORINT is an electroacoustic performance where an acoustic piano becomes a vast loudspeaker. Field recordings, voice, feedback and generative electronics resonate through its body and the surrounding space, creating an intimate, evolving sonic ecology where sound, space and emotion continuously reshape one another.",
-          "categorie": "Pop",
-          "locatie": "Oosterkerk, Grote Oost 58",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/36347"
-        },
-        {
-          "tijd": "16:15",
-          "titel": "AMANI",
-          "beschrijving": "Zuid-Amerikaans, Alternative. Amani is geboren en opgegroeid in Suriname. De muziek van Amani is vandaag de dag geworteld in een authentiek Afro-Caribisch geluid, waarin elementen van pop, dancehall, kawina, R&B en house samenkomen. Haar aanstaande EP, Echo, markeert het begin van een nieuw tijdperk – een tijdperk waarin ze haar identiteit, roots en artistieke visie volledig omarmt.",
-          "categorie": "Pop",
-          "locatie": "Noorderkerk, Kleine Noord 32",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/36408"
-        },
-        {
-          "tijd": "16:30",
-          "titel": "Wendy Moore",
-          "beschrijving": "Alternative, Pop. Donkere gitaar gedreven alt-pop, rauwe emoties en songs die onder je huid kruipen. Wendy Moore maakt muziek die voelt als een lichtpunt in het donker. Met optredens van Berlijn tot China geeft ze een stem aan dromers, buitenbeentjes en iedereen die zich ooit onzichtbaar voelde. Haar boodschap is simpel: You are seen, You are heard, and you belong.",
-          "categorie": "Pop",
-          "locatie": "Kinki Kappers, Gouw 28",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/36243"
-        },
-        {
-          "tijd": "16:45",
-          "titel": "BARBEE",
-          "beschrijving": "Rock. Recht uit de chaos van het Oosten komt BARBEE, een vierkoppige krachtpatser die de rauwe energie van Nirvana mengt met de ongetemde geest van Amyl & the Sniffers en de duistere flair van Starcrawler. In 2025 denderde de band het Nederlandse en Duitse livecircuit door en bracht het onder de vleugels van Goomah haar eerste EP 'Bad Mood' uit. Komt dat zien!",
-          "categorie": "Rock",
-          "locatie": "Muziekcafé SWAF, Kerkstraat 3",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/37053"
-        },
-        {
-          "tijd": "16:45",
-          "titel": "Doris Vosters",
-          "beschrijving": "Soul, Pop. Doris Vosters maakt soulpop geïnspireerd op artiesten als Jordan Rakei en Olivia Dean. Haar muziek geeft lading aan de kleinste gebeurtenissen, verpakt met een livesound en elektronische elementen. Ze zoekt de diepte in nuchterheid en deelt in haar show de lange reis naar het doorbreken van perfectionisme, het zoeken naar richting en weerbaar worden.",
-          "categorie": "Pop",
-          "locatie": "Café Vièra, Roode Steen 4-A",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/37168"
-        },
-        {
-          "tijd": "16:45",
-          "titel": "JAH",
-          "beschrijving": "Hip Hop, R&B. JAH, een \"MISFIT\" uit almere. Een energieke, veelzijdige artiest die kleur brengt aan de Hiphop/Rnb genre in Nederland. Met muziek die je laat dansen gemixt met mee zing refreintjes en speelse flows kan hij en gevoel losmaken bij mensen die ze in tijden niet gevoeld hebben. Bij een JAH show is stilstaan geen optie. JAH is voor iedereen!!",
-          "categorie": "Hip Hop",
-          "locatie": "Schouwburg Het Park, Westerdijk 4",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/37010"
-        },
-        {
-          "tijd": "17:00",
-          "titel": "Tessa June",
-          "beschrijving": "Pop, Nederlandstalig. Tessa June maakt NL-pop die raakt. Haar persoonlijke liedjes vinden altijd iets universeels. Na een uitverkochte Cinetol-show ('24) en een clubtour langs Luxor Live, Mezz en Paradiso, volgde in '25 een duet met Niels Destadsbader, werd Meisjes Lopen Sneller opnieuw toegevoegd aan Beste Van NL en bereikte ze 6 miljoen streams. Online bereikt ze 35.000 volgers",
-          "categorie": "Pop",
-          "locatie": "Barrels, Dubbele Buurt 22",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/36907"
-        },
-        {
-          "tijd": "17:00",
-          "titel": "Wolfgang",
-          "beschrijving": "Indie, Singer/songwriter. Wolfgang (17) won Mooie Noten 2024, verkocht zijn eigen releaseshow in Paradiso uit en staat in de finale van de Zonneprijs 2026. Solo klinkt hij als een volledige band dankzij zijn indrukwekkende stem, ingenieuze gitaarspel, stompbox en ambient effectenpedalen, maar even overtuigend brengt hij een ruimte tot stilte met originele akoestische songs.",
-          "categorie": "Indie",
-          "locatie": "'t Kroegie, Kerkplein 1",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/36860"
-        },
-        {
-          "tijd": "17:30",
-          "titel": "Lucy Fabienne",
-          "beschrijving": "Pop, Country. Lucy Fabienne maakt country-pop voor dwalende harten en wannabe cowboys. Met haar kenmerkende vibrato zingt ze over opgroeien in een klein dorp, mentale problemen en het geloof. Haar missie is om buitenbeentjes een veilige haven te bieden. Eerder stond zij al op podia als 013, Het Paard en De Helling.",
-          "categorie": "Pop",
-          "locatie": "Café JP, Veemarkt 17",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/37244"
-        },
-        {
-          "tijd": "17:30",
-          "titel": "theo artz",
-          "beschrijving": "Soul. Zijn ingetogen houding maar uitbundige muziek zijn totale tegenpolen, toch weet Theo zichzelf volledig te uiten in teksten en beats die als niemand anders klinken. In zijn nieuwe muziek zoekt hij de randjes op van distortion, tempomodulatie en vintage gear. Hij omschrijft de sound zelf als ‘goofy, op de goeie manier'.",
-          "categorie": "Soul",
-          "locatie": "Oosterkerk, Grote Oost 58",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/37402"
-        },
-        {
-          "tijd": "17:30",
-          "titel": "Toobss",
-          "beschrijving": "Afrobeat, Hip Hop. Toobss is een Rotterdamse artiest die Afro, Urban en Zouk combineert met een energieke en persoonlijke live-ervaring. Met miljoenen streams en een sterke live-reputatie speelde hij clubs en festivals door het land. Op 26 december 2025 verzorgde hij het voorprogramma van Broederliefde in Ahoy Rotterdam.",
-          "categorie": "Afrobeat",
-          "locatie": "The 80's",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/36727"
-        },
-        {
-          "tijd": "17:45",
-          "titel": "The Awkward",
-          "beschrijving": "Indie, Britpop. What's the plan? Gooi begin jaren 2000 indie, cheeky Britpop en de Teletubbies in een blender en je krijgt het antwoord: The Awkward. Catchy gitaren, dansbare chaos, knallende energie en gimmicks waar je 'u' tegen zegt. Van snerpende synth-solo’s en alto-disco beukers tot Franse ballads en haute couture bangers - muziek voor én door echte indie sukkels.",
-          "categorie": "Dans",
-          "locatie": "Backstage, Koepoortsplein 3",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/37386"
-        },
-        {
-          "tijd": "18:30",
-          "titel": "Grandad",
-          "beschrijving": "Post-Punk, Avantgarde. Tik-tak-tik-tak. Avant-garde rock, gehuld in orde en chaos. We vertellen je een verhaal onder begeleiding van een saxofoon. We brengen je een psychose aan geluid waarvan je opa zou neervallen.",
-          "categorie": "Rock",
-          "locatie": "Muziekcafé SWAF, Kerkstraat 3",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/37025"
-        },
-        {
-          "tijd": "18:30",
-          "titel": "The Robots Are Coming",
-          "beschrijving": "Electro. Electroduo uit Tilburg met energieke liveshow vol synthesizers, drummachines, gitaren en een eigen ontworpen lichtshow. TRAC klinkt cinematisch, duister, futuristisch en dansbaar (inspiratie o.a. Daft Punk / Justice). Winnaars 3voor12/Tilburg Song of the Year met het dystopische conceptalbum “2095” en eerder te zien op o.a. Best Kept Secret Festival.",
-          "categorie": "Rock",
-          "locatie": "'t Kroegie, Kerkplein 1",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/37017"
-        },
-        {
-          "tijd": "19:15",
-          "titel": "Marieke Schenk",
-          "beschrijving": "Pop, Nederlandstalig. Marieke Schenk: een popartiest met een krachtige, energieke liveshow. Ze stond op de ESNS '26 line-up en speelt op grote festivals. Debuutsingle Verward Persoon (38K streams) ging viraal op TikTok. Nieuwe muziek kreeg airplay op 3FM. Gemixt met rock maakt ze rauwe, catchy songs, geïnspireerd door Pommelien Thijs, voor wie ze de aftershow speelde in AFAS Live",
-          "categorie": "Pop",
-          "locatie": "Barrels, Dubbele Buurt 22",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/36521"
-        },
-        {
-          "tijd": "19:15",
-          "titel": "SWANSLAUGHTER",
-          "beschrijving": "Metal. SWANSLAUGHTER is a metal band hailing from The Netherlands, consisting of former members of 18 Miles, To Heaven Earth is Hell and Death Hounds. This 5 piece seeks an outlet for fury and desperation, struggling to find peace and justice in a world that's driven by anxiety. SWANSLAUGHTER reflects on how everything beautiful in life is butchered by mankind.",
-          "categorie": "Rock",
-          "locatie": "Backstage, Koepoortsplein 3",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/36372"
-        },
-        {
-          "tijd": "19:30",
-          "titel": "Calis Nyarko",
-          "beschrijving": "House, Dance. Calis Nyarko is een Gospel House-artiest van West-Afrikaanse afkomst, bekend om zijn unieke vermogen om de zielvolle essentie van gospel te combineren met de dynamische energie van elektronische muziek. Calis smelt live instrumentatie saxofoon, drumpad en toetsen samen met dynamische elektronische producties om een meeslepende muzikale ervaring te creëren.",
-          "categorie": "House",
-          "locatie": "Oosterkerk, Grote Oost 58",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/36247"
-        },
-        {
-          "tijd": "20:00",
-          "titel": "Angelo Benson",
-          "beschrijving": "Pop, Soul. Angelo Benson is in de basis een popartiest. Zijn muziek is een mengeling van bombastische pop met een soulvolle boventoon en meeslepende donkere ballads. Kwetsbare Engelstalige teksten over onbereikbare liefde, verlangen en onzekerheid nemen je mee in een dreigende wanhoop. Met zijn aangrijpende stemgeluid laat Angelo het publiek ontwapend achter.",
-          "categorie": "Pop",
-          "locatie": "Café JP, Veemarkt 17",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/37368"
-        },
-        {
-          "tijd": "20:00",
-          "titel": "HOOFS",
-          "beschrijving": "Noise, Post-Punk. Met een snoeiharde mix van noise en postpunk werd HOOFS door 3voor12 getypeerd als ‘niet voor watjes’. Met intense muziek en shows, die steevast zorgen voor moshpits en collectieve ontlading, vieren ze het leven en creëren ze een plek waar iedereen zichzelf kan zijn. Het geluid is hard, de ruimte zacht. Watjes wees welkom.",
-          "categorie": "Rock",
-          "locatie": "Muziekcafé SWAF, Kerkstraat 3",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/37281"
-        },
-        {
-          "tijd": "20:00",
-          "titel": "The Pelumas",
-          "beschrijving": "Rock, Roots. The Pelumas is een 3 koppige rock/spaghetti-western band die je mee sleurt in een bubbel van rauwe samenzang, krachtige geluiden en een energie waardoor je al snel bent vergeten hoe laat het ook alweer is..",
-          "categorie": "Rock",
-          "locatie": "Café Vièra, Roode Steen 4-A",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/37142"
-        },
-        {
-          "tijd": "20:45",
-          "titel": "KRAM",
-          "beschrijving": "Alternative. KRAM is een Iers-Nederlandse alternative/post-punk band uit Amsterdam, gedreven door urgentie, spanning en collectieve ontlading. Vanuit hun overtuiging ‘Love Stands Forever’ zoeken ze in hun muziek en live shows naar verbinding in een verdeelde wereld. Bekend om hun ijzersterke, explosieve en verbindende liveshows wonnen ze in 2025 de Amsterdamse Popprijs.",
-          "categorie": "Rock",
-          "locatie": "Huisverloren, Kerkstraat 10b",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/36937"
-        },
-        {
-          "tijd": "21:15",
-          "titel": "De Plaag",
-          "beschrijving": "Punk, Electro. De Nederlandstalige Electro/Punk band De Plaag lijkt op het eerste gezicht op een uit de hand gelopen swingers party. Poëtisch met een vieze rand, brutaal waar het kan en gevoelig waar het moet. Poedelnaakte chaos in het donker, De Plaag geeft zich bloot. Een show van De Plaag blijft plakken op je netvlies als een zuigzoen in je nek.",
-          "categorie": "Rock",
-          "locatie": "Backstage, Koepoortsplein 3",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/37395"
-        },
-        {
-          "tijd": "22:00",
-          "titel": "DE FORMULE",
-          "beschrijving": "Drum & Bass, Punk. DE FORMULE will make nights last forever, by combining Electronic music with the raw energy of a band. Mixing songs like a DJ, but with the power of a Punk band. Inspired by Noisia and Limp Bizkit, DE FORMULE makes sure the crowd won’t stop moving.",
-          "categorie": "Rock",
-          "locatie": "Muziekcafé SWAF, Kerkstraat 3",
-          "prijs": "Onbekend",
-          "link": "https://popronde.nl/profiel/36989"
-        }
-      ]
+      "interval": "Onbekend",
+      "laag": "Verzameling",
+      "bron": "Kom naar Hoorn",
+      "link": "https://komnaarhoorn.nl/agenda/popronde-hoorn/"
     },
     {
       "datum": "2026-11-16",
@@ -6163,8 +5662,8 @@
       "datum": "2026-12-03",
       "tijd": "20:30",
       "titel": "Donderpop met 70's Alive, Amplified en ... ook optreden? Laat het weten!",
-      "beschrijving": "Donderpop: De muziekavond voor lokale en regionale acts. Gratis entree! Deze avond op het programma van Donderpop: 70's Alive, Amplified en ... ook optreden? Laat het weten! Stuur een mail naar info appestaartje manifesto-hoorn.nl Entree = Gratis. 70's Alive 70's Alive is een Tribute to the seventies coverband met hoofdzakelijk rock muziek zoals van Deep Purple, Status Quo, Manfred Mann, Cream, Whitesnake, Alice Coop",
-      "categorie": "Rock",
+      "beschrijving": "Donderpop: De muziekavond voor lokale en regionale acts. Gratis entree! Deze avond op het programma van Donderpop: 70's Alive, Amplified en ... ook optreden? Laat het weten! Stuur een mail naar info appestaartje manifesto-hoorn.nl Entree = Gratis. Amplified Amplified is een coverband van vier jongens uit West-Friesland, een zangeres uit Italië en een gigantische passie voor rockmuziek. Het repertoire bestaat uit cove",
+      "categorie": "Onbekend",
       "locatie": "Manifesto",
       "leeftijd": "Onbekend",
       "prijs": "Gratis",
@@ -6805,17 +6304,45 @@
     },
     {
       "datum": "2026-12-24",
+      "tijd": "16:30–19:30",
+      "titel": "Kerst Keuzediner",
+      "beschrijving": "Onbekend",
+      "categorie": "Eten",
+      "locatie": "Van der Valk Hotel",
+      "leeftijd": "Onbekend",
+      "prijs": "€73,50",
+      "interval": "Eenmalig",
+      "laag": "Optreden",
+      "bron": "Van der Valk",
+      "link": "https://www.hotelhoorn.com/evenementen/kerst-keuzediner"
+    },
+    {
+      "datum": "2026-12-24",
       "tijd": "17:30–21:00",
       "titel": "Live Cooking Kerstdiner",
       "beschrijving": "Dit jaar hoef jij de show niet te stelen. Leun achterover en geniet.",
       "categorie": "Eten",
       "locatie": "Van der Valk Hotel",
       "leeftijd": "Kind",
-      "prijs": "Onbekend",
+      "prijs": "€43,50",
       "interval": "Onbekend",
-      "laag": "Verzameling",
-      "bron": "Kom naar Hoorn",
+      "laag": "Optreden, Verzameling",
+      "bron": "Kom naar Hoorn, Van der Valk",
       "link": "https://komnaarhoorn.nl/agenda/live-cooking-kerstdiner/"
+    },
+    {
+      "datum": "2026-12-25",
+      "tijd": "12:00–14:30",
+      "titel": "Kerst Brunch Buffet",
+      "beschrijving": "Onbekend",
+      "categorie": "Eten",
+      "locatie": "Van der Valk Hotel",
+      "leeftijd": "Onbekend",
+      "prijs": "€31,50",
+      "interval": "Eenmalig",
+      "laag": "Optreden",
+      "bron": "Van der Valk",
+      "link": "https://www.hotelhoorn.com/evenementen/kerst-brunch-buffet"
     },
     {
       "datum": "2026-12-27",
