@@ -12,7 +12,7 @@ const AGENDA_DATE_LABELS = {
   this_year: "Alles",
 };
 
-const AGENDA_NOTE = "en: een knop uit haalt die soort weg. Club uit en Muziek aan toont alleen muziek die geen club is.";
+const AGENDA_NOTE = "en: het event moet alle aanstaande soorten zijn. of: één soort is genoeg. Alles uit toont niets.";
 const AGENDA_FILTER_KEY = "voorhoorn-agenda-custom";
 const AGE_LABELS = ["Kind", "Kind en volwassen", "Volwassen", "Volwassen en senior", "Senior"];
 const AGE_BANDS = [
