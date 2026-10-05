@@ -12,7 +12,7 @@ const AGENDA_DATE_LABELS = {
   this_year: "Alles",
 };
 
-const AGENDA_NOTE = "Film, Club en Muziek aan betekent zichtbaar. Alles aan toont alles, alles uit toont niets.";
+const AGENDA_NOTE = "of toont een van de aanstaande soorten. en toont alleen wat aan alle aanstaande soorten voldoet. Alles uit toont niets.";
 const AGENDA_FILTER_KEY = "voorhoorn-agenda-custom";
 const AGE_LABELS = ["Kind", "Kind en volwassen", "Volwassen", "Volwassen en senior", "Senior"];
 const AGE_BANDS = [
@@ -43,6 +43,7 @@ let agendaFilters = {
   ageOn: false,
   age: 1,
   chips: ["film", "club", "muziek"],
+  kindJoin: "or",
   gemeente: false,
   query: "",
   customOn: false,
@@ -233,14 +234,20 @@ function matchesAge(event) {
   return false;
 }
 
+function kindHit(event, chip) {
+  if (chip === "film") return isFilmEvent(event);
+  if (chip === "club") return isClubEvent(event);
+  if (chip === "muziek") return isMusicEvent(event);
+  return false;
+}
+
 function matchesChips(event) {
   const on = agendaFilters.chips;
   if (!on.length) return false;
   const visible =
-    on.length === 3 ||
-    (on.includes("film") && isFilmEvent(event)) ||
-    (on.includes("club") && isClubEvent(event)) ||
-    (on.includes("muziek") && isMusicEvent(event));
+    agendaFilters.kindJoin === "and"
+      ? on.every((chip) => kindHit(event, chip))
+      : on.length === 3 || on.some((chip) => kindHit(event, chip));
   if (!visible) return false;
   if (agendaFilters.gemeente && !isRaadEvent(event)) return false;
   return true;
@@ -267,6 +274,7 @@ function currentPreset() {
     ageOn: agendaFilters.ageOn,
     age: agendaFilters.age,
     chips: [...agendaFilters.chips],
+    kindJoin: agendaFilters.kindJoin,
     gemeente: agendaFilters.gemeente,
   };
 }
@@ -293,6 +301,7 @@ function applyPreset(preset) {
   agendaFilters.ageOn = Boolean(preset.ageOn);
   agendaFilters.age = Math.min(5, Math.max(1, Number(preset.age) || 1));
   agendaFilters.chips = (preset.chips || []).filter((chip) => ["film", "club", "muziek"].includes(chip));
+  agendaFilters.kindJoin = preset.kindJoin === "and" ? "and" : "or";
   agendaFilters.gemeente = Boolean(preset.gemeente);
   agendaFilters.customOn = true;
   syncFilterControls();
@@ -305,6 +314,13 @@ function syncFilterControls() {
     btn.classList.toggle("is-active", on);
     btn.setAttribute("aria-pressed", String(on));
   });
+  const join = document.getElementById("agendaKindJoin");
+  if (join) {
+    const and = agendaFilters.kindJoin === "and";
+    join.textContent = and ? "en" : "of";
+    join.classList.toggle("is-active", and);
+    join.setAttribute("aria-pressed", String(and));
+  }
   document.querySelectorAll("#agendaViewTabs [data-agenda-filter]").forEach((btn) => {
     const on = agendaFilters.chips.includes(btn.dataset.agendaFilter);
     btn.classList.toggle("is-active", on);
@@ -359,6 +375,7 @@ function bindAgendaViewTabs() {
       agendaFilters.time = "";
       agendaFilters.ageOn = false;
       agendaFilters.chips = ["film", "club", "muziek"];
+      agendaFilters.kindJoin = "or";
       agendaFilters.gemeente = false;
       agendaFilters.customOn = false;
       syncFilterControls();
@@ -389,6 +406,12 @@ function bindAgendaViewTabs() {
   });
   document.getElementById("agendaAge")?.addEventListener("input", (event) => {
     agendaFilters.age = Number(event.target.value) || 1;
+    markCustomOff();
+    syncFilterControls();
+    renderAgendaList();
+  });
+  document.getElementById("agendaKindJoin")?.addEventListener("click", () => {
+    agendaFilters.kindJoin = agendaFilters.kindJoin === "and" ? "or" : "and";
     markCustomOff();
     syncFilterControls();
     renderAgendaList();
