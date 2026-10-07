@@ -1315,7 +1315,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const viewTabs = [...document.querySelectorAll(".view-tab")];
 
     const promoTrack = document.getElementById("promoTrack");
-    const promoDots = document.getElementById("promoDots");
     const promoSlideshow = document.getElementById("promoSlideshow");
     const appContainer = document.getElementById("appContainer");
     const backBtn = document.getElementById("backBtn");
@@ -1330,8 +1329,9 @@ document.addEventListener('DOMContentLoaded', () => {
     function setView(view) {
         activeView = view;
         if (newsDigest) newsDigest.hidden = view !== "nieuws";
-        if (linksPanel) linksPanel.hidden = view !== "links";
+        if (linksPanel) linksPanel.hidden = true;
         if (agendaPanel) agendaPanel.hidden = view !== "agenda";
+        if (promoSlideshow) promoSlideshow.hidden = view === "agenda";
 
         viewTabs.forEach((btn) => {
             const on = btn.dataset.view === view;
@@ -1588,14 +1588,6 @@ document.addEventListener('DOMContentLoaded', () => {
         promoIndex = next;
         promoTrack.style.transform = `translateX(-${promoIndex * 100}%)`;
 
-        if (promoDots) {
-            promoDots.querySelectorAll(".promo-dot").forEach((dot, i) => {
-                const on = i === promoIndex;
-                dot.classList.toggle("is-active", on);
-                dot.setAttribute("aria-selected", on ? "true" : "false");
-            });
-        }
-
         // Ogen: alvast naar binnenkomende slide, dan meezweepen
         if (prev !== next) {
             window.voorhoornEngine?.onSlideshowChange?.({ direction });
@@ -1612,11 +1604,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function initPromoSlideshow() {
-        if (!promoTrack || !promoDots) return;
+        if (!promoTrack) return;
 
         promoTrack.innerHTML = PROMO_SLIDES.map((slide, index) => {
             const theme = escapeHtml(slide.theme || "default");
-            const cta = escapeHtml(slide.cta || "Open");
+            const cta = "Open";
 
             return `
                 <div class="promo-slide" data-slide-index="${index}">
@@ -1631,25 +1623,10 @@ document.addEventListener('DOMContentLoaded', () => {
                             <span class="promo-card-title">${escapeHtml(slide.title)}</span>
                             <span class="promo-card-sub">${escapeHtml(slide.subtitle)}</span>
                         </span>
-                        <span class="promo-card-cta">
-                            <span>${cta}</span>
-                            <span class="promo-card-arrow" aria-hidden="true">→</span>
-                        </span>
                     </button>
                 </div>
             `;
         }).join("");
-
-        promoDots.innerHTML = PROMO_SLIDES.map((slide, i) => `
-            <button
-                type="button"
-                class="promo-dot ${i === 0 ? "is-active" : ""}"
-                role="tab"
-                aria-label="Slide ${i + 1}: ${escapeHtml(slide.title)}"
-                aria-selected="${i === 0 ? "true" : "false"}"
-                data-index="${i}"
-            ></button>
-        `).join("");
 
         promoTrack.querySelectorAll(".promo-card").forEach((card) => {
             card.addEventListener("click", () => {
@@ -1665,13 +1642,16 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
 
-        promoDots.querySelectorAll(".promo-dot").forEach((dot) => {
-            dot.addEventListener("click", () => {
-                setPromoIndex(Number(dot.dataset.index));
-            });
-        });
-
         if (promoSlideshow) {
+            let swipeX = 0;
+            promoSlideshow.addEventListener("touchstart", (event) => {
+                swipeX = event.changedTouches[0].clientX;
+            }, { passive: true });
+            promoSlideshow.addEventListener("touchend", (event) => {
+                const delta = event.changedTouches[0].clientX - swipeX;
+                if (Math.abs(delta) < 36) return;
+                setPromoIndex(promoIndex + (delta < 0 ? 1 : -1));
+            }, { passive: true });
             promoSlideshow.addEventListener("mouseenter", () => {
                 if (promoTimer) clearInterval(promoTimer);
                 promoTimer = null;

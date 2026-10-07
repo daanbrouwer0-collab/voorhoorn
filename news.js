@@ -91,7 +91,7 @@ const TABS = {
 
 const digestEl = document.getElementById("digest-card");
 const newsDigestEl = document.getElementById("newsDigest");
-const tabButtons = [...document.querySelectorAll(".news-tab")];
+const tabButtons = [...document.querySelectorAll("#newsDigest .news-tab")];
 
 let allItems = [];
 let activeTab = "urgent";

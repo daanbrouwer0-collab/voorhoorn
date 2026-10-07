@@ -60,7 +60,6 @@
                 <div class="promo-viewport">
                     <div class="promo-track" id="promoTrack"></div>
                 </div>
-                <div class="promo-dots" id="promoDots" role="tablist" aria-label="Slideshow navigatie"></div>
             </section>
 
             <!-- Hoofd-tabbladen: Nieuws / Agenda / Links -->
@@ -71,15 +70,11 @@
                 <button type="button" class="view-tab" role="tab" aria-selected="false" data-view="agenda" id="viewTabAgenda">
                     Agenda
                 </button>
-                <button type="button" class="view-tab" role="tab" aria-selected="false" data-view="links" id="viewTabLinks">
-                    Link
-                </button>
             </nav>
 
             <!-- Lokaal nieuwsdigest -->
             <section class="news-digest theme-urgent" id="newsDigest" aria-label="Lokaal nieuws">
                 <div class="news-digest-top">
-                    <h2 class="news-digest-title">Lokaal nieuws</h2>
                     <nav class="news-tabs" role="tablist" aria-label="Nieuwscategorieën">
                         <button type="button" class="news-tab is-active" role="tab" aria-selected="true" data-tab="urgent">
                             Urgent
@@ -99,23 +94,12 @@
 
             <!-- Agenda-panel (Kom naar Hoorn) -->
             <section class="news-digest agenda-digest theme-agenda" id="agendaPanel" aria-label="Agenda Hoorn" hidden>
-                <div class="news-digest-top">
-                    <h2 class="news-digest-title">Agenda Hoorn</h2>
-                    <nav class="news-tabs" role="tablist" aria-label="Periode" id="agendaDateTabs">
-                        <button type="button" class="news-tab" role="tab" aria-selected="false" data-date-range="this_week">Deze week</button>
-                        <button type="button" class="news-tab is-active" role="tab" aria-selected="true" data-date-range="this_month">Deze maand</button>
-                        <button type="button" class="news-tab" role="tab" aria-selected="false" data-date-range="next_month">Volgende maand</button>
-                        <button type="button" class="news-tab" role="tab" aria-selected="false" data-date-range="this_year">Alles</button>
-                    </nav>
-                </div>
-
                 <div class="agenda-toolbar">
                     <div class="agenda-custom-row">
                         <button type="button" class="news-tab" id="agendaCustom" aria-pressed="false" title="Zet je bewaarde filter aan">Mijn filter</button>
                         <button type="button" class="news-tab" id="agendaSave" title="Bewaar de huidige filters op dit apparaat">Bewaar</button>
                         <button type="button" class="news-tab" id="agendaGemeente" aria-pressed="false">Gemeente</button>
                     </div>
-                    <input type="search" id="agendaSearch" class="agenda-search" placeholder="Zoek titel, plek of bron" autocomplete="off" aria-label="Zoek in de agenda">
                     <nav class="news-tabs links-tabs agenda-filter-tabs" aria-label="Tijd" id="agendaTimeTabs">
                         <button type="button" class="news-tab" aria-pressed="false" data-time="vandaag">Vandaag</button>
                         <button type="button" class="news-tab" aria-pressed="false" data-time="weekend">Weekend</button>
@@ -126,10 +110,12 @@
                         <span id="agendaAgeLabel">Kind</span>
                     </div>
                     <nav class="news-tabs links-tabs agenda-filter-tabs" aria-label="Soort" id="agendaViewTabs">
-                        <button type="button" class="news-tab" id="agendaKindJoin" aria-pressed="false" title="en: alle aanstaande soorten. of: één van de aanstaande soorten.">of</button>
+                        <button type="button" class="news-tab" id="agendaKindJoin" aria-pressed="false" title="en: alle aanstaande soorten. of: één soort is genoeg. Nog een keer klikken op een soort is niet.">of</button>
                         <button type="button" class="news-tab is-active" aria-pressed="true" data-agenda-filter="film">Film</button>
                         <button type="button" class="news-tab is-active" aria-pressed="true" data-agenda-filter="club">Club</button>
                         <button type="button" class="news-tab is-active" aria-pressed="true" data-agenda-filter="muziek">Muziek</button>
+                        <button type="button" class="news-tab is-active" aria-pressed="true" data-agenda-filter="optreden">Optreden</button>
+                        <button type="button" class="news-tab is-active" aria-pressed="true" data-agenda-filter="overig">Overig</button>
                     </nav>
                     <span class="agenda-count" id="agendaCount">Evenementen laden…</span>
                 </div>
@@ -137,7 +123,7 @@
                 <div id="agendaList" class="news-digest-card" aria-label="Evenementen">
                     <p class="news-empty">Agenda laden…</p>
                 </div>
-                <p class="agenda-source-note" id="agendaSourceNote">en: het event moet alle aanstaande soorten zijn. of: één soort is genoeg. Alles uit toont niets.</p>
+                <p class="agenda-source-note" id="agendaSourceNote">Klik een soort aan, nog een keer voor niet, nog een keer uit. en vraagt alle aanstaande soorten. of vraagt er één.</p>
             </section>
 
             <!-- Links-panel (zelfde stijl als nieuws) -->

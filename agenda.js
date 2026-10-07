@@ -12,7 +12,8 @@ const AGENDA_DATE_LABELS = {
   this_year: "Alles",
 };
 
-const AGENDA_NOTE = "en: het event moet alle aanstaande soorten zijn. of: één soort is genoeg. Alles uit toont niets.";
+const AGENDA_NOTE = "Klik een soort aan, nog een keer voor niet, nog een keer uit. en vraagt alle aanstaande soorten. of vraagt er één.";
+const KIND_IDS = ["film", "club", "muziek", "optreden", "overig"];
 const AGENDA_FILTER_KEY = "voorhoorn-agenda-custom";
 const AGE_LABELS = ["Kind", "Kind en volwassen", "Volwassen", "Volwassen en senior", "Senior"];
 const AGE_BANDS = [
@@ -29,7 +30,7 @@ const KIDS_RE =
 const agendaPanel = document.getElementById("agendaPanel");
 const agendaList = document.getElementById("agendaList");
 const agendaViewTabs = document.getElementById("agendaViewTabs");
-const agendaDateTabs = document.getElementById("agendaDateTabs");
+const agendaDateTabs = null;
 const agendaCount = document.getElementById("agendaCount");
 const agendaSourceNote = document.getElementById("agendaSourceNote");
 
@@ -42,7 +43,8 @@ let agendaFilters = {
   time: "",
   ageOn: false,
   age: 1,
-  chips: ["film", "club", "muziek"],
+  chips: [...KIND_IDS],
+  excluded: [],
   kindJoin: "or",
   gemeente: false,
   query: "",
@@ -71,25 +73,15 @@ function inSelectedDateRange(isoDate) {
   if (!isoDate) return true;
   const eventDate = startOfDay(new Date(`${isoDate}T12:00:00`));
   if (Number.isNaN(eventDate.getTime())) return true;
-  const now = startOfDay(new Date());
-  const range = agendaFilters.dateRange;
+  return eventDate >= startOfDay(new Date());
+}
 
-  if (range === "this_week") {
-    return eventDate >= now && eventDate <= endOfWeek(now);
-  }
-  if (range === "this_month") {
-    return (
-      eventDate.getFullYear() === now.getFullYear() &&
-      eventDate.getMonth() === now.getMonth() &&
-      eventDate >= now
-    );
-  }
-  if (range === "next_month") {
-    const nextMonth = now.getMonth() === 11 ? 0 : now.getMonth() + 1;
-    const nextYear = now.getMonth() === 11 ? now.getFullYear() + 1 : now.getFullYear();
-    return eventDate.getFullYear() === nextYear && eventDate.getMonth() === nextMonth;
-  }
-  return eventDate >= now;
+function sourceTint(event) {
+  const bron = `${event.bron || ""} ${event.sourceLabel || ""}`;
+  if (/vue/i.test(bron)) return "vue";
+  if (/het park/i.test(bron)) return "park";
+  if (/netwerk/i.test(bron)) return "netwerk";
+  return "";
 }
 
 function formatAgendaDate(isoDate) {
@@ -234,20 +226,29 @@ function matchesAge(event) {
   return false;
 }
 
+function isOptredenEvent(event) {
+  return /optreden/i.test(event.laag || "") && !isFilmEvent(event);
+}
+
+function isOverigEvent(event) {
+  return !isFilmEvent(event) && !isClubEvent(event) && !isMusicEvent(event) && !isOptredenEvent(event);
+}
+
 function kindHit(event, chip) {
   if (chip === "film") return isFilmEvent(event);
   if (chip === "club") return isClubEvent(event);
   if (chip === "muziek") return isMusicEvent(event);
+  if (chip === "optreden") return isOptredenEvent(event);
+  if (chip === "overig") return isOverigEvent(event);
   return false;
 }
 
 function matchesChips(event) {
   const on = agendaFilters.chips;
-  if (!on.length) return false;
-  const visible =
-    agendaFilters.kindJoin === "and"
-      ? on.every((chip) => kindHit(event, chip))
-      : on.some((chip) => kindHit(event, chip));
+  const excluded = agendaFilters.excluded;
+  if (!on.length && !excluded.length) return false;
+  if (excluded.some((chip) => kindHit(event, chip))) return false;
+  const visible = !on.length || (agendaFilters.kindJoin === "and" ? on.every((chip) => kindHit(event, chip)) : on.some((chip) => kindHit(event, chip)));
   if (!visible) return false;
   if (agendaFilters.gemeente && !isRaadEvent(event)) return false;
   return true;
@@ -262,9 +263,7 @@ function matchesQuery(event) {
 }
 
 function applyClientFilters(events) {
-  return events.filter(
-    (event) => inSelectedDateRange(eventDate(event)) && matchesTime(event) && matchesAge(event) && matchesChips(event) && matchesQuery(event)
-  );
+  return events.filter((event) => inSelectedDateRange(eventDate(event)) && matchesTime(event) && matchesAge(event) && matchesChips(event));
 }
 
 function currentPreset() {
@@ -274,6 +273,7 @@ function currentPreset() {
     ageOn: agendaFilters.ageOn,
     age: agendaFilters.age,
     chips: [...agendaFilters.chips],
+    excluded: [...agendaFilters.excluded],
     kindJoin: agendaFilters.kindJoin,
     gemeente: agendaFilters.gemeente,
   };
@@ -300,7 +300,8 @@ function applyPreset(preset) {
   agendaFilters.time = preset.time === "vandaag" || preset.time === "weekend" ? preset.time : "";
   agendaFilters.ageOn = Boolean(preset.ageOn);
   agendaFilters.age = Math.min(5, Math.max(1, Number(preset.age) || 1));
-  agendaFilters.chips = (preset.chips || []).filter((chip) => ["film", "club", "muziek"].includes(chip));
+  agendaFilters.chips = (preset.chips || []).filter((chip) => KIND_IDS.includes(chip));
+  agendaFilters.excluded = (preset.excluded || []).filter((chip) => KIND_IDS.includes(chip) && !agendaFilters.chips.includes(chip));
   agendaFilters.kindJoin = preset.kindJoin === "and" ? "and" : "or";
   agendaFilters.gemeente = Boolean(preset.gemeente);
   agendaFilters.customOn = true;
@@ -322,9 +323,15 @@ function syncFilterControls() {
     join.setAttribute("aria-pressed", String(and));
   }
   document.querySelectorAll("#agendaViewTabs [data-agenda-filter]").forEach((btn) => {
-    const on = agendaFilters.chips.includes(btn.dataset.agendaFilter);
+    const id = btn.dataset.agendaFilter;
+    const on = agendaFilters.chips.includes(id);
+    const excluded = agendaFilters.excluded.includes(id);
     btn.classList.toggle("is-active", on);
+    btn.classList.toggle("is-exclude", excluded);
     btn.setAttribute("aria-pressed", String(on));
+    const label = btn.dataset.agendaLabel || btn.textContent.replace(/^niet /i, "");
+    btn.dataset.agendaLabel = label;
+    btn.textContent = excluded ? `niet ${label}` : label;
   });
   const gemeente = document.getElementById("agendaGemeente");
   gemeente?.classList.toggle("is-active", agendaFilters.gemeente);
@@ -374,7 +381,8 @@ function bindAgendaViewTabs() {
     if (agendaFilters.customOn) {
       agendaFilters.time = "";
       agendaFilters.ageOn = false;
-      agendaFilters.chips = ["film", "club", "muziek"];
+      agendaFilters.chips = [...KIND_IDS];
+      agendaFilters.excluded = [];
       agendaFilters.kindJoin = "or";
       agendaFilters.gemeente = false;
       agendaFilters.customOn = false;
@@ -419,18 +427,18 @@ function bindAgendaViewTabs() {
   agendaViewTabs?.querySelectorAll("[data-agenda-filter]").forEach((btn) => {
     btn.addEventListener("click", () => {
       const id = btn.dataset.agendaFilter;
-      agendaFilters.chips = agendaFilters.chips.includes(id)
-        ? agendaFilters.chips.filter((chip) => chip !== id)
-        : [...agendaFilters.chips, id];
+      if (agendaFilters.chips.includes(id)) {
+        agendaFilters.chips = agendaFilters.chips.filter((chip) => chip !== id);
+        agendaFilters.excluded = [...agendaFilters.excluded, id];
+      } else if (agendaFilters.excluded.includes(id)) {
+        agendaFilters.excluded = agendaFilters.excluded.filter((chip) => chip !== id);
+      } else {
+        agendaFilters.chips = [...agendaFilters.chips, id];
+      }
       markCustomOff();
       syncFilterControls();
       renderAgendaList();
     });
-  });
-  const search = document.getElementById("agendaSearch");
-  search?.addEventListener("input", () => {
-    agendaFilters.query = search.value;
-    renderAgendaList();
   });
   syncFilterControls();
 }
@@ -599,12 +607,7 @@ function renderAgendaList() {
   }
 
   if (!filtered.length) {
-    const period = AGENDA_DATE_LABELS[agendaFilters.dateRange] || "deze periode";
-    const hint =
-      agendaFilters.chips.length || agendaFilters.gemeente || agendaFilters.time || agendaFilters.ageOn
-        ? " Zet een filter uit of kies periode Alles."
-        : "";
-    agendaList.innerHTML = `<p class="news-empty">Geen items gevonden voor ${agendaEscape(period)}.${agendaEscape(hint)}</p>`;
+    agendaList.innerHTML = `<p class="news-empty">Niets gevonden met deze filters.</p>`;
     return;
   }
 
@@ -631,8 +634,9 @@ function renderAgendaList() {
         : "";
       const upcoming = Array.isArray(event.komende) && event.komende.length > 1 ? event.komende.join(", ") : "";
       const dateParts = formatAgendaDateParts(eventDate(event));
+      const tint = sourceTint(event);
       const dateChip = dateParts
-        ? `<span class="agenda-date-chip" aria-hidden="true">
+        ? `<span class="agenda-date-chip${tint ? ` is-${tint}` : ""}" aria-hidden="true">
               <span class="agenda-date-day">${agendaEscape(dateParts.day)}</span>
               <span class="agenda-date-wday">${agendaEscape(dateParts.weekday)}</span>
             </span>`
