@@ -95,27 +95,20 @@
             <!-- Agenda-panel (Kom naar Hoorn) -->
             <section class="news-digest agenda-digest theme-agenda" id="agendaPanel" aria-label="Agenda Hoorn" hidden>
                 <div class="agenda-toolbar">
-                    <div class="agenda-custom-row">
-                        <button type="button" class="news-tab" id="agendaCustom" aria-pressed="false" title="Zet je bewaarde filter aan">Mijn filter</button>
-                        <button type="button" class="news-tab" id="agendaSave" title="Bewaar de huidige filters op dit apparaat">Bewaar</button>
-                        <button type="button" class="news-tab" id="agendaGemeente" aria-pressed="false">Gemeente</button>
-                    </div>
                     <nav class="news-tabs links-tabs agenda-filter-tabs" aria-label="Tijd" id="agendaTimeTabs">
                         <button type="button" class="news-tab" aria-pressed="false" data-time="vandaag">Vandaag</button>
                         <button type="button" class="news-tab" aria-pressed="false" data-time="weekend">Weekend</button>
-                    </nav>
-                    <div class="agenda-age">
-                        <button type="button" class="news-tab" id="agendaAgeToggle" aria-pressed="false">Leeftijd</button>
-                        <input id="agendaAge" type="range" min="1" max="5" step="1" value="1" disabled aria-label="Leeftijd van kind tot senior">
-                        <span id="agendaAgeLabel">Kind</span>
-                    </div>
-                    <nav class="news-tabs links-tabs agenda-filter-tabs" aria-label="Soort" id="agendaViewTabs">
-                        <button type="button" class="news-tab" id="agendaKindJoin" aria-pressed="false" title="en: alle aanstaande soorten. of: één soort is genoeg. Nog een keer klikken op een soort is niet.">of</button>
-                        <button type="button" class="news-tab is-active" aria-pressed="true" data-agenda-filter="film">Film</button>
-                        <button type="button" class="news-tab is-active" aria-pressed="true" data-agenda-filter="club">Club</button>
-                        <button type="button" class="news-tab is-active" aria-pressed="true" data-agenda-filter="muziek">Muziek</button>
-                        <button type="button" class="news-tab is-active" aria-pressed="true" data-agenda-filter="optreden">Optreden</button>
-                        <button type="button" class="news-tab is-active" aria-pressed="true" data-agenda-filter="overig">Overig</button>
+                        <div class="agenda-preset">
+                            <button type="button" class="news-tab" id="agendaPresetBtn" aria-expanded="false" aria-controls="agendaPresetMenu">Filter</button>
+                            <div class="agenda-preset-menu" id="agendaPresetMenu" hidden>
+                                <button type="button" data-preset="alles">Alles</button>
+                                <button type="button" data-preset="muziek-geen-club">Muziek, geen club</button>
+                                <button type="button" data-preset="optreden">Alleen optreden</button>
+                                <button type="button" data-preset="film">Film</button>
+                                <button type="button" data-preset="club">Club</button>
+                                <button type="button" data-preset="overig">Overig</button>
+                            </div>
+                        </div>
                     </nav>
                     <span class="agenda-count" id="agendaCount">Evenementen laden…</span>
                 </div>
@@ -123,7 +116,7 @@
                 <div id="agendaList" class="news-digest-card" aria-label="Evenementen">
                     <p class="news-empty">Agenda laden…</p>
                 </div>
-                <p class="agenda-source-note" id="agendaSourceNote">Klik een soort aan, nog een keer voor niet, nog een keer uit. en vraagt alle aanstaande soorten. of vraagt er één.</p>
+                <p class="agenda-source-note" id="agendaSourceNote" hidden></p>
             </section>
 
             <!-- Links-panel (zelfde stijl als nieuws) -->

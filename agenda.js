@@ -12,8 +12,14 @@ const AGENDA_DATE_LABELS = {
   this_year: "Alles",
 };
 
-const AGENDA_NOTE = "Klik een soort aan, nog een keer voor niet, nog een keer uit. en vraagt alle aanstaande soorten. of vraagt er één.";
-const KIND_IDS = ["film", "club", "muziek", "optreden", "overig"];
+const PRESETS = {
+  alles: "Alles",
+  "muziek-geen-club": "Muziek, geen club",
+  optreden: "Alleen optreden",
+  film: "Film",
+  club: "Club",
+  overig: "Overig",
+};
 const AGENDA_FILTER_KEY = "voorhoorn-agenda-custom";
 const AGE_LABELS = ["Kind", "Kind en volwassen", "Volwassen", "Volwassen en senior", "Senior"];
 const AGE_BANDS = [
@@ -41,14 +47,7 @@ let agendaLoading = false;
 let agendaFilters = {
   dateRange: "this_month",
   time: "",
-  ageOn: false,
-  age: 1,
-  chips: [...KIND_IDS],
-  excluded: [],
-  kindJoin: "or",
-  gemeente: false,
-  query: "",
-  customOn: false,
+  preset: "alles",
 };
 
 function agendaEscape(text) {
@@ -244,13 +243,12 @@ function kindHit(event, chip) {
 }
 
 function matchesChips(event) {
-  const on = agendaFilters.chips;
-  const excluded = agendaFilters.excluded;
-  if (!on.length && !excluded.length) return false;
-  if (excluded.some((chip) => kindHit(event, chip))) return false;
-  const visible = !on.length || (agendaFilters.kindJoin === "and" ? on.every((chip) => kindHit(event, chip)) : on.some((chip) => kindHit(event, chip)));
-  if (!visible) return false;
-  if (agendaFilters.gemeente && !isRaadEvent(event)) return false;
+  const preset = agendaFilters.preset;
+  if (preset === "muziek-geen-club") return isMusicEvent(event) && !isClubEvent(event);
+  if (preset === "optreden") return isOptredenEvent(event);
+  if (preset === "film") return isFilmEvent(event);
+  if (preset === "club") return isClubEvent(event);
+  if (preset === "overig") return isOverigEvent(event);
   return true;
 }
 
@@ -263,50 +261,7 @@ function matchesQuery(event) {
 }
 
 function applyClientFilters(events) {
-  return events.filter((event) => inSelectedDateRange(eventDate(event)) && matchesTime(event) && matchesAge(event) && matchesChips(event));
-}
-
-function currentPreset() {
-  return {
-    dateRange: agendaFilters.dateRange,
-    time: agendaFilters.time,
-    ageOn: agendaFilters.ageOn,
-    age: agendaFilters.age,
-    chips: [...agendaFilters.chips],
-    excluded: [...agendaFilters.excluded],
-    kindJoin: agendaFilters.kindJoin,
-    gemeente: agendaFilters.gemeente,
-  };
-}
-
-function savedPreset() {
-  try {
-    const raw = localStorage.getItem(AGENDA_FILTER_KEY);
-    return raw ? JSON.parse(raw) : null;
-  } catch {
-    return null;
-  }
-}
-
-function savePreset() {
-  const preset = currentPreset();
-  localStorage.setItem(AGENDA_FILTER_KEY, JSON.stringify(preset));
-  agendaFilters.customOn = true;
-  syncFilterControls();
-}
-
-function applyPreset(preset) {
-  agendaFilters.dateRange = preset.dateRange || "this_month";
-  agendaFilters.time = preset.time === "vandaag" || preset.time === "weekend" ? preset.time : "";
-  agendaFilters.ageOn = Boolean(preset.ageOn);
-  agendaFilters.age = Math.min(5, Math.max(1, Number(preset.age) || 1));
-  agendaFilters.chips = (preset.chips || []).filter((chip) => KIND_IDS.includes(chip));
-  agendaFilters.excluded = (preset.excluded || []).filter((chip) => KIND_IDS.includes(chip) && !agendaFilters.chips.includes(chip));
-  agendaFilters.kindJoin = preset.kindJoin === "and" ? "and" : "or";
-  agendaFilters.gemeente = Boolean(preset.gemeente);
-  agendaFilters.customOn = true;
-  syncFilterControls();
-  renderAgendaList();
+  return events.filter((event) => inSelectedDateRange(eventDate(event)) && matchesTime(event) && matchesChips(event));
 }
 
 function syncFilterControls() {
@@ -315,42 +270,13 @@ function syncFilterControls() {
     btn.classList.toggle("is-active", on);
     btn.setAttribute("aria-pressed", String(on));
   });
-  const join = document.getElementById("agendaKindJoin");
-  if (join) {
-    const and = agendaFilters.kindJoin === "and";
-    join.textContent = and ? "en" : "of";
-    join.classList.toggle("is-active", and);
-    join.setAttribute("aria-pressed", String(and));
-  }
-  document.querySelectorAll("#agendaViewTabs [data-agenda-filter]").forEach((btn) => {
-    const id = btn.dataset.agendaFilter;
-    const on = agendaFilters.chips.includes(id);
-    const excluded = agendaFilters.excluded.includes(id);
-    btn.classList.toggle("is-active", on);
-    btn.classList.toggle("is-exclude", excluded);
-    btn.setAttribute("aria-pressed", String(on));
-    const label = btn.dataset.agendaLabel || btn.textContent.replace(/^niet /i, "");
-    btn.dataset.agendaLabel = label;
-    btn.textContent = excluded ? `niet ${label}` : label;
+  const presetBtn = document.getElementById("agendaPresetBtn");
+  const active = agendaFilters.preset !== "alles";
+  presetBtn?.classList.toggle("is-active", active);
+  presetBtn?.setAttribute("aria-pressed", String(active));
+  document.querySelectorAll("#agendaPresetMenu [data-preset]").forEach((btn) => {
+    btn.classList.toggle("is-active", btn.dataset.preset === agendaFilters.preset);
   });
-  const gemeente = document.getElementById("agendaGemeente");
-  gemeente?.classList.toggle("is-active", agendaFilters.gemeente);
-  gemeente?.setAttribute("aria-pressed", String(agendaFilters.gemeente));
-  const ageToggle = document.getElementById("agendaAgeToggle");
-  ageToggle?.classList.toggle("is-active", agendaFilters.ageOn);
-  ageToggle?.setAttribute("aria-pressed", String(agendaFilters.ageOn));
-  const age = document.getElementById("agendaAge");
-  const ageLabel = document.getElementById("agendaAgeLabel");
-  if (age) {
-    age.value = String(agendaFilters.age);
-    age.disabled = !agendaFilters.ageOn;
-  }
-  if (ageLabel) ageLabel.textContent = AGE_LABELS[agendaFilters.age - 1] || AGE_LABELS[0];
-  setActiveTabGroup(agendaDateTabs, "data-date-range", agendaFilters.dateRange);
-  const custom = document.getElementById("agendaCustom");
-  custom?.classList.toggle("is-active", agendaFilters.customOn);
-  custom?.setAttribute("aria-pressed", String(agendaFilters.customOn));
-  if (custom) custom.disabled = !savedPreset() && !agendaFilters.customOn;
 }
 
 function setActiveTabGroup(container, attr, value) {
@@ -362,97 +288,46 @@ function setActiveTabGroup(container, attr, value) {
   });
 }
 
-function updateSourceNote() {
-  if (!agendaSourceNote) return;
-  agendaSourceNote.textContent = AGENDA_NOTE;
-}
+function updateSourceNote() {}
 
-function markCustomOff() {
-  agendaFilters.customOn = false;
-  document.getElementById("agendaCustom")?.classList.remove("is-active");
-  document.getElementById("agendaCustom")?.setAttribute("aria-pressed", "false");
+function setPresetMenu(open) {
+  const menu = document.getElementById("agendaPresetMenu");
+  const button = document.getElementById("agendaPresetBtn");
+  if (!menu || !button) return;
+  menu.hidden = !open;
+  button.setAttribute("aria-expanded", String(open));
 }
 
 function bindAgendaViewTabs() {
-  document.getElementById("agendaSave")?.addEventListener("click", () => savePreset());
-  document.getElementById("agendaCustom")?.addEventListener("click", () => {
-    const preset = savedPreset();
-    if (!preset) return;
-    if (agendaFilters.customOn) {
-      agendaFilters.time = "";
-      agendaFilters.ageOn = false;
-      agendaFilters.chips = [...KIND_IDS];
-      agendaFilters.excluded = [];
-      agendaFilters.kindJoin = "or";
-      agendaFilters.gemeente = false;
-      agendaFilters.customOn = false;
-      syncFilterControls();
-      renderAgendaList();
-      return;
-    }
-    applyPreset(preset);
-  });
-  document.getElementById("agendaGemeente")?.addEventListener("click", () => {
-    agendaFilters.gemeente = !agendaFilters.gemeente;
-    markCustomOff();
-    syncFilterControls();
-    renderAgendaList();
-  });
   document.querySelectorAll("#agendaTimeTabs [data-time]").forEach((btn) => {
     btn.addEventListener("click", () => {
       agendaFilters.time = agendaFilters.time === btn.dataset.time ? "" : btn.dataset.time;
-      markCustomOff();
+      setPresetMenu(false);
       syncFilterControls();
       renderAgendaList();
     });
   });
-  document.getElementById("agendaAgeToggle")?.addEventListener("click", () => {
-    agendaFilters.ageOn = !agendaFilters.ageOn;
-    markCustomOff();
-    syncFilterControls();
-    renderAgendaList();
+  document.getElementById("agendaPresetBtn")?.addEventListener("click", (event) => {
+    event.stopPropagation();
+    const menu = document.getElementById("agendaPresetMenu");
+    setPresetMenu(menu?.hidden !== false);
   });
-  document.getElementById("agendaAge")?.addEventListener("input", (event) => {
-    agendaFilters.age = Number(event.target.value) || 1;
-    markCustomOff();
-    syncFilterControls();
-    renderAgendaList();
-  });
-  document.getElementById("agendaKindJoin")?.addEventListener("click", () => {
-    agendaFilters.kindJoin = agendaFilters.kindJoin === "and" ? "or" : "and";
-    markCustomOff();
-    syncFilterControls();
-    renderAgendaList();
-  });
-  agendaViewTabs?.querySelectorAll("[data-agenda-filter]").forEach((btn) => {
+  document.querySelectorAll("#agendaPresetMenu [data-preset]").forEach((btn) => {
     btn.addEventListener("click", () => {
-      const id = btn.dataset.agendaFilter;
-      if (agendaFilters.chips.includes(id)) {
-        agendaFilters.chips = agendaFilters.chips.filter((chip) => chip !== id);
-        agendaFilters.excluded = [...agendaFilters.excluded, id];
-      } else if (agendaFilters.excluded.includes(id)) {
-        agendaFilters.excluded = agendaFilters.excluded.filter((chip) => chip !== id);
-      } else {
-        agendaFilters.chips = [...agendaFilters.chips, id];
-      }
-      markCustomOff();
+      agendaFilters.preset = PRESETS[btn.dataset.preset] ? btn.dataset.preset : "alles";
+      setPresetMenu(false);
       syncFilterControls();
       renderAgendaList();
     });
+  });
+  document.addEventListener("click", (event) => {
+    if (event.target.closest(".agenda-preset")) return;
+    setPresetMenu(false);
   });
   syncFilterControls();
 }
 
-function bindAgendaFilterTabs() {
-  agendaDateTabs?.querySelectorAll(".news-tab").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      agendaFilters.dateRange = btn.dataset.dateRange || "this_month";
-      markCustomOff();
-      setActiveTabGroup(agendaDateTabs, "data-date-range", agendaFilters.dateRange);
-      renderAgendaList();
-    });
-  });
-}
+function bindAgendaFilterTabs() {}
 
 function bindAgendaToggles() {
   if (!agendaList) return;
@@ -588,7 +463,7 @@ function sortRaadEvents(events) {
 function renderAgendaList() {
   if (!agendaList) return;
 
-  if (agendaFilters.chips.includes("vergadering") && agendaEvents.some((event) => event.itemNumber)) {
+  if (agendaFilters.preset === "vergadering" && agendaEvents.some((event) => event.itemNumber)) {
     renderRaadCalendar(sortRaadEvents(applyClientFilters(agendaEvents)));
     return;
   }
@@ -644,9 +519,7 @@ function renderAgendaList() {
               <span class="agenda-date-day">–</span>
               <span class="agenda-date-wday">?</span>
             </span>`;
-      const toggleLabel = dateParts
-        ? `${dateParts.label}: ${event.title}`
-        : title;
+      const toggleLabel = dateParts ? `${dateParts.label}: ${title}` : title;
       const sourceLabel = event.bron || event.sourceLabel || "";
       const link = event.link && event.link !== "Onbekend" ? event.link : "";
 
