@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T10:44:12.654Z",
+  "updated": "2026-10-18T11:04:28.957Z",
   "failedSources": [
     {
       "id": "popronde",
@@ -7,296 +7,16 @@
       "error": "Bron gaf 403"
     }
   ],
-  "count": 667,
+  "count": 645,
   "lagen": {
-    "Optreden, Verzameling": 13,
-    "Optreden": 437,
-    "Verzameling": 33,
+    "Optreden": 416,
     "Reeks": 143,
+    "Verzameling": 31,
+    "Optreden, Verzameling": 14,
     "Vergadering": 37,
     "Festival": 4
   },
   "events": [
-    {
-      "datum": "2026-10-17",
-      "tijd": "20:15–22:45",
-      "titel": "Broederliefde in theater",
-      "beschrijving": "In zestien jaar tijd groeide Broederliefde uit tot één van de meest bepalende groepen binnen de Nederlandse muziekindustrie. Met negen albums op hun naam, meerdere uitverkochte Ahoy-shows en een carrière vol hoogtepunten zijn ze niet meer weg te denken uit het Nederlandse muzieklandschap. ‘Hard Work Pays Off 2’ was het album dat hen hun grote doorbraak opleverde.",
-      "categorie": "Theater",
-      "locatie": "Schouwburg Het Park",
-      "leeftijd": "Onbekend",
-      "prijs": "€39,50",
-      "interval": "Eenmalig",
-      "laag": "Optreden, Verzameling",
-      "bron": "Het Park, inHoorn, Uitagenda",
-      "link": "https://hetpark.nl/agenda/broederliefde-in-theater-10355715/"
-    },
-    {
-      "datum": "2026-10-17",
-      "tijd": "13:30–15:28",
-      "titel": "De Club van Sinterklaas film: Paniek in het Pietendorp",
-      "beschrijving": "In het Pietendorp wordt alles klaargemaakt voor de jaarlijkse grote reis naar Nederland. Er zijn dit jaar meer cadeaus, pepernoten en chocoladeletters dan ooit. Zaal 6 Donald Duck, NL",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Alle leeftijden",
-      "prijs": "€10",
-      "interval": "Onbekend",
-      "laag": "Optreden",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000490/4094"
-    },
-    {
-      "datum": "2026-10-17",
-      "tijd": "13:00–14:59",
-      "titel": "De Grote Sinterklaasfilm en de Vliegende Pieten",
-      "beschrijving": "Nederland wordt getroffen door extreem winterweer en Pakjesavond dreigt letterlijk in de sneeuw te vallen. Zaal 5 Donald Duck, NL",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Alle leeftijden",
-      "prijs": "€10",
-      "interval": "Onbekend",
-      "laag": "Optreden",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000493/4095"
-    },
-    {
-      "datum": "2026-10-17",
-      "tijd": "16:30–18:30",
-      "titel": "De Tatta's: Daan",
-      "beschrijving": "Daan wil maar één ding: indruk maken op z'n crush Layla. Hij belooft spontaan het meest epische cadeau ooit te fixen voor haar verjaardagsfeest. Zaal 4 NL",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Kind",
-      "prijs": "€12",
-      "interval": "Onbekend",
-      "laag": "Optreden",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000534/4108"
-    },
-    {
-      "datum": "2026-10-17",
-      "tijd": "20:30–22:00",
-      "titel": "Greg Shapiro",
-      "beschrijving": "Op 4 juli 2026 vieren de Verenigde Staten 250 jaar onafhankelijkheid… met het terugbrengen van de koning. Met Donald Trump aan de macht lijken er wel 250 jaren verstreken. “Wat een perfect moment voor een nieuwe Amerikaanse revolutie”, roept de Nederlands-Amerikaanse komiek Greg Shapiro. Toch durft Shapiro ook een positieve kijk te hebben op de VS.",
-      "categorie": "Onbekend",
-      "locatie": "Schouwburg Het Park",
-      "leeftijd": "Onbekend",
-      "prijs": "€23,50",
-      "interval": "Onbekend",
-      "laag": "Verzameling",
-      "bron": "inHoorn",
-      "link": "https://www.inhoorn.nl/agenda-item/greg-shapiro/"
-    },
-    {
-      "datum": "2026-10-17",
-      "tijd": "22:00–00:21",
-      "titel": "Heart of the Beast",
-      "beschrijving": "Na een angstaanjagend vliegtuigongeluk komen Special Forces-officier James Belmont en zijn legerhond Odin diep in de wildernis van Alaska terecht. Zaal 4",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Volwassene",
-      "prijs": "€12",
-      "interval": "Onbekend",
-      "laag": "Optreden",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000395/4086"
-    },
-    {
-      "datum": "2026-10-17",
-      "tijd": "22:00–04:00",
-      "titel": "House of Swaf: Huub Amsterdam",
-      "beschrijving": "HUUB AMSTERDAM — 6 HOUR SET Ruim 30 jaar achter decks, 15 jaar regular bij Betriebsfeier Berlin en Rote Dichte, plus 10 jaar DJ/curator bij HouseRadio. Deep, minimal, tech & techno. Berlin influenced. Bijzondere collectie, lange lijnen, eigen sound. 6 hours. Digging deep",
-      "categorie": "House",
-      "locatie": "Muziekcafé SWAF, Kerkstraat 3",
-      "leeftijd": "Onbekend",
-      "prijs": "Onbekend",
-      "interval": "Eenmalig",
-      "laag": "Optreden",
-      "bron": "SWAF",
-      "link": "https://swaf.nl/evenement/house-of-swaf-huub-amsterdam/"
-    },
-    {
-      "datum": "2026-10-17",
-      "tijd": "15:00–18:22",
-      "titel": "Lalka",
-      "beschrijving": "Zaal 1 Poolse Film",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Jongere",
-      "prijs": "€12",
-      "interval": "Onbekend",
-      "laag": "Optreden",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000555/4034"
-    },
-    {
-      "datum": "2026-10-17",
-      "tijd": "15:50–18:00",
-      "titel": "Minions & Monsters (NL)",
-      "beschrijving": "Van de grootste animatiefranchise ooit is hier nu Minions & Monsters wordt geregisseerd door Pierre Coffin, een van de regisseurs van de eerste drie Despicable Me-films en de eerste Minions-film. Zaal 6 NL",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Kind",
-      "prijs": "€10",
-      "interval": "Onbekend",
-      "laag": "Optreden",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000327/4085"
-    },
-    {
-      "datum": "2026-10-17",
-      "tijd": "14:30–16:16",
-      "titel": "Moppervis",
-      "beschrijving": "Een vrolijk onderwateravontuur voor het hele gezin over vriendschap, moed en het ontdekken van de wereld buiten je comfortzone. Een kleurrijke animatiefilm vol humor, fantasie en verrassende ontmoetingen. In een bruisende onderwaterstad voelt Moppervis zich het liefst veilig in zijn oude scheepswrak aan de rand van het rif. Zijn rustige leven verandert wanneer de hyperactieve zeedraak Pip onverwacht opduikt. Als ze a",
-      "categorie": "Film",
-      "locatie": "Cinema Oostereiland",
-      "leeftijd": "Onbekend",
-      "prijs": "Onbekend",
-      "interval": "Onbekend",
-      "laag": "Verzameling",
-      "bron": "inHoorn, Uitagenda",
-      "link": "https://www.inhoorn.nl/agenda-item/moppervis-2/"
-    },
-    {
-      "datum": "2026-10-17",
-      "tijd": "22:10–00:24",
-      "titel": "Resident Evil",
-      "beschrijving": "De baanbrekende filmmaker Zach Cregger (Weapons, Barbarian) geeft met Resident Evil een bloedstollende – en angstaanjagende – nieuwe draai aan de Resident Evil-franchise. Zaal 7 D-Box, Dolby Atmos",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Volwassene",
-      "prijs": "€13,25",
-      "interval": "Onbekend",
-      "laag": "Optreden",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000484/4093"
-    },
-    {
-      "datum": "2026-10-17",
-      "tijd": "11:00–13:26",
-      "titel": "Sense and Sensibility",
-      "beschrijving": "Jane Austens tijdloze klassieker ‘Sense and Sensibility’ (1811) is op een eigentijdse en meeslepende manier door de Britse regisseuse Georgia Oakley (Blue Jean) verfilmd. Na een ingrijpende familiecrisis verliezen de zussen Elinor en Marianne Dashwood hun vertrouwde leven. Waar de bedachtzame Elinor haar emoties probeert te beheersen, volgt Marianne juist vol overgave haar hart. Tussen geld, status en roddels ontdekk",
-      "categorie": "Film",
-      "locatie": "Cinema Oostereiland",
-      "leeftijd": "Onbekend",
-      "prijs": "Onbekend",
-      "interval": "Onbekend",
-      "laag": "Verzameling",
-      "bron": "inHoorn, Uitagenda",
-      "link": "https://www.inhoorn.nl/agenda-item/sense-and-sensibility-3/"
-    },
-    {
-      "datum": "2026-10-17",
-      "tijd": "13:20–16:12",
-      "titel": "Sense and Sensibility",
-      "beschrijving": "Focus Features en Working Title komen met een meeslepende nieuwe verfilming van Jane Austens beroemde roman Sense and Sensibility Zaal 4",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Kind",
-      "prijs": "€12",
-      "interval": "Onbekend",
-      "laag": "Optreden",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000175/4106"
-    },
-    {
-      "datum": "2026-10-17",
-      "tijd": "12:50–15:55",
-      "titel": "Spider-Man: Brand New Day",
-      "beschrijving": "Na het wereldwijde kassucces van Spider-Man: No Way Home begint er met Spider-Man: Brand New Day compleet nieuw hoofdstuk voor Peter Parker en Spider-Man. Zaal 7 D-Box, Dolby Atmos",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Jongere",
-      "prijs": "€13,25",
-      "interval": "Onbekend",
-      "laag": "Optreden",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000166/4089"
-    },
-    {
-      "datum": "2026-10-17",
-      "tijd": "16:20–18:59",
-      "titel": "Street Fighter",
-      "beschrijving": "In 1993 raken de van elkaar vervreemde Street Fighters Ryu en Ken Masters opnieuw verwikkeld in een gevecht. Zaal 7 D-Box, Dolby Atmos",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Jongere",
-      "prijs": "€13,25",
-      "interval": "Onbekend",
-      "laag": "Optreden",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000396/4088"
-    },
-    {
-      "datum": "2026-10-17",
-      "tijd": "20:40–00:13",
-      "titel": "The Odyssey",
-      "beschrijving": "Christopher Nolans nieuwe film The Odyssey is een avontuurlijk mythisch epos dat op locaties over de hele wereld is opgenomen. Zaal 6 Flitsende beelden",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Volwassene",
-      "prijs": "€12",
-      "interval": "Onbekend",
-      "laag": "Optreden",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000135/4102"
-    },
-    {
-      "datum": "2026-10-17",
-      "tijd": "18:10–20:43",
-      "titel": "The Social Reckoning",
-      "beschrijving": "dit vervolg op de succesfilm The Social Network is gebaseerd op de gebeurtenissen die hebben geleid tot het onthullende artikel‘The Facebook Files’ in de Wall Street Journal. Zaal 5",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Jongere",
-      "prijs": "€12",
-      "interval": "Onbekend",
-      "laag": "Optreden",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000530/4096"
-    },
-    {
-      "datum": "2026-10-17",
-      "tijd": "18:40–21:17",
-      "titel": "Verity",
-      "beschrijving": "Het verhaal volgt een noodlijdende schrijfster die tijdelijk naar het afgelegen landhuis van de Crawfords verhuist om als ghostwriter voor Verity te werken. Zaal 1",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Jongere",
-      "prijs": "€12",
-      "interval": "Onbekend",
-      "laag": "Optreden",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000397/4091"
-    },
-    {
-      "datum": "2026-10-17",
-      "tijd": "15:20–17:44",
-      "titel": "Wen Er Maar Aan",
-      "beschrijving": "Beng! Actrice M. krijgt het zonder omwegen te horen: ‘Je zit in de overgang'. Zaal 5 NL",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Kind",
-      "prijs": "€12",
-      "interval": "Onbekend",
-      "laag": "Optreden",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000178/4100"
-    },
-    {
-      "datum": "2026-10-17",
-      "tijd": "12:30–14:36",
-      "titel": "Yugly",
-      "beschrijving": "Maak kennis met Yugly, de lelijkste hond ter wereld… en op een vreemde manier ook de schattigste. Zaal 1 NL",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Kind",
-      "prijs": "€10",
-      "interval": "Onbekend",
-      "laag": "Optreden",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000491/4107"
-    },
     {
       "datum": "2026-10-18",
       "tijd": "15:00",
@@ -341,9 +61,9 @@
     },
     {
       "datum": "2026-10-18",
-      "tijd": "09:40–11:38",
+      "tijd": "14:20–16:18",
       "titel": "De Club van Sinterklaas film: Paniek in het Pietendorp",
-      "beschrijving": "In het Pietendorp wordt alles klaargemaakt voor de jaarlijkse grote reis naar Nederland. Er zijn dit jaar meer cadeaus, pepernoten en chocoladeletters dan ooit. Zaal 7 Mini Mornings, Donald Duck, NL",
+      "beschrijving": "In het Pietendorp wordt alles klaargemaakt voor de jaarlijkse grote reis naar Nederland. Er zijn dit jaar meer cadeaus, pepernoten en chocoladeletters dan ooit. Zaal 5 Donald Duck, NL",
       "categorie": "Film",
       "locatie": "Vue Hoorn, Westfriese Parkweg 3",
       "leeftijd": "Alle leeftijden",
@@ -351,7 +71,7 @@
       "interval": "Onbekend",
       "laag": "Optreden",
       "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000490/4130"
+      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000490/4121"
     },
     {
       "datum": "2026-10-18",
@@ -369,9 +89,9 @@
     },
     {
       "datum": "2026-10-18",
-      "tijd": "10:10–12:09",
+      "tijd": "14:00–15:59",
       "titel": "De Grote Sinterklaasfilm en de Vliegende Pieten",
-      "beschrijving": "Nederland wordt getroffen door extreem winterweer en Pakjesavond dreigt letterlijk in de sneeuw te vallen. Zaal 4 Donald Duck, NL",
+      "beschrijving": "Nederland wordt getroffen door extreem winterweer en Pakjesavond dreigt letterlijk in de sneeuw te vallen. Zaal 6 Donald Duck, NL",
       "categorie": "Film",
       "locatie": "Vue Hoorn, Westfriese Parkweg 3",
       "leeftijd": "Alle leeftijden",
@@ -379,7 +99,7 @@
       "interval": "Onbekend",
       "laag": "Optreden",
       "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000493/4131"
+      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000493/4120"
     },
     {
       "datum": "2026-10-18",
@@ -397,7 +117,7 @@
     },
     {
       "datum": "2026-10-18",
-      "tijd": "10:20–12:41",
+      "tijd": "18:20–20:41",
       "titel": "Heart of the Beast",
       "beschrijving": "Na een angstaanjagend vliegtuigongeluk komen Special Forces-officier James Belmont en zijn legerhond Odin diep in de wildernis van Alaska terecht. Zaal 1",
       "categorie": "Film",
@@ -407,7 +127,7 @@
       "interval": "Onbekend",
       "laag": "Optreden",
       "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000395/4113"
+      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000395/4114"
     },
     {
       "datum": "2026-10-18",
@@ -432,14 +152,14 @@
       "locatie": "Vue Hoorn, Westfriese Parkweg 3",
       "leeftijd": "Jongere",
       "prijs": "€12",
-      "interval": "Onbekend",
+      "interval": "Eenmalig",
       "laag": "Optreden",
       "bron": "Vue Hoorn",
       "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000555/4035"
     },
     {
       "datum": "2026-10-18",
-      "tijd": "10:00–13:00",
+      "tijd": "13:00–16:30",
       "titel": "Mineralenbeurs",
       "beschrijving": "Bestellen Ontdek de wereld van gesteenten Laat je betoveren door edelstenen, fossielen en kristallen: de Mineralenbeurs is een paradijs voor liefhebbers en nieuwsgierige bezoekers.",
       "categorie": "Markt",
@@ -449,7 +169,7 @@
       "interval": "Onbekend",
       "laag": "Optreden, Verzameling",
       "bron": "Het Park, inHoorn, Uitagenda",
-      "link": "https://hetpark.nl/agenda/mineralenbeurs-10360134/"
+      "link": "https://hetpark.nl/agenda/mineralenbeurs-10360135/"
     },
     {
       "datum": "2026-10-18",
@@ -476,7 +196,7 @@
       "prijs": "Onbekend",
       "interval": "Onbekend",
       "laag": "Verzameling",
-      "bron": "inHoorn, Uitagenda",
+      "bron": "inHoorn",
       "link": "https://www.inhoorn.nl/agenda-item/moppervis/"
     },
     {
@@ -495,20 +215,6 @@
     },
     {
       "datum": "2026-10-18",
-      "tijd": "09:30–11:39",
-      "titel": "Paw Patrol: De Dinofilm",
-      "beschrijving": "Nadat ze met hun schip door een mysterieuze storm overvallen worden, moeten de Paw Patrol-pups een noodlanding maken op een nog onontdekt tropisch eiland vol dino's Zaal 5 NL",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Kind",
-      "prijs": "€10",
-      "interval": "Onbekend",
-      "laag": "Optreden",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000328/4132"
-    },
-    {
-      "datum": "2026-10-18",
       "tijd": "22:00–00:14",
       "titel": "Resident Evil",
       "beschrijving": "De baanbrekende filmmaker Zach Cregger (Weapons, Barbarian) geeft met Resident Evil een bloedstollende – en angstaanjagende – nieuwe draai aan de Resident Evil-franchise. Zaal 5",
@@ -523,7 +229,7 @@
     },
     {
       "datum": "2026-10-18",
-      "tijd": "12:30–15:22",
+      "tijd": "18:30–21:22",
       "titel": "Sense and Sensibility",
       "beschrijving": "Focus Features en Working Title komen met een meeslepende nieuwe verfilming van Jane Austens beroemde roman Sense and Sensibility Zaal 4",
       "categorie": "Film",
@@ -533,7 +239,7 @@
       "interval": "Onbekend",
       "laag": "Optreden",
       "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000175/4128"
+      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000175/4109"
     },
     {
       "datum": "2026-10-18",
@@ -548,20 +254,6 @@
       "laag": "Optreden",
       "bron": "Vue Hoorn",
       "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000068/4007"
-    },
-    {
-      "datum": "2026-10-18",
-      "tijd": "10:30–13:35",
-      "titel": "Spider-Man: Brand New Day",
-      "beschrijving": "Na het wereldwijde kassucces van Spider-Man: No Way Home begint er met Spider-Man: Brand New Day compleet nieuw hoofdstuk voor Peter Parker en Spider-Man. Zaal 6",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Jongere",
-      "prijs": "€12",
-      "interval": "Onbekend",
-      "laag": "Optreden",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000166/4110"
     },
     {
       "datum": "2026-10-18",
@@ -635,17 +327,17 @@
     },
     {
       "datum": "2026-10-18",
-      "tijd": "12:00–14:37",
+      "tijd": "21:00–23:37",
       "titel": "Verity",
-      "beschrijving": "Het verhaal volgt een noodlijdende schrijfster die tijdelijk naar het afgelegen landhuis van de Crawfords verhuist om als ghostwriter voor Verity te werken. Zaal 7 D-Box, Dolby Atmos",
+      "beschrijving": "Het verhaal volgt een noodlijdende schrijfster die tijdelijk naar het afgelegen landhuis van de Crawfords verhuist om als ghostwriter voor Verity te werken. Zaal 1",
       "categorie": "Film",
       "locatie": "Vue Hoorn, Westfriese Parkweg 3",
       "leeftijd": "Jongere",
-      "prijs": "€13,25",
+      "prijs": "€12",
       "interval": "Onbekend",
       "laag": "Optreden",
       "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000397/4125"
+      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000397/4124"
     },
     {
       "datum": "2026-10-18",
@@ -660,20 +352,6 @@
       "laag": "Optreden",
       "bron": "Vue Hoorn",
       "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000178/4116"
-    },
-    {
-      "datum": "2026-10-18",
-      "tijd": "12:00–14:06",
-      "titel": "Yugly",
-      "beschrijving": "Maak kennis met Yugly, de lelijkste hond ter wereld… en op een vreemde manier ook de schattigste. Zaal 5 NL",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Kind",
-      "prijs": "€10",
-      "interval": "Onbekend",
-      "laag": "Optreden",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000491/4126"
     },
     {
       "datum": "2026-10-19",
@@ -2635,7 +2313,7 @@
       "locatie": "Vue Hoorn, Westfriese Parkweg 3",
       "leeftijd": "Jongere",
       "prijs": "€12",
-      "interval": "Onbekend",
+      "interval": "Eenmalig",
       "laag": "Optreden",
       "bron": "Vue Hoorn",
       "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000166/4212"
@@ -2772,7 +2450,7 @@
       "locatie": "Vue Hoorn, Westfriese Parkweg 3",
       "leeftijd": "Kind",
       "prijs": "€10",
-      "interval": "Onbekend",
+      "interval": "Eenmalig",
       "laag": "Optreden",
       "bron": "Vue Hoorn",
       "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000491/4216"
@@ -3800,14 +3478,14 @@
       "datum": "2026-10-29",
       "tijd": "20:15–21:45",
       "titel": "Pieter Derks",
-      "beschrijving": "Ja, leuk (reprise)",
+      "beschrijving": "Op zijn bekende toon, vriendelijk maar vlijmscherp, gidst Pieter ons door bizarre tijden. Want niemand die zo boven op de tijdgeest zit als hij. Van doomscrollen tot doe-het-zelven, van wereldpolitiek tot persoonlijke pijntjes, in het universum van Pieter heeft altijd alles met alles te maken.",
       "categorie": "Comedy",
       "locatie": "Schouwburg Het Park",
       "leeftijd": "Onbekend",
       "prijs": "€33,50",
       "interval": "Eenmalig",
       "laag": "Optreden, Verzameling",
-      "bron": "Het Park, Uitagenda",
+      "bron": "Het Park, inHoorn, Uitagenda",
       "link": "https://hetpark.nl/agenda/pieter-derks-10355722/"
     },
     {
@@ -3856,7 +3534,7 @@
       "datum": "2026-10-30",
       "tijd": "47:22",
       "titel": "Burlesque Show: The Night of the Living Dancers",
-      "beschrijving": "Op vrijdag 30 oktober een gewaagde avond in Manifesto: Bureau Burlesque trakteert op een speciale show in Halloween thema: \"The Night of the Living Dancers\". De dames brengen een griezelig goede performance met veel humor. Kun je blozen als je bang bent? Kun je het aan? Kom erachter... als je durft! Tickets zijn nu verkrijgbaar: via deze link. Vanaf 20.00 uur ben je welkom. Om 20:30 start de show! Om 23:00 is de show",
+      "beschrijving": "Op vrijdag 30 oktober een gewaagde avond in Manifesto: Bureau Burlesque trakteert op een speciale show in Halloween thema: \"The Night of the Living Dancers\". De dames brengen een griezelig goede performance met veel humor. Kun je blozen als je bang bent? Kun je het aan? Kom erachter... als je durft! Vanaf 20.00 uur ben je welkom. Om 20:30 start de show! Om 23:00 is de show af en kun je nog een drankje doen of rillend",
       "categorie": "Onbekend",
       "locatie": "Manifesto",
       "leeftijd": "Onbekend",
@@ -3884,14 +3562,14 @@
       "datum": "2026-10-30",
       "tijd": "20:15–22:25",
       "titel": "Jethro Tull",
-      "beschrijving": "Onbekend",
+      "beschrijving": "Ian Anderson en Jethro Tull behoren tot de meest succesvolle en invloedrijke progressieve rockacts ter wereld. Sinds de oprichting eind jaren zestig heeft de band een onmiskenbare stempel gedrukt op de internationale rockscene.",
       "categorie": "Theater",
       "locatie": "Schouwburg Het Park",
       "leeftijd": "Onbekend",
       "prijs": "€75",
       "interval": "Eenmalig",
       "laag": "Optreden, Verzameling",
-      "bron": "Het Park, Uitagenda",
+      "bron": "Het Park, inHoorn, Uitagenda",
       "link": "https://hetpark.nl/agenda/jethro-tull-10348580/"
     },
     {
@@ -3924,17 +3602,17 @@
     },
     {
       "datum": "2026-10-30",
-      "tijd": "20:30",
+      "tijd": "20:30–22:00",
       "titel": "Nora Fisher | Infotainment",
-      "beschrijving": "Onbekend",
-      "categorie": "Onbekend",
+      "beschrijving": "De Sprong is een solo-voorstelling door zangeres Nora Fischer, maar met de onverwachte wending dat zangeres Nora Fischer niet aanwezig is als zingende performer. In plaats van te zingen, gaat persoon Nora vertellen waarom ze niet meer kan zingen.",
+      "categorie": "Theater",
       "locatie": "Schouwburg Het Park",
       "leeftijd": "Onbekend",
-      "prijs": "Onbekend",
+      "prijs": "€22,50",
       "interval": "Onbekend",
       "laag": "Verzameling",
-      "bron": "Uitagenda",
-      "link": "https://westfrieseuitagenda.nl/agenda/30-10-2026-nora-fisher-infotainment/"
+      "bron": "inHoorn, Uitagenda",
+      "link": "https://www.inhoorn.nl/agenda-item/nora-fisher-infotainment/"
     },
     {
       "datum": "2026-10-30",
@@ -3994,6 +3672,20 @@
     },
     {
       "datum": "2026-10-31",
+      "tijd": "21:30",
+      "titel": "Beetlejuice Beetlejuice – Halloween",
+      "beschrijving": "Speciaal voor Halloween brengen we Beetlejuice Beetlejuice terug naar het grote doek. Tim Burton en Michael Keaton herenigen zich voor een heerlijk macaber avontuur, met Winona Ryder, Jenna Ortega en Willem Dafoe in de hoofdrollen. Na een onverwachte tragedie keert de familie Deetz terug naar Winter River. Daar ontdekt Astrid, de rebelse dochter van Lydia, op zolder een mysterieuze maquette van het stadje en opent ze",
+      "categorie": "Film",
+      "locatie": "Cinema Oostereiland",
+      "leeftijd": "Onbekend",
+      "prijs": "Onbekend",
+      "interval": "Onbekend",
+      "laag": "Verzameling",
+      "bron": "Uitagenda",
+      "link": "https://westfrieseuitagenda.nl/agenda/31-10-2026-beetlejuice-beetlejuice-halloween/"
+    },
+    {
+      "datum": "2026-10-31",
       "tijd": "13:30–15:30",
       "titel": "CoderDojo Hoorn",
       "beschrijving": "Maandelijkse bijeenkomst waar jonge mensen tussen de 7 en 17 jaar welkom zijn om te leren programmeren.",
@@ -4005,6 +3697,20 @@
       "laag": "Reeks",
       "bron": "Bibliotheek",
       "link": "https://www.bibliotheekhoorn.nl/doen/Agenda/coderdojo.31102026.html"
+    },
+    {
+      "datum": "2026-10-31",
+      "tijd": "20:15–22:00",
+      "titel": "Fame JR | Young Westend",
+      "beschrijving": "Fame JR",
+      "categorie": "Theater",
+      "locatie": "Schouwburg Het Park",
+      "leeftijd": "Onbekend",
+      "prijs": "€22,50",
+      "interval": "Eenmalig",
+      "laag": "Optreden, Verzameling",
+      "bron": "Het Park, Uitagenda",
+      "link": "https://westfrieseuitagenda.nl/agenda/31-10-2026-fame-jr-young-westend/"
     },
     {
       "datum": "2026-10-31",
@@ -4030,8 +3736,8 @@
       "leeftijd": "Onbekend",
       "prijs": "€42,50",
       "interval": "Eenmalig",
-      "laag": "Optreden",
-      "bron": "Het Park",
+      "laag": "Optreden, Verzameling",
+      "bron": "Het Park, Uitagenda",
       "link": "https://hetpark.nl/agenda/mr-jones-just-in-case-10355752/"
     },
     {
@@ -4061,20 +3767,6 @@
       "laag": "Optreden",
       "bron": "SWAF",
       "link": "https://swaf.nl/evenement/slasher-swaf-halloween-costume-party/"
-    },
-    {
-      "datum": "2026-10-31",
-      "tijd": "20:15–22:00",
-      "titel": "Young Westend",
-      "beschrijving": "Fame JR",
-      "categorie": "Theater",
-      "locatie": "Schouwburg Het Park",
-      "leeftijd": "Onbekend",
-      "prijs": "€22,50",
-      "interval": "Onbekend",
-      "laag": "Optreden",
-      "bron": "Het Park",
-      "link": "https://hetpark.nl/agenda/young-westend-10357134/"
     },
     {
       "datum": "2026-11-01",
@@ -4127,7 +3819,7 @@
       "locatie": "Schouwburg Het Park",
       "leeftijd": "Onbekend",
       "prijs": "€22,50",
-      "interval": "Onbekend",
+      "interval": "Eenmalig",
       "laag": "Optreden",
       "bron": "Het Park",
       "link": "https://hetpark.nl/agenda/young-westend-10357135/"
@@ -4678,7 +4370,7 @@
       "categorie": "Tribute",
       "locatie": "Schouwburg Het Park",
       "leeftijd": "Onbekend",
-      "prijs": "€42",
+      "prijs": "€40",
       "interval": "Eenmalig",
       "laag": "Optreden",
       "bron": "Het Park",
