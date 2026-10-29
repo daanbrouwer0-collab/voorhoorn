@@ -49,6 +49,18 @@ const ALLOWED_HOSTS = new Set([
   "www.pakhuishoorn.nl",
   "vuecinemas.nl",
   "www.vuecinemas.nl",
+  "cafedevolendammer.nl",
+  "www.cafedevolendammer.nl",
+  "popstationhoorn.nl",
+  "www.popstationhoorn.nl",
+  "dekadehoorn.nl",
+  "www.dekadehoorn.nl",
+  "orgelconcerten-hoorn.nl",
+  "www.orgelconcerten-hoorn.nl",
+  "stoomtram.nl",
+  "www.stoomtram.nl",
+  "hotelmariakapel.nl",
+  "www.hotelmariakapel.nl",
 ]);
 
 const TYPES = {

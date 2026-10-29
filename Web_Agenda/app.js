@@ -21,6 +21,12 @@ const SOURCE_COLOR = {
   oosterkerk: "#facc15",
   cinema: "#f97316",
   vue: "#ef4444",
+  volendammer: "#84cc16",
+  popstation: "#818cf8",
+  kade: "#f97316",
+  orgel: "#eab308",
+  stoomtram: "#0ea5e9",
+  mariakapel: "#d946ef",
 };
 
 const state = {
@@ -155,6 +161,13 @@ const PLACE_RULES = [
   [/huesmolen/i, "Wijkcentrum De Huesmolen"],
   [/grote waal/i, "Wijkcentrum De Grote Waal"],
   [/wijkcentrum\s+kersenboogerd|betje wolff/i, "Wijkcentrum Kersenboogerd"],
+  [/volendammer/i, "Café De Volendammer"],
+  [/de kade|korenmarkt/i, "De Kade"],
+  [/koepelkerk/i, "Koepelkerk"],
+  [/foreestenhuis/i, "Foreestenhuis"],
+  [/lutherse kerk/i, "Lutherse Kerk"],
+  [/stoomtram|van dedemstraat/i, "Museumstoomtram"],
+  [/maria kapel/i, "Hotel Maria Kapel"],
 ];
 
 function placeName(event) {
@@ -257,6 +270,12 @@ const SOURCE_KIND = {
   oosterkerk: "Kerk",
   cinema: "Film",
   vue: "Film",
+  volendammer: "Kroeg",
+  popstation: "Uitgaan",
+  kade: "Restaurant",
+  orgel: "Kerk",
+  stoomtram: "Museum",
+  mariakapel: "Kunst",
 };
 
 const SPORT_RE = /\b(sport|fitness|fit|conditietraining|voetbal|zwem|hardloop|yoga|wandel)\b/i;

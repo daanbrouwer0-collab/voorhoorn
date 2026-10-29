@@ -21,6 +21,12 @@ export const SOURCES = [
   { id: "oosterkerk", label: "Oosterkerk", short: "Oosterkerk", laag: "Optreden" },
   { id: "cinema", label: "Cinema", short: "Cinema", laag: "Festival" },
   { id: "vue", label: "Vue Hoorn", short: "Vue", laag: "Optreden" },
+  { id: "volendammer", label: "De Volendammer", short: "Volendammer", laag: "Reeks" },
+  { id: "popstation", label: "POPstation", short: "POPstation", laag: "Verzameling" },
+  { id: "kade", label: "De Kade", short: "De Kade", laag: "Optreden" },
+  { id: "orgel", label: "Orgelconcerten", short: "Orgel", laag: "Optreden" },
+  { id: "stoomtram", label: "Stoomtram", short: "Stoomtram", laag: "Optreden" },
+  { id: "mariakapel", label: "Maria Kapel", short: "Maria Kapel", laag: "Reeks" },
 ];
 
 const KNH_API = "https://komnaarhoorn.nl/wp-json/agenda/v1/items";
@@ -42,6 +48,12 @@ const CINEMA_FESTIVALS = "https://cinemaoostereiland.nl/wp-json/wp/v2/festivals?
 const VUE_DATES =
   "https://www.vuecinemas.nl/api/microservice/showings/showingDates?cinemaId=1023&minEmbargoLevel=2&forNextWeek=true";
 const VUE_HOME = "https://www.vuecinemas.nl/cinema/hoorn/nu-in-de-bioscoop";
+const VOLENDAMMER_AGENDA = "https://cafedevolendammer.nl/agenda/";
+const POPSTATION_AGENDA = "https://popstationhoorn.nl/showagenda";
+const KADE_AGENDA = "https://dekadehoorn.nl/evenementen/";
+const ORGEL_AGENDA = "https://www.orgelconcerten-hoorn.nl/agenda.html";
+const STOOMTRAM_EVENTS = "https://www.stoomtram.nl/evenementen/";
+const MARIAKAPEL_PROGRAM = "https://www.hotelmariakapel.nl/nl/jaarprogramma";
 
 const VALK_MONTHS = {
   jan: 0,
@@ -1485,6 +1497,306 @@ async function loadKamermuziek(fetchText) {
   return events;
 }
 
+function clockTime(hour, minute) {
+  return `${String(hour).padStart(2, "0")}:${minute}`;
+}
+
+function upcomingLastSundays(count) {
+  const dates = [];
+  const now = new Date();
+  let year = now.getFullYear();
+  let month = now.getMonth();
+  while (dates.length < count) {
+    const last = new Date(year, month + 1, 0);
+    last.setDate(last.getDate() - last.getDay());
+    const iso = `${last.getFullYear()}-${String(last.getMonth() + 1).padStart(2, "0")}-${String(last.getDate()).padStart(2, "0")}`;
+    if (iso >= todayIso()) dates.push(iso);
+    month += 1;
+    if (month > 11) {
+      month = 0;
+      year += 1;
+    }
+    if (year > now.getFullYear() + 1) break;
+  }
+  return dates;
+}
+
+export function parseVolendammerHtml(html) {
+  const text = clean(html);
+  if (!/elke laatste zondag van de maand/i.test(text)) return [];
+  return upcomingLastSundays(4).map((startDate) =>
+    eventRow({
+      id: `volendammer-${startDate}`,
+      title: "Live Nederlandstalige muziek",
+      link: VOLENDAMMER_AGENDA,
+      location: "Café De Volendammer, Hoofd 17, Hoorn",
+      description: "Elke laatste zondag van de maand live Nederlandstalige muziek, vanaf 15:00.",
+      startDate,
+      startTime: "15:00",
+      sourceId: "volendammer",
+      sourceLabel: "De Volendammer",
+      categories: ["uitgaan"],
+      repeat: "Maandelijks",
+    })
+  );
+}
+
+function markedLines(html) {
+  return html
+    .replace(/<script[\s\S]*?<\/script>/gi, " ")
+    .replace(/<style[\s\S]*?<\/style>/gi, " ")
+    .replace(/<a\s+[^>]*href="([^"]+)"[^>]*>/gi, "\n[[$1]] ")
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<\/(p|div|h\d|li|tr)>/gi, "\n")
+    .replace(/<[^>]+>/g, " ")
+    .split("\n")
+    .map((line) => clean(line))
+    .filter(Boolean);
+}
+
+const DUTCH_DATE_LINE =
+  /^(?:maandag|dinsdag|woensdag|donderdag|vrijdag|zaterdag|zondag)?\s*(\d{1,2})\s+(januari|februari|maart|april|mei|juni|juli|augustus|september|oktober|november|december)\s+(\d{4})\b/i;
+
+export function parsePopstationHtml(html) {
+  const events = [];
+  let startDate = "";
+  let title = "";
+  for (const line of markedLines(html)) {
+    const date = line.match(DUTCH_DATE_LINE);
+    if (date) {
+      const month = MONTHS[date[2].toLowerCase()];
+      startDate =
+        month == null
+          ? ""
+          : `${date[3]}-${String(month + 1).padStart(2, "0")}-${String(date[1]).padStart(2, "0")}`;
+      title = "";
+      continue;
+    }
+    if (!startDate) continue;
+    const link = line.match(/\[\[(https?:\/\/[^\]\s]+)\]\]/)?.[1] || "";
+    if (/aanvang/i.test(line)) {
+      const place = clean(line.split(/-\s*aanvang/i)[0].replace(/\[\[[^\]]+\]\]/g, ""));
+      if (!/hoorn/i.test(place) || !title) {
+        title = "";
+        continue;
+      }
+      const time = line.match(/aanvang\s+(\d{1,2})[:.](\d{2})/i);
+      events.push(
+        eventRow({
+          id: `popstation-${startDate}-${title}-${place}`,
+          title,
+          link: link || POPSTATION_AGENDA,
+          location: place,
+          description: /\(gratis\)/i.test(line) ? "Gratis optreden." : "Optreden uit de showagenda van POPstation Hoorn.",
+          startDate,
+          startTime: time ? clockTime(time[1], time[2]) : "",
+          sourceId: "popstation",
+          sourceLabel: "POPstation",
+          categories: ["uitgaan"],
+          price: /\(gratis\)/i.test(line) ? "Gratis" : "",
+        })
+      );
+      title = "";
+      continue;
+    }
+    const plain = clean(line.replace(/\[\[[^\]]+\]\]/g, ""));
+    if (plain && !/^(info|info en tickets)$/i.test(plain)) title = plain;
+  }
+  return events;
+}
+
+export function parseKadeEventHtml(html, link) {
+  const text = clean(html);
+  const heading = clean(html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1] || "");
+  const title = heading || clean(html.match(/<title>([^<|]+)/)?.[1] || "De Kade");
+  const startDate = parseDutchDate(text);
+  if (!startDate || startDate < todayIso()) return null;
+  const time = text.match(/tijd:\s*(\d{1,2})[.:](\d{2})\s*(?:tot|tot en met|-|–)\s*(\d{1,2})[.:](\d{2})/i);
+  const description =
+    [...html.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
+      .map((match) => clean(match[1]))
+      .find((line) => line.length > 80 && !/menukaart|veelgestelde|reserveren|contact/i.test(line)) || title;
+  return eventRow({
+    id: `kade-${link}`,
+    title,
+    link,
+    location: "De Kade, Korenmarkt 1, Hoorn",
+    description,
+    startDate,
+    startTime: time ? clockTime(time[1], time[2]) : "",
+    endTime: time ? clockTime(time[3], time[4]) : "",
+    sourceId: "kade",
+    sourceLabel: "De Kade",
+    categories: ["eten"],
+    price: priceFromText(text),
+  });
+}
+
+const ORGEL_DATE =
+  /^(?:maandag|dinsdag|woensdag(?:middag)?|donderdag|vrijdag|zaterdag|zondag)\s+(\d{1,2})\s+(januari|februari|maart|april|mei|juni|juli|augustus|september|oktober|november|december)\b/i;
+
+const ORGEL_PLACE = /^(koepelkerk|foreestenhuis|lutherse kerk|sint martinuskerk)/i;
+
+export function parseOrgelHtml(html) {
+  const yearMatch = clean(html).match(/programma\s+(20\d{2})/i);
+  const year = yearMatch ? Number(yearMatch[1]) : new Date().getFullYear();
+  const events = [];
+  const lines = markedLines(html);
+  for (let index = 0; index < lines.length; index += 1) {
+    const date = lines[index].match(ORGEL_DATE);
+    if (!date) continue;
+    const placeLine = lines[index + 1] || "";
+    if (!ORGEL_PLACE.test(placeLine)) continue;
+    if (/westwoud/i.test(placeLine)) continue;
+    const month = MONTHS[date[2].toLowerCase()];
+    if (month == null) continue;
+    const startDate = `${year}-${String(month + 1).padStart(2, "0")}-${String(date[1]).padStart(2, "0")}`;
+    const times = [...placeLine.matchAll(/(\d{1,2})[:.](\d{2})/g)];
+    const title = lines[index + 2] || "Orgelconcert";
+    const players = lines[index + 3] && !ORGEL_DATE.test(lines[index + 3]) ? lines[index + 3] : "";
+    const place = placeLine.match(ORGEL_PLACE)?.[1] || "Hoorn";
+    events.push(
+      eventRow({
+        id: `orgel-${startDate}-${title}`,
+        title,
+        link: ORGEL_AGENDA,
+        location: `${place}, Hoorn`,
+        description: players || "Orgelconcert van Stichting Concertfonds Hoornse Orgels.",
+        startDate,
+        startTime: times[0] ? clockTime(times[0][1], times[0][2]) : "",
+        endTime: times[1] ? clockTime(times[1][1], times[1][2]) : "",
+        sourceId: "orgel",
+        sourceLabel: "Orgelconcerten",
+        categories: ["muziek"],
+      })
+    );
+  }
+  return events.filter((event) => event.startDate >= todayIso());
+}
+
+const MONTH_WORD =
+  "januari|februari|maart|april|mei|juni|juli|augustus|september|oktober|november|december";
+
+function tramDates(text) {
+  const dates = new Set();
+  const add = (monthName, day) => {
+    const month = MONTHS[monthName.toLowerCase()];
+    const dayNumber = Number(day);
+    if (month == null || dayNumber < 1 || dayNumber > 31) return;
+    let year = new Date().getFullYear();
+    let iso = `${year}-${String(month + 1).padStart(2, "0")}-${String(dayNumber).padStart(2, "0")}`;
+    if (iso < todayIso()) {
+      year += 1;
+      iso = `${year}-${iso.slice(5)}`;
+    }
+    dates.add(iso);
+  };
+  const rangeRe = new RegExp(`(\\d{1,2})\\s*[-–]\\s*(\\d{1,2})\\s+(${MONTH_WORD})`, "gi");
+  for (const match of text.matchAll(rangeRe)) {
+    const start = Number(match[1]);
+    const end = Number(match[2]);
+    for (let day = Math.min(start, end); day <= Math.max(start, end); day += 1) add(match[3], day);
+  }
+  const listRe = new RegExp(`(\\d{1,2}(?:\\s*(?:,|&|en)\\s*\\d{1,2})*)\\s+(${MONTH_WORD})`, "gi");
+  for (const match of text.matchAll(listRe)) {
+    if (new RegExp(`\\d\\s*[-–]\\s*${match[1].trim()}\\s+${match[2]}`, "i").test(text)) continue;
+    for (const day of match[1].match(/\d{1,2}/g) || []) add(match[2], day);
+  }
+  return [...dates].sort();
+}
+
+export function parseStoomtramEventHtml(html, link, titleHint) {
+  const text = clean(html);
+  const heading = clean(html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1] || "");
+  const title = (heading && !/logo|stoomtram/i.test(heading) ? heading : titleHint) || "Stoomtram";
+  const dates = tramDates(text);
+  const circa = text.match(/circa\s+\d+\s+uur/i);
+  const description = circa
+    ? `De rit duurt ${circa[0]}.`
+    : /ruim een uur/i.test(text)
+      ? "De rit duurt ruim een uur, van Hoorn naar Medemblik."
+      : "Bijzondere rit vanaf het tramstation in Hoorn.";
+  return dates.map((startDate) =>
+    eventRow({
+      id: `stoomtram-${title}-${startDate}`,
+      title,
+      link,
+      location: "Museumstoomtram Hoorn-Medemblik, Van Dedemstraat 8, Hoorn",
+      description,
+      startDate,
+      sourceId: "stoomtram",
+      sourceLabel: "Stoomtram",
+      categories: /pieten|kerst|gezin|kinderen/i.test(`${title} ${text}`) ? ["voor-kinderen"] : ["uitgaan"],
+      audience: /pieten|kerst/i.test(`${title} ${text}`) ? "Kind" : "",
+    })
+  );
+}
+
+export function parseMariaKapelHtml(html) {
+  const text = clean(html);
+  const theme = text.match(/2026\s+programma:\s*[‘'"]([^’'"]+)[’'"]/i);
+  const artists = text.match(/geselecteerde kunstenaars van 2026:\s*([^.]+)/i);
+  if (!theme && !artists) return [];
+  return [
+    eventRow({
+      id: "mariakapel-2026",
+      title: theme ? clean(theme[1]) : "Jaarprogramma 2026",
+      link: MARIAKAPEL_PROGRAM,
+      location: "Hotel Maria Kapel, Korte Achterstraat 2a, Hoorn",
+      description: [
+        "Jaarprogramma 2026.",
+        artists ? `${clean(artists[1])}.` : "",
+        "Open donderdag t/m zaterdag van 13:00 tot 17:00. Entree gratis.",
+      ]
+        .filter(Boolean)
+        .join(" "),
+      sourceId: "mariakapel",
+      sourceLabel: "Maria Kapel",
+      categories: ["kunst"],
+      price: "Gratis",
+    }),
+  ];
+}
+
+async function loadVolendammer(fetchText) {
+  return parseVolendammerHtml(await fetchText(VOLENDAMMER_AGENDA));
+}
+
+async function loadPopstation(fetchText) {
+  return parsePopstationHtml(await fetchText(POPSTATION_AGENDA));
+}
+
+async function loadKade(fetchText) {
+  const html = await fetchText(KADE_AGENDA);
+  const links = [...new Set([...html.matchAll(/href='(https:\/\/dekadehoorn\.nl\/evenement\/[^']+)'/g)].map((match) => match[1]))];
+  const events = [];
+  for (const link of links) {
+    const event = parseKadeEventHtml(await fetchText(link), link);
+    if (event) events.push(event);
+  }
+  return events;
+}
+
+async function loadOrgel(fetchText) {
+  return parseOrgelHtml(await fetchText(ORGEL_AGENDA));
+}
+
+async function loadStoomtram(fetchText) {
+  const index = await fetchText(STOOMTRAM_EVENTS);
+  const links = [...new Set([...index.matchAll(/href="(https:\/\/www\.stoomtram\.nl\/[^"]*expres[^"]*)"/g)].map((match) => match[1]))];
+  const events = [];
+  for (const link of links) {
+    const hint = index.match(new RegExp(`aria-label="Lees meer over ([^"]+)"[^>]*href="${link.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}"`))?.[1];
+    const hintBefore = index.match(new RegExp(`href="${link.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}"[^>]*aria-label="Lees meer over ([^"]+)"`))?.[1];
+    events.push(...parseStoomtramEventHtml(await fetchText(link), link, clean(hint || hintBefore || "")));
+  }
+  return events;
+}
+
+async function loadMariaKapel(fetchText) {
+  return parseMariaKapelHtml(await fetchText(MARIAKAPEL_PROGRAM));
+}
+
 const LOADERS = {
   komnaarhoorn: loadKnh,
   manifesto: loadManifesto,
@@ -1503,6 +1815,12 @@ const LOADERS = {
   oosterkerk: loadOosterkerk,
   cinema: loadCinema,
   vue: loadVue,
+  volendammer: loadVolendammer,
+  popstation: loadPopstation,
+  kade: loadKade,
+  orgel: loadOrgel,
+  stoomtram: loadStoomtram,
+  mariakapel: loadMariaKapel,
 };
 
 export async function loadSource(sourceId, fetchText) {
