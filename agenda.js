@@ -1,6 +1,6 @@
 /**
  * Agenda UI — data komt uit agenda-data.json (zelfde opbouw als Web Agenda).
- * Nieuws komt uit news-data.json. Periode en filters zijn client-side.
+ * Nieuws wordt live opgehaald bij het openen. Periode en filters zijn client-side.
  */
 const AGENDA_DATA_FEED = "agenda-data.json";
 const RAAD_CALENDAR_URL = "https://hoorn.bestuurlijkeinformatie.nl/Calendar";

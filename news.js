@@ -320,6 +320,23 @@ function categoryLabel(item) {
 
 const NEWS_DATA = "news-data.json";
 
+function liveNewsUrl() {
+  const origin = location.origin;
+  if (origin && origin !== "null" && origin.startsWith("http")) return `${origin}/api/news`;
+  return "https://www.voorhoorn.nl/api/news";
+}
+
+async function fetchNewsPayload(url) {
+  const response = await fetch(url, { cache: "no-store" });
+  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+  const data = await response.json();
+  const feeds = Array.isArray(data.feeds) ? data.feeds : [];
+  if (!feeds.some((feed) => Array.isArray(feed.items) && feed.items.length)) {
+    throw new Error("lege feed");
+  }
+  return data;
+}
+
 function mergeFeeds(results) {
   const combined = results.flatMap((r) => r.items);
   combined.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
@@ -457,9 +474,13 @@ async function loadNews() {
   digestEl.innerHTML = '<p class="news-empty">Nieuws laden…</p>';
 
   try {
-    const response = await fetch(NEWS_DATA, { cache: "no-store" });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const data = await response.json();
+    let data;
+    try {
+      data = await fetchNewsPayload(liveNewsUrl());
+    } catch (liveError) {
+      console.warn("Live nieuws mislukt, val terug op het laatst opgeslagen bestand:", liveError);
+      data = await fetchNewsPayload(NEWS_DATA);
+    }
     const feeds = Array.isArray(data.feeds) ? data.feeds : [];
     const feedResults = feeds
       .map((feed) => ({
@@ -482,7 +503,7 @@ async function loadNews() {
   } catch (err) {
     console.error("Nieuws laden mislukt:", err);
     digestEl.innerHTML =
-      '<p class="news-empty">Kon news-data.json niet laden. Wacht op de dagelijkse update.</p>';
+      '<p class="news-empty">Kon het nieuws niet laden. Vernieuw de pagina en probeer opnieuw.</p>';
   } finally {
     newsDigestEl.classList.remove("is-loading");
   }
