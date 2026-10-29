@@ -17,6 +17,7 @@ const PRESETS = {
   "muziek-geen-club": "Muziek, geen club",
   optreden: "Alleen optreden",
   film: "Film",
+  kids: "Kids",
   club: "Club",
   overig: "Overig",
 };
@@ -29,9 +30,6 @@ const AGE_BANDS = [
   ["Volwassene", "Senior", "Alle leeftijden"],
   ["Senior"],
 ];
-
-const KIDS_RE =
-  /\b(kind|kids|kinderen|kleintjes|jongeren|jeugd|jong!?|familie|peuter|kleuter|schoolvakantie|jeugdtheater|voor\s+de\s+jeugd|lego|speel|tiener)\b/i;
 
 const agendaPanel = document.getElementById("agendaPanel");
 const agendaList = document.getElementById("agendaList");
@@ -183,9 +181,13 @@ function weekdayLong(isoDate) {
 
 function isKidsEvent(event) {
   if (/^(peuter|kind)$/i.test(event.leeftijd || "")) return true;
-  if (event.categories?.includes("voor-kinderen")) return true;
-  if (event.audience && /jeugd|jongeren|peuters/i.test(event.audience)) return true;
-  return KIDS_RE.test(`${event.titel || event.title || ""} ${event.beschrijving || event.description || ""} ${event.locatie || event.location || ""}`);
+  const title = `${event.titel || event.title || ""}`;
+  const text = `${title} ${event.beschrijving || event.description || ""}`;
+  if (/\b(kinderen|kleintjes|peuters?|kleuters?|jeugdtheater|kidsclub|kinder)\b/i.test(text)) return true;
+  if (/\b(de|het|onze|voor)\s+kids\b/i.test(text)) return true;
+  if (/\b(jeugd|familie)\b/i.test(title)) return true;
+  if (/\b(jeugd|familie)\b/i.test(text) && /(\d+\+|\b(peuter|kleuter|baby|dreumes|kinder))/i.test(text)) return true;
+  return false;
 }
 
 function isRaadEvent(event) {
@@ -247,6 +249,7 @@ function matchesChips(event) {
   if (preset === "muziek-geen-club") return isMusicEvent(event) && !isClubEvent(event);
   if (preset === "optreden") return isOptredenEvent(event);
   if (preset === "film") return isFilmEvent(event);
+  if (preset === "kids") return isKidsEvent(event);
   if (preset === "club") return isClubEvent(event);
   if (preset === "overig") return isOverigEvent(event);
   return true;
