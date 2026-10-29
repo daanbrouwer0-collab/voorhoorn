@@ -18,6 +18,7 @@ const PRESETS = {
   optreden: "Alleen optreden",
   film: "Film",
   kids: "Kids",
+  gratis: "Gratis",
   club: "Club",
   overig: "Overig",
 };
@@ -231,6 +232,11 @@ function isOptredenEvent(event) {
   return /optreden/i.test(event.laag || "") && !isFilmEvent(event);
 }
 
+function isFreeEvent(event) {
+  if (/^gratis$/i.test(event.prijs || "")) return true;
+  return /\b(gratis|kosteloos|vrije inloop)\b/i.test(`${event.titel || ""} ${event.beschrijving || ""}`);
+}
+
 function isOverigEvent(event) {
   return !isFilmEvent(event) && !isClubEvent(event) && !isMusicEvent(event) && !isOptredenEvent(event);
 }
@@ -250,6 +256,7 @@ function matchesChips(event) {
   if (preset === "optreden") return isOptredenEvent(event);
   if (preset === "film") return isFilmEvent(event);
   if (preset === "kids") return isKidsEvent(event);
+  if (preset === "gratis") return isFreeEvent(event);
   if (preset === "club") return isClubEvent(event);
   if (preset === "overig") return isOverigEvent(event);
   return true;
