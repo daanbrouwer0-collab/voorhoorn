@@ -1,41 +1,3 @@
-const FEEDS = [
-  {
-    id: "hoornnieuws",
-    label: "Hoornnieuws",
-    url: "https://hoornnieuws.nl/feed/",
-  },
-  {
-    id: "hoornsdagblad",
-    label: "Hoornsdagblad",
-    url: "https://www.hoornsdagblad.nl/newsfeed/general",
-  },
-  {
-    id: "hoornsdagblad-sport",
-    label: "Hoornsdagblad",
-    url: "https://www.hoornsdagblad.nl/newsfeed/sport",
-  },
-  {
-    id: "rodi",
-    label: "Rodi Hoorn",
-    url: "https://www.rodi.nl/hoorn/rss",
-  },
-  {
-    id: "streekomroep",
-    label: "Streekomroep",
-    url: "https://www.streekomroepwestfriesland.nl/feed/",
-  },
-  {
-    id: "hoornactueel",
-    label: "HoornActueel",
-    url: "https://www.hoornactueel.nl/feed",
-  },
-  {
-    id: "onswestfriesland",
-    label: "OnsWestfriesland",
-    url: "https://onswestfriesland.nl/feed",
-  },
-];
-
 const MAX_ITEMS = 20;
 
 const LOCAL_CLUBS_RE =
@@ -356,78 +318,7 @@ function categoryLabel(item) {
   return item.categories[0] || "Nieuws";
 }
 
-function textContent(node, selector) {
-  const el = node.querySelector(selector);
-  return el ? el.textContent.trim() : "";
-}
-
-async function fetchViaRss2Json(feedUrl) {
-  const endpoint = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(feedUrl)}&_=${Date.now()}`;
-  const response = await fetch(endpoint, { cache: "no-store" });
-  if (!response.ok) throw new Error(`rss2json HTTP ${response.status}`);
-  const data = await response.json();
-  if (data.status !== "ok" || !Array.isArray(data.items)) {
-    throw new Error(data.message || "rss2json gaf geen geldige feed terug");
-  }
-  return data.items;
-}
-
-async function fetchViaAllOrigins(feedUrl) {
-  const bust = `${feedUrl}${feedUrl.includes("?") ? "&" : "?"}_=${Date.now()}`;
-  const endpoint = `https://api.allorigins.win/raw?url=${encodeURIComponent(bust)}`;
-  const response = await fetch(endpoint, { cache: "no-store" });
-  if (!response.ok) throw new Error(`AllOrigins HTTP ${response.status}`);
-  const xml = await response.text();
-  const doc = new DOMParser().parseFromString(xml, "application/xml");
-  if (doc.querySelector("parsererror")) {
-    throw new Error("RSS XML kon niet worden geparsed");
-  }
-
-  return [...doc.querySelectorAll("item")].map((item) => {
-    const categories = [...item.querySelectorAll("category")].map((c) =>
-      c.textContent.trim()
-    );
-    const encoded = item.getElementsByTagNameNS(
-      "http://purl.org/rss/1.0/modules/content/",
-      "encoded"
-    )[0];
-
-    return {
-      title: textContent(item, "title"),
-      link: textContent(item, "link"),
-      pubDate: textContent(item, "pubDate"),
-      description:
-        encoded?.textContent?.trim() ||
-        textContent(item, "description") ||
-        "",
-      categories,
-    };
-  });
-}
-
-async function fetchFeed(source) {
-  // Snellste werkende proxy wint; geen wachten op de trage fallback
-  try {
-    const { items, via } = await Promise.any([
-      fetchViaRss2Json(source.url).then((items) => ({
-        items,
-        via: "rss2json",
-      })),
-      fetchViaAllOrigins(source.url).then((items) => ({
-        items,
-        via: "allorigins",
-      })),
-    ]);
-    return {
-      source,
-      items: normalizeItems(items, source),
-      via,
-    };
-  } catch (aggregateError) {
-    console.warn(`${source.label} mislukt via beide proxies:`, aggregateError);
-    throw new Error(`${source.label}: geen feed beschikbaar`);
-  }
-}
+const NEWS_DATA = "news-data.json";
 
 function mergeFeeds(results) {
   const combined = results.flatMap((r) => r.items);
@@ -561,49 +452,40 @@ function setActiveTab(tabId) {
 
 async function loadNews() {
   allItems = [];
-  const feedResults = [];
-  let okCount = 0;
-  let failCount = 0;
-
   newsDigestEl.classList.add("is-loading");
   digestEl.hidden = false;
   digestEl.innerHTML = '<p class="news-empty">Nieuws laden…</p>';
 
-  const ingest = (result) => {
-    feedResults.push(result);
-    okCount += 1;
+  try {
+    const response = await fetch(NEWS_DATA, { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    const feeds = Array.isArray(data.feeds) ? data.feeds : [];
+    const feedResults = feeds
+      .map((feed) => ({
+        source: { id: feed.id, label: feed.label },
+        items: normalizeItems(feed.items || [], { id: feed.id, label: feed.label }),
+      }))
+      .filter((result) => result.items.length);
     allItems = mergeFeeds(feedResults);
+    if (!allItems.length) {
+      digestEl.innerHTML =
+        '<p class="news-empty">Geen berichten geladen. Vernieuw de pagina en probeer opnieuw.</p>';
+      return;
+    }
     renderActiveTab();
-  };
-
-  // Parallel: elke feed die klaar is → meteen op scherm
-  await Promise.all(
-    FEEDS.map(async (source) => {
-      try {
-        const result = await fetchFeed(source);
-        ingest(result);
-      } catch (err) {
-        failCount += 1;
-        console.error(`${source.label} mislukt:`, err);
-      }
-    })
-  );
-
-  newsDigestEl.classList.remove("is-loading");
-
-  if (!okCount) {
+    const counts = bucketCounts(allItems);
+    const failed = Array.isArray(data.failedSources) ? data.failedSources.length : 0;
+    setStatus(
+      `${allItems.length} items · U ${counts.urgent} · C ${counts.cultuur} · S ${counts.sport} · ${feedResults.length} feeds${failed ? ` · ${failed} mislukt` : ""}`
+    );
+  } catch (err) {
+    console.error("Nieuws laden mislukt:", err);
     digestEl.innerHTML =
-      '<p class="news-empty">Geen berichten geladen. Vernieuw de pagina en probeer opnieuw.</p>';
-    return;
+      '<p class="news-empty">Kon news-data.json niet laden. Wacht op de dagelijkse update.</p>';
+  } finally {
+    newsDigestEl.classList.remove("is-loading");
   }
-
-  // Laatste render zonder loading-state
-  renderActiveTab();
-
-  const counts = bucketCounts(allItems);
-  setStatus(
-    `${allItems.length} items · U ${counts.urgent} · C ${counts.cultuur} · S ${counts.sport} · ${okCount} feeds${failCount ? ` · ${failCount} mislukt` : ""}`
-  );
 }
 
 if (digestEl && newsDigestEl) {
