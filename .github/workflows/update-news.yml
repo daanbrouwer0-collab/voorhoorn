@@ -1,0 +1,42 @@
+name: Update news cache
+
+on:
+  schedule:
+    # Vijf keer per dag, UTC. In de winter (UTC+1): 08:15, 12:15, 16:15, 20:15 en 00:15.
+    # In de zomer (UTC+2) schuift dat een uur op.
+    - cron: "15 7,11,15,19,23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-news
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Bouw het nieuws
+        run: node scripts/build-news.mjs
+
+      - name: Commit als er wijzigingen zijn
+        run: |
+          if git diff --quiet -- news-data.json; then
+            echo "Geen wijzigingen"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add news-data.json
+          git commit -m "chore: update news-cache"
+          git push

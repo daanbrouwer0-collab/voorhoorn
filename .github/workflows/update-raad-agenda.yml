@@ -24,17 +24,14 @@ jobs:
       - name: Bouw de agenda zoals Web Agenda
         run: node scripts/build-agenda.mjs
 
-      - name: Bouw het nieuws
-        run: node scripts/build-news.mjs
-
       - name: Commit als er wijzigingen zijn
         run: |
-          if git diff --quiet -- agenda-data.json news-data.json; then
+          if git diff --quiet -- agenda-data.json; then
             echo "Geen wijzigingen"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add agenda-data.json news-data.json
+          git add agenda-data.json
           git commit -m "chore: update agenda-cache (dagelijkse scrape)"
           git push
