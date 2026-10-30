@@ -15,6 +15,7 @@ const AGENDA_DATE_LABELS = {
 const PRESETS = {
   alles: "Alles",
   concert: "Concert",
+  theater: "Theater",
   optreden: "Alleen optreden",
   film: "Film",
   kids: "Kids",
@@ -200,6 +201,10 @@ function isConcertEvent(event) {
   return /^(concert|jazz|rock|blues|tribute|jam|klassiek)$/i.test(event.categorie || "");
 }
 
+function isTheaterEvent(event) {
+  return /^theater$/i.test(event.categorie || "");
+}
+
 function matchesTime(event) {
   if (!agendaFilters.time) return true;
   const iso = eventDate(event);
@@ -228,12 +233,13 @@ function isFreeEvent(event) {
 }
 
 function isOverigEvent(event) {
-  return !isFilmEvent(event) && !isClubEvent(event) && !isOptredenEvent(event) && !isConcertEvent(event);
+  return !isFilmEvent(event) && !isClubEvent(event) && !isOptredenEvent(event) && !isConcertEvent(event) && !isTheaterEvent(event);
 }
 
 function matchesChips(event) {
   const preset = agendaFilters.preset;
   if (preset === "concert") return isConcertEvent(event);
+  if (preset === "theater") return isTheaterEvent(event);
   if (preset === "optreden") return isOptredenEvent(event);
   if (preset === "film") return isFilmEvent(event);
   if (preset === "kids") return isKidsEvent(event);
