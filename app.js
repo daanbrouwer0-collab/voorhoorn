@@ -1313,6 +1313,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const linksPanel = document.getElementById("linksPanel");
     const agendaPanel = document.getElementById("agendaPanel");
     const viewTabs = [...document.querySelectorAll(".view-tab")];
+    const settingsPanel = document.getElementById("settingsPanel");
+    const iconsPanel = document.getElementById("iconsPanel");
+    const siteMenu = document.getElementById("siteMenu");
+    const siteMenuBtn = document.getElementById("siteMenuBtn");
 
     const promoTrack = document.getElementById("promoTrack");
     const promoSlideshow = document.getElementById("promoSlideshow");
@@ -1326,20 +1330,47 @@ document.addEventListener('DOMContentLoaded', () => {
     let promoIndex = 0;
     let promoTimer = null;
 
+    function setMenuOpen(open) {
+        if (!siteMenu || !siteMenuBtn) return;
+        siteMenu.hidden = !open;
+        siteMenuBtn.setAttribute("aria-expanded", String(open));
+    }
+
+    function renderIconCatalog() {
+        const catalog = document.getElementById("iconCatalog");
+        const icons = window.VoorhoornIcons;
+        if (!catalog || !icons || catalog.childElementCount) return;
+        const tints = ["", "is-vue", "is-park", "is-netwerk"];
+        catalog.innerHTML = icons.list.map((icon) => `
+            <article class="icon-card">
+                <div class="icon-card-swatches">
+                    ${tints.map((tint) => `<span class="agenda-date-chip${tint ? ` ${tint}` : ""}">${icons.svg(icon.id)}</span>`).join("")}
+                </div>
+                <span class="icon-card-name">${icon.label}</span>
+            </article>
+        `).join("");
+    }
+
     function setView(view) {
         activeView = view;
         if (newsDigest) newsDigest.hidden = view !== "nieuws";
         if (linksPanel) linksPanel.hidden = true;
         if (agendaPanel) agendaPanel.hidden = view !== "agenda";
-        if (promoSlideshow) promoSlideshow.hidden = view === "agenda";
+        if (settingsPanel) settingsPanel.hidden = view !== "instellingen";
+        if (iconsPanel) iconsPanel.hidden = view !== "iconen";
+        if (promoSlideshow) promoSlideshow.hidden = view === "agenda" || view === "instellingen" || view === "iconen";
 
         viewTabs.forEach((btn) => {
             const on = btn.dataset.view === view;
             btn.classList.toggle("is-active", on);
             btn.setAttribute("aria-selected", on ? "true" : "false");
         });
+        document.querySelectorAll("#siteMenu [data-menu]").forEach((btn) => {
+            btn.classList.toggle("is-active", btn.dataset.menu === view);
+        });
 
         if (view === "links") renderCards();
+        if (view === "iconen") renderIconCatalog();
         if (view === "agenda" && window.VoorhoornAgenda) {
             window.VoorhoornAgenda.show();
         }
@@ -1670,7 +1701,25 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     viewTabs.forEach((btn) => {
-        btn.addEventListener("click", () => setView(btn.dataset.view));
+        btn.addEventListener("click", () => {
+            setMenuOpen(false);
+            setView(btn.dataset.view);
+        });
+    });
+
+    siteMenuBtn?.addEventListener("click", (event) => {
+        event.stopPropagation();
+        setMenuOpen(siteMenu?.hidden !== false);
+    });
+    siteMenu?.querySelectorAll("[data-menu]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+            setMenuOpen(false);
+            setView(btn.dataset.menu);
+        });
+    });
+    document.addEventListener("click", (event) => {
+        if (event.target.closest(".site-menu")) return;
+        setMenuOpen(false);
     });
 
     if (searchInput) {

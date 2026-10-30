@@ -19,6 +19,17 @@
 
         <header class="header">
             <div class="header-container">
+                <div class="site-menu">
+                    <button type="button" class="menu-button" id="siteMenuBtn" aria-expanded="false" aria-controls="siteMenu" aria-label="Menu">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M4 7h16M4 12h16M4 17h16"/>
+                        </svg>
+                    </button>
+                    <div class="site-menu-panel" id="siteMenu" hidden>
+                        <button type="button" data-menu="instellingen">Settings</button>
+                        <button type="button" data-menu="iconen">Icons</button>
+                    </div>
+                </div>
                 <div class="logo-area">
                     <h1 class="site-logo" id="siteLogo" aria-label="Voorhoorn">
                         <span class="visually-hidden">Voorhoorn</span>
@@ -71,6 +82,12 @@
                     Agenda
                 </button>
             </nav>
+
+            <section class="site-panel" id="settingsPanel" aria-label="Settings" hidden></section>
+
+            <section class="site-panel" id="iconsPanel" aria-label="Icons" hidden>
+                <div class="icon-catalog" id="iconCatalog"></div>
+            </section>
 
             <!-- Lokaal nieuwsdigest -->
             <section class="news-digest theme-urgent" id="newsDigest" aria-label="Lokaal nieuws">

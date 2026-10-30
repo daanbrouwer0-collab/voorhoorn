@@ -83,6 +83,64 @@ function sourceTint(event) {
   return "";
 }
 
+const AGENDA_ICONS = {
+  concert: { label: "Concert", svg: '<path d="M9 18V6l10-2v12"/><circle cx="7" cy="18" r="2.2"/><circle cx="17" cy="16" r="2.2"/>' },
+  theater: { label: "Theater", svg: '<circle cx="8" cy="12" r="3.2"/><circle cx="16" cy="12" r="3.2"/><path d="M8 9.2c.8 1 2.2 1 3 0M13 9.2c.8 1 2.2 1 3 0"/>' },
+  film: { label: "Film", svg: '<rect x="4" y="6" width="16" height="12" rx="2"/><path d="M8 6v12M16 6v12M4 10h4M4 14h4M16 10h4M16 14h4"/>' },
+  kids: { label: "Kids", svg: '<circle cx="12" cy="8" r="2.4"/><path d="M7.5 19v-1.2A3.5 3.5 0 0 1 11 14.4h2a3.5 3.5 0 0 1 3.5 3.4V19"/>' },
+  comedy: { label: "Comedy", svg: '<circle cx="12" cy="12" r="7"/><path d="M9 10.5h.01M15 10.5h.01M8.8 14.2c1 .9 2.1 1.4 3.2 1.4s2.2-.5 3.2-1.4"/>' },
+  dans: { label: "Dans", svg: '<circle cx="14" cy="5.5" r="1.7"/><path d="M13 8.2 10 14l4 1.2-1.2 4.2M10 14l-3 2.2"/>' },
+  boek: { label: "Boek", svg: '<path d="M5 6.5A3 3 0 0 1 8 5h11v14H8a3 3 0 0 0-3 3z"/><path d="M5 6.5V19"/>' },
+  eten: { label: "Eten", svg: '<path d="M8 4v7a2 2 0 0 0 2 2v7M8 7.5h2M16 4v16M16 8h3V5.2A1.2 1.2 0 0 0 16 4"/>' },
+  quiz: { label: "Quiz", svg: '<circle cx="12" cy="12" r="7"/><path d="M9.5 10a2.5 2.5 0 1 1 3.2 2.4c-.7.3-1.2.8-1.2 1.6"/><path d="M12 17h.01"/>' },
+  sport: { label: "Sport", svg: '<circle cx="12" cy="12" r="7"/><path d="M12 5c1.6 2 2.4 4.2 2.4 7S13.6 17 12 19M12 5c-1.6 2-2.4 4.2-2.4 7S10.4 17 12 19M5.4 9.2h13.2M5.4 14.8h13.2"/>' },
+  expo: { label: "Expo", svg: '<rect x="5" y="6" width="14" height="12" rx="1.5"/><path d="M8 18l3.2-3.8 2.2 2.4 1.4-1.5L17 18"/>' },
+  raad: { label: "Raad", svg: '<path d="M4 20h16M6 20V10M10 20V10M14 20V10M18 20V10M4 10l8-5 8 5"/>' },
+  club: { label: "Club", svg: '<path d="M7 8a5 5 0 0 1 8.5-2.2L17 7"/><path d="M17 4.5V7h-2.5"/><path d="M17 16a5 5 0 0 1-8.5 2.2L7 17"/><path d="M7 19.5V17h2.5"/>' },
+  gratis: { label: "Gratis", svg: '<path d="M12 4v16M7 8.5h7.5a2.5 2.5 0 0 1 0 5H9a2.5 2.5 0 0 0 0 5H17"/>' },
+  agenda: { label: "Agenda", svg: '<rect x="5" y="5" width="14" height="14" rx="2"/><path d="M8 3.5V7M16 3.5V7M5 10h14"/>' },
+};
+
+function agendaIconSvg(name) {
+  const icon = AGENDA_ICONS[name] || AGENDA_ICONS.agenda;
+  return `<svg viewBox="0 0 24 24" aria-hidden="true">${icon.svg}</svg>`;
+}
+
+function agendaIconName(event) {
+  const categorie = String(event.categorie || "");
+  if (/^(concert|jazz|rock|blues|tribute|jam|klassiek|pop|koor)$/i.test(categorie)) return "concert";
+  if (/^theater$/i.test(categorie)) return "theater";
+  if (/^film$/i.test(categorie)) return "film";
+  if (/^comedy$/i.test(categorie)) return "comedy";
+  if (/^dans$/i.test(categorie)) return "dans";
+  if (/^quiz$/i.test(categorie)) return "quiz";
+  if (/^eten$/i.test(categorie)) return "eten";
+  if (/^boek$/i.test(categorie)) return "boek";
+  if (/^raad$/i.test(categorie)) return "raad";
+  if (/^expo$/i.test(categorie)) return "expo";
+  if (/^(yoga|fitness|wandelen|voetbal|zwemmen|schaatsen)$/i.test(categorie)) return "sport";
+  if (/^(peuter|kind)$/i.test(event.leeftijd || "")) return "kids";
+  if (/reeks/i.test(event.laag || "") || /^(wekelijks|maandelijks)$/i.test(event.interval || "")) return "club";
+  if (/^gratis\b/i.test(event.prijs || "")) return "gratis";
+  return "agenda";
+}
+
+window.VoorhoornIcons = {
+  list: Object.entries(AGENDA_ICONS).map(([id, icon]) => ({ id, label: icon.label })),
+  svg: agendaIconSvg,
+};
+
+function formatAgendaDayHeading(isoDate) {
+  if (!isoDate) return "Datum onbekend";
+  const date = new Date(`${isoDate}T12:00:00`);
+  if (Number.isNaN(date.getTime())) return "Datum onbekend";
+  return new Intl.DateTimeFormat("nl-NL", {
+    weekday: "long",
+    day: "numeric",
+    month: "long",
+  }).format(date);
+}
+
 function formatAgendaDate(isoDate) {
   if (!isoDate) return "";
   const date = new Date(`${isoDate}T12:00:00`);
@@ -483,8 +541,15 @@ function renderAgendaList() {
     return;
   }
 
-  const rows = filtered
-    .map((event, index) => {
+  const rows = [];
+  let lastDate = null;
+  filtered.forEach((event, index) => {
+    const iso = eventDate(event);
+    if (iso !== lastDate) {
+      rows.push(`<div class="agenda-day"><span>${agendaEscape(formatAgendaDayHeading(iso))}</span></div>`);
+      lastDate = iso;
+    }
+    rows.push((() => {
       const panelId = `agenda-panel-${index}`;
       const title = event.titel || event.title || "Onbekend";
       const when = formatAgendaWhen(event);
@@ -507,15 +572,7 @@ function renderAgendaList() {
       const upcoming = Array.isArray(event.komende) && event.komende.length > 1 ? event.komende.join(", ") : "";
       const dateParts = formatAgendaDateParts(eventDate(event));
       const tint = sourceTint(event);
-      const dateChip = dateParts
-        ? `<span class="agenda-date-chip${tint ? ` is-${tint}` : ""}" aria-hidden="true">
-              <span class="agenda-date-day">${agendaEscape(dateParts.day)}</span>
-              <span class="agenda-date-wday">${agendaEscape(dateParts.weekday)}</span>
-            </span>`
-        : `<span class="agenda-date-chip agenda-date-chip--empty" aria-hidden="true">
-              <span class="agenda-date-day">–</span>
-              <span class="agenda-date-wday">?</span>
-            </span>`;
+      const dateChip = `<span class="agenda-date-chip${tint ? ` is-${tint}` : ""}" aria-hidden="true">${agendaIconSvg(agendaIconName(event))}</span>`;
       const toggleLabel = dateParts ? `${dateParts.label}: ${title}` : title;
       const sourceLabel = event.bron || event.sourceLabel || "";
       const link = event.link && event.link !== "Onbekend" ? event.link : "";
@@ -558,10 +615,10 @@ function renderAgendaList() {
           </div>
         </article>
       `;
-    })
-    .join("");
+    })());
+  });
 
-  agendaList.innerHTML = `<div class="news-rows">${rows}</div>`;
+  agendaList.innerHTML = `<div class="news-rows">${rows.join("")}</div>`;
   bindAgendaToggles();
   bindAgendaShareButtons();
 }

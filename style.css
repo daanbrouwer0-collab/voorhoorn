@@ -156,21 +156,55 @@ body {
     margin-bottom: 0;
 }
 
+.agenda-day {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 14px 2px 6px;
+    color: var(--text-subtle);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+}
+
+.news-rows > .agenda-day:first-child {
+    margin-top: 2px;
+}
+
+.agenda-day::before,
+.agenda-day::after {
+    content: "";
+    height: 1px;
+    flex: 1;
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.agenda-day span {
+    text-transform: capitalize;
+}
+
 .agenda-date-chip {
     flex: 0 0 2.15rem;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 0.05rem;
     width: 2.15rem;
     min-width: 2.15rem;
-    padding: 0.28rem 0.15rem;
+    height: 2.15rem;
     border-radius: 7px;
     background: var(--news-accent-soft);
     color: color-mix(in srgb, var(--news-accent) 80%, #fff);
-    line-height: 1.05;
-    text-align: center;
+}
+
+.agenda-date-chip svg {
+    width: 1.15rem;
+    height: 1.15rem;
+    display: block;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
 }
 
 .agenda-date-day {
@@ -931,16 +965,119 @@ body {
 }
 
 .header-container {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
     margin-bottom: 20px;
 }
 
+.site-menu {
+    grid-column: 3;
+    justify-self: end;
+    position: relative;
+}
+
+.menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.4rem;
+    height: 2.4rem;
+    padding: 0;
+    border: 0;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.06);
+    color: var(--text-main);
+    cursor: pointer;
+}
+
+.menu-button svg {
+    width: 1.15rem;
+    height: 1.15rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+}
+
+.menu-button[aria-expanded="true"],
+.menu-button:hover {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.site-menu-panel {
+    position: absolute;
+    z-index: 20;
+    top: calc(100% + 8px);
+    right: 0;
+    min-width: 10.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 6px;
+    border-radius: 12px;
+    background: #121826;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+}
+
+.site-menu-panel[hidden] {
+    display: none;
+}
+
+.site-menu-panel button {
+    appearance: none;
+    border: 0;
+    border-radius: 8px;
+    background: transparent;
+    color: var(--text-main);
+    font: inherit;
+    font-size: 0.9rem;
+    text-align: left;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.site-menu-panel button:hover,
+.site-menu-panel button.is-active {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.site-panel {
+    min-height: 8rem;
+}
+
+.icon-catalog {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr));
+    gap: 10px;
+}
+
+.icon-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 10px 12px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.icon-card-swatches {
+    display: flex;
+    gap: 6px;
+}
+
+.icon-card-name {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--text-subtle);
+}
+
 .logo-area {
+    grid-column: 2;
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 .visually-hidden {
