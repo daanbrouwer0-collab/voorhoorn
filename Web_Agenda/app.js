@@ -506,7 +506,7 @@ function eventRecord(event) {
     categorie: CATEGORIEEN.find((label) => labels.includes(label)) || genre || "Onbekend",
     locatie: locatie || "Onbekend",
     leeftijd: ageLabel(text, event) || "Onbekend",
-    prijs: displayPrice(event.price),
+    prijs: displayPrice(statedOrEstimatedPrice(event)),
     interval: repeatLabel(event) || "Onbekend",
     laag: lagen.join(", ") || "Onbekend",
     bron: bronnen.join(", ") || "Onbekend",
@@ -530,9 +530,24 @@ function eventRecord(event) {
   return record;
 }
 
+function statedOrEstimatedPrice(event) {
+  const stated = String(event.price || "").trim();
+  if (stated) return stated;
+  const sources = event.sources?.length ? event.sources : [{ id: event.sourceId, label: event.sourceLabel }];
+  const ids = new Set(sources.map((source) => source.id).filter(Boolean));
+  const where = `${event.location || ""} ${sources.map((source) => source.label || "").join(" ")}`;
+  if (ids.has("swaf") || /\bswaf\b/i.test(where)) return "Gratis";
+  if (ids.has("bibliotheek")) return "Gratis";
+  if (ids.has("popronde")) return "Gratis";
+  if (ids.has("raad")) return "Gratis";
+  return "";
+}
+
 function displayPrice(price) {
-  if (!price || /^€0(?:,00)?$/.test(String(price))) return "Onbekend";
-  return price;
+  const value = String(price || "").trim();
+  if (!value) return "Onbekend";
+  if (/^€0(?:,00)?$/.test(value)) return "Gratis";
+  return value;
 }
 
 function allLabels(event) {

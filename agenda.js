@@ -188,6 +188,8 @@ function isKidsEvent(event) {
   if (/\b(de|het|onze|voor)\s+kids\b/i.test(text)) return true;
   if (/\b(jeugd|familie)\b/i.test(title)) return true;
   if (/\b(jeugd|familie)\b/i.test(text) && /(\d+\+|\b(peuter|kleuter|baby|dreumes|kinder))/i.test(text)) return true;
+  const ages = title.match(/\b(\d{1,2})\s*(?:t\/m|tot)\s*(\d{1,2})\b/);
+  if (ages && Number(ages[1]) < Number(ages[2]) && Number(ages[2]) <= 16) return true;
   return false;
 }
 
@@ -233,8 +235,17 @@ function isOptredenEvent(event) {
 }
 
 function isFreeEvent(event) {
-  if (/^gratis$/i.test(event.prijs || "")) return true;
-  return /\b(gratis|kosteloos|vrije inloop)\b/i.test(`${event.titel || ""} ${event.beschrijving || ""}`);
+  const prijs = String(event.prijs || "");
+  if (/^gratis\b/i.test(prijs)) return true;
+  if (/^€/.test(prijs)) return false;
+  if (/\b(gratis|kosteloos|vrije inloop)\b/i.test(`${event.titel || ""} ${event.beschrijving || ""}`)) return true;
+  const bron = event.bron || "";
+  const where = `${bron} ${event.locatie || ""}`;
+  if (/\bswaf\b/i.test(where)) return true;
+  if (/\bbibliotheek\b/i.test(bron)) return true;
+  if (/\bpopronde\b/i.test(bron)) return true;
+  if (/\bgemeente\b/i.test(bron)) return true;
+  return false;
 }
 
 function isOverigEvent(event) {

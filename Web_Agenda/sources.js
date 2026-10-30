@@ -115,6 +115,7 @@ export function unescapeHtml(value) {
     .replace(/&gt;/gi, ">")
     .replace(/&nbsp;/gi, " ")
     .replace(/&hellip;/gi, "…")
+    .replace(/&euro;/gi, "€")
     .replace(/&amp;/gi, "&");
 }
 
@@ -592,6 +593,18 @@ export function repeatFromDates(dates) {
   return "";
 }
 
+export function netwerkPrice(html) {
+  const raw = clean((html.match(/Kosten:<\/strong>\s*<br\s*\/?>\s*([\s\S]*?)<\/div>/i) || [])[1] || "");
+  if (!raw) return "";
+  if (/^(gratis|kosteloos|geen kosten)\b/i.test(raw)) return "Gratis";
+  const amount = priceFromText(raw);
+  if (!amount || amount === "Gratis") return amount === "Gratis" ? "Gratis" : "";
+  if (/\(\s*maand\s*\)/i.test(raw)) return `${amount} per maand`;
+  if (/\(\s*jaar\s*\)/i.test(raw)) return `${amount} per jaar`;
+  if (/\(\s*(?:per\s+)?keer\s*\)/i.test(raw)) return `${amount} per keer`;
+  return amount;
+}
+
 export function parseNetwerkDetail(html) {
   const audience = clean((html.match(/Doelgroep:<\/strong><br>([\s\S]*?)<\/div>/i) || [])[1] || "");
   const description = clean(
@@ -610,6 +623,7 @@ export function parseNetwerkDetail(html) {
     audience,
     description,
     slots,
+    price: netwerkPrice(html),
     repeat: repeatFromDates(slots.map((slot) => slot.date)),
   };
 }
@@ -620,6 +634,7 @@ function applyNetwerkDetail(event, detail) {
     event.description = detail.description.slice(0, 420);
   }
   if (detail.repeat) event.repeat = detail.repeat;
+  if (detail.price) event.price = detail.price;
   const upcoming = detail.slots.filter((slot) => slot.date >= (event.startDate || todayIso()));
   const slot = upcoming[0];
   if (slot?.start && !event.startTime) {
