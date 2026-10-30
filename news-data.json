@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T14:05:05.690Z",
+  "updated": "2026-10-30T19:55:04.681Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -412,6 +412,15 @@
       "label": "Rodi Hoorn",
       "items": [
         {
+          "title": "Parkeergarage Hoorn: 500 plekken te weinig, vindt Sociaal Hoorn/Team Tonnaer",
+          "link": "https://www.rodi.nl/hoorn/politiek/510868/parkeergarage-hoorn-500-plekken-te-weinig-vindt-sociaal-hoorn-team-tonnaer",
+          "pubDate": "Fri, 30 Oct 2026 15:50:35 Z",
+          "description": "HOORN - Sociaal Hoorn/Team Tonnaer heeft kritische vragen aan het college gesteld over de geplande bovengrondse parkeergarage aan de noordzijde van station Hoorn. Raadslid Roger Tonnaer vraagt onder meer aandacht voor het aantal parkeerplaatsen, de locatie en het ontwerp van de garage.",
+          "categories": [
+            "Politiek"
+          ]
+        },
+        {
           "title": "Vrijwilligers gezocht om jonge bomen te redden in Hoorn",
           "link": "https://www.rodi.nl/hoorn/nieuws/510841/vrijwilligers-gezocht-om-jonge-bomen-te-redden-in-hoorn",
           "pubDate": "Fri, 30 Oct 2026 13:32:52 Z",
@@ -626,15 +635,6 @@
           "categories": [
             "Nieuws"
           ]
-        },
-        {
-          "title": "Zie én word gezien: jaarlijkse fietsverlichtingsactie in Hoorn van start",
-          "link": "https://www.rodi.nl/hoorn/gemeentenieuws/510337/zie-en-word-gezien-jaarlijkse-fietsverlichtingsactie-in-hoorn-van-start",
-          "pubDate": "Mon, 26 Oct 2026 18:28:19 Z",
-          "description": "HOORN - Gemeente Hoorn start een actie om fietsers te wijzen op het belang van goede fietsverlichting. Van 26 oktober tot en met 29 oktober, tussen 17.00 en 21.00 uur, is een promotieteam aanwezig op een van de drukke fietsroutes.",
-          "categories": [
-            "Gemeentenieuws"
-          ]
         }
       ]
     },
@@ -642,6 +642,35 @@
       "id": "streekomroep",
       "label": "Streekomroep",
       "items": [
+        {
+          "title": "WEEFF Top Favoriet komende week in handen van singer-songwriter Fay",
+          "link": "https://www.streekomroepwestfriesland.nl/weeff-top-favoriet-komende-week-in-handen-van-singer-songwriter-fay/",
+          "pubDate": "Fri, 30 Oct 2026 18:48:00 +0000",
+          "description": "De Nederlandse singer-songwriter Fay heeft een nieuwe single uitgebracht: ‘Wagenziek’. Het nummer hoor je komende week extra vaak op de radio, want we roepen het uit tot nieuwe WEEFF Top Favoriet. De in Bergen op Zoom geboren Fay, voluit Fay Vriens, begon in 2023 aan haar muzikale carrière met de single ‘Dankjewel’. Later dat jaar volgden onder meer ‘Geen Spijt’ en ‘Thuis Thuis’. Ook werd ze geselecteerd voor de Popronde en stond ze in het voorprogramma van Blanks in Paradiso. In 2025 kreeg Fay veel aandacht op sociale media met haar Nederlandstalige bewerking van ‘Ordinary’ van de Amerikaanse zanger Alex Warren. Na toestemming bracht ze het nummer officieel uit. In de week dat het uitgebrac",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
+        {
+          "title": "Explainer: Verscherpt Rijkstoezicht op de realisatie van opvanglocaties",
+          "link": "https://www.streekomroepwestfriesland.nl/explainer-verscherpt-rijkstoezicht-op-de-realisatie-van-opvanglocaties/",
+          "pubDate": "Fri, 30 Oct 2026 16:02:00 +0000",
+          "description": "Hoewel sommige West-Friese gemeenten inmiddels voldoende opvangplekken voor asielzoekers hebben gerealiseerd, staan Drechterland, Enkhuizen, Koggenland en Stede Broec sinds kort onder verscherpt toezicht van het Rijk. Zij voldoen nog niet aan hun wettelijke opvangtaak. Opvallend is dat Hoorn ontbreekt op deze lijst, terwijl ook deze gemeente nog onvoldoende opvangplekken heeft. Hoe zit dat? En hoe staat het ervoor bij de rest van de West-Friese gemeenten? Medemblik en Opmeer vangen inmiddels genoeg personen op. Andere gemeenten hebben concrete plannen voor opvanglocaties, maar deze zijn nog niet in gebruik. In Enkhuizen gaat de geplande opvang aan De Gouw niet door. Dat gemeenten met concret",
+          "categories": [
+            "Politiek",
+            "Verkeer & wonen"
+          ]
+        },
+        {
+          "title": "Man verstoort bezoek koning aan Ursem kort, beveiliging grijpt in",
+          "link": "https://www.streekomroepwestfriesland.nl/man-verstoort-bezoek-koning-aan-ursem-kort-beveiliging-grijpt-in/",
+          "pubDate": "Fri, 30 Oct 2026 14:30:00 +0000",
+          "description": "Het is zover: koning Willem-Alexander is in Ursem. Na dagen van voorbereidingen, gezonde spanning en de nodige oranje versieringen is voor het dorp het moment eindelijk daar. Tijdens het werkbezoek van de koning wil Ursem de kracht van het kleine dorp laten zien: 'samen staan we sterk'. Het soepel verlopend programma is bij de brandweerkazerne kort verstoord door een mogelijk verwarde man. De koning krijgt in Ursem verschillende voorbeelden van de samenwerkingen te zien. Dat de koning juist nu langskomt, voelt voor veel inwoners als een kroon op hun werk. Het dorp telt maar iets meer dan 3.000 inwoners. Toch is het dorp volop in beweging en is de saamhorigheid groot. We kennen elkaar en help",
+          "categories": [
+            "112",
+            "Kunst & cultuur"
+          ]
+        },
         {
           "title": "Landboot Wijdenes kan tóch ingezet worden bij intocht Sinterklaas",
           "link": "https://www.streekomroepwestfriesland.nl/landboot-wijdenes-kan-toch-ingezet-worden-bij-intocht-sinterklaas/",
@@ -704,33 +733,6 @@
           "description": "Ik mocht afgelopen zondag een uur langer blijven liggen. Dat hoorde ik op het NOS-journaal. Aardig dat ze dat even doorgaven. Ik verkeerde nog in de veronderstelling dat ik daar zelf over ging. In maart moet ik eerder mijn bed uit, in oktober mag ik langer blijven liggen. Het klinkt als een verlofregeling waarvoor ik nooit heb getekend. Bovendien moet je voor dat extra uur slaap natuurlijk niet eerst een uur later naar bed gaan. Dan heb je je cadeau al uitgepakt voordat je het gekregen hebt. Twee keer per jaar raken we collectief ontregeld. Onze biologische klok zou hopeloos in de war zijn. Ziek, zwak en misselijk van zestig minuten. Ik wil niemands klachten wegwuiven, maar soms klinkt het a",
           "categories": [
             "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Twee personen mishandeld en bedreigd met messen en pistool in Berkhout",
-          "link": "https://www.streekomroepwestfriesland.nl/twee-personen-mishandeld-en-bedreigd-met-messen-en-pistool-in-berkhout-2/",
-          "pubDate": "Wed, 28 Oct 2026 10:15:00 +0000",
-          "description": "Twee mensen zijn maandagavond door meerdere personen mishandeld en bedreigd in Berkhout. Beide slachtoffers kregen klappen en werden bedreigd met messen en iets wat op een pistool leek. De politie is op zoek naar drie mannen. De mishandeling gebeurde maandagavond rond 22.55 uur op de Berkenlaan in Berkhout. Twee mensen werden geslagen en bedreigd met messen. Ook stapte er een man uit een zwarte auto en richtte een voorwerp wat op een pistool lijkt op één van de slachtoffers. Het ene slachtoffer wist weg te komen. Het andere slachtoffer heeft klappen gekregen met een slagwapen en moest naar het ziekenhuis voor controle. Drie mannen gezocht De politie is op zoek naar drie mannen die betrokken ",
-          "categories": [
-            "112"
-          ]
-        },
-        {
-          "title": "Lisa droomde van werken in Scheringa Museum, nu legt ze het vast voordat alles verdwijnt",
-          "link": "https://www.streekomroepwestfriesland.nl/lisa-droomde-van-werken-in-scheringa-museum-nu-legt-ze-het-vast-voordat-alles-verdwijnt/",
-          "pubDate": "Wed, 28 Oct 2026 05:00:00 +0000",
-          "description": "Als kind werd Lisa Croese uit Zwaag gegrepen door de 'instapkunst' die in het Scheringa Museum in Spanbroek was te zien. Het was zelfs haar droom om er ooit te werken. Zover kwam het nooit. 17 jaar na de pijnlijke sluiting van het succesvolle museum, maakte ze wel een docu-serie over de plek die haar hart stal. Ze ziet zichzelf nog zitten in het bushokje, als middelbare scholier, pendelend tussen woonplaats Medemblik en Hoorn. \"Daar hingen grote aankondigingsposters van het Scheringa Museum. Dat sprak mij erg aan.\" Ze hield er toen al van om musea als het Rijksmuseum of Kröller-Müller Museum te bezoeken. \"Maar zie er als puber maar te komen. Naar het Scheringa Museum kon ik zelf heen, met de",
-          "categories": [
-            "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Felle woningbrand in Enkhuizen, naastgelegen huizen ontruimd",
-          "link": "https://www.streekomroepwestfriesland.nl/felle-woningbrand-in-enkhuizen-naastgelegen-huizen-ontruimd-2/",
-          "pubDate": "Tue, 27 Oct 2026 16:31:16 +0000",
-          "description": "Aan de Kruislaan in Enkhuizen heeft aan het einde van de middag een felle brand gewoed in een woning. Er zijn geen gewonden gevallen. De brand was volgens een woordvoerder rond 18.00 uur onder controle. De brand ontstond rond 17.00 uur, vermoedelijk op de eerste verdieping. De vlammen sloegen uit de woning. Zowel woning als de naastliggende woningen zijn ontruimd. Omdat het in de straat om oude huizen gaat, is er flink opgeschaald door de hulpdiensten. Een woordvoerder van de veiligheidsregio laat weten dat de brand inmiddels 'bijna onder controle' is. Omwonenden wordt geadviseerd om ramen en deuren te sluiten bij rookoverlast. Over de oorzaak van de brand is niets bekend. The post Felle won",
-          "categories": [
-            "112"
           ]
         }
       ]
