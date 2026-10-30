@@ -1,9 +1,14 @@
 {
-  "updated": "2026-10-29T21:10:03.118Z",
+  "updated": "2026-10-30T02:34:38.431Z",
   "failedSources": [
     {
       "id": "hoornactueel",
       "label": "HoornActueel",
+      "error": "HTTP 403"
+    },
+    {
+      "id": "onswestfriesland",
+      "label": "OnsWestfriesland",
       "error": "HTTP 403"
     }
   ],
@@ -727,143 +732,6 @@
           "description": "Het was de laatste Dorpsveiling Benningbroek Sijbekarspel als voorzitter voor Claus Ursem. En met een knal eindigde zijn voorzitterschap afgelopen zaterdag. Met een recordopbrengst van 96.350 euro liep de teller met bijna 35.000 euro over de opbrengst van twee jaar geleden. \"Het geeft echt aan hoe groot de samenhorigheid in deze kern is\" vertelt Claus. Het zijn opvallende evenementen, de gemeenschapsveilingen in West-Friesland. Dorpen en kleine kernen veilen een avond lang allerlei kavels, van kaartjes voor concerten, tot skybox tickets voor AZ en een klaverjaspakket. Met de opbrengst worden verenigingen en clubs in die kern geholpen. De veiling in Benningbroek en Sijbekarspel is ooit begonn",
           "categories": [
             "Kunst & cultuur"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "onswestfriesland",
-      "label": "OnsWestfriesland",
-      "items": [
-        {
-          "title": "Twee voetgangers met spoed naar ziekenhuis na aanrijding op Westerdijk in Hoorn",
-          "link": "https://onswestfriesland.nl/2026/gemeente-hoorn/twee-voetgangers-met-spoed-naar-ziekenhuis-na-aanrijding-op-westerdijk-in-hoorn/",
-          "pubDate": "Thu, 29 Oct 2026 20:23:23 +0000",
-          "description": "Vanwege de ernst van de melding kwamen meerdere hulpdiensten ter plaatse. Direct dagelijks nieuws uit Westfriesland via www.onswestfriesland.nl",
-          "categories": [
-            "112NHN",
-            "Hoorn",
-            "Nieuws",
-            "aanrijding",
-            "hoorn"
-          ]
-        },
-        {
-          "title": "A7-locatie raakt uit beeld voor asielopvang: Hoorn wil zelf regie houden over nieuwe plek",
-          "link": "https://onswestfriesland.nl/2026/gemeente-hoorn/a7-locatie-raakt-uit-beeld-voor-asielopvang-hoorn-wil-zelf-regie-houden-over-nieuwe-plek/",
-          "pubDate": "Thu, 29 Oct 2026 17:49:31 +0000",
-          "description": "Voor de eigen asielopgave heeft Hoorn nog geen definitieve opvanglocatie aangewezen. Daardoor staat de gemeente onder interbestuurlijk toezicht van het Rijk. Direct dagelijks nieuws uit Westfriesland via www.onswestfriesland.nl",
-          "categories": [
-            "Hoorn",
-            "Nieuws",
-            "Westfriesland Regio",
-            "asielopvang",
-            "Gemeente Hoorn"
-          ]
-        },
-        {
-          "title": "Woning aan Rondeelstraat drie maanden dicht na vondst drugs en wapens",
-          "link": "https://onswestfriesland.nl/2026/gemeente-hoorn/woning-aan-rondeelstraat-drie-maanden-dicht-na-vondst-drugs-en-wapens/",
-          "pubDate": "Thu, 29 Oct 2026 17:30:32 +0000",
-          "description": "“Een veilige woonomgeving voor al onze inwoners is belangrijk. Dat betekent dat ik stevig handhaaf als ik constateer dat een pand wordt gebruikt als drugspand”, zegt burgemeester Jan Nieuwenburg. Direct dagelijks nieuws uit Westfriesland via www.onswestfriesland.nl",
-          "categories": [
-            "112NHN",
-            "Hoorn",
-            "Nieuws",
-            "Westfriesland Regio",
-            "drugspand",
-            "hoorn"
-          ]
-        },
-        {
-          "title": "Hoorn stelt subsidiebezuiniging van 670.000 euro uit: 'voorkomen dat organisaties verdwijnen'",
-          "link": "https://onswestfriesland.nl/2026/gemeente-hoorn/hoorn-stelt-subsidiebezuiniging-van-670-000-euro-uit-organisaties-krijgen-langer-duidelijkheid/",
-          "pubDate": "Thu, 29 Oct 2026 13:35:11 +0000",
-          "description": "Het college onderzoekt wel of een deel van de 670.000 euro vóór 2029 kan worden bespaard Direct dagelijks nieuws uit Westfriesland via www.onswestfriesland.nl",
-          "categories": [
-            "Hoorn",
-            "Nieuws",
-            "Westfriesland Regio",
-            "Gemeente Hoorn",
-            "subsidies"
-          ]
-        },
-        {
-          "title": "N307 bij Zwaag 4 nachten in 1 richting afgesloten voor werkzaamheden aan portaal",
-          "link": "https://onswestfriesland.nl/2026/nieuws/n307-bij-zwaag-4-nachten-in-1-richting-afgesloten-voor-werkzaamheden-aan-portaal/",
-          "pubDate": "Thu, 29 Oct 2026 13:30:52 +0000",
-          "description": "Volgens de provincie is gedurende die uren de N509 vanuit de richting Enkhuizen naar de A7 afgesloten Direct dagelijks nieuws uit Westfriesland via www.onswestfriesland.nl",
-          "categories": [
-            "Nieuws",
-            "Westfriesland Regio",
-            "ProvincieNH",
-            "Verkeer",
-            "Zwaag"
-          ]
-        },
-        {
-          "title": "Defecte afsluitpaal Oude Veiling wordt vervangen: dagelijks negeren auto’s het inrijverbod",
-          "link": "https://onswestfriesland.nl/2026/gemeente-hoorn/defecte-afsluitpaal-oude-veiling-wordt-vervangen-dagelijks-negeren-autos-het-inrijverbod/",
-          "pubDate": "Thu, 29 Oct 2026 13:24:09 +0000",
-          "description": "Het doorgaande verkeer leidt volgens het voorstel tot zorgen en klachten van bewoners, ondernemers, het parkmanagement en de brandweer Direct dagelijks nieuws uit Westfriesland via www.onswestfriesland.nl",
-          "categories": [
-            "Hoorn",
-            "Nieuws",
-            "Westfriesland Regio",
-            "Verkeer",
-            "Zwaag"
-          ]
-        },
-        {
-          "title": "Museumstoomtram en Zuiderzeemuseum houden steun VriendenLoterij: miljoenenbijdrage aan Noord-Hollandse musea verlengd",
-          "link": "https://onswestfriesland.nl/2026/gemeente-hoorn/museumstoomtram-en-zuiderzeemuseum-houden-steun-vriendenloterij-miljoenenbijdrage-aan-noord-hollandse-musea-verlengd/",
-          "pubDate": "Thu, 29 Oct 2026 10:38:05 +0000",
-          "description": "\"Dankzij deze steun kunnen we verder bouwen aan het behoud van ons mobiele erfgoed en een optimale beleving aan onze meer dan 100.000 bezoekers per jaar” Direct dagelijks nieuws uit Westfriesland via www.onswestfriesland.nl",
-          "categories": [
-            "Hoorn",
-            "Medemblik",
-            "Nieuws",
-            "hoorn",
-            "medemblik",
-            "Museumstoomtram"
-          ]
-        },
-        {
-          "title": "Koning Willem-Alexander bezoekt vrijdag Ursem: dit gaat hij daar zien",
-          "link": "https://onswestfriesland.nl/2026/nieuws_koggenland/koning-willem-alexander-bezoekt-vrijdag-ursem-dit-gaat-hij-daar-zien/",
-          "pubDate": "Thu, 29 Oct 2026 10:32:33 +0000",
-          "description": "In ongeveer tweeënhalf uur maakt hij kennis met verschillende plekken en inwoners die volgens de gemeente laten zien hoe sterk de onderlinge betrokkenheid in het dorp is Direct dagelijks nieuws uit Westfriesland via www.onswestfriesland.nl",
-          "categories": [
-            "Koggenland",
-            "Nieuws",
-            "Westfriesland Regio",
-            "Ursem"
-          ]
-        },
-        {
-          "title": "Meer woningen én banen centraal in nieuwe koers voor Noord-Holland Noord",
-          "link": "https://onswestfriesland.nl/2026/nieuws/meer-woningen-en-banen-centraal-in-nieuwe-koers-voor-noord-holland-noord/",
-          "pubDate": "Thu, 29 Oct 2026 10:07:08 +0000",
-          "description": "In het Ontwikkelperspectief Noord-Holland Noord staat onder meer de ambitie om niet alleen meer woningen te bouwen, maar tegelijkertijd ook meer werkgelegenheid in de regio te creëren. Noord-Holland Direct dagelijks nieuws uit Westfriesland via www.onswestfriesland.nl",
-          "categories": [
-            "Nieuws",
-            "Westfriesland Regio",
-            "banen",
-            "Regio",
-            "Wonen"
-          ]
-        },
-        {
-          "title": "Gemeenteraad Hoorn bespreekt begroting 2027: vanaf 2028 dreigt tekort van ruim 7 miljoen euro",
-          "link": "https://onswestfriesland.nl/2026/gemeente-hoorn/gemeenteraad-hoorn-bespreekt-begroting-2027-vanaf-2028-dreigt-tekort-van-ruim-7-miljoen-euro/",
-          "pubDate": "Thu, 29 Oct 2026 09:55:32 +0000",
-          "description": "De dertien raadsfracties kunnen dan reageren op de plannen van het college en aangeven welke wijzigingen zij willen voorstellen. Direct dagelijks nieuws uit Westfriesland via www.onswestfriesland.nl",
-          "categories": [
-            "Hoorn",
-            "Nieuws",
-            "Begroting",
-            "Gemeenteraad",
-            "hoorn"
           ]
         }
       ]
