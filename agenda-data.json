@@ -1,14 +1,31 @@
 {
-  "updated": "2026-10-30T05:29:53.133Z",
-  "failedSources": [],
-  "count": 660,
+  "updated": "2026-10-30T12:55:11.587Z",
+  "failedSources": [
+    {
+      "id": "popronde",
+      "label": "Popronde",
+      "error": "Bron gaf 403"
+    },
+    {
+      "id": "oosterkerk",
+      "label": "Oosterkerk",
+      "error": "fetch failed"
+    },
+    {
+      "id": "orgel",
+      "label": "Orgelconcerten",
+      "error": "fetch failed"
+    }
+  ],
+  "count": 647,
   "lagen": {
-    "Reeks": 139,
-    "Optreden": 442,
-    "Verzameling": 36,
-    "Optreden, Verzameling": 25,
+    "Reeks": 138,
+    "Optreden": 340,
+    "Verzameling": 38,
+    "Onbekend": 90,
+    "Optreden, Verzameling": 24,
     "Vergadering": 13,
-    "Festival": 5
+    "Festival": 4
   },
   "events": [
     {
@@ -97,29 +114,6 @@
     },
     {
       "datum": "2026-10-30",
-      "tijd": "10:00–12:00",
-      "titel": "Creatief borduren",
-      "beschrijving": "Elke week · Heb je zin om creatief aan de slag te gaan? Iedere vrijdagochtend ben je van harte welkom om aan te schuiven en gezellig mee te borduren. Of je nu al jaren borduurt of nog nooit een naald hebt vastgehouden, iedereen is welkom.",
-      "categorie": "Boek",
-      "locatie": "Bibliotheek Centrum, Wisselstraat 8",
-      "leeftijd": "Onbekend",
-      "prijs": "Gratis",
-      "interval": "Wekelijks",
-      "laag": "Reeks",
-      "bron": "Bibliotheek",
-      "link": "https://www.bibliotheekhoorn.nl/doen/Agenda/Borduren_Centrum.30102026.html",
-      "komende": [
-        "2026-10-30",
-        "2026-11-06",
-        "2026-11-13",
-        "2026-11-20",
-        "2026-11-27",
-        "2026-12-04",
-        "2026-12-11"
-      ]
-    },
-    {
-      "datum": "2026-10-30",
       "tijd": "09:30–12:00",
       "titel": "Cursus portret tekenen en - schilderen",
       "beschrijving": "Vind je het fijn om creatief bezig te zijn en heb je interesse in het maken van portretten? Kom dan naar de cursus portret tekenen en -schilderen. In deze cursu",
@@ -138,9 +132,9 @@
     },
     {
       "datum": "2026-10-30",
-      "tijd": "11:20–13:18",
+      "tijd": "16:20–18:18",
       "titel": "De Club van Sinterklaas film: Paniek in het Pietendorp",
-      "beschrijving": "In het Pietendorp wordt alles klaargemaakt voor de jaarlijkse grote reis naar Nederland. Er zijn dit jaar meer cadeaus, pepernoten en chocoladeletters dan ooit. Zaal 1 Donald Duck, NL",
+      "beschrijving": "In het Pietendorp wordt alles klaargemaakt voor de jaarlijkse grote reis naar Nederland. Er zijn dit jaar meer cadeaus, pepernoten en chocoladeletters dan ooit. Zaal 5 Donald Duck, NL",
       "categorie": "Film",
       "locatie": "Vue Hoorn, Westfriese Parkweg 3",
       "leeftijd": "Alle leeftijden",
@@ -148,13 +142,13 @@
       "interval": "Onbekend",
       "laag": "Onbekend",
       "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000490/4514"
+      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000490/4515"
     },
     {
       "datum": "2026-10-30",
-      "tijd": "11:10–13:09",
+      "tijd": "16:00–17:59",
       "titel": "De Grote Sinterklaasfilm en de Vliegende Pieten",
-      "beschrijving": "Nederland wordt getroffen door extreem winterweer en Pakjesavond dreigt letterlijk in de sneeuw te vallen. Zaal 5 Donald Duck, NL",
+      "beschrijving": "Nederland wordt getroffen door extreem winterweer en Pakjesavond dreigt letterlijk in de sneeuw te vallen. Zaal 4 Donald Duck, NL",
       "categorie": "Film",
       "locatie": "Vue Hoorn, Westfriese Parkweg 3",
       "leeftijd": "Alle leeftijden",
@@ -162,7 +156,7 @@
       "interval": "Onbekend",
       "laag": "Onbekend",
       "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000493/4519"
+      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000493/4520"
     },
     {
       "datum": "2026-10-30",
@@ -180,9 +174,9 @@
     },
     {
       "datum": "2026-10-30",
-      "tijd": "11:20–13:20",
+      "tijd": "13:30–15:30",
       "titel": "De Tatta's: Daan",
-      "beschrijving": "Daan wil maar één ding: indruk maken op z'n crush Layla. Hij belooft spontaan het meest epische cadeau ooit te fixen voor haar verjaardagsfeest. Zaal 7 NL",
+      "beschrijving": "Daan wil maar één ding: indruk maken op z'n crush Layla. Hij belooft spontaan het meest epische cadeau ooit te fixen voor haar verjaardagsfeest. Zaal 6 NL",
       "categorie": "Film",
       "locatie": "Vue Hoorn, Westfriese Parkweg 3",
       "leeftijd": "Kind",
@@ -190,7 +184,7 @@
       "interval": "Onbekend",
       "laag": "Onbekend",
       "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000534/4527"
+      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000534/4525"
     },
     {
       "datum": "2026-10-30",
@@ -320,20 +314,6 @@
     },
     {
       "datum": "2026-10-30",
-      "tijd": "09:30–10:30",
-      "titel": "Peuterbieb Risdam | een ochtend vol voorleesplezier",
-      "beschrijving": "Wat is er leuker dan samen je met je peuter in de bieb genieten van interactief voorlezen, en andere kindjes ontmoeten? In juli en augustus zijn ook grote broers en zussen van harte welkom.",
-      "categorie": "Boek",
-      "locatie": "Bibliotheek Risdam, Huesmolen 60",
-      "leeftijd": "Peuter",
-      "prijs": "Gratis",
-      "interval": "Onbekend",
-      "laag": "Reeks",
-      "bron": "Bibliotheek",
-      "link": "https://www.bibliotheekhoorn.nl/doen/Agenda/PeuterbiebRisdam.30102026.html"
-    },
-    {
-      "datum": "2026-10-30",
       "tijd": "13:30–16:00",
       "titel": "Primetime",
       "beschrijving": "In 2006 staat televisiehost Chris Hansen (Robert Pattinson) op het punt om geschiedenis te schrijven met het programma ‘To Catch a Predator’ Zaal 5",
@@ -446,31 +426,17 @@
     },
     {
       "datum": "2026-10-30",
-      "tijd": "12:50–15:40",
+      "tijd": "18:20–21:10",
       "titel": "Wildwood",
       "beschrijving": "Van de makers van Coraline komt nu een nieuw sprookjesachtig animatie-avontuur! Zaal 4",
       "categorie": "Film",
       "locatie": "Vue Hoorn, Westfriese Parkweg 3",
       "leeftijd": "Jongere",
-      "prijs": "€10",
+      "prijs": "€12",
       "interval": "Onbekend",
       "laag": "Onbekend",
       "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000492/4513"
-    },
-    {
-      "datum": "2026-10-30",
-      "tijd": "11:00–13:06",
-      "titel": "Yugly",
-      "beschrijving": "Maak kennis met Yugly, de lelijkste hond ter wereld… en op een vreemde manier ook de schattigste. Zaal 6 NL",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Kind",
-      "prijs": "€10",
-      "interval": "Onbekend",
-      "laag": "Onbekend",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000491/4526"
+      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000492/4512"
     },
     {
       "datum": "2026-10-31",
@@ -3205,12 +3171,12 @@
       "titel": "Kamermuziekfestival: openingsconcert muziek in beweging",
       "beschrijving": "Het Kamermuziek Festival Hoorn opent feestelijk en bruisend met Birthe & Friends : een klein, speciaal voor het festival samengesteld strijkorkest onder leiding van violiste Birthe Blom . Voor de pauze speelt het ensemble het feestelijke en energieke Octet van Felix Mendelssohn , een meesterwerk vol jeugdige frisheid, virtuositeit en onweerstaanbare levenslust. Daarna klinkt The Four Seasons Recomposed van Max Richte",
       "categorie": "Klassiek",
-      "locatie": "Oosterkerk, Grote Oost 58",
+      "locatie": "Oosterkerk",
       "leeftijd": "Onbekend",
       "prijs": "€35",
       "interval": "Onbekend",
-      "laag": "Optreden, Verzameling",
-      "bron": "inHoorn, Uitagenda, Oosterkerk",
+      "laag": "Verzameling",
+      "bron": "inHoorn, Uitagenda",
       "link": "https://www.inhoorn.nl/agenda-item/kamermuziekfestival-openingsconcert-muziek-in-beweging/"
     },
     {
@@ -3403,6 +3369,28 @@
       "laag": "Optreden",
       "bron": "Het Pakhuis",
       "link": "https://www.pakhuishoorn.nl/voorstelling/peter-zingt-boudewijn-door-peter-de-jong/"
+    },
+    {
+      "datum": "2026-11-06",
+      "tijd": "10:00–12:00",
+      "titel": "Creatief borduren",
+      "beschrijving": "Elke week · Heb je zin om creatief aan de slag te gaan? Iedere vrijdagochtend ben je van harte welkom om aan te schuiven en gezellig mee te borduren. Of je nu al jaren borduurt of nog nooit een naald hebt vastgehouden, iedereen is welkom.",
+      "categorie": "Boek",
+      "locatie": "Bibliotheek Centrum, Wisselstraat 8",
+      "leeftijd": "Onbekend",
+      "prijs": "Gratis",
+      "interval": "Wekelijks",
+      "laag": "Reeks",
+      "bron": "Bibliotheek",
+      "link": "https://www.bibliotheekhoorn.nl/doen/Agenda/Borduren_Centrum.06112026.html",
+      "komende": [
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-20",
+        "2026-11-27",
+        "2026-12-04",
+        "2026-12-11"
+      ]
     },
     {
       "datum": "2026-11-06",
@@ -3950,7 +3938,7 @@
       "categorie": "Theater",
       "locatie": "Het Pakhuis",
       "leeftijd": "Onbekend",
-      "prijs": "€2,50–€19,50",
+      "prijs": "€2,50–€23,50",
       "interval": "Eenmalig",
       "laag": "Optreden",
       "bron": "Het Pakhuis",
@@ -4140,424 +4128,45 @@
     },
     {
       "datum": "2026-11-15",
-      "tijd": "13:00–22:00",
-      "titel": "Popronde Hoorn",
-      "beschrijving": "45 optredens op 22 locaties.",
+      "tijd": "14:00",
+      "titel": "Popronde Hoorn (diverse optredens)",
+      "beschrijving": "Gratis optreden.",
       "categorie": "Concert",
-      "locatie": "Diverse locaties",
+      "locatie": "Binnenstad",
+      "leeftijd": "Onbekend",
+      "prijs": "Gratis",
+      "interval": "Onbekend",
+      "laag": "Verzameling",
+      "bron": "POPstation",
+      "link": "https://popstationhoorn.nl/showagenda"
+    },
+    {
+      "datum": "2026-11-15",
+      "tijd": "14:45",
+      "titel": "Popronde Hoorn: tays & Amani // Locatie: Noorderkerk",
+      "beschrijving": "Op zondag 15 november landt het reizende festival Popronde in Hoorn. In samenwerking met locatie De Noorderkerk presenteert Manifesto veelbelovende artiesten: Hip-hop artiest tays en Afro-Caribische zangeres AMANI. De optredens zijn gratis toegankelijk. In de wereld van tays botst onrust met zachte symmetrie, de muziek kwetsbaar als een bloem en dwingend als het nu. Hiphop en alt-pop dansen om elkaar heen in een show",
+      "categorie": "Concert",
+      "locatie": "Manifesto",
       "leeftijd": "Onbekend",
       "prijs": "Gratis",
       "interval": "Eenmalig",
-      "laag": "Festival",
-      "bron": "Popronde",
-      "link": "https://popronde.nl/steden/hoorn",
-      "programma": [
-        {
-          "tijd": "13:00",
-          "titel": "Fabienne Julie",
-          "beschrijving": "Folk, Indie. De cinematische folk van Fabienne Julie bevraagt hoopvol het leven, de liefde en haar patronen. Haar mysterieuze, melancholische verhalen vonden tijdens de Amsterdamse Popprijs al de Melkweg en Paradiso. Geïnspireerd door Patrick Watson, Florence + The Machine en Lizzy McAlpine, biedt ze haar publiek de ruimte te voelen in de mooiste en lelijkste vorm.",
-          "categorie": "Folk",
-          "locatie": "De Beiaard, Kerkplein 3",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/37371"
-        },
-        {
-          "tijd": "13:15",
-          "titel": "Wendy Moore",
-          "beschrijving": "Alternative, Pop. Donkere gitaar gedreven alt-pop, rauwe emoties en songs die onder je huid kruipen. Wendy Moore maakt muziek die voelt als een lichtpunt in het donker. Met optredens van Berlijn tot China geeft ze een stem aan dromers, buitenbeentjes en iedereen die zich ooit onzichtbaar voelde. Haar boodschap is simpel: You are seen, You are heard, and you belong.",
-          "categorie": "Pop",
-          "locatie": "Boedijn, Noorderstraat 3",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/36243"
-        },
-        {
-          "tijd": "13:30",
-          "titel": "Lucy Fabienne",
-          "beschrijving": "Pop, Country. Lucy Fabienne maakt country-pop voor dwalende harten en wannabe cowboys. Met haar kenmerkende vibrato zingt ze over opgroeien in een klein dorp, mentale problemen en het geloof. Haar missie is om buitenbeentjes een veilige haven te bieden. Eerder stond zij al op podia als 013, Het Paard en De Helling.",
-          "categorie": "Pop",
-          "locatie": "De Beiaard, Kerkplein 3",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/37244"
-        },
-        {
-          "tijd": "13:45",
-          "titel": "Marieke Schenk",
-          "beschrijving": "Pop, Nederlandstalig. Marieke Schenk: een popartiest met een krachtige, energieke liveshow. Ze stond op de ESNS '26 line-up en speelt op grote festivals. Debuutsingle Verward Persoon (38K streams) ging viraal op TikTok. Nieuwe muziek kreeg airplay op 3FM. Gemixt met rock maakt ze rauwe, catchy songs, geïnspireerd door Pommelien Thijs, voor wie ze de aftershow speelde in AFAS Live",
-          "categorie": "Pop",
-          "locatie": "Boedijn, Noorderstraat 3",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/36521"
-        },
-        {
-          "tijd": "14:00",
-          "titel": "Angelo Benson",
-          "beschrijving": "Pop, Soul. Angelo Benson is in de basis een popartiest. Zijn muziek is een mengeling van bombastische pop met een soulvolle boventoon en meeslepende donkere ballads. Kwetsbare Engelstalige teksten over onbereikbare liefde, verlangen en onzekerheid nemen je mee in een dreigende wanhoop. Met zijn aangrijpende stemgeluid laat Angelo het publiek ontwapend achter.",
-          "categorie": "Pop",
-          "locatie": "De Beiaard, Kerkplein 3",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/37368"
-        },
-        {
-          "tijd": "14:00",
-          "titel": "RubinCarter",
-          "beschrijving": "Indie, Alternative. RubinCarter is het soloproject van Sal Rubinstein (Queen’s Pleasure). Hoewel zijn hart bij drums lag, groeide de drang om zelf songs te schrijven. Jarenlang hield hij die voor zich en speelde alleen in zijn eigen kamer. Geïnspireerd door grootheden als Bob Dylan en Leonard Cohen brengt hij nu eigen werk: eerlijke storytelling met rauwe garagerock-energie.",
-          "categorie": "Indie",
-          "locatie": "Schouwburg Het Park, Westerdijk 4",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/36916"
-        },
-        {
-          "tijd": "14:30",
-          "titel": "Maxime",
-          "beschrijving": "Singer/songwriter, Indie. Muziek is voor Maxime een plek van begrip, een omhelzing voor de ziel. Ze maakt Nederlandstalige indiepop waarbij klassieke elementen zoals akoestische gitaar, piano en meerstemmigheid samenkomen met elektronische invloeden. Meeslepend, doordacht en bedoeld om te raken. Denk Billie Eilish, Raye, MARO en Froukje. Te boeken als solo- of duo-act.",
-          "categorie": "Singer/songwriter",
-          "locatie": "Proeflokaal Charlies, Dubbele Buurt 4",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/36817"
-        },
-        {
-          "tijd": "14:30",
-          "titel": "SUUS",
-          "beschrijving": "Indie, Pop. SUUS verpakt ongemak in glitter. Achter haar vrolijke, dansbare sound schuilt een scherpe blik op opgroeien als vrouw binnen de gen-z generatie. Haar songs balanceren tussen licht en gelaagd, speels en eerlijk, met heel veel subtiel sarcasme.",
-          "categorie": "Pop",
-          "locatie": "HEMA, Gouw 4-14",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/36633"
-        },
-        {
-          "tijd": "14:45",
-          "titel": "tays",
-          "beschrijving": "Hip Hop, Pop. In de wereld van tays botst onrust met zachte symmetrie, de muziek kwetsbaar als een bloem en dwingend als het nu. Hiphop en alt-pop dansen om elkaar heen in een show die vergankelijkheid een gezicht geeft. Na ESNS 2026 en Paradiso brengt de Hit The North-alumnus zijn ontworteling naar het podium als een kind in het pak van een man.",
-          "categorie": "Pop",
-          "locatie": "Noorderkerk, Kleine Noord 32",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/37037"
-        },
-        {
-          "tijd": "14:45",
-          "titel": "Wilson A.",
-          "beschrijving": "Alternative, Electro. Wat begon als een mislukte boekenclub ontspoorde al snel tot Wilson A.: een vierkoppig gezelligheidscollectief gewapend met gitaren en oldschool synthesizers. Een slonzige blend van electropunk en gruizige garagerock zorgt voor liveshows vol ongemak, plezier en een rits aan dansbangers voor mensen die clubs liever vermijden.",
-          "categorie": "Alternative",
-          "locatie": "Blue Striker, Grote Noord 130",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/37482"
-        },
-        {
-          "tijd": "15:00",
-          "titel": "Imme",
-          "beschrijving": "Pop, Jazz. Imme is een singer-songwriter met een krachtige, warme stem. Ze brengt een eigen mix van pop, soul en jazz, geïnspireerd door Norah Jones, Eloise en Olivia Dean. Met karakteristiek gitaarspel, sterke vocalen en soulvolle arrangementen met blazers beweegt ze moeiteloos tussen intieme luisterliedjes en moderne grooves.",
-          "categorie": "Jazz",
-          "locatie": "Westfries Museum (locatie Ceciliakapel), Nieuwsteeg 42",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/37060"
-        },
-        {
-          "tijd": "15:15",
-          "titel": "LAHAYE",
-          "beschrijving": "Singer/songwriter, Indie. Met sterke gevoelens in een zacht stemgeluid nodigt LAHAYE je uit om écht te luisteren. Ze vertaalt de teksten uit haar dagboek naar dromerige indiepop songs vol warme gitaarklanken en zachte melodieën. Geïnspireerd door artiesten als Lizzy McAlpine, Alanis Morissette en Phoebe Bridgers is ze op een missie om gevoelig zijn weer cool te maken.",
-          "categorie": "Singer/songwriter",
-          "locatie": "Het Koffielokaal, 't Glop 7",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/36797"
-        },
-        {
-          "tijd": "15:15",
-          "titel": "MAYTE",
-          "beschrijving": "Pop, Alternative. Eigenwijze alt-pop met Fryske teksten, recht uit het hart. Geïnspireerd door o.a. PJ Harvey, Tori Amos en met thema's als verloren liefdes en opgroeien, neemt MAYTE je mee in haar explosieve, theatrale performance. In 2025 won ze de Kleine Prijs van Friesland, Fries songfestival LIET én de Bernlefpriis. In 2026 debuteert ze met haar EP \"Himel Iepen\".",
-          "categorie": "Pop",
-          "locatie": "Schouwburg Het Park, Westerdijk 4",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/36950"
-        },
-        {
-          "tijd": "15:15",
-          "titel": "WABR",
-          "beschrijving": "Electro, Nederlandstalig. WABR zoekt in Nederlandse teksten en speelse elektronische muziek naar de balans tussen realiteit en simulatie. Ontstaan in onze slaapkamerstudio met één regel: we zeggen altijd ja. De invloeden lopen van Mura Masa tot Doe Maar en retro game-muziek. We bespreken dokters, tijdgebrek en allerlei andere vage zaken. Neem het niet te serieus, of juist wel.",
-          "categorie": "Spel",
-          "locatie": "Kinki Kappers, Gouw 28",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/37243"
-        },
-        {
-          "tijd": "15:30",
-          "titel": "Day Mosh",
-          "beschrijving": "Alternative, Hip Hop. From contemporary jazz guitar player to soft rock/hip hop/electronic artist. Day Mosh f.k.a. Bob Hoving is the producer, multi-instrumentalist, singer and brains behind this upcoming debut album. Sourcing inspiration from artists like Caroline Polachek, Frank Ocean, Oneohtrix Point Never, Steve Lacy and the late contemporary Steve Reich.",
-          "categorie": "Jazz",
-          "locatie": "GOOS, Kerkplein 35",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/37678"
-        },
-        {
-          "tijd": "15:30",
-          "titel": "Eyesores",
-          "beschrijving": "Punk. Van een storend object wil je het liefst wegkijken, maar Eyesores blijven op je netvlies staan. Niet omdat ze mooi zijn, maar omdat het schuurt. Precies zo houdt Eyesores je een spiegel voor die je het liefst kapot maakt. Deze confrontatiedrang vertaalt zich in snelle, overgoten met benzine en in brand gestoken garagepunk-tracks.",
-          "categorie": "Rock",
-          "locatie": "'t Kroegie, Kerkplein 1",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/36557"
-        },
-        {
-          "tijd": "15:45",
-          "titel": "Mees",
-          "beschrijving": "Pop, Nederlandstalig. Mees is een Rotterdamse zanger die pop, hiphop en levenslied naar zijn hand zet. Wat begint op de piano groeit uit tot energieke liveshows. In 2025 speelde hij zijn eerste festivals en deed hij als voorprogramma de volledige clubtour van Kraantje Pappie. Hij is getekend bij platenlabel Top Notch en bracht daar zijn debuut-EP ‘Hoofd in de wolken’ uit.",
-          "categorie": "Pop",
-          "locatie": "'t Drietje, Dubbele Buurt 3",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/37509"
-        },
-        {
-          "tijd": "15:45",
-          "titel": "Merle",
-          "beschrijving": "Alternative, Nederlandstalig. Merle maakt Nederlandstalige altpop die onder je huid kruipt. Synthesizers, intieme pianoliedjes en breakbeats wisselen elkaar af, terwijl haar liedjes steeds van kleur veranderen. Aanstekelijk en onvoorspelbaar tegelijk, met teksten die dichtbij komen. Live brengt Merle kwetsbaarheid met humor en zelfspot, waardoor haar show persoonlijk aanvoelt.",
-          "categorie": "Alternative",
-          "locatie": "HEMA, Gouw 4-14",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/37682"
-        },
-        {
-          "tijd": "16:00",
-          "titel": "Anna Joan",
-          "beschrijving": "Alternative, Pop. A multi-talented showstopper. Drawing inspiration from artists like FKA Twigs, COBRAH and Sevdaliza, Anna Joan is set to unleash her raw, dark electronic sound in '26. Her new, self-produced EP 'SKIN' is a sonic manifesto of sexual liberation. In her electronic performances she blends dance, live-music and outstanding vocal performances in a raw soundworld.",
-          "categorie": "Pop",
-          "locatie": "De Boterhal, Kerkplein 39",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/36943"
-        },
-        {
-          "tijd": "16:00",
-          "titel": "Fabienne Julie",
-          "beschrijving": "Folk, Indie. De cinematische folk van Fabienne Julie bevraagt hoopvol het leven, de liefde en haar patronen. Haar mysterieuze, melancholische verhalen vonden tijdens de Amsterdamse Popprijs al de Melkweg en Paradiso. Geïnspireerd door Patrick Watson, Florence + The Machine en Lizzy McAlpine, biedt ze haar publiek de ruimte te voelen in de mooiste en lelijkste vorm.",
-          "categorie": "Folk",
-          "locatie": "Proeflokaal Charlies, Dubbele Buurt 4",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/37371"
-        },
-        {
-          "tijd": "16:00",
-          "titel": "Kidd Nebula & The Voodoo-Funk Conspiracy",
-          "beschrijving": "Funk, Jazz. FUNK FUNK FUNK FUNK! De energieke Kidd Nebula verovert planeten en zonnestelsels met een mix van kosmische Funk, Jazz en Hip-Hop. Samen met zijn zeskoppige band neem hij je mee in een dansbare trip geïnspireerd door Prince, Funkadelic en Jamiroquai.",
-          "categorie": "Jazz",
-          "locatie": "The 80's",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/36789"
-        },
-        {
-          "tijd": "16:00",
-          "titel": "The Hook",
-          "beschrijving": "Rock, Alternative. The Hook is een energiek rocktrio uit Utrecht dat staat voor melodieuze gitaarrock met pakkende hooks en een aangrijpende en energieke live-drive. In 2025 verscheen hun debuut-EP op het legendarische Kelt Records. Daarnaast speelden ze door heel het land als voorprogramma van Daryll-Ann en Claw Boys Claw, wat hen lovende reacties en recensies opleverde.",
-          "categorie": "Rock",
-          "locatie": "Backstage, Koepoortsplein 3",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/37235"
-        },
-        {
-          "tijd": "16:00",
-          "titel": "xico",
-          "beschrijving": "Ambient, Pop. SOM FLORINT is an electroacoustic performance where an acoustic piano becomes a vast loudspeaker. Field recordings, voice, feedback and generative electronics resonate through its body and the surrounding space, creating an intimate, evolving sonic ecology where sound, space and emotion continuously reshape one another.",
-          "categorie": "Pop",
-          "locatie": "Oosterkerk, Grote Oost 58",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/36347"
-        },
-        {
-          "tijd": "16:15",
-          "titel": "AMANI",
-          "beschrijving": "Zuid-Amerikaans, Alternative. Amani is geboren en opgegroeid in Suriname. De muziek van Amani is vandaag de dag geworteld in een authentiek Afro-Caribisch geluid, waarin elementen van pop, dancehall, kawina, R&B en house samenkomen. Haar aanstaande EP, Echo, markeert het begin van een nieuw tijdperk – een tijdperk waarin ze haar identiteit, roots en artistieke visie volledig omarmt.",
-          "categorie": "Pop",
-          "locatie": "Noorderkerk, Kleine Noord 32",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/36408"
-        },
-        {
-          "tijd": "16:30",
-          "titel": "Wendy Moore",
-          "beschrijving": "Alternative, Pop. Donkere gitaar gedreven alt-pop, rauwe emoties en songs die onder je huid kruipen. Wendy Moore maakt muziek die voelt als een lichtpunt in het donker. Met optredens van Berlijn tot China geeft ze een stem aan dromers, buitenbeentjes en iedereen die zich ooit onzichtbaar voelde. Haar boodschap is simpel: You are seen, You are heard, and you belong.",
-          "categorie": "Pop",
-          "locatie": "Kinki Kappers, Gouw 28",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/36243"
-        },
-        {
-          "tijd": "16:45",
-          "titel": "BARBEE",
-          "beschrijving": "Rock. Recht uit de chaos van het Oosten komt BARBEE, een vierkoppige krachtpatser die de rauwe energie van Nirvana mengt met de ongetemde geest van Amyl & the Sniffers en de duistere flair van Starcrawler. In 2025 denderde de band het Nederlandse en Duitse livecircuit door en bracht het onder de vleugels van Goomah haar eerste EP 'Bad Mood' uit. Komt dat zien!",
-          "categorie": "Rock",
-          "locatie": "Muziekcafé SWAF, Kerkstraat 3",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/37053"
-        },
-        {
-          "tijd": "16:45",
-          "titel": "Doris Vosters",
-          "beschrijving": "Soul, Pop. Doris Vosters maakt soulpop geïnspireerd op artiesten als Jordan Rakei en Olivia Dean. Haar muziek geeft lading aan de kleinste gebeurtenissen, verpakt met een livesound en elektronische elementen. Ze zoekt de diepte in nuchterheid en deelt in haar show de lange reis naar het doorbreken van perfectionisme, het zoeken naar richting en weerbaar worden.",
-          "categorie": "Pop",
-          "locatie": "Café Vièra, Roode Steen 4-A",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/37168"
-        },
-        {
-          "tijd": "16:45",
-          "titel": "JAH",
-          "beschrijving": "Hip Hop, R&B. JAH, een \"MISFIT\" uit almere. Een energieke, veelzijdige artiest die kleur brengt aan de Hiphop/Rnb genre in Nederland. Met muziek die je laat dansen gemixt met mee zing refreintjes en speelse flows kan hij en gevoel losmaken bij mensen die ze in tijden niet gevoeld hebben. Bij een JAH show is stilstaan geen optie. JAH is voor iedereen!!",
-          "categorie": "Hip Hop",
-          "locatie": "Schouwburg Het Park, Westerdijk 4",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/37010"
-        },
-        {
-          "tijd": "17:00",
-          "titel": "Tessa June",
-          "beschrijving": "Pop, Nederlandstalig. Tessa June maakt NL-pop die raakt. Haar persoonlijke liedjes vinden altijd iets universeels. Na een uitverkochte Cinetol-show ('24) en een clubtour langs Luxor Live, Mezz en Paradiso, volgde in '25 een duet met Niels Destadsbader, werd Meisjes Lopen Sneller opnieuw toegevoegd aan Beste Van NL en bereikte ze 6 miljoen streams. Online bereikt ze 35.000 volgers",
-          "categorie": "Pop",
-          "locatie": "Barrels, Dubbele Buurt 22",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/36907"
-        },
-        {
-          "tijd": "17:00",
-          "titel": "Wolfgang",
-          "beschrijving": "Indie, Singer/songwriter. Wolfgang (17) won Mooie Noten 2024, verkocht zijn eigen releaseshow in Paradiso uit en staat in de finale van de Zonneprijs 2026. Solo klinkt hij als een volledige band dankzij zijn indrukwekkende stem, ingenieuze gitaarspel, stompbox en ambient effectenpedalen, maar even overtuigend brengt hij een ruimte tot stilte met originele akoestische songs.",
-          "categorie": "Indie",
-          "locatie": "'t Kroegie, Kerkplein 1",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/36860"
-        },
-        {
-          "tijd": "17:30",
-          "titel": "Lucy Fabienne",
-          "beschrijving": "Pop, Country. Lucy Fabienne maakt country-pop voor dwalende harten en wannabe cowboys. Met haar kenmerkende vibrato zingt ze over opgroeien in een klein dorp, mentale problemen en het geloof. Haar missie is om buitenbeentjes een veilige haven te bieden. Eerder stond zij al op podia als 013, Het Paard en De Helling.",
-          "categorie": "Pop",
-          "locatie": "Café JP, Veemarkt 17",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/37244"
-        },
-        {
-          "tijd": "17:30",
-          "titel": "theo artz",
-          "beschrijving": "Soul. Zijn ingetogen houding maar uitbundige muziek zijn totale tegenpolen, toch weet Theo zichzelf volledig te uiten in teksten en beats die als niemand anders klinken. In zijn nieuwe muziek zoekt hij de randjes op van distortion, tempomodulatie en vintage gear. Hij omschrijft de sound zelf als ‘goofy, op de goeie manier'.",
-          "categorie": "Soul",
-          "locatie": "Oosterkerk, Grote Oost 58",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/37402"
-        },
-        {
-          "tijd": "17:30",
-          "titel": "Toobss",
-          "beschrijving": "Afrobeat, Hip Hop. Toobss is een Rotterdamse artiest die Afro, Urban en Zouk combineert met een energieke en persoonlijke live-ervaring. Met miljoenen streams en een sterke live-reputatie speelde hij clubs en festivals door het land. Op 26 december 2025 verzorgde hij het voorprogramma van Broederliefde in Ahoy Rotterdam.",
-          "categorie": "Afrobeat",
-          "locatie": "The 80's",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/36727"
-        },
-        {
-          "tijd": "17:45",
-          "titel": "The Awkward",
-          "beschrijving": "Indie, Britpop. What's the plan? Gooi begin jaren 2000 indie, cheeky Britpop en de Teletubbies in een blender en je krijgt het antwoord: The Awkward. Catchy gitaren, dansbare chaos, knallende energie en gimmicks waar je 'u' tegen zegt. Van snerpende synth-solo’s en alto-disco beukers tot Franse ballads en haute couture bangers - muziek voor én door echte indie sukkels.",
-          "categorie": "Dans",
-          "locatie": "Backstage, Koepoortsplein 3",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/37386"
-        },
-        {
-          "tijd": "18:30",
-          "titel": "Grandad",
-          "beschrijving": "Post-Punk, Avantgarde. Tik-tak-tik-tak. Avant-garde rock, gehuld in orde en chaos. We vertellen je een verhaal onder begeleiding van een saxofoon. We brengen je een psychose aan geluid waarvan je opa zou neervallen.",
-          "categorie": "Rock",
-          "locatie": "Muziekcafé SWAF, Kerkstraat 3",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/37025"
-        },
-        {
-          "tijd": "18:30",
-          "titel": "The Robots Are Coming",
-          "beschrijving": "Electro. Electroduo uit Tilburg met energieke liveshow vol synthesizers, drummachines, gitaren en een eigen ontworpen lichtshow. TRAC klinkt cinematisch, duister, futuristisch en dansbaar (inspiratie o.a. Daft Punk / Justice). Winnaars 3voor12/Tilburg Song of the Year met het dystopische conceptalbum “2095” en eerder te zien op o.a. Best Kept Secret Festival.",
-          "categorie": "Rock",
-          "locatie": "'t Kroegie, Kerkplein 1",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/37017"
-        },
-        {
-          "tijd": "19:00",
-          "titel": "Marieke Schenk",
-          "beschrijving": "Pop, Nederlandstalig. Marieke Schenk: een popartiest met een krachtige, energieke liveshow. Ze stond op de ESNS '26 line-up en speelt op grote festivals. Debuutsingle Verward Persoon (38K streams) ging viraal op TikTok. Nieuwe muziek kreeg airplay op 3FM. Gemixt met rock maakt ze rauwe, catchy songs, geïnspireerd door Pommelien Thijs, voor wie ze de aftershow speelde in AFAS Live",
-          "categorie": "Pop",
-          "locatie": "Barrels, Dubbele Buurt 22",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/36521"
-        },
-        {
-          "tijd": "19:15",
-          "titel": "SWANSLAUGHTER",
-          "beschrijving": "Metal. SWANSLAUGHTER is a metal band hailing from The Netherlands, consisting of former members of 18 Miles, To Heaven Earth is Hell and Death Hounds. This 5 piece seeks an outlet for fury and desperation, struggling to find peace and justice in a world that's driven by anxiety. SWANSLAUGHTER reflects on how everything beautiful in life is butchered by mankind.",
-          "categorie": "Rock",
-          "locatie": "Backstage, Koepoortsplein 3",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/36372"
-        },
-        {
-          "tijd": "19:30",
-          "titel": "Calis Nyarko",
-          "beschrijving": "House, Dance. Calis Nyarko is een Gospel House-artiest van West-Afrikaanse afkomst, bekend om zijn unieke vermogen om de zielvolle essentie van gospel te combineren met de dynamische energie van elektronische muziek. Calis smelt live instrumentatie saxofoon, drumpad en toetsen samen met dynamische elektronische producties om een meeslepende muzikale ervaring te creëren.",
-          "categorie": "House",
-          "locatie": "Oosterkerk, Grote Oost 58",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/36247"
-        },
-        {
-          "tijd": "20:00",
-          "titel": "Angelo Benson",
-          "beschrijving": "Pop, Soul. Angelo Benson is in de basis een popartiest. Zijn muziek is een mengeling van bombastische pop met een soulvolle boventoon en meeslepende donkere ballads. Kwetsbare Engelstalige teksten over onbereikbare liefde, verlangen en onzekerheid nemen je mee in een dreigende wanhoop. Met zijn aangrijpende stemgeluid laat Angelo het publiek ontwapend achter.",
-          "categorie": "Pop",
-          "locatie": "Café JP, Veemarkt 17",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/37368"
-        },
-        {
-          "tijd": "20:00",
-          "titel": "HOOFS",
-          "beschrijving": "Noise, Post-Punk. Met een snoeiharde mix van noise en postpunk werd HOOFS door 3voor12 getypeerd als ‘niet voor watjes’. Met intense muziek en shows, die steevast zorgen voor moshpits en collectieve ontlading, vieren ze het leven en creëren ze een plek waar iedereen zichzelf kan zijn. Het geluid is hard, de ruimte zacht. Watjes wees welkom.",
-          "categorie": "Rock",
-          "locatie": "Muziekcafé SWAF, Kerkstraat 3",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/37281"
-        },
-        {
-          "tijd": "20:00",
-          "titel": "The Pelumas",
-          "beschrijving": "Rock, Roots. The Pelumas is een 3 koppige rock/spaghetti-western band die je mee sleurt in een bubbel van rauwe samenzang, krachtige geluiden en een energie waardoor je al snel bent vergeten hoe laat het ook alweer is..",
-          "categorie": "Rock",
-          "locatie": "Café Vièra, Roode Steen 4-A",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/37142"
-        },
-        {
-          "tijd": "20:45",
-          "titel": "KRAM",
-          "beschrijving": "Alternative. KRAM is een Iers-Nederlandse alternative/post-punk band uit Amsterdam, gedreven door urgentie, spanning en collectieve ontlading. Vanuit hun overtuiging ‘Love Stands Forever’ zoeken ze in hun muziek en live shows naar verbinding in een verdeelde wereld. Bekend om hun ijzersterke, explosieve en verbindende liveshows wonnen ze in 2025 de Amsterdamse Popprijs.",
-          "categorie": "Rock",
-          "locatie": "Huisverloren, Kerkstraat 10b",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/36937"
-        },
-        {
-          "tijd": "21:15",
-          "titel": "De Plaag",
-          "beschrijving": "Punk, Electro. De Nederlandstalige Electro/Punk band De Plaag lijkt op het eerste gezicht op een uit de hand gelopen swingers party. Poëtisch met een vieze rand, brutaal waar het kan en gevoelig waar het moet. Poedelnaakte chaos in het donker, De Plaag geeft zich bloot. Een show van De Plaag blijft plakken op je netvlies als een zuigzoen in je nek.",
-          "categorie": "Rock",
-          "locatie": "Backstage, Koepoortsplein 3",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/37395"
-        },
-        {
-          "tijd": "22:00",
-          "titel": "DE FORMULE",
-          "beschrijving": "Drum & Bass, Punk. DE FORMULE will make nights last forever, by combining Electronic music with the raw energy of a band. Mixing songs like a DJ, but with the power of a Punk band. Inspired by Noisia and Limp Bizkit, DE FORMULE makes sure the crowd won’t stop moving.",
-          "categorie": "Rock",
-          "locatie": "Muziekcafé SWAF, Kerkstraat 3",
-          "prijs": "Gratis",
-          "link": "https://popronde.nl/profiel/36989"
-        }
-      ]
+      "laag": "Optreden",
+      "bron": "Manifesto",
+      "link": "https://manifesto-hoorn.nl/productie/popronde/"
+    },
+    {
+      "datum": "2026-11-15",
+      "tijd": "20:00–23:30",
+      "titel": "popronde KRAM LIVE",
+      "beschrijving": "KRAM ! Iers Nederlandse postpunk rockband. Energieke Postpunk vol stuwende ritmes en messcherpe gitaren. Officiele OOR talent en Winnaars van de Amsterdamse Popprijs 2026",
+      "categorie": "Concert",
+      "locatie": "Huisverloren",
+      "leeftijd": "Onbekend",
+      "prijs": "Onbekend",
+      "interval": "Eenmalig",
+      "laag": "Optreden",
+      "bron": "Huisverloren",
+      "link": "https://huisverloren.stager.co/shop/default/events/111713558"
     },
     {
       "datum": "2026-11-16",
@@ -4804,20 +4413,6 @@
     },
     {
       "datum": "2026-11-21",
-      "tijd": "20:00–22:00",
-      "titel": "Hoorns Harmonie Orkest: een magisch concert",
-      "beschrijving": "Het orkest brengt deze keer een magisch concert gaat worden. Samen met Jorrit, een getalenteerde goochelaar uit Hoorn, gaat het HHO op een unieke reis. Naast Jorrit’s talent voor magie is hij ook een goede zanger. Muziek, zang en magie komen samen tot een mooi spektakel waarin het publiek betrokken wordt. Ook informatie op de pagina van Jorrit: https://js-entertainment.nl/ en de pagina van het orkest,",
-      "categorie": "Klassiek",
-      "locatie": "Oosterkerk, Grote Oost 58",
-      "leeftijd": "Onbekend",
-      "prijs": "Onbekend",
-      "interval": "Eenmalig",
-      "laag": "Optreden",
-      "bron": "Oosterkerk",
-      "link": "https://www.oosterkerkhoorn.nl/activiteiten/hoorns-harmonie-orkest-een-magisch-concert/"
-    },
-    {
-      "datum": "2026-11-21",
       "tijd": "20:15–22:00",
       "titel": "MEAU",
       "beschrijving": "Liefde Onderschat",
@@ -4941,20 +4536,6 @@
       "laag": "Optreden",
       "bron": "Het Park",
       "link": "https://hetpark.nl/agenda/musicalvereniging-westend-10352971/"
-    },
-    {
-      "datum": "2026-11-22",
-      "tijd": "15:00–17:00",
-      "titel": "Oude Muziek Nu: Bes Klein brengt veelzijdig concert in de Oosterkerk",
-      "beschrijving": "Het Bes Klein Ensemble bestaat uit acht getalenteerde zangers die elkaar vonden door hun gezamenlijke passie voor de zangkunst. De leden deden eerder ervaring op bij gerenommeerde koren en ensembles, zoals het VU-Kamerkoor, het Nederlands Studenten Kamerkoor en Meesters & Gezellen. De bijzondere energie en de harmonieuze klank die ontstonden toen zij voor het eerst samen zongen, waren de directe aanleiding om zich of",
-      "categorie": "Concert",
-      "locatie": "Oosterkerk, Grote Oost 58",
-      "leeftijd": "Onbekend",
-      "prijs": "Onbekend",
-      "interval": "Eenmalig",
-      "laag": "Optreden",
-      "bron": "Oosterkerk",
-      "link": "https://www.oosterkerkhoorn.nl/activiteiten/oude-muziek-nu-bes-klein-brengt-veelzijdig-concert-in-de-oosterkerk/"
     },
     {
       "datum": "2026-11-22",
@@ -5322,20 +4903,6 @@
     },
     {
       "datum": "2026-11-29",
-      "tijd": "15:00–17:00",
-      "titel": "Eigen klassieke serie: Heleen Hulst, Gerard Bouwhuis en David Kutz",
-      "beschrijving": "Het vijfde en laatste concert in onze eigen serie. Heleen Hulst op viool en Gerard Bouwhuis op piano ronden samen met Dave Kutz op tuba onze serie van 2026 op hun spectaculaire muzikale wijze af! Programma: (kleine wijziging nog mogelijk)– Sonate voor viool en piano — Claude Debussy (1917) – JS Bach Orgelsonate in d – François Thuillier — No fish in pombal (tubasolo)– Jean Philippe Rameau – Les Cyclopes (pianosolo)–",
-      "categorie": "Concert",
-      "locatie": "Oosterkerk, Grote Oost 58",
-      "leeftijd": "Onbekend",
-      "prijs": "€24",
-      "interval": "Eenmalig",
-      "laag": "Optreden",
-      "bron": "Oosterkerk",
-      "link": "https://www.oosterkerkhoorn.nl/activiteiten/eigen-klassieke-serie-heleen-hulst-gerard-bouwhuis-en-david-kutz/"
-    },
-    {
-      "datum": "2026-11-29",
       "tijd": "15:00",
       "titel": "Live Nederlandstalige muziek",
       "beschrijving": "Elke laatste zondag van de maand live Nederlandstalige muziek, vanaf 15:00.",
@@ -5649,20 +5216,6 @@
       "link": "https://hoorn.bestuurlijkeinformatie.nl/Agenda/Index/a0bcc86f-2052-430e-a202-05864f315788"
     },
     {
-      "datum": "2026-12-08",
-      "tijd": "19:30–21:30",
-      "titel": "Muziekschool Boedijn: kerstconcert",
-      "beschrijving": "Informatie volgt!",
-      "categorie": "Concert",
-      "locatie": "Oosterkerk, Grote Oost 58",
-      "leeftijd": "Onbekend",
-      "prijs": "Onbekend",
-      "interval": "Eenmalig",
-      "laag": "Optreden",
-      "bron": "Oosterkerk",
-      "link": "https://www.oosterkerkhoorn.nl/activiteiten/muziekschool-boedijn-kerstconcert/"
-    },
-    {
       "datum": "2026-12-09",
       "tijd": "10:30–11:45",
       "titel": "Taalcafé voor taalleerders Risdam",
@@ -5818,20 +5371,6 @@
     },
     {
       "datum": "2026-12-12",
-      "tijd": "10:30–15:00",
-      "titel": "Kerstmarkt: Soli Deo Gloria",
-      "beschrijving": "Voor de 29ste keer organiseert Oratoriumvereniging Soli Deo Gloria de jaarlijkse, sfeervolle kerstmarkt. Ieder jaar opnieuw staat de markt garant voor sfeer en kwaliteit. Bij binnenkomst is de inrichting van de prachtig opgemaakte tafels een lust voor het oog. Mooie muziek en heerlijke geuren komen je tegemoet en laaggeprijsde artikelen maken de markt een evenement waar veel mensen ieder jaar weer naar uitkijken. Dit",
-      "categorie": "Markt",
-      "locatie": "Oosterkerk, Grote Oost 58",
-      "leeftijd": "Onbekend",
-      "prijs": "Gratis",
-      "interval": "Eenmalig",
-      "laag": "Optreden",
-      "bron": "Oosterkerk",
-      "link": "https://www.oosterkerkhoorn.nl/activiteiten/soli-deo-gloria-kerstmarkt/"
-    },
-    {
-      "datum": "2026-12-12",
       "tijd": "13:30–14:30",
       "titel": "Leescafé Live",
       "beschrijving": "Bibliotheek Hoorn en Muziekschool Boedijn hebben de handen in een geslagen met een mooie muzikale samenwerking. Kom kijken, luisteren en genieten van een optreden in het Leescafé van Bibliotheek Centrum.",
@@ -5871,20 +5410,6 @@
       "laag": "Optreden",
       "bron": "Het Park",
       "link": "https://hetpark.nl/agenda/101-dalmatiers-8-10355794/"
-    },
-    {
-      "datum": "2026-12-13",
-      "tijd": "15:00–17:00",
-      "titel": "Bach Ensemble Amsterdam: trompetten, pauken en pure barokke kerstmagie!",
-      "beschrijving": "Wegens het enorme succes van vorig jaar strikt het Bach Ensemble Amsterdam deze december opnieuw de strikken voor een onvergetelijk kerstconcert.Bereid u voor op een middag vol vocaal en instrumentaal vuurwerk!Dit jaar brengen we het Leipzig van Bach en zijn voorganger Kuhnau rechtstreeks naar u toe. Geniet van het grandioze Magnificat in C-dur van Kuhnau, Bachs uitbundige kerstcantate ‘Unser Mund sei voll Lachens’ (",
-      "categorie": "Concert",
-      "locatie": "Oosterkerk, Grote Oost 58",
-      "leeftijd": "Onbekend",
-      "prijs": "Onbekend",
-      "interval": "Eenmalig",
-      "laag": "Optreden",
-      "bron": "Oosterkerk",
-      "link": "https://www.oosterkerkhoorn.nl/activiteiten/bach-ensemble-amsterdam-trompetten-pauken-en-pure-barokke-kerstmagie/"
     },
     {
       "datum": "2026-12-13",
@@ -5969,20 +5494,6 @@
       "laag": "Optreden",
       "bron": "Het Park",
       "link": "https://hetpark.nl/agenda/dolf-jansen-10355798/"
-    },
-    {
-      "datum": "2026-12-17",
-      "tijd": "17:00–22:00",
-      "titel": "Lumos:A Classical Christmas Candlelight Experience",
-      "beschrijving": "Tickets en informatie via de site van Lumos",
-      "categorie": "Klassiek",
-      "locatie": "Oosterkerk, Grote Oost 58",
-      "leeftijd": "Onbekend",
-      "prijs": "Onbekend",
-      "interval": "Eenmalig",
-      "laag": "Optreden",
-      "bron": "Oosterkerk",
-      "link": "https://www.oosterkerkhoorn.nl/activiteiten/a-classical-christmas-candlelight-experience/"
     },
     {
       "datum": "2026-12-17",
@@ -6476,20 +5987,6 @@
     },
     {
       "datum": "2026-12-30",
-      "tijd": "19:30–00:15",
-      "titel": "Exit 2026: pre new years party",
-      "beschrijving": "Als je denkt dat we het jaar rustig afsluiten? Dan heb je het mis. We sluiten het jaar af in stijl, met het mooiste event van het jaar in Hoorn. Tickets zijn hier verkrijgbaar!",
-      "categorie": "Onbekend",
-      "locatie": "Oosterkerk, Grote Oost 58",
-      "leeftijd": "Onbekend",
-      "prijs": "Onbekend",
-      "interval": "Eenmalig",
-      "laag": "Optreden",
-      "bron": "Oosterkerk",
-      "link": "https://www.oosterkerkhoorn.nl/activiteiten/exit-2026-pre-new-years-party/"
-    },
-    {
-      "datum": "2026-12-30",
       "tijd": "Onbekend",
       "titel": "Kerst Expres",
       "beschrijving": "De rit duurt circa 2 uur.",
@@ -6812,20 +6309,6 @@
     },
     {
       "datum": "2027-01-16",
-      "tijd": "11:00–16:30",
-      "titel": "De kerk is open: met grote boekenmarkt",
-      "beschrijving": "De eerste openstelling in 2027. Kom de kerk bezoeken en laat je rondleiden of kijk lekker zelf! Naar de diverse glas-in-loodramen, het Bätzorgel, de bijzondere houten spiltrap, de grafstenen en veel meer. Ook is er de eerste boekenmarkt van het jaar in de Oosterkerk. Prettig groot met veel kwalitatieve boeken en altijd aangevuld met nieuw materiaal. Welkom in de Oosterkerk!",
-      "categorie": "Onbekend",
-      "locatie": "Oosterkerk, Grote Oost 58",
-      "leeftijd": "Onbekend",
-      "prijs": "Onbekend",
-      "interval": "Eenmalig",
-      "laag": "Optreden",
-      "bron": "Oosterkerk",
-      "link": "https://www.oosterkerkhoorn.nl/activiteiten/de-kerk-is-open-met-grote-boekenmarkt/"
-    },
-    {
-      "datum": "2027-01-16",
       "tijd": "20:15–22:00",
       "titel": "Evergreen top 1000 live!",
       "beschrijving": "Golden Songs",
@@ -7089,20 +6572,6 @@
       "laag": "Optreden",
       "bron": "Het Park",
       "link": "https://hetpark.nl/agenda/de-wind-en-wij-3-10356202/"
-    },
-    {
-      "datum": "2027-01-24",
-      "tijd": "15:00–17:00",
-      "titel": "Eric Vloeimans en Aart Bergwerff: Canto Ostinato",
-      "beschrijving": "Voor de derde keer zal in de Oosterkerk Canto Ostinato van Simeon ten Holt worden uitgevoerd. En opnieuw met een belangrijke rol voor ons fraaie Bätz-orgel. Eric Vloeimans (trompet) en Aart Bergwerff (orgel) zullen ons weer betoveren. Canto Ostinato van de Nederlandse componist Simeon ten Holt (1923-2012) is dè neoklassieke hit van de afgelopen decennia. Het werk staat steevast in de top tien van de Klassieke Top 400",
-      "categorie": "Klassiek",
-      "locatie": "Oosterkerk, Grote Oost 58",
-      "leeftijd": "Onbekend",
-      "prijs": "Onbekend",
-      "interval": "Eenmalig",
-      "laag": "Optreden",
-      "bron": "Oosterkerk",
-      "link": "https://www.oosterkerkhoorn.nl/activiteiten/eric-vloeimans-en-aart-bergwerff-canto-ostinato/"
     },
     {
       "datum": "2027-01-24",
@@ -7668,7 +7137,7 @@
       "datum": "2027-02-20",
       "tijd": "21:00",
       "titel": "The Doors in Concert",
-      "beschrijving": "The Doors in Concert is terug in Manifesto! Op zaterdagavond 20 febuari speelt de tribute-band een eerbetoon aan The Doors, de wereldberoemde psychedelische band uit de jaren '60, met legendarische nummers als Light my Fire , Love her Madly, L.A. Woman en Riders on the Storm. Kom het beleven! Tickets zijn nu verkrijgbaar: via deze link. Zanger en icoon Jim Morrison overleed in 1971, meer dan 50 jaar geleden. Toch is",
+      "beschrijving": "The Doors in Concert is terug in Manifesto! Op zaterdagavond 20 februari speelt de tribute-band een eerbetoon aan The Doors, de wereldberoemde psychedelische band uit de jaren '60, met legendarische nummers als Light my Fire , Love her Madly, L.A. Woman en Riders on the Storm. Kom het beleven! Tickets zijn nu verkrijgbaar: via deze link. Zanger en icoon Jim Morrison overleed in 1971, meer dan 50 jaar geleden. Toch is",
       "categorie": "Tribute",
       "locatie": "Manifesto",
       "leeftijd": "Onbekend",
@@ -8799,20 +8268,6 @@
       "link": "https://hetpark.nl/agenda/mattias-spee-10359347/"
     },
     {
-      "datum": "2027-04-18",
-      "tijd": "15:00–17:00",
-      "titel": "Soli Deo Gloria: Elias van Felix Mendelssohn",
-      "beschrijving": "Meer informatie volgt! Voor nu zie de site van Soli Deo Gloria https://solideogloria-hoorn.nl/agenda/",
-      "categorie": "Concert",
-      "locatie": "Oosterkerk, Grote Oost 58",
-      "leeftijd": "Onbekend",
-      "prijs": "Onbekend",
-      "interval": "Eenmalig",
-      "laag": "Optreden",
-      "bron": "Oosterkerk",
-      "link": "https://www.oosterkerkhoorn.nl/activiteiten/soli-deo-gloria-elias-van-felix-mendelssohn/"
-    },
-    {
       "datum": "2027-04-21",
       "tijd": "20:30–22:00",
       "titel": "Jan Beuving",
@@ -8951,20 +8406,6 @@
       "laag": "Optreden",
       "bron": "Het Park",
       "link": "https://hetpark.nl/agenda/het-houten-huis-9-10355576/"
-    },
-    {
-      "datum": "2027-04-25",
-      "tijd": "15:00–17:00",
-      "titel": "Kunst in de Kas: art-catwalk",
-      "beschrijving": "De Art Catwalk: een grensverleggend evenement waarbij kunstwerken niet stil aan de muur hangen, maar tot leven komen op de catwalk. Het is de allereerste kunstshow op de rode loper in Nederland, waarbij de schijnwerpers volledig op de makers en hun creaties zijn gericht. Tijdens de Art Catwalk showen kunstenaars hun eigen werk. Gekleed in het zwart betreden zij de rode loper met hun recente creatie. Op het podium kri",
-      "categorie": "Expo",
-      "locatie": "Oosterkerk, Grote Oost 58",
-      "leeftijd": "Onbekend",
-      "prijs": "Onbekend",
-      "interval": "Eenmalig",
-      "laag": "Optreden",
-      "bron": "Oosterkerk",
-      "link": "https://www.oosterkerkhoorn.nl/activiteiten/kunst-in-de-kas-art-catwalk/"
     },
     {
       "datum": "2027-04-25",
@@ -9110,7 +8551,7 @@
       "datum": "2027-05-08",
       "tijd": "21:00",
       "titel": "Joy Division Tribute: Joy Division Undercover",
-      "beschrijving": "Zaterdag 8 mei: Joy Division in Manifesto! 🎸 met 's werelds beste JD tributeband “Joy Division Undercover”. De band bestaat 20 jaar in 2027 en komt naar Hoorn om het te vieren. De kaartverkoop start binnenkort. Zo'n vijftig jaar geleden werd de Britse postpunk band Joy Division opgericht. Wat begon als een obscuur bandje in Salford, Manchester, groeide uit tot een van de meest invloedrijke bands uit de muziekgeschie",
+      "beschrijving": "Zaterdag 8 mei: Joy Division in Manifesto! 🎸 met 's werelds beste JD tributeband “Joy Division Undercover”. De band bestaat 20 jaar in 2027 en komt naar Hoorn om het te vieren. Tickets zijn nu verkrijgbaar: via deze link. Zo'n vijftig jaar geleden werd de Britse postpunk band Joy Division opgericht. Wat begon als een obscuur bandje in Salford, Manchester, groeide uit tot een van de meest invloedrijke bands uit de mu",
       "categorie": "Tribute",
       "locatie": "Manifesto",
       "leeftijd": "Onbekend",
@@ -9777,20 +9218,6 @@
       "laag": "Optreden",
       "bron": "Het Park",
       "link": "https://hetpark.nl/agenda/sarah-janneh-10387092/"
-    },
-    {
-      "datum": "2027-12-17",
-      "tijd": "20:00–22:00",
-      "titel": "Martinus Cantorij: kerstconcert",
-      "beschrijving": "Op het programma van de kerstconcert staan oorstrelende werken, waaronder A Cermony of Carols opus 28 van Benjamin Britten. Met medewerking van de jonge, talentvolle West-Friese harpiste Hedwig Brieffies. De Martinus Cantorij uit Zwaag is een hoogstaand vocaal ensemble dat Anglicaanse kathedraalmuziek vertolkt in de Choral Evensong in diverse kerken in Nederland Het koor bestaat uit dertig gevorderde zangers en zange",
-      "categorie": "Klassiek",
-      "locatie": "Oosterkerk, Grote Oost 58",
-      "leeftijd": "Onbekend",
-      "prijs": "Onbekend",
-      "interval": "Eenmalig",
-      "laag": "Optreden",
-      "bron": "Oosterkerk",
-      "link": "https://www.oosterkerkhoorn.nl/activiteiten/kerst-met-de-martinus-cantorij/"
     },
     {
       "datum": "Onbekend",
