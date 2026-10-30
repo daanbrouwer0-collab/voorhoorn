@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T02:34:38.431Z",
+  "updated": "2026-10-30T14:05:05.690Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -120,6 +120,34 @@
       "label": "Hoornsdagblad",
       "items": [
         {
+          "title": "Twee voetgangers aangereden op de Westerdijk in Hoorn, politie zoekt getuigen",
+          "link": "https://www.hoornsdagblad.nl/112-hoorn/twee-voetgangers-aangereden-op-de-westerdijk-in-hoorn-politie-zoekt-getuigen",
+          "pubDate": "Fri, 30 Oct 2026 14:18:27 +0100",
+          "description": "HOORN - Een auto raakte donderdag 29 oktober rond 20.04 uur twee voetgangers op de Westerdijk in Hoorn, vlakbij het theater. De 72-jarige bestuurder is aangehouden. Heeft u het ongeval gezien? Neem contact op met de politie.OngevalDe verdachte reed vanuit de richting van het centrum van Hoorn over [...]",
+          "categories": []
+        },
+        {
+          "title": "Bes Klein Ensemble brengt muzikale ode aan de liefde in Hoorn",
+          "link": "https://www.hoornsdagblad.nl/uitgaan/bes-klein-ensemble-brengt-muzikale-ode-aan-de-liefde-in-hoorn",
+          "pubDate": "Fri, 30 Oct 2026 13:46:41 +0100",
+          "description": "HOORN - Op zondag 22 november 2026 brengt Bes Klein Ensemble het concertprogramma Amor, ferisci pur naar de Oosterkerk in Hoorn. Vanaf 15.00 uur verkent het achtkoppige zangensemble de vele gezichten van de liefde binnen de concertserie van Oude Muziek Nu. Van de vreugde van een ontmoeting tot het [...]",
+          "categories": []
+        },
+        {
+          "title": "Ariena Zoutberg, Hester Vos en Nicole de Pierre zetten zich in als Klimaatburgemeester in gemeente Hoorn",
+          "link": "https://www.hoornsdagblad.nl/regio/ariena-zoutberg-hester-vos-en-nicole-de-pierre-zetten-zich-in-als-klimaatburgemeester-in-gemeente-hoorn",
+          "pubDate": "Fri, 30 Oct 2026 12:11:31 +0100",
+          "description": "HOORN - Maandag 2 november start de Klimaatweek en in gemeente Hoorn zetten Klimaatburgemeesters Ariena Zoutberg, Hester Vos (59) en Nicole de Pierre zich in om anderen te inspireren voor een beter klimaat. Samen met andere Klimaatburgemeesters door het hele land laten zij zien hoe groot de kracht [...]",
+          "categories": []
+        },
+        {
+          "title": "Verenigingen halen miljoenen op met Grote Clubactie: behoefte aan extra inkomsten groeit",
+          "link": "https://www.hoornsdagblad.nl/regio/verenigingen-halen-miljoenen-op-met-grote-clubactie-behoefte-aan-extra-inkomsten-groeit",
+          "pubDate": "Fri, 30 Oct 2026 11:02:36 +0100",
+          "description": "HOORN - De Grote Clubactie heeft in 2026 opnieuw een recordbedrag opgehaald: €27.298.587,-. Dit jaar deden 6.990 verenigingen mee aan de landelijke lotenactie. Niet alleen de opbrengst, maar ook het aantal deelnemende verenigingen groeit. In de gemeente Hoorn werd een bedrag van €93.896,10 [...]",
+          "categories": []
+        },
+        {
           "title": "Twee zwaargewonden na aanrijding met auto op dijk in Hoorn",
           "link": "https://www.hoornsdagblad.nl/112-hoorn/twee-zwaargewonden-na-aanrijding-met-auto-op-dijk-in-hoorn",
           "pubDate": "Thu, 29 Oct 2026 21:13:11 +0100",
@@ -131,6 +159,13 @@
           "link": "https://www.hoornsdagblad.nl/algemeen/springpaard-kopen-hier-let-je-op",
           "pubDate": "Thu, 29 Oct 2026 18:38:23 +0100",
           "description": "Een springpaard kopen is voor veel ruiters een droom en tegelijk een flinke stap. Het gaat om veel geld, en een verkeerde keuze kan jaren plezier kosten. Wat zijn de belangrijkste dingen om op te letten? Begin bij jezelf De meest gemaakte fout is een paard kopen dat niet bij de ruiter past. Een [...]",
+          "categories": []
+        },
+        {
+          "title": "5 originele activiteiten voor de kerstborrel",
+          "link": "https://www.hoornsdagblad.nl/dagje-weg/l5-originele-activiteiten-voor-de-kerstborrel",
+          "pubDate": "Thu, 29 Oct 2026 17:51:25 +0100",
+          "description": "De feestdagen komen eraan! Tijd om samen het jaar op een leuke manier af te sluiten. Maar hoe maak je van de jaarlijkse kerstborrel iets waar iedereen echt aan meedoet? Van een complete tv-spelshow op kantoor tot een spannend kerstspel in de stad: met deze vijf activiteiten wordt jullie kerstborrel [...]",
           "categories": []
         },
         {
@@ -222,41 +257,6 @@
           "link": "https://www.hoornsdagblad.nl/regio/korting-op-de-bus-voor-inwoners-met-laag-inkomen",
           "pubDate": "Wed, 28 Oct 2026 13:50:23 +0100",
           "description": "De provincie Noord-Holland biedt gemeenten 2 mogelijkheden voor korting op het busvervoer voor inwoners met een laag inkomen. Vervoerder Connexxion/Transdev ontwikkelde deze kortingsproducten in opdracht van de provincie. Gemeenten bepalen zelf of zij hiervan gebruikmaken, voor welke inwoners de [...]",
-          "categories": []
-        },
-        {
-          "title": "Mishandeling en bedreiging in Berkhout",
-          "link": "https://www.hoornsdagblad.nl/112-hoorn/mishandeling-en-bedreiging-in-berkhout",
-          "pubDate": "Wed, 28 Oct 2026 12:57:48 +0100",
-          "description": "BERKHOUT - Meerdere personen mishandelden twee slachtoffers op de Berkenlaan in Berkhout. Dit gebeurde maandagavond 26 oktober rond 22.55 uur. Beide slachtoffers kregen klappen en zijn bedreigd met messen en een vuurwapengelijkend voorwerp. Eén van de slachtoffers is meerdere keren geslagen met een [...]",
-          "categories": []
-        },
-        {
-          "title": "The Masked Music Bingo, een fantastische avond vol entertainment en hilariteit in Hoorn",
-          "link": "https://www.hoornsdagblad.nl/uitgaan/the-masked-music-bingo-een-fantastische-avond-vol-entertainment-en-hilariteit-in-hoorn",
-          "pubDate": "Wed, 28 Oct 2026 11:21:16 +0100",
-          "description": "HOORN - Ben jij klaar voor een avond vol spanning en entertainment, fantastische merkprijzen en hilarische gezelligheid? Dan mag je The Masked Music Bingo van Lucky Star Events niet missen!Dit kun je verwachten:– De allerleukste The Masked Music Bingo– Masked Drag Queen's– Luxe Mystery Prijzen– Een [...]",
-          "categories": []
-        },
-        {
-          "title": "Hulp bij autisme of ADHD? In Noord-Holland tot bijna 34 weken wachttijd voor GGZ-behandeling",
-          "link": "https://www.hoornsdagblad.nl/zorg-en-gezondheid/hulp-bij-autisme-of-adhd-in-noord-holland-tot-bijna-34-weken-wachttijd-voor-ggz-behandeling",
-          "pubDate": "Wed, 28 Oct 2026 10:56:57 +0100",
-          "description": "De wachttijden in de GGZ lopen op, ook in Noord-Holland. Vooral mensen met autisme, ADHD en andere neurobiologische ontwikkelingsproblemen moeten veel geduld hebben voordat ze met een behandeling kunnen beginnen. Binnen de provincie kan de wachttijd zelfs oplopen tot 33,5 weken, blijkt uit [...]",
-          "categories": []
-        },
-        {
-          "title": "Overheid erkent: jagers kunnen grotere rol spelen bij bestrijding invasieve exoten",
-          "link": "https://www.hoornsdagblad.nl/algemeen/overheid-erkent-jagers-kunnen-grotere-rol-spelen-bij-bestrijding-invasieve-exoten",
-          "pubDate": "Wed, 28 Oct 2026 10:01:57 +0100",
-          "description": "NEDERLAND - Jagers kunnen een grotere rol spelen bij het beschermen van de Nederlandse natuur tegen invasieve exoten. Dat erkent de overheid expliciet in een nieuwe regeling die op 27 oktober in de Staatscourant is gepubliceerd. Volgens de overheid zijn jagers bereid zich vrijwillig in te zetten [...]",
-          "categories": []
-        },
-        {
-          "title": "Bloemisten in Hoorn",
-          "link": "https://www.hoornsdagblad.nl/shopping/bloemisten-in-hoorn",
-          "pubDate": "Wed, 28 Oct 2026 08:00:00 +0100",
-          "description": "Een goede bloemist is meer dan een winkel met bloemen, het is de plek waar je met een goed gevoel weer naar buiten loopt, of je nu een spontaan boeket haalt of bloemwerk bestelt voor een bijzondere gelegenheid. Hoorn telt meerdere bloemisten die opvallen door vakmanschap, versheid en persoonlijke [...]",
           "categories": []
         }
       ]
@@ -411,6 +411,24 @@
       "id": "rodi",
       "label": "Rodi Hoorn",
       "items": [
+        {
+          "title": "Vrijwilligers gezocht om jonge bomen te redden in Hoorn",
+          "link": "https://www.rodi.nl/hoorn/nieuws/510841/vrijwilligers-gezocht-om-jonge-bomen-te-redden-in-hoorn",
+          "pubDate": "Fri, 30 Oct 2026 13:32:52 Z",
+          "description": "HOORN - Meer Bomen Nu en Grootouders voor het Klimaat starten zaterdag 14 november in park Risdammerhout het oogstseizoen in Hoorn. Inwoners worden uitgenodigd om te helpen bij het uitgraven van jonge bomen en struiken die anders weinig kans hebben om te groeien.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Coronaprik halen? Vrije inloop van 14.00 tot 16.00 uur",
+          "link": "https://www.rodi.nl/hoorn/nieuws/510330/coronaprik-halen-vrije-inloop-van-14-00-tot-16-00-uur",
+          "pubDate": "Fri, 30 Oct 2026 11:05:00 Z",
+          "description": "REGIO - De herfst is in volle gang. We zitten vaker binnen en de feestdagen komen eraan. Een mooi moment om te kijken of je in aanmerking komt voor de coronaprik. Met 18 locaties in onze regio kun je altijd dichtbij terecht.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
         {
           "title": "Twee voetgangers zwaargewond na aanrijding met auto op de Westerdijk in Hoorn, bestuurder onder invloed aangehouden",
           "link": "https://www.rodi.nl/hoorn/112-nieuws/510802/twee-voetgangers-zwaargewond-na-aanrijding-met-auto-op-de-westerdijk-in-hoorn-bestuurder-onder-invloed-aangehouden-u",
@@ -617,24 +635,6 @@
           "categories": [
             "Gemeentenieuws"
           ]
-        },
-        {
-          "title": "Dorpenoverleg Blokker Zwaag: streekomroep en Stichting Leergeld stellen zich voor",
-          "link": "https://www.rodi.nl/hoorn/nieuws/510336/dorpenoverleg-blokker-zwaag-streekomroep-en-stichting-leergeld-stellen-zich-voor",
-          "pubDate": "Mon, 26 Oct 2026 18:15:44 Z",
-          "description": "ZWAAG - Streekomroep West-Friesland en Stichting Leergeld presenteren zich dinsdagavond 27 oktober tijdens het Dorpenoverleg Blokker Zwaag. De avond vindt plaats in De Witte Valk aan de Dorpsstraat 175 in Zwaag.",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "Klimaatweek in Hoorn: gratis advies over zonnepanelen en thuisbatterijen",
-          "link": "https://www.rodi.nl/hoorn/gemeentenieuws/510285/klimaatweek-in-hoorn-gratis-advies-over-zonnepanelen-en-thuisbatterijen",
-          "pubDate": "Mon, 26 Oct 2026 13:57:53 Z",
-          "description": "HOORN - Ruim twintig partners organiseren van 2 tot en met 8 november activiteiten in Hoorn tijdens de Klimaatweek. Inwoners doen advies en inspiratie op over het verduurzamen en vergroenen van hun leefomgeving, onder meer via gratis energieadvies.",
-          "categories": [
-            "Gemeentenieuws"
-          ]
         }
       ]
     },
@@ -642,6 +642,42 @@
       "id": "streekomroep",
       "label": "Streekomroep",
       "items": [
+        {
+          "title": "Landboot Wijdenes kan tóch ingezet worden bij intocht Sinterklaas",
+          "link": "https://www.streekomroepwestfriesland.nl/landboot-wijdenes-kan-toch-ingezet-worden-bij-intocht-sinterklaas/",
+          "pubDate": "Fri, 30 Oct 2026 10:58:00 +0000",
+          "description": "Grote opluchting bij Sinterklaas, zijn Pieten en het Sinterklaascomité van Wijdenes: de Landboot kan dit jaar toch ingezet worden bij de intocht om de goedheiligman door het dorp te vervoeren. De gemeente Drechterland heeft een ontheffing verleend, en onderzoekt of het ook voor de komende jaren mogelijk is. Bij de intocht van Wijdenes arriveren Sinterklaas en zijn Pieten met een reddingboot in de haven, om vervolgens op de Landboot te stappen voor de verdere tocht door het dorp. Maar over deze Landboot ontstond vorig jaar onzekerheid . De gemeente Drechterland had namelijk aangegeven voor dit jaar géén nieuwe ontheffing te verlenen, waardoor alternatieven gezocht moesten worden. Voor het voe",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
+        {
+          "title": "Busje boort gat in muur van pand in Hoogkarspel",
+          "link": "https://www.streekomroepwestfriesland.nl/busje-boort-gat-in-muur-van-pand-in-hoogkarspel-2/",
+          "pubDate": "Fri, 30 Oct 2026 07:18:37 +0000",
+          "description": "Een bestelbus is vanochtend hard tot stilstand gekomen tegen de gevel van een pand aan de Oosterwijzend in Hoogkarspel. Niemand raakte gewond. De politie kreeg vrijdagochtend rond 6.40 uur een melding van een busje dat tegen een gevel aan was geklapt. De bus heeft aanzienlijke schade veroorzaakt aan de muur van het gebouw. Ook de bus zelf is behoorlijk toegetakeld. Lichte verwondingen Door de airbag in de bus liep de bestuurder van het busje lichte verwondingen op, maar hoefde niet mee naar het ziekenhuis. Vanochtend was het overal in de provincie erg mistig op de weg. Of het slechte zicht een rol heeft gespeeld bij het verkeersongeluk, is nog onduidelijk. The post Busje boort gat in muur va",
+          "categories": [
+            "112"
+          ]
+        },
+        {
+          "title": "Gewonden na ernstige aanrijding in Hoorn, automobilist (72) mogelijk onder invloed",
+          "link": "https://www.streekomroepwestfriesland.nl/gewonden-na-ernstige-aanrijding-in-hoorn-automobilist-72-mogelijk-onder-invloed/",
+          "pubDate": "Thu, 29 Oct 2026 20:25:00 +0000",
+          "description": "Bij een ernstige aanrijding op de Westerdijk in Hoorn zijn vanavond twee mensen gewond geraakt. De bestuurder, die mogelijk onder invloed was, is aangehouden. Het zware ongeluk gebeurde iets na 20.00 uur. De betrokken auto raakte na de aanrijding flink beschadigd. De automobilist is een 72-jarige man uit Amsterdam. Hij is aangehouden op verdenking van het veroorzaken van een ongeval met ernstig letsel en rijden onder invloed van alcohol. De politie doet onderzoek naar het ongeval. De Westerdijk is voorlopig aan beide kanten afgesloten voor verkeer. The post Gewonden na ernstige aanrijding in Hoorn, automobilist (72) mogelijk onder invloed appeared first on Streekomroep West-Friesland .",
+          "categories": [
+            "112"
+          ]
+        },
+        {
+          "title": "Enkhuizen komt in actie voor door brand getroffen gezin: \"Normaal geven wij juist\"",
+          "link": "https://www.streekomroepwestfriesland.nl/enkhuizen-komt-in-actie-voor-door-brand-getroffen-gezin-normaal-geven-wij-juist/",
+          "pubDate": "Thu, 29 Oct 2026 16:04:00 +0000",
+          "description": "Met de Stichting Kalyani zetten Richard en Ramona van Ark uit Enkhuizen zich al 15 jaar in voor kinderen uit Sri Lanka. Na een woningbrand van afgelopen dinsdag, ontvangen ze juist zijzelf veel steun. Verschillende Enkhuizers komen in actie voor het gezin. Het zijn drukke en vooral onwerkelijke dagen voor Richard van Ark en zijn gezin. Dinsdag werden ze getroffen door een felle woningbrand , die hun huis onbewoonbaar maakte. Meer dan de kleding die ze op dat moment aan hadden, hebben ze niet, met uitzondering van portemonnee en mobiele telefoon. Donderdagmiddag is Richard even thuis, met zoon Ethon. Hij neemt de telefoon van zijn oudste zoon mee, die door de brand flink is aangedaan. \"Missch",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
         {
           "title": "In gesprek met: Hoornse wethouder René Assendelft",
           "link": "https://www.streekomroepwestfriesland.nl/in-gesprek-met-hoornse-wethouder-rene-assendelft/",
@@ -695,43 +731,6 @@
           "description": "Aan de Kruislaan in Enkhuizen heeft aan het einde van de middag een felle brand gewoed in een woning. Er zijn geen gewonden gevallen. De brand was volgens een woordvoerder rond 18.00 uur onder controle. De brand ontstond rond 17.00 uur, vermoedelijk op de eerste verdieping. De vlammen sloegen uit de woning. Zowel woning als de naastliggende woningen zijn ontruimd. Omdat het in de straat om oude huizen gaat, is er flink opgeschaald door de hulpdiensten. Een woordvoerder van de veiligheidsregio laat weten dat de brand inmiddels 'bijna onder controle' is. Omwonenden wordt geadviseerd om ramen en deuren te sluiten bij rookoverlast. Over de oorzaak van de brand is niets bekend. The post Felle won",
           "categories": [
             "112"
-          ]
-        },
-        {
-          "title": "Primeur in Spierdijk: Robot metselt sociale huurwoningen",
-          "link": "https://www.streekomroepwestfriesland.nl/primeur-in-spierdijk-robot-metselt-sociale-huurwoningen/",
-          "pubDate": "Tue, 27 Oct 2026 15:25:33 +0000",
-          "description": "Een robot met twee mechanische armen die zelfstandig specie smeert en stenen op de muur plaatst: op de bouwplaats van nieuwbouwwijk Spierland in Spierdijk is het een opmerkelijk gezicht. Scholtens Bouw zet daar voor het eerst in West-Friesland zelfsturende metselrobots in bij de bouw van acht sociale huurwoningen. Het gaat om een proef om te kijken hoe de technologie in de praktijk bevalt, maar het roept direct de vraag op: verdwijnt de traditionele metselaar binnenkort van de bouwplaats? Geheel onervaren is de robot niet. Landelijk zijn er al zo'n honderd woningen mee gebouwd, waaronder een project van 150.000 stenen in Groningen. Om een gevel op te trekken, worden bouwtekeningen omgezet in",
-          "categories": [
-            "Technologie & wetenschap",
-            "Verkeer & wonen"
-          ]
-        },
-        {
-          "title": "Gedupeerden brand Lambertschaag moeten illegale woning uit: \"Op straat gezet\"",
-          "link": "https://www.streekomroepwestfriesland.nl/gedupeerden-brand-lambertschaag-moeten-illegale-woning-uit-op-straat-gezet/",
-          "pubDate": "Tue, 27 Oct 2026 11:25:00 +0000",
-          "description": "Siemen Mol en Carolien Haakman moeten plotseling op zoek naar een ander huis, nu het huidige onderkomen door de gemeente Medemblik als illegaal is bestempeld. Hun stacaravan staat op het terrein in Lambertschaag waar ruim een maand geleden een drugslab werd ontdekt bij een grote brand. \"Je wordt gewoon op straat gezet.\" Foto: NH Media / Michiel Baas / NH Nieuws De brand en de vondst van een drugslab hebben grote impact. Buurtbewoners zitten met veel materiële schade, er zijn gezondheidsklachten , de sloot rondom het terrein moet worden leeggezogen . Alleen die laatste actie kost naar verwachting al 'enkele tonnen', liet Medemblik burgemeester Michiel Pijl vorige week weten. Eerder was de san",
-          "categories": [
-            "112"
-          ]
-        },
-        {
-          "title": "Help het Westfries Museum: adopteer een steunbalk",
-          "link": "https://www.streekomroepwestfriesland.nl/help-het-westfries-museum-adopteer-een-steunbalk/",
-          "pubDate": "Tue, 27 Oct 2026 06:33:00 +0000",
-          "description": "Tijdens de restauratie van het Westfries Museum zijn onverwachte problemen naar voren gekomen. Veel meer houten steunbalken moeten worden vervangen dan van te voren was voorzien. Voor het noodzakelijke herstel van de 96 balken is het museum op zoek naar sponsors. Voor €2.500 kunnen particulieren en bedrijven een balk adopteren . Met het voorjaar van 2027 als streefdatum worden op verschillende plekken in het museumgebouw 96 houten steunbalken vervangen. Verzakkingen en achterstalling onderhoud hebben gezorgd voor scheuren en aangetaste houtconstructies. \"Hoewel deze balken voor bezoekers straks grotendeels onzichtbaar zijn, zijn ze onmisbaar voor het behoud van het monument\", vertelt Amanda ",
-          "categories": [
-            "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Recordopbrengst Dorpsveiling Benningbroek-Sijbekarspel: \"Bijzonder dat kleine gemeenschap dit ophaalt\"",
-          "link": "https://www.streekomroepwestfriesland.nl/recordopbrengst-dorpsveiling-benningbroek-sijbekarspel-bijzonder-dat-kleine-gemeenschap-dit-ophaalt/",
-          "pubDate": "Mon, 26 Oct 2026 15:57:00 +0000",
-          "description": "Het was de laatste Dorpsveiling Benningbroek Sijbekarspel als voorzitter voor Claus Ursem. En met een knal eindigde zijn voorzitterschap afgelopen zaterdag. Met een recordopbrengst van 96.350 euro liep de teller met bijna 35.000 euro over de opbrengst van twee jaar geleden. \"Het geeft echt aan hoe groot de samenhorigheid in deze kern is\" vertelt Claus. Het zijn opvallende evenementen, de gemeenschapsveilingen in West-Friesland. Dorpen en kleine kernen veilen een avond lang allerlei kavels, van kaartjes voor concerten, tot skybox tickets voor AZ en een klaverjaspakket. Met de opbrengst worden verenigingen en clubs in die kern geholpen. De veiling in Benningbroek en Sijbekarspel is ooit begonn",
-          "categories": [
-            "Kunst & cultuur"
           ]
         }
       ]
