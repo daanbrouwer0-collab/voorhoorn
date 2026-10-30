@@ -1340,12 +1340,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const catalog = document.getElementById("iconCatalog");
         const icons = window.VoorhoornIcons;
         if (!catalog || !icons || catalog.childElementCount) return;
-        const tints = ["", "is-vue", "is-park", "is-netwerk"];
         catalog.innerHTML = icons.list.map((icon) => `
             <article class="icon-card">
-                <div class="icon-card-swatches">
-                    ${tints.map((tint) => `<span class="agenda-date-chip${tint ? ` ${tint}` : ""}">${icons.svg(icon.id)}</span>`).join("")}
-                </div>
+                <span class="agenda-date-chip">${icons.svg(icon.id)}</span>
                 <span class="icon-card-name">${icon.label}</span>
             </article>
         `).join("");

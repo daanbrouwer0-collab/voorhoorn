@@ -317,20 +317,6 @@ body {
     box-shadow: inset 0 0 0 1px rgba(251, 113, 133, 0.55);
 }
 
-.agenda-date-chip.is-vue {
-    background: rgba(225, 29, 72, 0.22);
-    color: #fecdd3;
-}
-
-.agenda-date-chip.is-park {
-    background: rgba(245, 158, 11, 0.22);
-    color: #fde68a;
-}
-
-.agenda-date-chip.is-netwerk {
-    background: rgba(45, 212, 191, 0.18);
-    color: #99f6e4;
-}
 
 .agenda-custom-row,
 .agenda-age {

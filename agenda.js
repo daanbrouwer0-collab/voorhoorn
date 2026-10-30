@@ -75,12 +75,62 @@ function inSelectedDateRange(isoDate) {
   return eventDate >= startOfDay(new Date());
 }
 
-function sourceTint(event) {
-  const bron = `${event.bron || ""} ${event.sourceLabel || ""}`;
-  if (/vue/i.test(bron)) return "vue";
-  if (/het park/i.test(bron)) return "park";
-  if (/netwerk/i.test(bron)) return "netwerk";
-  return "";
+const PLACE_ORDER = [
+  "Bockxmeerschool",
+  "Bibliotheek Centrum",
+  "Van der Valk Hotel",
+  "Wijkcentrum Kersenboogerd",
+  "Schouwburg Het Park",
+  "Bibliotheek",
+  "Sportzaal Teun Blokker",
+  "Raadzaal",
+  "Hoornse binnenstad",
+  "Wijkcentrum De Grote Waal",
+  "Wielerbaan",
+  "De Kade",
+  "Manifesto",
+  "Wijkcentrum De Cogge",
+  "Bibliotheek Risdam",
+  "Cinema Oostereiland",
+  "Mariaschool",
+  "De Nadorst",
+  "Vue Hoorn",
+  "De Witte Valk",
+  "Wijkcentrum De Zaagtand",
+  "Huisverloren",
+  "Muziekcafé SWAF",
+  "Diverse locaties",
+  "Het Octaaf",
+  "Oosterkerk",
+  "Het Pakhuis",
+  "Hotel Maria Kapel",
+  "Café De Volendammer",
+  "Museumstoomtram",
+  "Bibliotheek Kersenboogerd",
+  "De Kreek",
+  "Backstage",
+  "Wijkcentrum De Huesmolen",
+];
+
+function placeName(event) {
+  const name = String(event.locatie || "").split(",")[0].trim();
+  return name && !/^onbekend$/i.test(name) ? name : "";
+}
+
+function placeHue(name) {
+  const index = PLACE_ORDER.findIndex((place) => place.toLowerCase() === name.toLowerCase());
+  const step = 360 / PLACE_ORDER.length;
+  if (index >= 0) return Math.round(index * step);
+  let hash = 2166136261;
+  for (const char of name.toLowerCase()) hash = Math.imul(hash ^ char.charCodeAt(0), 16777619) >>> 0;
+  return Math.round((hash % PLACE_ORDER.length) * step + step / 2) % 360;
+}
+
+function placeStyle(event) {
+  const name = placeName(event);
+  if (!name) return "";
+  const hue = placeHue(name);
+  return ` style="background:hsl(${hue} 70% 50% / 0.22);color:hsl(${hue} 85% 82%)"`;
 }
 
 const AGENDA_ICONS = {
@@ -571,8 +621,7 @@ function renderAgendaList() {
         : "";
       const upcoming = Array.isArray(event.komende) && event.komende.length > 1 ? event.komende.join(", ") : "";
       const dateParts = formatAgendaDateParts(eventDate(event));
-      const tint = sourceTint(event);
-      const dateChip = `<span class="agenda-date-chip${tint ? ` is-${tint}` : ""}" aria-hidden="true">${agendaIconSvg(agendaIconName(event))}</span>`;
+      const dateChip = `<span class="agenda-date-chip"${placeStyle(event)} aria-hidden="true">${agendaIconSvg(agendaIconName(event))}</span>`;
       const toggleLabel = dateParts ? `${dateParts.label}: ${title}` : title;
       const sourceLabel = event.bron || event.sourceLabel || "";
       const link = event.link && event.link !== "Onbekend" ? event.link : "";
