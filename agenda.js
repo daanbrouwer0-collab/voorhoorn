@@ -14,7 +14,7 @@ const AGENDA_DATE_LABELS = {
 
 const PRESETS = {
   alles: "Alles",
-  "muziek-geen-club": "Muziek, geen club",
+  concert: "Concert",
   optreden: "Alleen optreden",
   film: "Film",
   kids: "Kids",
@@ -211,6 +211,28 @@ function isMusicEvent(event) {
   return /^(jazz|pop|rock|klassiek|blues|house|tribute|jam|muziek)$/i.test(event.categorie || "") || MUSIC_RE.test(`${event.titel || event.title || ""} ${event.beschrijving || ""} ${event.categorie || ""}`);
 }
 
+function isConcertEvent(event) {
+  const title = `${event.titel || event.title || ""}`;
+  const text = `${title} ${event.beschrijving || event.description || ""}`;
+  const where = `${event.locatie || ""} ${event.bron || ""}`;
+  if (isFilmEvent(event)) return false;
+  if (/\b(quiz|pubquiz|quiznight)\b/i.test(title)) return false;
+  if (/\b(costume party|spookhuis|haunted house|kerstmarkt|boekenmarkt|art-catwalk|yoga)\b/i.test(title)) return false;
+  if (/\b(club festo|be yourself|dansfeest|dinnershow)\b/i.test(title)) return false;
+  if (/\b(comedy|cabaret|stand-?up)\b/i.test(title) && !/concert/i.test(title)) return false;
+  if (/^comedy$/i.test(event.categorie || "") && !/concert/i.test(text)) return false;
+  if (/\bparty\b/i.test(title) && !/\b(band|optreden|concert|live|dj)\b/i.test(text)) return false;
+  if (/^dans$/i.test(event.categorie || "") && !/concert/i.test(title)) return false;
+  if (/netwerk/i.test(event.bron || "") && /^(wekelijks|maandelijks)$/i.test(event.interval || "") && !/concert/i.test(title)) return false;
+  if (/^(jazz|rock|blues|tribute|jam|klassiek)$/i.test(event.categorie || "")) return true;
+  if (/concert|optreden|tribute|\borkest\b|\bensemble\b|\bcantorij\b|kamermuziek|\bklassiek\b|classical|\bbarok\b|\borgel\b|line-?up|\bgitarist\b|\bzanger\b|\bband\b|\bpunk\b|\bmetal\b|\breggae\b|\bhip-?hop\b|unplugged|singer-songwriter/i.test(text)) return true;
+  if (/\blive\b/i.test(text) && /\bmuziek\b/i.test(text)) return true;
+  if (/\bpopronde\b/i.test(`${where} ${title}`)) return true;
+  if (/\b(swaf|backstage|beiaard)\b/i.test(where)) return true;
+  if (/\boosterkerk\b/i.test(where) && !/\b(markt|party|boekenmarkt|catwalk)\b/i.test(title)) return true;
+  return false;
+}
+
 function matchesTime(event) {
   if (!agendaFilters.time) return true;
   const iso = eventDate(event);
@@ -249,7 +271,7 @@ function isFreeEvent(event) {
 }
 
 function isOverigEvent(event) {
-  return !isFilmEvent(event) && !isClubEvent(event) && !isMusicEvent(event) && !isOptredenEvent(event);
+  return !isFilmEvent(event) && !isClubEvent(event) && !isMusicEvent(event) && !isOptredenEvent(event) && !isConcertEvent(event);
 }
 
 function kindHit(event, chip) {
@@ -263,7 +285,7 @@ function kindHit(event, chip) {
 
 function matchesChips(event) {
   const preset = agendaFilters.preset;
-  if (preset === "muziek-geen-club") return isMusicEvent(event) && !isClubEvent(event);
+  if (preset === "concert") return isConcertEvent(event);
   if (preset === "optreden") return isOptredenEvent(event);
   if (preset === "film") return isFilmEvent(event);
   if (preset === "kids") return isKidsEvent(event);
