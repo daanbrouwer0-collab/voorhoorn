@@ -1085,6 +1085,16 @@ body {
     text-align: center;
 }
 
+.logo-home {
+    display: inline-block;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+}
+
 .site-logo .word-wrapper {
     display: inline-flex;
     align-items: baseline;

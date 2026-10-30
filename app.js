@@ -1714,6 +1714,10 @@ document.addEventListener('DOMContentLoaded', () => {
             setView(btn.dataset.menu);
         });
     });
+    document.getElementById("siteLogo")?.addEventListener("click", () => {
+        setMenuOpen(false);
+        setView("nieuws");
+    });
     document.addEventListener("click", (event) => {
         if (event.target.closest(".site-menu")) return;
         setMenuOpen(false);
