@@ -1,11 +1,6 @@
 {
-  "updated": "2026-10-31T13:37:05.155Z",
+  "updated": "2026-10-31T19:15:26.605Z",
   "failedSources": [
-    {
-      "id": "rodi",
-      "label": "Rodi Hoorn",
-      "error": "The operation was aborted due to timeout"
-    },
     {
       "id": "hoornactueel",
       "label": "HoornActueel",
@@ -413,9 +408,249 @@
       ]
     },
     {
+      "id": "rodi",
+      "label": "Rodi Hoorn",
+      "items": [
+        {
+          "title": "Parkeergarage Hoorn: 500 plekken te weinig, vindt Sociaal Hoorn/Team Tonnaer",
+          "link": "https://www.rodi.nl/hoorn/politiek/510868/parkeergarage-hoorn-500-plekken-te-weinig-vindt-sociaal-hoorn-team-tonnaer",
+          "pubDate": "Fri, 30 Oct 2026 15:50:35 Z",
+          "description": "HOORN - Sociaal Hoorn/Team Tonnaer heeft kritische vragen aan het college gesteld over de geplande bovengrondse parkeergarage aan de noordzijde van station Hoorn. Raadslid Roger Tonnaer vraagt onder meer aandacht voor het aantal parkeerplaatsen, de locatie en het ontwerp van de garage.",
+          "categories": [
+            "Politiek"
+          ]
+        },
+        {
+          "title": "Vrijwilligers gezocht om jonge bomen te redden in Hoorn",
+          "link": "https://www.rodi.nl/hoorn/nieuws/510841/vrijwilligers-gezocht-om-jonge-bomen-te-redden-in-hoorn",
+          "pubDate": "Fri, 30 Oct 2026 13:32:52 Z",
+          "description": "HOORN - Meer Bomen Nu en Grootouders voor het Klimaat starten zaterdag 14 november in park Risdammerhout het oogstseizoen in Hoorn. Inwoners worden uitgenodigd om te helpen bij het uitgraven van jonge bomen en struiken die anders weinig kans hebben om te groeien.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Coronaprik halen? Vrije inloop van 14.00 tot 16.00 uur",
+          "link": "https://www.rodi.nl/hoorn/nieuws/510330/coronaprik-halen-vrije-inloop-van-14-00-tot-16-00-uur",
+          "pubDate": "Fri, 30 Oct 2026 11:05:00 Z",
+          "description": "REGIO - De herfst is in volle gang. We zitten vaker binnen en de feestdagen komen eraan. Een mooi moment om te kijken of je in aanmerking komt voor de coronaprik. Met 18 locaties in onze regio kun je altijd dichtbij terecht.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Twee voetgangers zwaargewond na aanrijding met auto op de Westerdijk in Hoorn, bestuurder onder invloed aangehouden",
+          "link": "https://www.rodi.nl/hoorn/112-nieuws/510802/twee-voetgangers-zwaargewond-na-aanrijding-met-auto-op-de-westerdijk-in-hoorn-bestuurder-onder-invloed-aangehouden-u",
+          "pubDate": "Thu, 29 Oct 2026 21:12:59 Z",
+          "description": "HOORN - Bij een verkeersongeval op de Westerdijk in Hoorn zijn donderdagavond twee voetgangers gewond geraakt. De bestuurder van de auto, een 72-jarige Amsterdammer, is aangehouden. Hij wordt verdacht van betrokkenheid bij een ongeval met letsel en rijden onder invloed van alcohol.",
+          "categories": [
+            "112-nieuws"
+          ]
+        },
+        {
+          "title": "Hart van Hoorn wil werkelijk autobezit zwaarder laten wegen bij parkeerbeleid",
+          "link": "https://www.rodi.nl/hoorn/politiek/510800/hart-van-hoorn-wil-werkelijk-autobezit-zwaarder-laten-wegen-bij-parkeerbeleid",
+          "pubDate": "Thu, 29 Oct 2026 20:37:55 Z",
+          "description": "HOORN - Hart van Hoorn wil dat de gemeente Hoorn bij het parkeerbeleid meer rekening houdt met het daadwerkelijke autobezit en de parkeerbehoefte in wijken. De fractie heeft hierover zeven schriftelijke vragen gesteld aan het college.",
+          "categories": [
+            "Politiek"
+          ]
+        },
+        {
+          "title": "Burgemeester sluit woning in Hoorn voor drie maanden na vondst van drugs en wapens",
+          "link": "https://www.rodi.nl/hoorn/112-nieuws/510782/burgemeester-sluit-woning-in-hoorn-voor-drie-maanden-na-vondst-van-drugs-en-wapens",
+          "pubDate": "Thu, 29 Oct 2026 16:17:51 Z",
+          "description": "HOORN - Burgemeester Jan Nieuwenburg heeft donderdagmiddag een woning aan de Rondeelstraat in Hoorn voor drie maanden laten sluiten. Aanleiding voor de maatregel is de vondst van verdovende middelen, wapens en spullen die gebruikt kunnen worden voor de verwerking van drugs.",
+          "categories": [
+            "112-nieuws"
+          ]
+        },
+        {
+          "title": "Miljonair van 20 kilo staat in Museum van de 20e Eeuw in Hoorn",
+          "link": "https://www.rodi.nl/hoorn/nieuws/510744/miljonair-van-20-kilo-staat-in-museum-van-de-20e-eeuw-in-hoorn",
+          "pubDate": "Thu, 29 Oct 2026 15:01:17 Z",
+          "description": "HOORN - Het Museum van de 20e Eeuw in Hoorn heeft een bijzondere nieuwe aanwinst: een rekenmachine van 20 kilo met de naam The Millionaire Calculator. Een schenker gaf de machine onlangs aan het museum.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "De krant van deze week staat online",
+          "link": "https://www.rodi.nl/hoorn/nieuws/510661/de-krant-van-deze-week-staat-online-vz56c3",
+          "pubDate": "Thu, 29 Oct 2026 09:54:13 Z",
+          "description": "HOORN - De nieuwste editie van het Nieuwsblad Hoorn staat nu online op de website.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Jouw halloweenweekend in Hoorn: dit is er te doen! (30 oktober tot 1 november)",
+          "link": "https://www.rodi.nl/hoorn/uit/510251/jouw-halloweenweekend-in-hoorn-dit-is-er-te-doen-30-oktober-tot-1-november-",
+          "pubDate": "Wed, 28 Oct 2026 21:43:00 Z",
+          "description": "HOORN - Ook dit weekend, van vrijdag 30 oktober tot en met zondag 1 november, is er weer genoeg te doen in Hoorn. Van inspirerende fietsfilms op het grote doek en een optreden vol hits van Tom Jones tot een boekenmarkt in de Koepelkerk en een jubileumconcert van het Hoorns Kamerkoor: er staat van alles op het programma. Ook kun je met het gezin het ijs op of inspiratie opdoen voor je bruiloft. Dit is er dit weekend te doen in Hoorn.",
+          "categories": [
+            "Uit"
+          ]
+        },
+        {
+          "title": "Hoorn Zingt Hollands pakt groots uit met tweedaags Paasfestival in 2027",
+          "link": "https://www.rodi.nl/hoorn/uit/510624/hoorn-zingt-hollands-pakt-groots-uit-met-tweedaags-paasfestival-in-2027",
+          "pubDate": "Wed, 28 Oct 2026 17:01:09 Z",
+          "description": "HOORN - Op het Pelmolenpad in Hoorn verrijst op Goede Vrijdag 26 maart en zaterdag 27 maart 2027 een compleet festivalterrein voor de eerste Paaseditie van Hoorn Zingt Hollands. Met grote namen als Jan Smit, Tino Martin, Mart Hoogkamer, Frans Bauer, Jeroen van der Boom en Xander de Buisonjé wil de organisatie een nieuwe jaarlijkse paastraditie neerzetten.",
+          "categories": [
+            "Uit"
+          ]
+        },
+        {
+          "title": "Raad bepaalt waar gemeente Hoorn volgend jaar geld aan uitgeeft",
+          "link": "https://www.rodi.nl/hoorn/gemeentenieuws/510622/raad-bepaalt-waar-gemeente-hoorn-volgend-jaar-geld-aan-uitgeeft",
+          "pubDate": "Wed, 28 Oct 2026 16:46:47 Z",
+          "description": "HOORN - De gemeenteraad spreekt dinsdag 3 november vanaf 14.00 uur over de begroting voor het komende jaar. Het college heeft dit financiële plan voorgelegd aan de raad. De dertien raadsfracties mogen zeggen wat ze hiervan vinden. Op 10 november wordt er gestemd over de begroting en de aangekondigde raadsinstrumenten.",
+          "categories": [
+            "Gemeentenieuws"
+          ]
+        },
+        {
+          "title": "Slavernijverleden van Hoorn centraal in Noorderkerk: ‘Het gaat om erkennen wat er is gebeurd’",
+          "link": "https://www.rodi.nl/hoorn/nieuws/510613/slavernijverleden-van-hoorn-centraal-in-noorderkerk-het-gaat-om-erkennen-wat-er-is-gebeurd",
+          "pubDate": "Wed, 28 Oct 2026 16:10:51 Z",
+          "description": "HOORN - Het slavernijverleden van Hoorn staat zaterdag 7 november centraal in de Noorderkerk aan het Kleine Noord in Hoorn.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Sociaal Hoorn/Team Tonnaer wil duidelijkheid over natuurbegraafplaats Zuiderveld",
+          "link": "https://www.rodi.nl/hoorn/politiek/510606/sociaal-hoorn-team-tonnaer-wil-duidelijkheid-over-natuurbegraafplaats-zuiderveld",
+          "pubDate": "Wed, 28 Oct 2026 15:27:16 Z",
+          "description": "HOORN - Sociaal Hoorn/Team Tonnaer wil dat het college nog dit jaar met een voorstel komt voor een natuurbegraafplaats op een deel van begraafplaats Zuiderveld. Raadslid Roger Tonnaer heeft daarover opnieuw schriftelijke vragen gesteld.",
+          "categories": [
+            "Politiek"
+          ]
+        },
+        {
+          "title": "Young Westend speelt musical Fame JR in Hoorn",
+          "link": "https://www.rodi.nl/hoorn/uit/510596/young-westend-speelt-musical-fame-jr-in-hoorn",
+          "pubDate": "Wed, 28 Oct 2026 15:15:29 Z",
+          "description": "HOORN - Musicalvereniging Young Westend brengt op zaterdag 31 oktober en zondag 1 november de musical Fame JR in Schouwburg Het Park. Het is de eerste voorstelling onder nieuwe regisseur Michael Diederich. Kaarten zijn verkrijgbaar via het theater.",
+          "categories": [
+            "Uit"
+          ]
+        },
+        {
+          "title": "Westfries Museum zoekt sponsors voor 96 steunbalken in Hoorn",
+          "link": "https://www.rodi.nl/hoorn/nieuws/510593/westfries-museum-zoekt-sponsors-voor-96-steunbalken-in-hoorn",
+          "pubDate": "Wed, 28 Oct 2026 14:45:25 Z",
+          "description": "HOORN - Het Westfries Museum zoekt sponsors voor 96 houten steunbalken die tijdens de restauratie vervangen moeten worden. Particulieren en bedrijven kunnen vanaf 2.500 euro per balk meebetalen aan het herstel van het monumentale pand aan de Roode Steen.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Hoorn herdenkt overledenen met fakkeloptocht en viering in Koepelkerk",
+          "link": "https://www.rodi.nl/hoorn/nieuws/510589/hoorn-herdenkt-overledenen-met-fakkeloptocht-en-viering-in-koepelkerk",
+          "pubDate": "Wed, 28 Oct 2026 14:22:35 Z",
+          "description": "HOORN - De Matteüsparochie Hoorn Centrum organiseert dit jaar twee herdenkingsmomenten voor Allerzielen. Zondag 1 november is er een samenkomst met fakkeloptocht op de begraafplaats aan de Drieboomlaan, op maandag 2 november een viering in de Koepelkerk.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Winactie: Hans Dagelet brengt ode aan het leven en de dood in Hoorn",
+          "link": "https://www.rodi.nl/hoorn/uit/510565/winactie-hans-dagelet-brengt-ode-aan-het-leven-en-de-dood-in-hoorn",
+          "pubDate": "Wed, 28 Oct 2026 11:58:55 Z",
+          "description": "HOORN - Acteur en muzikant Hans Dagelet staat zondag 1 november in Theater Het Pakhuis in Hoorn met 'R.I.P. - Bits and Pieces'. In de voorstelling staat de inmiddels tachtigjarige Dagelet stil bij het leven, de dood en de vergankelijkheid van het bestaan.",
+          "categories": [
+            "Uit"
+          ]
+        },
+        {
+          "title": "Oosterblokker wint voor vijfde keer Battle of Blokker",
+          "link": "https://www.rodi.nl/hoorn/nieuws/510548/oosterblokker-wint-voor-vijfde-keer-battle-of-blokker",
+          "pubDate": "Wed, 28 Oct 2026 11:09:42 Z",
+          "description": "BLOKKER - Oosterblokker heeft voor de vijfde keer de Battle of Blokker gewonnen. Tijdens de negende editie van de strijd tussen Oosterblokker en Westerblokker in feestpaleis het Gouden Hoofd trok Oosterblokker met 88 tegen 85 punten aan het langste eind.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Bewoners Venenlaan in Hoorn planten honderden bloembollen voor kleurrijk voorjaar",
+          "link": "https://www.rodi.nl/hoorn/nieuws/510461/bewoners-venenlaan-in-hoorn-planten-honderden-bloembollen-voor-kleurrijk-voorjaar",
+          "pubDate": "Tue, 27 Oct 2026 14:43:55 Z",
+          "description": "HOORN - Bewoners van de Venenlaan in Hoorn hebben gezamenlijk honderden bloembollen geplant om hun straat groener en kleurrijker te maken. Als alles volgens plan verloopt, moet de straat komend voorjaar veranderen in wat de initiatiefnemers zelf een 'mini-Keukenhofje' noemen.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "‘Echt onvoorstelbaar’: Stichting Kinderfietsjes Actie uit Zwaag krijgt aanhangwagen cadeau",
+          "link": "https://www.rodi.nl/hoorn/nieuws/510419/echt-onvoorstelbaar-stichting-kinderfietsjes-actie-uit-zwaag-krijgt-aanhangwagen-cadeau",
+          "pubDate": "Tue, 27 Oct 2026 12:34:09 Z",
+          "description": "HOORN/ZWAAG - Een aanhangwagen lenen om gedoneerde kinderfietsen op te halen hoeft voortaan niet meer. Stichting Kinderfietsjes Actie uit Zwaag heeft van Koos Bakker Aanhangwagens in Hoorn een eigen aanhangwagen cadeau gekregen. Voor oprichter Paul Buis kwam de schenking als een grote verrassing. \"Dat een sponsor zoiets voor ons doet, is echt onvoorstelbaar.\"",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Hoorn telt relatief weinig miljonairshuishoudens: 4 procent heeft vermogen van miljoen of meer",
+          "link": "https://www.rodi.nl/hoorn/nieuws/510386/hoorn-telt-relatief-weinig-miljonairshuishoudens-4-procent-heeft-vermogen-van-miljoen-of-meer",
+          "pubDate": "Tue, 27 Oct 2026 10:21:52 Z",
+          "description": "HOORN - Hoorn telt naar verhouding minder miljonairshuishoudens dan veel omliggende gemeenten. Vier procent van de huishoudens in Hoorn heeft een vermogen van minstens 1 miljoen euro. Daarmee ligt het aandeel miljonairshuishoudens in de gemeente onder het landelijk gemiddelde van 6,6 procent en ook lager dan in verschillende andere Westfriese gemeenten. Dat blijkt uit nieuwe vermogenscijfers van het Centraal Bureau voor de Statistiek (CBS).",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Intochten Sinterklaas 2026: dit zijn de tijden en locaties in gemeente Hoorn",
+          "link": "https://www.rodi.nl/hoorn/nieuws/510371/intochten-sinterklaas-2026-dit-zijn-de-tijden-en-locaties-in-gemeente-hoorn",
+          "pubDate": "Tue, 27 Oct 2026 10:02:53 Z",
+          "description": "HOORN - Het duurt misschien nog even, maar de voorbereidingen voor de komst van Sinterklaas zijn alweer in volle gang. In Hoorn, Zwaag en Blokker staan ook dit jaar weer feestelijke activiteiten op het programma. Hieronder een overzicht van de bekende tijden en activiteiten rondom de intochten en Sinterklaasfeesten in 2026.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "180 euro boete voor appen op de fiets: dit worden de nieuwe fietsboetes in 2027",
+          "link": "https://www.rodi.nl/hoorn/nieuws/510367/180-euro-boete-voor-appen-op-de-fiets-dit-worden-de-nieuwe-fietsboetes-in-2027",
+          "pubDate": "Tue, 27 Oct 2026 09:39:58 Z",
+          "description": "REGIO - Fietsers die hun telefoon vasthouden of door rood rijden, betalen vanaf 1 januari 2027 € 10 meer boete. Ook fietsen zonder licht of met kapotte remmen wordt duurder. Dat blijkt uit een analyse van Overstappen.nl.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Kledingruil bij MAK Blokweer: gratis nieuwe kleding scoren in Blokker",
+          "link": "https://www.rodi.nl/hoorn/nieuws/510370/kledingruil-bij-mak-blokweer-gratis-nieuwe-kleding-scoren-in-blokker",
+          "pubDate": "Tue, 27 Oct 2026 09:34:08 Z",
+          "description": "BLOKKER - The Clothing Loop en bezoekerscentrum MAK Blokweer in Blokker organiseren zaterdag 7 november tijdens de Hoornse Klimaatweek een kledingruil. Bezoekers ruilen er kleding, werken in een upcycle- en reparatieatelier en kinderen doen mee aan activiteiten. De toegang is gratis.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Maandagavond grote stroomstoring: Delen van Hoorn, Wognum, Opmeer, Zuidermeer en omstreken getroffen",
+          "link": "https://www.rodi.nl/hoorn/nieuws/510338/maandagavond-grote-stroomstoring-delen-van-hoorn-wognum-opmeer-zuidermeer-en-omstreken-getroffen",
+          "pubDate": "Mon, 26 Oct 2026 19:07:44 Z",
+          "description": "WESTFRIESLAND - In een groot deel van Westfriesland is maandagavond de stroom uitgevallen. Het gaat om Spanbroek, Berkhout, Hoorn, Opmeer, Wognum, Zuidermeer, Zwaag en Zwaagdijk-West.",
+          "categories": [
+            "Nieuws"
+          ]
+        }
+      ]
+    },
+    {
       "id": "streekomroep",
       "label": "Streekomroep",
       "items": [
+        {
+          "title": "Hoorns horecagezicht René Stam zwaait af",
+          "link": "https://www.streekomroepwestfriesland.nl/hoorns-horecagezicht-rene-stam-zwaait-af/",
+          "pubDate": "Sat, 31 Oct 2026 13:53:32 +0000",
+          "description": "Na ruim 35 jaar als zelfstandig ondernemer in de Hoornse horeca is het zover: René Stam doet een stap terug. Samen met Paola draait hij dit weekend zijn allerlaatste shift in Brasserie Velius. Vanaf volgende week staat er met de 24-jarige Demian Bek een nieuw gezicht aan het roer. Het afscheid op de vertrouwde plek op de hoek van de Gedempte Turfhaven laat de vaste klandizie niet onberoerd. De hele dag door stromen de bloemen, cadeaus en warme reacties binnen. Voor veel stamgasten, die de twee al kennen uit de tijd van Snackhuis De Poort, breekt er een nieuw tijdperk aan op de zaterdagochtend. \"We gaan de lieve mensen enorm missen, maar het is simpelweg mooi geweest,\" vertelt het duo tussen ",
+          "categories": [
+            "Werk & economie"
+          ]
+        },
         {
           "title": "Bijzonder wandkleed van dochter omgekomen Amerikaanse piloot naar Oorlogsmuseum",
           "link": "https://www.streekomroepwestfriesland.nl/bijzonder-wandkleed-van-dochter-omgekomen-amerikaanse-piloot-naar-oorlogsmuseum/",
@@ -498,15 +733,6 @@
           "description": "Met de Stichting Kalyani zetten Richard en Ramona van Ark uit Enkhuizen zich al 15 jaar in voor kinderen uit Sri Lanka. Na een woningbrand van afgelopen dinsdag, ontvangen ze juist zijzelf veel steun. Verschillende Enkhuizers komen in actie voor het gezin. Het zijn drukke en vooral onwerkelijke dagen voor Richard van Ark en zijn gezin. Dinsdag werden ze getroffen door een felle woningbrand , die hun huis onbewoonbaar maakte. Meer dan de kleding die ze op dat moment aan hadden, hebben ze niet, met uitzondering van portemonnee en mobiele telefoon. Donderdagmiddag is Richard even thuis, met zoon Ethon. Hij neemt de telefoon van zijn oudste zoon mee, die door de brand flink is aangedaan. \"Missch",
           "categories": [
             "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "In gesprek met: Hoornse wethouder René Assendelft",
-          "link": "https://www.streekomroepwestfriesland.nl/in-gesprek-met-hoornse-wethouder-rene-assendelft/",
-          "pubDate": "Thu, 29 Oct 2026 14:05:31 +0000",
-          "description": "In deze interviewreeks stellen we de nieuwe Hoornse wethouders voor. Dit keer schuift René Assendelft weer aan, vier jaar geleden spraken we hem ook. Inmiddels is hij begonnen aan zijn tweede termijn als wethouder van Hoorn en is hij de enige van het vorige team die is gebleven. Assendelft kijkt met trots terug op de stappen die de afgelopen jaren gezet zijn op het gebied van onderwijshuisvesting en het aangenomen actieplan fiets. Ook ziet hij grote uitdagingen. Hoorn groeit en dat vraagt om goede bereikbaarheid, verkeersveiligheid en meer ruimte voor fietsers. Een publieksvraag van bewoners van het Gerritsland brengt het gesprek op de plannen om de binnenstad autoluwer te maken. Voor de kom",
-          "categories": [
-            "Politiek"
           ]
         }
       ]
