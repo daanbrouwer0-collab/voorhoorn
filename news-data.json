@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T19:55:04.681Z",
+  "updated": "2026-10-31T02:18:50.242Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -120,6 +120,27 @@
       "label": "Hoornsdagblad",
       "items": [
         {
+          "title": "Westfriese Beursvloer zorgt voor 225 matches!",
+          "link": "https://www.hoornsdagblad.nl/regio/westfriese-beursvloer-zorgt-voor-225-matches",
+          "pubDate": "Fri, 30 Oct 2026 18:24:14 +0100",
+          "description": "BOVENKARSPEL – Wat een energie, enthousiasme en blije gezichten! De 17e Westfriese Beursvloer bracht donderdag 29 oktober 54 bedrijven en 64 maatschappelijke organisaties bij elkaar in Vereenigingsgebouw De Tuf in Bovenkarspel. En met succes! In een uur tijd werden maar liefst 225 matches gesloten. [...]",
+          "categories": []
+        },
+        {
+          "title": "'De Luchtoorlog 1914-1918' - 20 november 2026 - Oorlogsmuseum Medemblik",
+          "link": "https://www.hoornsdagblad.nl/regio/de-luchtoorlog-1914-1918-20-november-2026-oorlogsmuseum-medemblik",
+          "pubDate": "Fri, 30 Oct 2026 17:14:39 +0100",
+          "description": "MEDEMBLIK - In Oorlogsmuseum Medemblik zal er op vrijdag 20 november, door Hans Walrecht, een lezing worden gehouden over de ontwikkeling van De Luchtoorlog tussen 1014-1918. Een lezing voorzien van veel uniek beeldmateriaal en prachtige korte videofragmenten, vol verrassende momenten, waarop men [...]",
+          "categories": []
+        },
+        {
+          "title": "Camperbeurs Den Bosch breidt uit met extra beursdag",
+          "link": "https://www.hoornsdagblad.nl/kamperen/camperbeurs-den-bosch-breidt-uit-met-extra-beursdag",
+          "pubDate": "Fri, 30 Oct 2026 15:33:46 +0100",
+          "description": "DEN BOSCH - Camperbeurs Den Bosch breidt in 2027 uit van twee naar drie beursdagen. De uitbreiding is een logisch vervolg op de sterke groei van het evenement in Brabant. Tijdens de afgelopen editie in de Brabanthallen verwelkomde de beurs maar liefst 16.850 bezoekers, een recordaantal voor [...]",
+          "categories": []
+        },
+        {
           "title": "Twee voetgangers aangereden op de Westerdijk in Hoorn, politie zoekt getuigen",
           "link": "https://www.hoornsdagblad.nl/112-hoorn/twee-voetgangers-aangereden-op-de-westerdijk-in-hoorn-politie-zoekt-getuigen",
           "pubDate": "Fri, 30 Oct 2026 14:18:27 +0100",
@@ -236,27 +257,6 @@
           "link": "https://www.hoornsdagblad.nl/algemeen/welk-werkplekconcept-past-bij-jouw-hybride-team-in-west-friesland",
           "pubDate": "Thu, 29 Oct 2026 08:19:36 +0100",
           "description": "Op veel kantoren in Hoorn en omgeving is het op dinsdag druk en op vrijdag stil. Hybride werken is blijvend, maar de inrichting van veel kantoren gaat nog uit van iedereen vijf dagen aanwezig. De vraag is dus niet óf je iets verandert, maar welk werkplekconcept bij jouw organisatie past. We zetten [...]",
-          "categories": []
-        },
-        {
-          "title": "Raad bepaalt waar gemeente Hoorn volgend jaar geld aan uitgeeft",
-          "link": "https://www.hoornsdagblad.nl/gemeente/raad-bepaalt-waar-gemeente-hoorn-volgend-jaar-geld-aan-uitgeeft",
-          "pubDate": "Wed, 28 Oct 2026 16:09:20 +0100",
-          "description": "HOORN - Op dinsdag 3 november 2026 spreekt de gemeenteraad vanaf 14:00 uur over de begroting voor het komende jaar. Het college heeft dit financiële plan voorgelegd aan de raad. De dertien raadsfracties mogen zeggen wat ze hiervan vinden. Op 10 november wordt er gestemd over de begroting en de [...]",
-          "categories": []
-        },
-        {
-          "title": "Vacature: Administratief Medewerker Zorg (MBO4) bij Kinderpraktijk Theone",
-          "link": "https://www.hoornsdagblad.nl/vacatures/vacature-administratief-medewerker-zorg-mbo4-bij-kinderpraktijk-theone",
-          "pubDate": "Wed, 28 Oct 2026 15:13:45 +0100",
-          "description": "Ben jij een administratief medewerker met hart voor kinderen en gezinnen, die op zoek is naar een werkplek waar samenwerking, innovatie en verbinding centraal staan?Dan is Kinderpraktijk Theone op zoek naar jou!Wie zijn wij?Kinderpraktijk Theone is een kleinschalige, warme en innovatieve [...]",
-          "categories": []
-        },
-        {
-          "title": "Korting op de bus voor inwoners met laag inkomen",
-          "link": "https://www.hoornsdagblad.nl/regio/korting-op-de-bus-voor-inwoners-met-laag-inkomen",
-          "pubDate": "Wed, 28 Oct 2026 13:50:23 +0100",
-          "description": "De provincie Noord-Holland biedt gemeenten 2 mogelijkheden voor korting op het busvervoer voor inwoners met een laag inkomen. Vervoerder Connexxion/Transdev ontwikkelde deze kortingsproducten in opdracht van de provincie. Gemeenten bepalen zelf of zij hiervan gebruikmaken, voor welke inwoners de [...]",
           "categories": []
         }
       ]
@@ -643,6 +643,15 @@
       "label": "Streekomroep",
       "items": [
         {
+          "title": "Geen pils en een schrikmomentje: koning op werkbezoek in Ursem",
+          "link": "https://www.streekomroepwestfriesland.nl/geen-pils-en-een-schrikmomentje-koning-op-werkbezoek-in-ursem/",
+          "pubDate": "Fri, 30 Oct 2026 19:12:00 +0000",
+          "description": "Ursem liep vanmiddag uit voor een bezoek van koning Willem-Alexander. Voor sommige dorpsbewoners was het een groot hoogtepunt. Toch moest de beveiliging ingrijpen toen een mogelijk verwarde man de koning aan wilde spreken. De koning speelde sportief mee met een potje tafelvoetbal en dronk met enkele dorpsbewoners en de burgemeester een bak koffie. Aan een pilsje wilde hij zich niet wagen tijdens het bezoek, aldus aanwezigen. Het werkbezoek stond in het teken van samenhorigheid. De koning ging op bezoek bij Ursemmers met een verstandelijke beperking en bij de brandweerkazerne. Voor sommige bewoners was deze koude herfstdag er eentje om nooit te vergeten. \"Hij zei wat tegen mij. Deze dag is ee",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
+        {
           "title": "WEEFF Top Favoriet komende week in handen van singer-songwriter Fay",
           "link": "https://www.streekomroepwestfriesland.nl/weeff-top-favoriet-komende-week-in-handen-van-singer-songwriter-fay/",
           "pubDate": "Fri, 30 Oct 2026 18:48:00 +0000",
@@ -724,15 +733,6 @@
           "categories": [
             "Kunst & cultuur",
             "Misdaad & straf"
-          ]
-        },
-        {
-          "title": "Een uur cadeau",
-          "link": "https://www.streekomroepwestfriesland.nl/een-uur-cadeau/",
-          "pubDate": "Wed, 28 Oct 2026 12:07:00 +0000",
-          "description": "Ik mocht afgelopen zondag een uur langer blijven liggen. Dat hoorde ik op het NOS-journaal. Aardig dat ze dat even doorgaven. Ik verkeerde nog in de veronderstelling dat ik daar zelf over ging. In maart moet ik eerder mijn bed uit, in oktober mag ik langer blijven liggen. Het klinkt als een verlofregeling waarvoor ik nooit heb getekend. Bovendien moet je voor dat extra uur slaap natuurlijk niet eerst een uur later naar bed gaan. Dan heb je je cadeau al uitgepakt voordat je het gekregen hebt. Twee keer per jaar raken we collectief ontregeld. Onze biologische klok zou hopeloos in de war zijn. Ziek, zwak en misselijk van zestig minuten. Ik wil niemands klachten wegwuiven, maar soms klinkt het a",
-          "categories": [
-            "Kunst & cultuur"
           ]
         }
       ]
