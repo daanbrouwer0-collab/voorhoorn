@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T19:15:26.605Z",
+  "updated": "2026-11-01T02:10:21.481Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -119,6 +119,13 @@
       "id": "hoornsdagblad",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Ajax doorbreekt negatieve reeks tegen AZ met nipte zege",
+          "link": "https://www.hoornsdagblad.nl/sport/ajax-doorbreekt-negatieve-reeks-tegen-az-met-nipte-zege",
+          "pubDate": "Sat, 31 Oct 2026 23:26:26 +0100",
+          "description": "AMSTERDAM – Ajax heeft in de Johan Cruijff ArenA een zwaarbevochten overwinning op AZ geboekt. Een vroege treffer van Tolu Arokodare volstond voor een 1-0 zege, waarmee de Amsterdammers profiteerden van het puntenverlies van koploper Feyenoord. AZ blijft na de nederlaag vijfde staan, op vijf punten [...]",
+          "categories": []
+        },
         {
           "title": "HV Hoorn probleemloos naar laatste zestien in bekertoernooi",
           "link": "https://www.hoornsdagblad.nl/hv-hoorn/hv-hoorn-probleemloos-naar-laatste-zestien-in-bekertoernooi",
@@ -251,13 +258,6 @@
           "pubDate": "Thu, 29 Oct 2026 11:00:43 +0100",
           "description": "De provincie Noord-Holland zet de komende 5 jaar concrete stappen voor een sportief Noord-Holland. Met het vastgestelde Actieprogramma Sport Noord-Holland 2027-2031 werkt de provincie samen met gemeenten, sportorganisaties en maatschappelijke partners aan regionale samenwerking, veilig sporten, [...]",
           "categories": []
-        },
-        {
-          "title": "Bijzondere rekenmachine van 20 kilo te bewonderen in Museum van de 20e Eeuw",
-          "link": "https://www.hoornsdagblad.nl/regio/bijzondere-rekenmachine-van-20-kilo-te-bewonderen-in-museum-van-de-20e-eeuw",
-          "pubDate": "Thu, 29 Oct 2026 10:53:52 +0100",
-          "description": "HOORN - Sinds kort staat er een heuse miljonair in het Museum van de 20e Eeuw. Een unieke rekenmachine van maar liefst 20 kilo die recent werd geschonken aan het museum. U kunt hem bewonderen in de computerzaal waar behalve computers ook heel veel tel- en schrijfmachines zijn te bewonderen.The [...]",
-          "categories": []
         }
       ]
     },
@@ -265,6 +265,13 @@
       "id": "hoornsdagblad-sport",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Ajax doorbreekt negatieve reeks tegen AZ met nipte zege",
+          "link": "https://www.hoornsdagblad.nl/sport/ajax-doorbreekt-negatieve-reeks-tegen-az-met-nipte-zege",
+          "pubDate": "Sat, 31 Oct 2026 23:26:26 +0100",
+          "description": "AMSTERDAM – Ajax heeft in de Johan Cruijff ArenA een zwaarbevochten overwinning op AZ geboekt. Een vroege treffer van Tolu Arokodare volstond voor een 1-0 zege, waarmee de Amsterdammers profiteerden van het puntenverlies van koploper Feyenoord. AZ blijft na de nederlaag vijfde staan, op vijf punten [...]",
+          "categories": []
+        },
         {
           "title": "ZVV Zwaag met opgeheven hoofd uit de beker",
           "link": "https://www.hoornsdagblad.nl/sport/zvv-zwaag-met-opgeheven-hoofd-uit-de-beker",
@@ -396,13 +403,6 @@
           "link": "https://www.hoornsdagblad.nl/sport/zvv-zwaag-dik-in-de-dubbele-cijfers-tegen-afc-34",
           "pubDate": "Sat, 10 Oct 2026 13:32:17 +0200",
           "description": "ALKMAAR - ZVV Zwaag is na vier wedstrijden de koploper van de Futsal 1e Divisie A. Op bezoek bij promovendus AFC '34 kwam de ploeg van coach Sander van Dijk vrijdagavond dik in de dubbele cijfers terecht: 0-18.De Alkmaarders, een vriendenteam dat afgelopen seizoen via de nacompetitie 'zomaar' [...]",
-          "categories": []
-        },
-        {
-          "title": "Een nieuw seizoen Tijd voor Krijt: Laagdrempelig biljartproject van start in Alkmaar & Hoorn",
-          "link": "https://www.hoornsdagblad.nl/sport/een-nieuw-seizoen-tijd-voor-krijt-laagdrempelig-biljartproject-van-start-in-alkmaar-hoorn",
-          "pubDate": "Tue, 06 Oct 2026 14:46:15 +0200",
-          "description": "ALKMAAR/HOORN - Het recreatieve biljartproject Tijd voor Krijt gaat dit najaar van start op twee locaties in Noord-Holland. Zowel in Alkmaar als Hoorn worden bijeenkomsten georganiseerd waarbij belangstellenden op een laagdrempelige manier kennis kunnen maken met biljarten.Tijd voor Krijt is een [...]",
           "categories": []
         }
       ]
