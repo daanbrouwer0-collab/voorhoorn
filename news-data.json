@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T02:10:21.481Z",
+  "updated": "2026-11-01T14:14:51.483Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -120,6 +120,27 @@
       "label": "Hoornsdagblad",
       "items": [
         {
+          "title": "Vrouw uit auto gered nadat deze in sloot beland op N506",
+          "link": "https://www.hoornsdagblad.nl/112-hoorn/vrouw-uit-auto-gered-nadat-deze-in-sloot-beland-op-n506",
+          "pubDate": "Sun, 01 Nov 2026 14:39:18 +0100",
+          "description": "HEM – Hulpdiensten zijn zondagmiddag massaal uitgerukt voor een verkeersongeval op de N506 (Hout) in Hem. Rond 13.45 uur raakte een automobiliste door nog onbekende oorzaak met haar voertuig van de weg en belandde vervolgens in het water. Het ongeval zorgde voor een grote inzet van hulpdiensten, [...]",
+          "categories": []
+        },
+        {
+          "title": "Hollandia doet vertrouwen op met nipte zege bij Eemdijk",
+          "link": "https://www.hoornsdagblad.nl/sport/hollandia-doet-vertrouwen-op-met-nipte-zege-bij-eemdijk",
+          "pubDate": "Sun, 01 Nov 2026 10:29:58 +0100",
+          "description": "EEMDIJK – Hollandia heeft in het inhaalduel bij Eemdijk de tweede overwinning van het seizoen geboekt. Een doelpunt van Niels Koster bleek voldoende voor de winst: 0-1. De Hoornse ploeg hield in de slotfase ook met tien man stand.Koster bezorgt Hollandia de voorsprongDe wedstrijd was eerder [...]",
+          "categories": []
+        },
+        {
+          "title": "Je hebt geen trauma – maar kunt toch niet genieten",
+          "link": "https://www.hoornsdagblad.nl/zorg-en-gezondheid/je-hebt-geen-trauma-maar-kunt-toch-niet-genieten",
+          "pubDate": "Sun, 01 Nov 2026 04:22:59 +0100",
+          "description": "'Ik heb geen trauma,' zegt Marti, 'maar toch kan ik niet van seks genieten. Als ik word aangeraakt, sla ik dicht.'Ze begrijpt het niet. Er is op seksueel gebied nooit iets ernstigs gebeurd. Niemand heeft haar gedwongen tot seks. Haar seksuele grenzen zijn niet overschreden. Toch reageert haar [...]",
+          "categories": []
+        },
+        {
           "title": "Ajax doorbreekt negatieve reeks tegen AZ met nipte zege",
           "link": "https://www.hoornsdagblad.nl/sport/ajax-doorbreekt-negatieve-reeks-tegen-az-met-nipte-zege",
           "pubDate": "Sat, 31 Oct 2026 23:26:26 +0100",
@@ -237,27 +258,6 @@
           "pubDate": "Thu, 29 Oct 2026 15:14:23 +0100",
           "description": "HOORN - Burgemeester Nieuwenburg heeft op 29 oktober 2026 15.00 uur een woning aan de Rondeelstraat in Hoorn voor een periode van drie maanden gesloten. In de woning zijn verdovende middelen, wapens en voorwerpen voor de verwerking van verdovende middelen aangetroffen. De woning is verzegeld en [...]",
           "categories": []
-        },
-        {
-          "title": "VriendenLoterij verlengt miljoenenbijdrage aan vijf musea in Noord-Holland",
-          "link": "https://www.hoornsdagblad.nl/regio/vriendenloterij-verlengt-miljoenenbijdrage-aan-vijf-musea-in-noord-holland",
-          "pubDate": "Thu, 29 Oct 2026 11:26:14 +0100",
-          "description": "De VriendenLoterij verlengt de structurele financiële steun aan vijf musea in Noord-Holland. De samenwerking zou volgens de overeenkomst eind dit jaar aflopen. Jaarlijks ontvangen de Noord-Hollandse musea samen miljoenen euro's, die zij naar eigen inzicht kunnen besteden aan tentoonstellingen, [...]",
-          "categories": []
-        },
-        {
-          "title": "Gewoon De Dijk brengt ode aan De Dijk in Hoorn",
-          "link": "https://www.hoornsdagblad.nl/uitgaan/gewoon-de-dijk-brengt-ode-aan-de-dijk-in-hoorn",
-          "pubDate": "Thu, 29 Oct 2026 11:21:49 +0100",
-          "description": "HOORN - Op vrijdag 13 november staat 'Gewoon De Dijk' in Van der Valk Hotel Hoorn met een krachtige en liefdevolle ode aan één van de grootste Nederlandstalige bands aller tijden: De Dijk. Met een spetterende liveshow vol Nederlandstalige klassiekers nemen negen gepassioneerde muzikanten het [...]",
-          "categories": []
-        },
-        {
-          "title": "Komende jaren meer ruimte voor sport in Noord-Holland",
-          "link": "https://www.hoornsdagblad.nl/regio/komende-jaren-meer-ruimte-voor-sport-in-noord-holland",
-          "pubDate": "Thu, 29 Oct 2026 11:00:43 +0100",
-          "description": "De provincie Noord-Holland zet de komende 5 jaar concrete stappen voor een sportief Noord-Holland. Met het vastgestelde Actieprogramma Sport Noord-Holland 2027-2031 werkt de provincie samen met gemeenten, sportorganisaties en maatschappelijke partners aan regionale samenwerking, veilig sporten, [...]",
-          "categories": []
         }
       ]
     },
@@ -265,6 +265,13 @@
       "id": "hoornsdagblad-sport",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Hollandia doet vertrouwen op met nipte zege bij Eemdijk",
+          "link": "https://www.hoornsdagblad.nl/sport/hollandia-doet-vertrouwen-op-met-nipte-zege-bij-eemdijk",
+          "pubDate": "Sun, 01 Nov 2026 10:29:58 +0100",
+          "description": "EEMDIJK – Hollandia heeft in het inhaalduel bij Eemdijk de tweede overwinning van het seizoen geboekt. Een doelpunt van Niels Koster bleek voldoende voor de winst: 0-1. De Hoornse ploeg hield in de slotfase ook met tien man stand.Koster bezorgt Hollandia de voorsprongDe wedstrijd was eerder [...]",
+          "categories": []
+        },
         {
           "title": "Ajax doorbreekt negatieve reeks tegen AZ met nipte zege",
           "link": "https://www.hoornsdagblad.nl/sport/ajax-doorbreekt-negatieve-reeks-tegen-az-met-nipte-zege",
@@ -396,13 +403,6 @@
           "link": "https://www.hoornsdagblad.nl/sport/az-verliest-koppositie-en-ongeslagen-status-bij-feyenoord",
           "pubDate": "Sat, 10 Oct 2026 21:53:14 +0200",
           "description": "ROTTERDAM - AZ heeft zaterdagavond de koppositie moeten afstaan aan Feyenoord. De Alkmaarders verloren het rechtstreekse duel in De Kuip met 2-0 en zakten naar de derde plaats. Daarmee kwam ook een einde aan hun ongeslagen status.Feyenoord begon sterker en feller aan de wedstrijd en nam na dertien [...]",
-          "categories": []
-        },
-        {
-          "title": "ZVV Zwaag dik in de dubbele cijfers tegen AFC '34",
-          "link": "https://www.hoornsdagblad.nl/sport/zvv-zwaag-dik-in-de-dubbele-cijfers-tegen-afc-34",
-          "pubDate": "Sat, 10 Oct 2026 13:32:17 +0200",
-          "description": "ALKMAAR - ZVV Zwaag is na vier wedstrijden de koploper van de Futsal 1e Divisie A. Op bezoek bij promovendus AFC '34 kwam de ploeg van coach Sander van Dijk vrijdagavond dik in de dubbele cijfers terecht: 0-18.De Alkmaarders, een vriendenteam dat afgelopen seizoen via de nacompetitie 'zomaar' [...]",
           "categories": []
         }
       ]
@@ -643,6 +643,15 @@
       "label": "Streekomroep",
       "items": [
         {
+          "title": "Westfriese Beursvloer levert honderden matches op voor bedrijven en maatschappelijke organisaties",
+          "link": "https://www.streekomroepwestfriesland.nl/westfriese-beursvloer-levert-honderden-matches-op-voor-bedrijven-en-maatschappelijke-organisaties/",
+          "pubDate": "Sun, 01 Nov 2026 07:28:00 +0000",
+          "description": "De zeventiende editie van de Westfriese Beursvloer heeft afgelopen donderdag 225 matches opgeleverd. Bij De Tuf in Bovenkarspel kwamen 54 bedrijven en 64 maatschappelijke organisaties bij elkaar om afspraken te maken over hulp in de vorm van kennis, materialen, diensten en vrijwilligerswerk. De bijeenkomst werd georganiseerd door Vrijwilligerspunt Westfriesland en de Westfriese Uitdaging. In een uur tijd konden maatschappelijke organisaties hun hulpvragen voorleggen aan bedrijven uit de regio. Dat leverde uiteenlopende afspraken op. Zo gaat Floridus Tuin & Groen kijken naar twee bomen bij De Verteltuin die mogelijk gesnoeid of verwijderd moeten worden. He-Rho Bouw & Schoonmaak helpt bij het ",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
+        {
           "title": "Hoorns horecagezicht René Stam zwaait af",
           "link": "https://www.streekomroepwestfriesland.nl/hoorns-horecagezicht-rene-stam-zwaait-af/",
           "pubDate": "Sat, 31 Oct 2026 13:53:32 +0000",
@@ -724,15 +733,6 @@
           "description": "Bij een ernstige aanrijding op de Westerdijk in Hoorn zijn vanavond twee mensen gewond geraakt. De bestuurder, die mogelijk onder invloed was, is aangehouden. Het zware ongeluk gebeurde iets na 20.00 uur. De betrokken auto raakte na de aanrijding flink beschadigd. De automobilist is een 72-jarige man uit Amsterdam. Hij is aangehouden op verdenking van het veroorzaken van een ongeval met ernstig letsel en rijden onder invloed van alcohol. De politie doet onderzoek naar het ongeval. De Westerdijk is voorlopig aan beide kanten afgesloten voor verkeer. The post Gewonden na ernstige aanrijding in Hoorn, automobilist (72) mogelijk onder invloed appeared first on Streekomroep West-Friesland .",
           "categories": [
             "112"
-          ]
-        },
-        {
-          "title": "Enkhuizen komt in actie voor door brand getroffen gezin: \"Normaal geven wij juist\"",
-          "link": "https://www.streekomroepwestfriesland.nl/enkhuizen-komt-in-actie-voor-door-brand-getroffen-gezin-normaal-geven-wij-juist/",
-          "pubDate": "Thu, 29 Oct 2026 16:04:00 +0000",
-          "description": "Met de Stichting Kalyani zetten Richard en Ramona van Ark uit Enkhuizen zich al 15 jaar in voor kinderen uit Sri Lanka. Na een woningbrand van afgelopen dinsdag, ontvangen ze juist zijzelf veel steun. Verschillende Enkhuizers komen in actie voor het gezin. Het zijn drukke en vooral onwerkelijke dagen voor Richard van Ark en zijn gezin. Dinsdag werden ze getroffen door een felle woningbrand , die hun huis onbewoonbaar maakte. Meer dan de kleding die ze op dat moment aan hadden, hebben ze niet, met uitzondering van portemonnee en mobiele telefoon. Donderdagmiddag is Richard even thuis, met zoon Ethon. Hij neemt de telefoon van zijn oudste zoon mee, die door de brand flink is aangedaan. \"Missch",
-          "categories": [
-            "Kunst & cultuur"
           ]
         }
       ]
