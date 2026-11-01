@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T14:14:51.483Z",
+  "updated": "2026-11-01T19:37:38.216Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -119,6 +119,13 @@
       "id": "hoornsdagblad",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Jong Holland klopt Always Forward in doelpuntenshow",
+          "link": "https://www.hoornsdagblad.nl/sport/jong-holland-klopt-always-forward-in-doelpuntenshow",
+          "pubDate": "Sun, 01 Nov 2026 20:29:50 +0100",
+          "description": "HOORN – Jong Holland heeft een spectaculaire uitwedstrijd bij Always Forward met 4-7 gewonnen. De ploeg van trainer Gidon Reinders Folmer zag de thuisploeg in de slotfase nog terugkomen tot één doelpunt verschil, maar stelde de zege met twee late treffers veilig. Beau Böhning was met drie [...]",
+          "categories": []
+        },
         {
           "title": "Vrouw uit auto gered nadat deze in sloot beland op N506",
           "link": "https://www.hoornsdagblad.nl/112-hoorn/vrouw-uit-auto-gered-nadat-deze-in-sloot-beland-op-n506",
@@ -251,13 +258,6 @@
           "pubDate": "Thu, 29 Oct 2026 15:19:57 +0100",
           "description": "Stichting Forten Nederland ontvangt een schenking van € 875.000 van de VriendenLoterij om forten, waterlinies, bunkers en vestingwerken als belangrijk cultuurhistorisch erfgoed te behouden én onder de aandacht te brengen van een breed publiek. In een tijd waarin thema's als vrijheid, veiligheid en [...]",
           "categories": []
-        },
-        {
-          "title": "Burgemeester Nieuwenburg sluit drugswoning aan de Rondeelstraat",
-          "link": "https://www.hoornsdagblad.nl/gemeente/burgemeester-nieuwenburg-sluit-drugswoning-aan-de-rondeelstraat",
-          "pubDate": "Thu, 29 Oct 2026 15:14:23 +0100",
-          "description": "HOORN - Burgemeester Nieuwenburg heeft op 29 oktober 2026 15.00 uur een woning aan de Rondeelstraat in Hoorn voor een periode van drie maanden gesloten. In de woning zijn verdovende middelen, wapens en voorwerpen voor de verwerking van verdovende middelen aangetroffen. De woning is verzegeld en [...]",
-          "categories": []
         }
       ]
     },
@@ -265,6 +265,13 @@
       "id": "hoornsdagblad-sport",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Jong Holland klopt Always Forward in doelpuntenshow",
+          "link": "https://www.hoornsdagblad.nl/sport/jong-holland-klopt-always-forward-in-doelpuntenshow",
+          "pubDate": "Sun, 01 Nov 2026 20:29:50 +0100",
+          "description": "HOORN – Jong Holland heeft een spectaculaire uitwedstrijd bij Always Forward met 4-7 gewonnen. De ploeg van trainer Gidon Reinders Folmer zag de thuisploeg in de slotfase nog terugkomen tot één doelpunt verschil, maar stelde de zege met twee late treffers veilig. Beau Böhning was met drie [...]",
+          "categories": []
+        },
         {
           "title": "Hollandia doet vertrouwen op met nipte zege bij Eemdijk",
           "link": "https://www.hoornsdagblad.nl/sport/hollandia-doet-vertrouwen-op-met-nipte-zege-bij-eemdijk",
@@ -396,13 +403,6 @@
           "link": "https://www.hoornsdagblad.nl/sport/hollandia-in-eigen-huis-onderuit-tegen-concurrent",
           "pubDate": "Sun, 11 Oct 2026 07:59:46 +0200",
           "description": "HOORN - Hollandia heeft zaterdag zijn zevende nederlaag in acht wedstrijden geleden. De ploeg van trainer Michael Lanting verloor in het Julianapark met 2-4 van concurrent Staphorst.Onder herfstachtige omstandigheden had Hollandia het meeste balbezit, maar de bezoekers gingen bijzonder effectief [...]",
-          "categories": []
-        },
-        {
-          "title": "AZ verliest koppositie en ongeslagen status bij Feyenoord",
-          "link": "https://www.hoornsdagblad.nl/sport/az-verliest-koppositie-en-ongeslagen-status-bij-feyenoord",
-          "pubDate": "Sat, 10 Oct 2026 21:53:14 +0200",
-          "description": "ROTTERDAM - AZ heeft zaterdagavond de koppositie moeten afstaan aan Feyenoord. De Alkmaarders verloren het rechtstreekse duel in De Kuip met 2-0 en zakten naar de derde plaats. Daarmee kwam ook een einde aan hun ongeslagen status.Feyenoord begon sterker en feller aan de wedstrijd en nam na dertien [...]",
           "categories": []
         }
       ]
