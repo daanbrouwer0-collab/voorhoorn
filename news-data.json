@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-02T17:00:28.520Z",
+  "updated": "2026-11-03T01:32:34.765Z",
   "failedSources": [
     {
       "id": "hoornactueel",
       "label": "HoornActueel",
-      "error": "HTTP 403"
+      "error": "The operation was aborted due to timeout"
     },
     {
       "id": "onswestfriesland",
@@ -120,6 +120,13 @@
       "label": "Hoornsdagblad",
       "items": [
         {
+          "title": "Westfriezen klimt naar derde plaats na ruime zege op Schagen United",
+          "link": "https://www.hoornsdagblad.nl/sport/westfriezen-klimt-naar-derde-plaats-na-ruime-zege-op-schagen-united",
+          "pubDate": "Mon, 02 Nov 2026 23:16:11 +0100",
+          "description": "ZWAAG - Westfriezen heeft zondag overtuigend afgerekend met Schagen United. De ploeg uit Zwaag won met 4-0 en nam daarmee de derde plaats over van de bezoekers. Ramon Wong Fong Sang en Jim Broers scoorden ieder tweemaal.Westfriezen houdt defensie geslotenTien minuten voor rust opende Wong Fong Sang [...]",
+          "categories": []
+        },
+        {
           "title": "Inwoners Noord-Holland ontvingen sinds 2021 €117 miljoen aan woningisolatie-subsidie",
           "link": "https://www.hoornsdagblad.nl/algemeen/inwoners-noord-holland-ontvingen-sinds-2021-117-miljoen-aan-woningisolatie-subsidie",
           "pubDate": "Mon, 02 Nov 2026 11:52:52 +0100",
@@ -138,6 +145,13 @@
           "link": "https://www.hoornsdagblad.nl/uitgaan/the-masked-music-bingo-een-fantastische-avond-vol-entertainment-en-hilariteit-in-hoorn",
           "pubDate": "Mon, 02 Nov 2026 11:21:16 +0100",
           "description": "HOORN - Ben jij klaar voor een avond vol spanning en entertainment, fantastische merkprijzen en hilarische gezelligheid? Dan mag je The Masked Music Bingo van Lucky Star Events niet missen!Dit kun je verwachten:– De allerleukste The Masked Music Bingo– Masked Drag Queen's– Luxe Mystery Prijzen– Een [...]",
+          "categories": []
+        },
+        {
+          "title": "Zwaluwen '30 houdt met tien man stand tegen De Zouaven",
+          "link": "https://www.hoornsdagblad.nl/sport/zwaluwen-30-houdt-met-tien-man-stand-tegen-de-zouaven",
+          "pubDate": "Sun, 01 Nov 2026 23:08:02 +0100",
+          "description": "HOORN - De derby tussen Zwaluwen '30 en De Zouaven is zaterdag zonder doelpunten geëindigd. De thuisploeg speelde het grootste deel van de wedstrijd met tien man, maar hield stand: 0-0.Rood voor El GuennouniZwaluwen '30 moest verder zonder Bilal el Guennouni na een incident in het strafschopgebied. [...]",
           "categories": []
         },
         {
@@ -205,7 +219,7 @@
         },
         {
           "title": "November start met rustig herfstweer, nachten worden frisser",
-          "link": "https://www.hoornsdagblad.nl/regio/november-start-met-rustig-herfstweer-nachten-worden-frisser",
+          "link": "https://www.hoornsdagblad.nl/algemeen/november-start-met-rustig-herfstweer-nachten-worden-frisser",
           "pubDate": "Sat, 31 Oct 2026 04:19:14 +0100",
           "description": "NEDERLAND – November gaat van start met rustig herfstweer. De komende week blijft het vaak droog en is er weinig wind, al overheerst aanvankelijk de bewolking. Later krijgt de zon meer ruimte en worden de nachten kouder, met landinwaarts kans op lichte vorst.Grijs weekend met weinig windZaterdag, [...]",
           "categories": []
@@ -244,20 +258,6 @@
           "pubDate": "Fri, 30 Oct 2026 13:46:41 +0100",
           "description": "HOORN - Op zondag 22 november 2026 brengt Bes Klein Ensemble het concertprogramma Amor, ferisci pur naar de Oosterkerk in Hoorn. Vanaf 15.00 uur verkent het achtkoppige zangensemble de vele gezichten van de liefde binnen de concertserie van Oude Muziek Nu. Van de vreugde van een ontmoeting tot het [...]",
           "categories": []
-        },
-        {
-          "title": "Ariena Zoutberg, Hester Vos en Nicole de Pierre zetten zich in als Klimaatburgemeester in gemeente Hoorn",
-          "link": "https://www.hoornsdagblad.nl/regio/ariena-zoutberg-hester-vos-en-nicole-de-pierre-zetten-zich-in-als-klimaatburgemeester-in-gemeente-hoorn",
-          "pubDate": "Fri, 30 Oct 2026 12:11:31 +0100",
-          "description": "HOORN - Maandag 2 november start de Klimaatweek en in gemeente Hoorn zetten Klimaatburgemeesters Ariena Zoutberg, Hester Vos (59) en Nicole de Pierre zich in om anderen te inspireren voor een beter klimaat. Samen met andere Klimaatburgemeesters door het hele land laten zij zien hoe groot de kracht [...]",
-          "categories": []
-        },
-        {
-          "title": "Verenigingen halen miljoenen op met Grote Clubactie: behoefte aan extra inkomsten groeit",
-          "link": "https://www.hoornsdagblad.nl/regio/verenigingen-halen-miljoenen-op-met-grote-clubactie-behoefte-aan-extra-inkomsten-groeit",
-          "pubDate": "Fri, 30 Oct 2026 11:02:36 +0100",
-          "description": "HOORN - De Grote Clubactie heeft in 2026 opnieuw een recordbedrag opgehaald: €27.298.587,-. Dit jaar deden 6.990 verenigingen mee aan de landelijke lotenactie. Niet alleen de opbrengst, maar ook het aantal deelnemende verenigingen groeit. In de gemeente Hoorn werd een bedrag van €93.896,10 [...]",
-          "categories": []
         }
       ]
     },
@@ -265,6 +265,20 @@
       "id": "hoornsdagblad-sport",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Westfriezen klimt naar derde plaats na ruime zege op Schagen United",
+          "link": "https://www.hoornsdagblad.nl/sport/westfriezen-klimt-naar-derde-plaats-na-ruime-zege-op-schagen-united",
+          "pubDate": "Mon, 02 Nov 2026 23:16:11 +0100",
+          "description": "ZWAAG - Westfriezen heeft zondag overtuigend afgerekend met Schagen United. De ploeg uit Zwaag won met 4-0 en nam daarmee de derde plaats over van de bezoekers. Ramon Wong Fong Sang en Jim Broers scoorden ieder tweemaal.Westfriezen houdt defensie geslotenTien minuten voor rust opende Wong Fong Sang [...]",
+          "categories": []
+        },
+        {
+          "title": "Zwaluwen '30 houdt met tien man stand tegen De Zouaven",
+          "link": "https://www.hoornsdagblad.nl/sport/zwaluwen-30-houdt-met-tien-man-stand-tegen-de-zouaven",
+          "pubDate": "Sun, 01 Nov 2026 23:08:02 +0100",
+          "description": "HOORN - De derby tussen Zwaluwen '30 en De Zouaven is zaterdag zonder doelpunten geëindigd. De thuisploeg speelde het grootste deel van de wedstrijd met tien man, maar hield stand: 0-0.Rood voor El GuennouniZwaluwen '30 moest verder zonder Bilal el Guennouni na een incident in het strafschopgebied. [...]",
+          "categories": []
+        },
         {
           "title": "Jong Holland klopt Always Forward in doelpuntenshow",
           "link": "https://www.hoornsdagblad.nl/sport/jong-holland-klopt-always-forward-in-doelpuntenshow",
@@ -389,20 +403,6 @@
           "link": "https://www.hoornsdagblad.nl/sport/westfriezen-en-bergen-delen-punten-in-doelpuntrijk-duel",
           "pubDate": "Mon, 12 Oct 2026 05:38:50 +0200",
           "description": "ZWAAG – Westfriezen en vv Bergen hebben in een vermakelijke wedstrijd met 3-3 gelijkgespeeld. De thuisploeg gaf voor rust tweemaal een voorsprong uit handen, maar kwam in de tweede helft zelf terug van een achterstand. Jim Broers nam twee doelpunten voor zijn rekening.Onder herfstachtige [...]",
-          "categories": []
-        },
-        {
-          "title": "LSVV loopt achter de feiten aan tegen Zwaluwen '30",
-          "link": "https://www.hoornsdagblad.nl/sport/lsvv-loopt-achter-de-feiten-aan-tegen-zwaluwen-30",
-          "pubDate": "Sun, 11 Oct 2026 22:30:18 +0200",
-          "description": "ZUID-SCHARWOUDE - In de Derde Klasse A heeft LSVV zaterdagavond onder herfstachtige omstandigheden zijn tweede nederlaag op rij geleden. Zwaluwen '30 was op Sportpark Voorwaarts duidelijk een maatje te groot: 0-5.De thuisploeg had niet alleen moeite met de wind en regen, maar duidelijk ook met [...]",
-          "categories": []
-        },
-        {
-          "title": "Winst voor vrouwen Always Forward, heren gaan in eigen huis onderuit",
-          "link": "https://www.hoornsdagblad.nl/sport/winst-voor-vrouwen-always-forward-heren-gaan-in-eigen-huis-onderuit",
-          "pubDate": "Sun, 11 Oct 2026 20:36:59 +0200",
-          "description": "HOORN - In de Hoofdklasse Vrouwen heeft Always Forward zondag de tweede overwinning van het seizoen weten te boken. Een stuk minder verging het de heren, die later op de middag op eigen veld onderuit gingen tegen Assendelft.VrouwenAlways Forward VR1 heeft de tweede zege van het seizoen weten te [...]",
           "categories": []
         }
       ]
