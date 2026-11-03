@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T15:04:07.561Z",
+  "updated": "2026-11-03T20:57:36.588Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -643,6 +643,16 @@
       "label": "Streekomroep",
       "items": [
         {
+          "title": "Slimme vloer spoort ouderen op met verhoogd risico op vallen",
+          "link": "https://www.streekomroepwestfriesland.nl/slimme-vloer-spoort-ouderen-op-met-verhoogd-risico-op-vallen/",
+          "pubDate": "Tue, 03 Nov 2026 17:00:00 +0000",
+          "description": "Een tegeltje, verlies van balans of zwakke gewrichten. Een ongelukje zit in een klein hoekje. De gevolgen van een val kunnen op oudere leeftijd erg groot zijn. In Oostwoud kunnen senioren over een speciale catwalk lopen. Deze 'slimme vloer' meet of ouderen valgevoelig zijn. In dorpscentrum Woudrust in Oostwoud ligt op de vloer een mat van zeil. Het lijkt zo'n vloertje in de bijkeuken. Maar als Anneke de Vries (77) er overheen loopt, wordt de mat slim. Met de Smartfloor wordt het loopgedrag in kaart gebracht, door de sensoren in de enkelband om Annekes voet. Ze weet dat ze wat wiebelig is. \"Aan één kant heb ik minder kracht in mijn benen door een hernia.\" Verhoogd valrisico Medewerkers van Te",
+          "categories": [
+            "Gezondheid",
+            "Kunst & cultuur"
+          ]
+        },
+        {
           "title": "Rectificatie: Geen primeur in West-Friesland",
           "link": "https://www.streekomroepwestfriesland.nl/rectificatie-geen-primeur-in-west-friesland/",
           "pubDate": "Tue, 03 Nov 2026 15:02:03 +0000",
@@ -721,15 +731,6 @@
           "description": "De zeventiende editie van de Westfriese Beursvloer heeft afgelopen donderdag 225 matches opgeleverd. Bij De Tuf in Bovenkarspel kwamen 54 bedrijven en 64 maatschappelijke organisaties bij elkaar om afspraken te maken over hulp in de vorm van kennis, materialen, diensten en vrijwilligerswerk. De bijeenkomst werd georganiseerd door Vrijwilligerspunt Westfriesland en de Westfriese Uitdaging. In een uur tijd konden maatschappelijke organisaties hun hulpvragen voorleggen aan bedrijven uit de regio. Dat leverde uiteenlopende afspraken op. Zo gaat Floridus Tuin & Groen kijken naar twee bomen bij De Verteltuin die mogelijk gesnoeid of verwijderd moeten worden. He-Rho Bouw & Schoonmaak helpt bij het ",
           "categories": [
             "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Hoorns horecagezicht René Stam zwaait af",
-          "link": "https://www.streekomroepwestfriesland.nl/hoorns-horecagezicht-rene-stam-zwaait-af/",
-          "pubDate": "Sat, 31 Oct 2026 13:53:32 +0000",
-          "description": "Na ruim 35 jaar als zelfstandig ondernemer in de Hoornse horeca is het zover: René Stam doet een stap terug. Samen met Paola draait hij dit weekend zijn allerlaatste shift in Brasserie Velius. Vanaf volgende week staat er met de 24-jarige Demian Bek een nieuw gezicht aan het roer. Het afscheid op de vertrouwde plek op de hoek van de Gedempte Turfhaven laat de vaste klandizie niet onberoerd. De hele dag door stromen de bloemen, cadeaus en warme reacties binnen. Voor veel stamgasten, die de twee al kennen uit de tijd van Snackhuis De Poort, breekt er een nieuw tijdperk aan op de zaterdagochtend. \"We gaan de lieve mensen enorm missen, maar het is simpelweg mooi geweest,\" vertelt het duo tussen ",
-          "categories": [
-            "Werk & economie"
           ]
         }
       ]
