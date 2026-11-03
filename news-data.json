@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-03T01:32:34.765Z",
+  "updated": "2026-11-03T15:04:07.561Z",
   "failedSources": [
     {
       "id": "hoornactueel",
       "label": "HoornActueel",
-      "error": "The operation was aborted due to timeout"
+      "error": "HTTP 403"
     },
     {
       "id": "onswestfriesland",
@@ -120,6 +120,41 @@
       "label": "Hoornsdagblad",
       "items": [
         {
+          "title": "Campagne zet in op minder schermtijd en meer buiten bewegen bij kinderen",
+          "link": "https://www.hoornsdagblad.nl/algemeen/campagne-zet-in-op-minder-schermtijd-en-meer-buiten-bewegen-bij-kinderen",
+          "pubDate": "Tue, 03 Nov 2026 14:09:15 +0100",
+          "description": "AMSTERDAM - HvA-studenten Bas Wenneker, Lotte Mila Thoolen en Allard Straatsma starten de campagne 'Offline is het nieuwe online' om aandacht te vragen voor schermgebruik, buitenspelen en beweging onder kinderen.Kinderen brengen een groot deel van hun vrije tijd achter een scherm door. [...]",
+          "categories": []
+        },
+        {
+          "title": "Drie generaties Zwaan: van houten ladders tot moderne glasbewassing",
+          "link": "https://www.hoornsdagblad.nl/regio/drie-generaties-zwaan-van-houten-ladders-tot-moderne-glasbewassing",
+          "pubDate": "Tue, 03 Nov 2026 13:04:30 +0100",
+          "description": "NOORD-HOLLAND - Wat ooit begon met zware houten ladders, emmers water en een flinke dosis doorzettingsvermogen, is uitgegroeid tot een familieverhaal dat inmiddels drie generaties omspant. Bij Facilitaire Dienstverlening Heerhugowaard B.V. (FDH) staat het schoonmaak- en glazenwassersvak al [...]",
+          "categories": []
+        },
+        {
+          "title": "Warmtenet groeit verder in Kersenboogerd",
+          "link": "https://www.hoornsdagblad.nl/regio/warmtenet-groeit-verder-in-kersenboogerd",
+          "pubDate": "Tue, 03 Nov 2026 12:27:16 +0100",
+          "description": "HOORN - De ontwikkeling van het warmtenet in de wijk Kersenboogerd in Hoorn bereikt een nieuwe mijlpaal. Er zijn nu al meer dan 650 woningen aangesloten op het warmtenet. En deze week worden de eerste woningen in de buurt Bibliotheek ook aangesloten. Dit is alweer de vierde buurt waar woningen [...]",
+          "categories": []
+        },
+        {
+          "title": "P&ocirc;pa Bastardo – Portugese rode wijn uit de Douro",
+          "link": "https://www.hoornsdagblad.nl/eten-drinken/popa-bastardo-portugese-rode-wijn-uit-de-douro",
+          "pubDate": "Tue, 03 Nov 2026 10:03:10 +0100",
+          "description": "Sommige wijnen verrassen je meteen. De P&ocirc;pa Bastardo is daar een prachtig voorbeeld van. Deze bijzondere Portugese rode wijn combineert elegantie, finesse heel veel drinkplezier. Bejubeld door experts en één van mijn favorieten.Portugese traditieDe familie Ferreira (Stéphane en Vanessa) maakt deze [...]",
+          "categories": []
+        },
+        {
+          "title": "Sinterklaas en zijn Pieten komen zaterdag 14 november weer naar Hoorn",
+          "link": "https://www.hoornsdagblad.nl/regio/sinterklaas-en-zijn-pieten-komen-zaterdag-14-november-weer-naar-hoorn",
+          "pubDate": "Tue, 03 Nov 2026 08:48:45 +0100",
+          "description": "HOORN – Het is bijna zover! Op zaterdag 14 november meren Sinterklaas en zijn Pieten weer aan in de sfeervolle haven van Hoorn. Vanaf 10.45 uur staat de binnenstad helemaal in het teken van de intocht. Na de feestelijke ontvangst aan de Oude Doelenkade trekt Sinterklaas door de historische [...]",
+          "categories": []
+        },
+        {
           "title": "Westfriezen klimt naar derde plaats na ruime zege op Schagen United",
           "link": "https://www.hoornsdagblad.nl/sport/westfriezen-klimt-naar-derde-plaats-na-ruime-zege-op-schagen-united",
           "pubDate": "Mon, 02 Nov 2026 23:16:11 +0100",
@@ -222,41 +257,6 @@
           "link": "https://www.hoornsdagblad.nl/algemeen/november-start-met-rustig-herfstweer-nachten-worden-frisser",
           "pubDate": "Sat, 31 Oct 2026 04:19:14 +0100",
           "description": "NEDERLAND – November gaat van start met rustig herfstweer. De komende week blijft het vaak droog en is er weinig wind, al overheerst aanvankelijk de bewolking. Later krijgt de zon meer ruimte en worden de nachten kouder, met landinwaarts kans op lichte vorst.Grijs weekend met weinig windZaterdag, [...]",
-          "categories": []
-        },
-        {
-          "title": "Westfriese Beursvloer zorgt voor 225 matches!",
-          "link": "https://www.hoornsdagblad.nl/regio/westfriese-beursvloer-zorgt-voor-225-matches",
-          "pubDate": "Fri, 30 Oct 2026 18:24:14 +0100",
-          "description": "BOVENKARSPEL – Wat een energie, enthousiasme en blije gezichten! De 17e Westfriese Beursvloer bracht donderdag 29 oktober 54 bedrijven en 64 maatschappelijke organisaties bij elkaar in Vereenigingsgebouw De Tuf in Bovenkarspel. En met succes! In een uur tijd werden maar liefst 225 matches gesloten. [...]",
-          "categories": []
-        },
-        {
-          "title": "'De Luchtoorlog 1914-1918' - 20 november 2026 - Oorlogsmuseum Medemblik",
-          "link": "https://www.hoornsdagblad.nl/regio/de-luchtoorlog-1914-1918-20-november-2026-oorlogsmuseum-medemblik",
-          "pubDate": "Fri, 30 Oct 2026 17:14:39 +0100",
-          "description": "MEDEMBLIK - In Oorlogsmuseum Medemblik zal er op vrijdag 20 november, door Hans Walrecht, een lezing worden gehouden over de ontwikkeling van De Luchtoorlog tussen 1014-1918. Een lezing voorzien van veel uniek beeldmateriaal en prachtige korte videofragmenten, vol verrassende momenten, waarop men [...]",
-          "categories": []
-        },
-        {
-          "title": "Camperbeurs Den Bosch breidt uit met extra beursdag",
-          "link": "https://www.hoornsdagblad.nl/kamperen/camperbeurs-den-bosch-breidt-uit-met-extra-beursdag",
-          "pubDate": "Fri, 30 Oct 2026 15:33:46 +0100",
-          "description": "DEN BOSCH - Camperbeurs Den Bosch breidt in 2027 uit van twee naar drie beursdagen. De uitbreiding is een logisch vervolg op de sterke groei van het evenement in Brabant. Tijdens de afgelopen editie in de Brabanthallen verwelkomde de beurs maar liefst 16.850 bezoekers, een recordaantal voor [...]",
-          "categories": []
-        },
-        {
-          "title": "Twee voetgangers aangereden op de Westerdijk in Hoorn, politie zoekt getuigen",
-          "link": "https://www.hoornsdagblad.nl/112-hoorn/twee-voetgangers-aangereden-op-de-westerdijk-in-hoorn-politie-zoekt-getuigen",
-          "pubDate": "Fri, 30 Oct 2026 14:18:27 +0100",
-          "description": "HOORN - Een auto raakte donderdag 29 oktober rond 20.04 uur twee voetgangers op de Westerdijk in Hoorn, vlakbij het theater. De 72-jarige bestuurder is aangehouden. Heeft u het ongeval gezien? Neem contact op met de politie.OngevalDe verdachte reed vanuit de richting van het centrum van Hoorn over [...]",
-          "categories": []
-        },
-        {
-          "title": "Bes Klein Ensemble brengt muzikale ode aan de liefde in Hoorn",
-          "link": "https://www.hoornsdagblad.nl/uitgaan/bes-klein-ensemble-brengt-muzikale-ode-aan-de-liefde-in-hoorn",
-          "pubDate": "Fri, 30 Oct 2026 13:46:41 +0100",
-          "description": "HOORN - Op zondag 22 november 2026 brengt Bes Klein Ensemble het concertprogramma Amor, ferisci pur naar de Oosterkerk in Hoorn. Vanaf 15.00 uur verkent het achtkoppige zangensemble de vele gezichten van de liefde binnen de concertserie van Oude Muziek Nu. Van de vreugde van een ontmoeting tot het [...]",
           "categories": []
         }
       ]
@@ -412,6 +412,42 @@
       "label": "Rodi Hoorn",
       "items": [
         {
+          "title": "Jarka en Ruud laten zien wat verduurzamen oplevert: ‘Of ‘ie lawaai geeft? Nee hoor, kom maar luisteren’",
+          "link": "https://www.rodi.nl/hoorn/nieuws/511177/jarka-en-ruud-laten-zien-wat-verduurzamen-oplevert-of-ie-lawaai-geeft-nee-hoor-kom-maar-luisteren",
+          "pubDate": "Tue, 03 Nov 2026 14:30:00 Z",
+          "description": "HOORN - Hoeveel geluid maakt een warmtepomp nu werkelijk? Wat levert verduurzamen op en hoe comfortabel is een huis zonder aardgas? Wie daar nieuwsgierig naar is, kan zaterdag 7 november zelf een kijkje nemen in de woning van Ruud Sweering en Jarka Plevier in Hoorn. Zij stellen hun verduurzaamde huis open tijdens de Nationale Duurzame Huizen Route.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Simone van der Vlugt genomineerd voor NS Publieksprijs: ‘In Hoorn liggen mijn vroegste jeugdherinneringen’",
+          "link": "https://www.rodi.nl/hoorn/nieuws/511133/simone-van-der-vlugt-genomineerd-voor-ns-publieksprijs-in-hoorn-liggen-mijn-vroegste-jeugdherinneringen",
+          "pubDate": "Tue, 03 Nov 2026 11:18:20 Z",
+          "description": "HOORN - Als kind klom ze in bomen, verzon ze voor zichzelf en haar buurtkinderen de spannendste avonturen en tikte ze haar eerste verhalen op een typemachine. Toen al had Simone van der Vlugt (59) de droom om schrijfster te worden. Inmiddels behoort de geboren Hoornse tot de bekendste schrijvers van Nederland. Met haar tiende historische roman 'Kruistocht van een koningin' is ze genomineerd voor de NS Publieksprijs 2026. Een bijzondere nominatie, juist omdat haar liefde voor dit genre een lange weg kent.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Flinke file op N194 bij Berkhout richting Hoorn, meerdere voertuigen betrokken",
+          "link": "https://www.rodi.nl/hoorn/112-nieuws/511110/flinke-file-op-n194-bij-berkhout-richting-hoorn-meerdere-voertuigen-betrokken",
+          "pubDate": "Tue, 03 Nov 2026 09:38:40 Z",
+          "description": "BERKHOUT - Rond 07.25 uur heeft dinsdagochtend een verkeersongeval plaatsgevonden op de N194 bij Berkhout. Bij het ongeval waren drie voertuigen betrokken. De aanrijding gebeurde onder een viaduct.",
+          "categories": [
+            "112-nieuws"
+          ]
+        },
+        {
+          "title": "Engel van Hoorn staat stil bij angst in kapel Dijk en Duin",
+          "link": "https://www.rodi.nl/hoorn/nieuws/511075/engel-van-hoorn-staat-stil-bij-angst-in-kapel-dijk-en-duin",
+          "pubDate": "Tue, 03 Nov 2026 08:30:00 Z",
+          "description": "HOORN - De Engel van Hoorn houdt zondag 8 november een bijeenkomst over angst en hoe mensen ermee omgaan. De middag vindt plaats in de kapel van Dijk en Duin aan de Wilhelminalaan 2. De toegang is gratis.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
           "title": "Lezing over Patriottentijd en Bataafse Revolutie in Foreestenhuis Hoorn",
           "link": "https://www.rodi.nl/hoorn/historie/511074/lezing-over-patriottentijd-en-bataafse-revolutie-in-foreestenhuis-hoorn",
           "pubDate": "Mon, 02 Nov 2026 17:57:14 Z",
@@ -458,11 +494,11 @@
         },
         {
           "title": "Coronaprik halen? Vrije inloop van 14.00 tot 16.00 uur",
-          "link": "https://www.rodi.nl/hoorn/nieuws/510330/coronaprik-halen-vrije-inloop-van-14-00-tot-16-00-uur",
+          "link": "https://www.rodi.nl/hoorn/partnerbijdrage/510330/coronaprik-halen-vrije-inloop-van-14-00-tot-16-00-uur",
           "pubDate": "Fri, 30 Oct 2026 11:05:00 Z",
           "description": "REGIO - De herfst is in volle gang. We zitten vaker binnen en de feestdagen komen eraan. Een mooi moment om te kijken of je in aanmerking komt voor de coronaprik. Met 18 locaties in onze regio kun je altijd dichtbij terecht.",
           "categories": [
-            "Nieuws"
+            "Partnerbijdrage"
           ]
         },
         {
@@ -599,42 +635,6 @@
           "categories": [
             "Nieuws"
           ]
-        },
-        {
-          "title": "Bewoners Venenlaan in Hoorn planten honderden bloembollen voor kleurrijk voorjaar",
-          "link": "https://www.rodi.nl/hoorn/nieuws/510461/bewoners-venenlaan-in-hoorn-planten-honderden-bloembollen-voor-kleurrijk-voorjaar",
-          "pubDate": "Tue, 27 Oct 2026 14:43:55 Z",
-          "description": "HOORN - Bewoners van de Venenlaan in Hoorn hebben gezamenlijk honderden bloembollen geplant om hun straat groener en kleurrijker te maken. Als alles volgens plan verloopt, moet de straat komend voorjaar veranderen in wat de initiatiefnemers zelf een 'mini-Keukenhofje' noemen.",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "‘Echt onvoorstelbaar’: Stichting Kinderfietsjes Actie uit Zwaag krijgt aanhangwagen cadeau",
-          "link": "https://www.rodi.nl/hoorn/nieuws/510419/echt-onvoorstelbaar-stichting-kinderfietsjes-actie-uit-zwaag-krijgt-aanhangwagen-cadeau",
-          "pubDate": "Tue, 27 Oct 2026 12:34:09 Z",
-          "description": "HOORN/ZWAAG - Een aanhangwagen lenen om gedoneerde kinderfietsen op te halen hoeft voortaan niet meer. Stichting Kinderfietsjes Actie uit Zwaag heeft van Koos Bakker Aanhangwagens in Hoorn een eigen aanhangwagen cadeau gekregen. Voor oprichter Paul Buis kwam de schenking als een grote verrassing. \"Dat een sponsor zoiets voor ons doet, is echt onvoorstelbaar.\"",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "Hoorn telt relatief weinig miljonairshuishoudens: 4 procent heeft vermogen van miljoen of meer",
-          "link": "https://www.rodi.nl/hoorn/nieuws/510386/hoorn-telt-relatief-weinig-miljonairshuishoudens-4-procent-heeft-vermogen-van-miljoen-of-meer",
-          "pubDate": "Tue, 27 Oct 2026 10:21:52 Z",
-          "description": "HOORN - Hoorn telt naar verhouding minder miljonairshuishoudens dan veel omliggende gemeenten. Vier procent van de huishoudens in Hoorn heeft een vermogen van minstens 1 miljoen euro. Daarmee ligt het aandeel miljonairshuishoudens in de gemeente onder het landelijk gemiddelde van 6,6 procent en ook lager dan in verschillende andere Westfriese gemeenten. Dat blijkt uit nieuwe vermogenscijfers van het Centraal Bureau voor de Statistiek (CBS).",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "Intochten Sinterklaas 2026: dit zijn de tijden en locaties in gemeente Hoorn",
-          "link": "https://www.rodi.nl/hoorn/nieuws/510371/intochten-sinterklaas-2026-dit-zijn-de-tijden-en-locaties-in-gemeente-hoorn",
-          "pubDate": "Tue, 27 Oct 2026 10:02:53 Z",
-          "description": "HOORN - Het duurt misschien nog even, maar de voorbereidingen voor de komst van Sinterklaas zijn alweer in volle gang. In Hoorn, Zwaag en Blokker staan ook dit jaar weer feestelijke activiteiten op het programma. Hieronder een overzicht van de bekende tijden en activiteiten rondom de intochten en Sinterklaasfeesten in 2026.",
-          "categories": [
-            "Nieuws"
-          ]
         }
       ]
     },
@@ -642,6 +642,33 @@
       "id": "streekomroep",
       "label": "Streekomroep",
       "items": [
+        {
+          "title": "Rectificatie: Geen primeur in West-Friesland",
+          "link": "https://www.streekomroepwestfriesland.nl/rectificatie-geen-primeur-in-west-friesland/",
+          "pubDate": "Tue, 03 Nov 2026 15:02:03 +0000",
+          "description": "In een eerder bericht meldden wij dat de inzet van een metselrobot bij de bouw van sociale huurwoningen in Spierdijk een primeur was voor West-Friesland. Dit blijkt niet juist te zijn. Bouwbedrijf Heddes Bouw & Ontwikkeling maakte namelijk in 2022 al gebruik van een metselrobot bij een van hun projecten in Berkhout. De inzet in Spierdijk is daarmee een mooie innovatieve stap, maar geen primeur voor de regio. Zie hier het nieuwsitem van de NOS waarin aandacht geschonken wordt aan de metselrobot in 2022. The post Rectificatie: Geen primeur in West-Friesland appeared first on Streekomroep West-Friesland .",
+          "categories": [
+            "Werk & economie"
+          ]
+        },
+        {
+          "title": "Geen Prins Pils in Ursem: cafés moesten posters en berichten over koning verwijderen",
+          "link": "https://www.streekomroepwestfriesland.nl/geen-prins-pils-in-ursem-cafes-moesten-posters-en-berichten-over-koning-verwijderen/",
+          "pubDate": "Tue, 03 Nov 2026 10:45:00 +0000",
+          "description": "Twee cafés in Ursem hebben in aanloop naar het bezoek van koning Willem-Alexander, afgelopen vrijdag, posters en social media-uitingen moeten verwijderen. Dit omdat de beelden volgens de gemeente Koggenland niet pasten bij het 'maatschappelijke belang van het bezoek'. Foto: NH Media / NH Nieuws De door AI gegenereerde afbeelding ziet er vrolijk uit. Een lachende koning Willem-Alexander zit in het café met een glas bier in zijn hand en daarboven prijkt de tekst 'Welkom in Ursem'. Marita Luitjes, uitbater van café De Rode Leeuw in het dorp, had er een week voor het bezoek al veel schik om. Ze liet de afbeelding zien op haar telefoon. \"Dit wordt onze gevelposter voor volgende week, een teken da",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
+        {
+          "title": "Toch vrachtwagens over Houtribdijk? Ondernemers praten met overheid over oplossing",
+          "link": "https://www.streekomroepwestfriesland.nl/toch-vrachtwagens-over-houtribdijk-ondernemers-praten-met-overheid-over-oplossing/",
+          "pubDate": "Tue, 03 Nov 2026 09:19:00 +0000",
+          "description": "Het vrachtwagenverbod op de Houtribdijk kost ondernemers aan beide kanten van de dijk naar eigen zeggen tot wel 100.000 euro per dag. Vandaag gaan ondernemers uit West-Friesland opnieuw in gesprek met Rijkswaterstaat over mogelijke oplossingen. Ze hopen onder meer dat ze met lege vrachtwagens weer over de dijk mogen rijden. Sinds twee weken mogen vrachtwagens zwaarder dan 15 ton niet meer over de Houtribdijk tussen Enkhuizen en Lelystad. De brugdelen zijn verouderd en moeten tot de renovatie worden ontzien. Vrachtwagens die boven de gewichtslimiet uitkomen, moeten daarom omrijden. \"Dat kost ons samen tot wel 100.000 euro per dag\", vertelde Hans-Peter Baars, voorzitter van de Westfriese Bedri",
+          "categories": [
+            "Verkeer & wonen"
+          ]
+        },
         {
           "title": "Doelpuntenfestijn eindigt in deceptie voor Always Forward",
           "link": "https://www.streekomroepwestfriesland.nl/doelpuntenfestijn-eindigt-in-deceptie-voor-always-forward/",
@@ -703,34 +730,6 @@
           "description": "Na ruim 35 jaar als zelfstandig ondernemer in de Hoornse horeca is het zover: René Stam doet een stap terug. Samen met Paola draait hij dit weekend zijn allerlaatste shift in Brasserie Velius. Vanaf volgende week staat er met de 24-jarige Demian Bek een nieuw gezicht aan het roer. Het afscheid op de vertrouwde plek op de hoek van de Gedempte Turfhaven laat de vaste klandizie niet onberoerd. De hele dag door stromen de bloemen, cadeaus en warme reacties binnen. Voor veel stamgasten, die de twee al kennen uit de tijd van Snackhuis De Poort, breekt er een nieuw tijdperk aan op de zaterdagochtend. \"We gaan de lieve mensen enorm missen, maar het is simpelweg mooi geweest,\" vertelt het duo tussen ",
           "categories": [
             "Werk & economie"
-          ]
-        },
-        {
-          "title": "Bijzonder wandkleed van dochter omgekomen Amerikaanse piloot naar Oorlogsmuseum",
-          "link": "https://www.streekomroepwestfriesland.nl/bijzonder-wandkleed-van-dochter-omgekomen-amerikaanse-piloot-naar-oorlogsmuseum/",
-          "pubDate": "Sat, 31 Oct 2026 12:15:28 +0000",
-          "description": "Het oorlogsmuseum in Medemblik heeft sinds maandag een bijzonder wandkleed in bruikleen gekregen. Het kleed is gemaakt door Claudia Kopel, dochter van de Amerikaanse vlieger Claud H. Bogert, die in 1945 om het leven kwam bij een vliegtuigcrash in Midwoud. Directeur Lars Rustenburg nam het wandkleed namens het museum in ontvangst. “Dit wandkleed vertelt een heel persoonlijk verhaal. Een verhaal over een dochter die haar vader nooit heeft gekend, maar hier in Midwoud zag dat hij en zijn kameraden niet zijn vergeten\", vertelt burgemeester Michiel Pijl. Toen Claudia Kopel in 2023 Midwoud bezocht, was ze onder de indruk van de manier waarop inwoners van Midwoud en Oostwoud de herinnering aan haar",
-          "categories": [
-            "Geschiedenis",
-            "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Geen pils en een schrikmomentje: koning op werkbezoek in Ursem",
-          "link": "https://www.streekomroepwestfriesland.nl/geen-pils-en-een-schrikmomentje-koning-op-werkbezoek-in-ursem/",
-          "pubDate": "Fri, 30 Oct 2026 19:12:00 +0000",
-          "description": "Ursem liep vanmiddag uit voor een bezoek van koning Willem-Alexander. Voor sommige dorpsbewoners was het een groot hoogtepunt. Toch moest de beveiliging ingrijpen toen een mogelijk verwarde man de koning aan wilde spreken. De koning speelde sportief mee met een potje tafelvoetbal en dronk met enkele dorpsbewoners en de burgemeester een bak koffie. Aan een pilsje wilde hij zich niet wagen tijdens het bezoek, aldus aanwezigen. Het werkbezoek stond in het teken van samenhorigheid. De koning ging op bezoek bij Ursemmers met een verstandelijke beperking en bij de brandweerkazerne. Voor sommige bewoners was deze koude herfstdag er eentje om nooit te vergeten. \"Hij zei wat tegen mij. Deze dag is ee",
-          "categories": [
-            "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "WEEFF Top Favoriet komende week in handen van singer-songwriter Fay",
-          "link": "https://www.streekomroepwestfriesland.nl/weeff-top-favoriet-komende-week-in-handen-van-singer-songwriter-fay/",
-          "pubDate": "Fri, 30 Oct 2026 18:48:00 +0000",
-          "description": "De Nederlandse singer-songwriter Fay heeft een nieuwe single uitgebracht: ‘Wagenziek’. Het nummer hoor je komende week extra vaak op de radio, want we roepen het uit tot nieuwe WEEFF Top Favoriet. De in Bergen op Zoom geboren Fay, voluit Fay Vriens, begon in 2023 aan haar muzikale carrière met de single ‘Dankjewel’. Later dat jaar volgden onder meer ‘Geen Spijt’ en ‘Thuis Thuis’. Ook werd ze geselecteerd voor de Popronde en stond ze in het voorprogramma van Blanks in Paradiso. In 2025 kreeg Fay veel aandacht op sociale media met haar Nederlandstalige bewerking van ‘Ordinary’ van de Amerikaanse zanger Alex Warren. Na toestemming bracht ze het nummer officieel uit. In de week dat het uitgebrac",
-          "categories": [
-            "Kunst & cultuur"
           ]
         }
       ]
