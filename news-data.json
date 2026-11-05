@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T15:23:04.259Z",
+  "updated": "2026-11-05T00:20:46.970Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -412,6 +412,24 @@
       "label": "Rodi Hoorn",
       "items": [
         {
+          "title": "Van 6 tot en met 8 november is er genoeg te beleven: dit kun je dit weekend doen in Hoorn!",
+          "link": "https://www.rodi.nl/hoorn/uit/511129/van-6-tot-en-met-8-november-is-er-genoeg-te-beleven-dit-kun-je-dit-weekend-doen-in-hoorn-",
+          "pubDate": "Wed, 04 Nov 2026 21:43:00 Z",
+          "description": "HOORN - Ook dit weekend - van vrijdag 6 tot en met zondag 8 november - is er weer genoeg te beleven in Hoorn. Zo kun je vroeg de dansvloer op tijdens Vroeg Pieken, genieten van bekende nummers van Boudewijn de Groot of verschillende optredens bezoeken tijdens het Kamermuziek Festival. Ook voor liefhebbers van hiphop en creatieve activiteiten is er genoeg te doen in Hoorn.",
+          "categories": [
+            "Uit"
+          ]
+        },
+        {
+          "title": "Sinterklaasintocht en demonstratie in Hoorn gaan door, maar niet tegelijk op Roode Steen",
+          "link": "https://www.rodi.nl/hoorn/gemeentenieuws/511416/sinterklaasintocht-en-demonstratie-in-hoorn-gaan-door-maar-niet-tegelijk-op-roode-steen",
+          "pubDate": "Wed, 04 Nov 2026 16:48:57 Z",
+          "description": "HOORN - In Hoorn vinden zaterdag 14 november zowel de Sinterklaasintocht als een aangemelde demonstratie van de Werkgroep Slavernijverleden Hoorn plaats. De gemeente heeft hierover de afgelopen periode gesprekken gevoerd met de betrokken partijen.",
+          "categories": [
+            "Gemeentenieuws"
+          ]
+        },
+        {
           "title": "37 zieke en dode bomen langs N-wegen in Westfriesland worden gekapt",
           "link": "https://www.rodi.nl/hoorn/nieuws/511389/37-zieke-en-dode-bomen-langs-n-wegen-in-westfriesland-worden-gekapt",
           "pubDate": "Wed, 04 Nov 2026 14:41:32 Z",
@@ -617,24 +635,6 @@
           "categories": [
             "Nieuws"
           ]
-        },
-        {
-          "title": "Jouw halloweenweekend in Hoorn: dit is er te doen! (30 oktober tot 1 november)",
-          "link": "https://www.rodi.nl/hoorn/uit/510251/jouw-halloweenweekend-in-hoorn-dit-is-er-te-doen-30-oktober-tot-1-november-",
-          "pubDate": "Wed, 28 Oct 2026 21:43:00 Z",
-          "description": "HOORN - Ook dit weekend, van vrijdag 30 oktober tot en met zondag 1 november, is er weer genoeg te doen in Hoorn. Van inspirerende fietsfilms op het grote doek en een optreden vol hits van Tom Jones tot een boekenmarkt in de Koepelkerk en een jubileumconcert van het Hoorns Kamerkoor: er staat van alles op het programma. Ook kun je met het gezin het ijs op of inspiratie opdoen voor je bruiloft. Dit is er dit weekend te doen in Hoorn.",
-          "categories": [
-            "Uit"
-          ]
-        },
-        {
-          "title": "Hoorn Zingt Hollands pakt groots uit met tweedaags Paasfestival in 2027",
-          "link": "https://www.rodi.nl/hoorn/uit/510624/hoorn-zingt-hollands-pakt-groots-uit-met-tweedaags-paasfestival-in-2027",
-          "pubDate": "Wed, 28 Oct 2026 17:01:09 Z",
-          "description": "HOORN - Op het Pelmolenpad in Hoorn verrijst op Goede Vrijdag 26 maart en zaterdag 27 maart 2027 een compleet festivalterrein voor de eerste Paaseditie van Hoorn Zingt Hollands. Met grote namen als Jan Smit, Tino Martin, Mart Hoogkamer, Frans Bauer, Jeroen van der Boom en Xander de Buisonjé wil de organisatie een nieuwe jaarlijkse paastraditie neerzetten.",
-          "categories": [
-            "Uit"
-          ]
         }
       ]
     },
@@ -642,6 +642,16 @@
       "id": "streekomroep",
       "label": "Streekomroep",
       "items": [
+        {
+          "title": "Thomasz Lin nieuwe directeur van Stoommachinemuseum in Medemblik",
+          "link": "https://www.streekomroepwestfriesland.nl/thomasz-lin-nieuwe-directeur-van-stoommachinemuseum-in-medemblik/",
+          "pubDate": "Wed, 04 Nov 2026 16:25:00 +0000",
+          "description": "Het Nederlands Stoommachinemuseum in Medemblik krijgt een nieuwe directeur. De 52-jarige Thomasz Lin volgt in december Harry de Bles op, die met pensioen gaat. \"Ik kijk ernaar uit om de wereld van stoom bij een grote groep mensen onder de aandacht te brengen\", vertelt Lin. \"Er ligt een gezonde basis waarop we kunnen voortbouwen. Het is een mooie uitdaging om dit bijzondere erfgoed te verbinden met de actualiteit en nieuwe generaties erbij te betrekken. \" Lin heeft ervaring op het gebied van cultuur, media, erfgoed en educatie. Als creatief projectleider en productmanager werkte hij mee aan tentoonstellingen, campagnes en nieuwe museale concepten bij musea en erfgoedinstellingen. Volgens het ",
+          "categories": [
+            "Geschiedenis",
+            "Kunst & cultuur"
+          ]
+        },
         {
           "title": "Leerlingen Martinuscollege zamelen statiegeld in om daklozen met 'slaapzakjassen' te helpen",
           "link": "https://www.streekomroepwestfriesland.nl/leerlingen-martinuscollege-zamelen-statiegeld-in-om-daklozen-met-slaapzakjassen-te-helpen/",
@@ -723,15 +733,6 @@
           "description": "Het vrachtwagenverbod op de Houtribdijk kost ondernemers aan beide kanten van de dijk naar eigen zeggen tot wel 100.000 euro per dag. Vandaag gaan ondernemers uit West-Friesland opnieuw in gesprek met Rijkswaterstaat over mogelijke oplossingen. Ze hopen onder meer dat ze met lege vrachtwagens weer over de dijk mogen rijden. Sinds twee weken mogen vrachtwagens zwaarder dan 15 ton niet meer over de Houtribdijk tussen Enkhuizen en Lelystad. De brugdelen zijn verouderd en moeten tot de renovatie worden ontzien. Vrachtwagens die boven de gewichtslimiet uitkomen, moeten daarom omrijden. \"Dat kost ons samen tot wel 100.000 euro per dag\", vertelde Hans-Peter Baars, voorzitter van de Westfriese Bedri",
           "categories": [
             "Verkeer & wonen"
-          ]
-        },
-        {
-          "title": "Doelpuntenfestijn eindigt in deceptie voor Always Forward",
-          "link": "https://www.streekomroepwestfriesland.nl/doelpuntenfestijn-eindigt-in-deceptie-voor-always-forward/",
-          "pubDate": "Mon, 02 Nov 2026 09:33:50 +0000",
-          "description": "Always Forward wist voor het eerst sinds 25 januari weer vier keer te scoren in één wedstrijd. Waar dat tegen LSVV nog een punt opleverde, bleef de beloning zaterdag tegen Jong Holland volledig uit. Integendeel, de Hoornse ploeg kreeg op eigen veld liefst zeven tegentreffers te verwerken. Een doelpuntrijk duel eindigde daardoor in een pijnlijke 4-7 nederlaag, die bovendien de laatste plaats op de ranglijst kostte. De wedstrijd begon redelijk gelijkwaardig, al toonde Jong Holland aanvallend iets meer dreiging. Toch nam Always Forward na een achterstand het initiatief over. Mick van der Gulik profiteerde van een fout van de Alkmaarse doelman en bracht de stand op 1-1. Twee minuten later zette ",
-          "categories": [
-            "Sport"
           ]
         }
       ]
