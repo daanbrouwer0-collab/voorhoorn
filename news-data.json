@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T00:20:46.970Z",
+  "updated": "2026-11-05T15:25:14.834Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -17,6 +17,15 @@
       "id": "hoornnieuws",
       "label": "Hoornnieuws",
       "items": [
+        {
+          "title": "Museum BroekerVeiling voor zestiende keer Pakhuis van Sinterklaas",
+          "link": "https://hoornnieuws.nl/2026/11/05/museum-broekerveiling-voor-zestiende-keer-pakhuis-van-sinterklaas/",
+          "pubDate": "Thu, 05 Nov 2026 09:25:46 +0000",
+          "description": "Klimmen, glijden, springen en puzzelen: vanaf zondag 15 november verandert Museum BroekerVeiling voor de zestiende keer in het Pakhuis van Sinterklaas. Tot en met woensdag 2 december kunnen kinderen op woensdag-, zaterdag- en zondagmiddagen hun vaardigheden als Piet testen, een voorstelling bezoeken en proberen hun Pietendiploma te verdienen. De historische lighallen van Museum BroekerVeiling worden voor het Pakhuis omgebouwd tot een groot trainingsparcours. Onder begeleiding van de Pieten gaan kinderen aan de slag met verschillende Pietenproeven. Wie alle opdrachten tot een goed einde brengt, ontvangt een Pietendiploma. Voorstelling Naast het parcours is er een muzikale voorstelling 'De Ver",
+          "categories": [
+            "Museum BroekerVeiling"
+          ]
+        },
         {
           "title": "Muzikale voorstelling Mooie Liedjes – LEGENDS komt naar Theater Het Pakhuis in Hoorn",
           "link": "https://hoornnieuws.nl/2026/11/04/muzikale-voorstelling-mooie-liedjes-legends-komt-naar-theater-het-pakhuis-in-hoorn/",
@@ -102,16 +111,6 @@
           "categories": [
             "Gemeentenieuws"
           ]
-        },
-        {
-          "title": "Allerzielen Lichtjesavond",
-          "link": "https://hoornnieuws.nl/2026/10/14/allerzielen-lichtjesavond/",
-          "pubDate": "Wed, 14 Oct 2026 09:17:35 +0000",
-          "description": "Op zaterdag 24 oktober wordt er weer een Allerzielenherdenking georganiseerd op de gemeentelijke begraafplaats van Enkhuizen. Onze overleden dierbaren hebben een speciale plek in ons hart. Hen herdenken hoort daarbij. Tijdstip De begraafplaats wordt op deze avond van 18.30 tot 21.30 uur opengesteld voor bezoekers. Er worden graflichtjes uitgedeeld, ook wordt er koffie/thee geschonken. De gemeentelijke begraafplaats vormt deze avond een ontmoetingsplek voor alle nabestaanden. Voor iedereen Iedereen is van harte welkom op deze bijzondere avond, ook al zijn uw dierbaren elders begraven, bijgezet of uitgestrooid. Daarnaast is de herdenking niet gebonden aan een religie. Beperkte parkeerplaatsen ",
-          "categories": [
-            "Agenda",
-            "Gemeentenieuws"
-          ]
         }
       ]
     },
@@ -119,6 +118,27 @@
       "id": "hoornsdagblad",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Een veilig gevoel begint bij de voordeur: Tasani helpt woningen beter te beveiligen",
+          "link": "https://www.hoornsdagblad.nl/wonen/een-veilig-gevoel-begint-bij-de-voordeur-tasani-helpt-woningen-beter-te-beveiligen",
+          "pubDate": "Thu, 05 Nov 2026 11:21:28 +0100",
+          "description": "Een goede beveiliging van je woning begint bij betrouwbare sloten. Toch staan veel mensen pas stil bij de veiligheid van hun deuren wanneer er daadwerkelijk iets gebeurt. Een inbraak, een defect slot of een buitensluiting kan voor veel stress zorgen. Tasani Lock and Security Solutions helpt [...]",
+          "categories": []
+        },
+        {
+          "title": "Rijlessen in Noord-Holland in twee jaar tijd ruim 15% duurder geworden",
+          "link": "https://www.hoornsdagblad.nl/automotive/rijlessen-in-noord-holland-in-twee-jaar-tijd-ruim-15-duurder-geworden",
+          "pubDate": "Thu, 05 Nov 2026 10:48:32 +0100",
+          "description": "Leren autorijden wordt steeds duurder, ook in Noord-Holland. Voor een uur rijles betaal je momenteel gemiddeld zo'n € 68. Dit uurtarief ligt 15,4% hoger dan in 2024. Zo'n prijsstijging loopt bij tientallen lessen al snel op tot honderden euro's. Wel verschilt het bedrag dat je betaalt sterk per [...]",
+          "categories": []
+        },
+        {
+          "title": "Provincie verwijdert zieke en doden bomen langs verschillende N-wegen",
+          "link": "https://www.hoornsdagblad.nl/algemeen/provincie-verwijdert-zieke-en-doden-bomen-langs-verschillende-n-wegen",
+          "pubDate": "Thu, 05 Nov 2026 08:42:41 +0100",
+          "description": "NOORD-HOLLAND - Vanaf medio januari 2027 start de provincie Noord-Holland met het kappen van zieke en dode bomen langs provinciale wegen in Alkmaar en omgeving, West-Friesland en Zuid-Kennemerland. Het gaat om 137 bomen die dood, ziek of in slechte conditie zijn. Deze worden verwijderd wegens de [...]",
+          "categories": []
+        },
         {
           "title": "Samen verzekerd via je werkgever of vereniging: wat zijn de voor- en nadelen?",
           "link": "https://www.hoornsdagblad.nl/algemeen/samen-verzekerd-via-je-werkgever-of-vereniging-wat-zijn-de-voor-en-nadelen",
@@ -236,27 +256,6 @@
           "link": "https://www.hoornsdagblad.nl/eten-drinken/popa-bastardo-portugese-rode-wijn-uit-de-douro",
           "pubDate": "Tue, 03 Nov 2026 10:03:10 +0100",
           "description": "Sommige wijnen verrassen je meteen. De P&ocirc;pa Bastardo is daar een prachtig voorbeeld van. Deze bijzondere Portugese rode wijn combineert elegantie, finesse heel veel drinkplezier. Bejubeld door experts en één van mijn favorieten.Portugese traditieDe familie Ferreira (Stéphane en Vanessa) maakt deze [...]",
-          "categories": []
-        },
-        {
-          "title": "Sinterklaas en zijn Pieten komen zaterdag 14 november weer naar Hoorn",
-          "link": "https://www.hoornsdagblad.nl/regio/sinterklaas-en-zijn-pieten-komen-zaterdag-14-november-weer-naar-hoorn",
-          "pubDate": "Tue, 03 Nov 2026 08:48:45 +0100",
-          "description": "HOORN – Het is bijna zover! Op zaterdag 14 november meren Sinterklaas en zijn Pieten weer aan in de sfeervolle haven van Hoorn. Vanaf 10.45 uur staat de binnenstad helemaal in het teken van de intocht. Na de feestelijke ontvangst aan de Oude Doelenkade trekt Sinterklaas door de historische [...]",
-          "categories": []
-        },
-        {
-          "title": "Westfriezen klimt naar derde plaats na ruime zege op Schagen United",
-          "link": "https://www.hoornsdagblad.nl/sport/westfriezen-klimt-naar-derde-plaats-na-ruime-zege-op-schagen-united",
-          "pubDate": "Mon, 02 Nov 2026 23:16:11 +0100",
-          "description": "ZWAAG - Westfriezen heeft zondag overtuigend afgerekend met Schagen United. De ploeg uit Zwaag won met 4-0 en nam daarmee de derde plaats over van de bezoekers. Ramon Wong Fong Sang en Jim Broers scoorden ieder tweemaal.Westfriezen houdt defensie geslotenTien minuten voor rust opende Wong Fong Sang [...]",
-          "categories": []
-        },
-        {
-          "title": "Inwoners Noord-Holland ontvingen sinds 2021 €117 miljoen aan woningisolatie-subsidie",
-          "link": "https://www.hoornsdagblad.nl/algemeen/inwoners-noord-holland-ontvingen-sinds-2021-117-miljoen-aan-woningisolatie-subsidie",
-          "pubDate": "Mon, 02 Nov 2026 11:52:52 +0100",
-          "description": "NOORD-HOLLAND - In Noord-Holland ontvingen woningeigenaren sinds 2021 bijna €117 miljoen subsidie voor het isoleren van hun huis. Van dat bedrag werden 142.815 isolerende maatregelen genomen. Waar isoleren voorheen vooral werd gedaan voor een warme woning in de winter of een lagere energierekening, [...]",
           "categories": []
         }
       ]
@@ -412,10 +411,28 @@
       "label": "Rodi Hoorn",
       "items": [
         {
+          "title": "Westfriese atletiektoppers Nadine Visser uit Hoogkarspel en Emma le Blansch uit Zwaag in de prijzen",
+          "link": "https://www.rodi.nl/hoorn/nieuws/511508/westfriese-atletiektoppers-nadine-visser-uit-hoogkarspel-en-emma-le-blansch-uit-zwaag-in-de-prijzen",
+          "pubDate": "Thu, 05 Nov 2026 13:06:31 Z",
+          "description": "HOOGKARSPEL/ZWAAG - Dubbel Westfries succes tijdens het jaarlijkse Atletiekgala. Nadine Visser uit Hoogkarspel is uitgeroepen tot Atlete van het Jaar. Ook de jonge Emma le Blansch uit Zwaag viel in de prijzen: zij ontving de Dafne Schippers Talent Award.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "De krant van deze week staat online",
+          "link": "https://www.rodi.nl/hoorn/nieuws/511502/de-krant-van-deze-week-staat-online-zxd70d",
+          "pubDate": "Thu, 05 Nov 2026 12:30:06 Z",
+          "description": "HOORN - De nieuwste editie van het Nieuwsblad Hoorn staat nu online op de website.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
           "title": "Van 6 tot en met 8 november is er genoeg te beleven: dit kun je dit weekend doen in Hoorn!",
           "link": "https://www.rodi.nl/hoorn/uit/511129/van-6-tot-en-met-8-november-is-er-genoeg-te-beleven-dit-kun-je-dit-weekend-doen-in-hoorn-",
           "pubDate": "Wed, 04 Nov 2026 21:43:00 Z",
-          "description": "HOORN - Ook dit weekend - van vrijdag 6 tot en met zondag 8 november - is er weer genoeg te beleven in Hoorn. Zo kun je vroeg de dansvloer op tijdens Vroeg Pieken, genieten van bekende nummers van Boudewijn de Groot of verschillende optredens bezoeken tijdens het Kamermuziek Festival. Ook voor liefhebbers van hiphop en creatieve activiteiten is er genoeg te doen in Hoorn.",
+          "description": "HOORN - Ook dit weekend - van vrijdag 6 tot en met zondag 8 november - is er weer genoeg te beleven in Hoorn en omgeving. Zo kun je vroeg de dansvloer op tijdens Vroeg Pieken, genieten van bekende nummers van Boudewijn de Groot of verschillende optredens bezoeken tijdens het Kamermuziek Festival. Ook voor liefhebbers van hiphop, kunst, duurzaamheid en creatieve activiteiten is er genoeg te doen.",
           "categories": [
             "Uit"
           ]
@@ -617,24 +634,6 @@
           "categories": [
             "112-nieuws"
           ]
-        },
-        {
-          "title": "Miljonair van 20 kilo staat in Museum van de 20e Eeuw in Hoorn",
-          "link": "https://www.rodi.nl/hoorn/nieuws/510744/miljonair-van-20-kilo-staat-in-museum-van-de-20e-eeuw-in-hoorn",
-          "pubDate": "Thu, 29 Oct 2026 15:01:17 Z",
-          "description": "HOORN - Het Museum van de 20e Eeuw in Hoorn heeft een bijzondere nieuwe aanwinst: een rekenmachine van 20 kilo met de naam The Millionaire Calculator. Een schenker gaf de machine onlangs aan het museum.",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "De krant van deze week staat online",
-          "link": "https://www.rodi.nl/hoorn/nieuws/510661/de-krant-van-deze-week-staat-online-vz56c3",
-          "pubDate": "Thu, 29 Oct 2026 09:54:13 Z",
-          "description": "HOORN - De nieuwste editie van het Nieuwsblad Hoorn staat nu online op de website.",
-          "categories": [
-            "Nieuws"
-          ]
         }
       ]
     },
@@ -642,6 +641,24 @@
       "id": "streekomroep",
       "label": "Streekomroep",
       "items": [
+        {
+          "title": "Martinus Cantorij uit Zwaag kijkt terug op bijzondere optredens in Engelse koninklijke kapel in Windsor",
+          "link": "https://www.streekomroepwestfriesland.nl/martinus-cantorij-uit-zwaag-kijkt-terug-op-bijzondere-optredens-in-engelse-koninklijke-kapel-in-windsor/",
+          "pubDate": "Thu, 05 Nov 2026 09:03:00 +0000",
+          "description": "De Martinus Cantorij uit Zwaag kijkt terug op een geslaagde reis en hun optredens in Windsor. Het koor trad op in St. George’s Chapel, de wereldberoemde kapel van de Britse koninklijke familie. Daar kregen ze mooie complimenten van de pastoor. Die sprak van ‘hemelse sopranen’ en ‘onberispelijke zang’. Ook voor dirigent Bas Halsema was het optreden in de eeuwenoude kapel een bijzondere ervaring. De Martinus Cantorij reist eens in de twee jaar naar Engeland om in een kathedraal of kapel te zingen. Het koor mikt iedere keer op een periode in de herfstvakantie, en had zich ruim van tevoren aangemeld voor een optreden in Windsor. De kapel maakt deel uit van Windsor Castle en heeft een lange gesch",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
+        {
+          "title": "Een 'megalomaan' museum mét skyboxen in Opmeer, maar de deuren gaan nooit open",
+          "link": "https://www.streekomroepwestfriesland.nl/een-megalomaan-museum-met-skyboxen-in-opmeer-maar-de-deuren-gaan-nooit-open/",
+          "pubDate": "Thu, 05 Nov 2026 05:00:00 +0000",
+          "description": "Een museum zo groot als een voetbalstadion, met 44 zalen én skyboxen. En dat in het anders zo bescheiden Opmeer. In 2005 onthulde Dirk Scheringa, eigenaar van het Scheringa Museum, plannen voor een gigantische uitbreiding. Aan ambitie geen gebrek, zeker niet als zijn kunstcollectie maar blijft groeien en het museum steeds meer bezoekers trekt. Maar de feestelijke opening? Die komt er nooit. In de derde aflevering van de documentaireserie 'De droom van Dirk – een Dalí in Spanbroek' staan de uitbreidingsplannen van het museum centraal. De aflevering is vandaag bij NH op televisie te zien. In 2005 – acht jaar na de opening van het museum aan de Spanbroekerweg in Spanbroek – werden de verhuispla",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
         {
           "title": "Thomasz Lin nieuwe directeur van Stoommachinemuseum in Medemblik",
           "link": "https://www.streekomroepwestfriesland.nl/thomasz-lin-nieuwe-directeur-van-stoommachinemuseum-in-medemblik/",
@@ -715,24 +732,6 @@
           "description": "In een eerder bericht meldden wij dat de inzet van een metselrobot bij de bouw van sociale huurwoningen in Spierdijk een primeur was voor West-Friesland. Dit blijkt niet juist te zijn. Bouwbedrijf Heddes Bouw & Ontwikkeling maakte namelijk in 2022 al gebruik van een metselrobot bij een van hun projecten in Berkhout. De inzet in Spierdijk is daarmee een mooie innovatieve stap, maar geen primeur voor de regio. Zie hier het nieuwsitem van de NOS waarin aandacht geschonken wordt aan de metselrobot in 2022. The post Rectificatie: Geen primeur in West-Friesland appeared first on Streekomroep West-Friesland .",
           "categories": [
             "Werk & economie"
-          ]
-        },
-        {
-          "title": "Geen Prins Pils in Ursem: cafés moesten posters en berichten over koning verwijderen",
-          "link": "https://www.streekomroepwestfriesland.nl/geen-prins-pils-in-ursem-cafes-moesten-posters-en-berichten-over-koning-verwijderen/",
-          "pubDate": "Tue, 03 Nov 2026 10:45:00 +0000",
-          "description": "Twee cafés in Ursem hebben in aanloop naar het bezoek van koning Willem-Alexander, afgelopen vrijdag, posters en social media-uitingen moeten verwijderen. Dit omdat de beelden volgens de gemeente Koggenland niet pasten bij het 'maatschappelijke belang van het bezoek'. Foto: NH Media / NH Nieuws De door AI gegenereerde afbeelding ziet er vrolijk uit. Een lachende koning Willem-Alexander zit in het café met een glas bier in zijn hand en daarboven prijkt de tekst 'Welkom in Ursem'. Marita Luitjes, uitbater van café De Rode Leeuw in het dorp, had er een week voor het bezoek al veel schik om. Ze liet de afbeelding zien op haar telefoon. \"Dit wordt onze gevelposter voor volgende week, een teken da",
-          "categories": [
-            "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Toch vrachtwagens over Houtribdijk? Ondernemers praten met overheid over oplossing",
-          "link": "https://www.streekomroepwestfriesland.nl/toch-vrachtwagens-over-houtribdijk-ondernemers-praten-met-overheid-over-oplossing/",
-          "pubDate": "Tue, 03 Nov 2026 09:19:00 +0000",
-          "description": "Het vrachtwagenverbod op de Houtribdijk kost ondernemers aan beide kanten van de dijk naar eigen zeggen tot wel 100.000 euro per dag. Vandaag gaan ondernemers uit West-Friesland opnieuw in gesprek met Rijkswaterstaat over mogelijke oplossingen. Ze hopen onder meer dat ze met lege vrachtwagens weer over de dijk mogen rijden. Sinds twee weken mogen vrachtwagens zwaarder dan 15 ton niet meer over de Houtribdijk tussen Enkhuizen en Lelystad. De brugdelen zijn verouderd en moeten tot de renovatie worden ontzien. Vrachtwagens die boven de gewichtslimiet uitkomen, moeten daarom omrijden. \"Dat kost ons samen tot wel 100.000 euro per dag\", vertelde Hans-Peter Baars, voorzitter van de Westfriese Bedri",
-          "categories": [
-            "Verkeer & wonen"
           ]
         }
       ]
