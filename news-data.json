@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T15:25:14.834Z",
+  "updated": "2026-11-06T00:11:17.831Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -118,6 +118,13 @@
       "id": "hoornsdagblad",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Teun Koopmeiners helpt Juventus aan zege bij oude club AZ",
+          "link": "https://www.hoornsdagblad.nl/sport/teun-koopmeiners-helpt-juventus-aan-zege-bij-oude-club-az",
+          "pubDate": "Thu, 05 Nov 2026 23:25:42 +0100",
+          "description": "ALKMAAR - AZ heeft donderdagavond voor het eerst na zeventien ongeslagen Europese thuiswedstrijden weer een nederlaag geleden. Juventus won in de competitiefase van de Europa League met 1-2 in Alkmaar. Oud-AZ'er Teun Koopmeiners opende de score en trok daarmee in het onderlinge duel met zijn broer [...]",
+          "categories": []
+        },
         {
           "title": "Een veilig gevoel begint bij de voordeur: Tasani helpt woningen beter te beveiligen",
           "link": "https://www.hoornsdagblad.nl/wonen/een-veilig-gevoel-begint-bij-de-voordeur-tasani-helpt-woningen-beter-te-beveiligen",
@@ -250,13 +257,6 @@
           "pubDate": "Tue, 03 Nov 2026 12:27:16 +0100",
           "description": "HOORN - De ontwikkeling van het warmtenet in de wijk Kersenboogerd in Hoorn bereikt een nieuwe mijlpaal. Er zijn nu al meer dan 650 woningen aangesloten op het warmtenet. En deze week worden de eerste woningen in de buurt Bibliotheek ook aangesloten. Dit is alweer de vierde buurt waar woningen [...]",
           "categories": []
-        },
-        {
-          "title": "P&ocirc;pa Bastardo – Portugese rode wijn uit de Douro",
-          "link": "https://www.hoornsdagblad.nl/eten-drinken/popa-bastardo-portugese-rode-wijn-uit-de-douro",
-          "pubDate": "Tue, 03 Nov 2026 10:03:10 +0100",
-          "description": "Sommige wijnen verrassen je meteen. De P&ocirc;pa Bastardo is daar een prachtig voorbeeld van. Deze bijzondere Portugese rode wijn combineert elegantie, finesse heel veel drinkplezier. Bejubeld door experts en één van mijn favorieten.Portugese traditieDe familie Ferreira (Stéphane en Vanessa) maakt deze [...]",
-          "categories": []
         }
       ]
     },
@@ -264,6 +264,13 @@
       "id": "hoornsdagblad-sport",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Teun Koopmeiners helpt Juventus aan zege bij oude club AZ",
+          "link": "https://www.hoornsdagblad.nl/sport/teun-koopmeiners-helpt-juventus-aan-zege-bij-oude-club-az",
+          "pubDate": "Thu, 05 Nov 2026 23:25:42 +0100",
+          "description": "ALKMAAR - AZ heeft donderdagavond voor het eerst na zeventien ongeslagen Europese thuiswedstrijden weer een nederlaag geleden. Juventus won in de competitiefase van de Europa League met 1-2 in Alkmaar. Oud-AZ'er Teun Koopmeiners opende de score en trok daarmee in het onderlinge duel met zijn broer [...]",
+          "categories": []
+        },
         {
           "title": "Westfriezen klimt naar derde plaats na ruime zege op Schagen United",
           "link": "https://www.hoornsdagblad.nl/sport/westfriezen-klimt-naar-derde-plaats-na-ruime-zege-op-schagen-united",
@@ -396,13 +403,6 @@
           "pubDate": "Thu, 15 Oct 2026 21:24:27 +0200",
           "description": "ALKMAAR - AZ heeft zijn eerste overwinning in de competitiefase van de Europa League geboekt. De Alkmaarders versloegen Hapoel Beer Sheva in eigen huis met 2-1. Invaller Mexx Meerdink besliste het duel door met zijn eerste balcontact een strafschop te benutten.Voorafgaand aan de wedstrijd [...]",
           "categories": []
-        },
-        {
-          "title": "Westfriezen en Bergen delen punten in doelpuntrijk duel",
-          "link": "https://www.hoornsdagblad.nl/sport/westfriezen-en-bergen-delen-punten-in-doelpuntrijk-duel",
-          "pubDate": "Mon, 12 Oct 2026 05:38:50 +0200",
-          "description": "ZWAAG – Westfriezen en vv Bergen hebben in een vermakelijke wedstrijd met 3-3 gelijkgespeeld. De thuisploeg gaf voor rust tweemaal een voorsprong uit handen, maar kwam in de tweede helft zelf terug van een achterstand. Jim Broers nam twee doelpunten voor zijn rekening.Onder herfstachtige [...]",
-          "categories": []
         }
       ]
     },
@@ -410,6 +410,15 @@
       "id": "rodi",
       "label": "Rodi Hoorn",
       "items": [
+        {
+          "title": "Raadsleden ontmoeten inwoners tijdens raadscafé in Zwaag",
+          "link": "https://www.rodi.nl/hoorn/gemeentenieuws/511591/raadsleden-ontmoeten-inwoners-tijdens-raadscafe-in-zwaag",
+          "pubDate": "Thu, 05 Nov 2026 16:59:40 Z",
+          "description": "ZWAAG - De gemeenteraad nodigt inwoners uit voor een raadscafé in De Witte Valk in Zwaag. De bijeenkomst is donderdag 19 november van 19.30 tot 22.00 uur. Inwoners spreken er informeel met raadsleden.",
+          "categories": [
+            "Gemeentenieuws"
+          ]
+        },
         {
           "title": "Westfriese atletiektoppers Nadine Visser uit Hoogkarspel en Emma le Blansch uit Zwaag in de prijzen",
           "link": "https://www.rodi.nl/hoorn/nieuws/511508/westfriese-atletiektoppers-nadine-visser-uit-hoogkarspel-en-emma-le-blansch-uit-zwaag-in-de-prijzen",
@@ -625,15 +634,6 @@
           "categories": [
             "Politiek"
           ]
-        },
-        {
-          "title": "Burgemeester sluit woning in Hoorn voor drie maanden na vondst van drugs en wapens",
-          "link": "https://www.rodi.nl/hoorn/112-nieuws/510782/burgemeester-sluit-woning-in-hoorn-voor-drie-maanden-na-vondst-van-drugs-en-wapens",
-          "pubDate": "Thu, 29 Oct 2026 16:17:51 Z",
-          "description": "HOORN - Burgemeester Jan Nieuwenburg heeft donderdagmiddag een woning aan de Rondeelstraat in Hoorn voor drie maanden laten sluiten. Aanleiding voor de maatregel is de vondst van verdovende middelen, wapens en spullen die gebruikt kunnen worden voor de verwerking van drugs.",
-          "categories": [
-            "112-nieuws"
-          ]
         }
       ]
     },
@@ -641,6 +641,16 @@
       "id": "streekomroep",
       "label": "Streekomroep",
       "items": [
+        {
+          "title": "Verkeersborden Westfrisiaweg na bijna anderhalf jaar hersteld, weg vannacht nog tijdelijk gedeeltelijk dicht",
+          "link": "https://www.streekomroepwestfriesland.nl/verkeersborden-westfrisiaweg-na-bijna-anderhalf-jaar-hersteld-weg-vannacht-nog-tijdelijk-gedeeltelijk-dicht/",
+          "pubDate": "Thu, 05 Nov 2026 17:50:00 +0000",
+          "description": "Provincie Noord-Holland is begonnen met het herstel van een portaal op de Westfrisiaweg (N307), ter hoogte van de afslag Risdam bij Zwaag. Deze week is de weg tijdelijk gedeeltelijk afgesloten geweest, waarbij verwacht wordt dat de vervanging vrijdag is afgerond. In juli 2025 botste een betonpompwagen tegen de bebording . Volgens een woordvoerder van de politie was de chauffeur destijds vergeten de zogeheten giek in te halen, waardoor deze borden beschadigd raakten en werden verwijderd. De paal achter het geluidsscherm bleef lange tijd schuin naast de weg zichtbaar. Bekijk hier beelden van het ongeluk in 2025. De tekst gaat verder. Na bijna zestien maanden is Provincie Noord-Holland begonnen",
+          "categories": [
+            "Politiek",
+            "Verkeer & wonen"
+          ]
+        },
         {
           "title": "Martinus Cantorij uit Zwaag kijkt terug op bijzondere optredens in Engelse koninklijke kapel in Windsor",
           "link": "https://www.streekomroepwestfriesland.nl/martinus-cantorij-uit-zwaag-kijkt-terug-op-bijzondere-optredens-in-engelse-koninklijke-kapel-in-windsor/",
@@ -723,15 +733,6 @@
           "categories": [
             "Gezondheid",
             "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Rectificatie: Geen primeur in West-Friesland",
-          "link": "https://www.streekomroepwestfriesland.nl/rectificatie-geen-primeur-in-west-friesland/",
-          "pubDate": "Tue, 03 Nov 2026 15:02:03 +0000",
-          "description": "In een eerder bericht meldden wij dat de inzet van een metselrobot bij de bouw van sociale huurwoningen in Spierdijk een primeur was voor West-Friesland. Dit blijkt niet juist te zijn. Bouwbedrijf Heddes Bouw & Ontwikkeling maakte namelijk in 2022 al gebruik van een metselrobot bij een van hun projecten in Berkhout. De inzet in Spierdijk is daarmee een mooie innovatieve stap, maar geen primeur voor de regio. Zie hier het nieuwsitem van de NOS waarin aandacht geschonken wordt aan de metselrobot in 2022. The post Rectificatie: Geen primeur in West-Friesland appeared first on Streekomroep West-Friesland .",
-          "categories": [
-            "Werk & economie"
           ]
         }
       ]
