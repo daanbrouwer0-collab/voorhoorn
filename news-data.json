@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T00:11:17.831Z",
+  "updated": "2026-11-06T14:58:37.813Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -119,10 +119,52 @@
       "label": "Hoornsdagblad",
       "items": [
         {
+          "title": "Werkkamer van Sinterklaas weer open voor schoolklassen in Hoorn",
+          "link": "https://www.hoornsdagblad.nl/regio/werkkamer-van-sinterklaas-weer-open-voor-schoolklassen-in-hoorn",
+          "pubDate": "Fri, 06 Nov 2026 15:32:55 +0100",
+          "description": "HOORN - Ook al is het Westfries Museum gesloten vanwege de grootschalige verbouwing, de Sinterklaastraditie gaat gewoon door. Vanaf de intocht van Sinterklaas verandert een van de lokalen van de Museumwerkplaats in de Boterhal in de werkkamer van de Sint. Leerlingen uit groep 1, 2 en 3 zijn van [...]",
+          "categories": []
+        },
+        {
+          "title": "5 van de 7 reptielensoorten gaan achteruit, alleen muurhagedis neemt toe",
+          "link": "https://www.hoornsdagblad.nl/algemeen/l5-van-de-7-reptielensoorten-gaan-achteruit-alleen-muurhagedis-neemt-toe",
+          "pubDate": "Fri, 06 Nov 2026 11:52:33 +0100",
+          "description": "De populaties van vijf van de zeven reptielensoorten gingen de afgelopen twaalf jaar achteruit. Uitzonderingen zijn de muurhagedis, die vooruitging, en de hazelworm die stabiel bleef. Gemiddeld daalden de populaties van reptielen vanaf 2014, en waren in 2025 qua omvang ongeveer gelijk aan die van [...]",
+          "categories": []
+        },
+        {
+          "title": "College stelt twee locaties voor tijdelijke opvang en huisvesting voor",
+          "link": "https://www.hoornsdagblad.nl/gemeente/college-stelt-twee-locaties-voor-tijdelijke-opvang-en-huisvesting-voor",
+          "pubDate": "Fri, 06 Nov 2026 10:20:28 +0100",
+          "description": "HOORN - De gemeente Hoorn heeft onderzoek gedaan naar geschikte plekken voor de opvang van asielzoekers en tijdelijke huisvesting van andere woningzoekenden. Het college van burgemeester en wethouders stelt de gemeenteraad voor om twee locaties in Hoorn verder uit te werken voor tijdelijke opvang [...]",
+          "categories": []
+        },
+        {
+          "title": "Volgende week zondag: Grootste popronde Hoorn gaat los",
+          "link": "https://www.hoornsdagblad.nl/uitgaan/volgende-week-zondag-grootste-popronde-hoorn-gaat-los",
+          "pubDate": "Fri, 06 Nov 2026 09:55:01 +0100",
+          "description": "HOORN - Je ziet overal de posters al hangen en de programmaboekjes liggen. En de liefhebbers kijken er inmiddels enorm naar uit: op zondag 15 november host Hoorn de grootste Popronde die de stad ooit heeft gehad. Die dag vinden op 22 locaties in de stad maar liefst 45 optredens plaats van de [...]",
+          "categories": []
+        },
+        {
+          "title": "Gratis woningcheck om je huis (brand)veiliger te maken",
+          "link": "https://www.hoornsdagblad.nl/regio/gratis-woningcheck-om-je-huis-brandveiliger-te-maken",
+          "pubDate": "Fri, 06 Nov 2026 09:39:11 +0100",
+          "description": "NOORD-HOLLAND - Hangen er in jouw huis genoeg goed werkende rookmelders? Weet jij wat je moet doen bij een vlam in de pan? En welke gevaren kunnen er ontstaan door een cv-ketel of houtkachel? Al deze vragen én meer komen aan bod tijdens de gratis woningcheck van de brandweer. Zo creëer je meer [...]",
+          "categories": []
+        },
+        {
           "title": "Teun Koopmeiners helpt Juventus aan zege bij oude club AZ",
           "link": "https://www.hoornsdagblad.nl/sport/teun-koopmeiners-helpt-juventus-aan-zege-bij-oude-club-az",
           "pubDate": "Thu, 05 Nov 2026 23:25:42 +0100",
           "description": "ALKMAAR - AZ heeft donderdagavond voor het eerst na zeventien ongeslagen Europese thuiswedstrijden weer een nederlaag geleden. Juventus won in de competitiefase van de Europa League met 1-2 in Alkmaar. Oud-AZ'er Teun Koopmeiners opende de score en trok daarmee in het onderlinge duel met zijn broer [...]",
+          "categories": []
+        },
+        {
+          "title": "Medaille voor vredesmissie in buitenland",
+          "link": "https://www.hoornsdagblad.nl/algemeen/medaille-voor-vredesmissie-in-buitenland",
+          "pubDate": "Thu, 05 Nov 2026 19:57:01 +0100",
+          "description": "DEN HAAG - 21 politiemedewerkers hebben de Herinneringsmedaille Internationale Missies ontvangen. De medailles zijn een blijk van waardering en erkenning voor het werk dat zij als missiegangers verrichtten in conflictgebieden over heel de wereld.De 21 politiemedewerkers kregen in de Nieuwe Kerk te [...]",
           "categories": []
         },
         {
@@ -133,6 +175,13 @@
           "categories": []
         },
         {
+          "title": "Online bedreiging en intimidatie leidt bij 4 op de 10 tot psychische problemen",
+          "link": "https://www.hoornsdagblad.nl/algemeen/online-bedreiging-en-intimidatie-leidt-bij-4-op-de-10-tot-psychische-problemen",
+          "pubDate": "Thu, 05 Nov 2026 11:06:23 +0100",
+          "description": "In 2025 zei 20 procent van de slachtoffers van criminaliteit emotionele of psychische problemen te hebben als gevolg van het delict. Dit komt het vaakst voor bij online bedreiging of intimidatie (40 procent), gevolgd door geweldsdelicten (32 procent). Ook slachtoffers bij wie het delict dichtbij [...]",
+          "categories": []
+        },
+        {
           "title": "Rijlessen in Noord-Holland in twee jaar tijd ruim 15% duurder geworden",
           "link": "https://www.hoornsdagblad.nl/automotive/rijlessen-in-noord-holland-in-twee-jaar-tijd-ruim-15-duurder-geworden",
           "pubDate": "Thu, 05 Nov 2026 10:48:32 +0100",
@@ -140,10 +189,24 @@
           "categories": []
         },
         {
+          "title": "Programma boeklancering 'Maar dan ga je toch gewoon weg' compleet",
+          "link": "https://www.hoornsdagblad.nl/algemeen/programma-boeklancering-maar-dan-ga-je-toch-gewoon-weg-compleet",
+          "pubDate": "Thu, 05 Nov 2026 09:00:43 +0100",
+          "description": "OBDAM - Met de aansluiting van Tweede Kamerlid, Songül Mutluer is het programma voor de lancering van het boek Maar dan ga je toch gewoon weg van Hanneke van de Water compleet. Op vrijdag 20 november komen in Sociaal-Cultureel Centrum De Brink in Obdam persoonlijke ervaringen, onderzoek en [...]",
+          "categories": []
+        },
+        {
           "title": "Provincie verwijdert zieke en doden bomen langs verschillende N-wegen",
           "link": "https://www.hoornsdagblad.nl/algemeen/provincie-verwijdert-zieke-en-doden-bomen-langs-verschillende-n-wegen",
           "pubDate": "Thu, 05 Nov 2026 08:42:41 +0100",
           "description": "NOORD-HOLLAND - Vanaf medio januari 2027 start de provincie Noord-Holland met het kappen van zieke en dode bomen langs provinciale wegen in Alkmaar en omgeving, West-Friesland en Zuid-Kennemerland. Het gaat om 137 bomen die dood, ziek of in slechte conditie zijn. Deze worden verwijderd wegens de [...]",
+          "categories": []
+        },
+        {
+          "title": "Weer meer kilometers gereden, vooral doordat aantal auto's groeit",
+          "link": "https://www.hoornsdagblad.nl/automotive/weer-meer-kilometers-gereden-vooral-doordat-aantal-autos-groeit",
+          "pubDate": "Thu, 05 Nov 2026 06:54:26 +0100",
+          "description": "NEDERLAND -In 2025 hebben Nederlandse wegvoertuigen (personenauto's, bestelauto's, zware vrachtvoertuigen, campers en bussen) bijna 153,5 miljard kilometer afgelegd. Dat is 1,1 procent meer dan een jaar eerder en 2,3 procent meer dan in 2019, voor de coronapandemie. Dit meldt het Centraal Bureau [...]",
           "categories": []
         },
         {
@@ -193,69 +256,6 @@
           "link": "https://www.hoornsdagblad.nl/algemeen/provincie-geeft-subsidie-aan-veehouders-die-willen-stoppen",
           "pubDate": "Wed, 04 Nov 2026 11:29:42 +0100",
           "description": "NOORD-HOLLAND - Noord-Hollandse veehouders die vrijwillig hun bedrijf (deels) willen beëindigen kunnen hiervoor subsidie aanvragen bij de provincie. Er is in totaal ruim 8 miljoen euro beschikbaar. De subsidie is bedoeld voor kleine en middelgrote veehouderijen met varkens, pluimvee en koeien in en [...]",
-          "categories": []
-        },
-        {
-          "title": "Classic Express brengt klassieke muziek naar leerlingen in Hoorn",
-          "link": "https://www.hoornsdagblad.nl/regio/classic-express-brengt-klassieke-muziek-naar-leerlingen-in-hoorn",
-          "pubDate": "Wed, 04 Nov 2026 10:48:26 +0100",
-          "description": "HOORN - Op donderdag 5 en vrijdag 6 november staat de Classic Express, de mobiele concertzaal van het Prinses Christina Concours, in Hoorn. Als onderdeel van het Kamermuziekfestival Hoorn, dat van donderdag 5 tot en met zondag 8 november plaatsvindt, ontvangt de Classic Express drie basisscholen [...]",
-          "categories": []
-        },
-        {
-          "title": "Open koffieochtend op donderdag 12 november 2026",
-          "link": "https://www.hoornsdagblad.nl/regio/open-koffieochtend-op-donderdag-12-november-2026",
-          "pubDate": "Wed, 04 Nov 2026 10:02:54 +0100",
-          "description": "HOORN - We zitten diep in de herfst! Hoog tijd voor een beetje warmte en gezelligheid. Donderdag 12 november wordt in Het Lichtbaken een Open Koffieochtend gehouden. Een mooie gelegenheid voor iedereen die er even uit wil zijn... voor een praatje, voor contact, voor een warme drank met wat [...]",
-          "categories": []
-        },
-        {
-          "title": "ZOA biedt noodhulp aan evacués uit belegerde Oekraïense stad Oleshky",
-          "link": "https://www.hoornsdagblad.nl/goededoelen/zoa-biedt-noodhulp-aan-evacues-uit-belegerde-oekraiense-stad-oleshky",
-          "pubDate": "Wed, 04 Nov 2026 08:51:03 +0100",
-          "description": "Hulporganisatie ZOA biedt noodhulp aan mensen die de afgelopen dagen werden geëvacueerd uit de zwaar getroffen Oekraïense stad Oleshky. Dankzij een tijdelijk staakt-het-vuren in de regio Cherson, dat tot stand kwam na diplomatieke inspanningen van Melania Trump en paus Leo XIV, konden inwoners van [...]",
-          "categories": []
-        },
-        {
-          "title": "Woonwinkels in Hoorn",
-          "link": "https://www.hoornsdagblad.nl/wonen/woonwinkels-in-hoorn",
-          "pubDate": "Wed, 04 Nov 2026 08:00:00 +0100",
-          "description": "Een goede woonwinkel is meer dan een showroom vol meubels, het is de plek waar je huis een thuis wordt. Hoorn telt meerdere woonwinkels die opvallen door een breed aanbod, goed advies en een inspirerende sfeer, of je nu een complete woonkamer wilt inrichten of op zoek bent naar het perfecte [...]",
-          "categories": []
-        },
-        {
-          "title": "Europa Kinderhulp zoekt vakantieouders voor kwetsbare kinderen",
-          "link": "https://www.hoornsdagblad.nl/goededoelen/europa-kinderhulp-zoekt-vakantieouders-voor-kwetsbare-kinderen",
-          "pubDate": "Wed, 04 Nov 2026 07:53:25 +0100",
-          "description": "Al 65 jaar brengt Europa Kinderhulp kwetsbare kinderen uit Nederland, België, Duitsland en Frankrijk samen met volwassenen die hen een onbezorgde vakantie willen bieden. Ook voor de komende zomer is Europa Kinderhulp weer op zoek naar vakantieouders die zich over een kind in de leeftijd van 5 tot [...]",
-          "categories": []
-        },
-        {
-          "title": "Campagne zet in op minder schermtijd en meer buiten bewegen bij kinderen",
-          "link": "https://www.hoornsdagblad.nl/algemeen/campagne-zet-in-op-minder-schermtijd-en-meer-buiten-bewegen-bij-kinderen",
-          "pubDate": "Tue, 03 Nov 2026 14:09:15 +0100",
-          "description": "AMSTERDAM - HvA-studenten Bas Wenneker, Lotte Mila Thoolen en Allard Straatsma starten de campagne 'Offline is het nieuwe online' om aandacht te vragen voor schermgebruik, buitenspelen en beweging onder kinderen.Kinderen brengen een groot deel van hun vrije tijd achter een scherm door. [...]",
-          "categories": []
-        },
-        {
-          "title": "Ministerie publiceert overzicht van ernstige incidenten in asielopvang: 175 meldingen in 2026",
-          "link": "https://www.hoornsdagblad.nl/112-hoorn/ministerie-publiceert-overzicht-van-ernstige-incidenten-in-asielopvang-175-meldingen-in-2026",
-          "pubDate": "Tue, 03 Nov 2026 14:04:03 +0100",
-          "description": "NEDERLAND – Na maanden van vertraging heeft het ministerie van Justitie en Veiligheid cijfers naar buiten gebracht over ernstige incidenten binnen de Nederlandse asielopvang.De overzichten bevatten meldingen van onder meer steekpartijen, zedenmisdrijven, brandstichtingen, agressie en dreigingen met [...]",
-          "categories": []
-        },
-        {
-          "title": "Drie generaties Zwaan: van houten ladders tot moderne glasbewassing",
-          "link": "https://www.hoornsdagblad.nl/regio/drie-generaties-zwaan-van-houten-ladders-tot-moderne-glasbewassing",
-          "pubDate": "Tue, 03 Nov 2026 13:04:30 +0100",
-          "description": "NOORD-HOLLAND - Wat ooit begon met zware houten ladders, emmers water en een flinke dosis doorzettingsvermogen, is uitgegroeid tot een familieverhaal dat inmiddels drie generaties omspant. Bij Facilitaire Dienstverlening Heerhugowaard B.V. (FDH) staat het schoonmaak- en glazenwassersvak al [...]",
-          "categories": []
-        },
-        {
-          "title": "Warmtenet groeit verder in Kersenboogerd",
-          "link": "https://www.hoornsdagblad.nl/regio/warmtenet-groeit-verder-in-kersenboogerd",
-          "pubDate": "Tue, 03 Nov 2026 12:27:16 +0100",
-          "description": "HOORN - De ontwikkeling van het warmtenet in de wijk Kersenboogerd in Hoorn bereikt een nieuwe mijlpaal. Er zijn nu al meer dan 650 woningen aangesloten op het warmtenet. En deze week worden de eerste woningen in de buurt Bibliotheek ook aangesloten. Dit is alweer de vierde buurt waar woningen [...]",
           "categories": []
         }
       ]
@@ -410,6 +410,15 @@
       "id": "rodi",
       "label": "Rodi Hoorn",
       "items": [
+        {
+          "title": "Hoorn onderzoekt twee locaties voor tijdelijke opvang en huisvesting",
+          "link": "https://www.rodi.nl/hoorn/gemeentenieuws/511632/hoorn-onderzoekt-twee-locaties-voor-tijdelijke-opvang-en-huisvesting",
+          "pubDate": "Fri, 06 Nov 2026 12:20:06 Z",
+          "description": "HOORN - De gemeente Hoorn heeft onderzoek gedaan naar geschikte plekken voor de opvang van asielzoekers en tijdelijke huisvesting van andere woningzoekenden. Het college van burgemeester en wethouders stelt de gemeenteraad voor om twee locaties in Hoorn verder uit te werken voor tijdelijke opvang van asielzoekers en huisvesting van andere woningzoekenden.",
+          "categories": [
+            "Gemeentenieuws"
+          ]
+        },
         {
           "title": "Raadsleden ontmoeten inwoners tijdens raadscafé in Zwaag",
           "link": "https://www.rodi.nl/hoorn/gemeentenieuws/511591/raadsleden-ontmoeten-inwoners-tijdens-raadscafe-in-zwaag",
@@ -625,15 +634,6 @@
           "categories": [
             "112-nieuws"
           ]
-        },
-        {
-          "title": "Hart van Hoorn wil werkelijk autobezit zwaarder laten wegen bij parkeerbeleid",
-          "link": "https://www.rodi.nl/hoorn/politiek/510800/hart-van-hoorn-wil-werkelijk-autobezit-zwaarder-laten-wegen-bij-parkeerbeleid",
-          "pubDate": "Thu, 29 Oct 2026 20:37:55 Z",
-          "description": "HOORN - Hart van Hoorn wil dat de gemeente Hoorn bij het parkeerbeleid meer rekening houdt met het daadwerkelijke autobezit en de parkeerbehoefte in wijken. De fractie heeft hierover zeven schriftelijke vragen gesteld aan het college.",
-          "categories": [
-            "Politiek"
-          ]
         }
       ]
     },
@@ -641,6 +641,15 @@
       "id": "streekomroep",
       "label": "Streekomroep",
       "items": [
+        {
+          "title": "Popronde strijkt volgend weekend neer in Hoorn, Streekomroep doet live radioverslag",
+          "link": "https://www.streekomroepwestfriesland.nl/popronde-strijkt-volgend-weekend-neer-in-hoorn-streekomroep-doet-live-radioverslag/",
+          "pubDate": "Fri, 06 Nov 2026 09:32:18 +0000",
+          "description": "De binnenstad van Hoorn maakt zich op voor de elfde en tot nu toe grootste editie van de Popronde, het grootste reizende muziekfestival van Nederland. Volgend weekend zijn op ruim twintig locaties in de binnenstad in totaal 45 optredens te zien. De optredens in Hoorn op 15 november zijn gratis toegankelijk en beginnen vanaf 13.00 uur. Het evenement biedt nationaal poptalent kans op verschillende podia op te treden. Volgens coördinator Melissa Hoek kan het publiek daarbij zomaar een toekomstige bekende artiest ontdekken. “Inmiddels legendarisch is het verhaal van MEAU, die een paar jaar geleden tijdens haar optreden bij Charlies te horen kreeg dat ze op Eurosonic Noorderslag mocht spelen. Waa",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
         {
           "title": "Verkeersborden Westfrisiaweg na bijna anderhalf jaar hersteld, weg vannacht nog tijdelijk gedeeltelijk dicht",
           "link": "https://www.streekomroepwestfriesland.nl/verkeersborden-westfrisiaweg-na-bijna-anderhalf-jaar-hersteld-weg-vannacht-nog-tijdelijk-gedeeltelijk-dicht/",
@@ -723,16 +732,6 @@
           "categories": [
             "Gezondheid",
             "Sport"
-          ]
-        },
-        {
-          "title": "Slimme vloer spoort ouderen op met verhoogd risico op vallen",
-          "link": "https://www.streekomroepwestfriesland.nl/slimme-vloer-spoort-ouderen-op-met-verhoogd-risico-op-vallen/",
-          "pubDate": "Tue, 03 Nov 2026 17:00:00 +0000",
-          "description": "Een tegeltje, verlies van balans of zwakke gewrichten. Een ongelukje zit in een klein hoekje. De gevolgen van een val kunnen op oudere leeftijd erg groot zijn. In Oostwoud kunnen senioren over een speciale catwalk lopen. Deze 'slimme vloer' meet of ouderen valgevoelig zijn. In dorpscentrum Woudrust in Oostwoud ligt op de vloer een mat van zeil. Het lijkt zo'n vloertje in de bijkeuken. Maar als Anneke de Vries (77) er overheen loopt, wordt de mat slim. Met de Smartfloor wordt het loopgedrag in kaart gebracht, door de sensoren in de enkelband om Annekes voet. Ze weet dat ze wat wiebelig is. \"Aan één kant heb ik minder kracht in mijn benen door een hernia.\" Verhoogd valrisico Medewerkers van Te",
-          "categories": [
-            "Gezondheid",
-            "Kunst & cultuur"
           ]
         }
       ]
