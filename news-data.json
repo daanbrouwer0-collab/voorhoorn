@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T14:58:37.813Z",
+  "updated": "2026-11-06T20:51:22.721Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -119,6 +119,27 @@
       "label": "Hoornsdagblad",
       "items": [
         {
+          "title": "Bestelbusje verwoest door brand op parkeerplaats bij Wok van Pejo in Zwaag",
+          "link": "https://www.hoornsdagblad.nl/112-hoorn/bestelbusje-verwoest-door-brand-op-parkeerplaats-bij-wok-van-pejo-in-zwaag",
+          "pubDate": "Fri, 06 Nov 2026 20:48:49 +0100",
+          "description": "ZWAAG – Op de parkeerplaats van restaurant Wok van Pejo aan de Keern in Zwaag heeft vrijdagavond rond 20.25 uur een felle voertuigbrand gewoed. Een bestelbusje vloog daar door nog onbekende oorzaak in brand en ging volledig in vlammen op. Het voertuig liep daarbij zeer zware schade op.De brand [...]",
+          "categories": []
+        },
+        {
+          "title": "Pelmolenpad groeit verder: bouw eerste koopappartementen feestelijk gevierd",
+          "link": "https://www.hoornsdagblad.nl/regio/pelmolenpad-groeit-verder-bouw-eerste-koopappartementen-feestelijk-gevierd",
+          "pubDate": "Fri, 06 Nov 2026 17:11:00 +0100",
+          "description": "HOORN - De bouw van de eerste 78 koopappartementen in de nieuwe woonwijk Pelmolenpad is deze zomer gestart. De toekomstige bewoners kwamen op vrijdag 6 november naar de bouwplaats om dit samen te vieren. Wethouder Niek Heijne verrichtte samen met de jongste en de oudste toekomstige bewoners van de [...]",
+          "categories": []
+        },
+        {
+          "title": "Spectaculaire Lichtjesavond bij Stoommachinemuseum",
+          "link": "https://www.hoornsdagblad.nl/dagje-weg/spectaculaire-lichtjesavond-bij-stoommachinemuseum",
+          "pubDate": "Fri, 06 Nov 2026 15:57:00 +0100",
+          "description": "MEDEMBLIK - Het Stoommachinemuseum sluit zaterdag 7 november het stoomseizoen traditiegetrouw af met een spetterende finale. Het monumentale stoomgemaal uit 1869 is feeëriek verlicht waardoor een magische sfeer ontstaat. Het internationaal bekende Close-Act theater komt naar het museum met de [...]",
+          "categories": []
+        },
+        {
           "title": "Werkkamer van Sinterklaas weer open voor schoolklassen in Hoorn",
           "link": "https://www.hoornsdagblad.nl/regio/werkkamer-van-sinterklaas-weer-open-voor-schoolklassen-in-hoorn",
           "pubDate": "Fri, 06 Nov 2026 15:32:55 +0100",
@@ -210,6 +231,13 @@
           "categories": []
         },
         {
+          "title": "Thomasz Lin nieuwe directeur van het Stoommachinemuseum in Medemblik",
+          "link": "https://www.hoornsdagblad.nl/dagje-weg/thomasz-lin-nieuwe-directeur-van-het-stoommachinemuseum-in-medemblik",
+          "pubDate": "Wed, 04 Nov 2026 14:13:52 +0100",
+          "description": "MEDEMBLIK - Thomasz Lin (52) wordt de nieuwe directeur van het Stoommachinemuseum in Medemblik. Met enthousiasme kijkt hij uit naar de mogelijkheid om de wereld van water en stoom bij een breed publiek onder de aandacht te brengen en het rijke culturele en technische erfgoed van het museum te [...]",
+          "categories": []
+        },
+        {
           "title": "Samen verzekerd via je werkgever of vereniging: wat zijn de voor- en nadelen?",
           "link": "https://www.hoornsdagblad.nl/algemeen/samen-verzekerd-via-je-werkgever-of-vereniging-wat-zijn-de-voor-en-nadelen",
           "pubDate": "Wed, 04 Nov 2026 13:04:38 +0100",
@@ -228,34 +256,6 @@
           "link": "https://www.hoornsdagblad.nl/algemeen/waarom-serverinfrastructuur-voor-hoornse-ondernemers-een-strategische-keuze-wordt",
           "pubDate": "Wed, 04 Nov 2026 11:58:46 +0100",
           "description": "Ondernemers in de regio Hoorn draaien hun bedrijf steeds vaker op digitale systemen. Van online facturatie tot klantportalen en voorraadbeheer: zonder betrouwbare serverinfrastructuur staat de operatie stil. Dat maakt de keuze voor de juiste hosting minder technisch en meer strategisch dan veel [...]",
-          "categories": []
-        },
-        {
-          "title": "Traditioneel bouwen of een modulaire unit: wat past bij jouw woonsituatie?",
-          "link": "https://www.hoornsdagblad.nl/algemeen/traditioneel-bouwen-of-een-modulaire-unit-wat-past-bij-jouw-woonsituatie",
-          "pubDate": "Wed, 04 Nov 2026 11:54:11 +0100",
-          "description": "De woningmarkt in de regio Hoorn blijft krap. Wie op zoek is naar extra woonruimte, een mantelzorgoplossing in de tuin of een eerste eigen plek, staat al snel voor een fundamentele keuze: traditioneel laten bouwen of kiezen voor een modulaire, prefab unit. Beide routes hebben duidelijke voor- en [...]",
-          "categories": []
-        },
-        {
-          "title": "De opkomst van de pure aankoopmakelaar in een krappe woningmarkt",
-          "link": "https://www.hoornsdagblad.nl/algemeen/de-opkomst-van-de-pure-aankoopmakelaar-in-een-krappe-woningmarkt",
-          "pubDate": "Wed, 04 Nov 2026 11:42:39 +0100",
-          "description": "Wie in 2026 een huis koopt in Nederland, merkt al snel dat het proces weinig te maken heeft met rustig rondkijken en vergelijken. In veel regio's ontvangen verkopers binnen een week meerdere biedingen, ook buiten de Randstad. Steden als Hoorn en Alkmaar zijn allang geen rustige uitzondering [...]",
-          "categories": []
-        },
-        {
-          "title": "Waarom een snelle website het verschil maakt voor ondernemers in West-Friesland",
-          "link": "https://www.hoornsdagblad.nl/algemeen/waarom-een-snelle-website-het-verschil-maakt-voor-ondernemers-in-west-friesland",
-          "pubDate": "Wed, 04 Nov 2026 11:37:23 +0100",
-          "description": "Wie in Hoorn of omgeving een winkel, restaurant of dienstverlening runt, weet dat zichtbaarheid lokaal begint. Een etalage op de Grote Noord trekt voorbijgangers, maar steeds vaker start de klantreis op een telefoonscherm. De vraag is niet meer of je een website nodig hebt, maar hoe goed die [...]",
-          "categories": []
-        },
-        {
-          "title": "Provincie geeft subsidie aan veehouders die willen stoppen",
-          "link": "https://www.hoornsdagblad.nl/algemeen/provincie-geeft-subsidie-aan-veehouders-die-willen-stoppen",
-          "pubDate": "Wed, 04 Nov 2026 11:29:42 +0100",
-          "description": "NOORD-HOLLAND - Noord-Hollandse veehouders die vrijwillig hun bedrijf (deels) willen beëindigen kunnen hiervoor subsidie aanvragen bij de provincie. Er is in totaal ruim 8 miljoen euro beschikbaar. De subsidie is bedoeld voor kleine en middelgrote veehouderijen met varkens, pluimvee en koeien in en [...]",
           "categories": []
         }
       ]
@@ -410,6 +410,24 @@
       "id": "rodi",
       "label": "Rodi Hoorn",
       "items": [
+        {
+          "title": "Pelmolenpad in Hoorn groeit verder: bouw eerste koopappartementen feestelijk gevierd",
+          "link": "https://www.rodi.nl/hoorn/gemeentenieuws/511664/pelmolenpad-in-hoorn-groeit-verder-bouw-eerste-koopappartementen-feestelijk-gevierd",
+          "pubDate": "Fri, 06 Nov 2026 16:53:56 Z",
+          "description": "HOORN - De bouw van de eerste 78 koopappartementen in de nieuwe woonwijk Pelmolenpad is deze zomer gestart. De toekomstige bewoners kwamen vrijdag 6 november naar de bouwplaats om dit samen te vieren.",
+          "categories": [
+            "Gemeentenieuws"
+          ]
+        },
+        {
+          "title": "Werkkamer van Sinterklaas weer open voor schoolklassen in Hoorn",
+          "link": "https://www.rodi.nl/hoorn/nieuws/511663/werkkamer-van-sinterklaas-weer-open-voor-schoolklassen-in-hoorn",
+          "pubDate": "Fri, 06 Nov 2026 16:48:56 Z",
+          "description": "HOORN - Ook al is het Westfries Museum gesloten vanwege de grootschalige verbouwing, de sinterklaastraditie gaat gewoon door. Vanaf de intocht van Sinterklaas verandert een van de lokalen van de Museumwerkplaats in de Boterhal in de werkkamer van de Sint. Leerlingen uit groep 1, 2 en 3 zijn van harte welkom om met hun klas op bezoek te komen.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
         {
           "title": "Hoorn onderzoekt twee locaties voor tijdelijke opvang en huisvesting",
           "link": "https://www.rodi.nl/hoorn/gemeentenieuws/511632/hoorn-onderzoekt-twee-locaties-voor-tijdelijke-opvang-en-huisvesting",
@@ -616,24 +634,6 @@
           "categories": [
             "Nieuws"
           ]
-        },
-        {
-          "title": "Coronaprik halen? Vrije inloop van 14.00 tot 16.00 uur",
-          "link": "https://www.rodi.nl/hoorn/partnerbijdrage/510330/coronaprik-halen-vrije-inloop-van-14-00-tot-16-00-uur",
-          "pubDate": "Fri, 30 Oct 2026 11:05:00 Z",
-          "description": "REGIO - De herfst is in volle gang. We zitten vaker binnen en de feestdagen komen eraan. Een mooi moment om te kijken of je in aanmerking komt voor de coronaprik. Met 18 locaties in onze regio kun je altijd dichtbij terecht.",
-          "categories": [
-            "Partnerbijdrage"
-          ]
-        },
-        {
-          "title": "Twee voetgangers zwaargewond na aanrijding met auto op de Westerdijk in Hoorn, bestuurder onder invloed aangehouden",
-          "link": "https://www.rodi.nl/hoorn/112-nieuws/510802/twee-voetgangers-zwaargewond-na-aanrijding-met-auto-op-de-westerdijk-in-hoorn-bestuurder-onder-invloed-aangehouden-u",
-          "pubDate": "Thu, 29 Oct 2026 21:12:59 Z",
-          "description": "HOORN - Bij een verkeersongeval op de Westerdijk in Hoorn zijn donderdagavond twee voetgangers gewond geraakt. De bestuurder van de auto, een 72-jarige Amsterdammer, is aangehouden. Hij wordt verdacht van betrokkenheid bij een ongeval met letsel en rijden onder invloed van alcohol.",
-          "categories": [
-            "112-nieuws"
-          ]
         }
       ]
     },
@@ -641,6 +641,34 @@
       "id": "streekomroep",
       "label": "Streekomroep",
       "items": [
+        {
+          "title": "In Beeld: Lichtjesloop Enkhuizen",
+          "link": "https://www.streekomroepwestfriesland.nl/in-beeld-lichtjesloop-enkhuizen/",
+          "pubDate": "Fri, 06 Nov 2026 20:30:53 +0000",
+          "description": "Enkhuizen was vrijdagavond het decor van de Lichtjesloop, dat na eerdere succesvolle edities in Den Helder en Schagen ook voor de eerste keer in West-Friesland gehouden werd. Fotograaf Peter Goedhart was erbij en maakte een reportage. Deelnemers hadden keuze uit drie verschillende routes van 10, 5 en 2,5 kilometer. Na het verzamelen in de Nieuwe Doelen, waar al vele lichtjes brandden, werd de avond geopend door organisator Team Sportservice en haar lokale partners. Hierna werden de routes gelopen door de binnenstad. Verschillende locaties waren versierd met lampjes, maar ook werden feestelijke acts opgevoerd. Bekijk hier de reportage van fotograaf Peter Goedhart. Bron: Peter Goedhart / SWF B",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
+        {
+          "title": "WEEFF Top Favoriet komende week in handen van Marieke Schenk",
+          "link": "https://www.streekomroepwestfriesland.nl/weeff-top-favoriet-komende-week-in-handen-van-marieke-schenk/",
+          "pubDate": "Fri, 06 Nov 2026 18:56:35 +0000",
+          "description": "\"Marieke Schenk: een popartiest met een krachtige, energieke liveshow\", meldt de Popronde als beschrijving van de zangeres die vandaag haar nieuwe single 'Overdosis' lanceert. Komende week hoor je het nummer extra vaak op de radio, want we roepen het uit tot nieuwe WEEFF Top Favoriet. Overdosis gaat volgens de zangeres over verslaafd zijn aan wat iemand je geeft, terwijl die persoon niet per se goed voor je is. \"Aan de aandacht, bevestiging, spanning of veiligheid die je bij iemand vindt en waar je steeds naar blijft verlangen\", schrijft de zangeres op haar Instagrampagina. \"Tot je beseft dat je er zelf aan onderdoor gaat.\" \"Ik ben zelf veel bezig met leren dat ik goed genoeg ben zoals ik be",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
+        {
+          "title": "Hoorn komt met nieuwe asielopvangplekken en onderzoekt meerdere locaties",
+          "link": "https://www.streekomroepwestfriesland.nl/hoorn-komt-met-nieuwe-asielopvangplekken-en-onderzoekt-meerdere-locaties/",
+          "pubDate": "Fri, 06 Nov 2026 14:55:00 +0000",
+          "description": "Gemeente Hoorn mikt op twee nieuwe locaties voor de huisvesting van zo'n 350 asielzoekers en dringend woningzoekenden. Door een uitruil met andere gemeenten hoopt het college het aantal asielzoekers met een derde te verminderen. Als dat niet lukt, moet er nog een locatie bijkomen. Begin december wordt er een besluit genomen over de plannen. Vanuit de Spreidingswet heeft de gemeente Hoorn de taak om 367 opvangplekken te organiseren. Waarvan 23 voor alleenstaande minderjarige vluchtelingen. Het college wil dit aantal plekken terugbrengen naar 232 door twintig extra alleenstaande minderjarige asielzoekers uit de regio op te vangen. Deze jongeren hebben op sommige locaties in de regio moeilijker",
+          "categories": [
+            "Politiek",
+            "Verkeer & wonen"
+          ]
+        },
         {
           "title": "Popronde strijkt volgend weekend neer in Hoorn, Streekomroep doet live radioverslag",
           "link": "https://www.streekomroepwestfriesland.nl/popronde-strijkt-volgend-weekend-neer-in-hoorn-streekomroep-doet-live-radioverslag/",
@@ -651,7 +679,7 @@
           ]
         },
         {
-          "title": "Verkeersborden Westfrisiaweg na bijna anderhalf jaar hersteld, weg vannacht nog tijdelijk gedeeltelijk dicht",
+          "title": "Verkeersborden Westfrisiaweg na bijna anderhalf jaar hersteld",
           "link": "https://www.streekomroepwestfriesland.nl/verkeersborden-westfrisiaweg-na-bijna-anderhalf-jaar-hersteld-weg-vannacht-nog-tijdelijk-gedeeltelijk-dicht/",
           "pubDate": "Thu, 05 Nov 2026 17:50:00 +0000",
           "description": "Provincie Noord-Holland is begonnen met het herstel van een portaal op de Westfrisiaweg (N307), ter hoogte van de afslag Risdam bij Zwaag. Deze week is de weg tijdelijk gedeeltelijk afgesloten geweest, waarbij verwacht wordt dat de vervanging vrijdag is afgerond. In juli 2025 botste een betonpompwagen tegen de bebording . Volgens een woordvoerder van de politie was de chauffeur destijds vergeten de zogeheten giek in te halen, waardoor deze borden beschadigd raakten en werden verwijderd. De paal achter het geluidsscherm bleef lange tijd schuin naast de weg zichtbaar. Bekijk hier beelden van het ongeluk in 2025. De tekst gaat verder. Na bijna zestien maanden is Provincie Noord-Holland begonnen",
@@ -704,34 +732,6 @@
           "description": "Vereniging Oud Hoorn organiseert deze zaterdag, in samenwerking met het Westfries Museum en Stichting Netwerk, een middag in het teken van het Hoorns Slavernijverleden. De middag in de Hoornse Noorderkerk is gratis te bezoeken voor iedereen die zich aanmeldt. Streekomroep West-Friesland is aanwezig om verslag te doen, en publiceert de lezingen als podcast. Het inhoudelijke programma richt zich op de schaduwzijden van de Hoornse handelsgeschiedenis, waaronder de vergaarde welvaart door mensenhandel, en onderzoekt wat de impact hiervan is op de hedendaagse stad. Bezoekers krijgen een combinatie voorgeschoteld van lezingen, muziek, theater en een informatiemarkt met kunst en lokale initiatieven",
           "categories": [
             "Geschiedenis"
-          ]
-        },
-        {
-          "title": "Column: Een stukje riooljournalistiek",
-          "link": "https://www.streekomroepwestfriesland.nl/column-een-stukje-riooljournalistiek/",
-          "pubDate": "Wed, 04 Nov 2026 11:31:59 +0000",
-          "description": "Je kent die uitdrukking wel: riooljournalistiek. Zodra een journalist zijn neus te diep in andermans zaken steekt, krijgt hij dat verwijt naar zijn hoofd. Ik moest eraan denken toen ik las dat in West-Friesland bijna 27 kilometer riool moet worden vernieuwd. Eindelijk een onderwerp waarbij je als columnist ongegeneerd de diepte in kunt. Bijna 27 kilometer. Daar kun je een behoorlijk eind mee uit de voeten, al zou ik dat afraden. Gelukkig gaat het niet om één lange buis op een aanhanger door je straat. De werkzaamheden zijn verdeeld over zeven gemeenten. Hoorn neemt met 7.400 meter het grootste deel voor zijn rekening. Plotseling begrijp ik waarom er zoveel toiletpapier wordt ingeslagen. In d",
-          "categories": [
-            "Verkeer & wonen"
-          ]
-        },
-        {
-          "title": "Raad Hoorn: Algemene beschouwingen",
-          "link": "https://www.streekomroepwestfriesland.nl/raad-hoorn-algemene-beschouwingen/",
-          "pubDate": "Wed, 04 Nov 2026 09:20:22 +0000",
-          "description": "De behandeling van de begroting voor 2027 wordt in Hoorn traditioneel voorafgegaan met algemene beschouwingen. Fractiewoordvoerders krijgen de ruimte om duidelijk te maken welke zaken de komende tijd terecht of juist niet drukken op de begroting. In aanloop naar deze vergadering zijn ruim 270 technische vragen ingediend. Daarnaast hopen fracties via elf amendementen en 27 moties hun gelijk te halen. Dat de beschikbare hoeveelheid euro’s bij lange na niet alle wensen kunnen bekostigen is iedere partij wel duidelijk. In hun bijdragen worden door de woordvoerders een groot aantal doelen benoemd die vooral niet overgeslagen dienen te worden. En elke fractie weet zaken te noemen die in de voorges",
-          "categories": [
-            "Politiek"
-          ]
-        },
-        {
-          "title": "Fanatieke zaalvoetbalcoach genezen van darmkanker: \"Derde helft is leuk, maar korter\"",
-          "link": "https://www.streekomroepwestfriesland.nl/fanatieke-zaalvoetbalcoach-genezen-van-darmkanker-derde-helft-is-leuk-maar-korter/",
-          "pubDate": "Wed, 04 Nov 2026 05:00:00 +0000",
-          "description": "Zaalvoetbalcoach Khalid Elbaz heeft een zware periode achter de rug. De trainer van HV Hoorn kreeg dit voorjaar de diagnose darmkanker. Inmiddels is hij hersteld en kan Elbaz zich weer volledig op zijn passie richten. \"Ze hebben twintig centimeter van mijn darm er tussenuit geknipt. Ik had een behoorlijke buikwandbreuk. Daar ben ik aan geholpen. Een operatie van zo'n vijf uurtjes\", vertelt Elbaz in een openhartig gesprek. De coach is bezig aan zijn derde seizoen bij de eredivisieclub uit Hoorn en staat weer ouderwets fanatiek langs de lijn. Al moet hij zichzelf ook nog wel ontzien. \"Na de wedstrijd blijf ik wel, maar niet lang. De derde helft is een hele leuke, maar wel een korte.\" Vrijdag 1",
-          "categories": [
-            "Gezondheid",
-            "Sport"
           ]
         }
       ]
