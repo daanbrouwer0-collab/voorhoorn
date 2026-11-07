@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-06T20:51:22.721Z",
+  "updated": "2026-11-07T02:45:34.190Z",
   "failedSources": [
     {
       "id": "hoornactueel",
       "label": "HoornActueel",
-      "error": "HTTP 403"
+      "error": "The operation was aborted due to timeout"
     },
     {
       "id": "onswestfriesland",
@@ -118,6 +118,13 @@
       "id": "hoornsdagblad",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Flinke schuurbrand in Hoorn: brandweer schaalt op naar middelbrand",
+          "link": "https://www.hoornsdagblad.nl/112-hoorn/flinke-schuurbrand-in-hoorn-brandweer-schaalt-op-naar-middelbrand",
+          "pubDate": "Fri, 06 Nov 2026 23:19:35 +0100",
+          "description": "HOORN - Aan de Vijzelstraat in Hoorn heeft vrijdagavond omstreeks 22.00 uur een flinke brand gewoed in een schuur. Het vuur brak door nog onbekende oorzaak uit in het bouwwerk, dat is gelegen achter enkele woningen.​Vanwege de aard van de brand en de dreiging van overslaan heeft de brandweer al [...]",
+          "categories": []
+        },
         {
           "title": "Bestelbusje verwoest door brand op parkeerplaats bij Wok van Pejo in Zwaag",
           "link": "https://www.hoornsdagblad.nl/112-hoorn/bestelbusje-verwoest-door-brand-op-parkeerplaats-bij-wok-van-pejo-in-zwaag",
@@ -249,13 +256,6 @@
           "link": "https://www.hoornsdagblad.nl/algemeen/waarom-steeds-meer-bedrijven-in-west-friesland-kiezen-voor-een-dubbele-internetverbinding",
           "pubDate": "Wed, 04 Nov 2026 12:03:19 +0100",
           "description": "Bedrijven in de regio Hoorn draaien vrijwel volledig op digitale systemen. Van kassasoftware in de retail tot cloudgebaseerde administratie bij dienstverleners: zonder werkende internetverbinding ligt de dagelijkse operatie stil. Die afhankelijkheid groeit elk jaar, maar de kwetsbaarheid die erbij [...]",
-          "categories": []
-        },
-        {
-          "title": "Waarom serverinfrastructuur voor Hoornse ondernemers een strategische keuze wordt",
-          "link": "https://www.hoornsdagblad.nl/algemeen/waarom-serverinfrastructuur-voor-hoornse-ondernemers-een-strategische-keuze-wordt",
-          "pubDate": "Wed, 04 Nov 2026 11:58:46 +0100",
-          "description": "Ondernemers in de regio Hoorn draaien hun bedrijf steeds vaker op digitale systemen. Van online facturatie tot klantportalen en voorraadbeheer: zonder betrouwbare serverinfrastructuur staat de operatie stil. Dat maakt de keuze voor de juiste hosting minder technisch en meer strategisch dan veel [...]",
           "categories": []
         }
       ]
