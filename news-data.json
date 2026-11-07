@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-07T02:45:34.190Z",
+  "updated": "2026-11-07T13:57:08.636Z",
   "failedSources": [
     {
       "id": "hoornactueel",
       "label": "HoornActueel",
-      "error": "The operation was aborted due to timeout"
+      "error": "HTTP 403"
     },
     {
       "id": "onswestfriesland",
@@ -118,6 +118,13 @@
       "id": "hoornsdagblad",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Rustig herfstweer met frisse nachten, later in de week meer kans op regen",
+          "link": "https://www.hoornsdagblad.nl/regio/rustig-herfstweer-met-frisse-nachten-later-in-de-week-meer-kans-op-regen",
+          "pubDate": "Sat, 07 Nov 2026 08:09:28 +0100",
+          "description": "NEDERLAND – De tweede week van november begint met rustig herfstweer. De nachten verlopen fris, met lokaal kans op vorst. Vanaf woensdag neemt de kans op regen toe, maar uitgesproken guur herfstweer wordt voorlopig niet verwacht.Rustig weekend met weinig windZaterdag blijft het fris met [...]",
+          "categories": []
+        },
         {
           "title": "Flinke schuurbrand in Hoorn: brandweer schaalt op naar middelbrand",
           "link": "https://www.hoornsdagblad.nl/112-hoorn/flinke-schuurbrand-in-hoorn-brandweer-schaalt-op-naar-middelbrand",
@@ -249,13 +256,6 @@
           "link": "https://www.hoornsdagblad.nl/algemeen/samen-verzekerd-via-je-werkgever-of-vereniging-wat-zijn-de-voor-en-nadelen",
           "pubDate": "Wed, 04 Nov 2026 13:04:38 +0100",
           "description": "Wanneer je lid bent van een vereniging of in loondienst werkt, krijg je soms de mogelijkheid om je samen te verzekeren met anderen. Dit kan bijvoorbeeld via een collectieve zorgverzekering georganiseerd worden. Veel Nederlanders maken gebruik van dit soort collectieven. Maar wat houdt het precies [...]",
-          "categories": []
-        },
-        {
-          "title": "Waarom steeds meer bedrijven in West-Friesland kiezen voor een dubbele internetverbinding",
-          "link": "https://www.hoornsdagblad.nl/algemeen/waarom-steeds-meer-bedrijven-in-west-friesland-kiezen-voor-een-dubbele-internetverbinding",
-          "pubDate": "Wed, 04 Nov 2026 12:03:19 +0100",
-          "description": "Bedrijven in de regio Hoorn draaien vrijwel volledig op digitale systemen. Van kassasoftware in de retail tot cloudgebaseerde administratie bij dienstverleners: zonder werkende internetverbinding ligt de dagelijkse operatie stil. Die afhankelijkheid groeit elk jaar, maar de kwetsbaarheid die erbij [...]",
           "categories": []
         }
       ]
@@ -410,6 +410,24 @@
       "id": "rodi",
       "label": "Rodi Hoorn",
       "items": [
+        {
+          "title": "Busje gaat in vlammen op aan de Keern in Zwaag",
+          "link": "https://www.rodi.nl/hoorn/112-nieuws/511669/busje-gaat-in-vlammen-op-aan-de-keern-in-zwaag",
+          "pubDate": "Sat, 07 Nov 2026 10:51:52 Z",
+          "description": "ZWAAG - Vrijdagavond is rond 20.25 uur een busje in brand gevlogen aan de Keern in Zwaag. Het busje stond op een parkeerplaats.",
+          "categories": [
+            "112-nieuws"
+          ]
+        },
+        {
+          "title": "Virtuele stadswandeling door Amsterdam in wijkcentrum De Huesmolen",
+          "link": "https://www.rodi.nl/hoorn/nieuws/511186/virtuele-stadswandeling-door-amsterdam-in-wijkcentrum-de-huesmolen",
+          "pubDate": "Sat, 07 Nov 2026 09:00:00 Z",
+          "description": "HOORN - Stadsgids Jan Boven neemt bezoekers van wijkcentrum De Huesmolen woensdag 18 november mee op een virtuele wandeling door het hart van Amsterdam. De middag duurt van 14.00 tot 16.00 uur.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
         {
           "title": "Pelmolenpad in Hoorn groeit verder: bouw eerste koopappartementen feestelijk gevierd",
           "link": "https://www.rodi.nl/hoorn/gemeentenieuws/511664/pelmolenpad-in-hoorn-groeit-verder-bouw-eerste-koopappartementen-feestelijk-gevierd",
@@ -616,24 +634,6 @@
           "categories": [
             "Nieuws"
           ]
-        },
-        {
-          "title": "Parkeergarage Hoorn: 750 plekken te weinig, vindt Sociaal Hoorn/Team Tonnaer",
-          "link": "https://www.rodi.nl/hoorn/politiek/510868/parkeergarage-hoorn-750-plekken-te-weinig-vindt-sociaal-hoorn-team-tonnaer",
-          "pubDate": "Fri, 30 Oct 2026 15:50:35 Z",
-          "description": "HOORN - Sociaal Hoorn/Team Tonnaer heeft kritische vragen aan het college gesteld over de geplande bovengrondse parkeergarage aan de noordzijde van station Hoorn. Raadslid Roger Tonnaer vraagt onder meer aandacht voor het aantal parkeerplaatsen, de locatie en het ontwerp van de garage.",
-          "categories": [
-            "Politiek"
-          ]
-        },
-        {
-          "title": "Vrijwilligers gezocht om jonge bomen te redden in Hoorn",
-          "link": "https://www.rodi.nl/hoorn/nieuws/510841/vrijwilligers-gezocht-om-jonge-bomen-te-redden-in-hoorn",
-          "pubDate": "Fri, 30 Oct 2026 13:32:52 Z",
-          "description": "HOORN - Meer Bomen Nu en Grootouders voor het Klimaat starten zaterdag 14 november in park Risdammerhout het oogstseizoen in Hoorn. Inwoners worden uitgenodigd om te helpen bij het uitgraven van jonge bomen en struiken die anders weinig kans hebben om te groeien.",
-          "categories": [
-            "Nieuws"
-          ]
         }
       ]
     },
@@ -641,6 +641,25 @@
       "id": "streekomroep",
       "label": "Streekomroep",
       "items": [
+        {
+          "title": "Brandweer blust schuurbrand bij woning in Hoorn",
+          "link": "https://www.streekomroepwestfriesland.nl/brandweer-blust-schuurbrand-bij-woning-in-hoorn/",
+          "pubDate": "Sat, 07 Nov 2026 08:59:00 +0000",
+          "description": "De brandweer heeft gisteravond een schuurbrand geblust in een woonwijk in Hoorn. Het schuurtje dat vlam vatte stond los van de woning. De eerste melding van de schuurbrand werd rond 22.00 uur gedaan. Al snel ontstond er rook. Een deel van de straat werd afgezet om hulpdiensten de ruimte te geven. Rond 22.30 uur was het vuur onder controle. Niemand is gewond geraakt bij de brand. Het schuurtje is volledig verloren gegaan. Foto: Rooducties / NH Nieuws Foto: Rooducties / NH Nieuws Foto: Rooducties / NH Nieuws Foto: Rooducties / NH Nieuws Foto: Rooducties / NH Nieuws The post Brandweer blust schuurbrand bij woning in Hoorn appeared first on Streekomroep West-Friesland .",
+          "categories": [
+            "112"
+          ]
+        },
+        {
+          "title": "Schipbreukeling Ben (70) blikt in podcast terug op twee dagen doodsangst op eiland",
+          "link": "https://www.streekomroepwestfriesland.nl/schipbreukeling-ben-70-blikt-in-podcast-terug-op-twee-dagen-doodsangst-op-eiland/",
+          "pubDate": "Sat, 07 Nov 2026 06:30:00 +0000",
+          "description": "Het lijkt wel een film, het scenario dat zich vorig jaar november afspeelt op het IJsselmeer. De 70-jarige Ben Verheij staat na een schipbreuk doodsangsten uit op het onbewoonde eiland De Kreupel, ten noorden van Andijk. Hij overleeft er meer dan 48 uur voordat hij gered wordt door vrijwilligers van de KNRM. In een podcast van de reddingsmaatschappij blikt hij uitgebreid terug. De man denkt op zondag 2 november de nacht door te brengen op zijn schip, tevens zijn woonplek. Hij ligt op het IJsselmeer voor anker. Dat anker schiet 's nachts los, het schip drijft af en klapt op de rotsen van eiland De Kreupel. \"Ik ben met een rotgang ergens opgeklapt. Ik denk: 'wat gebeurt hier'? Ik hoorde onder ",
+          "categories": [
+            "112",
+            "Kunst & cultuur"
+          ]
+        },
         {
           "title": "In Beeld: Lichtjesloop Enkhuizen",
           "link": "https://www.streekomroepwestfriesland.nl/in-beeld-lichtjesloop-enkhuizen/",
@@ -714,24 +733,6 @@
           "categories": [
             "Geschiedenis",
             "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Leerlingen Martinuscollege zamelen statiegeld in om daklozen met 'slaapzakjassen' te helpen",
-          "link": "https://www.streekomroepwestfriesland.nl/leerlingen-martinuscollege-zamelen-statiegeld-in-om-daklozen-met-slaapzakjassen-te-helpen/",
-          "pubDate": "Wed, 04 Nov 2026 15:04:00 +0000",
-          "description": "Leerlingen van het Martinuscollege in Grootebroek nemen komende week tassen vol lege flessen en blikjes mee naar school. In aanloop naar Sint-Maarten wordt op deze manier statiegeld ingezameld voor de Sheltersuit Foundation. Met de opbrengst steunt de school de aanschaf van speciale, waterdichte jassen die dakloze mensen beschermen tegen de kou tijdens de wintermaanden. De middelbare school in Grootebroek is vernoemd naar de Romeinse soldaat Sint-Martinus. Volgens het bekende verhaal deelde deze soldaat zijn warme mantel met een verkleumde bedelaar. Daarmee liet hij zien hoe belangrijk het is om naar anderen om te kijken en elkaar te helpen. Lerares Karin van Vuure wilde dit jaar iets concre",
-          "categories": [
-            "Onderwijs"
-          ]
-        },
-        {
-          "title": "Slavernijverleden van Hoorn in beeld tijdens evenement in Noorderkerk",
-          "link": "https://www.streekomroepwestfriesland.nl/slavernijverleden-van-hoorn-in-beeld-tijdens-evenement-in-noorderkerk/",
-          "pubDate": "Wed, 04 Nov 2026 12:10:36 +0000",
-          "description": "Vereniging Oud Hoorn organiseert deze zaterdag, in samenwerking met het Westfries Museum en Stichting Netwerk, een middag in het teken van het Hoorns Slavernijverleden. De middag in de Hoornse Noorderkerk is gratis te bezoeken voor iedereen die zich aanmeldt. Streekomroep West-Friesland is aanwezig om verslag te doen, en publiceert de lezingen als podcast. Het inhoudelijke programma richt zich op de schaduwzijden van de Hoornse handelsgeschiedenis, waaronder de vergaarde welvaart door mensenhandel, en onderzoekt wat de impact hiervan is op de hedendaagse stad. Bezoekers krijgen een combinatie voorgeschoteld van lezingen, muziek, theater en een informatiemarkt met kunst en lokale initiatieven",
-          "categories": [
-            "Geschiedenis"
           ]
         }
       ]
