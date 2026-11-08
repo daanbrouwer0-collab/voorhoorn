@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-08T02:24:33.347Z",
+  "updated": "2026-11-08T14:16:23.131Z",
   "failedSources": [
     {
       "id": "hoornactueel",
       "label": "HoornActueel",
-      "error": "HTTP 403"
+      "error": "fetch failed"
     },
     {
       "id": "onswestfriesland",
@@ -118,6 +118,13 @@
       "id": "hoornsdagblad",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Bestuurder gevlucht na eenzijdig ongeval bij Torenwachter in Hoorn",
+          "link": "https://www.hoornsdagblad.nl/112-hoorn/bestuurder-gevlucht-na-eenzijdig-ongeval-bij-torenwachter-in-hoorn",
+          "pubDate": "Sun, 08 Nov 2026 08:27:43 +0100",
+          "description": "HOORN - Aan de Torenwachter in Hoorn heeft zondagochtend omstreeks 07.10 uur een eenzijdig verkeersongeval plaatsgevonden. Een automobilist is daar door nog onbekende oorzaak van de weg geraakt.Bestuurder gevlogen​Bij het ongeval zijn geen gewonden gevallen. Wel bleek de auto flink beschadigd [...]",
+          "categories": []
+        },
         {
           "title": "Zeer geslaagde boeklancering 'Engel van beroep' in Bibliotheek Hoorn",
           "link": "https://www.hoornsdagblad.nl/regio/zeer-geslaagde-boeklancering-engel-van-beroep-in-bibliotheek-hoorn",
@@ -249,13 +256,6 @@
           "link": "https://www.hoornsdagblad.nl/algemeen/provincie-verwijdert-zieke-en-doden-bomen-langs-verschillende-n-wegen",
           "pubDate": "Thu, 05 Nov 2026 08:42:41 +0100",
           "description": "NOORD-HOLLAND - Vanaf medio januari 2027 start de provincie Noord-Holland met het kappen van zieke en dode bomen langs provinciale wegen in Alkmaar en omgeving, West-Friesland en Zuid-Kennemerland. Het gaat om 137 bomen die dood, ziek of in slechte conditie zijn. Deze worden verwijderd wegens de [...]",
-          "categories": []
-        },
-        {
-          "title": "Weer meer kilometers gereden, vooral doordat aantal auto's groeit",
-          "link": "https://www.hoornsdagblad.nl/automotive/weer-meer-kilometers-gereden-vooral-doordat-aantal-autos-groeit",
-          "pubDate": "Thu, 05 Nov 2026 06:54:26 +0100",
-          "description": "NEDERLAND -In 2025 hebben Nederlandse wegvoertuigen (personenauto's, bestelauto's, zware vrachtvoertuigen, campers en bussen) bijna 153,5 miljard kilometer afgelegd. Dat is 1,1 procent meer dan een jaar eerder en 2,3 procent meer dan in 2019, voor de coronapandemie. Dit meldt het Centraal Bureau [...]",
           "categories": []
         }
       ]
@@ -410,6 +410,15 @@
       "id": "rodi",
       "label": "Rodi Hoorn",
       "items": [
+        {
+          "title": "Bes Klein Ensemble zingt ode aan de liefde in Oosterkerk Hoorn",
+          "link": "https://www.rodi.nl/hoorn/uit/511201/bes-klein-ensemble-zingt-ode-aan-de-liefde-in-oosterkerk-hoorn",
+          "pubDate": "Sun, 08 Nov 2026 09:00:00 Z",
+          "description": "HOORN - Bes Klein Ensemble brengt zondag 22 november het concertprogramma 'Amor, ferisci pur' naar de Oosterkerk in Hoorn. Het achtkoppige zangensemble laat vanaf 15.00 uur alle gezichten van de liefde horen, binnen de concertserie van Oude Muziek Nu.",
+          "categories": [
+            "Uit"
+          ]
+        },
         {
           "title": "Busje gaat in vlammen op aan de Keern in Zwaag",
           "link": "https://www.rodi.nl/hoorn/112-nieuws/511669/busje-gaat-in-vlammen-op-aan-de-keern-in-zwaag",
@@ -625,15 +634,6 @@
           "categories": [
             "112-nieuws"
           ]
-        },
-        {
-          "title": "Westfriese Beursvloer zorgt voor 225 matches",
-          "link": "https://www.rodi.nl/hoorn/nieuws/510926/westfriese-beursvloer-zorgt-voor-225-matches",
-          "pubDate": "Mon, 02 Nov 2026 10:32:27 Z",
-          "description": "BOVENKARSPEL - Wat een energie, enthousiasme en blije gezichten! De zeventiende Westfriese Beursvloer bracht donderdag 29 oktober 54 bedrijven en 64 maatschappelijke organisaties bij elkaar in Vereenigingsgebouw De Tuf in Bovenkarspel. En met succes! In een uur tijd werden maar liefst 225 matches gesloten.",
-          "categories": [
-            "Nieuws"
-          ]
         }
       ]
     },
@@ -641,6 +641,34 @@
       "id": "streekomroep",
       "label": "Streekomroep",
       "items": [
+        {
+          "title": "Pietenspeurtocht voor kinderen keert terug naar Enkhuizen",
+          "link": "https://www.streekomroepwestfriesland.nl/pietenspeurtocht-voor-kinderen-keert-terug-naar-enkhuizen/",
+          "pubDate": "Sun, 08 Nov 2026 12:27:00 +0000",
+          "description": "Kinderen kunnen vanaf 14 november op zoek naar verborgen opdrachten van Sinterklaas en zijn Pieten in de binnenstad van Enkhuizen. De 'Verstoppiet' heeft voor de Pieten Speurtocht tien opdrachten verstopt. Deelnemers kunnen daarmee een Speurpiet-button verdienen en maken kans op een prijs. De speurtocht is een initiatief van Winkelstad Enkhuizen, Stichting Marketing Enkhuizen en Stichting Ondernemersfonds Enkhuizen. Volgens Marianne de Zwart van Stichting Marketing Enkhuizen trok de activiteit voorgaande jaren veel kinderen en hun begeleiders naar de binnenstad. \"Het is heerlijk om te zien hoe kinderen samen met hun ouders of grootouders op ontdekkingstocht gaan en vol overgave de opdrachten",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
+        {
+          "title": "Westfries van de week: Weten jullie wat \"onder 't peerd z'n buk raakt\" is?",
+          "link": "https://www.streekomroepwestfriesland.nl/westfries-van-de-week-weten-jullie-wat-onder-t-peerd-zn-buk-raakt-is/",
+          "pubDate": "Sun, 08 Nov 2026 07:30:00 +0000",
+          "description": "In de serie ‘Westfries van de week’ gaan we op zoek naar typische West-Friese woorden en gebruiken. Want hoeveel mensen spreken het dialect nog? Of kennen de gebruiken nog? In deze aflevering gaan we langs bij Ad Snip in Blokker, hij rijdt nog altijd West-Friesland door met zijn paarden. Ad laat uitgebreid zien hoe de kar in elkaar steekt waar hij zijn paarden voor spant. Daarna volgt een ronde door de wei en wordt de weg op gegaan. Ondertussen vertelt Ad wat het betekent als iets \"onder 't peerd z'n buk raakt is\". Daar schijnt veel naartoe te verdwijnen. Ook geeft Ad het woord voor volgende keer mee: Weten jullie wat een matjedor is? The post Westfries van de week: Weten jullie wat \"onder '",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
+        {
+          "title": "Volle Noorderkerk tijdens 'Hoorn en het slavernijverleden'",
+          "link": "https://www.streekomroepwestfriesland.nl/volle-noorderkerk-tijdens-hoorn-en-het-slavernijverleden/",
+          "pubDate": "Sun, 08 Nov 2026 06:32:00 +0000",
+          "description": "Tijdens het evenement 'Hoorn en het slavernijverleden' vertelden onderzoekers, kunstenaars en muzikanten over de doorwerking van het slavernijverleden van de regio in de huidige samenleving. Historische lezingen werden afgewisseld met kunstbeschouwingen en live performances. Belangrijkste boodschap van de middag? Ook al lijkt deze geschiedenis soms ver weg in de tijd, onze samenleving heeft nog iedere dag te maken met de erfenis. Vereniging Oud Hoorn organiseerde de middag in samenwerking met het Westfries Museum, stichting Netwerk en Hotel Maria Kapel. Het idee komt uit een werkgroep die zich richt op de toekomst van de historische vereniging. De onderwerpkeuze is in Hoorn beladen. Dat blee",
+          "categories": [
+            "Geschiedenis",
+            "Kunst & cultuur"
+          ]
+        },
         {
           "title": "Brandweer blust schuurbrand bij woning in Hoorn",
           "link": "https://www.streekomroepwestfriesland.nl/brandweer-blust-schuurbrand-bij-woning-in-hoorn/",
@@ -705,34 +733,6 @@
           "categories": [
             "Politiek",
             "Verkeer & wonen"
-          ]
-        },
-        {
-          "title": "Martinus Cantorij uit Zwaag kijkt terug op bijzondere optredens in Engelse koninklijke kapel in Windsor",
-          "link": "https://www.streekomroepwestfriesland.nl/martinus-cantorij-uit-zwaag-kijkt-terug-op-bijzondere-optredens-in-engelse-koninklijke-kapel-in-windsor/",
-          "pubDate": "Thu, 05 Nov 2026 09:03:00 +0000",
-          "description": "De Martinus Cantorij uit Zwaag kijkt terug op een geslaagde reis en hun optredens in Windsor. Het koor trad op in St. George’s Chapel, de wereldberoemde kapel van de Britse koninklijke familie. Daar kregen ze mooie complimenten van de pastoor. Die sprak van ‘hemelse sopranen’ en ‘onberispelijke zang’. Ook voor dirigent Bas Halsema was het optreden in de eeuwenoude kapel een bijzondere ervaring. De Martinus Cantorij reist eens in de twee jaar naar Engeland om in een kathedraal of kapel te zingen. Het koor mikt iedere keer op een periode in de herfstvakantie, en had zich ruim van tevoren aangemeld voor een optreden in Windsor. De kapel maakt deel uit van Windsor Castle en heeft een lange gesch",
-          "categories": [
-            "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Een 'megalomaan' museum mét skyboxen in Opmeer, maar de deuren gaan nooit open",
-          "link": "https://www.streekomroepwestfriesland.nl/een-megalomaan-museum-met-skyboxen-in-opmeer-maar-de-deuren-gaan-nooit-open/",
-          "pubDate": "Thu, 05 Nov 2026 05:00:00 +0000",
-          "description": "Een museum zo groot als een voetbalstadion, met 44 zalen én skyboxen. En dat in het anders zo bescheiden Opmeer. In 2005 onthulde Dirk Scheringa, eigenaar van het Scheringa Museum, plannen voor een gigantische uitbreiding. Aan ambitie geen gebrek, zeker niet als zijn kunstcollectie maar blijft groeien en het museum steeds meer bezoekers trekt. Maar de feestelijke opening? Die komt er nooit. In de derde aflevering van de documentaireserie 'De droom van Dirk – een Dalí in Spanbroek' staan de uitbreidingsplannen van het museum centraal. De aflevering is vandaag bij NH op televisie te zien. In 2005 – acht jaar na de opening van het museum aan de Spanbroekerweg in Spanbroek – werden de verhuispla",
-          "categories": [
-            "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Thomasz Lin nieuwe directeur van Stoommachinemuseum in Medemblik",
-          "link": "https://www.streekomroepwestfriesland.nl/thomasz-lin-nieuwe-directeur-van-stoommachinemuseum-in-medemblik/",
-          "pubDate": "Wed, 04 Nov 2026 16:25:00 +0000",
-          "description": "Het Nederlands Stoommachinemuseum in Medemblik krijgt een nieuwe directeur. De 52-jarige Thomasz Lin volgt in december Harry de Bles op, die met pensioen gaat. \"Ik kijk ernaar uit om de wereld van stoom bij een grote groep mensen onder de aandacht te brengen\", vertelt Lin. \"Er ligt een gezonde basis waarop we kunnen voortbouwen. Het is een mooie uitdaging om dit bijzondere erfgoed te verbinden met de actualiteit en nieuwe generaties erbij te betrekken. \" Lin heeft ervaring op het gebied van cultuur, media, erfgoed en educatie. Als creatief projectleider en productmanager werkte hij mee aan tentoonstellingen, campagnes en nieuwe museale concepten bij musea en erfgoedinstellingen. Volgens het ",
-          "categories": [
-            "Geschiedenis",
-            "Kunst & cultuur"
           ]
         }
       ]
