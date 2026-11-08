@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T19:24:12.115Z",
+  "updated": "2026-11-08T02:24:33.347Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -118,6 +118,20 @@
       "id": "hoornsdagblad",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Zeer geslaagde boeklancering 'Engel van beroep' in Bibliotheek Hoorn",
+          "link": "https://www.hoornsdagblad.nl/regio/zeer-geslaagde-boeklancering-engel-van-beroep-in-bibliotheek-hoorn",
+          "pubDate": "Sat, 07 Nov 2026 21:31:16 +0100",
+          "description": "HOORN - Onder grote belangstelling is vandaag in de bibliotheek van Hoorn de roman 'Engel van beroep' van Chris Stikkers gepresenteerd. Het zeer geïnteresseerde publiek, het persoonlijke gesprek met de auteur en de uiterst plezierige sfeer maakten de lancering tot een groot succes.Rob van Doorn van [...]",
+          "categories": []
+        },
+        {
+          "title": "Sinterklaasintocht fotograferen met je smartphone",
+          "link": "https://www.hoornsdagblad.nl/regio/sinterklaasintocht-fotograferen-met-je-smartphone",
+          "pubDate": "Sat, 07 Nov 2026 20:17:01 +0100",
+          "description": "Elk jaar word ik rond deze tijd dezelfde vraag gesteld: \"Hoe krijg jij die bewegelijke Sinterklaasmomenten scherp op de foto met alleen een telefoon?\" Het najaar is een prachtig fotografisch seizoen, maar je camera wordt wel flink op de proef gesteld. Denk aan snelle actie, uitzinnige kinderen en [...]",
+          "categories": []
+        },
         {
           "title": "Rustig herfstweer met frisse nachten, later in de week meer kans op regen",
           "link": "https://www.hoornsdagblad.nl/regio/rustig-herfstweer-met-frisse-nachten-later-in-de-week-meer-kans-op-regen",
@@ -242,20 +256,6 @@
           "link": "https://www.hoornsdagblad.nl/automotive/weer-meer-kilometers-gereden-vooral-doordat-aantal-autos-groeit",
           "pubDate": "Thu, 05 Nov 2026 06:54:26 +0100",
           "description": "NEDERLAND -In 2025 hebben Nederlandse wegvoertuigen (personenauto's, bestelauto's, zware vrachtvoertuigen, campers en bussen) bijna 153,5 miljard kilometer afgelegd. Dat is 1,1 procent meer dan een jaar eerder en 2,3 procent meer dan in 2019, voor de coronapandemie. Dit meldt het Centraal Bureau [...]",
-          "categories": []
-        },
-        {
-          "title": "Thomasz Lin nieuwe directeur van het Stoommachinemuseum in Medemblik",
-          "link": "https://www.hoornsdagblad.nl/dagje-weg/thomasz-lin-nieuwe-directeur-van-het-stoommachinemuseum-in-medemblik",
-          "pubDate": "Wed, 04 Nov 2026 14:13:52 +0100",
-          "description": "MEDEMBLIK - Thomasz Lin (52) wordt de nieuwe directeur van het Stoommachinemuseum in Medemblik. Met enthousiasme kijkt hij uit naar de mogelijkheid om de wereld van water en stoom bij een breed publiek onder de aandacht te brengen en het rijke culturele en technische erfgoed van het museum te [...]",
-          "categories": []
-        },
-        {
-          "title": "Samen verzekerd via je werkgever of vereniging: wat zijn de voor- en nadelen?",
-          "link": "https://www.hoornsdagblad.nl/algemeen/samen-verzekerd-via-je-werkgever-of-vereniging-wat-zijn-de-voor-en-nadelen",
-          "pubDate": "Wed, 04 Nov 2026 13:04:38 +0100",
-          "description": "Wanneer je lid bent van een vereniging of in loondienst werkt, krijg je soms de mogelijkheid om je samen te verzekeren met anderen. Dit kan bijvoorbeeld via een collectieve zorgverzekering georganiseerd worden. Veel Nederlanders maken gebruik van dit soort collectieven. Maar wat houdt het precies [...]",
           "categories": []
         }
       ]
