@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-08T14:16:23.131Z",
+  "updated": "2026-11-08T19:38:44.145Z",
   "failedSources": [
     {
       "id": "hoornactueel",
       "label": "HoornActueel",
-      "error": "fetch failed"
+      "error": "HTTP 403"
     },
     {
       "id": "onswestfriesland",
@@ -119,6 +119,20 @@
       "label": "Hoornsdagblad",
       "items": [
         {
+          "title": "Zwaluwen '30 klopt SV Enkhuizen in duel dat ruim half uur stil ligt",
+          "link": "https://www.hoornsdagblad.nl/sport/zwaluwen-30-klopt-sv-enkhuizen-in-duel-dat-ruim-half-uur-stil-ligt",
+          "pubDate": "Sun, 08 Nov 2026 20:28:37 +0100",
+          "description": "HOORN - Zwaluwen '30 heeft zaterdag de Westfriese derby tegen SV Enkhuizen met 3-1 gewonnen. Het duel werd overschaduwd door een harde botsing tussen Enkhuizen-speler d'Angelo Busby en doelman Ox van der Velden. De wedstrijd lag daardoor ruim een halfuur stil.Busby per ambulance naar ziekenhuisIn [...]",
+          "categories": []
+        },
+        {
+          "title": "AZ toont veerkracht in knotsgek duel tegen FC Groningen",
+          "link": "https://www.hoornsdagblad.nl/sport/az-toont-veerkracht-in-knotsgek-duel-tegen-fc-groningen",
+          "pubDate": "Sun, 08 Nov 2026 18:43:59 +0100",
+          "description": "ALKMAAR - AZ heeft na enkele moeizame weken weer een overwinning geboekt. De Alkmaarders leken thuis tegen FC Groningen op een nederlaag af te stevenen, maar bogen een achterstand van 1-3 om in een zege van 4-3. Mexx Meerdink maakte in een verhitte slotfase vanaf de strafschopstip het winnende [...]",
+          "categories": []
+        },
+        {
           "title": "Bestuurder gevlucht na eenzijdig ongeval bij Torenwachter in Hoorn",
           "link": "https://www.hoornsdagblad.nl/112-hoorn/bestuurder-gevlucht-na-eenzijdig-ongeval-bij-torenwachter-in-hoorn",
           "pubDate": "Sun, 08 Nov 2026 08:27:43 +0100",
@@ -165,13 +179,6 @@
           "link": "https://www.hoornsdagblad.nl/regio/pelmolenpad-groeit-verder-bouw-eerste-koopappartementen-feestelijk-gevierd",
           "pubDate": "Fri, 06 Nov 2026 17:11:00 +0100",
           "description": "HOORN - De bouw van de eerste 78 koopappartementen in de nieuwe woonwijk Pelmolenpad is deze zomer gestart. De toekomstige bewoners kwamen op vrijdag 6 november naar de bouwplaats om dit samen te vieren. Wethouder Niek Heijne verrichtte samen met de jongste en de oudste toekomstige bewoners van de [...]",
-          "categories": []
-        },
-        {
-          "title": "Spectaculaire Lichtjesavond bij Stoommachinemuseum",
-          "link": "https://www.hoornsdagblad.nl/dagje-weg/spectaculaire-lichtjesavond-bij-stoommachinemuseum",
-          "pubDate": "Fri, 06 Nov 2026 15:57:00 +0100",
-          "description": "MEDEMBLIK - Het Stoommachinemuseum sluit zaterdag 7 november het stoomseizoen traditiegetrouw af met een spetterende finale. Het monumentale stoomgemaal uit 1869 is feeëriek verlicht waardoor een magische sfeer ontstaat. Het internationaal bekende Close-Act theater komt naar het museum met de [...]",
           "categories": []
         },
         {
@@ -250,13 +257,6 @@
           "pubDate": "Thu, 05 Nov 2026 09:00:43 +0100",
           "description": "OBDAM - Met de aansluiting van Tweede Kamerlid, Songül Mutluer is het programma voor de lancering van het boek Maar dan ga je toch gewoon weg van Hanneke van de Water compleet. Op vrijdag 20 november komen in Sociaal-Cultureel Centrum De Brink in Obdam persoonlijke ervaringen, onderzoek en [...]",
           "categories": []
-        },
-        {
-          "title": "Provincie verwijdert zieke en doden bomen langs verschillende N-wegen",
-          "link": "https://www.hoornsdagblad.nl/algemeen/provincie-verwijdert-zieke-en-doden-bomen-langs-verschillende-n-wegen",
-          "pubDate": "Thu, 05 Nov 2026 08:42:41 +0100",
-          "description": "NOORD-HOLLAND - Vanaf medio januari 2027 start de provincie Noord-Holland met het kappen van zieke en dode bomen langs provinciale wegen in Alkmaar en omgeving, West-Friesland en Zuid-Kennemerland. Het gaat om 137 bomen die dood, ziek of in slechte conditie zijn. Deze worden verwijderd wegens de [...]",
-          "categories": []
         }
       ]
     },
@@ -264,6 +264,20 @@
       "id": "hoornsdagblad-sport",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Zwaluwen '30 klopt SV Enkhuizen in duel dat ruim half uur stil ligt",
+          "link": "https://www.hoornsdagblad.nl/sport/zwaluwen-30-klopt-sv-enkhuizen-in-duel-dat-ruim-half-uur-stil-ligt",
+          "pubDate": "Sun, 08 Nov 2026 20:28:37 +0100",
+          "description": "HOORN - Zwaluwen '30 heeft zaterdag de Westfriese derby tegen SV Enkhuizen met 3-1 gewonnen. Het duel werd overschaduwd door een harde botsing tussen Enkhuizen-speler d'Angelo Busby en doelman Ox van der Velden. De wedstrijd lag daardoor ruim een halfuur stil.Busby per ambulance naar ziekenhuisIn [...]",
+          "categories": []
+        },
+        {
+          "title": "AZ toont veerkracht in knotsgek duel tegen FC Groningen",
+          "link": "https://www.hoornsdagblad.nl/sport/az-toont-veerkracht-in-knotsgek-duel-tegen-fc-groningen",
+          "pubDate": "Sun, 08 Nov 2026 18:43:59 +0100",
+          "description": "ALKMAAR - AZ heeft na enkele moeizame weken weer een overwinning geboekt. De Alkmaarders leken thuis tegen FC Groningen op een nederlaag af te stevenen, maar bogen een achterstand van 1-3 om in een zege van 4-3. Mexx Meerdink maakte in een verhitte slotfase vanaf de strafschopstip het winnende [...]",
+          "categories": []
+        },
         {
           "title": "Teun Koopmeiners helpt Juventus aan zege bij oude club AZ",
           "link": "https://www.hoornsdagblad.nl/sport/teun-koopmeiners-helpt-juventus-aan-zege-bij-oude-club-az",
@@ -388,20 +402,6 @@
           "link": "https://www.hoornsdagblad.nl/sport/eindelijk-zit-het-hollandia-eens-mee",
           "pubDate": "Sat, 17 Oct 2026 22:36:53 +0200",
           "description": "WIERDEN - Hollandia heeft zijn eerste overwinning in de Derde Divisie behaald. Na acht wedstrijden met slechts één punt won de formatie van Michael Lanting zaterdag met 0-1 bij concurrent SVZW. Niels Koster maakte kort na rust het beslissende doelpunt.Hollandia nam in Wierden direct het initiatief. [...]",
-          "categories": []
-        },
-        {
-          "title": "Een échte Amsterdam Experience: 13.000 wandelaars ontdekken hoofdstad te voet",
-          "link": "https://www.hoornsdagblad.nl/sport/een-echte-amsterdam-experience-13000-wandelaars-ontdekken-hoofdstad-te-voet",
-          "pubDate": "Sat, 17 Oct 2026 20:25:35 +0200",
-          "description": "AMSTERDAM - Amsterdam stond vandaag, zaterdag 17 oktober, in het teken van de 12e editie van de Amsterdam City Walk. Ruim 13.000 wandelaars trokken er vroeg op uit. Verspreid over zes afstanden van 10 tot 33 kilometer genoten de deelnemers van wereldberoemde highlights, verborgen parels en typisch [...]",
-          "categories": []
-        },
-        {
-          "title": "AZ heeft eerste driepunter binnen in Europa League",
-          "link": "https://www.hoornsdagblad.nl/sport/az-heeft-eerste-driepunter-binnen-in-europa-league",
-          "pubDate": "Thu, 15 Oct 2026 21:24:27 +0200",
-          "description": "ALKMAAR - AZ heeft zijn eerste overwinning in de competitiefase van de Europa League geboekt. De Alkmaarders versloegen Hapoel Beer Sheva in eigen huis met 2-1. Invaller Mexx Meerdink besliste het duel door met zijn eerste balcontact een strafschop te benutten.Voorafgaand aan de wedstrijd [...]",
           "categories": []
         }
       ]
