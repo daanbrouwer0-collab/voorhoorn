@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-09T02:38:13.439Z",
+  "updated": "2026-11-09T17:26:11.819Z",
   "failedSources": [
     {
       "id": "hoornactueel",
       "label": "HoornActueel",
-      "error": "The operation was aborted due to timeout"
+      "error": "HTTP 403"
     },
     {
       "id": "onswestfriesland",
@@ -119,6 +119,69 @@
       "label": "Hoornsdagblad",
       "items": [
         {
+          "title": "Always Forward boekt eerste zege, ZAP blijft in zwaar weer",
+          "link": "https://www.hoornsdagblad.nl/sport/always-forward-boekt-eerste-zege-zap-blijft-in-zwaar-weer",
+          "pubDate": "Mon, 09 Nov 2026 17:42:43 +0100",
+          "description": "BREEZAND - Always Forward heeft de eerste overwinning van het seizoen behaald. In een duel tussen twee moeizaam gestarte ploegen wonnen de bezoekers uit Hoorn met 2-3 van ZAP. De beslissing viel diep in blessuretijd, kort nadat de thuisploeg op gelijke hoogte was gekomen.Vroege voorsprong voor [...]",
+          "categories": []
+        },
+        {
+          "title": "Indische Kerstpulan brengt warmte en gezelligheid naar Bovenkarspel",
+          "link": "https://www.hoornsdagblad.nl/uitgaan/wat-is-er-gezelliger-dan-samen-genieten-van-mooie-muziek-lekker-eten-en-vooral-van-elkaars-gezelschap",
+          "pubDate": "Mon, 09 Nov 2026 16:11:51 +0100",
+          "description": "BOVENKARSPEL – Terwijl de winterdagen steeds korter en kouder worden, kunnen liefhebbers van de Indische cultuur zich verheugen op een warme en gezellige middag in Bovenkarspel. Op zondag 6 december staat Sociaal-Cultureel Centrum 't Stadsplein, beter bekend als Het Postkantoor, in het teken van de [...]",
+          "categories": []
+        },
+        {
+          "title": "De sterren van het gewelf in de Oosterkerk!",
+          "link": "https://www.hoornsdagblad.nl/uitgaan/de-sterren-van-het-gewelf-in-de-oosterkerk",
+          "pubDate": "Mon, 09 Nov 2026 15:46:21 +0100",
+          "description": "HOORN - Dat verwachten we van het concert dat op zondag 29 november in de kerk plaatsvindt. Op die middag zullen Heleen Hulst (viool) en Gerard Bouwhuis (piano) ons weer verrassen met een combinatie van bijzondere klassieke stukken en eigentijdse composities. En dat doen ze al voor de elfde keer! [...]",
+          "categories": []
+        },
+        {
+          "title": "Winterverkoop Tesselschade afdeling West-Friesland e.o.",
+          "link": "https://www.hoornsdagblad.nl/regio/winterverkoop-tesselschade-afdeling-west-friesland-eo",
+          "pubDate": "Mon, 09 Nov 2026 13:50:25 +0100",
+          "description": "HOORN - Op vrijdag 20 november 2026 organiseert Tesselschade afdeling West-Friesland haar jaarlijkse winterverkoop in Het Octaaf, J.D. Pollstraat 1 in Hoorn. De verkoop vindt plaats van 10.00 tot 14.00 uur.Bent u op zoek naar leuke, mooie en duurzame cadeaus voor Sinterklaas en/of Kerst? Dan is [...]",
+          "categories": []
+        },
+        {
+          "title": "Inschrijving De 4 van Alkmaar en De Vierde van de 4 geopend",
+          "link": "https://www.hoornsdagblad.nl/sport/inschrijving-de-4-van-alkmaar-en-de-vierde-van-de-4-geopend",
+          "pubDate": "Mon, 09 Nov 2026 11:22:13 +0100",
+          "description": "ALKMAAR - Woensdag 9 tot en met zaterdag 12 juni 2027 staat Alkmaar vier dagen lang in het teken van wandelen. Tijdens De 4 van Alkmaar vertrekken deelnemers iedere dag vanuit Alkmaar om het hart van Noord-Holland te ontdekken. Op zaterdag 12 juni komen daar de wandelaars van De Vierde van de 4 [...]",
+          "categories": []
+        },
+        {
+          "title": "Gezellig snuffelen en de leukste koopjes scoren op de Hoornse vlooienmarkt!",
+          "link": "https://www.hoornsdagblad.nl/regio/gezellig-snuffelen-en-de-leukste-koopjes-scoren-op-de-hoornse-vlooienmarkt",
+          "pubDate": "Mon, 09 Nov 2026 09:11:59 +0100",
+          "description": "HOORN - Op zondag 15 november verandert Sporthal De Kreek in Hoorn weer in een waar paradijs voor liefhebbers van snuffelen, verzamelen en voordelig shoppen! De grote sporthal aan de Meetketting 1-3 staat boordevol gezellige kramen met kleding, speelgoed, woonaccessoires, boeken, curiosa en [...]",
+          "categories": []
+        },
+        {
+          "title": "1 op 5 werknemers psychisch vermoeid door werk, meer dan tien jaar geleden",
+          "link": "https://www.hoornsdagblad.nl/algemeen/l1-op-5-werknemers-psychisch-vermoeid-door-werk-meer-dan-tien-jaar-geleden",
+          "pubDate": "Mon, 09 Nov 2026 07:39:14 +0100",
+          "description": "In 2025 voelde 21 procent van de werknemers zich enkele keren per maand of vaker psychisch vermoeid door het werk. Dat is iets meer dan een jaar eerder, toen dat 20 procent was. Het is ook meer dan tien jaar geleden, toen gaf 13 procent dat aan. Dat blijkt uit cijfers van de Nationale Enqu&ecirc;te [...]",
+          "categories": []
+        },
+        {
+          "title": "Brand in stroomhuisje zorgt voor stroomuitval in wijk in Hoorn",
+          "link": "https://www.hoornsdagblad.nl/112-hoorn/brand-in-stroomhuisje-zorgt-voor-stroomuitval-in-wijk-in-hoorn",
+          "pubDate": "Mon, 09 Nov 2026 06:16:46 +0100",
+          "description": "​HOORN - Aan de Alexanderstraat in Hoorn heeft maandagochtend omstreeks 05.10 uur een brand gewoed in een stroomhuisje, dat tussen verschillende woningen is gelegen. Door de brand zit een deel van de omliggende wijk tijdelijk zonder stroom.​De brandweer is met spoed ter plaatse gegaan en is bezig [...]",
+          "categories": []
+        },
+        {
+          "title": "De Blokkers haalt flink uit tegen SDW",
+          "link": "https://www.hoornsdagblad.nl/sport/de-blokkers-haalt-flink-uit-tegen-sdw",
+          "pubDate": "Mon, 09 Nov 2026 00:35:48 +0100",
+          "description": "BLOKKER - In de vijfde klasse van het zaterdagvooetbal heeft De Blokkers korte metten gemaakt met tegenstander SDW. De ploeg van Martin Bommels won na een 5-0 ruststand met maar liefst 8-0.De thuisploeg deed snel zaken, want na de openingstreffer van Julian op den Kelder trof Quinten Knook tweemaal [...]",
+          "categories": []
+        },
+        {
           "title": "Purmersteijn wint derby tegen negen man van Hollandia",
           "link": "https://www.hoornsdagblad.nl/sport/purmersteijn-wint-derby-tegen-negen-man-van-hollandia",
           "pubDate": "Sun, 08 Nov 2026 21:41:09 +0100",
@@ -194,69 +257,6 @@
           "pubDate": "Fri, 06 Nov 2026 15:32:55 +0100",
           "description": "HOORN - Ook al is het Westfries Museum gesloten vanwege de grootschalige verbouwing, de Sinterklaastraditie gaat gewoon door. Vanaf de intocht van Sinterklaas verandert een van de lokalen van de Museumwerkplaats in de Boterhal in de werkkamer van de Sint. Leerlingen uit groep 1, 2 en 3 zijn van [...]",
           "categories": []
-        },
-        {
-          "title": "5 van de 7 reptielensoorten gaan achteruit, alleen muurhagedis neemt toe",
-          "link": "https://www.hoornsdagblad.nl/algemeen/l5-van-de-7-reptielensoorten-gaan-achteruit-alleen-muurhagedis-neemt-toe",
-          "pubDate": "Fri, 06 Nov 2026 11:52:33 +0100",
-          "description": "De populaties van vijf van de zeven reptielensoorten gingen de afgelopen twaalf jaar achteruit. Uitzonderingen zijn de muurhagedis, die vooruitging, en de hazelworm die stabiel bleef. Gemiddeld daalden de populaties van reptielen vanaf 2014, en waren in 2025 qua omvang ongeveer gelijk aan die van [...]",
-          "categories": []
-        },
-        {
-          "title": "College stelt twee locaties voor tijdelijke opvang en huisvesting voor",
-          "link": "https://www.hoornsdagblad.nl/gemeente/college-stelt-twee-locaties-voor-tijdelijke-opvang-en-huisvesting-voor",
-          "pubDate": "Fri, 06 Nov 2026 10:20:28 +0100",
-          "description": "HOORN - De gemeente Hoorn heeft onderzoek gedaan naar geschikte plekken voor de opvang van asielzoekers en tijdelijke huisvesting van andere woningzoekenden. Het college van burgemeester en wethouders stelt de gemeenteraad voor om twee locaties in Hoorn verder uit te werken voor tijdelijke opvang [...]",
-          "categories": []
-        },
-        {
-          "title": "Volgende week zondag: Grootste popronde Hoorn gaat los",
-          "link": "https://www.hoornsdagblad.nl/uitgaan/volgende-week-zondag-grootste-popronde-hoorn-gaat-los",
-          "pubDate": "Fri, 06 Nov 2026 09:55:01 +0100",
-          "description": "HOORN - Je ziet overal de posters al hangen en de programmaboekjes liggen. En de liefhebbers kijken er inmiddels enorm naar uit: op zondag 15 november host Hoorn de grootste Popronde die de stad ooit heeft gehad. Die dag vinden op 22 locaties in de stad maar liefst 45 optredens plaats van de [...]",
-          "categories": []
-        },
-        {
-          "title": "Gratis woningcheck om je huis (brand)veiliger te maken",
-          "link": "https://www.hoornsdagblad.nl/regio/gratis-woningcheck-om-je-huis-brandveiliger-te-maken",
-          "pubDate": "Fri, 06 Nov 2026 09:39:11 +0100",
-          "description": "NOORD-HOLLAND - Hangen er in jouw huis genoeg goed werkende rookmelders? Weet jij wat je moet doen bij een vlam in de pan? En welke gevaren kunnen er ontstaan door een cv-ketel of houtkachel? Al deze vragen én meer komen aan bod tijdens de gratis woningcheck van de brandweer. Zo creëer je meer [...]",
-          "categories": []
-        },
-        {
-          "title": "Teun Koopmeiners helpt Juventus aan zege bij oude club AZ",
-          "link": "https://www.hoornsdagblad.nl/sport/teun-koopmeiners-helpt-juventus-aan-zege-bij-oude-club-az",
-          "pubDate": "Thu, 05 Nov 2026 23:25:42 +0100",
-          "description": "ALKMAAR - AZ heeft donderdagavond voor het eerst na zeventien ongeslagen Europese thuiswedstrijden weer een nederlaag geleden. Juventus won in de competitiefase van de Europa League met 1-2 in Alkmaar. Oud-AZ'er Teun Koopmeiners opende de score en trok daarmee in het onderlinge duel met zijn broer [...]",
-          "categories": []
-        },
-        {
-          "title": "Medaille voor vredesmissie in buitenland",
-          "link": "https://www.hoornsdagblad.nl/algemeen/medaille-voor-vredesmissie-in-buitenland",
-          "pubDate": "Thu, 05 Nov 2026 19:57:01 +0100",
-          "description": "DEN HAAG - 21 politiemedewerkers hebben de Herinneringsmedaille Internationale Missies ontvangen. De medailles zijn een blijk van waardering en erkenning voor het werk dat zij als missiegangers verrichtten in conflictgebieden over heel de wereld.De 21 politiemedewerkers kregen in de Nieuwe Kerk te [...]",
-          "categories": []
-        },
-        {
-          "title": "Een veilig gevoel begint bij de voordeur: Tasani helpt woningen beter te beveiligen",
-          "link": "https://www.hoornsdagblad.nl/wonen/een-veilig-gevoel-begint-bij-de-voordeur-tasani-helpt-woningen-beter-te-beveiligen",
-          "pubDate": "Thu, 05 Nov 2026 11:21:28 +0100",
-          "description": "Een goede beveiliging van je woning begint bij betrouwbare sloten. Toch staan veel mensen pas stil bij de veiligheid van hun deuren wanneer er daadwerkelijk iets gebeurt. Een inbraak, een defect slot of een buitensluiting kan voor veel stress zorgen. Tasani Lock and Security Solutions helpt [...]",
-          "categories": []
-        },
-        {
-          "title": "Online bedreiging en intimidatie leidt bij 4 op de 10 tot psychische problemen",
-          "link": "https://www.hoornsdagblad.nl/algemeen/online-bedreiging-en-intimidatie-leidt-bij-4-op-de-10-tot-psychische-problemen",
-          "pubDate": "Thu, 05 Nov 2026 11:06:23 +0100",
-          "description": "In 2025 zei 20 procent van de slachtoffers van criminaliteit emotionele of psychische problemen te hebben als gevolg van het delict. Dit komt het vaakst voor bij online bedreiging of intimidatie (40 procent), gevolgd door geweldsdelicten (32 procent). Ook slachtoffers bij wie het delict dichtbij [...]",
-          "categories": []
-        },
-        {
-          "title": "Rijlessen in Noord-Holland in twee jaar tijd ruim 15% duurder geworden",
-          "link": "https://www.hoornsdagblad.nl/automotive/rijlessen-in-noord-holland-in-twee-jaar-tijd-ruim-15-duurder-geworden",
-          "pubDate": "Thu, 05 Nov 2026 10:48:32 +0100",
-          "description": "Leren autorijden wordt steeds duurder, ook in Noord-Holland. Voor een uur rijles betaal je momenteel gemiddeld zo'n € 68. Dit uurtarief ligt 15,4% hoger dan in 2024. Zo'n prijsstijging loopt bij tientallen lessen al snel op tot honderden euro's. Wel verschilt het bedrag dat je betaalt sterk per [...]",
-          "categories": []
         }
       ]
     },
@@ -264,6 +264,27 @@
       "id": "hoornsdagblad-sport",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Always Forward boekt eerste zege, ZAP blijft in zwaar weer",
+          "link": "https://www.hoornsdagblad.nl/sport/always-forward-boekt-eerste-zege-zap-blijft-in-zwaar-weer",
+          "pubDate": "Mon, 09 Nov 2026 17:42:43 +0100",
+          "description": "BREEZAND - Always Forward heeft de eerste overwinning van het seizoen behaald. In een duel tussen twee moeizaam gestarte ploegen wonnen de bezoekers uit Hoorn met 2-3 van ZAP. De beslissing viel diep in blessuretijd, kort nadat de thuisploeg op gelijke hoogte was gekomen.Vroege voorsprong voor [...]",
+          "categories": []
+        },
+        {
+          "title": "Inschrijving De 4 van Alkmaar en De Vierde van de 4 geopend",
+          "link": "https://www.hoornsdagblad.nl/sport/inschrijving-de-4-van-alkmaar-en-de-vierde-van-de-4-geopend",
+          "pubDate": "Mon, 09 Nov 2026 11:22:13 +0100",
+          "description": "ALKMAAR - Woensdag 9 tot en met zaterdag 12 juni 2027 staat Alkmaar vier dagen lang in het teken van wandelen. Tijdens De 4 van Alkmaar vertrekken deelnemers iedere dag vanuit Alkmaar om het hart van Noord-Holland te ontdekken. Op zaterdag 12 juni komen daar de wandelaars van De Vierde van de 4 [...]",
+          "categories": []
+        },
+        {
+          "title": "De Blokkers haalt flink uit tegen SDW",
+          "link": "https://www.hoornsdagblad.nl/sport/de-blokkers-haalt-flink-uit-tegen-sdw",
+          "pubDate": "Mon, 09 Nov 2026 00:35:48 +0100",
+          "description": "BLOKKER - In de vijfde klasse van het zaterdagvooetbal heeft De Blokkers korte metten gemaakt met tegenstander SDW. De ploeg van Martin Bommels won na een 5-0 ruststand met maar liefst 8-0.De thuisploeg deed snel zaken, want na de openingstreffer van Julian op den Kelder trof Quinten Knook tweemaal [...]",
+          "categories": []
+        },
         {
           "title": "Purmersteijn wint derby tegen negen man van Hollandia",
           "link": "https://www.hoornsdagblad.nl/sport/purmersteijn-wint-derby-tegen-negen-man-van-hollandia",
@@ -382,27 +403,6 @@
           "pubDate": "Thu, 22 Oct 2026 11:11:10 +0200",
           "description": "EGMOND - De Fjoertoer Egmond trekt dit jaar letterlijk de wereld over. Op vrijdag 27 en zaterdag 28 november staat de 12e editie van het populaire wandelevenement in het teken van de 'Fjoer World Toer'. Niet alleen het thema is internationaal, ook de deelnemers komen uit verschillende delen van de [...]",
           "categories": []
-        },
-        {
-          "title": "Voetbalseizoen '25/'26: Stabilisering van het aantal incidenten",
-          "link": "https://www.hoornsdagblad.nl/sport/voetbalseizoen-25-26-stabilisering-van-het-aantal-incidenten",
-          "pubDate": "Tue, 20 Oct 2026 13:30:31 +0200",
-          "description": "NEDERLAND - De forse daling van het aantal geregistreerde incidenten in eerdere seizoenen heeft zich in 2025/2026 niet verder doorgezet. Dit blijkt uit de cijfers van de politie en het Openbaar Ministerie (OM) en uit de veiligheidsmonitor van de KNVB, die vandaag wordt gepubliceerd.Het blijkt dat [...]",
-          "categories": []
-        },
-        {
-          "title": "Matig AZ redt punt tegen tiental SC Cambuur",
-          "link": "https://www.hoornsdagblad.nl/sport/matig-az-redt-punt-tegen-tiental-sc-cambuur",
-          "pubDate": "Sun, 18 Oct 2026 18:56:53 +0200",
-          "description": "LEEUWARDEN - AZ heeft zondag ternauwernood een nederlaag bij SC Cambuur voorkomen. De Alkmaarders speelden ruim een halfuur met een man meer, maar kwamen in het Kooi Stadion niet verder dan 2-2. Een benutte strafschop van Mexx Meerdink bracht in de slotfase redding voor de ploeg van trainer [...]",
-          "categories": []
-        },
-        {
-          "title": "Prins scoort zes keer voor Westfriezen, Always Forward uitgeschakeld in bekertoernooi",
-          "link": "https://www.hoornsdagblad.nl/sport/prins-scoort-zes-keer-voor-westfriezen-always-forward-uitgeschakeld-in-bekertoernooi",
-          "pubDate": "Sun, 18 Oct 2026 17:39:13 +0200",
-          "description": "HOORN - In de 1e knockout-ronde van de KNVB-districtsbeker heeft Westfriezen zich overtuigend geplaatst voor de volgende ronde alwaar competitiegenoot Always Forward werd uitgeschakeld.WestfriezenHet was zondag eenrichtingsverkeer op Sportpark De Kruising en met name Stan Prins bleek een ware plaag [...]",
-          "categories": []
         }
       ]
     },
@@ -410,6 +410,87 @@
       "id": "rodi",
       "label": "Rodi Hoorn",
       "items": [
+        {
+          "title": "Snuffelen naar koopjes op vlooienmarkt in De Kreek in Zwaag",
+          "link": "https://www.rodi.nl/hoorn/uit/511859/snuffelen-naar-koopjes-op-vlooienmarkt-in-de-kreek-in-zwaag",
+          "pubDate": "Mon, 09 Nov 2026 18:08:05 Z",
+          "description": "ZWAAG - Sporthal De Kreek in Zwaag verandert zondag 15 november in een grote vlooienmarkt. De sporthal aan de Meetketting 1-3 staat vol kramen met kleding, speelgoed, woonaccessoires, boeken en curiosa.",
+          "categories": [
+            "Uit"
+          ]
+        },
+        {
+          "title": "Lezing in Westfries Archief in Hoorn over brandspuitkwestie in Zwaagdijk",
+          "link": "https://www.rodi.nl/hoorn/nieuws/511858/lezing-in-westfries-archief-in-hoorn-over-brandspuitkwestie-in-zwaagdijk",
+          "pubDate": "Mon, 09 Nov 2026 17:54:05 Z",
+          "description": "HOORN - Historicus en archiefmedewerker Lorenzo Ruijter geeft donderdag 19 november in het Westfries Archief in Hoorn een lezing over de brandweer van Zwaagdijk. De avond is bedoeld voor iedereen met interesse in brandweer en dorps- of familiegeschiedenis.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Omring opent dertig nieuwe revalidatie-units in Lindendael Hoorn",
+          "link": "https://www.rodi.nl/hoorn/zorg/511856/omring-opent-dertig-nieuwe-revalidatie-units-in-lindendael-hoorn",
+          "pubDate": "Mon, 09 Nov 2026 17:16:38 Z",
+          "description": "HOORN - Omring opent in Lindendael in Hoorn dertig nieuwe units voor geriatrische revalidatie. Daarmee zijn er 66 appartementen waar ouderen tijdelijk kunnen verblijven om te revalideren. Omring brengt de revalidatiezorg in Westfriesland samen op deze locatie.",
+          "categories": [
+            "Zorg"
+          ]
+        },
+        {
+          "title": "Bonbonactie Amahoro helpt honderd kinderen naar school in Burundi",
+          "link": "https://www.rodi.nl/hoorn/nieuws/511852/bonbonactie-amahoro-helpt-honderd-kinderen-naar-school-in-burundi",
+          "pubDate": "Mon, 09 Nov 2026 16:44:25 Z",
+          "description": "HOORN - Stichting Westfriesland voor Burundi, kortweg Amahoro, verkoopt in de herfst weer bonbons. Dit jaar is het de twintigste keer. De opbrengst betaalt het schoolgeld van honderd kinderen in Burundi.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Alzheimer Café Hoorn over euthanasiewens en dementie",
+          "link": "https://www.rodi.nl/hoorn/nieuws/511835/alzheimer-cafe-hoorn-over-euthanasiewens-en-dementie",
+          "pubDate": "Mon, 09 Nov 2026 14:28:19 Z",
+          "description": "HOORN - Het Alzheimer Café Hoorn houdt woensdag 18 november een bijeenkomst over keuzes rond het levenseinde bij dementie. Het onderwerp luidt: 'Mag ik het zelf zeggen als ik niet meer verder wil'.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Laatste Dorpenoverleg Blokker-Zwaag van 2026 draait om vrouwengezondheid",
+          "link": "https://www.rodi.nl/hoorn/nieuws/511809/laatste-dorpenoverleg-blokker-zwaag-van-2026-draait-om-vrouwengezondheid",
+          "pubDate": "Mon, 09 Nov 2026 13:27:03 Z",
+          "description": "ZWAAG - De agendacommissie van het Dorpenoverleg Blokker-Zwaag dinsdag 15 december de laatste bijeenkomst van 2026 in De Witte Valk, Dorpsstraat 175 in Zwaag. Gastspreker Mirjam Kaijer vertelt onder de titel 'Eva=geen man' over de zorg voor vrouwen. De avond begint om 19.30 uur.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Let op: Bobeldijk in Berkhout deze week afgesloten voor wegwerkzaamheden",
+          "link": "https://www.rodi.nl/hoorn/nieuws/511781/let-op-bobeldijk-in-berkhout-deze-week-afgesloten-voor-wegwerkzaamheden",
+          "pubDate": "Mon, 09 Nov 2026 12:09:25 Z",
+          "description": "BERKHOUT - Aan de Bobeldijk in Berkhout vinden van maandag 9 tot en met vrijdag 13 november werkzaamheden plaats. Tijdens het werk worden asfaltschades en verzakkingen hersteld. Ook worden twee verkeersplateaus aangelegd.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Stroomstoring in Hoorn leidt tot vragen aan college",
+          "link": "https://www.rodi.nl/hoorn/politiek/511723/stroomstoring-in-hoorn-leidt-tot-vragen-aan-college",
+          "pubDate": "Mon, 09 Nov 2026 10:15:42 Z",
+          "description": "HOORN - De fractie Hart van Hoorn wil van het college weten wat de oorzaak is van stroomstoringen in de gemeente en wat er wordt gedaan om nieuwe uitval te voorkomen. Aanleiding is een stroomstoring die Hoorn maandagochtend 9 november trof.",
+          "categories": [
+            "Politiek"
+          ]
+        },
+        {
+          "title": "Brand in stroomhuisje Alexanderstraat legt tientallen straten in Hoorn zonder stroom",
+          "link": "https://www.rodi.nl/hoorn/112-nieuws/511699/brand-in-stroomhuisje-alexanderstraat-legt-tientallen-straten-in-hoorn-zonder-stroom",
+          "pubDate": "Mon, 09 Nov 2026 09:15:34 Z",
+          "description": "HOORN - Een deel van Hoorn zit maandagochtend 9 november zonder stroom na een brand in een stroomhuisje aan de Alexanderstraat. Het treft ongeveer 40 straten. Het is nog niet duidelijk wanneer de problemen volledig zijn verholpen.",
+          "categories": [
+            "112-nieuws"
+          ]
+        },
         {
           "title": "Bes Klein Ensemble zingt ode aan de liefde in Oosterkerk Hoorn",
           "link": "https://www.rodi.nl/hoorn/uit/511201/bes-klein-ensemble-zingt-ode-aan-de-liefde-in-oosterkerk-hoorn",
@@ -553,87 +634,6 @@
           "categories": [
             "Nieuws"
           ]
-        },
-        {
-          "title": "Sociaal Hoorn/Team Tonnaer deelt zakjes zout uit in Hoorn",
-          "link": "https://www.rodi.nl/hoorn/politiek/511308/sociaal-hoorn-team-tonnaer-deelt-zakjes-zout-uit-in-hoorn",
-          "pubDate": "Wed, 04 Nov 2026 10:49:12 Z",
-          "description": "HOORN - Sociaal Hoorn/Team Tonnaer gaat de komende weken zelf zakjes strooizout uitdelen in Hoorn. De fractie stelde de gemeente eerder voor om zout via de rayonposten beschikbaar te stellen aan inwoners, maar wethouder Diana Dekker nam dat voorstel niet over.",
-          "categories": [
-            "Politiek"
-          ]
-        },
-        {
-          "title": "Wekelijkse digitale les in wijkcentrum De Huesmolen in Hoorn",
-          "link": "https://www.rodi.nl/hoorn/nieuws/511307/wekelijkse-digitale-les-in-wijkcentrum-de-huesmolen-in-hoorn",
-          "pubDate": "Wed, 04 Nov 2026 10:40:29 Z",
-          "description": "HOORN - Stichting Netwerk start dinsdag 10 november met wekelijkse digitale lessen in wijkcentrum De Huesmolen. Deelnemers leren omgaan met computer, laptop en telefoon en kunnen al hun vragen over digitale apparaten stellen.",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "Eenhoornloop trekt hardlopers naar wielerbaan en Schellinkhouterdijk",
-          "link": "https://www.rodi.nl/hoorn/nieuws/511252/persbericht-27e-eenhoornloop-8-november-2026",
-          "pubDate": "Wed, 04 Nov 2026 09:00:00 Z",
-          "description": "HOORN - Loopgroep Hoorn organiseert zondag 8 november de 27e Eenhoornloop. Deelnemers kiezen uit 5, 10 of 16,1 kilometer, kinderen lopen 1,2 kilometer.",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "Jarka en Ruud laten zien wat verduurzamen oplevert: ‘Of ‘ie lawaai geeft? Nee hoor, kom maar luisteren’",
-          "link": "https://www.rodi.nl/hoorn/nieuws/511177/jarka-en-ruud-laten-zien-wat-verduurzamen-oplevert-of-ie-lawaai-geeft-nee-hoor-kom-maar-luisteren",
-          "pubDate": "Tue, 03 Nov 2026 14:30:00 Z",
-          "description": "HOORN - Hoeveel geluid maakt een warmtepomp nu werkelijk? Wat levert verduurzamen op en hoe comfortabel is een huis zonder aardgas? Wie daar nieuwsgierig naar is, kan zaterdag 7 november zelf een kijkje nemen in de woning van Ruud Sweering en Jarka Plevier in Hoorn. Zij stellen hun verduurzaamde huis open tijdens de Nationale Duurzame Huizen Route.",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "Simone van der Vlugt genomineerd voor NS Publieksprijs: ‘In Hoorn liggen mijn vroegste jeugdherinneringen’",
-          "link": "https://www.rodi.nl/hoorn/nieuws/511133/simone-van-der-vlugt-genomineerd-voor-ns-publieksprijs-in-hoorn-liggen-mijn-vroegste-jeugdherinneringen",
-          "pubDate": "Tue, 03 Nov 2026 11:18:20 Z",
-          "description": "HOORN - Als kind klom ze in bomen, verzon ze voor zichzelf en haar buurtkinderen de spannendste avonturen en tikte ze haar eerste verhalen op een typemachine. Toen al had Simone van der Vlugt (59) de droom om schrijfster te worden. Inmiddels behoort de geboren Hoornse tot de bekendste schrijvers van Nederland. Met haar tiende historische roman 'Kruistocht van een koningin' is ze genomineerd voor de NS Publieksprijs 2026. Een bijzondere nominatie, juist omdat haar liefde voor dit genre een lange weg kent.",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "Flinke file op N194 bij Berkhout richting Hoorn, meerdere voertuigen betrokken",
-          "link": "https://www.rodi.nl/hoorn/112-nieuws/511110/flinke-file-op-n194-bij-berkhout-richting-hoorn-meerdere-voertuigen-betrokken",
-          "pubDate": "Tue, 03 Nov 2026 09:38:40 Z",
-          "description": "BERKHOUT - Rond 07.25 uur heeft dinsdagochtend een verkeersongeval plaatsgevonden op de N194 bij Berkhout. Bij het ongeval waren drie voertuigen betrokken. De aanrijding gebeurde onder een viaduct.",
-          "categories": [
-            "112-nieuws"
-          ]
-        },
-        {
-          "title": "Engel van Hoorn staat stil bij angst in kapel Dijk en Duin",
-          "link": "https://www.rodi.nl/hoorn/nieuws/511075/engel-van-hoorn-staat-stil-bij-angst-in-kapel-dijk-en-duin",
-          "pubDate": "Tue, 03 Nov 2026 08:30:00 Z",
-          "description": "HOORN - De Engel van Hoorn houdt zondag 8 november een bijeenkomst over angst en hoe mensen ermee omgaan. De middag vindt plaats in de kapel van Dijk en Duin aan de Wilhelminalaan 2. De toegang is gratis.",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "Lezing over Patriottentijd en Bataafse Revolutie in Foreestenhuis Hoorn",
-          "link": "https://www.rodi.nl/hoorn/historie/511074/lezing-over-patriottentijd-en-bataafse-revolutie-in-foreestenhuis-hoorn",
-          "pubDate": "Mon, 02 Nov 2026 17:57:14 Z",
-          "description": "HOORN - Historicus Anne Doedens houdt woensdag 11 november een lezing over de Patriottentijd en de Bataafse Revolutie. Vereniging Oud Hoorn organiseert de avond in het Foreestenhuis aan de Grote Oost 43. De lezing begint om 20.00 uur.",
-          "categories": [
-            "Historie"
-          ]
-        },
-        {
-          "title": "48-jarige vrouw uit Hoorn overleden bij ongeval op A9 bij Heiloo",
-          "link": "https://www.rodi.nl/hoorn/112-nieuws/510930/48-jarige-vrouw-uit-hoorn-overleden-bij-ongeval-op-a9-bij-heiloo",
-          "pubDate": "Mon, 02 Nov 2026 10:45:18 Z",
-          "description": "HEILOO/HOORN - De vrouw die vrijdagavond om het leven kwam bij een ongeval op de A9 bij Heiloo, is een 48-jarige vrouw uit Hoorn. Dat heeft de politie bekendgemaakt. De vrouw liep op de snelweg en werd daar aangereden.",
-          "categories": [
-            "112-nieuws"
-          ]
         }
       ]
     },
@@ -641,6 +641,72 @@
       "id": "streekomroep",
       "label": "Streekomroep",
       "items": [
+        {
+          "title": "55 jaar Freetime Old Dixie Jassband in Enkhuizen",
+          "link": "https://www.streekomroepwestfriesland.nl/55-jaar-freetime-old-dixie-jassband-in-enkhuizen/",
+          "pubDate": "Mon, 09 Nov 2026 15:44:57 +0000",
+          "description": "Groots feest in Enkhuizen; de Freetime Old Dixie Jassband blaast 55 kaarsjes uit. Om dat te vieren, organiseerde de band een groot jubileumconcert in de haringstad. Enkhuizen, dat al decennia verbonden is aan de jazzmuziek, liep vol met bezoekers vanuit alle windrichtingen. Zutphen, Arnhem, Zwitserland en zelfs Wales. Over de hele wereld zijn er fans van de Freetime Old Dixie Jassband uit Enkhuizen. Geen wonder dus dat zij ook in het Engels worden aangekondigd; zelfs in hun eigen stad. \"Het is één grote familie\", vertelt Enkhuizer jazz-legende en multi-instrumentalist bij de jazzband Jaap de Wit. Verslaggever Pieter Baas ging op bezoek bij het jubileumfeest en sprak bezoekers én bandleden. T",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
+        {
+          "title": "Stroom terug bij 3.400 huishoudens in Hoorn na brand, transformatorhuisje volledig uitgebrand",
+          "link": "https://www.streekomroepwestfriesland.nl/stroom-terug-bij-3400-huishoudens-in-hoorn-na-brand-transformatorhuisje-volledig-uitgebrand/",
+          "pubDate": "Mon, 09 Nov 2026 11:53:00 +0000",
+          "description": "Alle 3.400 huishoudens die vanochtend zonder stroom kwamen te zitten door een brand in een transformatorhuisje in Hoorn, hebben weer elektriciteit. Sinds 9.45 uur zorgt een noodaggregaat voor stroom. Het transformatorhuisje is volledig uitgebrand en moet worden hersteld. Foto: NH Media / NH Nieuws De brand brak rond 5.00 uur uit in het transformatorhuisje aan de Alexanderlaan. Meerdere hulpdiensten kwamen ter plaatse. Omdat het huisje vlak bij woningen staat, werd al snel opgeschaald. De brandweer kon het huisje lange tijd niet betreden. Netbeheerder Liander moest eerst de stroom uitschakelen, zodat de brand veilig kon worden geblust. De oorzaak van de brand is nog onbekend. \"Het huisje is v",
+          "categories": [
+            "112",
+            "Verkeer & wonen"
+          ]
+        },
+        {
+          "title": "Spirit’30 trekt moeizame overwinning over de streep tegen Kwiek’78",
+          "link": "https://www.streekomroepwestfriesland.nl/spirit30-trekt-moeizame-overwinning-over-de-streep-tegen-kwiek78/",
+          "pubDate": "Mon, 09 Nov 2026 11:29:11 +0000",
+          "description": "Spirit’30 heeft op eigen veld met 2-1 gewonnen van Kwiek’78. De thuisploeg had het lastig tegen een sterk beginnend Kwiek’78, maar wist dankzij twee doelpunten van Aeron Stam toch de drie punten binnen te halen. De bezoekers waren in de openingsfase de betere ploeg en kregen meerdere mogelijkheden om op voorsprong te komen. Toch was het Spirit’30 dat in de negende minuut toesloeg. Aeron Stam werkte een aanval van Kenny van Westen en Thijs Numan af: 1-0. Van Westen kreeg vervolgens een uitgelezen kans om de voorsprong te verdubbelen, maar liet een vrijwel leeg doel onbenut. Na rust bleef Kwiek’78 aandringen. In de 72e minuut bracht aanvoerder Bram Kremer de bezoekers met een fraai afstandssch",
+          "categories": [
+            "Sport"
+          ]
+        },
+        {
+          "title": "Italiaanse sportjournalist Francesco Pietrella bezoekt Hollandia voor reportage over Donyell Malen",
+          "link": "https://www.streekomroepwestfriesland.nl/italiaanse-sportjournalist-francesco-pietrella-bezoekt-hollandia-voor-reportage-over-donyell-malen/",
+          "pubDate": "Mon, 09 Nov 2026 10:58:00 +0000",
+          "description": "Een journalist van La Gazzetta dello Sport, de grootste sportkrant van Italië, die speciaal naar Hoorn komt om meer te weten te komen over de voetbaljeugd van Donyell Malen. Het overkwam Hollandia onlangs, toen Francesco Pietrella de reis vanuit Italië maakte voor een reportage over de eerste voetbaljaren van de huidige international. Hij legde contact met Wally Ooms die in het magazine van Hollandia aandacht had besteed aan Donyell Malen. Ooms maakte afspraken, sprak met de moeder van de voormalige Hollandiaan en was aanwezig bij de gesprekken op het complex van Hollandia. Daar sprak de Italiaanse journalist met voormalige teamgenoten, trainers en mensen die een belangrijke rol hebben gespe",
+          "categories": [
+            "Kunst & cultuur",
+            "Sport"
+          ]
+        },
+        {
+          "title": "Hollandia verliest tumultueus duel van Purmersteijn",
+          "link": "https://www.streekomroepwestfriesland.nl/hollandia-verliest-tumultueus-duel-van-purmersteijn/",
+          "pubDate": "Mon, 09 Nov 2026 10:52:50 +0000",
+          "description": "Hollandia heeft een turbulente wedstrijd tegen Purmersteijn met 4-1 verloren. Op bezoek in Purmerend liet de ploeg van trainer/coach Michael Lanting vooral in de eerste helft uitstekend voetbal zien. Na rust sloeg de wedstrijd om en volgde een kaartenregen, waaronder twee rode kaarten voor spelers van Hollandia. Hollandia begon sterk en was voor rust de bovenliggende partij. Na goed combinatievoetbal bracht Niels Koster de bezoekers verdiend op een 0-1 voorsprong. Vlak voor rust kreeg Hollandia zelfs een uitgelezen kans op 0-2, maar de doelman van Purmersteijn voorkwam een tweede treffer. In plaats daarvan kwam Purmersteijn op gelijke hoogte via een strafschop. Na rust liep de wedstrijd verd",
+          "categories": [
+            "Sport"
+          ]
+        },
+        {
+          "title": "Column: De trots van nazaten",
+          "link": "https://www.streekomroepwestfriesland.nl/column-de-trots-van-nazaten/",
+          "pubDate": "Mon, 09 Nov 2026 10:29:17 +0000",
+          "description": "Stel je voor dat je een regelrechte nazaat bent van een bekend figuur uit onze vaderlandse geschiedenis, waarover je als kind trots kon vaststellen dat het toch maar jouw voorvader is die prominent in het geschiedenisboek staat waar al jouw klasgenootjes – verplicht weliswaar, want er kan een proefwerkje over komen – ook kennis van nemen en dat het – hoera! – gebeurt dat een wakker klasgenootje jou vraagt: ‘Is dat familie van jou?’. Niet eens zo vreselijk lang geleden kon je dan een beetje nonchalant antwoorden dat het inderdaad zo is en je tegelijkertijd weldadig baden in en soort van iets verdunde bewondering. En dat je dan langs je neus weg, om niet al te opschepperig te klinken, zegt dat",
+          "categories": [
+            "Geschiedenis",
+            "Kunst & cultuur"
+          ]
+        },
+        {
+          "title": "Duizend huishoudens Hoorn paar uur zonder stroom na brand in transformatorhuisje",
+          "link": "https://www.streekomroepwestfriesland.nl/duizend-huishoudens-hoorn-paar-uur-zonder-stroom-na-brand-in-transformatorhuisje/",
+          "pubDate": "Mon, 09 Nov 2026 05:43:00 +0000",
+          "description": "Een brand in een transformatorhuisje in Hoorn heeft vanochtend zo'n duizend huishoudens zonder stroom gezet. Inmiddels is de brand onder controle en hebben de meeste huishoudens weer elektriciteit. Zo'n 150 huishoudens zitten nog zonder stroom. Brandweer kon huisje niet in De brand brak rond 5.00 uur uit in een transformatorhuisje aan de Alexanderstraat. Meerdere hulpdiensten kwamen ter plaatse en vanwege de locatie van de brand werd al snel opgeschaald. De brandweer kon het huisje lange tijd niet betreden om de brand te blussen. Netbeheerder Liander moest daarom eerst de stroom uitschakelen, zodat de brandweer veilig aan het werk kon. Herstelwerkzaamheden Volgens de Veiligheidsregio raakte ",
+          "categories": [
+            "112"
+          ]
+        },
         {
           "title": "Pietenspeurtocht voor kinderen keert terug naar Enkhuizen",
           "link": "https://www.streekomroepwestfriesland.nl/pietenspeurtocht-voor-kinderen-keert-terug-naar-enkhuizen/",
@@ -664,72 +730,6 @@
           "link": "https://www.streekomroepwestfriesland.nl/westfries-van-de-week-weten-jullie-wat-onder-t-peerd-zn-buk-raakt-is/",
           "pubDate": "Sun, 08 Nov 2026 07:30:00 +0000",
           "description": "In de serie ‘Westfries van de week’ gaan we op zoek naar typische West-Friese woorden en gebruiken. Want hoeveel mensen spreken het dialect nog? Of kennen de gebruiken nog? In deze aflevering gaan we langs bij Ad Snip in Blokker, hij rijdt nog altijd West-Friesland door met zijn paarden. Ad laat uitgebreid zien hoe de kar in elkaar steekt waar hij zijn paarden voor spant. Daarna volgt een ronde door de wei en wordt de weg op gegaan. Ondertussen vertelt Ad wat het betekent als iets \"onder 't peerd z'n buk raakt is\". Daar schijnt veel naartoe te verdwijnen. Ook geeft Ad het woord voor volgende keer mee: Weten jullie wat een matjedor is? The post Westfries van de week: Weten jullie wat \"onder '",
-          "categories": [
-            "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Volle Noorderkerk tijdens 'Hoorn en het slavernijverleden'",
-          "link": "https://www.streekomroepwestfriesland.nl/volle-noorderkerk-tijdens-hoorn-en-het-slavernijverleden/",
-          "pubDate": "Sun, 08 Nov 2026 06:32:00 +0000",
-          "description": "Tijdens het evenement 'Hoorn en het slavernijverleden' vertelden onderzoekers, kunstenaars en muzikanten over de doorwerking van het slavernijverleden van de regio in de huidige samenleving. Historische lezingen werden afgewisseld met kunstbeschouwingen en live performances. Belangrijkste boodschap van de middag? Ook al lijkt deze geschiedenis soms ver weg in de tijd, onze samenleving heeft nog iedere dag te maken met de erfenis. Vereniging Oud Hoorn organiseerde de middag in samenwerking met het Westfries Museum, stichting Netwerk en Hotel Maria Kapel. Het idee komt uit een werkgroep die zich richt op de toekomst van de historische vereniging. De onderwerpkeuze is in Hoorn beladen. Dat blee",
-          "categories": [
-            "Geschiedenis",
-            "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Brandweer blust schuurbrand bij woning in Hoorn",
-          "link": "https://www.streekomroepwestfriesland.nl/brandweer-blust-schuurbrand-bij-woning-in-hoorn/",
-          "pubDate": "Sat, 07 Nov 2026 08:59:00 +0000",
-          "description": "De brandweer heeft gisteravond een schuurbrand geblust in een woonwijk in Hoorn. Het schuurtje dat vlam vatte stond los van de woning. De eerste melding van de schuurbrand werd rond 22.00 uur gedaan. Al snel ontstond er rook. Een deel van de straat werd afgezet om hulpdiensten de ruimte te geven. Rond 22.30 uur was het vuur onder controle. Niemand is gewond geraakt bij de brand. Het schuurtje is volledig verloren gegaan. Foto: Rooducties / NH Nieuws Foto: Rooducties / NH Nieuws Foto: Rooducties / NH Nieuws Foto: Rooducties / NH Nieuws Foto: Rooducties / NH Nieuws The post Brandweer blust schuurbrand bij woning in Hoorn appeared first on Streekomroep West-Friesland .",
-          "categories": [
-            "112"
-          ]
-        },
-        {
-          "title": "Schipbreukeling Ben (70) blikt in podcast terug op twee dagen doodsangst op eiland",
-          "link": "https://www.streekomroepwestfriesland.nl/schipbreukeling-ben-70-blikt-in-podcast-terug-op-twee-dagen-doodsangst-op-eiland/",
-          "pubDate": "Sat, 07 Nov 2026 06:30:00 +0000",
-          "description": "Het lijkt wel een film, het scenario dat zich vorig jaar november afspeelt op het IJsselmeer. De 70-jarige Ben Verheij staat na een schipbreuk doodsangsten uit op het onbewoonde eiland De Kreupel, ten noorden van Andijk. Hij overleeft er meer dan 48 uur voordat hij gered wordt door vrijwilligers van de KNRM. In een podcast van de reddingsmaatschappij blikt hij uitgebreid terug. De man denkt op zondag 2 november de nacht door te brengen op zijn schip, tevens zijn woonplek. Hij ligt op het IJsselmeer voor anker. Dat anker schiet 's nachts los, het schip drijft af en klapt op de rotsen van eiland De Kreupel. \"Ik ben met een rotgang ergens opgeklapt. Ik denk: 'wat gebeurt hier'? Ik hoorde onder ",
-          "categories": [
-            "112",
-            "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "In Beeld: Lichtjesloop Enkhuizen",
-          "link": "https://www.streekomroepwestfriesland.nl/in-beeld-lichtjesloop-enkhuizen/",
-          "pubDate": "Fri, 06 Nov 2026 20:30:53 +0000",
-          "description": "Enkhuizen was vrijdagavond het decor van de Lichtjesloop, dat na eerdere succesvolle edities in Den Helder en Schagen ook voor de eerste keer in West-Friesland gehouden werd. Fotograaf Peter Goedhart was erbij en maakte een reportage. Deelnemers hadden keuze uit drie verschillende routes van 10, 5 en 2,5 kilometer. Na het verzamelen in de Nieuwe Doelen, waar al vele lichtjes brandden, werd de avond geopend door organisator Team Sportservice en haar lokale partners. Hierna werden de routes gelopen door de binnenstad. Verschillende locaties waren versierd met lampjes, maar ook werden feestelijke acts opgevoerd. Bekijk hier de reportage van fotograaf Peter Goedhart. Bron: Peter Goedhart / SWF B",
-          "categories": [
-            "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "WEEFF Top Favoriet komende week in handen van Marieke Schenk",
-          "link": "https://www.streekomroepwestfriesland.nl/weeff-top-favoriet-komende-week-in-handen-van-marieke-schenk/",
-          "pubDate": "Fri, 06 Nov 2026 18:56:35 +0000",
-          "description": "\"Marieke Schenk: een popartiest met een krachtige, energieke liveshow\", meldt de Popronde als beschrijving van de zangeres die vandaag haar nieuwe single 'Overdosis' lanceert. Komende week hoor je het nummer extra vaak op de radio, want we roepen het uit tot nieuwe WEEFF Top Favoriet. Overdosis gaat volgens de zangeres over verslaafd zijn aan wat iemand je geeft, terwijl die persoon niet per se goed voor je is. \"Aan de aandacht, bevestiging, spanning of veiligheid die je bij iemand vindt en waar je steeds naar blijft verlangen\", schrijft de zangeres op haar Instagrampagina. \"Tot je beseft dat je er zelf aan onderdoor gaat.\" \"Ik ben zelf veel bezig met leren dat ik goed genoeg ben zoals ik be",
-          "categories": [
-            "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Hoorn komt met nieuwe asielopvangplekken en onderzoekt meerdere locaties",
-          "link": "https://www.streekomroepwestfriesland.nl/hoorn-komt-met-nieuwe-asielopvangplekken-en-onderzoekt-meerdere-locaties/",
-          "pubDate": "Fri, 06 Nov 2026 14:55:00 +0000",
-          "description": "Gemeente Hoorn mikt op twee nieuwe locaties voor de huisvesting van zo'n 350 asielzoekers en dringend woningzoekenden. Door een uitruil met andere gemeenten hoopt het college het aantal asielzoekers met een derde te verminderen. Als dat niet lukt, moet er nog een locatie bijkomen. Begin december wordt er een besluit genomen over de plannen. Vanuit de Spreidingswet heeft de gemeente Hoorn de taak om 367 opvangplekken te organiseren. Waarvan 23 voor alleenstaande minderjarige vluchtelingen. Het college wil dit aantal plekken terugbrengen naar 232 door twintig extra alleenstaande minderjarige asielzoekers uit de regio op te vangen. Deze jongeren hebben op sommige locaties in de regio moeilijker",
-          "categories": [
-            "Politiek",
-            "Verkeer & wonen"
-          ]
-        },
-        {
-          "title": "Popronde strijkt volgend weekend neer in Hoorn, Streekomroep doet live radioverslag",
-          "link": "https://www.streekomroepwestfriesland.nl/popronde-strijkt-volgend-weekend-neer-in-hoorn-streekomroep-doet-live-radioverslag/",
-          "pubDate": "Fri, 06 Nov 2026 09:32:18 +0000",
-          "description": "De binnenstad van Hoorn maakt zich op voor de elfde en tot nu toe grootste editie van de Popronde, het grootste reizende muziekfestival van Nederland. Volgend weekend zijn op ruim twintig locaties in de binnenstad in totaal 45 optredens te zien. De optredens in Hoorn op 15 november zijn gratis toegankelijk en beginnen vanaf 13.00 uur. Het evenement biedt nationaal poptalent kans op verschillende podia op te treden. Volgens coördinator Melissa Hoek kan het publiek daarbij zomaar een toekomstige bekende artiest ontdekken. “Inmiddels legendarisch is het verhaal van MEAU, die een paar jaar geleden tijdens haar optreden bij Charlies te horen kreeg dat ze op Eurosonic Noorderslag mocht spelen. Waa",
           "categories": [
             "Kunst & cultuur"
           ]
