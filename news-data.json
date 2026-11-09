@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-08T19:38:44.145Z",
+  "updated": "2026-11-09T02:38:13.439Z",
   "failedSources": [
     {
       "id": "hoornactueel",
       "label": "HoornActueel",
-      "error": "HTTP 403"
+      "error": "The operation was aborted due to timeout"
     },
     {
       "id": "onswestfriesland",
@@ -118,6 +118,13 @@
       "id": "hoornsdagblad",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Purmersteijn wint derby tegen negen man van Hollandia",
+          "link": "https://www.hoornsdagblad.nl/sport/purmersteijn-wint-derby-tegen-negen-man-van-hollandia",
+          "pubDate": "Sun, 08 Nov 2026 21:41:09 +0100",
+          "description": "PURMEREND - Purmersteijn heeft de derby tegen Hollandia met 4-1 gewonnen. De ontmoeting tussen de twee promovendi in de Derde Divisie was lange tijd in evenwicht, maar kantelde na rust toen de bezoekers twee spelers kwijtraakten met een rode kaart. Mylan Polman speelde met drie doelpunten een [...]",
+          "categories": []
+        },
         {
           "title": "Zwaluwen '30 klopt SV Enkhuizen in duel dat ruim half uur stil ligt",
           "link": "https://www.hoornsdagblad.nl/sport/zwaluwen-30-klopt-sv-enkhuizen-in-duel-dat-ruim-half-uur-stil-ligt",
@@ -250,13 +257,6 @@
           "pubDate": "Thu, 05 Nov 2026 10:48:32 +0100",
           "description": "Leren autorijden wordt steeds duurder, ook in Noord-Holland. Voor een uur rijles betaal je momenteel gemiddeld zo'n € 68. Dit uurtarief ligt 15,4% hoger dan in 2024. Zo'n prijsstijging loopt bij tientallen lessen al snel op tot honderden euro's. Wel verschilt het bedrag dat je betaalt sterk per [...]",
           "categories": []
-        },
-        {
-          "title": "Programma boeklancering 'Maar dan ga je toch gewoon weg' compleet",
-          "link": "https://www.hoornsdagblad.nl/algemeen/programma-boeklancering-maar-dan-ga-je-toch-gewoon-weg-compleet",
-          "pubDate": "Thu, 05 Nov 2026 09:00:43 +0100",
-          "description": "OBDAM - Met de aansluiting van Tweede Kamerlid, Songül Mutluer is het programma voor de lancering van het boek Maar dan ga je toch gewoon weg van Hanneke van de Water compleet. Op vrijdag 20 november komen in Sociaal-Cultureel Centrum De Brink in Obdam persoonlijke ervaringen, onderzoek en [...]",
-          "categories": []
         }
       ]
     },
@@ -264,6 +264,13 @@
       "id": "hoornsdagblad-sport",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Purmersteijn wint derby tegen negen man van Hollandia",
+          "link": "https://www.hoornsdagblad.nl/sport/purmersteijn-wint-derby-tegen-negen-man-van-hollandia",
+          "pubDate": "Sun, 08 Nov 2026 21:41:09 +0100",
+          "description": "PURMEREND - Purmersteijn heeft de derby tegen Hollandia met 4-1 gewonnen. De ontmoeting tussen de twee promovendi in de Derde Divisie was lange tijd in evenwicht, maar kantelde na rust toen de bezoekers twee spelers kwijtraakten met een rode kaart. Mylan Polman speelde met drie doelpunten een [...]",
+          "categories": []
+        },
         {
           "title": "Zwaluwen '30 klopt SV Enkhuizen in duel dat ruim half uur stil ligt",
           "link": "https://www.hoornsdagblad.nl/sport/zwaluwen-30-klopt-sv-enkhuizen-in-duel-dat-ruim-half-uur-stil-ligt",
@@ -395,13 +402,6 @@
           "link": "https://www.hoornsdagblad.nl/sport/prins-scoort-zes-keer-voor-westfriezen-always-forward-uitgeschakeld-in-bekertoernooi",
           "pubDate": "Sun, 18 Oct 2026 17:39:13 +0200",
           "description": "HOORN - In de 1e knockout-ronde van de KNVB-districtsbeker heeft Westfriezen zich overtuigend geplaatst voor de volgende ronde alwaar competitiegenoot Always Forward werd uitgeschakeld.WestfriezenHet was zondag eenrichtingsverkeer op Sportpark De Kruising en met name Stan Prins bleek een ware plaag [...]",
-          "categories": []
-        },
-        {
-          "title": "Eindelijk zit het Hollandia eens mee",
-          "link": "https://www.hoornsdagblad.nl/sport/eindelijk-zit-het-hollandia-eens-mee",
-          "pubDate": "Sat, 17 Oct 2026 22:36:53 +0200",
-          "description": "WIERDEN - Hollandia heeft zijn eerste overwinning in de Derde Divisie behaald. Na acht wedstrijden met slechts één punt won de formatie van Michael Lanting zaterdag met 0-1 bij concurrent SVZW. Niels Koster maakte kort na rust het beslissende doelpunt.Hollandia nam in Wierden direct het initiatief. [...]",
           "categories": []
         }
       ]
@@ -651,6 +651,15 @@
           ]
         },
         {
+          "title": "Vermiste jongen (12) uit Bovenkarspel in goede gezondheid teruggevonden",
+          "link": "https://www.streekomroepwestfriesland.nl/vermiste-jongen-12-uit-bovenkarspel-in-goede-gezondheid-teruggevonden/",
+          "pubDate": "Sun, 08 Nov 2026 08:34:17 +0000",
+          "description": "De twaalfjarige jongen uit Bovenkarspel die als vermist was opgegeven, is in goede gezondheid teruggevonden. Dat meldt de politie. Waar de jongen is aangetroffen, is niet bekend. Er werd gisteren alarm geslagen vanwege de vermissing van de jongen. De jongen was voor het laatst gezien in Bovenkarspel. De politie vermoedde dat hij met de trein naar Amsterdam was vertrokken en mogelijk onderweg was naar Polen. Waar de jongen uiteindelijk is teruggevonden, heeft de politie niet bekendgemaakt. The post Vermiste jongen (12) uit Bovenkarspel in goede gezondheid teruggevonden appeared first on Streekomroep West-Friesland .",
+          "categories": [
+            "112"
+          ]
+        },
+        {
           "title": "Westfries van de week: Weten jullie wat \"onder 't peerd z'n buk raakt\" is?",
           "link": "https://www.streekomroepwestfriesland.nl/westfries-van-de-week-weten-jullie-wat-onder-t-peerd-zn-buk-raakt-is/",
           "pubDate": "Sun, 08 Nov 2026 07:30:00 +0000",
@@ -723,16 +732,6 @@
           "description": "De binnenstad van Hoorn maakt zich op voor de elfde en tot nu toe grootste editie van de Popronde, het grootste reizende muziekfestival van Nederland. Volgend weekend zijn op ruim twintig locaties in de binnenstad in totaal 45 optredens te zien. De optredens in Hoorn op 15 november zijn gratis toegankelijk en beginnen vanaf 13.00 uur. Het evenement biedt nationaal poptalent kans op verschillende podia op te treden. Volgens coördinator Melissa Hoek kan het publiek daarbij zomaar een toekomstige bekende artiest ontdekken. “Inmiddels legendarisch is het verhaal van MEAU, die een paar jaar geleden tijdens haar optreden bij Charlies te horen kreeg dat ze op Eurosonic Noorderslag mocht spelen. Waa",
           "categories": [
             "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Verkeersborden Westfrisiaweg na bijna anderhalf jaar hersteld",
-          "link": "https://www.streekomroepwestfriesland.nl/verkeersborden-westfrisiaweg-na-bijna-anderhalf-jaar-hersteld-weg-vannacht-nog-tijdelijk-gedeeltelijk-dicht/",
-          "pubDate": "Thu, 05 Nov 2026 17:50:00 +0000",
-          "description": "Provincie Noord-Holland is begonnen met het herstel van een portaal op de Westfrisiaweg (N307), ter hoogte van de afslag Risdam bij Zwaag. Deze week is de weg tijdelijk gedeeltelijk afgesloten geweest, waarbij verwacht wordt dat de vervanging vrijdag is afgerond. In juli 2025 botste een betonpompwagen tegen de bebording . Volgens een woordvoerder van de politie was de chauffeur destijds vergeten de zogeheten giek in te halen, waardoor deze borden beschadigd raakten en werden verwijderd. De paal achter het geluidsscherm bleef lange tijd schuin naast de weg zichtbaar. Bekijk hier beelden van het ongeluk in 2025. De tekst gaat verder. Na bijna zestien maanden is Provincie Noord-Holland begonnen",
-          "categories": [
-            "Politiek",
-            "Verkeer & wonen"
           ]
         }
       ]
