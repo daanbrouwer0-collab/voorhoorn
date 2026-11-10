@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T15:33:29.822Z",
+  "updated": "2026-11-10T23:59:53.569Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -17,6 +17,15 @@
       "id": "hoornnieuws",
       "label": "Hoornnieuws",
       "items": [
+        {
+          "title": "Bouw eerste koopappartementen Pelmolenpad feestelijk gevierd",
+          "link": "https://hoornnieuws.nl/2026/11/10/bouw-eerste-koopappartementen-pelmolenpad-feestelijk-gevierd/",
+          "pubDate": "Tue, 10 Nov 2026 22:38:18 +0000",
+          "description": "De bouw van de eerste 78 koopappartementen in de nieuwe woonwijk Pelmolenpad is deze zomer gestart. De toekomstige bewoners kwamen op vrijdag 6 november naar de bouwplaats om dit samen te vieren. Wethouder Niek Heijne verrichtte samen met de jongste en de oudste toekomstige bewoners van de koopappartementen de symbolische handeling door een eerste muurtje te metselen. Hoewel de werkzaamheden al eerder zijn begonnen, vormde de bijeenkomst op 6 november de officiële en feestelijke start van de bouw. De toekomstige bewoners van de eerste koopappartementen konden de voortgang van het project bekijken en alvast kennis maken met elkaar. Nieuwe woonwijk Pelmolenpad De nieuwe woonwijk Pelmolenpad is",
+          "categories": [
+            "Gemeentenieuws"
+          ]
+        },
         {
           "title": "Museum BroekerVeiling voor zestiende keer Pakhuis van Sinterklaas",
           "link": "https://hoornnieuws.nl/2026/11/05/museum-broekerveiling-voor-zestiende-keer-pakhuis-van-sinterklaas/",
@@ -102,15 +111,6 @@
           "categories": [
             "Agenda"
           ]
-        },
-        {
-          "title": "Gooi Raak is terug!",
-          "link": "https://hoornnieuws.nl/2026/10/14/gooi-raak-is-terug/",
-          "pubDate": "Wed, 14 Oct 2026 09:40:59 +0000",
-          "description": "Hoe vaak gooi jij afval raak? Test je kennis in de vernieuwde Gooi Raak-quiz en maak kans op mooie prijzen. Beantwoord vragen over alledaagse afvalproducten, ontdek wat waar hoort en leer spelenderwijs beter afval scheiden. Beantwoord je alle 10 vragen goed? Dan maak je kans op de maandprijs . In oktober verloten we een duurzame Elho regenton . Handig voor je tuin of balkon én goed voor het opvangen van regenwater. Nieuw dit jaar: de quiz sluit beter aan op jouw situatie. Daarnaast kun je jouw voortgang bijhouden en ontvang je handige tips om afval nog beter te scheiden. Iedere maand geven we een nieuwe prijs weg en je mag zo vaak meedoen als je wilt. Meespelen kan via: Gooi Raak!",
-          "categories": [
-            "Gemeentenieuws"
-          ]
         }
       ]
     },
@@ -118,6 +118,13 @@
       "id": "hoornsdagblad",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Achtste editie Amsterdams Winterparadijs groter dan ooit met nieuwe attracties en shows",
+          "link": "https://www.hoornsdagblad.nl/achtste-editie-amsterdams-winterparadijs-groter-dan-ooit-met-nieuwe-attracties-en-shows",
+          "pubDate": "Tue, 10 Nov 2026 21:44:48 +0100",
+          "description": "AMSTERDAM - Het Amsterdams Winterparadijs keert deze winter voor de achtste keer terug naar de RAI Amsterdam. Sinds de eerste editie in 2017 zijn er meer dan 1,5 miljoen bezoekers geweest en wordt Het Amsterdams Winterparadijs voor de achtste editie nog groter. Met een verrassende Symphony of [...]",
+          "categories": []
+        },
         {
           "title": "Goed dakonderhoud voorkomt onverwachte problemen en hoge kosten",
           "link": "https://www.hoornsdagblad.nl/wonen/goed-dakonderhoud-voorkomt-onverwachte-problemen-en-hoge-kosten",
@@ -249,13 +256,6 @@
           "link": "https://www.hoornsdagblad.nl/sport/de-blokkers-haalt-flink-uit-tegen-sdw",
           "pubDate": "Mon, 09 Nov 2026 00:35:48 +0100",
           "description": "BLOKKER - In de vijfde klasse van het zaterdagvoetbal heeft De Blokkers korte metten gemaakt met tegenstander SDW. De ploeg van Martin Bommels won na een 5-0 ruststand met maar liefst 8-0.De thuisploeg deed snel zaken, want na de openingstreffer van Julian op den Kelder trof Quinten Knook tweemaal [...]",
-          "categories": []
-        },
-        {
-          "title": "Purmersteijn wint derby tegen negen man van Hollandia",
-          "link": "https://www.hoornsdagblad.nl/sport/purmersteijn-wint-derby-tegen-negen-man-van-hollandia",
-          "pubDate": "Sun, 08 Nov 2026 21:41:09 +0100",
-          "description": "PURMEREND - Purmersteijn heeft de derby tegen Hollandia met 4-1 gewonnen. De ontmoeting tussen de twee promovendi in de Derde Divisie was lange tijd in evenwicht, maar kantelde na rust toen de bezoekers twee spelers kwijtraakten met een rode kaart. Mylan Polman speelde met drie doelpunten een [...]",
           "categories": []
         }
       ]
@@ -410,6 +410,24 @@
       "id": "rodi",
       "label": "Rodi Hoorn",
       "items": [
+        {
+          "title": "Kopers in Hoorn bieden gemiddeld 5,4 procent boven vraagprijs",
+          "link": "https://www.rodi.nl/hoorn/nieuws/512020/kopers-in-hoorn-bieden-gemiddeld-5-4-procent-boven-vraagprijs",
+          "pubDate": "Tue, 10 Nov 2026 17:33:51 Z",
+          "description": "HOORN - Kopers in Hoorn boden in het derde kwartaal gemiddeld 5,4 procent boven de vraagprijs, tegen 4,9 procent een kwartaal eerder. Bij 12,9 procent van de woningen ging de vraagprijs omlaag, minder dan landelijk (15,9 procent). Dat meldt Huispedia in het Woningmarkt Trendrapport.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Natuurwerkdag in Risdam-Noord trekt tientallen vrijwilligers",
+          "link": "https://www.rodi.nl/hoorn/nieuws/512009/natuurwerkdag-in-risdam-noord-trekt-tientallen-vrijwilligers",
+          "pubDate": "Tue, 10 Nov 2026 16:36:48 Z",
+          "description": "HOORN - In Risdam-Noord staken 18 kinderen van Scoutinggroep ML King en 41 volwassenen de handen uit de mouwen tijdens de Natuurwerkdag op zaterdag 7 november. Ze raapten zwerfafval en deden herfstklussen in de twee openbare buurttuinen.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
         {
           "title": "Nieuw zevenkoppig bestuur voor PRO Westfriesland, de samenwerking van GroenLinks en PvdA",
           "link": "https://www.rodi.nl/hoorn/nieuws/511994/nieuw-zevenkoppig-bestuur-voor-pro-westfriesland-de-samenwerking-van-groenlinks-en-pvda",
@@ -615,24 +633,6 @@
           "description": "HOORN - Ook dit weekend - van vrijdag 6 tot en met zondag 8 november - is er weer genoeg te beleven in Hoorn en omgeving. Zo kun je vroeg de dansvloer op tijdens Vroeg Pieken, genieten van bekende nummers van Boudewijn de Groot of verschillende optredens bezoeken tijdens het Kamermuziek Festival. Ook voor liefhebbers van hiphop, kunst, duurzaamheid en creatieve activiteiten is er genoeg te doen.",
           "categories": [
             "Uit"
-          ]
-        },
-        {
-          "title": "Sinterklaasintocht en demonstratie in Hoorn gaan door, maar niet tegelijk op Roode Steen",
-          "link": "https://www.rodi.nl/hoorn/gemeentenieuws/511416/sinterklaasintocht-en-demonstratie-in-hoorn-gaan-door-maar-niet-tegelijk-op-roode-steen",
-          "pubDate": "Wed, 04 Nov 2026 16:48:57 Z",
-          "description": "HOORN - In Hoorn vinden zaterdag 14 november zowel de Sinterklaasintocht als een aangemelde demonstratie van de Werkgroep Slavernijverleden Hoorn plaats. De gemeente heeft hierover de afgelopen periode gesprekken gevoerd met de betrokken partijen.",
-          "categories": [
-            "Gemeentenieuws"
-          ]
-        },
-        {
-          "title": "37 zieke en dode bomen langs N-wegen in Westfriesland worden gekapt",
-          "link": "https://www.rodi.nl/hoorn/nieuws/511389/37-zieke-en-dode-bomen-langs-n-wegen-in-westfriesland-worden-gekapt",
-          "pubDate": "Wed, 04 Nov 2026 14:41:32 Z",
-          "description": "REGIO - De provincie Noord-Holland gaat vanaf medio januari 2027 37 zieke, dode of verzwakte bomen langs provinciale wegen in Westfriesland verwijderen. Het gaat om bomen langs de N241, N243, N506, N307, N194 en N505. De kap is nodig vanwege de verkeersveiligheid.",
-          "categories": [
-            "Nieuws"
           ]
         }
       ]
