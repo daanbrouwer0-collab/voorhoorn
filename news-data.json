@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T17:26:11.819Z",
+  "updated": "2026-11-10T02:02:06.815Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -119,6 +119,13 @@
       "label": "Hoornsdagblad",
       "items": [
         {
+          "title": "Verdiende overwinning voor Westfriezen",
+          "link": "https://www.hoornsdagblad.nl/sport/verdiende-overwinning-voor-westfriezen",
+          "pubDate": "Mon, 09 Nov 2026 18:43:24 +0100",
+          "description": "ZWAAG - Westfriezen blijft bovenin meedraaien in de Tweede Klasse A. Zondag wist de ploeg van trainer Stephan Kaaij op 't Krijt een verdiende overwinning te behalen op FC Abcoude: 2-1.De thuisploeg begon voortvarend en wist al in de 11e minuut de score te openen middels een fraaie treffer van [...]",
+          "categories": []
+        },
+        {
           "title": "Always Forward boekt eerste zege, ZAP blijft in zwaar weer",
           "link": "https://www.hoornsdagblad.nl/sport/always-forward-boekt-eerste-zege-zap-blijft-in-zwaar-weer",
           "pubDate": "Mon, 09 Nov 2026 17:42:43 +0100",
@@ -178,7 +185,7 @@
           "title": "De Blokkers haalt flink uit tegen SDW",
           "link": "https://www.hoornsdagblad.nl/sport/de-blokkers-haalt-flink-uit-tegen-sdw",
           "pubDate": "Mon, 09 Nov 2026 00:35:48 +0100",
-          "description": "BLOKKER - In de vijfde klasse van het zaterdagvooetbal heeft De Blokkers korte metten gemaakt met tegenstander SDW. De ploeg van Martin Bommels won na een 5-0 ruststand met maar liefst 8-0.De thuisploeg deed snel zaken, want na de openingstreffer van Julian op den Kelder trof Quinten Knook tweemaal [...]",
+          "description": "BLOKKER - In de vijfde klasse van het zaterdagvoetbal heeft De Blokkers korte metten gemaakt met tegenstander SDW. De ploeg van Martin Bommels won na een 5-0 ruststand met maar liefst 8-0.De thuisploeg deed snel zaken, want na de openingstreffer van Julian op den Kelder trof Quinten Knook tweemaal [...]",
           "categories": []
         },
         {
@@ -250,13 +257,6 @@
           "pubDate": "Fri, 06 Nov 2026 17:11:00 +0100",
           "description": "HOORN - De bouw van de eerste 78 koopappartementen in de nieuwe woonwijk Pelmolenpad is deze zomer gestart. De toekomstige bewoners kwamen op vrijdag 6 november naar de bouwplaats om dit samen te vieren. Wethouder Niek Heijne verrichtte samen met de jongste en de oudste toekomstige bewoners van de [...]",
           "categories": []
-        },
-        {
-          "title": "Werkkamer van Sinterklaas weer open voor schoolklassen in Hoorn",
-          "link": "https://www.hoornsdagblad.nl/regio/werkkamer-van-sinterklaas-weer-open-voor-schoolklassen-in-hoorn",
-          "pubDate": "Fri, 06 Nov 2026 15:32:55 +0100",
-          "description": "HOORN - Ook al is het Westfries Museum gesloten vanwege de grootschalige verbouwing, de Sinterklaastraditie gaat gewoon door. Vanaf de intocht van Sinterklaas verandert een van de lokalen van de Museumwerkplaats in de Boterhal in de werkkamer van de Sint. Leerlingen uit groep 1, 2 en 3 zijn van [...]",
-          "categories": []
         }
       ]
     },
@@ -264,6 +264,13 @@
       "id": "hoornsdagblad-sport",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Verdiende overwinning voor Westfriezen",
+          "link": "https://www.hoornsdagblad.nl/sport/verdiende-overwinning-voor-westfriezen",
+          "pubDate": "Mon, 09 Nov 2026 18:43:24 +0100",
+          "description": "ZWAAG - Westfriezen blijft bovenin meedraaien in de Tweede Klasse A. Zondag wist de ploeg van trainer Stephan Kaaij op 't Krijt een verdiende overwinning te behalen op FC Abcoude: 2-1.De thuisploeg begon voortvarend en wist al in de 11e minuut de score te openen middels een fraaie treffer van [...]",
+          "categories": []
+        },
         {
           "title": "Always Forward boekt eerste zege, ZAP blijft in zwaar weer",
           "link": "https://www.hoornsdagblad.nl/sport/always-forward-boekt-eerste-zege-zap-blijft-in-zwaar-weer",
@@ -282,7 +289,7 @@
           "title": "De Blokkers haalt flink uit tegen SDW",
           "link": "https://www.hoornsdagblad.nl/sport/de-blokkers-haalt-flink-uit-tegen-sdw",
           "pubDate": "Mon, 09 Nov 2026 00:35:48 +0100",
-          "description": "BLOKKER - In de vijfde klasse van het zaterdagvooetbal heeft De Blokkers korte metten gemaakt met tegenstander SDW. De ploeg van Martin Bommels won na een 5-0 ruststand met maar liefst 8-0.De thuisploeg deed snel zaken, want na de openingstreffer van Julian op den Kelder trof Quinten Knook tweemaal [...]",
+          "description": "BLOKKER - In de vijfde klasse van het zaterdagvoetbal heeft De Blokkers korte metten gemaakt met tegenstander SDW. De ploeg van Martin Bommels won na een 5-0 ruststand met maar liefst 8-0.De thuisploeg deed snel zaken, want na de openingstreffer van Julian op den Kelder trof Quinten Knook tweemaal [...]",
           "categories": []
         },
         {
@@ -396,13 +403,6 @@
           "pubDate": "Thu, 22 Oct 2026 20:36:35 +0200",
           "description": "JEREVAN - AZ heeft zijn tweede overwinning in de competitiefase van de Europa League weten te behalen. Tegen het nietige Ararat-Armenia won de ploeg van trainer/coach Leeroy Echteld met 0-4.Na het 2-2-gelijkspel tegen SC Cambuur van afgelopen zondag voerde Echteld opnieuw enkele wijzigingen door. [...]",
           "categories": []
-        },
-        {
-          "title": "Internationale belangstelling voor 12e editie Fjoertoer Egmond",
-          "link": "https://www.hoornsdagblad.nl/sport/internationale-belangstelling-voor-12e-editie-fjoertoer-egmond",
-          "pubDate": "Thu, 22 Oct 2026 11:11:10 +0200",
-          "description": "EGMOND - De Fjoertoer Egmond trekt dit jaar letterlijk de wereld over. Op vrijdag 27 en zaterdag 28 november staat de 12e editie van het populaire wandelevenement in het teken van de 'Fjoer World Toer'. Niet alleen het thema is internationaal, ook de deelnemers komen uit verschillende delen van de [...]",
-          "categories": []
         }
       ]
     },
@@ -410,6 +410,15 @@
       "id": "rodi",
       "label": "Rodi Hoorn",
       "items": [
+        {
+          "title": "Het Grote Hoornse Sinterklaasfeest voor kinderen van 2 tot 9 jaar in Huis Verloren",
+          "link": "https://www.rodi.nl/hoorn/uit/511862/het-grote-hoornse-sinterklaasfeest-voor-kinderen-van-2-tot-9-jaar-in-huis-verloren",
+          "pubDate": "Mon, 09 Nov 2026 18:29:12 Z",
+          "description": "HOORN - Huis Verloren aan de Kerkstraat in Hoorn is zondag 22 november van 10.30 tot 12.00 uur het decor van het Grote Hoornse Sinterklaasfeest. Het feest is speciaal voor kinderen van 2 tot 9 jaar.",
+          "categories": [
+            "Uit"
+          ]
+        },
         {
           "title": "Snuffelen naar koopjes op vlooienmarkt in De Kreek in Zwaag",
           "link": "https://www.rodi.nl/hoorn/uit/511859/snuffelen-naar-koopjes-op-vlooienmarkt-in-de-kreek-in-zwaag",
@@ -624,15 +633,6 @@
           "description": "BLOKKER - Kinderen van 4 tot 10 jaar kunnen zondag 8 november bij MAK Blokweer in Blokker naar het familieconcert Beestjes. Het Linnaeus Trio zet in een interactieve voorstelling de insectenwereld centraal. Het concert hoort bij het Kamermuziek Festival Hoorn.",
           "categories": [
             "Uit"
-          ]
-        },
-        {
-          "title": "Restaurant in Hoorn opgenomen in restaurantgids Lekker 500: dít is ‘m",
-          "link": "https://www.rodi.nl/hoorn/nieuws/511315/restaurant-in-hoorn-opgenomen-in-restaurantgids-lekker-500-dit-is-m",
-          "pubDate": "Wed, 04 Nov 2026 11:20:33 Z",
-          "description": "HOORN - Een restaurant in Hoorn heeft een plek gekregen in de bekende restaurantgids Lekker 500. Het gaat om Restaurant HAVN aan de Oude Doelenkade 7.",
-          "categories": [
-            "Nieuws"
           ]
         }
       ]
