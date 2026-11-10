@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T02:02:06.815Z",
+  "updated": "2026-11-10T15:33:29.822Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -119,6 +119,69 @@
       "label": "Hoornsdagblad",
       "items": [
         {
+          "title": "Goed dakonderhoud voorkomt onverwachte problemen en hoge kosten",
+          "link": "https://www.hoornsdagblad.nl/wonen/goed-dakonderhoud-voorkomt-onverwachte-problemen-en-hoge-kosten",
+          "pubDate": "Tue, 10 Nov 2026 16:16:51 +0100",
+          "description": "NOORD-HOLLAND – Een dak krijgt het hele jaar door veel te verduren. Regen, wind, vorst en flinke temperatuurverschillen kunnen op termijn zorgen voor slijtage of beschadigingen. Toch wordt het dak van een woning vaak pas bekeken wanneer er daadwerkelijk water naar binnen komt. Volgens Dakherstel [...]",
+          "categories": []
+        },
+        {
+          "title": "Help anderstaligen op weg naar een mbo-opleiding: word taalbuddy!",
+          "link": "https://www.hoornsdagblad.nl/regio/help-anderstaligen-op-weg-naar-een-mbo-opleiding-word-taalbuddy",
+          "pubDate": "Tue, 10 Nov 2026 15:18:12 +0100",
+          "description": "HOORN/GROOTEBROEK - Een opleiding volgen, een diploma halen en bouwen aan een toekomst in Nederland. Voor anderstaligen is dat niet altijd vanzelfsprekend. Soms kunnen ze daarbij wel wat extra hulp gebruiken. Daarom zoekt Taalhuis Westfriesland taalbuddies die anderstaligen willen helpen bij de [...]",
+          "categories": []
+        },
+        {
+          "title": "Sint Maarten – Het Feest van het Licht en het Delen",
+          "link": "https://www.hoornsdagblad.nl/feestdagen/sint-maarten-het-feest-van-het-licht-en-het-delen",
+          "pubDate": "Tue, 10 Nov 2026 15:03:02 +0100",
+          "description": "NEDERLAND - Op 11 november wordt in veel delen van Nederland het Sint Maartenfeest gevierd. Vooral in het noorden en westen van het land trekken kinderen met hun lampionnen langs de deuren. Ze zingen vrolijke liedjes en krijgen snoep of fruit als beloning. Het is een feest vol licht, gezelligheid [...]",
+          "categories": []
+        },
+        {
+          "title": "The Masked Music Bingo, een fantastische avond vol entertainment en hilariteit in Hoorn",
+          "link": "https://www.hoornsdagblad.nl/uitgaan/the-masked-music-bingo-een-fantastische-avond-vol-entertainment-en-hilariteit-in-hoorn",
+          "pubDate": "Tue, 10 Nov 2026 14:51:16 +0100",
+          "description": "HOORN - Ben jij klaar voor een avond vol spanning en entertainment, fantastische merkprijzen en hilarische gezelligheid? Dan mag je The Masked Music Bingo van Lucky Star Events niet missen!Dit kun je verwachten:– De allerleukste The Masked Music Bingo– Masked Drag Queen's– Luxe Mystery Prijzen– Een [...]",
+          "categories": []
+        },
+        {
+          "title": "Vernieuwde Albert Heijn Van Dedemstraat heeft een sushikiosk",
+          "link": "https://www.hoornsdagblad.nl/shopping/vernieuwde-albert-heijn-van-dedemstraat-heeft-een-sushikiosk",
+          "pubDate": "Tue, 10 Nov 2026 13:26:03 +0100",
+          "description": "HOORN - Vandaag heeft de vernieuwde Albert Heijn-winkel nabij station Hoorn haar deuren weer geopend voor het publiek. De supermarkt aan de Van Dedemstraat werd de afgelopen periode verbouwd en kreeg een verbeterde indeling. Hierdoor is er meer ruimte ontstaan voor een uitgebreid versassortiment, [...]",
+          "categories": []
+        },
+        {
+          "title": "Gewoon De Dijk brengt ode aan De Dijk in Hoorn",
+          "link": "https://www.hoornsdagblad.nl/uitgaan/gewoon-de-dijk-brengt-ode-aan-de-dijk-in-hoorn",
+          "pubDate": "Tue, 10 Nov 2026 13:21:49 +0100",
+          "description": "HOORN - Op vrijdag 13 november staat 'Gewoon De Dijk' in Van der Valk Hotel Hoorn met een krachtige en liefdevolle ode aan één van de grootste Nederlandstalige bands aller tijden: De Dijk. Met een spetterende liveshow vol Nederlandstalige klassiekers nemen negen gepassioneerde muzikanten het [...]",
+          "categories": []
+        },
+        {
+          "title": "Mensen die veel mantelzorgen, voelen zich minder gezond",
+          "link": "https://www.hoornsdagblad.nl/zorg-en-gezondheid/mensen-die-veel-mantelzorgen-voelen-zich-minder-gezond",
+          "pubDate": "Tue, 10 Nov 2026 12:32:56 +0100",
+          "description": "NEDERLAND - Het grootste deel van de mantelzorgers is 40 jaar of ouder. Meer vrouwen dan mannen zijn mantelzorger. Mannen en vrouwen van 40 tot 65 jaar die acht uur of meer per week mantelzorg geven, hebben een minder goede ervaren gezondheid dan mensen in dezelfde leeftijd die geen of minder dan [...]",
+          "categories": []
+        },
+        {
+          "title": "Achtkoppig zangensemble Bes Klein brengt muzikale ode aan de liefde",
+          "link": "https://www.hoornsdagblad.nl/uitgaan/achtkoppig-zangensemble-bes-klein-brengt-muzikale-ode-aan-de-liefde",
+          "pubDate": "Tue, 10 Nov 2026 10:49:32 +0100",
+          "description": "HOORN - Op zondag 22 november 2026 brengt het achtkoppige Bes Klein Ensemble het concertprogramma Amor, ferisci pur ten gehore in de Oosterkerk in Hoorn. Vanaf 15.00 uur verkent het vocale ensemble de vele gezichten van de liefde binnen de concertserie van Oude Muziek Nu. Van de prille vreugde van [...]",
+          "categories": []
+        },
+        {
+          "title": "10 november: Dag van de Mantelzorg",
+          "link": "https://www.hoornsdagblad.nl/zorg-en-gezondheid/l10-november-dag-van-de-mantelzorg",
+          "pubDate": "Tue, 10 Nov 2026 06:07:54 +0100",
+          "description": "NEDERLAND - De Dag van de Mantelzorg, op 10 november, is een jaarlijkse traditie die wereldwijd wordt georganiseerd om erkenning en waardering te tonen voor mantelzorgers. Mantelzorgers zijn personen die onbetaalde zorg en ondersteuning bieden aan een familielid, vriend of andere naaste met een [...]",
+          "categories": []
+        },
+        {
           "title": "Verdiende overwinning voor Westfriezen",
           "link": "https://www.hoornsdagblad.nl/sport/verdiende-overwinning-voor-westfriezen",
           "pubDate": "Mon, 09 Nov 2026 18:43:24 +0100",
@@ -193,69 +256,6 @@
           "link": "https://www.hoornsdagblad.nl/sport/purmersteijn-wint-derby-tegen-negen-man-van-hollandia",
           "pubDate": "Sun, 08 Nov 2026 21:41:09 +0100",
           "description": "PURMEREND - Purmersteijn heeft de derby tegen Hollandia met 4-1 gewonnen. De ontmoeting tussen de twee promovendi in de Derde Divisie was lange tijd in evenwicht, maar kantelde na rust toen de bezoekers twee spelers kwijtraakten met een rode kaart. Mylan Polman speelde met drie doelpunten een [...]",
-          "categories": []
-        },
-        {
-          "title": "Zwaluwen '30 klopt SV Enkhuizen in duel dat ruim half uur stil ligt",
-          "link": "https://www.hoornsdagblad.nl/sport/zwaluwen-30-klopt-sv-enkhuizen-in-duel-dat-ruim-half-uur-stil-ligt",
-          "pubDate": "Sun, 08 Nov 2026 20:28:37 +0100",
-          "description": "HOORN - Zwaluwen '30 heeft zaterdag de Westfriese derby tegen SV Enkhuizen met 3-1 gewonnen. Het duel werd overschaduwd door een harde botsing tussen Enkhuizen-speler d'Angelo Busby en doelman Ox van der Velden. De wedstrijd lag daardoor ruim een halfuur stil.Busby per ambulance naar ziekenhuisIn [...]",
-          "categories": []
-        },
-        {
-          "title": "AZ toont veerkracht in knotsgek duel tegen FC Groningen",
-          "link": "https://www.hoornsdagblad.nl/sport/az-toont-veerkracht-in-knotsgek-duel-tegen-fc-groningen",
-          "pubDate": "Sun, 08 Nov 2026 18:43:59 +0100",
-          "description": "ALKMAAR - AZ heeft na enkele moeizame weken weer een overwinning geboekt. De Alkmaarders leken thuis tegen FC Groningen op een nederlaag af te stevenen, maar bogen een achterstand van 1-3 om in een zege van 4-3. Mexx Meerdink maakte in een verhitte slotfase vanaf de strafschopstip het winnende [...]",
-          "categories": []
-        },
-        {
-          "title": "Bestuurder gevlucht na eenzijdig ongeval bij Torenwachter in Hoorn",
-          "link": "https://www.hoornsdagblad.nl/112-hoorn/bestuurder-gevlucht-na-eenzijdig-ongeval-bij-torenwachter-in-hoorn",
-          "pubDate": "Sun, 08 Nov 2026 08:27:43 +0100",
-          "description": "HOORN - Aan de Torenwachter in Hoorn heeft zondagochtend omstreeks 07.10 uur een eenzijdig verkeersongeval plaatsgevonden. Een automobilist is daar door nog onbekende oorzaak van de weg geraakt.Bestuurder gevlogen​Bij het ongeval zijn geen gewonden gevallen. Wel bleek de auto flink beschadigd [...]",
-          "categories": []
-        },
-        {
-          "title": "Zeer geslaagde boeklancering 'Engel van beroep' in Bibliotheek Hoorn",
-          "link": "https://www.hoornsdagblad.nl/regio/zeer-geslaagde-boeklancering-engel-van-beroep-in-bibliotheek-hoorn",
-          "pubDate": "Sat, 07 Nov 2026 21:31:16 +0100",
-          "description": "HOORN - Onder grote belangstelling is vandaag in de bibliotheek van Hoorn de roman 'Engel van beroep' van Chris Stikkers gepresenteerd. Het zeer geïnteresseerde publiek, het persoonlijke gesprek met de auteur en de uiterst plezierige sfeer maakten de lancering tot een groot succes.Rob van Doorn van [...]",
-          "categories": []
-        },
-        {
-          "title": "Sinterklaasintocht fotograferen met je smartphone",
-          "link": "https://www.hoornsdagblad.nl/regio/sinterklaasintocht-fotograferen-met-je-smartphone",
-          "pubDate": "Sat, 07 Nov 2026 20:17:01 +0100",
-          "description": "Elk jaar word ik rond deze tijd dezelfde vraag gesteld: \"Hoe krijg jij die bewegelijke Sinterklaasmomenten scherp op de foto met alleen een telefoon?\" Het najaar is een prachtig fotografisch seizoen, maar je camera wordt wel flink op de proef gesteld. Denk aan snelle actie, uitzinnige kinderen en [...]",
-          "categories": []
-        },
-        {
-          "title": "Rustig herfstweer met frisse nachten, later in de week meer kans op regen",
-          "link": "https://www.hoornsdagblad.nl/regio/rustig-herfstweer-met-frisse-nachten-later-in-de-week-meer-kans-op-regen",
-          "pubDate": "Sat, 07 Nov 2026 08:09:28 +0100",
-          "description": "NEDERLAND – De tweede week van november begint met rustig herfstweer. De nachten verlopen fris, met lokaal kans op vorst. Vanaf woensdag neemt de kans op regen toe, maar uitgesproken guur herfstweer wordt voorlopig niet verwacht.Rustig weekend met weinig windZaterdag blijft het fris met [...]",
-          "categories": []
-        },
-        {
-          "title": "Flinke schuurbrand in Hoorn: brandweer schaalt op naar middelbrand",
-          "link": "https://www.hoornsdagblad.nl/112-hoorn/flinke-schuurbrand-in-hoorn-brandweer-schaalt-op-naar-middelbrand",
-          "pubDate": "Fri, 06 Nov 2026 23:19:35 +0100",
-          "description": "HOORN - Aan de Vijzelstraat in Hoorn heeft vrijdagavond omstreeks 22.00 uur een flinke brand gewoed in een schuur. Het vuur brak door nog onbekende oorzaak uit in het bouwwerk, dat is gelegen achter enkele woningen.​Vanwege de aard van de brand en de dreiging van overslaan heeft de brandweer al [...]",
-          "categories": []
-        },
-        {
-          "title": "Bestelbusje verwoest door brand op parkeerplaats bij Wok van Pejo in Zwaag",
-          "link": "https://www.hoornsdagblad.nl/112-hoorn/bestelbusje-verwoest-door-brand-op-parkeerplaats-bij-wok-van-pejo-in-zwaag",
-          "pubDate": "Fri, 06 Nov 2026 20:48:49 +0100",
-          "description": "ZWAAG – Op de parkeerplaats van restaurant Wok van Pejo aan de Keern in Zwaag heeft vrijdagavond rond 20.25 uur een felle voertuigbrand gewoed. Een bestelbusje vloog daar door nog onbekende oorzaak in brand en ging volledig in vlammen op. Het voertuig liep daarbij zeer zware schade op.De brand [...]",
-          "categories": []
-        },
-        {
-          "title": "Pelmolenpad groeit verder: bouw eerste koopappartementen feestelijk gevierd",
-          "link": "https://www.hoornsdagblad.nl/regio/pelmolenpad-groeit-verder-bouw-eerste-koopappartementen-feestelijk-gevierd",
-          "pubDate": "Fri, 06 Nov 2026 17:11:00 +0100",
-          "description": "HOORN - De bouw van de eerste 78 koopappartementen in de nieuwe woonwijk Pelmolenpad is deze zomer gestart. De toekomstige bewoners kwamen op vrijdag 6 november naar de bouwplaats om dit samen te vieren. Wethouder Niek Heijne verrichtte samen met de jongste en de oudste toekomstige bewoners van de [...]",
           "categories": []
         }
       ]
@@ -410,6 +410,33 @@
       "id": "rodi",
       "label": "Rodi Hoorn",
       "items": [
+        {
+          "title": "Nieuw zevenkoppig bestuur voor PRO Westfriesland, de samenwerking van GroenLinks en PvdA",
+          "link": "https://www.rodi.nl/hoorn/nieuws/511994/nieuw-zevenkoppig-bestuur-voor-pro-westfriesland-de-samenwerking-van-groenlinks-en-pvda",
+          "pubDate": "Tue, 10 Nov 2026 14:40:26 Z",
+          "description": "REGIO - PRO Westfriesland heeft tijdens de eerste algemene ledenvergadering op 4 november een zevenkoppig bestuur benoemd. De regionale afdeling, ontstaan uit de samenwerking tussen GroenLinks en PvdA in Westfriesland, telt 879 leden.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Jazzley (8) uit Hoorn Europees kampioen Muay Thai in Duitsland",
+          "link": "https://www.rodi.nl/hoorn/sport/511930/jazzley-8-uit-hoorn-europees-kampioen-muay-thai-in-duitsland",
+          "pubDate": "Tue, 10 Nov 2026 11:55:07 Z",
+          "description": "HOORN - De 8-jarige Jazzley Nannings uit Hoorn is Europees kampioen Muay Thai geworden. Hij won de titel tijdens het WTKA European Championships in Duitsland en nam de kampioensbelt mee naar huis.",
+          "categories": [
+            "Sport"
+          ]
+        },
+        {
+          "title": "Aanhanger met hout schiet los en botst op auto in Zwaag, één persoon naar ziekenhuis",
+          "link": "https://www.rodi.nl/hoorn/112-nieuws/511883/aanhanger-met-hout-schiet-los-en-botst-op-auto-in-zwaag-een-persoon-naar-ziekenhuis",
+          "pubDate": "Tue, 10 Nov 2026 09:30:13 Z",
+          "description": "ZWAAG - Op de Ossenweide in Zwaag heeft dinsdagochtend rond 08.18 uur een verkeersongeval plaatsgevonden waarbij twee personenauto's betrokken raakten. Eén persoon is na controle door ambulancepersoneel overgebracht naar het ziekenhuis.",
+          "categories": [
+            "112-nieuws"
+          ]
+        },
         {
           "title": "Het Grote Hoornse Sinterklaasfeest voor kinderen van 2 tot 9 jaar in Huis Verloren",
           "link": "https://www.rodi.nl/hoorn/uit/511862/het-grote-hoornse-sinterklaasfeest-voor-kinderen-van-2-tot-9-jaar-in-huis-verloren",
@@ -607,33 +634,6 @@
           "categories": [
             "Nieuws"
           ]
-        },
-        {
-          "title": "Warmtenet in Kersenboogerd groeit: al meer dan 650 woningen aangesloten",
-          "link": "https://www.rodi.nl/hoorn/gemeentenieuws/511380/warmtenet-in-kersenboogerd-groeit-al-meer-dan-650-woningen-aangesloten",
-          "pubDate": "Wed, 04 Nov 2026 13:58:29 Z",
-          "description": "HOORN - De eerste woningen in de buurt Bibliotheek in de Kersenboogerd krijgen deze week warmte via het warmtenet. Het is de vierde buurt in de wijk. Meer dan 650 woningen zijn nu aangesloten op het net.",
-          "categories": [
-            "Gemeentenieuws"
-          ]
-        },
-        {
-          "title": "Tien beeldhouwers nemen De Boterhal in Hoorn over",
-          "link": "https://www.rodi.nl/hoorn/uit/511367/tien-beeldhouwers-nemen-de-boterhal-in-hoorn-over",
-          "pubDate": "Wed, 04 Nov 2026 13:27:41 Z",
-          "description": "HOORN - Tien beeldhouwers exposeren van 7 november tot en met 13 december in De Boterhal aan het Kerkplein in Hoorn. Onder de titel Beeldhouwers.Nu tonen ze beelden, tekeningen, gouaches en mobiles. De opening is zondag 8 november om 14.00 uur.",
-          "categories": [
-            "Uit"
-          ]
-        },
-        {
-          "title": "Familie­concert Beestjes in Blokker tijdens Kamermuziek Festival Hoorn",
-          "link": "https://www.rodi.nl/hoorn/uit/511323/familie-concert-beestjes-in-blokker-tijdens-kamermuziek-festival-hoorn",
-          "pubDate": "Wed, 04 Nov 2026 11:31:15 Z",
-          "description": "BLOKKER - Kinderen van 4 tot 10 jaar kunnen zondag 8 november bij MAK Blokweer in Blokker naar het familieconcert Beestjes. Het Linnaeus Trio zet in een interactieve voorstelling de insectenwereld centraal. Het concert hoort bij het Kamermuziek Festival Hoorn.",
-          "categories": [
-            "Uit"
-          ]
         }
       ]
     },
@@ -641,6 +641,43 @@
       "id": "streekomroep",
       "label": "Streekomroep",
       "items": [
+        {
+          "title": "Zoektocht naar nieuwe Dichter van Medemblik, inschrijvingen geopend",
+          "link": "https://www.streekomroepwestfriesland.nl/zoektocht-naar-nieuwe-dichter-van-medemblik-inschrijvingen-geopend/",
+          "pubDate": "Tue, 10 Nov 2026 15:10:52 +0000",
+          "description": "De gemeente Medemblik zoekt een nieuwe Dichter van Medemblik, als opvolger van Martine Meester-van Groningen. Onder het thema ‘Thuis’ kunnen inwoners en mensen met een persoonlijke band met de gemeente een gedicht, rap, songtekst of spoken-wordtekst insturen. Ervaring als dichter is niet nodig. De zoektocht wordt georganiseerd door Cultuur Medemblik en de Westfriese Bibliotheken, in opdracht van de gemeente. De nieuwe dichter volgt Martine Meester-van Groningen op en krijgt voor twee jaar de taak om bij bijzondere gebeurtenissen, herdenkingen en culturele evenementen teksten te schrijven en voor te dragen. Het thema ‘Thuis’ mag breed worden geïnterpreteerd. Het kan gaan over de plek waar iem",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
+        {
+          "title": "Oudere man rijdt met brommobiel sloot bij Medemblik in",
+          "link": "https://www.streekomroepwestfriesland.nl/oudere-man-rijdt-met-brommobiel-sloot-bij-medemblik-in/",
+          "pubDate": "Tue, 10 Nov 2026 13:35:00 +0000",
+          "description": "Een oudere man is vanochtend in Medemblik met zijn brommobiel in een sloot gereden. Een omstander schoot te hulp en haalde het slachtoffer met de brandweer uit het water. De man is zonder ernstige verwondingen naar het ziekenhuis gebracht. Rond 11.00 uur belandde de brommobiel in het water aan de Brakeweg. Meerdere hulpdiensten, waaronder een traumateam, rukten uit. Een omstander sprong in het water en wist de bestuurder uit het voertuig te bevrijden. Opvallend is dat de omstander na zijn heldendaad door de politie is aangehouden. Volgens een politiewoordvoerder staat de aanhouding los van het incident. Waarvoor de man is aangehouden, is nog niet bekend. Hoe de brommobiel van de weg kon rake",
+          "categories": [
+            "112"
+          ]
+        },
+        {
+          "title": "Gemeente Enkhuizen zoekt stemmentellers voor verkiezing Provinciale Staten en waterschappen",
+          "link": "https://www.streekomroepwestfriesland.nl/gemeente-enkhuizen-zoekt-stemmentellers-voor-verkiezing-provinciale-staten-en-waterschappen/",
+          "pubDate": "Tue, 10 Nov 2026 09:46:27 +0000",
+          "description": "De gemeente Enkhuizen zoekt inwoners die willen helpen bij de gecombineerde verkiezingen voor Provinciale Staten en het Waterschap op woensdag 17 maart 2027. Vooral tellers zijn welkom, maar ook voor andere functies op de stembureaus zoekt de gemeente mensen. Voor de werkzaamheden ontvangen deelnemers een vergoeding. Geïnteresseerden kunnen aan de slag als stembureaulid, plaatsvervangend voorzitter of voorzitter. Wie wil helpen, moet minimaal 18 jaar zijn en nauwkeurig kunnen werken. Vooraf volgen deelnemers een e-learning. Stembureauleden controleren onder meer stempassen en gegevens en geven stembiljetten uit. Vanaf 21.00 uur worden de stemmen op lijstniveau geteld. De telling van de stemm",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
+        {
+          "title": "Jelle wint met bijna 62 kilo zware biet het bietenkampioenschap van de Dorstige Biet",
+          "link": "https://www.streekomroepwestfriesland.nl/jelle-wint-met-bijna-62-kilo-zware-biet-het-bietenkampioenschap-van-de-dorstige-biet/",
+          "pubDate": "Mon, 09 Nov 2026 17:00:00 +0000",
+          "description": "Obdammer Jelle de Nijs mag zichzelf een recordteler noemen, want voor het tweede jaar op rij heeft hij de zwaarste voederbiet van Noord-Holland geteeld. Zijn winnende biet woog dit jaar bijna 62 kilo. Afgelopen weekend werd De Nijs gehuldigd bij het bietenbal van de Dorstige Biet. Hoewel hij met bijna 62 kilo nu niet in de buurt komt van zijn vorige prijswinnende biet (68 kilo), wist hij dus wel de grootste biet van dit jaar op zijn naam te zetten. \" Vorig jaar kwam ik op een paar kilo na in de buurt van het record van 71 kilo vanPiet de Goede uit 2005″, vertelt Jelle. \"Dat was sensationeel. Ik vind het een hele eer dat ik nu twee keer in de top tien aller tijden sta. Maar Piet de Goede is n",
+          "categories": [
+            "Kunst & cultuur",
+            "Natuur & klimaat"
+          ]
+        },
         {
           "title": "55 jaar Freetime Old Dixie Jassband in Enkhuizen",
           "link": "https://www.streekomroepwestfriesland.nl/55-jaar-freetime-old-dixie-jassband-in-enkhuizen/",
@@ -695,42 +732,6 @@
           "description": "Stel je voor dat je een regelrechte nazaat bent van een bekend figuur uit onze vaderlandse geschiedenis, waarover je als kind trots kon vaststellen dat het toch maar jouw voorvader is die prominent in het geschiedenisboek staat waar al jouw klasgenootjes – verplicht weliswaar, want er kan een proefwerkje over komen – ook kennis van nemen en dat het – hoera! – gebeurt dat een wakker klasgenootje jou vraagt: ‘Is dat familie van jou?’. Niet eens zo vreselijk lang geleden kon je dan een beetje nonchalant antwoorden dat het inderdaad zo is en je tegelijkertijd weldadig baden in en soort van iets verdunde bewondering. En dat je dan langs je neus weg, om niet al te opschepperig te klinken, zegt dat",
           "categories": [
             "Geschiedenis",
-            "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Duizend huishoudens Hoorn paar uur zonder stroom na brand in transformatorhuisje",
-          "link": "https://www.streekomroepwestfriesland.nl/duizend-huishoudens-hoorn-paar-uur-zonder-stroom-na-brand-in-transformatorhuisje/",
-          "pubDate": "Mon, 09 Nov 2026 05:43:00 +0000",
-          "description": "Een brand in een transformatorhuisje in Hoorn heeft vanochtend zo'n duizend huishoudens zonder stroom gezet. Inmiddels is de brand onder controle en hebben de meeste huishoudens weer elektriciteit. Zo'n 150 huishoudens zitten nog zonder stroom. Brandweer kon huisje niet in De brand brak rond 5.00 uur uit in een transformatorhuisje aan de Alexanderstraat. Meerdere hulpdiensten kwamen ter plaatse en vanwege de locatie van de brand werd al snel opgeschaald. De brandweer kon het huisje lange tijd niet betreden om de brand te blussen. Netbeheerder Liander moest daarom eerst de stroom uitschakelen, zodat de brandweer veilig aan het werk kon. Herstelwerkzaamheden Volgens de Veiligheidsregio raakte ",
-          "categories": [
-            "112"
-          ]
-        },
-        {
-          "title": "Pietenspeurtocht voor kinderen keert terug naar Enkhuizen",
-          "link": "https://www.streekomroepwestfriesland.nl/pietenspeurtocht-voor-kinderen-keert-terug-naar-enkhuizen/",
-          "pubDate": "Sun, 08 Nov 2026 12:27:00 +0000",
-          "description": "Kinderen kunnen vanaf 14 november op zoek naar verborgen opdrachten van Sinterklaas en zijn Pieten in de binnenstad van Enkhuizen. De 'Verstoppiet' heeft voor de Pieten Speurtocht tien opdrachten verstopt. Deelnemers kunnen daarmee een Speurpiet-button verdienen en maken kans op een prijs. De speurtocht is een initiatief van Winkelstad Enkhuizen, Stichting Marketing Enkhuizen en Stichting Ondernemersfonds Enkhuizen. Volgens Marianne de Zwart van Stichting Marketing Enkhuizen trok de activiteit voorgaande jaren veel kinderen en hun begeleiders naar de binnenstad. \"Het is heerlijk om te zien hoe kinderen samen met hun ouders of grootouders op ontdekkingstocht gaan en vol overgave de opdrachten",
-          "categories": [
-            "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Vermiste jongen (12) uit Bovenkarspel in goede gezondheid teruggevonden",
-          "link": "https://www.streekomroepwestfriesland.nl/vermiste-jongen-12-uit-bovenkarspel-in-goede-gezondheid-teruggevonden/",
-          "pubDate": "Sun, 08 Nov 2026 08:34:17 +0000",
-          "description": "De twaalfjarige jongen uit Bovenkarspel die als vermist was opgegeven, is in goede gezondheid teruggevonden. Dat meldt de politie. Waar de jongen is aangetroffen, is niet bekend. Er werd gisteren alarm geslagen vanwege de vermissing van de jongen. De jongen was voor het laatst gezien in Bovenkarspel. De politie vermoedde dat hij met de trein naar Amsterdam was vertrokken en mogelijk onderweg was naar Polen. Waar de jongen uiteindelijk is teruggevonden, heeft de politie niet bekendgemaakt. The post Vermiste jongen (12) uit Bovenkarspel in goede gezondheid teruggevonden appeared first on Streekomroep West-Friesland .",
-          "categories": [
-            "112"
-          ]
-        },
-        {
-          "title": "Westfries van de week: Weten jullie wat \"onder 't peerd z'n buk raakt\" is?",
-          "link": "https://www.streekomroepwestfriesland.nl/westfries-van-de-week-weten-jullie-wat-onder-t-peerd-zn-buk-raakt-is/",
-          "pubDate": "Sun, 08 Nov 2026 07:30:00 +0000",
-          "description": "In de serie ‘Westfries van de week’ gaan we op zoek naar typische West-Friese woorden en gebruiken. Want hoeveel mensen spreken het dialect nog? Of kennen de gebruiken nog? In deze aflevering gaan we langs bij Ad Snip in Blokker, hij rijdt nog altijd West-Friesland door met zijn paarden. Ad laat uitgebreid zien hoe de kar in elkaar steekt waar hij zijn paarden voor spant. Daarna volgt een ronde door de wei en wordt de weg op gegaan. Ondertussen vertelt Ad wat het betekent als iets \"onder 't peerd z'n buk raakt is\". Daar schijnt veel naartoe te verdwijnen. Ook geeft Ad het woord voor volgende keer mee: Weten jullie wat een matjedor is? The post Westfries van de week: Weten jullie wat \"onder '",
-          "categories": [
             "Kunst & cultuur"
           ]
         }
