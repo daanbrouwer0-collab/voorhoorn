@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T15:07:35.351Z",
+  "updated": "2026-11-11T21:53:48.009Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -411,6 +411,24 @@
       "label": "Rodi Hoorn",
       "items": [
         {
+          "title": "Dit is er dit weekend te doen in Hoorn: van de intocht van Sinterklaas tot een vlooienmarkt en muzikale optredens (13 t/m 15 november)",
+          "link": "https://www.rodi.nl/hoorn/uit/512060/dit-is-er-dit-weekend-te-doen-in-hoorn-van-de-intocht-van-sinterklaas-tot-een-vlooienmarkt-en-muzikale-optredens",
+          "pubDate": "Wed, 11 Nov 2026 20:58:00 Z",
+          "description": "HOORN - Zin in een gezellig weekend? In Hoorn en de regio staat van vrijdag 13 tot en met zondag 15 november van alles op het programma. Van de feestelijke intocht van Sinterklaas en live muziek tot kunst, markten en een rit met de historische stoomtram. Of je nu op zoek bent naar een leuk uitje met het gezin of een avond vol entertainment, er is dit weekend voor ieder wat wils.",
+          "categories": [
+            "Uit"
+          ]
+        },
+        {
+          "title": "Honderden kinderen vieren Sint-Maarten op woonwagenkamp Hoorn",
+          "link": "https://www.rodi.nl/hoorn/nieuws/512211/-fotos-honderden-kinderen-vieren-sint-maarten-op-woonwagenkamp-hoorn",
+          "pubDate": "Wed, 11 Nov 2026 18:57:10 Z",
+          "description": "HOORN - Het woonwagenkamp aan de Bobeldijkerweg in Hoorn pakte ook dit jaar groots uit tijdens Sint-Maarten. Verlichte straten, een klein spookhuis en natuurlijk heel veel snoep zorgden voor een geslaagde avond.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
           "title": "Raymond Oosterbroek uit Hoorn: de man die altijd klaarstond voor een ander",
           "link": "https://www.rodi.nl/hoorn/nieuws/512164/raymond-oosterbroek-uit-hoorn-de-man-die-altijd-klaarstond-voor-een-ander",
           "pubDate": "Wed, 11 Nov 2026 14:52:40 Z",
@@ -615,24 +633,6 @@
           "description": "HOORN - De fractie Hart van Hoorn wil van het college weten wat de oorzaak is van stroomstoringen in de gemeente en wat er wordt gedaan om nieuwe uitval te voorkomen. Aanleiding is een stroomstoring die Hoorn maandagochtend 9 november trof.",
           "categories": [
             "Politiek"
-          ]
-        },
-        {
-          "title": "Brand in stroomhuisje Alexanderstraat legt tientallen straten in Hoorn zonder stroom",
-          "link": "https://www.rodi.nl/hoorn/112-nieuws/511699/brand-in-stroomhuisje-alexanderstraat-legt-tientallen-straten-in-hoorn-zonder-stroom",
-          "pubDate": "Mon, 09 Nov 2026 09:15:34 Z",
-          "description": "HOORN - Een deel van Hoorn zit maandagochtend 9 november zonder stroom na een brand in een stroomhuisje aan de Alexanderstraat. Het treft ongeveer 40 straten. Het is nog niet duidelijk wanneer de problemen volledig zijn verholpen.",
-          "categories": [
-            "112-nieuws"
-          ]
-        },
-        {
-          "title": "Bes Klein Ensemble zingt ode aan de liefde in Oosterkerk Hoorn",
-          "link": "https://www.rodi.nl/hoorn/uit/511201/bes-klein-ensemble-zingt-ode-aan-de-liefde-in-oosterkerk-hoorn",
-          "pubDate": "Sun, 08 Nov 2026 09:00:00 Z",
-          "description": "HOORN - Bes Klein Ensemble brengt zondag 22 november het concertprogramma 'Amor, ferisci pur' naar de Oosterkerk in Hoorn. Het achtkoppige zangensemble laat vanaf 15.00 uur alle gezichten van de liefde horen, binnen de concertserie van Oude Muziek Nu.",
-          "categories": [
-            "Uit"
           ]
         }
       ]
