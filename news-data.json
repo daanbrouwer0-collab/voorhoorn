@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T21:53:48.009Z",
+  "updated": "2026-11-12T03:46:50.311Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -118,6 +118,13 @@
       "id": "hoornsdagblad",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Vastgeslagen remmen van vrachtwagen zorgen voor rook en file op N194 bij Berkhout",
+          "link": "https://www.hoornsdagblad.nl/112-hoorn/vastgeslagen-remmen-van-vrachtwagen-zorgen-voor-rook-en-file-op-n194-bij-berkhout",
+          "pubDate": "Wed, 11 Nov 2026 18:07:21 +0100",
+          "description": "BERKHOUT - Op de N194 bij Berkhout is woensdagmiddag een vrachtwagencombinatie stil komen te staan nadat de remmen van een trailer waren vastgelopen. Door de oververhitte remmen ontstond rookontwikkeling.De vrachtwagen was onderweg in de richting van de A7 toen de chauffeur rook zag opstijgen vanaf [...]",
+          "categories": []
+        },
         {
           "title": "Provincie sponsort ook in 2027 verschillende sportevenementen",
           "link": "https://www.hoornsdagblad.nl/sport/provincie-sponsort-ook-in-2027-verschillende-sportevenementen",
@@ -249,13 +256,6 @@
           "link": "https://www.hoornsdagblad.nl/uitgaan/wat-is-er-gezelliger-dan-samen-genieten-van-mooie-muziek-lekker-eten-en-vooral-van-elkaars-gezelschap",
           "pubDate": "Mon, 09 Nov 2026 16:11:51 +0100",
           "description": "BOVENKARSPEL – Terwijl de winterdagen steeds korter en kouder worden, kunnen liefhebbers van de Indische cultuur zich verheugen op een warme en gezellige middag in Bovenkarspel. Op zondag 6 december staat Sociaal-Cultureel Centrum 't Stadsplein, beter bekend als Het Postkantoor, in het teken van de [...]",
-          "categories": []
-        },
-        {
-          "title": "De sterren van het gewelf in de Oosterkerk!",
-          "link": "https://www.hoornsdagblad.nl/uitgaan/de-sterren-van-het-gewelf-in-de-oosterkerk",
-          "pubDate": "Mon, 09 Nov 2026 15:46:21 +0100",
-          "description": "HOORN - Dat verwachten we van het concert dat op zondag 29 november in de kerk plaatsvindt. Op die middag zullen Heleen Hulst (viool) en Gerard Bouwhuis (piano) ons weer verrassen met een combinatie van bijzondere klassieke stukken en eigentijdse composities. En dat doen ze al voor de elfde keer! [...]",
           "categories": []
         }
       ]
