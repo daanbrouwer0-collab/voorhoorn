@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-13T00:17:25.126Z",
+  "updated": "2026-11-13T15:20:15.306Z",
   "failedSources": [
     {
       "id": "hoornactueel",
       "label": "HoornActueel",
-      "error": "The operation was aborted due to timeout"
+      "error": "HTTP 403"
     },
     {
       "id": "onswestfriesland",
@@ -119,6 +119,41 @@
       "label": "Hoornsdagblad",
       "items": [
         {
+          "title": "30 jaar liefde voor Hoorn... en dat proef je!",
+          "link": "https://www.hoornsdagblad.nl/regio/a30-jaar-liefde-voor-hoorn-en-dat-proef-je",
+          "pubDate": "Fri, 13 Nov 2026 13:11:52 +0100",
+          "description": "HOORN - Al 30 jaar mogen wij met onze familie een plekje innemen in het hart van Hoorn, op de Kersenboogerd. Wat ooit begon als een droom van mijn vader, met één keer per maand onze inmiddels bekende Hoornse Bol, is uitgegroeid tot een echte traditie. Een traditie die we met trots en dezelfde [...]",
+          "categories": []
+        },
+        {
+          "title": "Flottielje zeilen in Kroatië 2027",
+          "link": "https://www.hoornsdagblad.nl/vakantie/flottielje-zeilen-in-kroatie-2027",
+          "pubDate": "Fri, 13 Nov 2026 09:56:41 +0100",
+          "description": "Zon op je gezicht, wind in de zeilen en een heerlijke duik in het heldere water. Tijdens een flottielje zeilvakantie in Kroatië ontdek je de mooiste baaien, gezellige havenstadjes en prachtige eilanden.Je vaart op je eigen jacht, met Nederlandse flottieljebegeleiding binnen handbereik. Zo combineer [...]",
+          "categories": []
+        },
+        {
+          "title": "OSG-leerlingen krijgen € 25.000 voor eigen scholierenfestival",
+          "link": "https://www.hoornsdagblad.nl/regio/osg-leerlingen-krijgen-25000-voor-eigen-scholierenfestival",
+          "pubDate": "Fri, 13 Nov 2026 09:23:09 +0100",
+          "description": "HOORN - Derdeklassers van OSG West-Friesland organiseren in juni 2027 zelf een scholierenfestival op het schoolterrein. Dankzij een subsidie van € 25.000 van Little Local uit de Regio Deal zijn zij verantwoordelijk voor de volledige organisatie: van sponsoring en programmering tot techniek, [...]",
+          "categories": []
+        },
+        {
+          "title": "Wereldwijde storing bij Microsoft houdt aan: vooral Outlook en Teams getroffen",
+          "link": "https://www.hoornsdagblad.nl/algemeen/wereldwijde-storing-bij-microsoft-houdt-aan-vooral-outlook-en-teams-getroffen",
+          "pubDate": "Fri, 13 Nov 2026 09:22:59 +0100",
+          "description": "NEDERLAND - Een hardnekkige storing bij Microsoft zorgt sinds donderdagmiddag voor grote problemen. Rond 17.15 uur begonnen de eerste problemen, waarna dit zich wereldwijd uitbreidde. Vooral Outlook, Teams en Microsoft 365 zijn slecht of helemaal niet bereikbaar. Naast particulieren en bedrijven [...]",
+          "categories": []
+        },
+        {
+          "title": "Vrijdag de dertiende: waar komt het bijgeloof vandaan?",
+          "link": "https://www.hoornsdagblad.nl/algemeen/vrijdag-de-dertiende-waar-komt-het-bijgeloof-vandaan",
+          "pubDate": "Fri, 13 Nov 2026 06:06:47 +0100",
+          "description": "NEDERLAND - Voor de meeste mensen is vrijdag de dertiende een gewone dag. Toch roept de datum bij sommigen een ongemakkelijk gevoel op. Een belangrijke afspraak wordt liever uitgesteld en bij een kleine tegenvaller klinkt al snel: 'Het is zeker vrijdag de dertiende.' Maar waarom heeft juist deze [...]",
+          "categories": []
+        },
+        {
           "title": "Egmond en omgeving maakt zich klaar voor de Fjoertoer Egmond",
           "link": "https://www.hoornsdagblad.nl/sport/egmond-en-omgeving-maakt-zich-klaar-voor-de-fjoertoer-egmond",
           "pubDate": "Thu, 12 Nov 2026 13:30:33 +0100",
@@ -221,41 +256,6 @@
           "link": "https://www.hoornsdagblad.nl/wonen/goed-dakonderhoud-voorkomt-onverwachte-problemen-en-hoge-kosten",
           "pubDate": "Tue, 10 Nov 2026 16:16:51 +0100",
           "description": "NOORD-HOLLAND – Een dak krijgt het hele jaar door veel te verduren. Regen, wind, vorst en flinke temperatuurverschillen kunnen op termijn zorgen voor slijtage of beschadigingen. Toch wordt het dak van een woning vaak pas bekeken wanneer er daadwerkelijk water naar binnen komt. Volgens Dakherstel [...]",
-          "categories": []
-        },
-        {
-          "title": "Help anderstaligen op weg naar een mbo-opleiding: word taalbuddy!",
-          "link": "https://www.hoornsdagblad.nl/regio/help-anderstaligen-op-weg-naar-een-mbo-opleiding-word-taalbuddy",
-          "pubDate": "Tue, 10 Nov 2026 15:18:12 +0100",
-          "description": "HOORN/GROOTEBROEK - Een opleiding volgen, een diploma halen en bouwen aan een toekomst in Nederland. Voor anderstaligen is dat niet altijd vanzelfsprekend. Soms kunnen ze daarbij wel wat extra hulp gebruiken. Daarom zoekt Taalhuis Westfriesland taalbuddies die anderstaligen willen helpen bij de [...]",
-          "categories": []
-        },
-        {
-          "title": "Sint Maarten – Het Feest van het Licht en het Delen",
-          "link": "https://www.hoornsdagblad.nl/feestdagen/sint-maarten-het-feest-van-het-licht-en-het-delen",
-          "pubDate": "Tue, 10 Nov 2026 15:03:02 +0100",
-          "description": "NEDERLAND - Op 11 november wordt in veel delen van Nederland het Sint Maartenfeest gevierd. Vooral in het noorden en westen van het land trekken kinderen met hun lampionnen langs de deuren. Ze zingen vrolijke liedjes en krijgen snoep of fruit als beloning. Het is een feest vol licht, gezelligheid [...]",
-          "categories": []
-        },
-        {
-          "title": "The Masked Music Bingo, een fantastische avond vol entertainment en hilariteit in Hoorn",
-          "link": "https://www.hoornsdagblad.nl/uitgaan/the-masked-music-bingo-een-fantastische-avond-vol-entertainment-en-hilariteit-in-hoorn",
-          "pubDate": "Tue, 10 Nov 2026 14:51:16 +0100",
-          "description": "HOORN - Ben jij klaar voor een avond vol spanning en entertainment, fantastische merkprijzen en hilarische gezelligheid? Dan mag je The Masked Music Bingo van Lucky Star Events niet missen!Dit kun je verwachten:– De allerleukste The Masked Music Bingo– Masked Drag Queen's– Luxe Mystery Prijzen– Een [...]",
-          "categories": []
-        },
-        {
-          "title": "Vernieuwde Albert Heijn Van Dedemstraat heeft een sushikiosk",
-          "link": "https://www.hoornsdagblad.nl/shopping/vernieuwde-albert-heijn-van-dedemstraat-heeft-een-sushikiosk",
-          "pubDate": "Tue, 10 Nov 2026 13:26:03 +0100",
-          "description": "HOORN - Vandaag heeft de vernieuwde Albert Heijn-winkel nabij station Hoorn haar deuren weer geopend voor het publiek. De supermarkt aan de Van Dedemstraat werd de afgelopen periode verbouwd en kreeg een verbeterde indeling. Hierdoor is er meer ruimte ontstaan voor een uitgebreid versassortiment, [...]",
-          "categories": []
-        },
-        {
-          "title": "Gewoon De Dijk brengt ode aan De Dijk in Hoorn",
-          "link": "https://www.hoornsdagblad.nl/uitgaan/gewoon-de-dijk-brengt-ode-aan-de-dijk-in-hoorn",
-          "pubDate": "Tue, 10 Nov 2026 13:21:49 +0100",
-          "description": "HOORN - Op vrijdag 13 november staat 'Gewoon De Dijk' in Van der Valk Hotel Hoorn met een krachtige en liefdevolle ode aan één van de grootste Nederlandstalige bands aller tijden: De Dijk. Met een spetterende liveshow vol Nederlandstalige klassiekers nemen negen gepassioneerde muzikanten het [...]",
           "categories": []
         }
       ]
@@ -410,6 +410,15 @@
       "id": "rodi",
       "label": "Rodi Hoorn",
       "items": [
+        {
+          "title": "Politie houdt minderjarige uit Hoorn aan na vondst zwaar vuurwerk in Westwoud",
+          "link": "https://www.rodi.nl/hoorn/112-nieuws/512436/politie-houdt-minderjarige-uit-hoorn-aan-na-vondst-zwaar-vuurwerk-in-westwoud",
+          "pubDate": "Fri, 13 Nov 2026 14:42:39 Z",
+          "description": "WESTWOUD / HOORN - De politie heeft een minderjarige jongen uit Hoorn aangehouden na de vondst van zwaar vuurwerk in een geparkeerd voertuig aan het Wijzenddijkje in Westwoud. Het vuurwerk is in beslag genomen. De verdachte is heengezonden, maar blijft verdachte in het onderzoek.",
+          "categories": [
+            "112-nieuws"
+          ]
+        },
         {
           "title": "OSG-leerlingen in Hoorn krijgen 25.000 euro voor eigen scholierenfestival",
           "link": "https://www.rodi.nl/hoorn/nieuws/512361/osg-leerlingen-in-hoorn-krijgen-25-000-euro-voor-eigen-scholierenfestival",
@@ -625,15 +634,6 @@
           "categories": [
             "Zorg"
           ]
-        },
-        {
-          "title": "Bonbonactie Amahoro helpt honderd kinderen naar school in Burundi",
-          "link": "https://www.rodi.nl/hoorn/nieuws/511852/bonbonactie-amahoro-helpt-honderd-kinderen-naar-school-in-burundi",
-          "pubDate": "Mon, 09 Nov 2026 16:44:25 Z",
-          "description": "HOORN - Stichting Westfriesland voor Burundi, kortweg Amahoro, verkoopt in de herfst weer bonbons. Dit jaar is het de twintigste keer. De opbrengst betaalt het schoolgeld van honderd kinderen in Burundi.",
-          "categories": [
-            "Nieuws"
-          ]
         }
       ]
     },
@@ -642,12 +642,58 @@
       "label": "Streekomroep",
       "items": [
         {
+          "title": "Nieuwe Kinderraad gemeente Koggenland geïnstalleerd, kinderburgemeester wordt later gekozen",
+          "link": "https://www.streekomroepwestfriesland.nl/nieuwe-kinderraad-gemeente-koggenland-geinstalleerd-kinderburgemeester-wordt-later-gekozen/",
+          "pubDate": "Fri, 13 Nov 2026 13:57:36 +0000",
+          "description": "Negen basisschoolleerlingen uit de gemeente Koggenland vormen een nieuwe Kinderraad. Aan het einde van deze maand kiezen zij een nieuwe kinderburgemeester. De kinderen gaan zich het komende jaar bezighouden met onderwerpen die voor leeftijdgenoten in de gemeente belangrijk zijn. Tijdens de installatie ondertekenden de kinderen samen met burgemeester Pieter van Maaren een manifest. Daarin beloven ze samen te werken en naar elkaar te luisteren. De burgemeester moedigde de leerlingen aan om ook hun klasgenoten bij het werk van de Kinderraad te betrekken. \"Deel jullie ideeën en vraag aan andere kinderen wat zij belangrijk vinden. Zo nemen jullie ook hun wensen mee in de Kinderraad\", zei hij. De ",
+          "categories": [
+            "Politiek"
+          ]
+        },
+        {
+          "title": "Leerlingen OSG West-Friesland krijgen 25.000 euro voor eigen scholierenfestival in Hoorn",
+          "link": "https://www.streekomroepwestfriesland.nl/leerlingen-osg-west-friesland-krijgen-25-000-euro-voor-eigen-scholierenfestival-in-hoorn/",
+          "pubDate": "Fri, 13 Nov 2026 13:18:09 +0000",
+          "description": "Leerlingen van OSG West-Friesland in Hoorn krijgen 25.000 euro subsidie om in juni 2027 een eigen festival te organiseren. De derdeklassers nemen zelf de organisatie op zich en maken zo kennis met verschillende beroepen en werkzaamheden. De subsidie is afkomstig van Little Local uit de Regio Deal. Wethouder onderwijs Yousuf Yousufi kwam het bedrag persoonlijk op school bekendmaken. De leerlingen verzorgden zelf de ontvangst. Bij de organisatie van het festival komt veel kijken. Leerlingen houden zich bezig met bijvoorbeeld de programmering, begroting en sponsoring. Docenten en regionale deskundigen begeleiden hen daarbij. Ontdekken waar interesses liggen Het project moet leerlingen helpen on",
+          "categories": [
+            "Kunst & cultuur",
+            "Onderwijs"
+          ]
+        },
+        {
+          "title": "Europacup-weekend voor handbalsters SEW: \"Alles uit de kast trekken\"",
+          "link": "https://www.streekomroepwestfriesland.nl/europacup-weekend-voor-handbalsters-sew-alles-uit-de-kast-trekken/",
+          "pubDate": "Fri, 13 Nov 2026 08:24:50 +0000",
+          "description": "Bij SEW staat het hele weekend in het teken van Europacup-handbal. De club uit Nibbixwoud neemt het op tegen het Israëlische Maccabi Haarazim Ramat Gan. De belangstelling voor de wedstrijden is groot, want er zijn al bijna 800 tickets verkocht. Speciaal voor de wedstrijd zorgen De Eigenheimers, een blaaskapel uit Wognum, voor extra sfeer rondom de Europacup-wedstrijd. \"We gaan alles uit de kast trekken om er wat moois van te maken\", zegt Vincent Baten, adviseur en manager Europese Cup. De blaaskapel komt vrij regelmatig langs en nu dus ook. Het is bijna net zoals in Thialf bij het schaatsen, dan zetten ze de muziek in en gaat het publiek achter de ploeg staan.\" De tegenstander is geen onbeke",
+          "categories": [
+            "Sport"
+          ]
+        },
+        {
+          "title": "Protest op dag van Sinterklaasintocht Hoorn: actiegroep overspoeld met haatberichten",
+          "link": "https://www.streekomroepwestfriesland.nl/protest-op-dag-van-sinterklaasintocht-hoorn-actiegroep-overspoeld-met-haatberichten/",
+          "pubDate": "Thu, 12 Nov 2026 17:00:00 +0000",
+          "description": "De stichting We Promise is op sociale media overladen met haatberichten vanwege een demonstratie komende zaterdag tegen het standbeeld van Jan Pieterszoon Coen in Hoorn. Op dezelfde dag is namelijk ook de intocht van Sinterklaas. Volgens de actiegroep is deze dag niet bewust gekozen. \"De datum voor de demonstratie staat al heel lang vast, dat het samenvalt met de intocht is nooit in ons opgekomen.\" Berichten waarin voetbalhooligans opgeroepen worden de 'straat schoon te vegen' en zelf een afbeelding van een pistool; op de facebookpagina van We Promise valt de keuze om op dezelfde dag te demonstreren als de intocht van Sinterklaas niet in goede aarde. \"We hebben zelfs een bericht gekregen dat",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
+        {
           "title": "Vervangende bussen NS niet meer propvol: \"Maar ik mis toch de trein, die gaat sneller\"",
           "link": "https://www.streekomroepwestfriesland.nl/vervangende-bussen-ns-niet-meer-propvol-maar-ik-mis-toch-de-trein-die-gaat-sneller/",
           "pubDate": "Thu, 12 Nov 2026 16:59:00 +0000",
           "description": "Vanwege werkzaamheden op het spoor tussen Alkmaar, Hoorn en Den Helder was het aan het begin van de week erg druk in veel vervangende bussen. Naar aanleiding van de klachten heeft de NS extra bussen ingezet. Propvolle bussen en lange wachttijden afgelopen maandag in Schagen. \"Ik moest vier bussen voorbij laten gaan voor ik kon instappen\", vertelt een scholier. Gigantische operatie \"De eerste dag is het altijd even zoeken\", vertelt een woordvoerder van NS. \"We proberen reizigers zo goed mogelijk te informeren, maar het gaat om een groot stuk spoor. Het is een gigantische operatie.\" Naar aanleiding van de klachten heeft de NS de dagen daarna extra bussen ingezet. \"We hebben bijgeschaafd en nu ",
           "categories": [
             "Verkeer & wonen"
+          ]
+        },
+        {
+          "title": "Minderjarige aangehouden voor vondst zwaar vuurwerk in Westwoud",
+          "link": "https://www.streekomroepwestfriesland.nl/minderjarige-aangehouden-voor-vondst-zwaar-vuurwerk-in-westwoud/",
+          "pubDate": "Thu, 12 Nov 2026 16:32:05 +0000",
+          "description": "De politie heeft afgelopen zondag een minderjarige uit Hoorn aangehouden na de vondst van een grote hoeveelheid zwaar vuurwerk in een auto in Westwoud. In zijn auto lagen 200 nitraten en 12 cobra's. De politie ontving afgelopen zondag rond 17.30 uur een melding dat meerdere mensen zwaar vuurwerk aan het afsteken waren op de Wijzenddijkje. Toen agenten arriveerden, sloeg de groep op de vlucht. Op het dijkje troffen zij een geparkeerde auto aan. Een half uur later keerden enkele personen uit deze groep terug en stapten ze in de auto. Daarop besloten agenten de auto te controleren. Bij die controle vonden zij 200 nitraten en 12 cobra's. Het vuurwerk is in beslag genomen. De jongen is inmiddels ",
+          "categories": [
+            "112"
           ]
         },
         {
@@ -685,51 +731,6 @@
           "categories": [
             "Kunst & cultuur",
             "Onderwijs"
-          ]
-        },
-        {
-          "title": "Column: Oud worden is de toekomst",
-          "link": "https://www.streekomroepwestfriesland.nl/column-oud-worden-is-de-toekomst/",
-          "pubDate": "Wed, 11 Nov 2026 12:07:00 +0000",
-          "description": "Wat is oud? In de middeleeuwen lag de gemiddelde levensverwachting rond de dertig jaar, vooral door de hoge kindersterfte. Wie volwassen werd, kon ook toen behoorlijk oud worden. Maar honderd jaar? Dat was iets voor mensen uit sprookjes. Tegenwoordig worden we gemiddeld ruim tachtig. Volgens prognoses kunnen baby's die nu geboren worden zelfs gemiddeld de negentig passeren. De medische wetenschap heeft iets indrukwekkends gepresteerd: we leven steeds langer. En daar zijn we trots op. Terecht. Bij iedere medische doorbraak juichen we. Nieuwe kankerbehandelingen, kunstheupen, medicijnen tegen hartproblemen. We investeren miljarden om mensen langer te laten leven. Maar zodra die mensen daadwerk",
-          "categories": [
-            "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Explainer: Rekenkamer SED-gemeenten concludeert misstanden in huisvesting van arbeidsmigranten",
-          "link": "https://www.streekomroepwestfriesland.nl/explainer-rekenkamer-sed-gemeenten-concludeert-misstanden-in-huisvesting-van-arbeidsmigranten/",
-          "pubDate": "Wed, 11 Nov 2026 10:56:00 +0000",
-          "description": "Er zijn misstanden ontdekt bij de huisvesting van arbeidsmigranten in Stede-Broec, Enkhuizen en Drechterland. Dat blijkt uit een rapport van de gezamenlijke Rekenkamer van de drie gemeenten. Het onderzoek naar de veiligheid van de huisvesting begon in november 2025. Volgens de Rekenkamer is er in de zogenoemde SED-gemeenten geen goed zicht op het precieze aantal arbeidsmigranten dat er woont en werkt, al is dat een landelijk probleem. Daarnaast stelde het onderzoek misstanden vast in de agrarische sector, de slachterijsector en de horeca. Er is volgens de onderzoekers geen eenduidig beeld van te schetsen, maar gemeentelijke controleurs zagen onder meer overbewoning, het opdelen van woningen ",
-          "categories": [
-            "Politiek"
-          ]
-        },
-        {
-          "title": "Bomen dorpsbos Ursem worden volgende week geplant, inwoners kunnen naam bedenken",
-          "link": "https://www.streekomroepwestfriesland.nl/bomen-dorpsbos-ursem-worden-volgende-week-geplant-inwoners-kunnen-naam-bedenken/",
-          "pubDate": "Wed, 11 Nov 2026 07:49:00 +0000",
-          "description": "Gemeente Koggenland is begonnen met de aanleg van het dorpsbos Ursem. Volgende week, op dinsdag 17 november, worden de eerste bomen geplant door kinderen uit het dorp en betrokken organisaties. Het dorpsbos moet uitgroeien tot een plek waar inwoners kunnen wandelen, spelen en elkaar ontmoeten. Het bos is een initiatief van Doe-team Groener Ursem en wordt gerealiseerd met steun van de gemeente Koggenland, de provincie en andere organisaties. Mede dankzij subsidies wordt bijgedragen aan het aanleggen van wandelpaden die ook voor mindervaliden toegankelijk zijn. Bij het plantmoment zijn onder anderen jeugdleden van de ijsclub, Huttendorp en leerlingen van de Bavoschool aanwezig. Ook wethouder B",
-          "categories": [
-            "Natuur & klimaat"
-          ]
-        },
-        {
-          "title": "Zoektocht naar nieuwe Dichter van Medemblik, inschrijvingen geopend",
-          "link": "https://www.streekomroepwestfriesland.nl/zoektocht-naar-nieuwe-dichter-van-medemblik-inschrijvingen-geopend/",
-          "pubDate": "Tue, 10 Nov 2026 15:10:52 +0000",
-          "description": "De gemeente Medemblik zoekt een nieuwe Dichter van Medemblik, als opvolger van Martine Meester-van Groningen. Onder het thema ‘Thuis’ kunnen inwoners en mensen met een persoonlijke band met de gemeente een gedicht, rap, songtekst of spoken-wordtekst insturen. Ervaring als dichter is niet nodig. De zoektocht wordt georganiseerd door Cultuur Medemblik en de Westfriese Bibliotheken, in opdracht van de gemeente. De nieuwe dichter volgt Martine Meester-van Groningen op en krijgt voor twee jaar de taak om bij bijzondere gebeurtenissen, herdenkingen en culturele evenementen teksten te schrijven en voor te dragen. Het thema ‘Thuis’ mag breed worden geïnterpreteerd. Het kan gaan over de plek waar iem",
-          "categories": [
-            "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Oudere man rijdt met brommobiel sloot bij Medemblik in",
-          "link": "https://www.streekomroepwestfriesland.nl/oudere-man-rijdt-met-brommobiel-sloot-bij-medemblik-in/",
-          "pubDate": "Tue, 10 Nov 2026 13:35:00 +0000",
-          "description": "Een oudere man is vanochtend in Medemblik met zijn brommobiel in een sloot gereden. Een omstander schoot te hulp en haalde het slachtoffer met de brandweer uit het water. De man is zonder ernstige verwondingen naar het ziekenhuis gebracht. Rond 11.00 uur belandde de brommobiel in het water aan de Brakeweg. Meerdere hulpdiensten, waaronder een traumateam, rukten uit. Een omstander sprong in het water en wist de bestuurder uit het voertuig te bevrijden. Opvallend is dat de omstander na zijn heldendaad door de politie is aangehouden. Volgens een politiewoordvoerder staat de aanhouding los van het incident. Waarvoor de man is aangehouden, is nog niet bekend. Hoe de brommobiel van de weg kon rake",
-          "categories": [
-            "112"
           ]
         }
       ]
