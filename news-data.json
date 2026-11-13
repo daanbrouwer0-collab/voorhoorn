@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-12T15:56:45.743Z",
+  "updated": "2026-11-13T00:17:25.126Z",
   "failedSources": [
     {
       "id": "hoornactueel",
       "label": "HoornActueel",
-      "error": "HTTP 403"
+      "error": "The operation was aborted due to timeout"
     },
     {
       "id": "onswestfriesland",
@@ -411,6 +411,15 @@
       "label": "Rodi Hoorn",
       "items": [
         {
+          "title": "OSG-leerlingen in Hoorn krijgen 25.000 euro voor eigen scholierenfestival",
+          "link": "https://www.rodi.nl/hoorn/nieuws/512361/osg-leerlingen-in-hoorn-krijgen-25-000-euro-voor-eigen-scholierenfestival",
+          "pubDate": "Thu, 12 Nov 2026 17:56:39 Z",
+          "description": "HOORN - Derdeklassers van OSG West-Friesland organiseren in juni 2027 zelf een scholierenfestival op het schoolterrein. Dankzij een subsidie van 25.000 euro van Little Local uit de Regio Deal zijn zij verantwoordelijk voor de volledige organisatie: van sponsoring en programmering tot techniek, catering en veiligheid. Wethouder onderwijs Yousuf Yousufi kwam het goede nieuws persoonlijk bekendmaken op school. De leerlingen verzorgden zelf de ontvangst.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
           "title": "De krant van deze week staat online",
           "link": "https://www.rodi.nl/hoorn/nieuws/512352/de-krant-van-deze-week-staat-online-xq7c33",
           "pubDate": "Thu, 12 Nov 2026 16:37:07 Z",
@@ -625,15 +634,6 @@
           "categories": [
             "Nieuws"
           ]
-        },
-        {
-          "title": "Alzheimer Café Hoorn over euthanasiewens en dementie",
-          "link": "https://www.rodi.nl/hoorn/nieuws/511835/alzheimer-cafe-hoorn-over-euthanasiewens-en-dementie",
-          "pubDate": "Mon, 09 Nov 2026 14:28:19 Z",
-          "description": "HOORN - Het Alzheimer Café Hoorn houdt woensdag 18 november een bijeenkomst over keuzes rond het levenseinde bij dementie. Het onderwerp luidt: 'Mag ik het zelf zeggen als ik niet meer verder wil'.",
-          "categories": [
-            "Nieuws"
-          ]
         }
       ]
     },
@@ -641,6 +641,15 @@
       "id": "streekomroep",
       "label": "Streekomroep",
       "items": [
+        {
+          "title": "Vervangende bussen NS niet meer propvol: \"Maar ik mis toch de trein, die gaat sneller\"",
+          "link": "https://www.streekomroepwestfriesland.nl/vervangende-bussen-ns-niet-meer-propvol-maar-ik-mis-toch-de-trein-die-gaat-sneller/",
+          "pubDate": "Thu, 12 Nov 2026 16:59:00 +0000",
+          "description": "Vanwege werkzaamheden op het spoor tussen Alkmaar, Hoorn en Den Helder was het aan het begin van de week erg druk in veel vervangende bussen. Naar aanleiding van de klachten heeft de NS extra bussen ingezet. Propvolle bussen en lange wachttijden afgelopen maandag in Schagen. \"Ik moest vier bussen voorbij laten gaan voor ik kon instappen\", vertelt een scholier. Gigantische operatie \"De eerste dag is het altijd even zoeken\", vertelt een woordvoerder van NS. \"We proberen reizigers zo goed mogelijk te informeren, maar het gaat om een groot stuk spoor. Het is een gigantische operatie.\" Naar aanleiding van de klachten heeft de NS de dagen daarna extra bussen ingezet. \"We hebben bijgeschaafd en nu ",
+          "categories": [
+            "Verkeer & wonen"
+          ]
+        },
         {
           "title": "Bewoners woningoverval Wervershoof met wapen bedreigd",
           "link": "https://www.streekomroepwestfriesland.nl/bewoners-woningoverval-wervershoof-met-wapen-bedreigd/",
@@ -721,15 +730,6 @@
           "description": "Een oudere man is vanochtend in Medemblik met zijn brommobiel in een sloot gereden. Een omstander schoot te hulp en haalde het slachtoffer met de brandweer uit het water. De man is zonder ernstige verwondingen naar het ziekenhuis gebracht. Rond 11.00 uur belandde de brommobiel in het water aan de Brakeweg. Meerdere hulpdiensten, waaronder een traumateam, rukten uit. Een omstander sprong in het water en wist de bestuurder uit het voertuig te bevrijden. Opvallend is dat de omstander na zijn heldendaad door de politie is aangehouden. Volgens een politiewoordvoerder staat de aanhouding los van het incident. Waarvoor de man is aangehouden, is nog niet bekend. Hoe de brommobiel van de weg kon rake",
           "categories": [
             "112"
-          ]
-        },
-        {
-          "title": "Gemeente Enkhuizen zoekt stemmentellers voor verkiezing Provinciale Staten en waterschappen",
-          "link": "https://www.streekomroepwestfriesland.nl/gemeente-enkhuizen-zoekt-stemmentellers-voor-verkiezing-provinciale-staten-en-waterschappen/",
-          "pubDate": "Tue, 10 Nov 2026 09:46:27 +0000",
-          "description": "De gemeente Enkhuizen zoekt inwoners die willen helpen bij de gecombineerde verkiezingen voor Provinciale Staten en het Waterschap op woensdag 17 maart 2027. Vooral tellers zijn welkom, maar ook voor andere functies op de stembureaus zoekt de gemeente mensen. Voor de werkzaamheden ontvangen deelnemers een vergoeding. Geïnteresseerden kunnen aan de slag als stembureaulid, plaatsvervangend voorzitter of voorzitter. Wie wil helpen, moet minimaal 18 jaar zijn en nauwkeurig kunnen werken. Vooraf volgen deelnemers een e-learning. Stembureauleden controleren onder meer stempassen en gegevens en geven stembiljetten uit. Vanaf 21.00 uur worden de stemmen op lijstniveau geteld. De telling van de stemm",
-          "categories": [
-            "Kunst & cultuur"
           ]
         }
       ]
