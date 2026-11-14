@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T00:19:18.467Z",
+  "updated": "2026-11-14T14:06:17.104Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -17,6 +17,15 @@
       "id": "hoornnieuws",
       "label": "Hoornnieuws",
       "items": [
+        {
+          "title": "Hoornse raad wil weten waardoor woningbouwprojecten vertragen",
+          "link": "https://hoornnieuws.nl/2026/11/14/hoornse-raad-wil-weten-waardoor-woningbouwprojecten-vertragen/",
+          "pubDate": "Sat, 14 Nov 2026 12:33:02 +0000",
+          "description": "HOORN – De gemeenteraad van Hoorn wil in de voortgangsrapportages over woningbouw kunnen zien welke projecten vertraging oplopen en hoe het college de knelpunten aanpakt. De raad nam daarover een motie aan bij de behandeling van de begroting voor 2027. De raad wil ook weten op welke momenten hij zelf kan helpen, bijvoorbeeld door een besluit te nemen. Een andere motie vraagt het college te onderzoeken onder welke voorwaarden wonen en werken op bedrijventerreinen kunnen samengaan. De gemeente heeft de besluiten en een verwijzing naar de vergadering online gezet. Bron en praktische informatie",
+          "categories": [
+            "Lokaal Nieuws"
+          ]
+        },
         {
           "title": "Bouw eerste koopappartementen Pelmolenpad feestelijk gevierd",
           "link": "https://hoornnieuws.nl/2026/11/10/bouw-eerste-koopappartementen-pelmolenpad-feestelijk-gevierd/",
@@ -102,15 +111,6 @@
           "categories": [
             "Landelijk"
           ]
-        },
-        {
-          "title": "Historische zeilschepen strijden tijdens 34e Bontekoerace in Hoorn",
-          "link": "https://hoornnieuws.nl/2026/10/18/historische-zeilschepen-strijden-tijdens-34e-bontekoerace-in-hoorn/",
-          "pubDate": "Sun, 18 Oct 2026 21:04:35 +0000",
-          "description": "HOORN – De haven van Hoorn staat op zaterdag 24 en zondag 25 oktober 2026 volledig in het teken van de 34e editie van de Bontekoerace . Tijdens dit jaarlijkse zeilevenement verschijnen tientallen historische zeilschepen op het water. Bezoekers kunnen de wedstrijden vanaf de wal volgen, maar ook zelf meevaren om de indrukwekkende vloot van dichtbij in actie te zien. De Bontekoerace is inmiddels een bekende traditie in Hoorn . Klippers, tjalken, visserijschepen en klassieke jachten nemen het tijdens het weekend tegen elkaar op. Sinds kort is er ook een aparte klasse Aspirant Klassiek, waardoor nog meer traditionele zeilschepen aan het evenement kunnen deelnemen. Vaar mee en beleef de wedstrijd",
-          "categories": [
-            "Agenda"
-          ]
         }
       ]
     },
@@ -118,6 +118,34 @@
       "id": "hoornsdagblad",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "HV Hoorn moet in slotfase onderspit delven tegen Tigers Roermond",
+          "link": "https://www.hoornsdagblad.nl/hv-hoorn/hv-hoorn-moet-in-slotfase-onderspit-delven-tegen-tigers-roermond",
+          "pubDate": "Sat, 14 Nov 2026 12:01:00 +0100",
+          "description": "ROERMOND - Ondanks dat men Tigers Roermond 35 minuten goed partij gaf heeft HV Hoorn het niet kunnen bolwerken tegen de regerend landskampioen. In de slotfase kreeg de ploeg van Khalid Elbaz alsnog een forse nederlaag te verwerken: 7-2.De thuisploeg, met aardig wat spelers met een verlden in Hoorn [...]",
+          "categories": []
+        },
+        {
+          "title": "ZVV Zwaag belandt weer in dubbele cijfers",
+          "link": "https://www.hoornsdagblad.nl/sport/zvv-zwaag-belandt-weer-in-dubbele-cijfers",
+          "pubDate": "Sat, 14 Nov 2026 10:39:38 +0100",
+          "description": "WARMENHUIZEN - ZVV Zwaag is voor de derde keer in zes competitiewedstrijden in de dubbele cijfers terecht gekomen. Na elf goals tegen FC Marlène en achttien treffers tegen AFC '34 kwamen daar vrijdagavond nog eens elf doelpunten bij tegen VIOS '79. In Warmenhuizen eindigde het op 1-11.Snelle [...]",
+          "categories": []
+        },
+        {
+          "title": "Zonnige zaterdag maakt plaats voor regen en stevige wind",
+          "link": "https://www.hoornsdagblad.nl/regio/zonnige-zaterdag-maakt-plaats-voor-regen-en-stevige-wind",
+          "pubDate": "Sat, 14 Nov 2026 06:39:04 +0100",
+          "description": "NEDERLAND - Het weekend begint met een fraaie, maar frisse herfstdag. Zaterdag krijgt de zon volop ruimte. Vanaf zondag slaat het weer om en volgen regen en een aantrekkende wind. Vooral aan de kust kan het dan onstuimig worden.Zonnige zaterdag met een koude avondNa een frisse start verloopt de [...]",
+          "categories": []
+        },
+        {
+          "title": "Wereld Diabetes Dag – 14 november: Samen sterker tegen diabetes",
+          "link": "https://www.hoornsdagblad.nl/zorg-en-gezondheid/wereld-diabetes-dag-14-november-samen-sterker-tegen-diabetes",
+          "pubDate": "Sat, 14 Nov 2026 05:35:04 +0100",
+          "description": "Op 14 november wordt wereldwijd Wereld Diabetes Dag gevierd – een dag waarop miljoenen mensen aandacht vragen voor één van de snelst groeiende gezondheidsproblemen van onze tijd: diabetes. Het thema van 2026 luidt: \"Vroegtijdige aanpak van diabetes\", gericht op tijdige diagnose en [...]",
+          "categories": []
+        },
         {
           "title": "Oranje verplettert Griekenland met zevenklapper, Reijnders scoort hattrick",
           "link": "https://www.hoornsdagblad.nl/sport/oranje-verplettert-griekenland-met-zevenklapper-reijnders-scoort-hattrick",
@@ -229,34 +257,6 @@
           "pubDate": "Wed, 11 Nov 2026 13:32:21 +0100",
           "description": "HOORN - Bent u op zoek naar een leuke, gezellige bezigheid en houdt u van een beetje wedstrijdspanning? Dan is koersbal misschien iets voor u! Koersbal is een gezamenlijk balspel dat lijkt op jeu de boules.Koersbal wordt gespeeld in wijkcentrum de Huesmolen (de Huesmolen 60 in Hoorn) op dinsdag van [...]",
           "categories": []
-        },
-        {
-          "title": "Gemeente Hoorn start actie voor gratis castratie en chippen van katten",
-          "link": "https://www.hoornsdagblad.nl/gemeente/gemeente-hoorn-start-actie-voor-gratis-castratie-en-chippen-van-katten",
-          "pubDate": "Wed, 11 Nov 2026 13:23:51 +0100",
-          "description": "HOORN - Inwoners van Hoorn met een laag inkomen kunnen hun kat gratis laten castreren of steriliseren. Daarbij is het ook mogelijk om de kat gratis te laten chippen, in combinatie met de castratie/sterilisatie. Met deze actie wil de gemeente ongewenste nestjes voorkomen en het aantal zwerfkatten en [...]",
-          "categories": []
-        },
-        {
-          "title": "Het Amsterdamse Winterparadijs introduceert nieuwe attractie: de Wintervlucht!",
-          "link": "https://www.hoornsdagblad.nl/dagje-weg/het-amsterdamse-winterparadijs-introduceert-nieuwe-attractie-de-wintervlucht",
-          "pubDate": "Wed, 11 Nov 2026 13:07:17 +0100",
-          "description": "AMSTERDAM - Het Amsterdamse Winterparadijs komt deze winter met een gloednieuwe attractie: de Wintervlucht! Van 17 december 2026 tot en met 2 januari 2027 verandert de RAI Amsterdam opnieuw in een magische winterwereld. Met de komst van de Wintervlucht wordt het aanbod aan attracties dit jaar nóg [...]",
-          "categories": []
-        },
-        {
-          "title": "Laat je verrassen deze kerst in West-Friesland!",
-          "link": "https://www.hoornsdagblad.nl/regio/laat-je-verrassen-deze-kerst-in-west-friesland",
-          "pubDate": "Wed, 11 Nov 2026 11:25:25 +0100",
-          "description": "HOORN - Zin in een gezellige dag vol verrassingen, lekkernijen en kerstsfeer? Op 19 december organiseert Tour2Day een speciale Kerstbustocht door West-Friesland.Waar we precies naartoe gaan? Dat blijft een verrassing! We trekken door West-Friesland en maken verschillende stops op bijzondere [...]",
-          "categories": []
-        },
-        {
-          "title": "Cadeauwinkels in Hoorn",
-          "link": "https://www.hoornsdagblad.nl/shopping/cadeauwinkels-in-hoorn",
-          "pubDate": "Wed, 11 Nov 2026 08:00:00 +0100",
-          "description": "Een goede cadeauwinkel is meer dan een winkel vol spullen, het is de plek waar je het cadeau vindt dat past bij de ontvanger. Hoorn telt meerdere cadeauwinkels die opvallen door een origineel aanbod, persoonlijk advies en een gezellige sfeer, of je nu een verjaardagscadeau zoekt of een kleine [...]",
-          "categories": []
         }
       ]
     },
@@ -264,6 +264,13 @@
       "id": "hoornsdagblad-sport",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "ZVV Zwaag belandt weer in dubbele cijfers",
+          "link": "https://www.hoornsdagblad.nl/sport/zvv-zwaag-belandt-weer-in-dubbele-cijfers",
+          "pubDate": "Sat, 14 Nov 2026 10:39:38 +0100",
+          "description": "WARMENHUIZEN - ZVV Zwaag is voor de derde keer in zes competitiewedstrijden in de dubbele cijfers terecht gekomen. Na elf goals tegen FC Marlène en achttien treffers tegen AFC '34 kwamen daar vrijdagavond nog eens elf doelpunten bij tegen VIOS '79. In Warmenhuizen eindigde het op 1-11.Snelle [...]",
+          "categories": []
+        },
         {
           "title": "Oranje verplettert Griekenland met zevenklapper, Reijnders scoort hattrick",
           "link": "https://www.hoornsdagblad.nl/sport/oranje-verplettert-griekenland-met-zevenklapper-reijnders-scoort-hattrick",
@@ -396,13 +403,6 @@
           "pubDate": "Sat, 31 Oct 2026 10:22:43 +0100",
           "description": "EINDHOVEN - Eerstedivisionist ZVV Zwaag heeft vrijdagavond ruim een half uur uitstekend partij gegeven aan meervoudig landskampioen en topploeg FC Eindhoven. Uiteindelijk werd de ploeg van trainer/coach Sander van Dijk, weliswaar met opgeheven hoofd, uitgeschakeld in de strijd om de KNVB Futsal [...]",
           "categories": []
-        },
-        {
-          "title": "Komende jaren meer ruimte voor sport in Noord-Holland",
-          "link": "https://www.hoornsdagblad.nl/sport/komende-jaren-meer-ruimte-voor-sport-in-noord-holland",
-          "pubDate": "Thu, 29 Oct 2026 11:00:43 +0100",
-          "description": "De provincie Noord-Holland zet de komende 5 jaar concrete stappen voor een sportief Noord-Holland. Met het vastgestelde Actieprogramma Sport Noord-Holland 2027-2031 werkt de provincie samen met gemeenten, sportorganisaties en maatschappelijke partners aan regionale samenwerking, veilig sporten, [...]",
-          "categories": []
         }
       ]
     },
@@ -410,6 +410,15 @@
       "id": "rodi",
       "label": "Rodi Hoorn",
       "items": [
+        {
+          "title": "Schaatsmarathon ‘De Vier van Noord-Holland’ strijkt neer in Hoorn",
+          "link": "https://www.rodi.nl/hoorn/nieuws/512439/schaatsmarathon-de-vier-van-noord-holland-strijkt-neer-in-hoorn",
+          "pubDate": "Sat, 14 Nov 2026 10:00:00 Z",
+          "description": "HOORN - De topdivisies voor mannen en vrouwen schaatsen van 10 tot en met 13 december voor de derde keer 'De Vier van Noord-Holland'. Ook in november en december is er volop schaatsplezier voor jong en oud op de vier kunstijsbanen in de provincie, waaronder IJsbaan de Westfries in Hoorn.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
         {
           "title": "Politie houdt minderjarige uit Hoorn aan na vondst zwaar vuurwerk in Westwoud",
           "link": "https://www.rodi.nl/hoorn/112-nieuws/512436/politie-houdt-minderjarige-uit-hoorn-aan-na-vondst-zwaar-vuurwerk-in-westwoud",
@@ -625,15 +634,6 @@
           "categories": [
             "Nieuws"
           ]
-        },
-        {
-          "title": "Omring opent dertig nieuwe revalidatie-units in Lindendael Hoorn",
-          "link": "https://www.rodi.nl/hoorn/zorg/511856/omring-opent-dertig-nieuwe-revalidatie-units-in-lindendael-hoorn",
-          "pubDate": "Mon, 09 Nov 2026 17:16:38 Z",
-          "description": "HOORN - Omring opent in Lindendael in Hoorn dertig nieuwe units voor geriatrische revalidatie. Daarmee zijn er 66 appartementen waar ouderen tijdelijk kunnen verblijven om te revalideren. Omring brengt de revalidatiezorg in Westfriesland samen op deze locatie.",
-          "categories": [
-            "Zorg"
-          ]
         }
       ]
     },
@@ -641,6 +641,36 @@
       "id": "streekomroep",
       "label": "Streekomroep",
       "items": [
+        {
+          "title": "De Tafel van Knook: met Arnoud Schaake, Anniek Stroomer, Gerben Bakker en Sinterklaas",
+          "link": "https://www.streekomroepwestfriesland.nl/de-tafel-van-knook-met-arnoud-schaake-anniek-stroomer-gerben-bakker-en-sinterklaas/",
+          "pubDate": "Sat, 14 Nov 2026 13:51:53 +0000",
+          "description": "Vanuit de bibliotheek in Hoorn komt een nieuwe uitzending van De Tafel van Knook. Presentator Robert-Jan Knook en tafeldame Amanda Vollenweider ontvangen verschillende gasten over actuele onderwerpen in West-Friesland. Met Vollenweider, directeur van het Westfries Museum, wordt gesproken over de enorme stellage die momenteel op de Roode Steen zichtbaar is en de steunbalkenactie. Arnoud Schaake van Vereniging Oud Hoorn schuift aan om te praten over de middag afgelopen zaterdag in de Noorderkerk en andere projecten rondom het slavernijverleden en de rol van de stad Hoorn. Anniek Stroomer komt vertellen over haar eerste boek dat deze maand uitgebracht werd: 'De vrouw. Voor mannen die er geen k*",
+          "categories": [
+            "Geschiedenis",
+            "Kunst & cultuur"
+          ]
+        },
+        {
+          "title": "Koggenland organiseert informatieavond voor ontwikkeling eigen woningen in Obdam",
+          "link": "https://www.streekomroepwestfriesland.nl/koggenland-organiseert-informatieavond-voor-ontwikkeling-eigen-woningen-in-obdam/",
+          "pubDate": "Sat, 14 Nov 2026 08:38:00 +0000",
+          "description": "De gemeente Koggenland reserveert bij Tuindersweijde Zuid in Obdam een bouwlocatie voor een project waarbij inwoners samen hun eigen woningen ontwikkelen. Op woensdag 25 november organiseert de gemeente een informatieavond over het zogeheten Collectief Particulier Opdrachtgeverschap (CPO). Bij CPO vormen geïnteresseerden een groep en beslissen zij gezamenlijk over onder meer het ontwerp, de uitstraling van de woningen, de aannemer en het budget. De deelnemers gaan uiteindelijk zelf in de woningen wonen. Een groep bestaat uit minimaal vier personen en werkt samen in de vorm van een stichting of vereniging. Voor het initiatief is één kavel gereserveerd. In het stedenbouwkundige plan staan op d",
+          "categories": [
+            "Politiek",
+            "Verkeer & wonen"
+          ]
+        },
+        {
+          "title": "Gerben Bakker is dankzij serie Liberté niet alleen dichter bij Napoleon maar ook bij zichzelf gekomen",
+          "link": "https://www.streekomroepwestfriesland.nl/gerben-bakker-is-dankzij-serie-liberte-niet-alleen-dichter-bij-napoleon-maar-ook-bij-zichzelf-gekomen/",
+          "pubDate": "Sat, 14 Nov 2026 06:01:00 +0000",
+          "description": "Streekomroep West-Friesland presenteert vanaf aankomende week een nieuw programma: Liberté. Gerben Bakker volgt in een achtdelige serie de reis die Napoleon Bonaparte in 1811 door Noord-Holland maakte. \"Ik ben op plekken gekomen waar ik eerder nooit geweest was, sprak met mensen die ik nooit eerder gesproken heb en ben dankzij de reis ook dichter bij mezelf gekomen\", aldus Gerben. Het idee voor de serie is ontstaan uit Gerbens fascinatie voor de Franse oud-keizer, die Nederland ook bij zijn rijk betrok. De programmamaker uit Hoorn legde het voor aan Streekomroep West-Friesland, merkte het enthousiasme en dacht een maand later de eerste opnames te kunnen maken. \"Maar dat bleek niet helemaal h",
+          "categories": [
+            "Geschiedenis",
+            "Kunst & cultuur"
+          ]
+        },
         {
           "title": "WEEFF Top Favoriet komende week in handen van SUUS",
           "link": "https://www.streekomroepwestfriesland.nl/weeff-top-favoriet-komende-week-in-handen-van-suus/",
@@ -701,33 +731,6 @@
           "link": "https://www.streekomroepwestfriesland.nl/minderjarige-aangehouden-voor-vondst-zwaar-vuurwerk-in-westwoud/",
           "pubDate": "Thu, 12 Nov 2026 16:32:05 +0000",
           "description": "De politie heeft afgelopen zondag een minderjarige uit Hoorn aangehouden na de vondst van een grote hoeveelheid zwaar vuurwerk in een auto in Westwoud. In zijn auto lagen 200 nitraten en 12 cobra's. De politie ontving afgelopen zondag rond 17.30 uur een melding dat meerdere mensen zwaar vuurwerk aan het afsteken waren op de Wijzenddijkje. Toen agenten arriveerden, sloeg de groep op de vlucht. Op het dijkje troffen zij een geparkeerde auto aan. Een half uur later keerden enkele personen uit deze groep terug en stapten ze in de auto. Daarop besloten agenten de auto te controleren. Bij die controle vonden zij 200 nitraten en 12 cobra's. Het vuurwerk is in beslag genomen. De jongen is inmiddels ",
-          "categories": [
-            "112"
-          ]
-        },
-        {
-          "title": "Bewoners woningoverval Wervershoof met wapen bedreigd",
-          "link": "https://www.streekomroepwestfriesland.nl/bewoners-woningoverval-wervershoof-met-wapen-bedreigd/",
-          "pubDate": "Thu, 12 Nov 2026 11:54:35 +0000",
-          "description": "Bij de woningoverval in Wervershoof gisteravond zijn bewoners met een wapen bedreigd. Dat meldt de politie. Er is inmiddels een signalement van twee verdachten vrijgegeven. Tussen 20.50 en 21.10 uur kwamen twee personen aan de deur. Toen één van de bewoners opendeed, kwamen zij naar binnen. Daarbij bedreigden ze de bewoners met een wapen en werden spullen meegenomen. Om wat voor wapen en wat voor spullen het gaat, zegt de politie in verband met het onderzoek niet. Bij de overval raakte niemand gewond. Verdachten op de vlucht Na de overval namen de verdachten de benen. Welke kant ze op zijn gegaan en hoe is onduidelijk. De politie heeft een signalement van de verdachten vrijgegeven . Mogelijk",
-          "categories": [
-            "112"
-          ]
-        },
-        {
-          "title": "Dirk Scheringa ziet kunstdroom na DSB-val worden voortgezet door collega-miljonair",
-          "link": "https://www.streekomroepwestfriesland.nl/dirk-scheringa-ziet-kunstdroom-na-dsb-val-worden-voortgezet-door-collega-miljonair/",
-          "pubDate": "Thu, 12 Nov 2026 11:00:00 +0000",
-          "description": "Daar waar de ene miljonair – Dirk Scheringa – in 2009 afscheid moest nemen van zijn geliefde kunstcollectie van het Scheringa Museum in Spanbroek, zette een andere miljonair de kunstdroom van Scheringa voort. In het Gelderse Gorssel ontstond 'Museum More', dat succes heeft met het Nederlandse deel van 'zijn' kunstwerken. De vierde en laatste aflevering van de NH-documentaireserie De droom van Dirk – een Dalí in Spanbroek staat in het teken van het afscheid van het Scheringa Museum. Maar ook: wat moet er met het enorme nieuwe museum in Opmeer gebeuren en met de imposante kunstcollectie, die inmiddels bestond uit 1.400 kunstwerken? De pijn van het afscheid is voor veel betrokkenen groot en amp",
-          "categories": [
-            "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Woningoverval in Wervershoof, politie zoekt twee verdachten",
-          "link": "https://www.streekomroepwestfriesland.nl/woningoverval-in-wervershoof-politie-zoekt-twee-verdachten/",
-          "pubDate": "Wed, 11 Nov 2026 20:57:58 +0000",
-          "description": "Een woning in Wervershoof is vanavond overvallen. Of er gewonden zijn gevallen, is nog niet bekend. Volgens de politie zijn mogelijk twee verdachten het huis binnengedrongen. De melding van de overval kwam rond 21.15 uur binnen bij de politie. Ook een ambulance werd uit voorzorg opgeroepen. Volgens de politie zijn mogelijk twee verdachten het huis aan de Wierdijk binnengedrongen. Of er gewonden zijn gevallen en of er iets is buitgemaakt, is nog niet bekend. De politie doet momenteel onderzoek in en rond de woning. The post Woningoverval in Wervershoof, politie zoekt twee verdachten appeared first on Streekomroep West-Friesland .",
           "categories": [
             "112"
           ]
