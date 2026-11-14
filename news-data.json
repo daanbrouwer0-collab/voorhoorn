@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T15:20:15.306Z",
+  "updated": "2026-11-14T00:19:18.467Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -118,6 +118,20 @@
       "id": "hoornsdagblad",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Oranje verplettert Griekenland met zevenklapper, Reijnders scoort hattrick",
+          "link": "https://www.hoornsdagblad.nl/sport/oranje-verplettert-griekenland-met-zevenklapper-reijnders-scoort-hattrick",
+          "pubDate": "Fri, 13 Nov 2026 22:42:29 +0100",
+          "description": "AMSTERDAM - Het Nederlands elftal heeft in de Johan Cruijff Arena een overtuigende overwinning geboekt op Griekenland. De ploeg van bondscoach Xavi won met liefst 7-0. Tijani Reijnders was met drie doelpunten voor rust de grote uitblinker.Oranje neemt direct afstandNederland had slechts zes minuten [...]",
+          "categories": []
+        },
+        {
+          "title": "Zorgpremies stijgen in 2027 harder dan verwacht",
+          "link": "https://www.hoornsdagblad.nl/zorg-en-gezondheid/zorgpremies-stijgen-in-2027-harder-dan-verwacht",
+          "pubDate": "Fri, 13 Nov 2026 16:21:02 +0100",
+          "description": "NEDERLAND - Verzekerden gaan volgend jaar bij verschillende grote zorgverzekeraars flink meer betalen voor hun basisverzekering. Een maandpremie boven de 170 euro komt steeds vaker voor. Ter vergelijking: dit jaar ligt de gemiddelde zorgpremie op 157 euro per maand.Het ministerie van [...]",
+          "categories": []
+        },
         {
           "title": "30 jaar liefde voor Hoorn... en dat proef je!",
           "link": "https://www.hoornsdagblad.nl/regio/a30-jaar-liefde-voor-hoorn-en-dat-proef-je",
@@ -243,20 +257,6 @@
           "pubDate": "Wed, 11 Nov 2026 08:00:00 +0100",
           "description": "Een goede cadeauwinkel is meer dan een winkel vol spullen, het is de plek waar je het cadeau vindt dat past bij de ontvanger. Hoorn telt meerdere cadeauwinkels die opvallen door een origineel aanbod, persoonlijk advies en een gezellige sfeer, of je nu een verjaardagscadeau zoekt of een kleine [...]",
           "categories": []
-        },
-        {
-          "title": "Achtste editie Amsterdams Winterparadijs groter dan ooit met nieuwe attracties en shows",
-          "link": "https://www.hoornsdagblad.nl/achtste-editie-amsterdams-winterparadijs-groter-dan-ooit-met-nieuwe-attracties-en-shows",
-          "pubDate": "Tue, 10 Nov 2026 21:44:48 +0100",
-          "description": "AMSTERDAM - Het Amsterdams Winterparadijs keert deze winter voor de achtste keer terug naar de RAI Amsterdam. Sinds de eerste editie in 2017 zijn er meer dan 1,5 miljoen bezoekers geweest en wordt Het Amsterdams Winterparadijs voor de achtste editie nog groter. Met een verrassende Symphony of [...]",
-          "categories": []
-        },
-        {
-          "title": "Goed dakonderhoud voorkomt onverwachte problemen en hoge kosten",
-          "link": "https://www.hoornsdagblad.nl/wonen/goed-dakonderhoud-voorkomt-onverwachte-problemen-en-hoge-kosten",
-          "pubDate": "Tue, 10 Nov 2026 16:16:51 +0100",
-          "description": "NOORD-HOLLAND – Een dak krijgt het hele jaar door veel te verduren. Regen, wind, vorst en flinke temperatuurverschillen kunnen op termijn zorgen voor slijtage of beschadigingen. Toch wordt het dak van een woning vaak pas bekeken wanneer er daadwerkelijk water naar binnen komt. Volgens Dakherstel [...]",
-          "categories": []
         }
       ]
     },
@@ -264,6 +264,13 @@
       "id": "hoornsdagblad-sport",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Oranje verplettert Griekenland met zevenklapper, Reijnders scoort hattrick",
+          "link": "https://www.hoornsdagblad.nl/sport/oranje-verplettert-griekenland-met-zevenklapper-reijnders-scoort-hattrick",
+          "pubDate": "Fri, 13 Nov 2026 22:42:29 +0100",
+          "description": "AMSTERDAM - Het Nederlands elftal heeft in de Johan Cruijff Arena een overtuigende overwinning geboekt op Griekenland. De ploeg van bondscoach Xavi won met liefst 7-0. Tijani Reijnders was met drie doelpunten voor rust de grote uitblinker.Oranje neemt direct afstandNederland had slechts zes minuten [...]",
+          "categories": []
+        },
         {
           "title": "Egmond en omgeving maakt zich klaar voor de Fjoertoer Egmond",
           "link": "https://www.hoornsdagblad.nl/sport/egmond-en-omgeving-maakt-zich-klaar-voor-de-fjoertoer-egmond",
@@ -395,13 +402,6 @@
           "link": "https://www.hoornsdagblad.nl/sport/komende-jaren-meer-ruimte-voor-sport-in-noord-holland",
           "pubDate": "Thu, 29 Oct 2026 11:00:43 +0100",
           "description": "De provincie Noord-Holland zet de komende 5 jaar concrete stappen voor een sportief Noord-Holland. Met het vastgestelde Actieprogramma Sport Noord-Holland 2027-2031 werkt de provincie samen met gemeenten, sportorganisaties en maatschappelijke partners aan regionale samenwerking, veilig sporten, [...]",
-          "categories": []
-        },
-        {
-          "title": "AZ in slotfase onderuit tegen FC Twente",
-          "link": "https://www.hoornsdagblad.nl/sport/az-in-slotfase-onderuit-tegen-fc-twente",
-          "pubDate": "Sun, 25 Oct 2026 21:58:02 +0100",
-          "description": "ALKMAAR - AZ heeft zondagavond opnieuw punten laten liggen in de Eredivisie. De ploeg van trainer Leeroy Echteld verloor op eigen veld met 0-2 van FC Twente en hield daardoor slechts één punt over aan de laatste drie wedstrijden. De bezoekers kwamen dankzij de overwinning op gelijke hoogte met PSV [...]",
           "categories": []
         }
       ]
@@ -642,6 +642,15 @@
       "label": "Streekomroep",
       "items": [
         {
+          "title": "WEEFF Top Favoriet komende week in handen van SUUS",
+          "link": "https://www.streekomroepwestfriesland.nl/weeff-top-favoriet-komende-week-in-handen-van-suus/",
+          "pubDate": "Fri, 13 Nov 2026 18:44:00 +0000",
+          "description": "Zangeres SUUS staat aankomende zondag niet alleen op de Popronde in Hoorn, maar je hoort haar komende week ook extra vaak op de radio. We roepen het nummer 'Half As Cool' namelijk uit tot nieuwe WEEFF Top Favoriet. \"SUUS maakt muziek die de zorgen en uitdagingen van Generatie Z omhult in een heerlijke mix van retro-pop en moderne sounds\", luidt de beschrijving op haar artiestenpagina van de streamingsdiensten. Inspiratiebronnen voor Suus Rewinkel, zoals ze volledig heet, zijn iconen als Olivia Rodrigo en Sabrina Carpenter. De zangeres is een van de ruim 40 optredende artiesten aankomend weekend bij de Popronde in Hoorn. Zondag om 14.30 uur staat ze in het Hema-filiaal aan de Gouw. Streekomro",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
+        {
           "title": "Nieuwe Kinderraad gemeente Koggenland geïnstalleerd, kinderburgemeester wordt later gekozen",
           "link": "https://www.streekomroepwestfriesland.nl/nieuwe-kinderraad-gemeente-koggenland-geinstalleerd-kinderburgemeester-wordt-later-gekozen/",
           "pubDate": "Fri, 13 Nov 2026 13:57:36 +0000",
@@ -721,16 +730,6 @@
           "description": "Een woning in Wervershoof is vanavond overvallen. Of er gewonden zijn gevallen, is nog niet bekend. Volgens de politie zijn mogelijk twee verdachten het huis binnengedrongen. De melding van de overval kwam rond 21.15 uur binnen bij de politie. Ook een ambulance werd uit voorzorg opgeroepen. Volgens de politie zijn mogelijk twee verdachten het huis aan de Wierdijk binnengedrongen. Of er gewonden zijn gevallen en of er iets is buitgemaakt, is nog niet bekend. De politie doet momenteel onderzoek in en rond de woning. The post Woningoverval in Wervershoof, politie zoekt twee verdachten appeared first on Streekomroep West-Friesland .",
           "categories": [
             "112"
-          ]
-        },
-        {
-          "title": "Van suikerbiet tot lampion: Basisschool De Rank bereidt zich voor op Sint-Maarten",
-          "link": "https://www.streekomroepwestfriesland.nl/van-suikerbiet-tot-lampion-basisschool-de-rank-bereidt-zich-voor-op-sint-maarten/",
-          "pubDate": "Wed, 11 Nov 2026 15:03:00 +0000",
-          "description": "De leerlingen van groep 7 en 8 van basisschool De Rank in Zwaag zijn helemaal klaar voor Sint-Maarten. Traditiegetrouw maakten de kinderen ook dit jaar op de ochtend van 11 november hun eigen lampion. Niet van papier of karton, maar van een echte suikerbiet. Het maken van lampions van suikerbieten is inmiddels een vaste traditie op basisschool De Rank. Ieder jaar gaan de leerlingen op de ochtend van Sint-Maarten een paar uur aan de slag om hun eigen suikerbiet om te toveren tot lampion. Dat vraagt om nog wat meer aandacht dan het maken van een lampion van papier of karton. Artikel gaat verder onder video De kinderen beginnen met het uithollen van de suikerbieten. Dit doen ze met het gereedsc",
-          "categories": [
-            "Kunst & cultuur",
-            "Onderwijs"
           ]
         }
       ]
