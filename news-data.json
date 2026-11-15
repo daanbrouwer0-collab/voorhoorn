@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T14:43:23.339Z",
+  "updated": "2026-11-15T20:23:11.796Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -118,6 +118,13 @@
       "id": "hoornsdagblad",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Bestelbusje vliegt uit de bocht en belandt in sloot Berkhout",
+          "link": "https://www.hoornsdagblad.nl/112-hoorn/bestelbusje-vliegt-uit-de-bocht-en-belandt-in-sloot-berkhout",
+          "pubDate": "Sun, 15 Nov 2026 19:03:53 +0100",
+          "description": "BERKHOUT - Aan de Bobeldijk in Berkhout is zondagavond omstreeks 18.25 uur een bestelbusje te water geraakt. Het voertuig is door nog onbekende oorzaak uit de bocht gevlogen en in de naastgelegen sloot belandt.Niemand raakte gewond, de bestuurder is zelfstandig uit het water gekomen. Het [...]",
+          "categories": []
+        },
         {
           "title": "Bouillon d'Amsterdam opent tijdelijk restaurant op Het Amsterdamse Winterparadijs",
           "link": "https://www.hoornsdagblad.nl/eten-drinken/bouillon-damsterdam-opent-tijdelijk-restaurant-op-het-amsterdamse-winterparadijs",
@@ -249,13 +256,6 @@
           "link": "https://www.hoornsdagblad.nl/shopping/black-friday-2026-nederland-maakt-zich-nu-al-op-voor-grote-koopjesweek-eerste-prijsalerts-al-afgegaan",
           "pubDate": "Thu, 12 Nov 2026 08:36:16 +0100",
           "description": "NEDERLAND – Black Friday staat weer voor de deur. Officieel staat Nederland op vrijdag 27 november opnieuw in het teken van aanbiedingen, kortingsacties en koopjesjacht, maar de gekte lijkt inmiddels elk jaar vroeger te beginnen. Tweakers, de grootste technologie- en elektronicawebsite van [...]",
-          "categories": []
-        },
-        {
-          "title": "Vastgeslagen remmen van vrachtwagen zorgen voor rook en file op N194 bij Berkhout",
-          "link": "https://www.hoornsdagblad.nl/112-hoorn/vastgeslagen-remmen-van-vrachtwagen-zorgen-voor-rook-en-file-op-n194-bij-berkhout",
-          "pubDate": "Wed, 11 Nov 2026 18:07:21 +0100",
-          "description": "BERKHOUT - Op de N194 bij Berkhout is woensdagmiddag een vrachtwagencombinatie stil komen te staan nadat de remmen van een trailer waren vastgelopen. Door de oververhitte remmen ontstond rookontwikkeling.De vrachtwagen was onderweg in de richting van de A7 toen de chauffeur rook zag opstijgen vanaf [...]",
           "categories": []
         }
       ]
