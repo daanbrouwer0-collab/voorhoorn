@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T19:54:37.853Z",
+  "updated": "2026-11-15T02:37:38.485Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -118,6 +118,20 @@
       "id": "hoornsdagblad",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Bouillon d'Amsterdam opent tijdelijk restaurant op Het Amsterdamse Winterparadijs",
+          "link": "https://www.hoornsdagblad.nl/eten-drinken/bouillon-damsterdam-opent-tijdelijk-restaurant-op-het-amsterdamse-winterparadijs",
+          "pubDate": "Sun, 15 Nov 2026 01:00:06 +0100",
+          "description": "AMSTERDAM - Bouillon d'Amsterdam brengt deze winter de 'tafel van de stad' naar Het Amsterdamse Winterparadijs. Voor het eerst opent het restaurant een sfeervolle pop-up midden op het winterevenement in de RAI Amsterdam. Op negen geselecteerde dagen kunnen bezoekers aanschuiven voor een compleet [...]",
+          "categories": []
+        },
+        {
+          "title": "Internationale Dag ter herdenking van verkeersslachtoffers",
+          "link": "https://www.hoornsdagblad.nl/112-hoorn/internationale-dag-ter-herdenking-van-verkeersslachtoffers",
+          "pubDate": "Sun, 15 Nov 2026 00:55:09 +0100",
+          "description": "NEDERLAND - De Dag ter Herdenking van Verkeersslachtoffers wordt elk jaar op de derde zondag van november wereldwijd georganiseerd om de mensen te herdenken die het slachtoffer zijn geworden van verkeersongevallen. Deze dag biedt de gelegenheid om stil te staan bij de tragische gevolgen van [...]",
+          "categories": []
+        },
         {
           "title": "HV Hoorn moet in slotfase onderspit delven tegen Tigers Roermond",
           "link": "https://www.hoornsdagblad.nl/hv-hoorn/hv-hoorn-moet-in-slotfase-onderspit-delven-tegen-tigers-roermond",
@@ -242,20 +256,6 @@
           "link": "https://www.hoornsdagblad.nl/112-hoorn/vastgeslagen-remmen-van-vrachtwagen-zorgen-voor-rook-en-file-op-n194-bij-berkhout",
           "pubDate": "Wed, 11 Nov 2026 18:07:21 +0100",
           "description": "BERKHOUT - Op de N194 bij Berkhout is woensdagmiddag een vrachtwagencombinatie stil komen te staan nadat de remmen van een trailer waren vastgelopen. Door de oververhitte remmen ontstond rookontwikkeling.De vrachtwagen was onderweg in de richting van de A7 toen de chauffeur rook zag opstijgen vanaf [...]",
-          "categories": []
-        },
-        {
-          "title": "Provincie sponsort ook in 2027 verschillende sportevenementen",
-          "link": "https://www.hoornsdagblad.nl/sport/provincie-sponsort-ook-in-2027-verschillende-sportevenementen",
-          "pubDate": "Wed, 11 Nov 2026 13:47:37 +0100",
-          "description": "NOORD-HOLLAND - Na het succes in 2026, stelt de provincie Noord-Holland ook in 2027 weer 100.000 euro sponsorgeld beschikbaar voor nationale kampioenschappen en internationale topsporttoernooien. Hiermee kunnen niet alleen grote topsportevenementen in aanmerking komen, ook kleinere en minder [...]",
-          "categories": []
-        },
-        {
-          "title": "Koersbal in Wijkcentrum De Huesmolen",
-          "link": "https://www.hoornsdagblad.nl/regio/koersbal-in-wijkcentrum-de-huesmolen",
-          "pubDate": "Wed, 11 Nov 2026 13:32:21 +0100",
-          "description": "HOORN - Bent u op zoek naar een leuke, gezellige bezigheid en houdt u van een beetje wedstrijdspanning? Dan is koersbal misschien iets voor u! Koersbal is een gezamenlijk balspel dat lijkt op jeu de boules.Koersbal wordt gespeeld in wijkcentrum de Huesmolen (de Huesmolen 60 in Hoorn) op dinsdag van [...]",
           "categories": []
         }
       ]
