@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-16T02:42:31.657Z",
+  "updated": "2026-11-16T16:58:02.087Z",
   "failedSources": [
     {
       "id": "hoornactueel",
       "label": "HoornActueel",
-      "error": "The operation was aborted due to timeout"
+      "error": "HTTP 403"
     },
     {
       "id": "onswestfriesland",
@@ -21,7 +21,7 @@
           "title": "Sportweekend Hoorn: Westfriezen wint met 2–0 bij VV Egmond",
           "link": "https://hoornnieuws.nl/2026/11/15/sportweekend-hoorn-14-15-november-2026/",
           "pubDate": "Sun, 15 Nov 2026 21:02:17 +0000",
-          "description": "Westfriezen nam zondag 15 november drie punten mee uit Egmond-Binnen. De ploeg uit Zwaag won in de tweede klasse A met 2–0 van VV Egmond en hield op Sportpark De Lange Plas het doel schoon. Uitslagen bij VV Egmond . Ook Westfriezen Vrouwen 2 boekte een overwinning. Op Sportpark ’t Krijt won de ploeg met 3–1 van Dirkshorn Vrouwen 1. Uitslagen bij VV Dirkshorn . Voor Rugbyclub West-Friesland 1 staat op zondag 29 november een uitwedstrijd tegen RC Nieuwegein 1 op het programma. De aftrap is om 13.00 uur op Sportpark Galecop. Competitieprogramma Rugby Nederland . Beeld: AI-illustratie voor Sportweekend Hoorn.",
+          "description": "Westfriezen nam zondag 15 november drie punten mee uit Egmond-Binnen. De ploeg uit Zwaag won in de tweede klasse A met 2–0 van VV Egmond en hield op Sportpark De Lange Plas het doel schoon. Uitslagen bij VV Egmond . Ook Westfriezen Vrouwen 2 boekte een overwinning. Op Sportpark ’t Krijt won de ploeg met 3–1 van Dirkshorn Vrouwen 1. Uitslagen bij VV Dirkshorn . Voor Rugbyclub West-Friesland 1 staat op zondag 29 november een uitwedstrijd tegen RC Nieuwegein 1 op het programma. De aftrap is om 13.00 uur op Sportpark Galecop. Competitieprogramma Rugby Nederland . Beeld: AI-illustratie voor Sportweekend Hoorn. Always Forward en VV Bergen delen de punten Always Forward speelde zondag 15 november i",
           "categories": [
             "Sport"
           ]
@@ -117,6 +117,41 @@
       "label": "Hoornsdagblad",
       "items": [
         {
+          "title": "Groom Night bij Hoes Tailors",
+          "link": "https://www.hoornsdagblad.nl/trouwspecial/groom-night-bij-hoes-tailors",
+          "pubDate": "Mon, 16 Nov 2026 17:06:26 +0100",
+          "description": "ALKMAAR - Is 2027 het jaar dat je in het huwelijksbootje stapt? Dan hebben wij bij Hoes Tailors een geweldig evenement voor jou. Op 11 december van 19:00 tot 21:30 organiseren wij Groom Night. Dit is een exclusieve men only night, speciaal voor jou als aanstaande bruidegom. Even een avond geen [...]",
+          "categories": []
+        },
+        {
+          "title": "Dinsdag 24 november Open Dag Vonk-mbo",
+          "link": "https://www.hoornsdagblad.nl/regio/dinsdag-24-november-open-dag-vonk-mbo",
+          "pubDate": "Mon, 16 Nov 2026 14:35:59 +0100",
+          "description": "ALKMAAR - Voor veel leerlingen breekt binnenkort een spannende periode aan: het kiezen van een vervolgopleiding. Een keuze die invloed heeft op de komende jaren en die vaak niet in één keer gemaakt is. Juist daarom is het waardevol om samen op ontdekkingstocht te gaan. Open dag Vonk-mbo op 24 [...]",
+          "categories": []
+        },
+        {
+          "title": "Onderzoek: Moe? Pizza. Visite? Chinees. Het moment bepaalt wat we bestellen",
+          "link": "https://www.hoornsdagblad.nl/algemeen/onderzoek-moe-pizza-visite-chinees-het-moment-bepaalt-wat-we-bestellen",
+          "pubDate": "Mon, 16 Nov 2026 13:14:26 +0100",
+          "description": "NEDERLAND - Wat er bezorgd wordt, hangt niet alleen af van smaak, maar vooral van het moment. Wie sneller eten bestelt als ze moe zijn, kiest vaker pizza (44% tegen 27%). Wie bestelt omdat er visite komt, kiest juist vaker Chinees (50% tegen 39%). Dat blijkt uit een analyse van onderzoek van [...]",
+          "categories": []
+        },
+        {
+          "title": "Gelijke spelen voor vrouwen en heren van Always Forward",
+          "link": "https://www.hoornsdagblad.nl/sport/gelijke-spelen-voor-vrouwen-en-heren-van-always-forward",
+          "pubDate": "Mon, 16 Nov 2026 11:44:22 +0100",
+          "description": "HOORN - Wie zondag op het complex van Always Forward aanwezig was om zowel de vrouwen- als herenselectie in actie te zien kreeg tweemaal een remise die in 1-1 eindigde voorgeschoteld.De vrouwen van Always Forward, uitkomend in de hoofdklasse, behaalden een verdienstelijk gekijsopel tegen het op de [...]",
+          "categories": []
+        },
+        {
+          "title": "Uitgeverij Doornwater onthult cover van rijk geïllustreerd boek over The Cats",
+          "link": "https://www.hoornsdagblad.nl/regio/uitgeverij-doornwater-onthult-cover-van-rijk-geillustreerd-boek-over-the-cats",
+          "pubDate": "Mon, 16 Nov 2026 09:14:38 +0100",
+          "description": "VOLENDAM - Pophistoricus Leo Weijers brengt in TIMES WERE WHEN het verhaal van The Cats én de veelzijdige muziekgeschiedenis van Volendam samen. Het boek verschijnt op 20 maart 2027 als hardcover op A4-formaat.Een hand trekt een kleurrijke platenhoes van The Cats uit een bak vol elpees. Met dat [...]",
+          "categories": []
+        },
+        {
           "title": "Gehavend Hollandia onderuit tegen Hoogeveen",
           "link": "https://www.hoornsdagblad.nl/sport/gehavend-hollandia-onderuit-tegen-hoogeveen",
           "pubDate": "Sun, 15 Nov 2026 22:55:21 +0100",
@@ -167,7 +202,7 @@
         },
         {
           "title": "Zonnige zaterdag maakt plaats voor regen en stevige wind",
-          "link": "https://www.hoornsdagblad.nl/regio/zonnige-zaterdag-maakt-plaats-voor-regen-en-stevige-wind",
+          "link": "https://www.hoornsdagblad.nl/algemeen/zonnige-zaterdag-maakt-plaats-voor-regen-en-stevige-wind",
           "pubDate": "Sat, 14 Nov 2026 06:39:04 +0100",
           "description": "NEDERLAND - Het weekend begint met een fraaie, maar frisse herfstdag. Zaterdag krijgt de zon volop ruimte. Vanaf zondag slaat het weer om en volgen regen en een aantrekkende wind. Vooral aan de kust kan het dan onstuimig worden.Zonnige zaterdag met een koude avondNa een frisse start verloopt de [...]",
           "categories": []
@@ -220,41 +255,6 @@
           "pubDate": "Fri, 13 Nov 2026 09:22:59 +0100",
           "description": "NEDERLAND - Een hardnekkige storing bij Microsoft zorgt sinds donderdagmiddag voor grote problemen. Rond 17.15 uur begonnen de eerste problemen, waarna dit zich wereldwijd uitbreidde. Vooral Outlook, Teams en Microsoft 365 zijn slecht of helemaal niet bereikbaar. Naast particulieren en bedrijven [...]",
           "categories": []
-        },
-        {
-          "title": "Vrijdag de dertiende: waar komt het bijgeloof vandaan?",
-          "link": "https://www.hoornsdagblad.nl/algemeen/vrijdag-de-dertiende-waar-komt-het-bijgeloof-vandaan",
-          "pubDate": "Fri, 13 Nov 2026 06:06:47 +0100",
-          "description": "NEDERLAND - Voor de meeste mensen is vrijdag de dertiende een gewone dag. Toch roept de datum bij sommigen een ongemakkelijk gevoel op. Een belangrijke afspraak wordt liever uitgesteld en bij een kleine tegenvaller klinkt al snel: 'Het is zeker vrijdag de dertiende.' Maar waarom heeft juist deze [...]",
-          "categories": []
-        },
-        {
-          "title": "Egmond en omgeving maakt zich klaar voor de Fjoertoer Egmond",
-          "link": "https://www.hoornsdagblad.nl/sport/egmond-en-omgeving-maakt-zich-klaar-voor-de-fjoertoer-egmond",
-          "pubDate": "Thu, 12 Nov 2026 13:30:33 +0100",
-          "description": "EGMOND AAN ZEE - Met Sint-Maarten net achter de rug blijven de Egmonden en Heiloo nog even in de lichtjesstemming. Op vrijdag 27 en zaterdag 28 november staat de regio volledig in het teken van de Fjoertoer Egmond. De 12e editie neemt naar verwachting ruim 16.000 wandelaars mee op een bijzondere [...]",
-          "categories": []
-        },
-        {
-          "title": "Eerste ouder en kind wintereditie Feeling Fit Festival",
-          "link": "https://www.hoornsdagblad.nl/sport/eerste-ouder-en-kind-wintereditie-feeling-fit-festival",
-          "pubDate": "Thu, 12 Nov 2026 13:29:40 +0100",
-          "description": "HOORN - Op zondag 24 januari 2027 vindt de allereerste wintereditie van het Feeling Fit Festival plaats in Hoorn. In samenwerking met Optisport wordt ijsbaan De Westfries omgetoverd tot een inspirerende plek waar beweging, ontspanning en gezonde leefstijl centraal staan. Van 11.00 uur tot 16.00 uur [...]",
-          "categories": []
-        },
-        {
-          "title": "Heel Noord-Holland gaat weer schaatsen",
-          "link": "https://www.hoornsdagblad.nl/sport/heel-noord-holland-gaat-weer-schaatsen",
-          "pubDate": "Thu, 12 Nov 2026 11:24:05 +0100",
-          "description": "NOORD-HOLLAND - In november en december kunnen jong en oud weer terecht voor verschillende leuke schaatsactiviteiten op de vier kunstijsbanen van Noord-Holland. Daarnaast zullen de Topdivisies Mannen en Vrouwen voor de derde keer op rij de bekende 4-daagse marathon gaan schaatsen, van 10 tot en met [...]",
-          "categories": []
-        },
-        {
-          "title": "Een bedrijfsunit kopen doe je op het juiste moment, niet op het mooiste moment",
-          "link": "https://www.hoornsdagblad.nl/algemeen/een-bedrijfsunit-kopen-doe-je-op-het-juiste-moment-niet-op-het-mooiste-moment",
-          "pubDate": "Thu, 12 Nov 2026 11:05:04 +0100",
-          "description": "Voor de meeste ondernemers in Hoorn en omgeving wordt kopen pas actueel op een herkenbaar moment, bijvoorbeeld wanneer het huurcontract afloopt of de loods bij huis te klein wordt. Dat moment is belangrijker dan veel kopers denken. Wie te vroeg instapt, bindt zich aan ruimte die nog niet past. Wie [...]",
-          "categories": []
         }
       ]
     },
@@ -262,6 +262,13 @@
       "id": "hoornsdagblad-sport",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Gelijke spelen voor vrouwen en heren van Always Forward",
+          "link": "https://www.hoornsdagblad.nl/sport/gelijke-spelen-voor-vrouwen-en-heren-van-always-forward",
+          "pubDate": "Mon, 16 Nov 2026 11:44:22 +0100",
+          "description": "HOORN - Wie zondag op het complex van Always Forward aanwezig was om zowel de vrouwen- als herenselectie in actie te zien kreeg tweemaal een remise die in 1-1 eindigde voorgeschoteld.De vrouwen van Always Forward, uitkomend in de hoofdklasse, behaalden een verdienstelijk gekijsopel tegen het op de [...]",
+          "categories": []
+        },
         {
           "title": "Gehavend Hollandia onderuit tegen Hoogeveen",
           "link": "https://www.hoornsdagblad.nl/sport/gehavend-hollandia-onderuit-tegen-hoogeveen",
@@ -394,13 +401,6 @@
           "pubDate": "Sun, 01 Nov 2026 20:29:50 +0100",
           "description": "HOORN – Jong Holland heeft een spectaculaire uitwedstrijd bij Always Forward met 4-7 gewonnen. De ploeg van trainer Gidon Reinders Folmer zag de thuisploeg in de slotfase nog terugkomen tot één doelpunt verschil, maar stelde de zege met twee late treffers veilig. Beau Böhning was met drie [...]",
           "categories": []
-        },
-        {
-          "title": "Hollandia doet vertrouwen op met nipte zege bij Eemdijk",
-          "link": "https://www.hoornsdagblad.nl/sport/hollandia-doet-vertrouwen-op-met-nipte-zege-bij-eemdijk",
-          "pubDate": "Sun, 01 Nov 2026 10:29:58 +0100",
-          "description": "EEMDIJK – Hollandia heeft in het inhaalduel bij Eemdijk de tweede overwinning van het seizoen geboekt. Een doelpunt van Niels Koster bleek voldoende voor de winst: 0-1. De Hoornse ploeg hield in de slotfase ook met tien man stand.Koster bezorgt Hollandia de voorsprongDe wedstrijd was eerder [...]",
-          "categories": []
         }
       ]
     },
@@ -408,6 +408,60 @@
       "id": "rodi",
       "label": "Rodi Hoorn",
       "items": [
+        {
+          "title": "‘Juist wat we níét weten, baart me zorgen’ - Sari Spendel (29) is coördinator Jeugdcriminaliteit bij de gemeente Hoorn",
+          "link": "https://www.rodi.nl/hoorn/nieuws/512679/juist-wat-we-niet-weten-baart-me-zorgen-sari-spendel-29-is-coordinator-jeugdcriminaliteit-bij-de-gemeente-hoorn",
+          "pubDate": "Mon, 16 Nov 2026 17:36:29 Z",
+          "description": "HOORN - Wat gebeurt er eigenlijk achter de schermen bij de gemeente? In de rubriek 'In the spotlight: de mensen achter gemeente Hoorn' vertellen medewerkers over hun werk, wat inwoners daar normaal gesproken niet van zien en waarom hun werk belangrijk is voor Hoorn.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Westfries Archief krijgt boek over Turkse gemeenschap in Hoorn",
+          "link": "https://www.rodi.nl/hoorn/nieuws/512673/westfries-archief-krijgt-boek-over-turkse-gemeenschap-in-hoorn",
+          "pubDate": "Mon, 16 Nov 2026 16:38:03 Z",
+          "description": "HOORN - Anouk Schoemaker, directeur van het Westfries Archief in Hoorn, heeft het boek 'Turkije in Hoorn, Hoorn is mijn hart' in ontvangst genomen. Senol Ocakli overhandigde het werk woensdagmiddag 11 november aan het archief.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Mogelijk gaslek bij woningen in Hoorn, twee huizen uit voorzorg ontruimd",
+          "link": "https://www.rodi.nl/hoorn/112-nieuws/512646/mogelijk-gaslek-bij-woningen-in-hoorn-twee-huizen-uit-voorzorg-ontruimd",
+          "pubDate": "Mon, 16 Nov 2026 14:25:18 Z",
+          "description": "HOORN - Meerdere woningen aan het Breitnerhof in Hoorn zijn maandagmiddag gecontroleerd nadat een mogelijke gaslucht werd gemeld. De brandweer verrichtte metingen in verschillende woningen en bijbehorende kruipruimtes. Uit voorzorg werden twee woningen ontruimd.",
+          "categories": [
+            "112-nieuws"
+          ]
+        },
+        {
+          "title": "Popmuziek en geloof komen samen: pak die microfoon en zing jouw favoriete Top2000-hit in Hoorn",
+          "link": "https://www.rodi.nl/hoorn/uit/512534/popmuziek-en-geloof-komen-samen-pak-die-microfoon-en-zing-jouw-favoriete-top2000-hit-in-hoorn",
+          "pubDate": "Mon, 16 Nov 2026 10:04:23 Z",
+          "description": "HOORN - De Protestantse Gemeente Hoorn organiseert voor de derde keer een Top2000-muziekevent en zoekt zangers en muzikanten van alle leeftijden. Ze kunnen hun favoriete poplied zingen op zondag 13 december in Het Octaaf. Aanmelden kan tot 1 december.",
+          "categories": [
+            "Uit"
+          ]
+        },
+        {
+          "title": "WIN! 2 tickets voor Amsterdam Light Festival met Canal Tours Amsterdam",
+          "link": "https://www.rodi.nl/hoorn/speel-mee/512434/win-2-tickets-voor-amsterdam-light-festival-met-canal-tours-amsterdam-winactie-",
+          "pubDate": "Mon, 16 Nov 2026 08:00:00 Z",
+          "description": "REGIO - Onze hoofdstad schittert deze winter opnieuw als het decor voor lichtkunst. Voor de vijftiende editie van Amsterdam Light Festival zijn nationale en internationale kunstenaars gevraagd wat zij willen presenteren aan de bewoners en bezoekers van de stad. Geen vast verhaal, maar een gesprek met de stad dat ontstaat vanuit tal van perspectieven. En wij mogen kaarten weggeven!",
+          "categories": [
+            "Speel mee"
+          ]
+        },
+        {
+          "title": "WIN! Los de Black Friday Woordzoeker op en maak kans!",
+          "link": "https://www.rodi.nl/hoorn/speel-mee/503775/win-los-de-black-friday-woordzoeker-op-en-maak-kans-winactie-",
+          "pubDate": "Mon, 16 Nov 2026 08:00:00 Z",
+          "description": "REGIO - Black Friday staat voor de deur! Het perfecte moment om jezelf te trakteren op een mooie deal én om kans te maken op een leuke prijs. Daarom hebben we een speciale Black Friday-winactie. En het leukste: je maakt weer kans door lekker te puzzelen!",
+          "categories": [
+            "Speel mee"
+          ]
+        },
         {
           "title": "Kitten Mina die werd gered uit ondergrondse container in Hoorn alsnog overleden, dierenpolitie start onderzoek",
           "link": "https://www.rodi.nl/hoorn/112-nieuws/512469/kitten-mina-die-werd-gered-uit-ondergrondse-container-in-hoorn-alsnog-overleden-dierenpolitie-start-onderzoek",
@@ -578,60 +632,6 @@
           "categories": [
             "Nieuws"
           ]
-        },
-        {
-          "title": "Kopers in Hoorn bieden gemiddeld 5,4 procent boven vraagprijs",
-          "link": "https://www.rodi.nl/hoorn/nieuws/512020/kopers-in-hoorn-bieden-gemiddeld-5-4-procent-boven-vraagprijs",
-          "pubDate": "Tue, 10 Nov 2026 17:33:51 Z",
-          "description": "HOORN - Kopers in Hoorn boden in het derde kwartaal gemiddeld 5,4 procent boven de vraagprijs, tegen 4,9 procent een kwartaal eerder. Bij 12,9 procent van de woningen ging de vraagprijs omlaag, minder dan landelijk (15,9 procent). Dat meldt Huispedia in het Woningmarkt Trendrapport.",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "Natuurwerkdag in Risdam-Noord trekt tientallen vrijwilligers",
-          "link": "https://www.rodi.nl/hoorn/nieuws/512009/natuurwerkdag-in-risdam-noord-trekt-tientallen-vrijwilligers",
-          "pubDate": "Tue, 10 Nov 2026 16:36:48 Z",
-          "description": "HOORN - In Risdam-Noord staken 18 kinderen van Scoutinggroep ML King en 41 volwassenen de handen uit de mouwen tijdens de Natuurwerkdag op zaterdag 7 november. Ze raapten zwerfafval en deden herfstklussen in de twee openbare buurttuinen.",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "Nieuw zevenkoppig bestuur voor PRO Westfriesland, de samenwerking van GroenLinks en PvdA",
-          "link": "https://www.rodi.nl/hoorn/nieuws/511994/nieuw-zevenkoppig-bestuur-voor-pro-westfriesland-de-samenwerking-van-groenlinks-en-pvda",
-          "pubDate": "Tue, 10 Nov 2026 14:40:26 Z",
-          "description": "REGIO - PRO Westfriesland heeft tijdens de eerste algemene ledenvergadering op 4 november een zevenkoppig bestuur benoemd. De regionale afdeling, ontstaan uit de samenwerking tussen GroenLinks en PvdA in Westfriesland, telt 879 leden.",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "Jazzley (8) uit Hoorn Europees kampioen Muay Thai in Duitsland",
-          "link": "https://www.rodi.nl/hoorn/sport/511930/jazzley-8-uit-hoorn-europees-kampioen-muay-thai-in-duitsland",
-          "pubDate": "Tue, 10 Nov 2026 11:55:07 Z",
-          "description": "HOORN - De 8-jarige Jazzley Nannings uit Hoorn is Europees kampioen Muay Thai geworden. Hij won de titel tijdens het WTKA European Championships in Duitsland en nam de kampioensbelt mee naar huis.",
-          "categories": [
-            "Sport"
-          ]
-        },
-        {
-          "title": "Aanhanger met hout schiet los en botst op auto in Zwaag, één persoon naar ziekenhuis",
-          "link": "https://www.rodi.nl/hoorn/112-nieuws/511883/aanhanger-met-hout-schiet-los-en-botst-op-auto-in-zwaag-een-persoon-naar-ziekenhuis",
-          "pubDate": "Tue, 10 Nov 2026 09:30:13 Z",
-          "description": "ZWAAG - Op de Ossenweide in Zwaag heeft dinsdagochtend rond 08.18 uur een verkeersongeval plaatsgevonden waarbij twee personenauto's betrokken raakten. Eén persoon is na controle door ambulancepersoneel overgebracht naar het ziekenhuis.",
-          "categories": [
-            "112-nieuws"
-          ]
-        },
-        {
-          "title": "Het Grote Hoornse Sinterklaasfeest voor kinderen van 2 tot 9 jaar in Huis Verloren",
-          "link": "https://www.rodi.nl/hoorn/uit/511862/het-grote-hoornse-sinterklaasfeest-voor-kinderen-van-2-tot-9-jaar-in-huis-verloren",
-          "pubDate": "Mon, 09 Nov 2026 18:29:12 Z",
-          "description": "HOORN - Huis Verloren aan de Kerkstraat in Hoorn is zondag 22 november van 10.30 tot 12.00 uur het decor van het Grote Hoornse Sinterklaasfeest. Het feest is speciaal voor kinderen van 2 tot 9 jaar.",
-          "categories": [
-            "Uit"
-          ]
         }
       ]
     },
@@ -639,6 +639,34 @@
       "id": "streekomroep",
       "label": "Streekomroep",
       "items": [
+        {
+          "title": "Directeur Westfries Museum: \"24 van de 96 steunbalken zijn nu geadopteerd\"",
+          "link": "https://www.streekomroepwestfriesland.nl/directeur-westfries-museum-24-van-de-96-steunbalken-zijn-nu-geadopteerd/",
+          "pubDate": "Mon, 16 Nov 2026 12:27:00 +0000",
+          "description": "Het Westfries Museum heeft 24 van de 96 steunbalken geadopteerd gekregen. Dat vertelt directeur Amanda Vollenweider in het programma De Tafel van Knook. Met de actie ‘Adopteer een steunbalk’ zoekt het museum in Hoorn particulieren en bedrijven die willen bijdragen aan het herstel van het monumentale gebouw. Het leek er eerder op dat maar zes balken van het Westfries Museum vervangen moesten worden. Maar tijdens de restauratie bleek de schade veel groter. Uiteindelijk moeten alle 96 balkenkoppen worden vernieuwd. Die onderdelen dragen de vloeren van de verschillende verdiepingen. Volgens Vollenweider is de belangstelling voor de adoptieactie goed. De tekst gaat verder. De actie maakt deel uit",
+          "categories": [
+            "Geschiedenis",
+            "Kunst & cultuur"
+          ]
+        },
+        {
+          "title": "Alert stel uit Andijk houdt criminelen twee uur aan de lijn, nepagenten trappen in val",
+          "link": "https://www.streekomroepwestfriesland.nl/alert-stel-uit-andijk-houdt-criminelen-twee-uur-aan-de-lijn-nepagenten-trappen-in-val/",
+          "pubDate": "Mon, 16 Nov 2026 11:00:00 +0000",
+          "description": "Steeds vaker worden vooral oudere mensen slachtoffer van nepagenten. Zo ook twee bewoners uit Andijk, afgelopen augustus. Ze hadden al snel door dat er iets niet klopte en schakelden direct de echte politie in. Wat volgde was een toneelstuk van twee uur, en uiteindelijk drie aanhoudingen. Nu waarschuwen ze anderen voor nepagenten en babbeltrucs. \"Trap er niet in!\" \"We zijn dan wel op leeftijd, maar we zijn niet gek\", zegt de man (80) uit Andijk. Hij kijkt samen met zijn vrouw (78) nog een keer terug op het bizarre avontuur dat ze eind augustus meemaakten. 'Is toch schandalig?!' Dat doen ze vooral om te waarschuwen tegen deze vorm van criminaliteit, waarvan de laatste jaren duizenden mensen h",
+          "categories": [
+            "112"
+          ]
+        },
+        {
+          "title": "SEW strandt op één doelpunt van Europees vervolg: \"Dit doet nog wel even pijn\"",
+          "link": "https://www.streekomroepwestfriesland.nl/sew-strandt-op-een-doelpunt-van-europees-vervolg-dit-doet-nog-wel-even-pijn/",
+          "pubDate": "Sun, 15 Nov 2026 18:59:00 +0000",
+          "description": "Een zuur handbalweekend voor SEW in de EHF European Cup. De ploeg uit Nibbixwoud verloor over twee duels van het Israëlische Maccabi Haarazim. Gisteravond ging SEW met 28-26 kopje-onder en vandaag werd er wel gewonnen met 31-30. Alleen daarmee komen de handbalsters van trainer Mart Aalderink één doelpuntje te kort. \"Zij spelen heel ander handbal dan wij.\" \"Deze uitschakeling doet nog wel even pijn\", deelt Denise Mol haar teleurstelling. De speelster van SEW zag dat haar ploeg meerdere keren de voorsprong pakte met twee, drie of vier punten. Toch kwamen de bezoekers uit Israël uiteindelijk terug tot minimaal verschil. Mol: \"Ik denk dat wij de betere ploeg waren, maar dat kwam er niet uit. All",
+          "categories": [
+            "Sport"
+          ]
+        },
         {
           "title": "Hoorn betaalt castratie katten voor minima: \"Kat is geen luxeproduct\"",
           "link": "https://www.streekomroepwestfriesland.nl/hoorn-betaalt-castratie-katten-voor-minima-kat-is-geen-luxeproduct/",
@@ -706,34 +734,6 @@
           "description": "Negen basisschoolleerlingen uit de gemeente Koggenland vormen een nieuwe Kinderraad. Aan het einde van deze maand kiezen zij een nieuwe kinderburgemeester. De kinderen gaan zich het komende jaar bezighouden met onderwerpen die voor leeftijdgenoten in de gemeente belangrijk zijn. Tijdens de installatie ondertekenden de kinderen samen met burgemeester Pieter van Maaren een manifest. Daarin beloven ze samen te werken en naar elkaar te luisteren. De burgemeester moedigde de leerlingen aan om ook hun klasgenoten bij het werk van de Kinderraad te betrekken. \"Deel jullie ideeën en vraag aan andere kinderen wat zij belangrijk vinden. Zo nemen jullie ook hun wensen mee in de Kinderraad\", zei hij. De ",
           "categories": [
             "Politiek"
-          ]
-        },
-        {
-          "title": "Leerlingen OSG West-Friesland krijgen 25.000 euro voor eigen scholierenfestival in Hoorn",
-          "link": "https://www.streekomroepwestfriesland.nl/leerlingen-osg-west-friesland-krijgen-25-000-euro-voor-eigen-scholierenfestival-in-hoorn/",
-          "pubDate": "Fri, 13 Nov 2026 13:18:09 +0000",
-          "description": "Leerlingen van OSG West-Friesland in Hoorn krijgen 25.000 euro subsidie om in juni 2027 een eigen festival te organiseren. De derdeklassers nemen zelf de organisatie op zich en maken zo kennis met verschillende beroepen en werkzaamheden. De subsidie is afkomstig van Little Local uit de Regio Deal. Wethouder onderwijs Yousuf Yousufi kwam het bedrag persoonlijk op school bekendmaken. De leerlingen verzorgden zelf de ontvangst. Bij de organisatie van het festival komt veel kijken. Leerlingen houden zich bezig met bijvoorbeeld de programmering, begroting en sponsoring. Docenten en regionale deskundigen begeleiden hen daarbij. Ontdekken waar interesses liggen Het project moet leerlingen helpen on",
-          "categories": [
-            "Kunst & cultuur",
-            "Onderwijs"
-          ]
-        },
-        {
-          "title": "Europacup-weekend voor handbalsters SEW: \"Alles uit de kast trekken\"",
-          "link": "https://www.streekomroepwestfriesland.nl/europacup-weekend-voor-handbalsters-sew-alles-uit-de-kast-trekken/",
-          "pubDate": "Fri, 13 Nov 2026 08:24:50 +0000",
-          "description": "Bij SEW staat het hele weekend in het teken van Europacup-handbal. De club uit Nibbixwoud neemt het op tegen het Israëlische Maccabi Haarazim Ramat Gan. De belangstelling voor de wedstrijden is groot, want er zijn al bijna 800 tickets verkocht. Speciaal voor de wedstrijd zorgen De Eigenheimers, een blaaskapel uit Wognum, voor extra sfeer rondom de Europacup-wedstrijd. \"We gaan alles uit de kast trekken om er wat moois van te maken\", zegt Vincent Baten, adviseur en manager Europese Cup. De blaaskapel komt vrij regelmatig langs en nu dus ook. Het is bijna net zoals in Thialf bij het schaatsen, dan zetten ze de muziek in en gaat het publiek achter de ploeg staan.\" De tegenstander is geen onbeke",
-          "categories": [
-            "Sport"
-          ]
-        },
-        {
-          "title": "Protest op dag van Sinterklaasintocht Hoorn: actiegroep overspoeld met haatberichten",
-          "link": "https://www.streekomroepwestfriesland.nl/protest-op-dag-van-sinterklaasintocht-hoorn-actiegroep-overspoeld-met-haatberichten/",
-          "pubDate": "Thu, 12 Nov 2026 17:00:00 +0000",
-          "description": "De stichting We Promise is op sociale media overladen met haatberichten vanwege een demonstratie komende zaterdag tegen het standbeeld van Jan Pieterszoon Coen in Hoorn. Op dezelfde dag is namelijk ook de intocht van Sinterklaas. Volgens de actiegroep is deze dag niet bewust gekozen. \"De datum voor de demonstratie staat al heel lang vast, dat het samenvalt met de intocht is nooit in ons opgekomen.\" Berichten waarin voetbalhooligans opgeroepen worden de 'straat schoon te vegen' en zelf een afbeelding van een pistool; op de facebookpagina van We Promise valt de keuze om op dezelfde dag te demonstreren als de intocht van Sinterklaas niet in goede aarde. \"We hebben zelfs een bericht gekregen dat",
-          "categories": [
-            "Kunst & cultuur"
           ]
         }
       ]
