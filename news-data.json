@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-15T20:23:11.796Z",
+  "updated": "2026-11-16T02:42:31.657Z",
   "failedSources": [
     {
       "id": "hoornactueel",
       "label": "HoornActueel",
-      "error": "HTTP 403"
+      "error": "The operation was aborted due to timeout"
     },
     {
       "id": "onswestfriesland",
@@ -17,6 +17,15 @@
       "id": "hoornnieuws",
       "label": "Hoornnieuws",
       "items": [
+        {
+          "title": "Sportweekend Hoorn: Westfriezen wint met 2–0 bij VV Egmond",
+          "link": "https://hoornnieuws.nl/2026/11/15/sportweekend-hoorn-14-15-november-2026/",
+          "pubDate": "Sun, 15 Nov 2026 21:02:17 +0000",
+          "description": "Westfriezen nam zondag 15 november drie punten mee uit Egmond-Binnen. De ploeg uit Zwaag won in de tweede klasse A met 2–0 van VV Egmond en hield op Sportpark De Lange Plas het doel schoon. Uitslagen bij VV Egmond . Ook Westfriezen Vrouwen 2 boekte een overwinning. Op Sportpark ’t Krijt won de ploeg met 3–1 van Dirkshorn Vrouwen 1. Uitslagen bij VV Dirkshorn . Voor Rugbyclub West-Friesland 1 staat op zondag 29 november een uitwedstrijd tegen RC Nieuwegein 1 op het programma. De aftrap is om 13.00 uur op Sportpark Galecop. Competitieprogramma Rugby Nederland . Beeld: AI-illustratie voor Sportweekend Hoorn.",
+          "categories": [
+            "Sport"
+          ]
+        },
         {
           "title": "Rioolwerk aan Appelhaven start maandag, verkeer via Korenmarkt",
           "link": "https://hoornnieuws.nl/2026/11/14/appelhaven-rioolwerk-omleiding-korenmarkt/",
@@ -100,17 +109,6 @@
             "Nieuws overzicht",
             "Noord-Holland"
           ]
-        },
-        {
-          "title": "Verzorgingsplaats De Koggen blijft voorlopig geopend",
-          "link": "https://hoornnieuws.nl/2026/10/22/verzorgingsplaats-de-koggen-blijft-voorlopig-geopend/",
-          "pubDate": "Thu, 22 Oct 2026 10:01:46 +0000",
-          "description": "Rijkswaterstaat heeft de procedure voor sluiting van verzorgingsplaats De Koggen aan de A7 voor onbepaalde tijd uitgesteld. De voorgenomen sluiting was afhankelijk van werkzaamheden op de verzorgingsplaatsen Broerdijk en Middelsloot, waar extra vrachtwagenparkeerplaatsen zouden worden aangelegd ter compensatie van het verdwijnen van de capaciteit op De Koggen. Deze werkzaamheden kunnen momenteel niet worden uitgevoerd. Daardoor blijft De Koggen voor onbepaalde tijd open. De aanleiding voor de plannen om De Koggen te sluiten was het verminderen van geluidsoverlast door geparkeerde vrachtwagens in de omgeving. Rijkswaterstaat begrijpt dat dit besluit voor omwonenden teleurstellend is. Tijdens ",
-          "categories": [
-            "Laatste nieuws",
-            "Nieuws overzicht",
-            "Noord-Holland"
-          ]
         }
       ]
     },
@@ -118,6 +116,20 @@
       "id": "hoornsdagblad",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Gehavend Hollandia onderuit tegen Hoogeveen",
+          "link": "https://www.hoornsdagblad.nl/sport/gehavend-hollandia-onderuit-tegen-hoogeveen",
+          "pubDate": "Sun, 15 Nov 2026 22:55:21 +0100",
+          "description": "HOORN - Ondanks een drietal schorsingen en nog enkele afwezigen gaf Hollandia zondag prima partij aan Hoogeveen. Het was dan ook des te zuurder dat de ploeg van trainer Michael Lanting met lege handen bleef.De thuisploeg kwam in de eerste helft op voorsprong via Danilo van der Woude, die op [...]",
+          "categories": []
+        },
+        {
+          "title": "Zwaluwen '30 doet snel zaken in Obdam",
+          "link": "https://www.hoornsdagblad.nl/sport/zwaluwen-30-doet-snel-zaken-in-obdam",
+          "pubDate": "Sun, 15 Nov 2026 22:16:58 +0100",
+          "description": "OBDAM - Zwaluwen '30 is opgeklommen naar de derde plaats in de Derde Klasse A. De ploeg van trainer John-Paul van der Gracht boekte zaterdag een overtuigende zege op bezoek bij het laaggeklasseerde Victoria O: 0-4.In Obdam deed de Hoornse formatie bijzonder snel zaken, want reeds binnen het half [...]",
+          "categories": []
+        },
         {
           "title": "Bestelbusje vliegt uit de bocht en belandt in sloot Berkhout",
           "link": "https://www.hoornsdagblad.nl/112-hoorn/bestelbusje-vliegt-uit-de-bocht-en-belandt-in-sloot-berkhout",
@@ -243,20 +255,6 @@
           "pubDate": "Thu, 12 Nov 2026 11:05:04 +0100",
           "description": "Voor de meeste ondernemers in Hoorn en omgeving wordt kopen pas actueel op een herkenbaar moment, bijvoorbeeld wanneer het huurcontract afloopt of de loods bij huis te klein wordt. Dat moment is belangrijker dan veel kopers denken. Wie te vroeg instapt, bindt zich aan ruimte die nog niet past. Wie [...]",
           "categories": []
-        },
-        {
-          "title": "Meer dan 25 miljoen tegels gewipt: dit zijn de kampioenen van het NK Tegelwippen 2026",
-          "link": "https://www.hoornsdagblad.nl/algemeen/meer-dan-25-miljoen-tegels-gewipt-dit-zijn-de-kampioenen-van-het-nk-tegelwippen-2026",
-          "pubDate": "Thu, 12 Nov 2026 09:00:00 +0100",
-          "description": "NEDERLAND - Sinds de start van het NK Tegelwippen in 2020 zijn in Nederland inmiddels meer dan 25 miljoen tegels vervangen door groen. De teller staat op 25.305.598 gewipte tegels, een bijzondere mijlpaal. Dit jaar werd bovendien een nieuw gemeentelijk record gevestigd. Nog nooit eerder werden er [...]",
-          "categories": []
-        },
-        {
-          "title": "Black Friday 2026: Nederland maakt zich nu al op voor grote koopjesweek, eerste prijsalerts al afgegaan",
-          "link": "https://www.hoornsdagblad.nl/shopping/black-friday-2026-nederland-maakt-zich-nu-al-op-voor-grote-koopjesweek-eerste-prijsalerts-al-afgegaan",
-          "pubDate": "Thu, 12 Nov 2026 08:36:16 +0100",
-          "description": "NEDERLAND – Black Friday staat weer voor de deur. Officieel staat Nederland op vrijdag 27 november opnieuw in het teken van aanbiedingen, kortingsacties en koopjesjacht, maar de gekte lijkt inmiddels elk jaar vroeger te beginnen. Tweakers, de grootste technologie- en elektronicawebsite van [...]",
-          "categories": []
         }
       ]
     },
@@ -264,6 +262,20 @@
       "id": "hoornsdagblad-sport",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Gehavend Hollandia onderuit tegen Hoogeveen",
+          "link": "https://www.hoornsdagblad.nl/sport/gehavend-hollandia-onderuit-tegen-hoogeveen",
+          "pubDate": "Sun, 15 Nov 2026 22:55:21 +0100",
+          "description": "HOORN - Ondanks een drietal schorsingen en nog enkele afwezigen gaf Hollandia zondag prima partij aan Hoogeveen. Het was dan ook des te zuurder dat de ploeg van trainer Michael Lanting met lege handen bleef.De thuisploeg kwam in de eerste helft op voorsprong via Danilo van der Woude, die op [...]",
+          "categories": []
+        },
+        {
+          "title": "Zwaluwen '30 doet snel zaken in Obdam",
+          "link": "https://www.hoornsdagblad.nl/sport/zwaluwen-30-doet-snel-zaken-in-obdam",
+          "pubDate": "Sun, 15 Nov 2026 22:16:58 +0100",
+          "description": "OBDAM - Zwaluwen '30 is opgeklommen naar de derde plaats in de Derde Klasse A. De ploeg van trainer John-Paul van der Gracht boekte zaterdag een overtuigende zege op bezoek bij het laaggeklasseerde Victoria O: 0-4.In Obdam deed de Hoornse formatie bijzonder snel zaken, want reeds binnen het half [...]",
+          "categories": []
+        },
         {
           "title": "ZVV Zwaag belandt weer in dubbele cijfers",
           "link": "https://www.hoornsdagblad.nl/sport/zvv-zwaag-belandt-weer-in-dubbele-cijfers",
@@ -388,20 +400,6 @@
           "link": "https://www.hoornsdagblad.nl/sport/hollandia-doet-vertrouwen-op-met-nipte-zege-bij-eemdijk",
           "pubDate": "Sun, 01 Nov 2026 10:29:58 +0100",
           "description": "EEMDIJK – Hollandia heeft in het inhaalduel bij Eemdijk de tweede overwinning van het seizoen geboekt. Een doelpunt van Niels Koster bleek voldoende voor de winst: 0-1. De Hoornse ploeg hield in de slotfase ook met tien man stand.Koster bezorgt Hollandia de voorsprongDe wedstrijd was eerder [...]",
-          "categories": []
-        },
-        {
-          "title": "Ajax doorbreekt negatieve reeks tegen AZ met nipte zege",
-          "link": "https://www.hoornsdagblad.nl/sport/ajax-doorbreekt-negatieve-reeks-tegen-az-met-nipte-zege",
-          "pubDate": "Sat, 31 Oct 2026 23:26:26 +0100",
-          "description": "AMSTERDAM – Ajax heeft in de Johan Cruijff ArenA een zwaarbevochten overwinning op AZ geboekt. Een vroege treffer van Tolu Arokodare volstond voor een 1-0 zege, waarmee de Amsterdammers profiteerden van het puntenverlies van koploper Feyenoord. AZ blijft na de nederlaag vijfde staan, op vijf punten [...]",
-          "categories": []
-        },
-        {
-          "title": "ZVV Zwaag met opgeheven hoofd uit de beker",
-          "link": "https://www.hoornsdagblad.nl/sport/zvv-zwaag-met-opgeheven-hoofd-uit-de-beker",
-          "pubDate": "Sat, 31 Oct 2026 10:22:43 +0100",
-          "description": "EINDHOVEN - Eerstedivisionist ZVV Zwaag heeft vrijdagavond ruim een half uur uitstekend partij gegeven aan meervoudig landskampioen en topploeg FC Eindhoven. Uiteindelijk werd de ploeg van trainer/coach Sander van Dijk, weliswaar met opgeheven hoofd, uitgeschakeld in de strijd om de KNVB Futsal [...]",
           "categories": []
         }
       ]
