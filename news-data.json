@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T02:27:05.544Z",
+  "updated": "2026-11-17T16:51:08.937Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -17,6 +17,15 @@
       "id": "hoornnieuws",
       "label": "Hoornnieuws",
       "items": [
+        {
+          "title": "Verkeer omgeleid tijdens werk aan fietsbrug bij de Ceder",
+          "link": "https://hoornnieuws.nl/2026/11/17/fietsbrug-ceder-hoorn-werk-november/",
+          "pubDate": "Tue, 17 Nov 2026 15:35:18 +0000",
+          "description": "In Hoorn wordt van maandag 16 tot en met donderdag 26 november gewerkt aan de fietsbrug bij de Ceder. De gemeente leidt het verkeer in die periode om. Op vrijdag 20 november staan ook asfaltwerkzaamheden gepland op de Nieuwe Steen, in de bocht bij het belastingkantoor, en op de Rijnweg tussen de Schedleweg en de Geulweg. Ook daar geldt een omleiding. Wie in die week door Hoorn reist, kan het actuele overzicht van de gemeente raadplegen. Lees de informatie van de bron Beeld uit de wijk: fietsenstalling bij station Hoorn Kersenboogerd. Foto door Sneeuwvlakte / Wikimedia Commons , CC BY-SA 4.0 .",
+          "categories": [
+            "Nieuws"
+          ]
+        },
         {
           "title": "Sportweekend Hoorn: Westfriezen wint met 2–0 bij VV Egmond",
           "link": "https://hoornnieuws.nl/2026/11/15/sportweekend-hoorn-14-15-november-2026/",
@@ -98,17 +107,6 @@
           "categories": [
             "Gemeentenieuws"
           ]
-        },
-        {
-          "title": "Decanendag Talland College; behoud talent voor de regio!",
-          "link": "https://hoornnieuws.nl/2026/10/26/decanendag-talland-college-behoud-talent-voor-de-regio/",
-          "pubDate": "Mon, 26 Oct 2026 14:10:40 +0000",
-          "description": "Regio Noord-Holland boven het Noordzeekanaal – Behoud talent voor de regio; dat was de boodschap die decanen van middelbare scholen meekregen tijdens een speciaal voor hen georganiseerde decanendag. Van Texel tot Purmerend en van Enkhuizen tot Heiloo; ruim vijftig decanen van scholen voor voortgezet onderwijs (vo) kwamen naar het Talland College (mbo) voor de laatste ontwikkelingen op mbo-onderwijsgebied. Veel leerlingen van de vmbo-scholen in de regio’s boven het Noordzeekanaal stromen door naar het mbo-onderwijs van het Talland College en Vonk. Maar er zijn ook veel leerlingen die voor hun vervolgopleiding naar Amsterdam gaan en na hun stage daar blijven werken. Daarmee wordt talent onttro",
-          "categories": [
-            "Nieuws",
-            "Nieuws overzicht",
-            "Noord-Holland"
-          ]
         }
       ]
     },
@@ -116,6 +114,48 @@
       "id": "hoornsdagblad",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Bach Ensemble Amsterdam brengt kerstmagie weer terug naar Hoorn",
+          "link": "https://www.hoornsdagblad.nl/uitgaan/bach-ensemble-amsterdam-brengt-kerstmagie-weer-terug-naar-hoorn",
+          "pubDate": "Tue, 17 Nov 2026 15:33:54 +0100",
+          "description": "HOORN - Liefhebbers van klassieke muziek kunnen deze kerstperiode hun hart ophalen in Hoorn. Na een zeer succesvolle editie vorig jaar keert het Bach Ensemble Amsterdam onder leiding van Paulien Kostense op zondag 13 december terug naar de Oosterkerk voor een sfeervol en uitbundig kerstconcert. [...]",
+          "categories": []
+        },
+        {
+          "title": "Talland College en AZ sluiten convenant",
+          "link": "https://www.hoornsdagblad.nl/regio/talland-college-en-az-sluiten-convenant",
+          "pubDate": "Tue, 17 Nov 2026 15:25:50 +0100",
+          "description": "ALKMAAR - Het Talland College en AZ hebben een convenant gesloten. Doel van het convenant is om mbo-talent te ontwikkelen, te behouden voor de regio en de verbinding tussen onderwijs, topsport en arbeidsmarkt te versterken. Onderdeel van het convenant is het creëren van stage-, leerwerk- en [...]",
+          "categories": []
+        },
+        {
+          "title": "Samen bouwen aan de toekomst van sportpark Middelweg",
+          "link": "https://www.hoornsdagblad.nl/gemeente/samen-bouwen-aan-de-toekomst-van-sportpark-middelweg",
+          "pubDate": "Tue, 17 Nov 2026 14:42:39 +0100",
+          "description": "HOORN - Sportpark Middelweg kan uitgroeien tot een open, groen en toekomstbestendig wijksportpark voor de Grote Waal en aangrenzende wijken. Deze toekomstvisie heeft de gemeente in de Sportparkennota 2035 vastgelegd. De volgende stap is het samen met geïnteresseerde partijen uitwerken van een [...]",
+          "categories": []
+        },
+        {
+          "title": "Provincie zoekt woorden voor Noord-Hollandlied",
+          "link": "https://www.hoornsdagblad.nl/algemeen/provincie-zoekt-woorden-voor-noord-hollandlied",
+          "pubDate": "Tue, 17 Nov 2026 12:46:37 +0100",
+          "description": "NOORD-HOLLAND - De provincie Noord-Holland werkt aan een nieuw en eigentijds lied: Een lied voor en van alle Noord-Hollanders. Daarom roepen Provinciale Staten de inwoners van Noord-Holland op om daar samen aan te werken. Op de website van de provincie kan iedereen tot en met 30 november in drie [...]",
+          "categories": []
+        },
+        {
+          "title": "Musical Nights Tijdens Nationaal Theaterweekend In Almere En Hoorn",
+          "link": "https://www.hoornsdagblad.nl/uitgaan/musical-nights-tijdens-nationaal-theaterweekend-in-almere-en-hoorn",
+          "pubDate": "Tue, 17 Nov 2026 10:00:00 +0100",
+          "description": "ALMERE/HOORN - Musical Nights is tijdens het Nationaal Theaterweekend te zien met maar liefst twee voorstellingen: op vrijdag 29 januari in Kunstlinie in Almere en op zaterdag 30 januari 2027 in Schouwburg Het Park in Hoorn. Stanley Burleson, Linda Verstraten, Anne Appelo, Magtel de Laat en David [...]",
+          "categories": []
+        },
+        {
+          "title": "Ruim een kwart meer mkb-bedrijven afgelopen 5 jaar",
+          "link": "https://www.hoornsdagblad.nl/algemeen/ruim-een-kwart-meer-mkb-bedrijven-afgelopen-5-jaar",
+          "pubDate": "Tue, 17 Nov 2026 07:39:03 +0100",
+          "description": "Aan het begin van het vierde kwartaal van 2026 waren er iets meer dan 1,68 miljoen midden- en kleinbedrijven. Dat is bijna 27 procent meer dan vijf jaar geleden. Vooral het aantal bedrijven met één werkzaam persoon is gegroeid. In de uitgeverij van software zijn relatief de meeste bedrijven [...]",
+          "categories": []
+        },
         {
           "title": "Oranje hard onderuit tegen Duitsland in Berlijn",
           "link": "https://www.hoornsdagblad.nl/sport/oranje-hard-onderuit-tegen-duitsland-in-berlijn",
@@ -212,48 +252,6 @@
           "link": "https://www.hoornsdagblad.nl/hv-hoorn/hv-hoorn-moet-in-slotfase-onderspit-delven-tegen-tigers-roermond",
           "pubDate": "Sat, 14 Nov 2026 12:01:00 +0100",
           "description": "ROERMOND - Ondanks dat men Tigers Roermond 35 minuten goed partij gaf heeft HV Hoorn het niet kunnen bolwerken tegen de regerend landskampioen. In de slotfase kreeg de ploeg van Khalid Elbaz alsnog een forse nederlaag te verwerken: 7-2.De thuisploeg, met aardig wat spelers met een verleden in Hoorn [...]",
-          "categories": []
-        },
-        {
-          "title": "ZVV Zwaag belandt weer in dubbele cijfers",
-          "link": "https://www.hoornsdagblad.nl/sport/zvv-zwaag-belandt-weer-in-dubbele-cijfers",
-          "pubDate": "Sat, 14 Nov 2026 10:39:38 +0100",
-          "description": "WARMENHUIZEN - ZVV Zwaag is voor de derde keer in zes competitiewedstrijden in de dubbele cijfers terecht gekomen. Na elf goals tegen FC Marlène en achttien treffers tegen AFC '34 kwamen daar vrijdagavond nog eens elf doelpunten bij tegen VIOS '79. In Warmenhuizen eindigde het op 1-11.Snelle [...]",
-          "categories": []
-        },
-        {
-          "title": "Zonnige zaterdag maakt plaats voor regen en stevige wind",
-          "link": "https://www.hoornsdagblad.nl/algemeen/zonnige-zaterdag-maakt-plaats-voor-regen-en-stevige-wind",
-          "pubDate": "Sat, 14 Nov 2026 06:39:04 +0100",
-          "description": "NEDERLAND - Het weekend begint met een fraaie, maar frisse herfstdag. Zaterdag krijgt de zon volop ruimte. Vanaf zondag slaat het weer om en volgen regen en een aantrekkende wind. Vooral aan de kust kan het dan onstuimig worden.Zonnige zaterdag met een koude avondNa een frisse start verloopt de [...]",
-          "categories": []
-        },
-        {
-          "title": "Wereld Diabetes Dag – 14 november: Samen sterker tegen diabetes",
-          "link": "https://www.hoornsdagblad.nl/zorg-en-gezondheid/wereld-diabetes-dag-14-november-samen-sterker-tegen-diabetes",
-          "pubDate": "Sat, 14 Nov 2026 05:35:04 +0100",
-          "description": "Op 14 november wordt wereldwijd Wereld Diabetes Dag gevierd – een dag waarop miljoenen mensen aandacht vragen voor één van de snelst groeiende gezondheidsproblemen van onze tijd: diabetes. Het thema van 2026 luidt: \"Vroegtijdige aanpak van diabetes\", gericht op tijdige diagnose en [...]",
-          "categories": []
-        },
-        {
-          "title": "Oranje verplettert Griekenland met zevenklapper, Reijnders scoort hattrick",
-          "link": "https://www.hoornsdagblad.nl/sport/oranje-verplettert-griekenland-met-zevenklapper-reijnders-scoort-hattrick",
-          "pubDate": "Fri, 13 Nov 2026 22:42:29 +0100",
-          "description": "AMSTERDAM - Het Nederlands elftal heeft in de Johan Cruijff Arena een overtuigende overwinning geboekt op Griekenland. De ploeg van bondscoach Xavi won met liefst 7-0. Tijani Reijnders was met drie doelpunten voor rust de grote uitblinker.Oranje neemt direct afstandNederland had slechts zes minuten [...]",
-          "categories": []
-        },
-        {
-          "title": "Zorgpremies stijgen in 2027 harder dan verwacht",
-          "link": "https://www.hoornsdagblad.nl/zorg-en-gezondheid/zorgpremies-stijgen-in-2027-harder-dan-verwacht",
-          "pubDate": "Fri, 13 Nov 2026 16:21:02 +0100",
-          "description": "NEDERLAND - Verzekerden gaan volgend jaar bij verschillende grote zorgverzekeraars flink meer betalen voor hun basisverzekering. Een maandpremie boven de 170 euro komt steeds vaker voor. Ter vergelijking: dit jaar ligt de gemiddelde zorgpremie op 157 euro per maand.Het ministerie van [...]",
-          "categories": []
-        },
-        {
-          "title": "30 jaar liefde voor Hoorn... en dat proef je!",
-          "link": "https://www.hoornsdagblad.nl/regio/a30-jaar-liefde-voor-hoorn-en-dat-proef-je",
-          "pubDate": "Fri, 13 Nov 2026 13:11:52 +0100",
-          "description": "HOORN - Al 30 jaar mogen wij met onze familie een plekje innemen in het hart van Hoorn, op de Kersenboogerd. Wat ooit begon als een droom van mijn vader, met één keer per maand onze inmiddels bekende Hoornse Bol, is uitgegroeid tot een echte traditie. Een traditie die we met trots en dezelfde [...]",
           "categories": []
         }
       ]
@@ -408,6 +406,42 @@
       "id": "rodi",
       "label": "Rodi Hoorn",
       "items": [
+        {
+          "title": "Carnavalsvereniging de Blockeniers presenteert vrijdag nieuw decorum in Blokker",
+          "link": "https://www.rodi.nl/hoorn/uit/512843/carnavalsvereniging-de-blockeniers-presenteert-vrijdag-nieuw-decorum-in-blokker",
+          "pubDate": "Tue, 17 Nov 2026 17:28:00 Z",
+          "description": "BLOKKER - Carnavalsvereniging de Blockeniers maakt vrijdag 20 november bekend wie het nieuwe decorum vormt, met prins of prinses, adjudant en hofdames of hofheren. De bekendmaking begint om 20.30 uur in feestpaleis de Harmonie, met een act in sprookjesstijl.",
+          "categories": [
+            "Uit"
+          ]
+        },
+        {
+          "title": "Film en theatervoorstelling in kader van Orange the World in Hoorn en Bovenkarspel",
+          "link": "https://www.rodi.nl/hoorn/nieuws/512841/film-en-theatervoorstelling-in-kader-van-orange-the-world-in-hoorn-en-bovenkarspel",
+          "pubDate": "Tue, 17 Nov 2026 17:17:09 Z",
+          "description": "HOORN / BOVENKARSPEL - Soroptimistclub Hoorn e.o. organiseert dinsdag 1 december een filmvoorstelling in Hoorn en vrijdag 11 december een theatervoorstelling in Bovenkarspel. Beide activiteiten horen bij de campagne Orange the World tegen geweld tegen vrouwen.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Denk mee: welke woorden mogen niet ontbreken in het nieuwe Noord-Hollandlied?",
+          "link": "https://www.rodi.nl/hoorn/nieuws/512740/denk-mee-welke-woorden-mogen-niet-ontbreken-in-het-nieuwe-noord-hollandlied-",
+          "pubDate": "Tue, 17 Nov 2026 14:41:44 Z",
+          "description": "NOORD-HOLLAND - Inwoners van Noord-Holland kunnen tot en met 30 november meedenken over de tekst van een nieuw Noord-Hollandlied. De provincie vraagt iedereen op haar website in drie woorden antwoord te geven op de vraag: \"Waar denk jij aan bij Noord-Holland?\"",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Sociaal Hoorn/Team Tonnaer vraagt om aanpak ‘onveilige’ kruising Van Aalstweg",
+          "link": "https://www.rodi.nl/hoorn/politiek/512757/sociaal-hoorn-team-tonnaer-vraagt-om-aanpak-onveilige-kruising-van-aalstweg",
+          "pubDate": "Tue, 17 Nov 2026 11:57:16 Z",
+          "description": "HOORN - Sociaal Hoorn/Team Tonnaer maakt zich zorgen over de verkeersveiligheid op de kruising van de dr. C.J.K. van Aalstweg bij woonboulevard Hof van Hoorn. Volgens de fractie ervaren fietsers en automobilisten de situatie als onoverzichtelijk en onveilig. De partij vraagt het college te onderzoeken welke maatregelen mogelijk zijn.",
+          "categories": [
+            "Politiek"
+          ]
+        },
         {
           "title": "Musical Popkoor Broadway uit Hoorn wint 11.000 euro in tv-quiz Hitster",
           "link": "https://www.rodi.nl/hoorn/nieuws/512680/musical-popkoor-broadway-uit-hoorn-wint-11-000-euro-in-tv-quiz-hitster",
@@ -596,42 +630,6 @@
           "categories": [
             "Uit"
           ]
-        },
-        {
-          "title": "Jeffrey Schenk en Remedy brengen Engelstalige hits naar Theater Het Pakhuis in Hoorn",
-          "link": "https://www.rodi.nl/hoorn/uit/512084/jeffrey-schenk-en-remedy-brengen-engelstalige-hits-naar-theater-het-pakhuis-in-hoorn",
-          "pubDate": "Wed, 11 Nov 2026 11:38:37 Z",
-          "description": "HOORN - Zanger Jeffrey Schenk speelt zaterdag 21 november met Wendy en Soraya van Remedy de voorstelling 'Mooie Liedjes Legends - The Greatest Hits' in Theater Het Pakhuis in Hoorn. Op het programma staan de grootste Engelstalige hits, van Elton John tot Michael Jackson.",
-          "categories": [
-            "Uit"
-          ]
-        },
-        {
-          "title": "Begroting 2027 vastgesteld: dit wil de gemeenteraad van Hoorn veranderen",
-          "link": "https://www.rodi.nl/hoorn/gemeentenieuws/512067/begroting-2027-vastgesteld-dit-wil-de-gemeenteraad-van-hoorn-veranderen",
-          "pubDate": "Wed, 11 Nov 2026 11:05:08 Z",
-          "description": "HOORN - De gemeenteraad in Hoorn heeft dinsdag 10 november de begroting voor het komende jaar vastgesteld. Daarnaast heeft de raad elf moties aangenomen.",
-          "categories": [
-            "Gemeentenieuws"
-          ]
-        },
-        {
-          "title": "Gemeente Hoorn start actie voor gratis castratie en chippen van katten",
-          "link": "https://www.rodi.nl/hoorn/gemeentenieuws/512058/gemeente-hoorn-start-actie-voor-gratis-castratie-en-chippen-van-katten",
-          "pubDate": "Wed, 11 Nov 2026 10:42:37 Z",
-          "description": "HOORN - Inwoners van Hoorn met een laag inkomen kunnen hun kat gratis laten castreren of steriliseren. Daarbij is het ook mogelijk om de kat gratis te laten chippen, in combinatie met de castratie/sterilisatie. Met deze actie wil de gemeente ongewenste nestjes voorkomen en het aantal zwerfkatten en katten in dierenasielen terugdringen.",
-          "categories": [
-            "Gemeentenieuws"
-          ]
-        },
-        {
-          "title": "Woongemeenschap De Koopvaarder zoekt nieuwe kandidaten voor wachtlijst",
-          "link": "https://www.rodi.nl/hoorn/nieuws/512022/woongemeenschap-de-koopvaarder-zoekt-nieuwe-kandidaten-voor-wachtlijst",
-          "pubDate": "Wed, 11 Nov 2026 10:00:00 Z",
-          "description": "HOORN - Woongemeenschap De Koopvaarder in Hoorn zoekt nieuwe kandidaten voor de wachtlijst. De gemeenschap voor actieve 55-plussers in Risdam-Zuid wil eenzaamheid voorkomen door bewoners naar elkaar om te laten kijken.",
-          "categories": [
-            "Nieuws"
-          ]
         }
       ]
     },
@@ -639,6 +637,44 @@
       "id": "streekomroep",
       "label": "Streekomroep",
       "items": [
+        {
+          "title": "Gemeente Opmeer wil de controle terug over uit de hand gelopen projecten, start met een taskforce",
+          "link": "https://www.streekomroepwestfriesland.nl/gemeente-opmeer-wil-de-controle-terug-over-uit-de-hand-gelopen-projecten-start-met-een-taskforce/",
+          "pubDate": "Tue, 17 Nov 2026 15:49:27 +0000",
+          "description": "Het college van burgemeester en wethouders van Opmeer heeft in een raadsbrief laten weten dat het een taskforce opzet die gaat controleren of projecten financieel niet uit de hand lopen. Aanleiding was de overschrijding van het krediet voor de verduurzaming van het gemeentehuis. Volgens het college is bij de start van het project \"de projectleider zeer voortvarend te werk gegaan, maar niet conform de opdracht.” Dat resulteerde in een overschrijding van ruim € 250.000. Het college wil daarom dat een taskforce de opdracht krijgt om huidige projecten onder de loep te nemen en te controleren. Om daarmee de controle terug te krijgen over de uitvoering van projecten. “Mogelijk zijn op andere dossi",
+          "categories": [
+            "Politiek"
+          ]
+        },
+        {
+          "title": "Vereniging Oud Hoorn wil slavernijverleden meer zichtbaar maken en hoopt nog steeds op excuses gemeente",
+          "link": "https://www.streekomroepwestfriesland.nl/vereniging-oud-hoorn-wil-slavernijverleden-meer-zichtbaar-maken-en-hoopt-nog-steeds-op-excuses-gemeente/",
+          "pubDate": "Tue, 17 Nov 2026 15:20:00 +0000",
+          "description": "Na jaren van discussie en uitblijvende excuses krijgt het slavernijverleden van Hoorn opnieuw aandacht. Met een symposium in de Noorderkerk en een jongerenproject wil Vereniging Oud Hoorn het verleden zichtbaarder en bespreekbaar maken. Initiatiefnemer Arnoud Schaake vertelt bij de Tafel van Knook dat hij hoopt dat de aandacht uiteindelijk ook leidt tot excuses van de gemeente. \"Ze komen ooit.\" \"Nadat het prachtige onderzoek is verschenen over de relatie tussen Hoorn en het slavernijverleden constateerden wij dat er stilte was\", begint Schaake. \"Er was een discussie over wel of niet excuses aanbieden. Die excuses bleven uit. Overal in het land waren bijeenkomsten en in Hoorn was het stil.\" V",
+          "categories": [
+            "Geschiedenis",
+            "Kunst & cultuur"
+          ]
+        },
+        {
+          "title": "Einde aan een lange zoektocht: Koggenland neemt 149 asielzoekers op in Avenhorn",
+          "link": "https://www.streekomroepwestfriesland.nl/einde-aan-een-lange-zoektocht-koggenland-neemt-149-asielzoekers-op-in-avenhorn/",
+          "pubDate": "Tue, 17 Nov 2026 12:10:00 +0000",
+          "description": "De gemeente Koggenland gaat 149 asielzoekers opvangen, voor een periode van maximaal 5 jaar. Dit gebeurt aan de Julianastraat in Avenhorn, waar eerder ook al een tijdelijke crisisnoodopvang stond. Hiermee komt een einde aan een lange zoektocht voor een geschikte locatie, die meer dan twee jaar in beslag nam. Hiermee voldoet Koggenland aan de Spreidingswet, die gemeenten verplicht om asielzoekers zo eerlijk mogelijk over alle Nederlandse gemeenten te verdelen. Koggenland-burgemeester Pieter van Maaren: \"Met het besluit van de gemeenteraad kunnen we de komende tijd samen invulling geven aan de locatie: hoe we die inrichten, hoe we zorgen voor veiligheid en hoe het dagelijks leven er straks uit",
+          "categories": [
+            "Politiek",
+            "Verkeer & wonen"
+          ]
+        },
+        {
+          "title": "In Beeld: Popronde Hoorn brengt de stad tot leven: grootste editie ooit.",
+          "link": "https://www.streekomroepwestfriesland.nl/in-beeld-popronde-hoorn-brengt-de-stad-tot-leven-grootste-editie-ooit/",
+          "pubDate": "Tue, 17 Nov 2026 09:41:06 +0000",
+          "description": "De Hoornse binnenstad stond zondag 15 november volledig in het teken van muziek. Tijdens de elfde editie van Popronde Hoorn veranderde de stad in één groot podium. Met 22 deelnemende locaties en 45 geplande optredens was het de grootste editie die Hoorn tot nu toe heeft gekend. Van kleine, intieme optredens tot stevige gitaren en energieke bands: op allerlei plekken in de stad viel muziek te ontdekken. Bezoekers konden terecht in cafés en winkels, maar ook op bijzondere locaties zoals de historische Oosterkerk en Schouwburg Het Park. Alle optredens waren gratis toegankelijk. De muzikale dag begon al vroeg met korte previews bij De Beiaard en Muziekschool Boedijn. Daar konden bezoekers alvast",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
         {
           "title": "Nepagenten en andere (online) oplichting groeiend probleem: \"We moeten ons wapenen\"",
           "link": "https://www.streekomroepwestfriesland.nl/nepagenten-en-andere-online-oplichting-groeiend-probleem-we-moeten-ons-wapenen/",
@@ -694,45 +730,6 @@
           "link": "https://www.streekomroepwestfriesland.nl/koggenland-roept-inwoners-op-genomineerden-voor-te-dragen-voor-waarderingsprijs-2026/",
           "pubDate": "Sun, 15 Nov 2026 06:05:00 +0000",
           "description": "Gemeente Koggenland roept inwoners op om kandidaten voor te dragen voor de Koggenlandse Waarderingsprijs 2026. Een prijs die bedoeld is voor inwoners, verenigingen en organisaties die dit jaar een bijzondere prestatie hebben geleverd, of met een initiatief iets hebben betekend voor de samenleving. De waarderingsprijs wordt uitgereikt in twee categorieën: Prestatie van het Jaar en Initiatief van het Jaar. Voordragen kan tot en met 25 november. In de categorie Prestatie van het Jaar gaat het om bijzondere resultaten van inwoners, teams, verenigingen of organisaties. Voorbeelden zijn een sporter die nationaal of internationaal een bijzondere prestatie levert, een muziekvereniging die een prijs ",
-          "categories": [
-            "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "De Tafel van Knook: met Arnoud Schaake, Anniek Stroomer, Gerben Bakker en Sinterklaas",
-          "link": "https://www.streekomroepwestfriesland.nl/de-tafel-van-knook-met-arnoud-schaake-anniek-stroomer-gerben-bakker-en-sinterklaas/",
-          "pubDate": "Sat, 14 Nov 2026 13:51:53 +0000",
-          "description": "Vanuit de bibliotheek in Hoorn komt een nieuwe uitzending van De Tafel van Knook. Presentator Robert-Jan Knook en tafeldame Amanda Vollenweider ontvangen verschillende gasten over actuele onderwerpen in West-Friesland. Met Vollenweider, directeur van het Westfries Museum, wordt gesproken over de enorme stellage die momenteel op de Roode Steen zichtbaar is en de steunbalkenactie. Arnoud Schaake van Vereniging Oud Hoorn schuift aan om te praten over de middag afgelopen zaterdag in de Noorderkerk en andere projecten rondom het slavernijverleden en de rol van de stad Hoorn. Anniek Stroomer komt vertellen over haar eerste boek dat deze maand uitgebracht werd: 'De vrouw. Voor mannen die er geen k*",
-          "categories": [
-            "Geschiedenis",
-            "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Koggenland organiseert informatieavond voor ontwikkeling eigen woningen in Obdam",
-          "link": "https://www.streekomroepwestfriesland.nl/koggenland-organiseert-informatieavond-voor-ontwikkeling-eigen-woningen-in-obdam/",
-          "pubDate": "Sat, 14 Nov 2026 08:38:00 +0000",
-          "description": "De gemeente Koggenland reserveert bij Tuindersweijde Zuid in Obdam een bouwlocatie voor een project waarbij inwoners samen hun eigen woningen ontwikkelen. Op woensdag 25 november organiseert de gemeente een informatieavond over het zogeheten Collectief Particulier Opdrachtgeverschap (CPO). Bij CPO vormen geïnteresseerden een groep en beslissen zij gezamenlijk over onder meer het ontwerp, de uitstraling van de woningen, de aannemer en het budget. De deelnemers gaan uiteindelijk zelf in de woningen wonen. Een groep bestaat uit minimaal vier personen en werkt samen in de vorm van een stichting of vereniging. Voor het initiatief is één kavel gereserveerd. In het stedenbouwkundige plan staan op d",
-          "categories": [
-            "Politiek",
-            "Verkeer & wonen"
-          ]
-        },
-        {
-          "title": "Gerben Bakker is dankzij serie Liberté niet alleen dichter bij Napoleon maar ook bij zichzelf gekomen",
-          "link": "https://www.streekomroepwestfriesland.nl/gerben-bakker-is-dankzij-serie-liberte-niet-alleen-dichter-bij-napoleon-maar-ook-bij-zichzelf-gekomen/",
-          "pubDate": "Sat, 14 Nov 2026 06:01:00 +0000",
-          "description": "Streekomroep West-Friesland presenteert vanaf aankomende week een nieuw programma: Liberté. Gerben Bakker volgt in een achtdelige serie de reis die Napoleon Bonaparte in 1811 door Noord-Holland maakte. \"Ik ben op plekken gekomen waar ik eerder nooit geweest was, sprak met mensen die ik nooit eerder gesproken heb en ben dankzij de reis ook dichter bij mezelf gekomen\", aldus Gerben. Het idee voor de serie is ontstaan uit Gerbens fascinatie voor de Franse oud-keizer, die Nederland ook bij zijn rijk betrok. De programmamaker uit Hoorn legde het voor aan Streekomroep West-Friesland, merkte het enthousiasme en dacht een maand later de eerste opnames te kunnen maken. \"Maar dat bleek niet helemaal h",
-          "categories": [
-            "Geschiedenis",
-            "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "WEEFF Top Favoriet komende week in handen van SUUS",
-          "link": "https://www.streekomroepwestfriesland.nl/weeff-top-favoriet-komende-week-in-handen-van-suus/",
-          "pubDate": "Fri, 13 Nov 2026 18:44:00 +0000",
-          "description": "Zangeres SUUS staat aankomende zondag niet alleen op de Popronde in Hoorn, maar je hoort haar komende week ook extra vaak op de radio. We roepen het nummer 'Half As Cool' namelijk uit tot nieuwe WEEFF Top Favoriet. \"SUUS maakt muziek die de zorgen en uitdagingen van Generatie Z omhult in een heerlijke mix van retro-pop en moderne sounds\", luidt de beschrijving op haar artiestenpagina van de streamingsdiensten. Inspiratiebronnen voor Suus Rewinkel, zoals ze volledig heet, zijn iconen als Olivia Rodrigo en Sabrina Carpenter. De zangeres is een van de ruim 40 optredende artiesten aankomend weekend bij de Popronde in Hoorn. Zondag om 14.30 uur staat ze in het Hema-filiaal aan de Gouw. Streekomro",
           "categories": [
             "Kunst & cultuur"
           ]
