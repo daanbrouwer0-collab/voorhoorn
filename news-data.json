@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T16:58:02.087Z",
+  "updated": "2026-11-17T02:27:05.544Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -117,6 +117,20 @@
       "label": "Hoornsdagblad",
       "items": [
         {
+          "title": "Oranje hard onderuit tegen Duitsland in Berlijn",
+          "link": "https://www.hoornsdagblad.nl/sport/oranje-hard-onderuit-tegen-duitsland-in-berlijn",
+          "pubDate": "Mon, 16 Nov 2026 22:39:53 +0100",
+          "description": "BERLIJN - Het Nederlands elftal heeft enkele dagen na de overtuigende 7-0 overwinning op Griekenland een zware nederlaag geleden tegen Duitsland. De ploeg van bondscoach Xavi Hernández verloor in Berlijn met 5-0 en kon geen moment het niveau van de wedstrijd in Amsterdam benaderen. Met de nederlaag [...]",
+          "categories": []
+        },
+        {
+          "title": "XYTO Media zoekt zelfstandige accountmanagers!",
+          "link": "https://www.hoornsdagblad.nl/vacatures/xyto-media-zoekt-zelfstandige-accountmanagers",
+          "pubDate": "Mon, 16 Nov 2026 17:55:00 +0100",
+          "description": "Ben jij een geboren verkoper, werk je als zzp'er en zoek je een opdracht met impact? Ga met ons de samenwerking aan! Wij zoeken zelfstandige accountmanagers die samen met ons mediaplatforms laten groeien die dagelijks miljoenen mensen bereiken.Over XYTO MediaXYTO Media is een ambitieuze uitgeverij [...]",
+          "categories": []
+        },
+        {
           "title": "Groom Night bij Hoes Tailors",
           "link": "https://www.hoornsdagblad.nl/trouwspecial/groom-night-bij-hoes-tailors",
           "pubDate": "Mon, 16 Nov 2026 17:06:26 +0100",
@@ -170,6 +184,13 @@
           "link": "https://www.hoornsdagblad.nl/112-hoorn/bestelbusje-vliegt-uit-de-bocht-en-belandt-in-sloot-berkhout",
           "pubDate": "Sun, 15 Nov 2026 19:03:53 +0100",
           "description": "BERKHOUT - Aan de Bobeldijk in Berkhout is zondagavond omstreeks 18.25 uur een bestelbusje te water geraakt. Het voertuig is door nog onbekende oorzaak uit de bocht gevlogen en in de naastgelegen sloot belandt.Niemand raakte gewond, de bestuurder is zelfstandig uit het water gekomen. Het [...]",
+          "categories": []
+        },
+        {
+          "title": "Derde zege op rij voor Westfriezen",
+          "link": "https://www.hoornsdagblad.nl/sport/derde-zege-op-rij-voor-westfriezen",
+          "pubDate": "Sun, 15 Nov 2026 18:54:22 +0100",
+          "description": "EGMOND AAN ZEE - Westfriezen is aan een prima reeks bezig. Op bezoek bij VV Egmond bleef de ploeg van trainer Stephan Kaaij voor de vijfde keer ongeslagen en boekte het de derde zege op rij: 0-2.Beide doelpunten vielen na rust en werden gescoord door Jim Broers en Jim Nelen waarbij in beide [...]",
           "categories": []
         },
         {
@@ -234,27 +255,6 @@
           "pubDate": "Fri, 13 Nov 2026 13:11:52 +0100",
           "description": "HOORN - Al 30 jaar mogen wij met onze familie een plekje innemen in het hart van Hoorn, op de Kersenboogerd. Wat ooit begon als een droom van mijn vader, met één keer per maand onze inmiddels bekende Hoornse Bol, is uitgegroeid tot een echte traditie. Een traditie die we met trots en dezelfde [...]",
           "categories": []
-        },
-        {
-          "title": "Flottielje zeilen in Kroatië 2027",
-          "link": "https://www.hoornsdagblad.nl/vakantie/flottielje-zeilen-in-kroatie-2027",
-          "pubDate": "Fri, 13 Nov 2026 09:56:41 +0100",
-          "description": "Zon op je gezicht, wind in de zeilen en een heerlijke duik in het heldere water. Tijdens een flottielje zeilvakantie in Kroatië ontdek je de mooiste baaien, gezellige havenstadjes en prachtige eilanden.Je vaart op je eigen jacht, met Nederlandse flottieljebegeleiding binnen handbereik. Zo combineer [...]",
-          "categories": []
-        },
-        {
-          "title": "OSG-leerlingen krijgen € 25.000 voor eigen scholierenfestival",
-          "link": "https://www.hoornsdagblad.nl/regio/osg-leerlingen-krijgen-25000-voor-eigen-scholierenfestival",
-          "pubDate": "Fri, 13 Nov 2026 09:23:09 +0100",
-          "description": "HOORN - Derdeklassers van OSG West-Friesland organiseren in juni 2027 zelf een scholierenfestival op het schoolterrein. Dankzij een subsidie van € 25.000 van Little Local uit de Regio Deal zijn zij verantwoordelijk voor de volledige organisatie: van sponsoring en programmering tot techniek, [...]",
-          "categories": []
-        },
-        {
-          "title": "Wereldwijde storing bij Microsoft houdt aan: vooral Outlook en Teams getroffen",
-          "link": "https://www.hoornsdagblad.nl/algemeen/wereldwijde-storing-bij-microsoft-houdt-aan-vooral-outlook-en-teams-getroffen",
-          "pubDate": "Fri, 13 Nov 2026 09:22:59 +0100",
-          "description": "NEDERLAND - Een hardnekkige storing bij Microsoft zorgt sinds donderdagmiddag voor grote problemen. Rond 17.15 uur begonnen de eerste problemen, waarna dit zich wereldwijd uitbreidde. Vooral Outlook, Teams en Microsoft 365 zijn slecht of helemaal niet bereikbaar. Naast particulieren en bedrijven [...]",
-          "categories": []
         }
       ]
     },
@@ -262,6 +262,13 @@
       "id": "hoornsdagblad-sport",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Oranje hard onderuit tegen Duitsland in Berlijn",
+          "link": "https://www.hoornsdagblad.nl/sport/oranje-hard-onderuit-tegen-duitsland-in-berlijn",
+          "pubDate": "Mon, 16 Nov 2026 22:39:53 +0100",
+          "description": "BERLIJN - Het Nederlands elftal heeft enkele dagen na de overtuigende 7-0 overwinning op Griekenland een zware nederlaag geleden tegen Duitsland. De ploeg van bondscoach Xavi Hernández verloor in Berlijn met 5-0 en kon geen moment het niveau van de wedstrijd in Amsterdam benaderen. Met de nederlaag [...]",
+          "categories": []
+        },
         {
           "title": "Gelijke spelen voor vrouwen en heren van Always Forward",
           "link": "https://www.hoornsdagblad.nl/sport/gelijke-spelen-voor-vrouwen-en-heren-van-always-forward",
@@ -281,6 +288,13 @@
           "link": "https://www.hoornsdagblad.nl/sport/zwaluwen-30-doet-snel-zaken-in-obdam",
           "pubDate": "Sun, 15 Nov 2026 22:16:58 +0100",
           "description": "OBDAM - Zwaluwen '30 is opgeklommen naar de derde plaats in de Derde Klasse A. De ploeg van trainer John-Paul van der Gracht boekte zaterdag een overtuigende zege op bezoek bij het laaggeklasseerde Victoria O: 0-4.In Obdam deed de Hoornse formatie bijzonder snel zaken, want reeds binnen het half [...]",
+          "categories": []
+        },
+        {
+          "title": "Derde zege op rij voor Westfriezen",
+          "link": "https://www.hoornsdagblad.nl/sport/derde-zege-op-rij-voor-westfriezen",
+          "pubDate": "Sun, 15 Nov 2026 18:54:22 +0100",
+          "description": "EGMOND AAN ZEE - Westfriezen is aan een prima reeks bezig. Op bezoek bij VV Egmond bleef de ploeg van trainer Stephan Kaaij voor de vijfde keer ongeslagen en boekte het de derde zege op rij: 0-2.Beide doelpunten vielen na rust en werden gescoord door Jim Broers en Jim Nelen waarbij in beide [...]",
           "categories": []
         },
         {
@@ -387,20 +401,6 @@
           "pubDate": "Mon, 02 Nov 2026 23:16:11 +0100",
           "description": "ZWAAG - Westfriezen heeft zondag overtuigend afgerekend met Schagen United. De ploeg uit Zwaag won met 4-0 en nam daarmee de derde plaats over van de bezoekers. Ramon Wong Fong Sang en Jim Broers scoorden ieder tweemaal.Westfriezen houdt defensie geslotenTien minuten voor rust opende Wong Fong Sang [...]",
           "categories": []
-        },
-        {
-          "title": "Zwaluwen '30 houdt met tien man stand tegen De Zouaven",
-          "link": "https://www.hoornsdagblad.nl/sport/zwaluwen-30-houdt-met-tien-man-stand-tegen-de-zouaven",
-          "pubDate": "Sun, 01 Nov 2026 23:08:02 +0100",
-          "description": "HOORN - De derby tussen Zwaluwen '30 en De Zouaven is zaterdag zonder doelpunten geëindigd. De thuisploeg speelde het grootste deel van de wedstrijd met tien man, maar hield stand: 0-0.Rood voor El GuennouniZwaluwen '30 moest verder zonder Bilal el Guennouni na een incident in het strafschopgebied. [...]",
-          "categories": []
-        },
-        {
-          "title": "Jong Holland klopt Always Forward in doelpuntenshow",
-          "link": "https://www.hoornsdagblad.nl/sport/jong-holland-klopt-always-forward-in-doelpuntenshow",
-          "pubDate": "Sun, 01 Nov 2026 20:29:50 +0100",
-          "description": "HOORN – Jong Holland heeft een spectaculaire uitwedstrijd bij Always Forward met 4-7 gewonnen. De ploeg van trainer Gidon Reinders Folmer zag de thuisploeg in de slotfase nog terugkomen tot één doelpunt verschil, maar stelde de zege met twee late treffers veilig. Beau Böhning was met drie [...]",
-          "categories": []
         }
       ]
     },
@@ -408,6 +408,15 @@
       "id": "rodi",
       "label": "Rodi Hoorn",
       "items": [
+        {
+          "title": "Musical Popkoor Broadway uit Hoorn wint 11.000 euro in tv-quiz Hitster",
+          "link": "https://www.rodi.nl/hoorn/nieuws/512680/musical-popkoor-broadway-uit-hoorn-wint-11-000-euro-in-tv-quiz-hitster",
+          "pubDate": "Mon, 16 Nov 2026 18:12:12 Z",
+          "description": "HOORN - Musical Popkoor Broadway uit Hoorn won zaterdag 14 november 11.000 euro in het RTL 4-programma Hitster. Sanne Wallis de Vries en Thomas Cammaert speelden voor het koor en plaatsten in de finale elf van de elf hits goed.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
         {
           "title": "‘Juist wat we níét weten, baart me zorgen’ - Sari Spendel (29) is coördinator Jeugdcriminaliteit bij de gemeente Hoorn",
           "link": "https://www.rodi.nl/hoorn/nieuws/512679/juist-wat-we-niet-weten-baart-me-zorgen-sari-spendel-29-is-coordinator-jeugdcriminaliteit-bij-de-gemeente-hoorn",
@@ -623,15 +632,6 @@
           "categories": [
             "Nieuws"
           ]
-        },
-        {
-          "title": "Winterverkoop Tesselschade in Hoorn: handgemaakte cadeaus voor het goede doel",
-          "link": "https://www.rodi.nl/hoorn/nieuws/512021/winterverkoop-tesselschade-in-hoorn-handgemaakte-cadeaus-voor-het-goede-doel",
-          "pubDate": "Wed, 11 Nov 2026 09:00:00 Z",
-          "description": "HOORN - Tesselschade afdeling West-Friesland organiseert vrijdag 20 november de jaarlijkse winterverkoop in Het Octaaf aan de J.D. Pollstraat 1 in Hoorn. Bezoekers kunnen er handgemaakte, duurzame cadeaus kopen voor Sinterklaas en Kerstmis.",
-          "categories": [
-            "Nieuws"
-          ]
         }
       ]
     },
@@ -639,6 +639,16 @@
       "id": "streekomroep",
       "label": "Streekomroep",
       "items": [
+        {
+          "title": "Nepagenten en andere (online) oplichting groeiend probleem: \"We moeten ons wapenen\"",
+          "link": "https://www.streekomroepwestfriesland.nl/nepagenten-en-andere-online-oplichting-groeiend-probleem-we-moeten-ons-wapenen/",
+          "pubDate": "Mon, 16 Nov 2026 17:00:00 +0000",
+          "description": "Alleen al in de eerste tien maanden van dit jaar waren er in Noord-Holland 1.708 incidenten met nepagenten. Deze criminelen hebben het vaak op ouderen gemunt. Organisatie NH Veilig leert inwoners zich hiertegen te weren door middel van informatieavonden. De avonden worden drukbezocht: \"Het leeft enorm.\" Uit onderzoek van NH, NOS en de andere regionale omroepen werd eerder vandaag bekend dat het aantal incidenten met nepagenten nog altijd stijgt . De politie telde dit jaar in Nederland tot nu toe ruim 14.000 incidenten, waarvan alleen al 1.708 in Noord-Holland. In ongeveer een kwart van de gevallen wordt er aangifte gedaan. Oplichting met nepagenten, zogenaamde bankmedewerkers of via de mail ",
+          "categories": [
+            "112",
+            "Misdaad & straf"
+          ]
+        },
         {
           "title": "Directeur Westfries Museum: \"24 van de 96 steunbalken zijn nu geadopteerd\"",
           "link": "https://www.streekomroepwestfriesland.nl/directeur-westfries-museum-24-van-de-96-steunbalken-zijn-nu-geadopteerd/",
@@ -725,15 +735,6 @@
           "description": "Zangeres SUUS staat aankomende zondag niet alleen op de Popronde in Hoorn, maar je hoort haar komende week ook extra vaak op de radio. We roepen het nummer 'Half As Cool' namelijk uit tot nieuwe WEEFF Top Favoriet. \"SUUS maakt muziek die de zorgen en uitdagingen van Generatie Z omhult in een heerlijke mix van retro-pop en moderne sounds\", luidt de beschrijving op haar artiestenpagina van de streamingsdiensten. Inspiratiebronnen voor Suus Rewinkel, zoals ze volledig heet, zijn iconen als Olivia Rodrigo en Sabrina Carpenter. De zangeres is een van de ruim 40 optredende artiesten aankomend weekend bij de Popronde in Hoorn. Zondag om 14.30 uur staat ze in het Hema-filiaal aan de Gouw. Streekomro",
           "categories": [
             "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Nieuwe Kinderraad gemeente Koggenland geïnstalleerd, kinderburgemeester wordt later gekozen",
-          "link": "https://www.streekomroepwestfriesland.nl/nieuwe-kinderraad-gemeente-koggenland-geinstalleerd-kinderburgemeester-wordt-later-gekozen/",
-          "pubDate": "Fri, 13 Nov 2026 13:57:36 +0000",
-          "description": "Negen basisschoolleerlingen uit de gemeente Koggenland vormen een nieuwe Kinderraad. Aan het einde van deze maand kiezen zij een nieuwe kinderburgemeester. De kinderen gaan zich het komende jaar bezighouden met onderwerpen die voor leeftijdgenoten in de gemeente belangrijk zijn. Tijdens de installatie ondertekenden de kinderen samen met burgemeester Pieter van Maaren een manifest. Daarin beloven ze samen te werken en naar elkaar te luisteren. De burgemeester moedigde de leerlingen aan om ook hun klasgenoten bij het werk van de Kinderraad te betrekken. \"Deel jullie ideeën en vraag aan andere kinderen wat zij belangrijk vinden. Zo nemen jullie ook hun wensen mee in de Kinderraad\", zei hij. De ",
-          "categories": [
-            "Politiek"
           ]
         }
       ]
