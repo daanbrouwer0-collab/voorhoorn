@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-18T01:35:50.866Z",
+  "updated": "2026-11-18T16:25:10.910Z",
   "failedSources": [
     {
       "id": "hoornactueel",
       "label": "HoornActueel",
-      "error": "HTTP 403"
+      "error": "The operation was aborted due to timeout"
     },
     {
       "id": "onswestfriesland",
@@ -115,6 +115,34 @@
       "label": "Hoornsdagblad",
       "items": [
         {
+          "title": "Wat komt er kijken bij het regelen van een begrafenis?",
+          "link": "https://www.hoornsdagblad.nl/algemeen/wat-komt-er-kijken-bij-het-regelen-van-een-begrafenis",
+          "pubDate": "Wed, 18 Nov 2026 15:28:28 +0100",
+          "description": "Wanneer een dierbare overlijdt, staat de wereld voor de nabestaanden even helemaal stil. Het is een periode van intens verdriet, terwijl er tegelijkertijd in een kort tijdsbestek ontzettend veel geregeld moet worden voor het afscheid. Dat kan behoorlijk overweldigend aanvoelen. Wat zijn eigenlijk [...]",
+          "categories": []
+        },
+        {
+          "title": "Facilitaire Dienstverlening Heerhugowaard: Een schoon pand. Duidelijke afspraken.",
+          "link": "https://www.hoornsdagblad.nl/regio/facilitaire-dienstverlening-heerhugowaard-een-schoon-pand-duidelijke-afspraken",
+          "pubDate": "Wed, 18 Nov 2026 11:30:54 +0100",
+          "description": "HEERHUGOWAARD - Geen verkooppraatjes of eindeloze doorkiesnummers, maar korte lijnen, vakkennis en een flinke dosis no-nonsense. Op deze manier runt Barry Zwaan al sinds 2015 een succesvol schoonmaak- en glazenwassersbedrijf. Samen met het team van Facilitaire Dienstverlening Heerhugowaard zorgen [...]",
+          "categories": []
+        },
+        {
+          "title": "Tuincentra in Hoorn",
+          "link": "https://www.hoornsdagblad.nl/buitenleven/tuincentra-in-hoorn",
+          "pubDate": "Wed, 18 Nov 2026 08:00:00 +0100",
+          "description": "Een goed tuincentrum is meer dan een winkel met planten: het is een plek voor inspiratie en advies voor je tuin of balkon. Hoorn telt meerdere tuincentra die opvallen door een ruim assortiment, deskundig personeel en een prettige sfeer.In dit overzicht vind je de tuincentra in de regio die [...]",
+          "categories": []
+        },
+        {
+          "title": "Film Stuk/Gemaakt: over seksueel geweld en herstel",
+          "link": "https://www.hoornsdagblad.nl/regio/film-stuk-gemaakt-over-seksueel-geweld-en-herstel",
+          "pubDate": "Tue, 17 Nov 2026 20:37:36 +0100",
+          "description": "PURMEREND - Wat doet seksueel geweld met iemand? En hoe vind je daarna een weg naar herstel? Op dinsdag 24 november ben je welkom bij de film Stuk/Gemaakt in Wijkplein Where.De film van regisseur Richard Dijkema behandelt dit moeilijke onderwerp op een toegankelijke en zorgvuldige manier, zonder [...]",
+          "categories": []
+        },
+        {
           "title": "Talland College en AZ sluiten convenant",
           "link": "https://www.hoornsdagblad.nl/regio/talland-college-en-az-sluiten-convenant",
           "pubDate": "Tue, 17 Nov 2026 15:59:50 +0100",
@@ -224,34 +252,6 @@
           "link": "https://www.hoornsdagblad.nl/sport/zwaluwen-30-doet-snel-zaken-in-obdam",
           "pubDate": "Sun, 15 Nov 2026 22:16:58 +0100",
           "description": "OBDAM - Zwaluwen '30 is opgeklommen naar de derde plaats in de Derde Klasse A. De ploeg van trainer John-Paul van der Gracht boekte zaterdag een overtuigende zege op bezoek bij het laaggeklasseerde Victoria O: 0-4.In Obdam deed de Hoornse formatie bijzonder snel zaken, want reeds binnen het half [...]",
-          "categories": []
-        },
-        {
-          "title": "Bestelbusje vliegt uit de bocht en belandt in sloot Berkhout",
-          "link": "https://www.hoornsdagblad.nl/112-hoorn/bestelbusje-vliegt-uit-de-bocht-en-belandt-in-sloot-berkhout",
-          "pubDate": "Sun, 15 Nov 2026 19:03:53 +0100",
-          "description": "BERKHOUT - Aan de Bobeldijk in Berkhout is zondagavond omstreeks 18.25 uur een bestelbusje te water geraakt. Het voertuig is door nog onbekende oorzaak uit de bocht gevlogen en in de naastgelegen sloot belandt.Niemand raakte gewond, de bestuurder is zelfstandig uit het water gekomen. Het [...]",
-          "categories": []
-        },
-        {
-          "title": "Derde zege op rij voor Westfriezen",
-          "link": "https://www.hoornsdagblad.nl/sport/derde-zege-op-rij-voor-westfriezen",
-          "pubDate": "Sun, 15 Nov 2026 18:54:22 +0100",
-          "description": "EGMOND AAN ZEE - Westfriezen is aan een prima reeks bezig. Op bezoek bij VV Egmond bleef de ploeg van trainer Stephan Kaaij voor de vijfde keer ongeslagen en boekte het de derde zege op rij: 0-2.Beide doelpunten vielen na rust en werden gescoord door Jim Broers en Jim Nelen waarbij in beide [...]",
-          "categories": []
-        },
-        {
-          "title": "Bouillon d'Amsterdam opent tijdelijk restaurant op Het Amsterdamse Winterparadijs",
-          "link": "https://www.hoornsdagblad.nl/eten-drinken/bouillon-damsterdam-opent-tijdelijk-restaurant-op-het-amsterdamse-winterparadijs",
-          "pubDate": "Sun, 15 Nov 2026 01:00:06 +0100",
-          "description": "AMSTERDAM - Bouillon d'Amsterdam brengt deze winter de 'tafel van de stad' naar Het Amsterdamse Winterparadijs. Voor het eerst opent het restaurant een sfeervolle pop-up midden op het winterevenement in de RAI Amsterdam. Op negen geselecteerde dagen kunnen bezoekers aanschuiven voor een compleet [...]",
-          "categories": []
-        },
-        {
-          "title": "Internationale Dag ter herdenking van verkeersslachtoffers",
-          "link": "https://www.hoornsdagblad.nl/112-hoorn/internationale-dag-ter-herdenking-van-verkeersslachtoffers",
-          "pubDate": "Sun, 15 Nov 2026 00:55:09 +0100",
-          "description": "NEDERLAND - De Dag ter Herdenking van Verkeersslachtoffers wordt elk jaar op de derde zondag van november wereldwijd georganiseerd om de mensen te herdenken die het slachtoffer zijn geworden van verkeersongevallen. Deze dag biedt de gelegenheid om stil te staan bij de tragische gevolgen van [...]",
           "categories": []
         }
       ]
@@ -407,6 +407,114 @@
       "label": "Rodi Hoorn",
       "items": [
         {
+          "title": "Reizigers opgelet: streekvervoer ligt maandag en dinsdag opnieuw plat door staking",
+          "link": "https://www.rodi.nl/hoorn/nieuws/512999/reizigers-opgelet-streekvervoer-ligt-maandag-en-dinsdag-opnieuw-plat-door-staking",
+          "pubDate": "Wed, 18 Nov 2026 16:17:13 Z",
+          "description": "REGIO - Buschauffeurs en machinisten in het streekvervoer leggen komende maandag 23 en dinsdag 24 november landelijk het werk neer. Dat hebben vakbonden FNV en CNV woensdag aangekondigd, zo meldt NU.nl. De cao-onderhandelingen zijn vastgelopen.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Thuis in Hoorn: ‘Hier krijg ik de kans om te leren en die wil ik pakken’",
+          "link": "https://www.rodi.nl/hoorn/nieuws/512838/thuis-in-hoorn-hier-krijg-ik-de-kans-om-te-leren-en-die-wil-ik-pakken-thuis-in-hoorn-",
+          "pubDate": "Wed, 18 Nov 2026 15:41:53 Z",
+          "description": "ZWAAG - In de rubriek 'Thuis in Hoorn' vertelt een nieuwkomer, die een (tijdelijk) thuis in Hoorn heeft gevonden, elke maand zijn of haar verhaal. Deze keer: Tahereh Hossaini.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "‘Prachtig avontuur met mooie ontmoetingen’: borduuratelier About a Jacket in Hoorn stopt na tien jaar",
+          "link": "https://www.rodi.nl/hoorn/nieuws/512982/prachtig-avontuur-met-mooie-ontmoetingen-borduuratelier-about-a-jacket-in-hoorn-stopt-na-tien-jaar",
+          "pubDate": "Wed, 18 Nov 2026 15:03:17 Z",
+          "description": "HOORN - Na tien jaar komt er een einde aan Stichting About a Jacket. De stichting wordt nog voor het einde van dit jaar opgeheven, laat initiatiefnemer Marilou Evelo weten.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Hoorns Harmonie Orkest sluit jubileumjaar af met Magisch Feestconcert in Oosterkerk",
+          "link": "https://www.rodi.nl/hoorn/uit/512977/hoorns-harmonie-orkest-sluit-jubileumjaar-af-met-magisch-feestconcert-in-oosterkerk",
+          "pubDate": "Wed, 18 Nov 2026 14:53:01 Z",
+          "description": "HOORN - Het Hoorns Harmonie Orkest (HHO) viert zijn zestigjarig bestaan met het Magische Feestconcert in de Oosterkerk aan het Grote Oost in Hoorn. Samen met goochelaar en entertainer Jorrit Schooneman speelt het orkest zaterdag 21 november een avond vol muziek en verrassingen.",
+          "categories": [
+            "Uit"
+          ]
+        },
+        {
+          "title": "René Huijboom, bewoner Holenkwartier in Hoorn, maakt bezwaar tegen de kap van tien bomen",
+          "link": "https://www.rodi.nl/hoorn/nieuws/512949/rene-huijboom-bewoner-holenkwartier-in-hoorn-maakt-bezwaar-tegen-de-kap-van-tien-bomen",
+          "pubDate": "Wed, 18 Nov 2026 13:45:40 Z",
+          "description": "HOORN - René Huijboom, bewoner van het Holenkwartier, heeft bezwaar gemaakt tegen de kap van tien bomen voor woningbouwproject De Vrijheid. Vooral vijf grote bomen langs het fietspad Holenweg richting Kersenboogerd wil hij behouden. Hij vraagt zich af waarom niet eerst naar alternatieven wordt gekeken.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Warmtepomp kan Hoorns huishouden volgens berekening ruim 3.000 euro besparen",
+          "link": "https://www.rodi.nl/hoorn/nieuws/512936/warmtepomp-kan-hoorns-huishouden-volgens-berekening-ruim-3-000-euro-besparen",
+          "pubDate": "Wed, 18 Nov 2026 13:11:59 Z",
+          "description": "HOORN - Huishoudens in Hoorn die hun woning volledig van het gas halen met een warmtepomp, kunnen bij de huidige energieprijzen flink besparen. Voor een gemiddeld Hoorns huishouden zou het volgens een berekening van duurzaamheidsplatform Slimster gaan om ongeveer 3.091 euro in drie jaar. Daar staat wel een investering van duizenden euro's tegenover.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Hoornse zwemmer Bas Takken in De Waterhoorn in het zonnetje gezet",
+          "link": "https://www.rodi.nl/hoorn/gemeentenieuws/512918/hoornse-zwemmer-bas-takken-in-de-waterhoorn-in-het-zonnetje-gezet",
+          "pubDate": "Wed, 18 Nov 2026 11:45:05 Z",
+          "description": "HOORN - De Hoornse zwemmer Bas Takken is woensdag 18 november met een speciale oorkonde in het zonnetje gezet voor zijn zwemprestaties. Wethouder René Assendelft feliciteerde hem bij Zwembad De Waterhoorn met de medailles die hij in 2026 behaalde.",
+          "categories": [
+            "Gemeentenieuws"
+          ]
+        },
+        {
+          "title": "Pieten Expres bij Museumstoomtram Hoorn-Medemblik gaat weer rijden",
+          "link": "https://www.rodi.nl/hoorn/uit/512913/pieten-expres-bij-museumstoomtram-hoorn-medemblik-gaat-weer-rijden",
+          "pubDate": "Wed, 18 Nov 2026 11:36:12 Z",
+          "description": "HOORN - Zodra Sinterklaas in het land is, maakt de Museumstoomtram Hoorn-Medemblik zich op voor de Pieten Expres. Van 15 november tot en met 5 december kunnen kinderen en hun families meereizen tussen Hoorn en Wognum.",
+          "categories": [
+            "Uit"
+          ]
+        },
+        {
+          "title": "Fonte di Musica geeft winterconcert in Dorpskerk Zwaag",
+          "link": "https://www.rodi.nl/hoorn/uit/512912/fonte-di-musica-geeft-winterconcert-in-dorpskerk-zwaag",
+          "pubDate": "Wed, 18 Nov 2026 11:31:07 Z",
+          "description": "ZWAAG - Het Noord-Hollandse ensemble Fonte di Musica geeft zondag 29 november het winter- en kerstconcert 'In the Stillness' in de Dorpskerk aan de Kerkelaan 8 in Zwaag. Het concert begint om 15.00 uur.",
+          "categories": [
+            "Uit"
+          ]
+        },
+        {
+          "title": "Aure treedt op in Het Huis Verloren in Hoorn met nieuw album Printemps",
+          "link": "https://www.rodi.nl/hoorn/uit/512909/aure-treedt-op-in-het-huis-verloren-in-hoorn-met-nieuw-album-printemps",
+          "pubDate": "Wed, 18 Nov 2026 11:22:19 Z",
+          "description": "HOORN - Zangeres en gitariste Aure (Aure Delaroiere) speelt woensdag 2 december in Het Huis Verloren aan de Kerkstraat 10b in Hoorn. Ze presenteert haar nieuwe album 'Printemps'. De zaal opent om 20.00 uur, het concert begint om 20.30 uur.",
+          "categories": [
+            "Uit"
+          ]
+        },
+        {
+          "title": "Meisje op fatbike valt na hard remmen en botst tegen auto in Hoorn",
+          "link": "https://www.rodi.nl/hoorn/112-nieuws/512865/meisje-op-fatbike-valt-na-hard-remmen-en-botst-tegen-auto-in-hoorn",
+          "pubDate": "Wed, 18 Nov 2026 09:33:22 Z",
+          "description": "HOORN - Een meisje op een fatbike is woensdagochtend 18 november gewond geraakt bij een verkeersongeval op de kruising van de Sportlaan en Emmalaan in Hoorn.",
+          "categories": [
+            "112-nieuws"
+          ]
+        },
+        {
+          "title": "Melle Gols (19) toont abstracte kunst in Pakhuisgalerie Hoorn",
+          "link": "https://www.rodi.nl/hoorn/uit/512844/melle-gols-19-toont-abstracte-kunst-in-pakhuisgalerie-hoorn",
+          "pubDate": "Wed, 18 Nov 2026 08:30:00 Z",
+          "description": "HOORN - Kunstenaar Melle Gols (19) toont tot 4 januari 2027 zijn abstracte werk in de Pakhuisgalerie aan Onder de Boompjes 21 in Hoorn. Zijn schilderijen bestaan uit kubistische vormen met hier en daar een golving.",
+          "categories": [
+            "Uit"
+          ]
+        },
+        {
           "title": "Gemeente Hoorn roept organisaties op mee te denken over sportpark Middelweg",
           "link": "https://www.rodi.nl/hoorn/gemeentenieuws/512846/gemeente-hoorn-roept-organisaties-op-mee-te-denken-over-sportpark-middelweg",
           "pubDate": "Tue, 17 Nov 2026 17:56:48 Z",
@@ -522,114 +630,6 @@
           "categories": [
             "112-nieuws"
           ]
-        },
-        {
-          "title": "Hoorn verwelkomt Sinterklaas: bekijk hier de foto’s van de intocht",
-          "link": "https://www.rodi.nl/hoorn/nieuws/512466/-fotos-hoorn-verwelkomt-sinterklaas-bekijk-hier-de-fotos-van-de-intocht",
-          "pubDate": "Sat, 14 Nov 2026 16:26:30 Z",
-          "description": "HOORN - Ja hoor, hij is er weer! Sinterklaas zette vanmiddag voet aan wal in Hoorn en werd welkom geheten door vele kinderen en hun ouders. Onze fotograaf Jan Siebring stond natuurlijk ook in spanning klaar op de kade en maakte deze mooie fotoserie van de feestelijke intocht!",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "Schaatsmarathon ‘De Vier van Noord-Holland’ strijkt neer in Hoorn",
-          "link": "https://www.rodi.nl/hoorn/nieuws/512439/schaatsmarathon-de-vier-van-noord-holland-strijkt-neer-in-hoorn",
-          "pubDate": "Sat, 14 Nov 2026 10:00:00 Z",
-          "description": "HOORN - De topdivisies voor mannen en vrouwen schaatsen van 10 tot en met 13 december voor de derde keer 'De Vier van Noord-Holland'. Ook in november en december is er volop schaatsplezier voor jong en oud op de vier kunstijsbanen in de provincie, waaronder IJsbaan de Westfries in Hoorn.",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "Politie houdt minderjarige uit Hoorn aan na vondst zwaar vuurwerk in Westwoud",
-          "link": "https://www.rodi.nl/hoorn/112-nieuws/512436/politie-houdt-minderjarige-uit-hoorn-aan-na-vondst-zwaar-vuurwerk-in-westwoud",
-          "pubDate": "Fri, 13 Nov 2026 14:42:39 Z",
-          "description": "WESTWOUD / HOORN - De politie heeft een minderjarige jongen uit Hoorn aangehouden na de vondst van zwaar vuurwerk in een geparkeerd voertuig aan het Wijzenddijkje in Westwoud. Het vuurwerk is in beslag genomen. De verdachte is heengezonden, maar blijft verdachte in het onderzoek.",
-          "categories": [
-            "112-nieuws"
-          ]
-        },
-        {
-          "title": "OSG-leerlingen in Hoorn krijgen 25.000 euro voor eigen scholierenfestival",
-          "link": "https://www.rodi.nl/hoorn/nieuws/512361/osg-leerlingen-in-hoorn-krijgen-25-000-euro-voor-eigen-scholierenfestival",
-          "pubDate": "Thu, 12 Nov 2026 17:56:39 Z",
-          "description": "HOORN - Derdeklassers van OSG West-Friesland organiseren in juni 2027 zelf een scholierenfestival op het schoolterrein. Dankzij een subsidie van 25.000 euro van Little Local uit de Regio Deal zijn zij verantwoordelijk voor de volledige organisatie: van sponsoring en programmering tot techniek, catering en veiligheid. Wethouder onderwijs Yousuf Yousufi kwam het goede nieuws persoonlijk bekendmaken op school. De leerlingen verzorgden zelf de ontvangst.",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "De krant van deze week staat online",
-          "link": "https://www.rodi.nl/hoorn/nieuws/512352/de-krant-van-deze-week-staat-online-xq7c33",
-          "pubDate": "Thu, 12 Nov 2026 16:37:07 Z",
-          "description": "HOORN - De nieuwste editie van het Nieuwsblad Hoorn staat nu online op de website.",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "Babbeltruc in Hoorn: nep-agente lokt pas en geld los bij 92-jarige",
-          "link": "https://www.rodi.nl/hoorn/112-nieuws/512304/babbeltruc-in-hoorn-nep-agente-lokt-pas-en-geld-los-bij-92-jarige",
-          "pubDate": "Thu, 12 Nov 2026 13:19:43 Z",
-          "description": "HOORN - Een 92-jarige vrouw uit Hoorn is woensdag 2 september slachtoffer geworden van oplichting. Een jonge vrouw deed zich voor als politieagent en wist het slachtoffer met een smoes over te halen haar bankpas en 40 euro contant geld af te geven. De politie is op zoek naar de verdachte en deelt beelden waarop zij te zien is.",
-          "categories": [
-            "112-nieuws"
-          ]
-        },
-        {
-          "title": "Zin in een potje koersbal? Kom gerust een keer kijken in Wijkcentrum De Huesmolen in Hoorn",
-          "link": "https://www.rodi.nl/hoorn/nieuws/512129/zin-in-een-potje-koersbal-kom-gerust-een-keer-kijken-in-wijkcentrum-de-huesmolen-in-hoorn",
-          "pubDate": "Thu, 12 Nov 2026 10:00:00 Z",
-          "description": "HOORN - Wijkcentrum De Huesmolen in Hoorn ziet het aantal deelnemers aan koersbal teruglopen en vraagt extra aandacht voor de activiteit. Koersbal staat wekelijks op dinsdag en woensdag op het programma. Koersbal is een gezamenlijk balspel dat lijkt op jeu de boules. Het wijkcentrum noemt het een leuke, gezellige bezigheid voor mensen die houden van een beetje wedstrijdspanning.",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "Dit is er dit weekend te doen in Hoorn: van de intocht van Sinterklaas tot een vlooienmarkt en muzikale optredens (13 t/m 15 november)",
-          "link": "https://www.rodi.nl/hoorn/uit/512060/dit-is-er-dit-weekend-te-doen-in-hoorn-van-de-intocht-van-sinterklaas-tot-een-vlooienmarkt-en-muzikale-optredens",
-          "pubDate": "Wed, 11 Nov 2026 20:58:00 Z",
-          "description": "HOORN - Zin in een gezellig weekend? In Hoorn en de regio staat van vrijdag 13 tot en met zondag 15 november van alles op het programma. Van de feestelijke intocht van Sinterklaas en live muziek tot kunst, markten en een rit met de historische stoomtram. Of je nu op zoek bent naar een leuk uitje met het gezin of een avond vol entertainment, er is dit weekend voor ieder wat wils.",
-          "categories": [
-            "Uit"
-          ]
-        },
-        {
-          "title": "Foto’s: Honderden kinderen vieren Sint-Maarten op woonwagenkamp Hoorn",
-          "link": "https://www.rodi.nl/hoorn/nieuws/512211/fotos-honderden-kinderen-vieren-sint-maarten-op-woonwagenkamp-hoorn",
-          "pubDate": "Wed, 11 Nov 2026 18:57:10 Z",
-          "description": "HOORN - Het woonwagenkamp aan de Bobeldijkerweg in Hoorn pakte ook dit jaar groots uit tijdens Sint-Maarten. Verlichte straten, een klein spookhuis en natuurlijk heel veel snoep zorgden voor een geslaagde avond.",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "Raymond Oosterbroek uit Hoorn: de man die altijd klaarstond voor een ander",
-          "link": "https://www.rodi.nl/hoorn/nieuws/512164/raymond-oosterbroek-uit-hoorn-de-man-die-altijd-klaarstond-voor-een-ander",
-          "pubDate": "Wed, 11 Nov 2026 14:52:40 Z",
-          "description": "HOORN - Op de zijkant van de blauwe bedrijfsbus prijkt een R, met daaromheen een grote letter O. De initialen van Raymond Oosterbroek en ook het logo van zijn schoonmaak- en glazenwassersbedrijf R. Oosterbroek. Veel mensen in Hoorn en omgeving kennen de blauwe bus. Zoals een klant zegt: 'Ik kreeg altijd een zwaai uit het raampje van die blauwe bus.'",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "Van droom naar spotlights: jongeren gezocht voor Stagelab in Hoorn",
-          "link": "https://www.rodi.nl/hoorn/nieuws/512146/van-droom-naar-spotlights-jongeren-gezocht-voor-stagelab-in-hoorn",
-          "pubDate": "Wed, 11 Nov 2026 14:21:23 Z",
-          "description": "HOORN - Jongeren van 12 tot 25 jaar kunnen zich aanmelden voor Stagelab, driedaagse workshops waarin ze hun muzikale en artistieke talent ontwikkelen.",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "Tonnaer trekt opnieuw aan de bel over woekerende bramen aan Saffier in Hoorn",
-          "link": "https://www.rodi.nl/hoorn/politiek/512137/tonnaer-trekt-opnieuw-aan-de-bel-over-woekerende-bramen-aan-saffier-in-hoorn",
-          "pubDate": "Wed, 11 Nov 2026 13:38:36 Z",
-          "description": "HOORN - De fractie Sociaal Hoorn/Team Tonnaer vraagt de gemeente opnieuw om in te grijpen bij de braamstruiken achter woningen aan de Saffier in Hoorn. Volgens raadslid Roger Tonnaer zijn de struiken sinds een eerdere melding in juli nog altijd niet verwijderd en raken ook bomen op de locatie overwoekerd.",
-          "categories": [
-            "Politiek"
-          ]
         }
       ]
     },
@@ -637,6 +637,43 @@
       "id": "streekomroep",
       "label": "Streekomroep",
       "items": [
+        {
+          "title": "Talland College en AZ sluiten samenwerking om stagekansen voor mbo-studenten te vergroten",
+          "link": "https://www.streekomroepwestfriesland.nl/talland-college-en-az-sluiten-samenwerking-om-stagekansen-voor-mbo-studenten-te-vergroten/",
+          "pubDate": "Wed, 18 Nov 2026 15:24:09 +0000",
+          "description": "Het Talland College, met ook een school in Hoorn, en voetbalclub AZ gaan samenwerken om mbo-studenten meer kansen te bieden op een stage- of leerwerkplek. De organisaties hebben daarvoor maandag 16 november een convenant gesloten in het AFAS Stadion in Alkmaar. De samenwerking moet jong talent behouden voor Noord-Holland boven het Noordzeekanaal en de aansluiting tussen onderwijs en arbeidsmarkt versterken. Studenten van het Talland College kunnen bij AZ terecht voor stage-, leerwerk- en praktijkleerplaatsen. De samenwerking richt zich op verschillende opleidingen, waaronder hospitality, evenementen, sport, facilitaire dienstverlening, veiligheid, IT en technologie, marketing en communicatie",
+          "categories": [
+            "Onderwijs",
+            "Sport"
+          ]
+        },
+        {
+          "title": "Column: Goed genoeg",
+          "link": "https://www.streekomroepwestfriesland.nl/column-goed-genoeg/",
+          "pubDate": "Wed, 18 Nov 2026 12:07:00 +0000",
+          "description": "Er valt tegenwoordig ontzettend veel te kiezen. En ik heb zelden zo weinig vertrouwen gehad dat ik het goede kies. Het zijn juist de kleine beslissingen die blijven haken. Een energiecontract. Een zorgverzekering. Een abonnement dat ooit tijdelijk was, maar inmiddels tot de vaste lasten behoort. Kiezen is een vak geworden. Je moet vergelijken, afwegen, doorrekenen en vooral veel lezen. Filters aan, filters uit. Wie verkeerd kiest, kan nauwelijks nog iemand anders de schuld geven. Alle informatie staat immers ergens. In de kleine lettertjes, achter een pijltje of onder ‘Meer informatie’. Neem de zorgverzekering. Aan het eind van het jaar, precies wanneer we ons bezighouden met kerstboom, fami",
+          "categories": [
+            "Algemeen"
+          ]
+        },
+        {
+          "title": "Fietser zwaargewond bij aanrijding in Bovenkarspel, automobilist aangehouden",
+          "link": "https://www.streekomroepwestfriesland.nl/fietser-zwaargewond-bij-aanrijding-in-bovenkarspel-automobilist-aangehouden-2/",
+          "pubDate": "Wed, 18 Nov 2026 11:06:00 +0000",
+          "description": "Een fietser is vanmorgen zwaargewond geraakt bij een aanrijding met een auto. Dat gebeurde op de Stationslaan in Bovenkarspel. De bestuurder van de auto is aangehouden. Een woordvoerder van de politie meldt dat de fietser en auto rond 11.00 uur door nog onbekende oorzaak met elkaar in botsing zijn gekomen. Daarbij raakte de fietser zwaargewond. \"De fietser wordt of met de ambulance of met de traumahelikopter naar het ziekenhuis gebracht\", aldus de woordvoerder. De bestuurder van de auto is aangehouden. Dat is een standaardprocedure bij zware verkeersongevallen. De forensische opsporing verkeer is ter plaatse om onderzoek te doen naar de toedracht van het ongeval. The post Fietser zwaargewond",
+          "categories": [
+            "112"
+          ]
+        },
+        {
+          "title": "Opmerkingen over menstruatie en anticonceptie inspireren Anniek tot schrijven van eerste boek",
+          "link": "https://www.streekomroepwestfriesland.nl/opmerkingen-over-menstruatie-en-anticonceptie-inspireren-anniek-tot-schrijven-van-eerste-boek/",
+          "pubDate": "Wed, 18 Nov 2026 10:40:58 +0000",
+          "description": "Het boek van debuterende schrijfster Anniek Stroomer, 'DE VROUW. Voor mannen die er geen k*t van snappen', maakt de nodige tongen los. Dat vertelde ze zaterdag in het programma De Tafel van Knook. Door humor en een luchtige schrijfstijl probeert ze mannen meer te betrekken, zonder hen te veroordelen. \"Het is een soort biologie voor volwassenen\", vertelt Anniek. Stroomer groeide op in De Weere, gemeente Opmeer. Ze noemt zichzelf een echte Weerenees. Voor het boek verzamelde ze uitspraken en opmerkingen die ze van mannen in haar omgeving hoorde. Die vormden de basis voor korte, toegankelijke uitleg over onderwerpen als anticonceptie, hormonen en menstruatie. \"Als ik af en toe met vrienden spra",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
         {
           "title": "Dorp in verdomhoekje: geen café, geen woningbouw en 12 jaar wachten op nieuw dorpshuis",
           "link": "https://www.streekomroepwestfriesland.nl/dorp-in-verdomhoekje-geen-cafe-geen-woningbouw-en-12-jaar-wachten-op-nieuw-dorpshuis/",
@@ -677,7 +714,7 @@
           ]
         },
         {
-          "title": "In Beeld: Popronde Hoorn brengt de stad tot leven: grootste editie ooit.",
+          "title": "In Beeld: Popronde Hoorn brengt de stad tot leven met grootste editie ooit",
           "link": "https://www.streekomroepwestfriesland.nl/in-beeld-popronde-hoorn-brengt-de-stad-tot-leven-grootste-editie-ooit/",
           "pubDate": "Tue, 17 Nov 2026 09:41:06 +0000",
           "description": "De Hoornse binnenstad stond zondag 15 november volledig in het teken van muziek. Tijdens de elfde editie van Popronde Hoorn veranderde de stad in één groot podium. Met 22 deelnemende locaties en 45 geplande optredens was het de grootste editie die Hoorn tot nu toe heeft gekend. Van kleine, intieme optredens tot stevige gitaren en energieke bands: op allerlei plekken in de stad viel muziek te ontdekken. Bezoekers konden terecht in cafés en winkels, maar ook op bijzondere locaties zoals de historische Oosterkerk en Schouwburg Het Park. Alle optredens waren gratis toegankelijk. De muzikale dag begon al vroeg met korte previews bij De Beiaard en Muziekschool Boedijn. Daar konden bezoekers alvast",
@@ -693,46 +730,6 @@
           "categories": [
             "112",
             "Misdaad & straf"
-          ]
-        },
-        {
-          "title": "Directeur Westfries Museum: \"24 van de 96 steunbalken zijn nu geadopteerd\"",
-          "link": "https://www.streekomroepwestfriesland.nl/directeur-westfries-museum-24-van-de-96-steunbalken-zijn-nu-geadopteerd/",
-          "pubDate": "Mon, 16 Nov 2026 12:27:00 +0000",
-          "description": "Het Westfries Museum heeft 24 van de 96 steunbalken geadopteerd gekregen. Dat vertelt directeur Amanda Vollenweider in het programma De Tafel van Knook. Met de actie ‘Adopteer een steunbalk’ zoekt het museum in Hoorn particulieren en bedrijven die willen bijdragen aan het herstel van het monumentale gebouw. Het leek er eerder op dat maar zes balken van het Westfries Museum vervangen moesten worden. Maar tijdens de restauratie bleek de schade veel groter. Uiteindelijk moeten alle 96 balkenkoppen worden vernieuwd. Die onderdelen dragen de vloeren van de verschillende verdiepingen. Volgens Vollenweider is de belangstelling voor de adoptieactie goed. De tekst gaat verder. De actie maakt deel uit",
-          "categories": [
-            "Geschiedenis",
-            "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Alert stel uit Andijk houdt criminelen twee uur aan de lijn, nepagenten trappen in val",
-          "link": "https://www.streekomroepwestfriesland.nl/alert-stel-uit-andijk-houdt-criminelen-twee-uur-aan-de-lijn-nepagenten-trappen-in-val/",
-          "pubDate": "Mon, 16 Nov 2026 11:00:00 +0000",
-          "description": "Steeds vaker worden vooral oudere mensen slachtoffer van nepagenten. Zo ook twee bewoners uit Andijk, afgelopen augustus. Ze hadden al snel door dat er iets niet klopte en schakelden direct de echte politie in. Wat volgde was een toneelstuk van twee uur, en uiteindelijk drie aanhoudingen. Nu waarschuwen ze anderen voor nepagenten en babbeltrucs. \"Trap er niet in!\" \"We zijn dan wel op leeftijd, maar we zijn niet gek\", zegt de man (80) uit Andijk. Hij kijkt samen met zijn vrouw (78) nog een keer terug op het bizarre avontuur dat ze eind augustus meemaakten. 'Is toch schandalig?!' Dat doen ze vooral om te waarschuwen tegen deze vorm van criminaliteit, waarvan de laatste jaren duizenden mensen h",
-          "categories": [
-            "112"
-          ]
-        },
-        {
-          "title": "SEW strandt op één doelpunt van Europees vervolg: \"Dit doet nog wel even pijn\"",
-          "link": "https://www.streekomroepwestfriesland.nl/sew-strandt-op-een-doelpunt-van-europees-vervolg-dit-doet-nog-wel-even-pijn/",
-          "pubDate": "Sun, 15 Nov 2026 18:59:00 +0000",
-          "description": "Een zuur handbalweekend voor SEW in de EHF European Cup. De ploeg uit Nibbixwoud verloor over twee duels van het Israëlische Maccabi Haarazim. Gisteravond ging SEW met 28-26 kopje-onder en vandaag werd er wel gewonnen met 31-30. Alleen daarmee komen de handbalsters van trainer Mart Aalderink één doelpuntje te kort. \"Zij spelen heel ander handbal dan wij.\" \"Deze uitschakeling doet nog wel even pijn\", deelt Denise Mol haar teleurstelling. De speelster van SEW zag dat haar ploeg meerdere keren de voorsprong pakte met twee, drie of vier punten. Toch kwamen de bezoekers uit Israël uiteindelijk terug tot minimaal verschil. Mol: \"Ik denk dat wij de betere ploeg waren, maar dat kwam er niet uit. All",
-          "categories": [
-            "Sport"
-          ]
-        },
-        {
-          "title": "Hoorn betaalt castratie katten voor minima: \"Kat is geen luxeproduct\"",
-          "link": "https://www.streekomroepwestfriesland.nl/hoorn-betaalt-castratie-katten-voor-minima-kat-is-geen-luxeproduct/",
-          "pubDate": "Sun, 15 Nov 2026 10:30:00 +0000",
-          "description": "Om het aantal zwerfkatten en ongewenste nestjes terug te dringen, kunnen inwoners van Hoorn met een laag inkomen gratis naar de dierenarts om hun huisdier te laten helpen. De gemeente Hoorn heeft 15.000 euro uitgetrokken. Daarmee kunnen ruim negentig katten gecastreerd of gesteriliseerd worden. Het is ook mogelijk om de kat gratis te laten chippen. Niet iedereen kan de kosten voor castratie of sterilisatie van een kat makkelijk betalen. Toch is het volgens de gemeente belangrijk om ongewenste nestjes te voorkomen. Die kunnen leiden tot meer zwerfkatten en een grotere druk op dierenasielen. Wethouder Dennis Boutkan: \"Een huisdier is voor veel mensen een belangrijk onderdeel van hun leven. Maa",
-          "categories": [
-            "Kunst & cultuur",
-            "Natuur & klimaat",
-            "Politiek",
-            "Verkeer & wonen"
           ]
         }
       ]
