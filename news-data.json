@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-19T01:10:19.956Z",
+  "updated": "2026-11-19T16:31:27.431Z",
   "failedSources": [
     {
       "id": "hoornactueel",
       "label": "HoornActueel",
-      "error": "The operation was aborted due to timeout"
+      "error": "HTTP 403"
     },
     {
       "id": "onswestfriesland",
@@ -17,6 +17,17 @@
       "id": "hoornnieuws",
       "label": "Hoornnieuws",
       "items": [
+        {
+          "title": "Weekendagenda Hoorn: buiten spelen, nostalgie en Meneer Monster",
+          "link": "https://hoornnieuws.nl/2026/11/19/weekendagenda-20-22-november-2026/",
+          "pubDate": "Thu, 19 Nov 2026 12:05:01 +0000",
+          "description": "Wat is er te doen van vrijdag 20 tot en met zondag 22 november 2026? Dit is onze selectie, gecontroleerd bij de organisatoren op 19 november. Controleer voor vertrek de actuele beschikbaarheid en eventuele wijzigingen. Gratis de natuur in bij MAK Blokweer Zaterdag 21 en zondag 22 november, 10.00–16.00 uur. MAK Blokweer, Kloosterhout 1-2 in Blokker. Het bezoekerscentrum en de kijkboerderij zijn een laagdrempelige bestemming voor gezinnen. Entree gratis; groepen op afspraak. De natuurspeeltuin in het Boezelbos is ook buiten de openingstijden vrij toegankelijk. Informatie bij de organisator . Terug naar de vorige eeuw op Oostereiland Zaterdag 21 en zondag 22 november, 12.00–17.00 uur. Museum va",
+          "categories": [
+            "Agenda",
+            "Cultuur",
+            "Lokaal Nieuws"
+          ]
+        },
         {
           "title": "Verkeer omgeleid tijdens werk aan fietsbrug bij de Ceder",
           "link": "https://hoornnieuws.nl/2026/11/17/fietsbrug-ceder-hoorn-werk-november/",
@@ -98,15 +109,6 @@
           "categories": [
             "Gemeentenieuws"
           ]
-        },
-        {
-          "title": "Albert Heijn Van Dedemstraat Hoorn even dicht voor verbouwing",
-          "link": "https://hoornnieuws.nl/2026/10/26/albert-heijn-van-dedemstraat-hoorn-even-dicht-voor-verbouwing/",
-          "pubDate": "Mon, 26 Oct 2026 22:53:45 +0000",
-          "description": "Albert Heijn aan de Van Dedemstraat 19, vlak bij station Hoorn, sluit donderdag 29 oktober om 16.00 uur tijdelijk de deuren. Vervolgens wordt de winkel circulair verbouwd. Wat nog bruikbaar is, komt terug. Bij alles wat moet worden vervangen, wordt nadrukkelijk gelet op onder andere energiezuinigheid. Op dinsdag 10 november gaat de Albert Heijn-winkel om 11.00 uur weer open. Tijdens de sluitingsperiode kunnen klanten terecht bij de Albert Heijn-winkels in de omgeving, zoals in Hoorn aan De Huesmolen 2, aan het Stan Kentonhof 88 en aan het Aagje Dekenplein, of in Zwaag aan de Hollandse Cirkel 36 en aan de Dorpsstraat 200.",
-          "categories": [
-            "Gemeentenieuws"
-          ]
         }
       ]
     },
@@ -115,10 +117,24 @@
       "label": "Hoornsdagblad",
       "items": [
         {
+          "title": "Dit zijn de nominaties voor de Parkvakanties Awards 2027",
+          "link": "https://www.hoornsdagblad.nl/vakantie/dit-zijn-de-nominaties-voor-de-parkvakanties-awards-2027",
+          "pubDate": "Thu, 19 Nov 2026 10:15:00 +0100",
+          "description": "De Parkvakanties Awards 2027 is van start gegaan. Op vakantieplatform Parkvakanties zijn de genomineerde vakantieparken voor de jaarlijkse publieksprijzen binnen de vakantieparkbranche bekendgemaakt.Dit jaar vindt de derde editie van de Parkvakanties Awards plaats, waarbij consumenten wederom door [...]",
+          "categories": []
+        },
+        {
           "title": "Brand in distributiecentrum Action in Zwaagdijk-Oost, pand ontruimd",
           "link": "https://www.hoornsdagblad.nl/112-hoorn/brand-in-distributiecentrum-action-in-zwaagdijk-oost-pand-ontruimd",
           "pubDate": "Wed, 18 Nov 2026 21:57:51 +0100",
           "description": "ZWAAGDIJK-OOST - In het distributiecentrum van Action aan de Nieuweweg in Zwaagdijk-Oost is woensdagavond brand uitgebroken. De brandweer heeft vanwege de situatie opgeschaald naar middelbrand.De brandweer is met meerdere eenheden ter plaatse gekomen om de brand te bestrijden.Medewerkers staan [...]",
+          "categories": []
+        },
+        {
+          "title": "Begroting 2027: afronden en doorbouwen",
+          "link": "https://www.hoornsdagblad.nl/algemeen/begroting-2027-afronden-en-doorbouwen",
+          "pubDate": "Wed, 18 Nov 2026 18:46:28 +0100",
+          "description": "NOORD-HOLLAND - De provincie Noord-Holland heeft de begroting voor 2027 vastgesteld. Het is de laatste begroting van deze bestuursperiode.De provincie richt zich komend jaar op het afronden van afspraken, het uitvoeren van bestaand beleid en het behalen van concrete resultaten voor inwoners, [...]",
           "categories": []
         },
         {
@@ -140,6 +156,13 @@
           "link": "https://www.hoornsdagblad.nl/algemeen/wat-komt-er-kijken-bij-het-regelen-van-een-begrafenis",
           "pubDate": "Wed, 18 Nov 2026 15:28:28 +0100",
           "description": "Wanneer een dierbare overlijdt, staat de wereld voor de nabestaanden even helemaal stil. Het is een periode van intens verdriet, terwijl er tegelijkertijd in een kort tijdsbestek ontzettend veel geregeld moet worden voor het afscheid. Dat kan behoorlijk overweldigend aanvoelen. Wat zijn eigenlijk [...]",
+          "categories": []
+        },
+        {
+          "title": "Bouillon d'Amsterdam opent tijdelijk restaurant op Het Amsterdamse Winterparadijs",
+          "link": "https://www.hoornsdagblad.nl/eten-drinken/bouillon-damsterdam-opent-tijdelijk-restaurant-op-het-amsterdamse-winterparadijs",
+          "pubDate": "Wed, 18 Nov 2026 09:00:06 +0100",
+          "description": "AMSTERDAM - Bouillon d'Amsterdam brengt deze winter de 'tafel van de stad' naar Het Amsterdamse Winterparadijs. Voor het eerst opent het restaurant een sfeervolle pop-up midden op het winterevenement in de RAI Amsterdam. Op negen geselecteerde dagen kunnen bezoekers aanschuiven voor een compleet [...]",
           "categories": []
         },
         {
@@ -231,27 +254,6 @@
           "link": "https://www.hoornsdagblad.nl/regio/dinsdag-24-november-open-dag-vonk-mbo",
           "pubDate": "Mon, 16 Nov 2026 14:35:59 +0100",
           "description": "ALKMAAR - Voor veel leerlingen breekt binnenkort een spannende periode aan: het kiezen van een vervolgopleiding. Een keuze die invloed heeft op de komende jaren en die vaak niet in één keer gemaakt is. Juist daarom is het waardevol om samen op ontdekkingstocht te gaan. Open dag Vonk-mbo op 24 [...]",
-          "categories": []
-        },
-        {
-          "title": "Onderzoek: Moe? Pizza. Visite? Chinees. Het moment bepaalt wat we bestellen",
-          "link": "https://www.hoornsdagblad.nl/algemeen/onderzoek-moe-pizza-visite-chinees-het-moment-bepaalt-wat-we-bestellen",
-          "pubDate": "Mon, 16 Nov 2026 13:14:26 +0100",
-          "description": "NEDERLAND - Wat er bezorgd wordt, hangt niet alleen af van smaak, maar vooral van het moment. Wie sneller eten bestelt als ze moe zijn, kiest vaker pizza (44% tegen 27%). Wie bestelt omdat er visite komt, kiest juist vaker Chinees (50% tegen 39%). Dat blijkt uit een analyse van onderzoek van [...]",
-          "categories": []
-        },
-        {
-          "title": "Gelijke spelen voor vrouwen en heren van Always Forward",
-          "link": "https://www.hoornsdagblad.nl/sport/gelijke-spelen-voor-vrouwen-en-heren-van-always-forward",
-          "pubDate": "Mon, 16 Nov 2026 11:44:22 +0100",
-          "description": "HOORN - Wie zondag op het complex van Always Forward aanwezig was om zowel de vrouwen- als herenselectie in actie te zien kreeg tweemaal een remise die in 1-1 eindigde voorgeschoteld.De vrouwen van Always Forward, uitkomend in de hoofdklasse, behaalden een verdienstelijk gekijsopel tegen het op de [...]",
-          "categories": []
-        },
-        {
-          "title": "Uitgeverij Doornwater onthult cover van rijk geïllustreerd boek over The Cats",
-          "link": "https://www.hoornsdagblad.nl/regio/uitgeverij-doornwater-onthult-cover-van-rijk-geillustreerd-boek-over-the-cats",
-          "pubDate": "Mon, 16 Nov 2026 09:14:38 +0100",
-          "description": "VOLENDAM - Pophistoricus Leo Weijers brengt in TIMES WERE WHEN het verhaal van The Cats én de veelzijdige muziekgeschiedenis van Volendam samen. Het boek verschijnt op 20 maart 2027 als hardcover op A4-formaat.Een hand trekt een kleurrijke platenhoes van The Cats uit een bak vol elpees. Met dat [...]",
           "categories": []
         }
       ]
@@ -406,6 +408,60 @@
       "id": "rodi",
       "label": "Rodi Hoorn",
       "items": [
+        {
+          "title": "Meester Kees (72) maakt na pensioen weer Sinterklaasjournaal voor Kindcentrum Klipper in Hoorn",
+          "link": "https://www.rodi.nl/hoorn/nieuws/513153/meester-kees-72-maakt-na-pensioen-weer-sinterklaasjournaal-voor-kindcentrum-klipper-in-hoorn",
+          "pubDate": "Thu, 19 Nov 2026 17:01:12 Z",
+          "description": "HOORN - Meester Kees is met pensioen, maar in de sinterklaastijd keert hij elk jaar terug naar Kindcentrum Klipper in Hoorn. Samen met Piet Jesse en zijn oud-collega's maakt de 72-jarige oud-leerkracht al twaalf jaar het Klipper Sinterklaasjournaal.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Dertien veiligheidscamera’s in binnenstad Hoorn worden vervangen",
+          "link": "https://www.rodi.nl/hoorn/gemeentenieuws/513139/dertien-veiligheidscameras-in-binnenstad-hoorn-worden-vervangen",
+          "pubDate": "Thu, 19 Nov 2026 15:49:44 Z",
+          "description": "HOORN - De gemeente vervangt vanaf maandag 23 november dertien veiligheidscamera's in de binnenstad van Hoorn. De huidige camera's zijn verouderd en maken plaats voor modernere exemplaren die scherpere beelden opleveren, ook in het donker.",
+          "categories": [
+            "Gemeentenieuws"
+          ]
+        },
+        {
+          "title": "Minder inwoners van Hoorn trouwen dan rond 2000",
+          "link": "https://www.rodi.nl/hoorn/nieuws/513111/minder-inwoners-van-hoorn-trouwen-dan-rond-2000",
+          "pubDate": "Thu, 19 Nov 2026 14:49:07 Z",
+          "description": "HOORN - In Hoorn trouwen naar verhouding flink minder inwoners dan aan het begin van deze eeuw. Het aantal trouwende inwoners per 1000 inwoners ligt 36,6 procent lager dan rond het jaar 2000. Daarmee is de daling in Hoorn duidelijk groter dan gemiddeld in Noord-Holland en Nederland.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Gifvrij groen. Doe je mee?",
+          "link": "https://www.rodi.nl/hoorn/column/513108/-column-gifvrij-groen-doe-je-mee-",
+          "pubDate": "Thu, 19 Nov 2026 14:27:28 Z",
+          "description": "Eind november is het inmiddels en toch zie ik hier en daar nog bloemen in mijn tuin bloeien. Zo leuk als ik 's ochtends de gordijnen opentrek! Want wie wordt er niet blij van bloemen, zoemende bijen en fladderende vlinders?",
+          "categories": [
+            "Column"
+          ]
+        },
+        {
+          "title": "De krant van deze week staat online",
+          "link": "https://www.rodi.nl/hoorn/nieuws/513057/de-krant-van-deze-week-staat-online-qv096a",
+          "pubDate": "Thu, 19 Nov 2026 10:11:18 Z",
+          "description": "HOORN - De nieuwste editie van het Nieuwsblad Hoorn staat nu online op de website.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Vier vrijdagen van stilte en bezinning in adventstijd in Hoorn",
+          "link": "https://www.rodi.nl/hoorn/nieuws/512972/vier-vrijdagen-van-stilte-en-bezinning-in-adventstijd-in-hoorn",
+          "pubDate": "Thu, 19 Nov 2026 09:00:00 Z",
+          "description": "HOORN - De oecumenische werkgroep Stilte/Bezinning Hoorn organiseert in de adventstijd vier vespers op vrijdagmiddag. Drie vieringen zijn in het Foreestenhuis, de laatste bij het Apostolisch Genootschap. Aanmelden is niet nodig.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
         {
           "title": "Stoomtram naar Sinterklaas, Nirvana en nieuwe prins: dit kun je in Hoorn doen dit weekend! (20 t/m 22 november)",
           "link": "https://www.rodi.nl/hoorn/uit/512886/stoomtram-naar-sinterklaas-nirvana-en-nieuwe-prins-dit-kun-je-in-hoorn-doen-dit-weekend-20-t-m-22-november-",
@@ -576,60 +632,6 @@
           "categories": [
             "Nieuws"
           ]
-        },
-        {
-          "title": "‘Juist wat we níét weten, baart me zorgen’ - Sari Spendel (29) is coördinator Jeugdcriminaliteit bij de gemeente Hoorn",
-          "link": "https://www.rodi.nl/hoorn/nieuws/512679/juist-wat-we-niet-weten-baart-me-zorgen-sari-spendel-29-is-coordinator-jeugdcriminaliteit-bij-de-gemeente-hoorn",
-          "pubDate": "Mon, 16 Nov 2026 17:36:29 Z",
-          "description": "HOORN - Wat gebeurt er eigenlijk achter de schermen bij de gemeente? In de rubriek 'In the spotlight: de mensen achter gemeente Hoorn' vertellen medewerkers over hun werk, wat inwoners daar normaal gesproken niet van zien en waarom hun werk belangrijk is voor Hoorn.",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "Westfries Archief krijgt boek over Turkse gemeenschap in Hoorn",
-          "link": "https://www.rodi.nl/hoorn/nieuws/512673/westfries-archief-krijgt-boek-over-turkse-gemeenschap-in-hoorn",
-          "pubDate": "Mon, 16 Nov 2026 16:38:03 Z",
-          "description": "HOORN - Anouk Schoemaker, directeur van het Westfries Archief in Hoorn, heeft het boek 'Turkije in Hoorn, Hoorn is mijn hart' in ontvangst genomen. Senol Ocakli overhandigde het werk woensdagmiddag 11 november aan het archief.",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "Mogelijk gaslek bij woningen in Hoorn, twee huizen uit voorzorg ontruimd",
-          "link": "https://www.rodi.nl/hoorn/112-nieuws/512646/mogelijk-gaslek-bij-woningen-in-hoorn-twee-huizen-uit-voorzorg-ontruimd",
-          "pubDate": "Mon, 16 Nov 2026 14:25:18 Z",
-          "description": "HOORN - Meerdere woningen aan het Breitnerhof in Hoorn zijn maandagmiddag gecontroleerd nadat een mogelijke gaslucht werd gemeld. De brandweer verrichtte metingen in verschillende woningen en bijbehorende kruipruimtes. Uit voorzorg werden twee woningen ontruimd.",
-          "categories": [
-            "112-nieuws"
-          ]
-        },
-        {
-          "title": "Popmuziek en geloof komen samen: pak die microfoon en zing jouw favoriete Top2000-hit in Hoorn",
-          "link": "https://www.rodi.nl/hoorn/uit/512534/popmuziek-en-geloof-komen-samen-pak-die-microfoon-en-zing-jouw-favoriete-top2000-hit-in-hoorn",
-          "pubDate": "Mon, 16 Nov 2026 10:04:23 Z",
-          "description": "HOORN - De Protestantse Gemeente Hoorn organiseert voor de derde keer een Top2000-muziekevent en zoekt zangers en muzikanten van alle leeftijden. Ze kunnen hun favoriete poplied zingen op zondag 13 december in Het Octaaf. Aanmelden kan tot 1 december.",
-          "categories": [
-            "Uit"
-          ]
-        },
-        {
-          "title": "WIN! 2 tickets voor Amsterdam Light Festival met Canal Tours Amsterdam",
-          "link": "https://www.rodi.nl/hoorn/speel-mee/512434/win-2-tickets-voor-amsterdam-light-festival-met-canal-tours-amsterdam-winactie-",
-          "pubDate": "Mon, 16 Nov 2026 08:00:00 Z",
-          "description": "REGIO - Onze hoofdstad schittert deze winter opnieuw als het decor voor lichtkunst. Voor de vijftiende editie van Amsterdam Light Festival zijn nationale en internationale kunstenaars gevraagd wat zij willen presenteren aan de bewoners en bezoekers van de stad. Geen vast verhaal, maar een gesprek met de stad dat ontstaat vanuit tal van perspectieven. En wij mogen kaarten weggeven!",
-          "categories": [
-            "Speel mee"
-          ]
-        },
-        {
-          "title": "WIN! Los de Black Friday Woordzoeker op en maak kans!",
-          "link": "https://www.rodi.nl/hoorn/speel-mee/503775/win-los-de-black-friday-woordzoeker-op-en-maak-kans-winactie-",
-          "pubDate": "Mon, 16 Nov 2026 08:00:00 Z",
-          "description": "REGIO - Black Friday staat voor de deur! Het perfecte moment om jezelf te trakteren op een mooie deal én om kans te maken op een leuke prijs. Daarom hebben we een speciale Black Friday-winactie. En het leukste: je maakt weer kans door lekker te puzzelen!",
-          "categories": [
-            "Speel mee"
-          ]
         }
       ]
     },
@@ -637,6 +639,34 @@
       "id": "streekomroep",
       "label": "Streekomroep",
       "items": [
+        {
+          "title": "GTA VI is uit: hoofdredacteur Erik Bout (66) geeft een review",
+          "link": "https://www.streekomroepwestfriesland.nl/gta-vi-is-uit-hoofdredacteur-erik-bout-66-geeft-een-review/",
+          "pubDate": "Thu, 19 Nov 2026 14:03:55 +0000",
+          "description": "Fans hebben er lang op moeten wachten, maar vandaag was het eindelijk zover. Na dertien jaar is de nieuwe Grand Theft Auto-game uitgekomen. In het spel bevinden gamers zich in een fictieve open wereld gebaseerd op Miami. Met hoofdpersonages Jason en Lucia verken je de virtuele wereld en begeef je je in criminele circuits. Al weken gaat het over het nieuwe spel. Massaal nemen gamers vrij van hun werk om de game te kunnen spelen. Bij ons op redactie was echter iedereen aanwezig en nam redacteur Hein Keur zijn spelcomputer mee om hoofdredacteur Erik Bout een voorproefje te geven. Bekijk Erik zijn reactie hier: Dit bericht op Instagram bekijken Een bericht gedeeld door Streekomroep West-Frieslan",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
+        {
+          "title": "Commissaris van de Koning bezoekt Opmeer: \"In een kleine gemeente is het leven grootser\"",
+          "link": "https://www.streekomroepwestfriesland.nl/commissaris-van-de-koning-bezoekt-opmeer-in-een-kleine-gemeente-is-het-leven-grootser/",
+          "pubDate": "Thu, 19 Nov 2026 12:56:01 +0000",
+          "description": "Commissaris van de Koning Arthur van Dijk heeft woensdag een officieel bezoek gebracht aan de gemeente Opmeer. Tijdens gesprekken met het gemeentebestuur, inwoners en vertegenwoordigers van het verenigingsleven stond de leefbaarheid van de kleine kernen centraal. Ook bezocht hij Aartswoud, waar de saamhorigheid volgens inwoners een belangrijke rol speelt. Burgemeester Herman Wiersema ontving de commissaris. Hij vertelde wat Opmeer volgens hem bijzonder maakt. “De sociale samenhang en korte lijnen tussen bestuur en samenleving zijn factoren die horen bij het samenleven in de kleine gemeente die Opmeer is. En dat gewone, dat willen we behouden. Want dat is onze grote kracht.” Tijdens het gespr",
+          "categories": [
+            "Kunst & cultuur",
+            "Politiek"
+          ]
+        },
+        {
+          "title": "Kraanwagen kukelt van dijk af, bestuurder met schrik vrij",
+          "link": "https://www.streekomroepwestfriesland.nl/kraanwagen-kukelt-van-dijk-af-bestuurder-met-schrik-vrij/",
+          "pubDate": "Thu, 19 Nov 2026 11:13:00 +0000",
+          "description": "Een kraanwagen is vanochtend van de Walingsdijk in Ursem gereden en op de zijkant beland. Wonder boven wonder raakte de chauffeur niet gewond. Het ongeluk werd rond 11.05 gemeld bij de meldkamer. Een politiewoordvoerder vertelt dat de bestuurder door nog onbekende oorzaak van de dijk raakte en vervolgens op de zijkant naast de weg belandde. De bestuurder kon op eigen kracht zijn wagen verlaten en raakte niet gewond. Wel is de berm naast de weg flink beschadigd en zijn er een paar borden kapotgegaan. Daar is de gemeente inmiddels ook van op de hoogte, vertelt de woordvoerder. Er waren geen andere voertuigen betrokken bij het ongeval. The post Kraanwagen kukelt van dijk af, bestuurder met schr",
+          "categories": [
+            "112"
+          ]
+        },
         {
           "title": "Talland College en AZ sluiten samenwerking om stagekansen voor mbo-studenten te vergroten",
           "link": "https://www.streekomroepwestfriesland.nl/talland-college-en-az-sluiten-samenwerking-om-stagekansen-voor-mbo-studenten-te-vergroten/",
@@ -701,35 +731,6 @@
           "categories": [
             "Geschiedenis",
             "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Einde aan een lange zoektocht: Koggenland neemt 149 asielzoekers op in Avenhorn",
-          "link": "https://www.streekomroepwestfriesland.nl/einde-aan-een-lange-zoektocht-koggenland-neemt-149-asielzoekers-op-in-avenhorn/",
-          "pubDate": "Tue, 17 Nov 2026 12:10:00 +0000",
-          "description": "De gemeente Koggenland gaat 149 asielzoekers opvangen, voor een periode van maximaal 5 jaar. Dit gebeurt aan de Julianastraat in Avenhorn, waar eerder ook al een tijdelijke crisisnoodopvang stond. Hiermee komt een einde aan een lange zoektocht voor een geschikte locatie, die meer dan twee jaar in beslag nam. Hiermee voldoet Koggenland aan de Spreidingswet, die gemeenten verplicht om asielzoekers zo eerlijk mogelijk over alle Nederlandse gemeenten te verdelen. Koggenland-burgemeester Pieter van Maaren: \"Met het besluit van de gemeenteraad kunnen we de komende tijd samen invulling geven aan de locatie: hoe we die inrichten, hoe we zorgen voor veiligheid en hoe het dagelijks leven er straks uit",
-          "categories": [
-            "Politiek",
-            "Verkeer & wonen"
-          ]
-        },
-        {
-          "title": "In Beeld: Popronde Hoorn brengt de stad tot leven met grootste editie ooit",
-          "link": "https://www.streekomroepwestfriesland.nl/in-beeld-popronde-hoorn-brengt-de-stad-tot-leven-grootste-editie-ooit/",
-          "pubDate": "Tue, 17 Nov 2026 09:41:06 +0000",
-          "description": "De Hoornse binnenstad stond zondag 15 november volledig in het teken van muziek. Tijdens de elfde editie van Popronde Hoorn veranderde de stad in één groot podium. Met 22 deelnemende locaties en 45 geplande optredens was het de grootste editie die Hoorn tot nu toe heeft gekend. Van kleine, intieme optredens tot stevige gitaren en energieke bands: op allerlei plekken in de stad viel muziek te ontdekken. Bezoekers konden terecht in cafés en winkels, maar ook op bijzondere locaties zoals de historische Oosterkerk en Schouwburg Het Park. Alle optredens waren gratis toegankelijk. De muzikale dag begon al vroeg met korte previews bij De Beiaard en Muziekschool Boedijn. Daar konden bezoekers alvast",
-          "categories": [
-            "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Nepagenten en andere (online) oplichting groeiend probleem: \"We moeten ons wapenen\"",
-          "link": "https://www.streekomroepwestfriesland.nl/nepagenten-en-andere-online-oplichting-groeiend-probleem-we-moeten-ons-wapenen/",
-          "pubDate": "Mon, 16 Nov 2026 17:00:00 +0000",
-          "description": "Alleen al in de eerste tien maanden van dit jaar waren er in Noord-Holland 1.708 incidenten met nepagenten. Deze criminelen hebben het vaak op ouderen gemunt. Organisatie NH Veilig leert inwoners zich hiertegen te weren door middel van informatieavonden. De avonden worden drukbezocht: \"Het leeft enorm.\" Uit onderzoek van NH, NOS en de andere regionale omroepen werd eerder vandaag bekend dat het aantal incidenten met nepagenten nog altijd stijgt . De politie telde dit jaar in Nederland tot nu toe ruim 14.000 incidenten, waarvan alleen al 1.708 in Noord-Holland. In ongeveer een kwart van de gevallen wordt er aangifte gedaan. Oplichting met nepagenten, zogenaamde bankmedewerkers of via de mail ",
-          "categories": [
-            "112",
-            "Misdaad & straf"
           ]
         }
       ]
