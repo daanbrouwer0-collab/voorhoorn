@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T16:25:10.910Z",
+  "updated": "2026-11-19T01:10:19.956Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -115,17 +115,31 @@
       "label": "Hoornsdagblad",
       "items": [
         {
-          "title": "Wat komt er kijken bij het regelen van een begrafenis?",
-          "link": "https://www.hoornsdagblad.nl/algemeen/wat-komt-er-kijken-bij-het-regelen-van-een-begrafenis",
-          "pubDate": "Wed, 18 Nov 2026 15:28:28 +0100",
-          "description": "Wanneer een dierbare overlijdt, staat de wereld voor de nabestaanden even helemaal stil. Het is een periode van intens verdriet, terwijl er tegelijkertijd in een kort tijdsbestek ontzettend veel geregeld moet worden voor het afscheid. Dat kan behoorlijk overweldigend aanvoelen. Wat zijn eigenlijk [...]",
+          "title": "Brand in distributiecentrum Action in Zwaagdijk-Oost, pand ontruimd",
+          "link": "https://www.hoornsdagblad.nl/112-hoorn/brand-in-distributiecentrum-action-in-zwaagdijk-oost-pand-ontruimd",
+          "pubDate": "Wed, 18 Nov 2026 21:57:51 +0100",
+          "description": "ZWAAGDIJK-OOST - In het distributiecentrum van Action aan de Nieuweweg in Zwaagdijk-Oost is woensdagavond brand uitgebroken. De brandweer heeft vanwege de situatie opgeschaald naar middelbrand.De brandweer is met meerdere eenheden ter plaatse gekomen om de brand te bestrijden.Medewerkers staan [...]",
           "categories": []
         },
         {
           "title": "Facilitaire Dienstverlening Heerhugowaard: Een schoon pand. Duidelijke afspraken.",
           "link": "https://www.hoornsdagblad.nl/regio/facilitaire-dienstverlening-heerhugowaard-een-schoon-pand-duidelijke-afspraken",
-          "pubDate": "Wed, 18 Nov 2026 11:30:54 +0100",
+          "pubDate": "Wed, 18 Nov 2026 16:30:54 +0100",
           "description": "HEERHUGOWAARD - Geen verkooppraatjes of eindeloze doorkiesnummers, maar korte lijnen, vakkennis en een flinke dosis no-nonsense. Op deze manier runt Barry Zwaan al sinds 2015 een succesvol schoonmaak- en glazenwassersbedrijf. Samen met het team van Facilitaire Dienstverlening Heerhugowaard zorgen [...]",
+          "categories": []
+        },
+        {
+          "title": "Noord-Holland: €4 miljoen voor energiecontroles bedrijven",
+          "link": "https://www.hoornsdagblad.nl/algemeen/noord-holland-sluit-energiebesparingsakkoord-4-miljoen-extra-voor-toezicht-en-handhaving",
+          "pubDate": "Wed, 18 Nov 2026 15:43:18 +0100",
+          "description": "NOORD-HOLLAND - Alle Noord-Hollandse gemeenten en de provincie hebben op 18 november het Energiebesparingsakkoord 2027–2030 ondertekend. Met dit akkoord werken zij samen aan de naleving van de wettelijke energiebesparingsplicht. Omdat daarvoor extra toezicht en handhaving nodig is, stelt de [...]",
+          "categories": []
+        },
+        {
+          "title": "Wat komt er kijken bij het regelen van een begrafenis?",
+          "link": "https://www.hoornsdagblad.nl/algemeen/wat-komt-er-kijken-bij-het-regelen-van-een-begrafenis",
+          "pubDate": "Wed, 18 Nov 2026 15:28:28 +0100",
+          "description": "Wanneer een dierbare overlijdt, staat de wereld voor de nabestaanden even helemaal stil. Het is een periode van intens verdriet, terwijl er tegelijkertijd in een kort tijdsbestek ontzettend veel geregeld moet worden voor het afscheid. Dat kan behoorlijk overweldigend aanvoelen. Wat zijn eigenlijk [...]",
           "categories": []
         },
         {
@@ -238,20 +252,6 @@
           "link": "https://www.hoornsdagblad.nl/regio/uitgeverij-doornwater-onthult-cover-van-rijk-geillustreerd-boek-over-the-cats",
           "pubDate": "Mon, 16 Nov 2026 09:14:38 +0100",
           "description": "VOLENDAM - Pophistoricus Leo Weijers brengt in TIMES WERE WHEN het verhaal van The Cats én de veelzijdige muziekgeschiedenis van Volendam samen. Het boek verschijnt op 20 maart 2027 als hardcover op A4-formaat.Een hand trekt een kleurrijke platenhoes van The Cats uit een bak vol elpees. Met dat [...]",
-          "categories": []
-        },
-        {
-          "title": "Gehavend Hollandia onderuit tegen Hoogeveen",
-          "link": "https://www.hoornsdagblad.nl/sport/gehavend-hollandia-onderuit-tegen-hoogeveen",
-          "pubDate": "Sun, 15 Nov 2026 22:55:21 +0100",
-          "description": "HOORN - Ondanks een drietal schorsingen en nog enkele afwezigen gaf Hollandia zondag prima partij aan Hoogeveen. Het was dan ook des te zuurder dat de ploeg van trainer Michael Lanting met lege handen bleef.De thuisploeg kwam in de eerste helft op voorsprong via Danilo van der Woude, die op [...]",
-          "categories": []
-        },
-        {
-          "title": "Zwaluwen '30 doet snel zaken in Obdam",
-          "link": "https://www.hoornsdagblad.nl/sport/zwaluwen-30-doet-snel-zaken-in-obdam",
-          "pubDate": "Sun, 15 Nov 2026 22:16:58 +0100",
-          "description": "OBDAM - Zwaluwen '30 is opgeklommen naar de derde plaats in de Derde Klasse A. De ploeg van trainer John-Paul van der Gracht boekte zaterdag een overtuigende zege op bezoek bij het laaggeklasseerde Victoria O: 0-4.In Obdam deed de Hoornse formatie bijzonder snel zaken, want reeds binnen het half [...]",
           "categories": []
         }
       ]
@@ -406,6 +406,15 @@
       "id": "rodi",
       "label": "Rodi Hoorn",
       "items": [
+        {
+          "title": "Stoomtram naar Sinterklaas, Nirvana en nieuwe prins: dit kun je in Hoorn doen dit weekend! (20 t/m 22 november)",
+          "link": "https://www.rodi.nl/hoorn/uit/512886/stoomtram-naar-sinterklaas-nirvana-en-nieuwe-prins-dit-kun-je-in-hoorn-doen-dit-weekend-20-t-m-22-november-",
+          "pubDate": "Wed, 18 Nov 2026 20:46:00 Z",
+          "description": "HOORN - Ook dit weekend, van vrijdag 20 tot en met zondag 22 november, is er weer genoeg te beleven in Hoorn en omgeving. Zo wordt het nieuwe carnavalsdecorum bekendgemaakt in Blokker, kun je genieten van bekende Engelstalige hits in Theater Het Pakhuis en staat Huis Verloren helemaal in het teken van Sinterklaas. Ook muziekliefhebbers en kunstliefhebbers komen aan hun trekken. Dit is er allemaal te doen!",
+          "categories": [
+            "Uit"
+          ]
+        },
         {
           "title": "Reizigers opgelet: streekvervoer ligt maandag en dinsdag opnieuw plat door staking",
           "link": "https://www.rodi.nl/hoorn/nieuws/512999/reizigers-opgelet-streekvervoer-ligt-maandag-en-dinsdag-opnieuw-plat-door-staking",
@@ -620,15 +629,6 @@
           "description": "REGIO - Black Friday staat voor de deur! Het perfecte moment om jezelf te trakteren op een mooie deal én om kans te maken op een leuke prijs. Daarom hebben we een speciale Black Friday-winactie. En het leukste: je maakt weer kans door lekker te puzzelen!",
           "categories": [
             "Speel mee"
-          ]
-        },
-        {
-          "title": "Kitten Mina die werd gered uit ondergrondse container in Hoorn alsnog overleden, dierenpolitie start onderzoek",
-          "link": "https://www.rodi.nl/hoorn/112-nieuws/512469/kitten-mina-die-werd-gered-uit-ondergrondse-container-in-hoorn-alsnog-overleden-dierenpolitie-start-onderzoek",
-          "pubDate": "Sat, 14 Nov 2026 17:37:11 Z",
-          "description": "HOORN - Dierenambulance Hoorn e.o. heeft vorige week vrijdag een kitten uit een ondergrondse container gered. Het dier werd gevonden in een vuilniszak in de container.",
-          "categories": [
-            "112-nieuws"
           ]
         }
       ]
