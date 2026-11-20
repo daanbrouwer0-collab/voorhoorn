@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T16:31:27.431Z",
+  "updated": "2026-11-20T01:14:31.480Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -640,6 +640,16 @@
       "label": "Streekomroep",
       "items": [
         {
+          "title": "Liberté: Parijs & Amsterdam – In de voetsporen van Napoleon",
+          "link": "https://www.streekomroepwestfriesland.nl/liberte-parijs-amsterdam-in-de-voetsporen-van-napoleon/",
+          "pubDate": "Thu, 19 Nov 2026 17:00:00 +0000",
+          "description": "Napoleon Bonaparte, ooit de machtigste man op aarde, maakte in 1811 een reis door Noord-Holland als onderdeel van zijn inspectiereis aan de lage landen. Wie was deze man? Welke plaatsen bezocht Napoleon in Noord-Holland? En welke invloeden uit zijn rijk zien we nog terug in de huidige tijd? Presentator Gerben Bakker is gefascineerd door de oud-keizer uit Frankrijk, en volgt dezelfde reis door onze provincie voor het programma Liberté. In deze eerste aflevering van de achtdelige serie begint de Hoornse Gerben bij het graf van Napoleon Bonaparte in Parijs. Daarnaast spreekt hij met Jan Versteeg, tot september 2026 de Nederlandse ambassadeur in Frankrijk. Vervolgens wordt met een oude Franse au",
+          "categories": [
+            "Geschiedenis",
+            "Kunst & cultuur"
+          ]
+        },
+        {
           "title": "GTA VI is uit: hoofdredacteur Erik Bout (66) geeft een review",
           "link": "https://www.streekomroepwestfriesland.nl/gta-vi-is-uit-hoofdredacteur-erik-bout-66-geeft-een-review/",
           "pubDate": "Thu, 19 Nov 2026 14:03:55 +0000",
@@ -721,16 +731,6 @@
           "description": "Het college van burgemeester en wethouders van Opmeer heeft in een raadsbrief laten weten dat het een taskforce opzet die gaat controleren of projecten financieel niet uit de hand lopen. Aanleiding was de overschrijding van het krediet voor de verduurzaming van het gemeentehuis. Volgens het college is bij de start van het project \"de projectleider zeer voortvarend te werk gegaan, maar niet conform de opdracht.” Dat resulteerde in een overschrijding van ruim € 250.000. Het college wil daarom dat een taskforce de opdracht krijgt om huidige projecten onder de loep te nemen en te controleren. Om daarmee de controle terug te krijgen over de uitvoering van projecten. “Mogelijk zijn op andere dossi",
           "categories": [
             "Politiek"
-          ]
-        },
-        {
-          "title": "Vereniging Oud Hoorn wil slavernijverleden meer zichtbaar maken en hoopt nog steeds op excuses gemeente",
-          "link": "https://www.streekomroepwestfriesland.nl/vereniging-oud-hoorn-wil-slavernijverleden-meer-zichtbaar-maken-en-hoopt-nog-steeds-op-excuses-gemeente/",
-          "pubDate": "Tue, 17 Nov 2026 15:20:00 +0000",
-          "description": "Na jaren van discussie en uitblijvende excuses krijgt het slavernijverleden van Hoorn opnieuw aandacht. Met een symposium in de Noorderkerk en een jongerenproject wil Vereniging Oud Hoorn het verleden zichtbaarder en bespreekbaar maken. Initiatiefnemer Arnoud Schaake vertelt bij de Tafel van Knook dat hij hoopt dat de aandacht uiteindelijk ook leidt tot excuses van de gemeente. \"Ze komen ooit.\" \"Nadat het prachtige onderzoek is verschenen over de relatie tussen Hoorn en het slavernijverleden constateerden wij dat er stilte was\", begint Schaake. \"Er was een discussie over wel of niet excuses aanbieden. Die excuses bleven uit. Overal in het land waren bijeenkomsten en in Hoorn was het stil.\" V",
-          "categories": [
-            "Geschiedenis",
-            "Kunst & cultuur"
           ]
         }
       ]
