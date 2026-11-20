@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T01:14:31.480Z",
+  "updated": "2026-11-20T16:05:30.157Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -117,6 +117,20 @@
       "label": "Hoornsdagblad",
       "items": [
         {
+          "title": "Kerst Samen: een warme plek aan tafel voor wie dat goed kan gebruiken",
+          "link": "https://www.hoornsdagblad.nl/regio/kerst-samen-een-warme-plek-aan-tafel-voor-wie-dat-goed-kan-gebruiken",
+          "pubDate": "Fri, 20 Nov 2026 08:53:51 +0100",
+          "description": "HOORN - Kerst is voor velen een tijd van warmte, gezelligheid en samenzijn. Echter niet voor iedereen zijn de feestdagen vanzelfsprekend een fijne periode. Juist dan kan het gemis aan gezelschap of verbinding extra voelbaar zijn. Daarom organiseren Avontuur-BlachereNL, Precovery, Stichting [...]",
+          "categories": []
+        },
+        {
+          "title": "Meer nascheiding, minder inzameling van plastic, metaal en drankkartons",
+          "link": "https://www.hoornsdagblad.nl/algemeen/meer-nascheiding-minder-inzameling-van-plastic-metaal-en-drankkartons",
+          "pubDate": "Fri, 20 Nov 2026 07:51:41 +0100",
+          "description": "NEDERLAND - Bijna 60 procent van de gemeenten koos in 2025 voor de gedeeltelijke of volledige nascheiding van restafval. Twee jaar eerder, toen er voor het eerst cijfers over nascheiding beschikbaar waren, was dit nog een kwart van de gemeenten. Het aantal gemeenten dat pmd (plastic verpakkingen, [...]",
+          "categories": []
+        },
+        {
           "title": "Dit zijn de nominaties voor de Parkvakanties Awards 2027",
           "link": "https://www.hoornsdagblad.nl/vakantie/dit-zijn-de-nominaties-voor-de-parkvakanties-awards-2027",
           "pubDate": "Thu, 19 Nov 2026 10:15:00 +0100",
@@ -222,6 +236,13 @@
           "categories": []
         },
         {
+          "title": "Thuisbatterij wint aan populariteit door naderend einde salderingsregeling",
+          "link": "https://www.hoornsdagblad.nl/wonen/thuisbatterij-wint-aan-populariteit-door-naderend-einde-salderingsregeling",
+          "pubDate": "Tue, 17 Nov 2026 07:41:14 +0100",
+          "description": "NEDERLAND - De thuisbatterij is bezig aan een opmars in Nederland. Steeds meer huishoudens met zonnepanelen onderzoeken de mogelijkheid om zelf opgewekte elektriciteit op te slaan. De belangrijkste aanleiding is het verdwijnen van de salderingsregeling per 1 januari 2027. Vanaf dat moment wordt het [...]",
+          "categories": []
+        },
+        {
           "title": "Ruim een kwart meer mkb-bedrijven afgelopen 5 jaar",
           "link": "https://www.hoornsdagblad.nl/algemeen/ruim-een-kwart-meer-mkb-bedrijven-afgelopen-5-jaar",
           "pubDate": "Tue, 17 Nov 2026 07:39:03 +0100",
@@ -233,27 +254,6 @@
           "link": "https://www.hoornsdagblad.nl/sport/oranje-hard-onderuit-tegen-duitsland-in-berlijn",
           "pubDate": "Mon, 16 Nov 2026 22:39:53 +0100",
           "description": "BERLIJN - Het Nederlands elftal heeft enkele dagen na de overtuigende 7-0 overwinning op Griekenland een zware nederlaag geleden tegen Duitsland. De ploeg van bondscoach Xavi Hernández verloor in Berlijn met 5-0 en kon geen moment het niveau van de wedstrijd in Amsterdam benaderen. Met de nederlaag [...]",
-          "categories": []
-        },
-        {
-          "title": "XYTO Media zoekt zelfstandige accountmanagers!",
-          "link": "https://www.hoornsdagblad.nl/vacatures/xyto-media-zoekt-zelfstandige-accountmanagers",
-          "pubDate": "Mon, 16 Nov 2026 17:55:00 +0100",
-          "description": "Ben jij een geboren verkoper, werk je als zzp'er en zoek je een opdracht met impact? Ga met ons de samenwerking aan! Wij zoeken zelfstandige accountmanagers die samen met ons mediaplatforms laten groeien die dagelijks miljoenen mensen bereiken.Over XYTO MediaXYTO Media is een ambitieuze uitgeverij [...]",
-          "categories": []
-        },
-        {
-          "title": "Groom Night bij Hoes Tailors",
-          "link": "https://www.hoornsdagblad.nl/trouwspecial/groom-night-bij-hoes-tailors",
-          "pubDate": "Mon, 16 Nov 2026 17:06:26 +0100",
-          "description": "ALKMAAR - Is 2027 het jaar dat je in het huwelijksbootje stapt? Dan hebben wij bij Hoes Tailors een geweldig evenement voor jou. Op 11 december van 19:00 tot 21:30 organiseren wij Groom Night. Dit is een exclusieve men only night, speciaal voor jou als aanstaande bruidegom. Even een avond geen [...]",
-          "categories": []
-        },
-        {
-          "title": "Dinsdag 24 november Open Dag Vonk-mbo",
-          "link": "https://www.hoornsdagblad.nl/regio/dinsdag-24-november-open-dag-vonk-mbo",
-          "pubDate": "Mon, 16 Nov 2026 14:35:59 +0100",
-          "description": "ALKMAAR - Voor veel leerlingen breekt binnenkort een spannende periode aan: het kiezen van een vervolgopleiding. Een keuze die invloed heeft op de komende jaren en die vaak niet in één keer gemaakt is. Juist daarom is het waardevol om samen op ontdekkingstocht te gaan. Open dag Vonk-mbo op 24 [...]",
           "categories": []
         }
       ]
@@ -408,6 +408,24 @@
       "id": "rodi",
       "label": "Rodi Hoorn",
       "items": [
+        {
+          "title": "Kerst Samen in Oosterkerk Hoorn: gratis kerstdiner in voor wie extra gezelschap kan gebruiken",
+          "link": "https://www.rodi.nl/hoorn/nieuws/513220/kerst-samen-in-oosterkerk-hoorn-gratis-kerstdiner-in-voor-wie-extra-gezelschap-kan-gebruiken",
+          "pubDate": "Fri, 20 Nov 2026 15:28:23 Z",
+          "description": "HOORN - Vier organisaties houden zaterdag 19 december Kerst Samen: een gratis kerstdiner voor maximaal 150 gasten in de Oosterkerk aan het Grote Oost in Hoorn. Het diner is bedoeld voor mensen die extra gezelschap of aandacht kunnen gebruiken.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Hoorn scoort onvoldoende voor openbare toiletten: 3,4 op landelijke ranglijst",
+          "link": "https://www.rodi.nl/hoorn/nieuws/513205/hoorn-scoort-onvoldoende-voor-openbare-toiletten-3-4-op-landelijke-ranglijst",
+          "pubDate": "Fri, 20 Nov 2026 14:07:57 Z",
+          "description": "HOORN - Wie tijdens het winkelen, wandelen of een bezoek aan de binnenstad dringend naar het toilet moet, kan niet overal gemakkelijk terecht. Dat blijkt uit de Ranglijst WC-Vriendelijkheid 2026 van het MDL Fonds. Hoorn krijgt een 3,4 en eindigt daarmee op plek 205 van de 342 gemeenten.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
         {
           "title": "Meester Kees (72) maakt na pensioen weer Sinterklaasjournaal voor Kindcentrum Klipper in Hoorn",
           "link": "https://www.rodi.nl/hoorn/nieuws/513153/meester-kees-72-maakt-na-pensioen-weer-sinterklaasjournaal-voor-kindcentrum-klipper-in-hoorn",
@@ -614,24 +632,6 @@
           "categories": [
             "Nieuws"
           ]
-        },
-        {
-          "title": "Sociaal Hoorn/Team Tonnaer vraagt om aanpak ‘onveilige’ kruising Van Aalstweg",
-          "link": "https://www.rodi.nl/hoorn/politiek/512757/sociaal-hoorn-team-tonnaer-vraagt-om-aanpak-onveilige-kruising-van-aalstweg",
-          "pubDate": "Tue, 17 Nov 2026 11:57:16 Z",
-          "description": "HOORN - Sociaal Hoorn/Team Tonnaer maakt zich zorgen over de verkeersveiligheid op de kruising van de dr. C.J.K. van Aalstweg bij woonboulevard Hof van Hoorn. Volgens de fractie ervaren fietsers en automobilisten de situatie als onoverzichtelijk en onveilig. De partij vraagt het college te onderzoeken welke maatregelen mogelijk zijn.",
-          "categories": [
-            "Politiek"
-          ]
-        },
-        {
-          "title": "Musical Popkoor Broadway uit Hoorn wint 11.000 euro in tv-quiz Hitster",
-          "link": "https://www.rodi.nl/hoorn/nieuws/512680/musical-popkoor-broadway-uit-hoorn-wint-11-000-euro-in-tv-quiz-hitster",
-          "pubDate": "Mon, 16 Nov 2026 18:12:12 Z",
-          "description": "HOORN - Musical Popkoor Broadway uit Hoorn won zaterdag 14 november 11.000 euro in het RTL 4-programma Hitster. Sanne Wallis de Vries en Thomas Cammaert speelden voor het koor en plaatsten in de finale elf van de elf hits goed.",
-          "categories": [
-            "Nieuws"
-          ]
         }
       ]
     },
@@ -639,6 +639,24 @@
       "id": "streekomroep",
       "label": "Streekomroep",
       "items": [
+        {
+          "title": "Prikkelarme Pieten Expres maakt Sinterklaasfeest toegankelijk voor iedereen",
+          "link": "https://www.streekomroepwestfriesland.nl/prikkelarme-pieten-expres-maakt-sinterklaasfeest-toegankelijk-voor-iedereen/",
+          "pubDate": "Fri, 20 Nov 2026 15:59:00 +0000",
+          "description": "Een ritje met de Pieten Expres is normaal gesproken een feest vol muziek en drukte. Dit kan voor kinderen die gevoelig zijn voor prikkels, soms wat te veel zijn. Daarom organiseerde de Museumstoomtram Hoorn-Medemblik op woensdag 18 november een speciale prikkelarme Pieten Expres. Tijdens deze rit werd het programma op verschillende punten aangepast. Volgens Julia Aker, teamleider Verkoop en Administratie bij de Museumstoomtram, is het belangrijk dat iedereen de kans krijgt om aan dit soort activiteiten mee te doen. \"We hebben het bezoekersaantal gehalveerd, de muziek staat nu uit en er is in de tram een rustruimte aanwezig\", licht ze toe. Op die manier konden ook kinderen die gevoelig zijn v",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
+        {
+          "title": "Weesauto in Hoorn: waarom staat dit voertuig al maanden stil op het Kerkplein?",
+          "link": "https://www.streekomroepwestfriesland.nl/weesautos-in-hoorn-waarom-staat-dit-voertuig-al-maanden-stil-op-het-kerkplein/",
+          "pubDate": "Fri, 20 Nov 2026 14:32:33 +0000",
+          "description": "Een auto die maandenlang op dezelfde plek blijft staan met een zachte band en een groeiende laag vuil eromheen: volgens de gemeente Hoorn gaat het om een zogenaamde weesauto. Op het Kerkplein staat al geruime tijd een Mercedes uit 2007 stil, maar de gemeente kan de auto niet zomaar wegslepen. Wanneer een voertuig langere tijd stilstaat op de openbare weg, kan deze worden aangemerkt als een mogelijk weesvoertuig. Volgens de gemeente Hoorn is dit officieel iets anders dan een autowrak, waardoor er een vast protocol met strikte termijnen geldt. Na de eerste melding op 11 oktober kreeg de eigenaar via een gele waarschuwingssticker op de voorruit eerst de kans om de auto zelf weg te halen. Pas al",
+          "categories": [
+            "Verkeer & wonen"
+          ]
+        },
         {
           "title": "Liberté: Parijs & Amsterdam – In de voetsporen van Napoleon",
           "link": "https://www.streekomroepwestfriesland.nl/liberte-parijs-amsterdam-in-de-voetsporen-van-napoleon/",
@@ -712,25 +730,6 @@
           "description": "Het boek van debuterende schrijfster Anniek Stroomer, 'DE VROUW. Voor mannen die er geen k*t van snappen', maakt de nodige tongen los. Dat vertelde ze zaterdag in het programma De Tafel van Knook. Door humor en een luchtige schrijfstijl probeert ze mannen meer te betrekken, zonder hen te veroordelen. \"Het is een soort biologie voor volwassenen\", vertelt Anniek. Stroomer groeide op in De Weere, gemeente Opmeer. Ze noemt zichzelf een echte Weerenees. Voor het boek verzamelde ze uitspraken en opmerkingen die ze van mannen in haar omgeving hoorde. Die vormden de basis voor korte, toegankelijke uitleg over onderwerpen als anticonceptie, hormonen en menstruatie. \"Als ik af en toe met vrienden spra",
           "categories": [
             "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Dorp in verdomhoekje: geen café, geen woningbouw en 12 jaar wachten op nieuw dorpshuis",
-          "link": "https://www.streekomroepwestfriesland.nl/dorp-in-verdomhoekje-geen-cafe-geen-woningbouw-en-12-jaar-wachten-op-nieuw-dorpshuis/",
-          "pubDate": "Tue, 17 Nov 2026 17:00:00 +0000",
-          "description": "Inwoners van Abbekerk zagen café-restaurant Het Bonte Paard al verdwijnen, door de geplande woningbouw ging een streep en op een nieuw dorpshuis wordt al 12 jaar gewacht. Abbekerk zit in het verdomhoekje. \"Nog even en we zijn een openluchtmuseum.\" 'Hier komt het nieuwe hart van Abbekerk-Lambertschaag', staat groot op de gevel van dorpshuis 'De Nieuwe Haven' te lezen. De boodschap van de gemeente Medemblik duidt op de komst van een nieuw onderkomen, alleen is de vraag al jaren: wanneer gaat deze er komen? Want al in 2014 – nu 12 jaar geleden – waren er de eerste plannen voor een nieuw dorpshuis, door voorzitter René Veerman omschreven als 'de huiskamer van Abbekerk'. Jarenlang overleg over ee",
-          "categories": [
-            "Kunst & cultuur",
-            "Werk & economie"
-          ]
-        },
-        {
-          "title": "Gemeente Opmeer wil de controle terug over uit de hand gelopen projecten, start met een taskforce",
-          "link": "https://www.streekomroepwestfriesland.nl/gemeente-opmeer-wil-de-controle-terug-over-uit-de-hand-gelopen-projecten-start-met-een-taskforce/",
-          "pubDate": "Tue, 17 Nov 2026 15:49:27 +0000",
-          "description": "Het college van burgemeester en wethouders van Opmeer heeft in een raadsbrief laten weten dat het een taskforce opzet die gaat controleren of projecten financieel niet uit de hand lopen. Aanleiding was de overschrijding van het krediet voor de verduurzaming van het gemeentehuis. Volgens het college is bij de start van het project \"de projectleider zeer voortvarend te werk gegaan, maar niet conform de opdracht.” Dat resulteerde in een overschrijding van ruim € 250.000. Het college wil daarom dat een taskforce de opdracht krijgt om huidige projecten onder de loep te nemen en te controleren. Om daarmee de controle terug te krijgen over de uitvoering van projecten. “Mogelijk zijn op andere dossi",
-          "categories": [
-            "Politiek"
           ]
         }
       ]
