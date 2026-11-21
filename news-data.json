@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T15:18:48.017Z",
+  "updated": "2026-11-21T23:46:38.054Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -116,6 +116,20 @@
       "id": "hoornsdagblad",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Hollandia doet zichzelf tekort bij DOVO",
+          "link": "https://www.hoornsdagblad.nl/sport/hollandia-doet-zichzelf-tekort-bij-dovo",
+          "pubDate": "Sat, 21 Nov 2026 22:07:52 +0100",
+          "description": "VEENENDAAL - Door een handvol kansen onbenut te laten heeft Hollandia zichzelf duidelijk tekort gedaan in de uitwedstrijd tegen directe concurrent DOVO. De ploeg van trainer Michael Lanting verloor uiteindelijk in het slotkwartier met 2-0.Vizier niet op scherpOp Sportpark Panhuis in Veenedaal was [...]",
+          "categories": []
+        },
+        {
+          "title": "ZVV Zwaag moet werken voor de punten",
+          "link": "https://www.hoornsdagblad.nl/sport/zvv-zwaag-moet-werken-voor-de-punten",
+          "pubDate": "Sat, 21 Nov 2026 19:09:03 +0100",
+          "description": "ZWAAG - In de 1e Divisie Futsal heeft ZVV Zwaag de koppositie met succes verdedigd al ging dat in de thuiswedstrijd tegen ZVV Amsterdam met meer moeite dan de laatste weken het geval was. De formatie van coach Sander van Dijk maakte een 1-2 achterstand ongedaan en won met 4-2.ZVV Zwaag scoorde in [...]",
+          "categories": []
+        },
         {
           "title": "Veiligheidsregio onthult meerdere nieuwe brandweervoertuigen in Opmeer",
           "link": "https://www.hoornsdagblad.nl/regio/veiligheidsregio-onthult-meerdere-nieuwe-brandweervoertuigen-in-opmeer",
@@ -241,20 +255,6 @@
           "pubDate": "Tue, 17 Nov 2026 15:57:33 +0100",
           "description": "\"Ik hou ontzettend veel van mijn partner, maar ik trek het gewoon niet meer.\"Het is een uitspraak die relatiecoach Saskia Karels regelmatig hoort in haar praktijk.Mensen die al jarenlang samen zijn. Die een gezin hebben opgebouwd, mooie herinneringen delen en helemaal niet uit elkaar willen.En toch [...]",
           "categories": []
-        },
-        {
-          "title": "Bach Ensemble Amsterdam brengt kerstmagie weer terug naar Hoorn",
-          "link": "https://www.hoornsdagblad.nl/uitgaan/bach-ensemble-amsterdam-brengt-kerstmagie-weer-terug-naar-hoorn",
-          "pubDate": "Tue, 17 Nov 2026 15:33:54 +0100",
-          "description": "HOORN - Liefhebbers van klassieke muziek kunnen deze kerstperiode hun hart ophalen in Hoorn. Na een zeer succesvolle editie vorig jaar keert het Bach Ensemble Amsterdam onder leiding van Paulien Kostense op zondag 13 december terug naar de Oosterkerk voor een sfeervol en uitbundig kerstconcert. [...]",
-          "categories": []
-        },
-        {
-          "title": "Samen bouwen aan de toekomst van sportpark Middelweg",
-          "link": "https://www.hoornsdagblad.nl/gemeente/samen-bouwen-aan-de-toekomst-van-sportpark-middelweg",
-          "pubDate": "Tue, 17 Nov 2026 14:42:39 +0100",
-          "description": "HOORN - Sportpark Middelweg kan uitgroeien tot een open, groen en toekomstbestendig wijksportpark voor de Grote Waal en aangrenzende wijken. Deze toekomstvisie heeft de gemeente in de Sportparkennota 2035 vastgelegd. De volgende stap is het samen met geïnteresseerde partijen uitwerken van een [...]",
-          "categories": []
         }
       ]
     },
@@ -262,6 +262,20 @@
       "id": "hoornsdagblad-sport",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Hollandia doet zichzelf tekort bij DOVO",
+          "link": "https://www.hoornsdagblad.nl/sport/hollandia-doet-zichzelf-tekort-bij-dovo",
+          "pubDate": "Sat, 21 Nov 2026 22:07:52 +0100",
+          "description": "VEENENDAAL - Door een handvol kansen onbenut te laten heeft Hollandia zichzelf duidelijk tekort gedaan in de uitwedstrijd tegen directe concurrent DOVO. De ploeg van trainer Michael Lanting verloor uiteindelijk in het slotkwartier met 2-0.Vizier niet op scherpOp Sportpark Panhuis in Veenedaal was [...]",
+          "categories": []
+        },
+        {
+          "title": "ZVV Zwaag moet werken voor de punten",
+          "link": "https://www.hoornsdagblad.nl/sport/zvv-zwaag-moet-werken-voor-de-punten",
+          "pubDate": "Sat, 21 Nov 2026 19:09:03 +0100",
+          "description": "ZWAAG - In de 1e Divisie Futsal heeft ZVV Zwaag de koppositie met succes verdedigd al ging dat in de thuiswedstrijd tegen ZVV Amsterdam met meer moeite dan de laatste weken het geval was. De formatie van coach Sander van Dijk maakte een 1-2 achterstand ongedaan en won met 4-2.ZVV Zwaag scoorde in [...]",
+          "categories": []
+        },
         {
           "title": "Oranje hard onderuit tegen Duitsland in Berlijn",
           "link": "https://www.hoornsdagblad.nl/sport/oranje-hard-onderuit-tegen-duitsland-in-berlijn",
@@ -387,20 +401,6 @@
           "pubDate": "Sun, 08 Nov 2026 18:43:59 +0100",
           "description": "ALKMAAR - AZ heeft na enkele moeizame weken weer een overwinning geboekt. De Alkmaarders leken thuis tegen FC Groningen op een nederlaag af te stevenen, maar bogen een achterstand van 1-3 om in een zege van 4-3. Mexx Meerdink maakte in een verhitte slotfase vanaf de strafschopstip het winnende [...]",
           "categories": []
-        },
-        {
-          "title": "Teun Koopmeiners helpt Juventus aan zege bij oude club AZ",
-          "link": "https://www.hoornsdagblad.nl/sport/teun-koopmeiners-helpt-juventus-aan-zege-bij-oude-club-az",
-          "pubDate": "Thu, 05 Nov 2026 23:25:42 +0100",
-          "description": "ALKMAAR - AZ heeft donderdagavond voor het eerst na zeventien ongeslagen Europese thuiswedstrijden weer een nederlaag geleden. Juventus won in de competitiefase van de Europa League met 1-2 in Alkmaar. Oud-AZ'er Teun Koopmeiners opende de score en trok daarmee in het onderlinge duel met zijn broer [...]",
-          "categories": []
-        },
-        {
-          "title": "Westfriezen klimt naar derde plaats na ruime zege op Schagen United",
-          "link": "https://www.hoornsdagblad.nl/sport/westfriezen-klimt-naar-derde-plaats-na-ruime-zege-op-schagen-united",
-          "pubDate": "Mon, 02 Nov 2026 23:16:11 +0100",
-          "description": "ZWAAG - Westfriezen heeft zondag overtuigend afgerekend met Schagen United. De ploeg uit Zwaag won met 4-0 en nam daarmee de derde plaats over van de bezoekers. Ramon Wong Fong Sang en Jim Broers scoorden ieder tweemaal.Westfriezen houdt defensie geslotenTien minuten voor rust opende Wong Fong Sang [...]",
-          "categories": []
         }
       ]
     },
@@ -408,6 +408,15 @@
       "id": "rodi",
       "label": "Rodi Hoorn",
       "items": [
+        {
+          "title": "Sinterklaas is in Zwaag! Bekijk hier de foto’s van de intocht",
+          "link": "https://www.rodi.nl/hoorn/nieuws/513234/-fotos-sinterklaas-is-in-zwaag-bekijk-hier-de-fotos-van-de-intocht",
+          "pubDate": "Sat, 21 Nov 2026 16:27:57 Z",
+          "description": "ZWAAG - Pepernoten, pieten, heel veel blije gezichten en natuurlijk Sinterklaas! Onze fotograaf Jan Siebring was er zaterdag 21 november ook bij en legde de sinterklaasintocht in Zwaag uitgebreid vast.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
         {
           "title": "Winterconcert De Herleving in wijkcentrum De Huesmolen in Hoorn in teken van musicals",
           "link": "https://www.rodi.nl/hoorn/nieuws/513224/winterconcert-de-herleving-in-wijkcentrum-de-huesmolen-in-hoorn-in-teken-van-musicals",
@@ -622,15 +631,6 @@
           "description": "HOORN - Sportpark Middelweg kan uitgroeien tot een open, groen en toekomstbestendig wijksportpark voor de Grote Waal en aangrenzende wijken. Deze toekomstvisie heeft de gemeente in de Sportparkennota 2035 vastgelegd.",
           "categories": [
             "Gemeentenieuws"
-          ]
-        },
-        {
-          "title": "Carnavalsvereniging de Blockeniers presenteert vrijdag nieuw decorum in Blokker",
-          "link": "https://www.rodi.nl/hoorn/uit/512843/carnavalsvereniging-de-blockeniers-presenteert-vrijdag-nieuw-decorum-in-blokker",
-          "pubDate": "Tue, 17 Nov 2026 17:28:00 Z",
-          "description": "BLOKKER - Carnavalsvereniging de Blockeniers maakt vrijdag 20 november bekend wie het nieuwe decorum vormt, met prins of prinses, adjudant en hofdames of hofheren. De bekendmaking begint om 20.30 uur in feestpaleis de Harmonie, met een act in sprookjesstijl.",
-          "categories": [
-            "Uit"
           ]
         }
       ]
