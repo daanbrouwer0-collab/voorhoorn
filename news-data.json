@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T00:47:14.780Z",
+  "updated": "2026-11-21T15:18:48.017Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -117,6 +117,27 @@
       "label": "Hoornsdagblad",
       "items": [
         {
+          "title": "Veiligheidsregio onthult meerdere nieuwe brandweervoertuigen in Opmeer",
+          "link": "https://www.hoornsdagblad.nl/regio/veiligheidsregio-onthult-meerdere-nieuwe-brandweervoertuigen-in-opmeer",
+          "pubDate": "Sat, 21 Nov 2026 15:15:38 +0100",
+          "description": "OPMEER - De Veiligheidsregio heeft zaterdag meerdere nieuwe brandweervoertuigen officieel onthuld en overgedragen. Het gaat in totaal om vijf hoogwerkers, twee tankautospuiten, twee hulpverleningsvoertuigen en een nieuwe dienstauto. De onthulling vond plaats in Museum 't Loosje in Opmeer. Bij de [...]",
+          "categories": []
+        },
+        {
+          "title": "A Magical Christmas Concert in de Bonifaciuskerk",
+          "link": "https://www.hoornsdagblad.nl/uitgaan/a-magical-christmas-concert-in-de-bonifaciuskerk",
+          "pubDate": "Sat, 21 Nov 2026 06:50:09 +0100",
+          "description": "MEDEMBLIK - Lichtjes, warmte, muziek en een vleugje glitter… alles wat je nodig hebt voor een onvergetelijk kerstgevoel.De feestdagen komen tot leven tijdens A Magical Christmas Concert, een betoverende muzikale theatermiddag of avond met Lianne Bakker (piano en zang) en Melissa van Belleghem [...]",
+          "categories": []
+        },
+        {
+          "title": "Laatste volle week van november brengt nachtvorst en geregeld zon",
+          "link": "https://www.hoornsdagblad.nl/regio/laatste-volle-week-van-november-brengt-nachtvorst-en-geregeld-zon",
+          "pubDate": "Sat, 21 Nov 2026 06:21:55 +0100",
+          "description": "NEDERLAND – In de laatste volle week van november komt het op veel plaatsen tot nachtvorst. Overdag laat de zon zich geregeld zien en blijft het op de meeste dagen droog. Vooral woensdag is het koud, met maxima van 1 tot 3 graden.Zaterdag nog buien, zondag kouderZaterdag wisselen zon en [...]",
+          "categories": []
+        },
+        {
           "title": "Brede politieke steun voor bescherming natuur en landschap in Noord-Holland",
           "link": "https://www.hoornsdagblad.nl/regio/brede-politieke-steun-voor-bescherming-natuur-en-landschap-in-noord-holland",
           "pubDate": "Fri, 20 Nov 2026 16:10:40 +0100",
@@ -233,27 +254,6 @@
           "link": "https://www.hoornsdagblad.nl/gemeente/samen-bouwen-aan-de-toekomst-van-sportpark-middelweg",
           "pubDate": "Tue, 17 Nov 2026 14:42:39 +0100",
           "description": "HOORN - Sportpark Middelweg kan uitgroeien tot een open, groen en toekomstbestendig wijksportpark voor de Grote Waal en aangrenzende wijken. Deze toekomstvisie heeft de gemeente in de Sportparkennota 2035 vastgelegd. De volgende stap is het samen met geïnteresseerde partijen uitwerken van een [...]",
-          "categories": []
-        },
-        {
-          "title": "Provincie zoekt woorden voor Noord-Hollandlied",
-          "link": "https://www.hoornsdagblad.nl/algemeen/provincie-zoekt-woorden-voor-noord-hollandlied",
-          "pubDate": "Tue, 17 Nov 2026 12:46:37 +0100",
-          "description": "NOORD-HOLLAND - De provincie Noord-Holland werkt aan een nieuw en eigentijds lied: Een lied voor en van alle Noord-Hollanders. Daarom roepen Provinciale Staten de inwoners van Noord-Holland op om daar samen aan te werken. Op de website van de provincie kan iedereen tot en met 30 november in drie [...]",
-          "categories": []
-        },
-        {
-          "title": "Musical Nights Tijdens Nationaal Theaterweekend In Almere En Hoorn",
-          "link": "https://www.hoornsdagblad.nl/uitgaan/musical-nights-tijdens-nationaal-theaterweekend-in-almere-en-hoorn",
-          "pubDate": "Tue, 17 Nov 2026 10:00:00 +0100",
-          "description": "ALMERE/HOORN - Musical Nights is tijdens het Nationaal Theaterweekend te zien met maar liefst twee voorstellingen: op vrijdag 29 januari in Kunstlinie in Almere en op zaterdag 30 januari 2027 in Schouwburg Het Park in Hoorn. Stanley Burleson, Linda Verstraten, Anne Appelo, Magtel de Laat en David [...]",
-          "categories": []
-        },
-        {
-          "title": "Thuisbatterij wint aan populariteit door naderend einde salderingsregeling",
-          "link": "https://www.hoornsdagblad.nl/wonen/thuisbatterij-wint-aan-populariteit-door-naderend-einde-salderingsregeling",
-          "pubDate": "Tue, 17 Nov 2026 07:41:14 +0100",
-          "description": "NEDERLAND - De thuisbatterij is bezig aan een opmars in Nederland. Steeds meer huishoudens met zonnepanelen onderzoeken de mogelijkheid om zelf opgewekte elektriciteit op te slaan. De belangrijkste aanleiding is het verdwijnen van de salderingsregeling per 1 januari 2027. Vanaf dat moment wordt het [...]",
           "categories": []
         }
       ]
@@ -408,6 +408,24 @@
       "id": "rodi",
       "label": "Rodi Hoorn",
       "items": [
+        {
+          "title": "Winterconcert De Herleving in wijkcentrum De Huesmolen in Hoorn in teken van musicals",
+          "link": "https://www.rodi.nl/hoorn/nieuws/513224/winterconcert-de-herleving-in-wijkcentrum-de-huesmolen-in-hoorn-in-teken-van-musicals",
+          "pubDate": "Sat, 21 Nov 2026 15:45:00 Z",
+          "description": "HOORN - Muziekvereniging De Herleving geeft zaterdag 28 november haar jaarlijkse winterconcert in wijkcentrum De Huesmolen in Hoorn. Het programma bestaat volledig uit musicalmuziek, met Zwaagse gastzanger André Vloeijberghs. Het concert begint om 20.00 uur.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Bach Ensemble Amsterdam geeft kerstconcert in Oosterkerk Hoorn",
+          "link": "https://www.rodi.nl/hoorn/nieuws/513218/bach-ensemble-amsterdam-geeft-kerstconcert-in-oosterkerk-hoorn",
+          "pubDate": "Sat, 21 Nov 2026 10:00:00 Z",
+          "description": "HOORN - Het Bach Ensemble Amsterdam geeft zondag 13 december een kerstconcert in de Oosterkerk in Hoorn. Het ensemble staat onder leiding van Paulien Kostense en keert terug na een succesvolle editie vorig jaar.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
         {
           "title": "Kerst Samen in Oosterkerk Hoorn: gratis kerstdiner in voor wie extra gezelschap kan gebruiken",
           "link": "https://www.rodi.nl/hoorn/nieuws/513220/kerst-samen-in-oosterkerk-hoorn-gratis-kerstdiner-in-voor-wie-extra-gezelschap-kan-gebruiken",
@@ -614,24 +632,6 @@
           "categories": [
             "Uit"
           ]
-        },
-        {
-          "title": "Film en theatervoorstelling in kader van Orange the World in Hoorn en Bovenkarspel",
-          "link": "https://www.rodi.nl/hoorn/nieuws/512841/film-en-theatervoorstelling-in-kader-van-orange-the-world-in-hoorn-en-bovenkarspel",
-          "pubDate": "Tue, 17 Nov 2026 17:17:09 Z",
-          "description": "HOORN / BOVENKARSPEL - Soroptimistclub Hoorn e.o. organiseert dinsdag 1 december een filmvoorstelling in Hoorn en vrijdag 11 december een theatervoorstelling in Bovenkarspel. Beide activiteiten horen bij de campagne Orange the World tegen geweld tegen vrouwen.",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "Denk mee: welke woorden mogen niet ontbreken in het nieuwe Noord-Hollandlied?",
-          "link": "https://www.rodi.nl/hoorn/nieuws/512740/denk-mee-welke-woorden-mogen-niet-ontbreken-in-het-nieuwe-noord-hollandlied-",
-          "pubDate": "Tue, 17 Nov 2026 14:41:44 Z",
-          "description": "NOORD-HOLLAND - Inwoners van Noord-Holland kunnen tot en met 30 november meedenken over de tekst van een nieuw Noord-Hollandlied. De provincie vraagt iedereen op haar website in drie woorden antwoord te geven op de vraag: \"Waar denk jij aan bij Noord-Holland?\"",
-          "categories": [
-            "Nieuws"
-          ]
         }
       ]
     },
@@ -639,6 +639,15 @@
       "id": "streekomroep",
       "label": "Streekomroep",
       "items": [
+        {
+          "title": "Kop koffie voor verenigingen wordt duurder door einde saldering dorpshuis Bovenkarspel",
+          "link": "https://www.streekomroepwestfriesland.nl/kop-koffie-voor-verenigingen-wordt-duurder-door-einde-saldering-dorpshuis-bovenkarspel/",
+          "pubDate": "Sat, 21 Nov 2026 14:30:00 +0000",
+          "description": "De energierekening wordt volgend jaar fors hoger voor dorpshuis De Tuf in Bovenkarspel. Het dak van het dorpshuis ligt vol met zonnepanelen, maar door het afschaffen van de salderingsregeling leveren die vanaf volgend jaar niet veel meer op. \"Dit is een strop voor verenigingen en heeft grote gevolgen voor ons\", zegt voorzitter Trude Buysman. Op het dak van het dorpshuis in Bovenkarspel liggen meer dan tachtig zonnepanelen. Dankzij een subsidie is De Tuf, waar veel verenigingen in het dorp gebruik van maken, flink verduurzaamd. Nu de salderingsregeling stopt, komt volgens Buysman het bestaan van het dorpshuis zelfs in gevaar: \"We gaan duizenden euro's meer betalen. We betalen nu al 16.000 eur",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
         {
           "title": "WEEFF Top Favoriet komende week in handen van S10 en Within Temptation",
           "link": "https://www.streekomroepwestfriesland.nl/weeff-top-favoriet-komende-week-in-handen-van-s10-en-within-temptation/",
@@ -721,15 +730,6 @@
           "categories": [
             "Onderwijs",
             "Sport"
-          ]
-        },
-        {
-          "title": "Column: Goed genoeg",
-          "link": "https://www.streekomroepwestfriesland.nl/column-goed-genoeg/",
-          "pubDate": "Wed, 18 Nov 2026 12:07:00 +0000",
-          "description": "Er valt tegenwoordig ontzettend veel te kiezen. En ik heb zelden zo weinig vertrouwen gehad dat ik het goede kies. Het zijn juist de kleine beslissingen die blijven haken. Een energiecontract. Een zorgverzekering. Een abonnement dat ooit tijdelijk was, maar inmiddels tot de vaste lasten behoort. Kiezen is een vak geworden. Je moet vergelijken, afwegen, doorrekenen en vooral veel lezen. Filters aan, filters uit. Wie verkeerd kiest, kan nauwelijks nog iemand anders de schuld geven. Alle informatie staat immers ergens. In de kleine lettertjes, achter een pijltje of onder ‘Meer informatie’. Neem de zorgverzekering. Aan het eind van het jaar, precies wanneer we ons bezighouden met kerstboom, fami",
-          "categories": [
-            "Algemeen"
           ]
         }
       ]
