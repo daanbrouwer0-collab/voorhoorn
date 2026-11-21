@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T16:05:30.157Z",
+  "updated": "2026-11-21T00:47:14.780Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -116,6 +116,20 @@
       "id": "hoornsdagblad",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Brede politieke steun voor bescherming natuur en landschap in Noord-Holland",
+          "link": "https://www.hoornsdagblad.nl/regio/brede-politieke-steun-voor-bescherming-natuur-en-landschap-in-noord-holland",
+          "pubDate": "Fri, 20 Nov 2026 16:10:40 +0100",
+          "description": "NOORD-HOLLAND - De bescherming van natuur en landschap in Noord-Holland kan rekenen op brede politieke steun. Dat blijkt uit een peiling van Landschap Noord-Holland onder de politieke partijen in de Provinciale Staten. Alle acht doelen uit de nieuwe Agenda 2030 krijgen steun van een ruime [...]",
+          "categories": []
+        },
+        {
+          "title": "Landelijke actieweek tegen bezitters van kinderpornografisch materiaal",
+          "link": "https://www.hoornsdagblad.nl/112-hoorn/landelijke-actieweek-tegen-bezitters-van-kinderpornografisch-materiaal2",
+          "pubDate": "Fri, 20 Nov 2026 15:30:25 +0100",
+          "description": "NEDERLAND - De politie heeft in de afgelopen week 45 personen gewaarschuwd om te stoppen met het downloaden van kinderpornografisch materiaal. Met de vroegtijdige bezoeken wil de politie voorkomen dat deze personen een stap verder gaan. De boodschap is duidelijk: stop met downloaden en zoek hulp, [...]",
+          "categories": []
+        },
         {
           "title": "Kerst Samen: een warme plek aan tafel voor wie dat goed kan gebruiken",
           "link": "https://www.hoornsdagblad.nl/regio/kerst-samen-een-warme-plek-aan-tafel-voor-wie-dat-goed-kan-gebruiken",
@@ -240,20 +254,6 @@
           "link": "https://www.hoornsdagblad.nl/wonen/thuisbatterij-wint-aan-populariteit-door-naderend-einde-salderingsregeling",
           "pubDate": "Tue, 17 Nov 2026 07:41:14 +0100",
           "description": "NEDERLAND - De thuisbatterij is bezig aan een opmars in Nederland. Steeds meer huishoudens met zonnepanelen onderzoeken de mogelijkheid om zelf opgewekte elektriciteit op te slaan. De belangrijkste aanleiding is het verdwijnen van de salderingsregeling per 1 januari 2027. Vanaf dat moment wordt het [...]",
-          "categories": []
-        },
-        {
-          "title": "Ruim een kwart meer mkb-bedrijven afgelopen 5 jaar",
-          "link": "https://www.hoornsdagblad.nl/algemeen/ruim-een-kwart-meer-mkb-bedrijven-afgelopen-5-jaar",
-          "pubDate": "Tue, 17 Nov 2026 07:39:03 +0100",
-          "description": "Aan het begin van het vierde kwartaal van 2026 waren er iets meer dan 1,68 miljoen midden- en kleinbedrijven. Dat is bijna 27 procent meer dan vijf jaar geleden. Vooral het aantal bedrijven met één werkzaam persoon is gegroeid. In de uitgeverij van software zijn relatief de meeste bedrijven [...]",
-          "categories": []
-        },
-        {
-          "title": "Oranje hard onderuit tegen Duitsland in Berlijn",
-          "link": "https://www.hoornsdagblad.nl/sport/oranje-hard-onderuit-tegen-duitsland-in-berlijn",
-          "pubDate": "Mon, 16 Nov 2026 22:39:53 +0100",
-          "description": "BERLIJN - Het Nederlands elftal heeft enkele dagen na de overtuigende 7-0 overwinning op Griekenland een zware nederlaag geleden tegen Duitsland. De ploeg van bondscoach Xavi Hernández verloor in Berlijn met 5-0 en kon geen moment het niveau van de wedstrijd in Amsterdam benaderen. Met de nederlaag [...]",
           "categories": []
         }
       ]
@@ -640,6 +640,24 @@
       "label": "Streekomroep",
       "items": [
         {
+          "title": "WEEFF Top Favoriet komende week in handen van S10 en Within Temptation",
+          "link": "https://www.streekomroepwestfriesland.nl/weeff-top-favoriet-komende-week-in-handen-van-s10-en-within-temptation/",
+          "pubDate": "Fri, 20 Nov 2026 18:47:00 +0000",
+          "description": "Het is een samenwerking die je op het eerste oog niet verwacht, maar het resultaat mag er zijn. Within Temptation en de van oorsprong West-Friese zangeres S10 hebben de handen ineengeslagen voor het nummer 'Through fire and ashes'. Komende week hoor je de single extra vaak op de radio, want we roepen het uit tot nieuwe WEEFF Top Favoriet. Met een video op Instagram maakte de band met frontvrouw Sharon den Adel begin deze maand bekend dat zij een nummer uit zouden brengen met een nog niet herkenbare blonde zangeres. Waar buitenlandse fans van Within Temptation aan artiesten als Taylor Momsen van The Pretty Reckless dachten, een enkeling dacht zelfs de stem van Stevie Nicks van Fleetwood Mac t",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
+        {
+          "title": "De West-Friese Oorzaak: Jazz, baby!",
+          "link": "https://www.streekomroepwestfriesland.nl/de-west-friese-oorzaak-jazz-baby/",
+          "pubDate": "Fri, 20 Nov 2026 17:11:13 +0000",
+          "description": "Jazz is bezig aan een opzienbarende revival. Steeds meer jongere en oudere muzikanten ruilen hun drieakkoordenschema’s is voor het pittiger werk. Maar is dat wel zo? De West-Friese Oorzaak ging op onderzoek uit. We nodigden twee toonaangevende (haha) projecten in studio Het Pakhuis in Hoorn, terwijl Paul en Pieter in de afgeragde Toyota stapten om de Freetime Old Dixie Jassband te feliciteren met het 55-jarig bestaan. Waar anders dan in het mekka van de West-Friese jazz: Enkytown, alias Enkhuizen. Dat Dregt Orkest, helemaal uit Schellinkhout, bestaat niet uit zomaar een stel herrieschoppers. Er zijn weinig orkesten met maar liefst TWEE Boy Edgar-alumni; de meest prestigieuze jazz-oorkonde in",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
+        {
           "title": "Prikkelarme Pieten Expres maakt Sinterklaasfeest toegankelijk voor iedereen",
           "link": "https://www.streekomroepwestfriesland.nl/prikkelarme-pieten-expres-maakt-sinterklaasfeest-toegankelijk-voor-iedereen/",
           "pubDate": "Fri, 20 Nov 2026 15:59:00 +0000",
@@ -712,24 +730,6 @@
           "description": "Er valt tegenwoordig ontzettend veel te kiezen. En ik heb zelden zo weinig vertrouwen gehad dat ik het goede kies. Het zijn juist de kleine beslissingen die blijven haken. Een energiecontract. Een zorgverzekering. Een abonnement dat ooit tijdelijk was, maar inmiddels tot de vaste lasten behoort. Kiezen is een vak geworden. Je moet vergelijken, afwegen, doorrekenen en vooral veel lezen. Filters aan, filters uit. Wie verkeerd kiest, kan nauwelijks nog iemand anders de schuld geven. Alle informatie staat immers ergens. In de kleine lettertjes, achter een pijltje of onder ‘Meer informatie’. Neem de zorgverzekering. Aan het eind van het jaar, precies wanneer we ons bezighouden met kerstboom, fami",
           "categories": [
             "Algemeen"
-          ]
-        },
-        {
-          "title": "Fietser zwaargewond bij aanrijding in Bovenkarspel, automobilist aangehouden",
-          "link": "https://www.streekomroepwestfriesland.nl/fietser-zwaargewond-bij-aanrijding-in-bovenkarspel-automobilist-aangehouden-2/",
-          "pubDate": "Wed, 18 Nov 2026 11:06:00 +0000",
-          "description": "Een fietser is vanmorgen zwaargewond geraakt bij een aanrijding met een auto. Dat gebeurde op de Stationslaan in Bovenkarspel. De bestuurder van de auto is aangehouden. Een woordvoerder van de politie meldt dat de fietser en auto rond 11.00 uur door nog onbekende oorzaak met elkaar in botsing zijn gekomen. Daarbij raakte de fietser zwaargewond. \"De fietser wordt of met de ambulance of met de traumahelikopter naar het ziekenhuis gebracht\", aldus de woordvoerder. De bestuurder van de auto is aangehouden. Dat is een standaardprocedure bij zware verkeersongevallen. De forensische opsporing verkeer is ter plaatse om onderzoek te doen naar de toedracht van het ongeval. The post Fietser zwaargewond",
-          "categories": [
-            "112"
-          ]
-        },
-        {
-          "title": "Opmerkingen over menstruatie en anticonceptie inspireren Anniek tot schrijven van eerste boek",
-          "link": "https://www.streekomroepwestfriesland.nl/opmerkingen-over-menstruatie-en-anticonceptie-inspireren-anniek-tot-schrijven-van-eerste-boek/",
-          "pubDate": "Wed, 18 Nov 2026 10:40:58 +0000",
-          "description": "Het boek van debuterende schrijfster Anniek Stroomer, 'DE VROUW. Voor mannen die er geen k*t van snappen', maakt de nodige tongen los. Dat vertelde ze zaterdag in het programma De Tafel van Knook. Door humor en een luchtige schrijfstijl probeert ze mannen meer te betrekken, zonder hen te veroordelen. \"Het is een soort biologie voor volwassenen\", vertelt Anniek. Stroomer groeide op in De Weere, gemeente Opmeer. Ze noemt zichzelf een echte Weerenees. Voor het boek verzamelde ze uitspraken en opmerkingen die ze van mannen in haar omgeving hoorde. Die vormden de basis voor korte, toegankelijke uitleg over onderwerpen als anticonceptie, hormonen en menstruatie. \"Als ik af en toe met vrienden spra",
-          "categories": [
-            "Kunst & cultuur"
           ]
         }
       ]
