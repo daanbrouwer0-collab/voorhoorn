@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-22T15:14:40.109Z",
+  "updated": "2026-11-22T21:04:15.032Z",
   "failedSources": [
     {
       "id": "hoornactueel",
       "label": "HoornActueel",
-      "error": "HTTP 403"
+      "error": "The operation was aborted due to timeout"
     },
     {
       "id": "onswestfriesland",
@@ -27,10 +27,10 @@
           ]
         },
         {
-          "title": "Sportuitslagen Hoorn en Zwaag: handbalzege voor SEW, gelijkspel bij de hockeyjeugd",
+          "title": "Sportweekend Hoorn: Always Forward wint derby bij Westfriezen",
           "link": "https://hoornnieuws.nl/2026/11/22/sportuitslagen-hoorn-en-zwaag-handbalzege-voor-sew-gelijkspel-bij-de-hockeyjeugd/",
           "pubDate": "Sun, 22 Nov 2026 14:19:21 +0000",
-          "description": "De sportzaterdag van 21 november leverde in Hoorn en Zwaag uitslagen op in het handbal, hockey en voetbal. Bij het handbal won Westfriesland/SEW D1 in Zwaag met 20–11 van Westfriezen D1. Op het hockeyveld hield WFHC Hoorn MO18-2 een punt over aan het uitduel met Haarlem MO18-5. Het werd 2–2. Bij het voetbal speelden Always Forward MO13-1 en Westfriezen MO13-1 met 3–3 gelijk. Hollandia O11-1 won met 7–3 bij Westfriezen O11-1. Hollandia O21 verloor met 4–2 bij Quick Boys O21. Beeld: sportillustratie. Bronnen: Westfriezen handbal , Westfriezen voetbal , Hockeystanden en Kickmetrics .",
+          "description": "De sportzaterdag van 21 november leverde in Hoorn en Zwaag uitslagen op in het handbal, hockey en voetbal. Bij het handbal won Westfriesland/SEW D1 in Zwaag met 20–11 van Westfriezen D1. Op het hockeyveld hield WFHC Hoorn MO18-2 een punt over aan het uitduel met Haarlem MO18-5. Het werd 2–2. Bij het voetbal speelden Always Forward MO13-1 en Westfriezen MO13-1 met 3–3 gelijk. Hollandia O11-1 won met 7–3 bij Westfriezen O11-1. Hollandia O21 verloor met 4–2 bij Quick Boys O21. Beeld: sportillustratie. Bronnen: Westfriezen handbal , Westfriezen voetbal , Hockeystanden en Kickmetrics . Zondag: Always Forward wint bij Westfriezen Always Forward heeft zondag 22 november de derby op bezoek bij Westf",
           "categories": [
             "Sport"
           ]
@@ -115,6 +115,20 @@
       "id": "hoornsdagblad",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "HV Hoorn legt basis voor zege in eerste helft",
+          "link": "https://www.hoornsdagblad.nl/hv-hoorn/hv-hoorn-legt-basis-voor-zege-in-eerste-helft",
+          "pubDate": "Sun, 22 Nov 2026 21:29:30 +0100",
+          "description": "TILBURG - In de Eredivisie Fitsal heeft HV Hoorn vrijdag de zevende zege in tien wedstrijden behaald. Tegen hekkensluiter Be '79 nam de ploeg van Khalid Elbaz in de eerste helft al afstand om uiteindelijk met 3-5 te winnen. Na een periode van aftatsen, waarin de Hoornse ploeg wel een aantal kansen [...]",
+          "categories": []
+        },
+        {
+          "title": "AZ na rust met ruime cijfers langs Sparta",
+          "link": "https://www.hoornsdagblad.nl/sport/az-na-rust-met-ruime-cijfers-langs-sparta",
+          "pubDate": "Sun, 22 Nov 2026 16:30:09 +0100",
+          "description": "ROTTERDAM - AZ is na een moeizame periode goed uit de interlandbreak gekomen. De ploeg van Leeroy Echteld won zondag op Het Kasteel met ruime cijfers van Sparta: 1-5. Door de winst klimt AZ over Feyenoord heen naar de vierde plaats. Chávez antwoordt snel op openingstreffer BabadiSparta begon sterk [...]",
+          "categories": []
+        },
         {
           "title": "Getuigen gezocht van schoten aan de Govert Oostwoudpad in Zwaag",
           "link": "https://www.hoornsdagblad.nl/112-hoorn/getuigen-gezocht-van-schoten-aan-de-govert-oostwoudpad-in-zwaag",
@@ -240,20 +254,6 @@
           "pubDate": "Wed, 18 Nov 2026 15:28:28 +0100",
           "description": "Wanneer een dierbare overlijdt, staat de wereld voor de nabestaanden even helemaal stil. Het is een periode van intens verdriet, terwijl er tegelijkertijd in een kort tijdsbestek ontzettend veel geregeld moet worden voor het afscheid. Dat kan behoorlijk overweldigend aanvoelen. Wat zijn eigenlijk [...]",
           "categories": []
-        },
-        {
-          "title": "Bouillon d'Amsterdam opent tijdelijk restaurant op Het Amsterdamse Winterparadijs",
-          "link": "https://www.hoornsdagblad.nl/eten-drinken/bouillon-damsterdam-opent-tijdelijk-restaurant-op-het-amsterdamse-winterparadijs",
-          "pubDate": "Wed, 18 Nov 2026 09:00:06 +0100",
-          "description": "AMSTERDAM - Bouillon d'Amsterdam brengt deze winter de 'tafel van de stad' naar Het Amsterdamse Winterparadijs. Voor het eerst opent het restaurant een sfeervolle pop-up midden op het winterevenement in de RAI Amsterdam. Op negen geselecteerde dagen kunnen bezoekers aanschuiven voor een compleet [...]",
-          "categories": []
-        },
-        {
-          "title": "Tuincentra in Hoorn",
-          "link": "https://www.hoornsdagblad.nl/buitenleven/tuincentra-in-hoorn",
-          "pubDate": "Wed, 18 Nov 2026 08:00:00 +0100",
-          "description": "Een goed tuincentrum is meer dan een winkel met planten: het is een plek voor inspiratie en advies voor je tuin of balkon. Hoorn telt meerdere tuincentra die opvallen door een ruim assortiment, deskundig personeel en een prettige sfeer.In dit overzicht vind je de tuincentra in de regio die [...]",
-          "categories": []
         }
       ]
     },
@@ -261,6 +261,13 @@
       "id": "hoornsdagblad-sport",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "AZ na rust met ruime cijfers langs Sparta",
+          "link": "https://www.hoornsdagblad.nl/sport/az-na-rust-met-ruime-cijfers-langs-sparta",
+          "pubDate": "Sun, 22 Nov 2026 16:30:09 +0100",
+          "description": "ROTTERDAM - AZ is na een moeizame periode goed uit de interlandbreak gekomen. De ploeg van Leeroy Echteld won zondag op Het Kasteel met ruime cijfers van Sparta: 1-5. Door de winst klimt AZ over Feyenoord heen naar de vierde plaats. Chávez antwoordt snel op openingstreffer BabadiSparta begon sterk [...]",
+          "categories": []
+        },
         {
           "title": "Hollandia doet zichzelf tekort bij DOVO",
           "link": "https://www.hoornsdagblad.nl/sport/hollandia-doet-zichzelf-tekort-bij-dovo",
@@ -393,13 +400,6 @@
           "pubDate": "Sun, 08 Nov 2026 20:28:37 +0100",
           "description": "HOORN - Zwaluwen '30 heeft zaterdag de Westfriese derby tegen SV Enkhuizen met 3-1 gewonnen. Het duel werd overschaduwd door een harde botsing tussen Enkhuizen-speler d'Angelo Busby en doelman Ox van der Velden. De wedstrijd lag daardoor ruim een halfuur stil.Busby per ambulance naar ziekenhuisIn [...]",
           "categories": []
-        },
-        {
-          "title": "AZ toont veerkracht in knotsgek duel tegen FC Groningen",
-          "link": "https://www.hoornsdagblad.nl/sport/az-toont-veerkracht-in-knotsgek-duel-tegen-fc-groningen",
-          "pubDate": "Sun, 08 Nov 2026 18:43:59 +0100",
-          "description": "ALKMAAR - AZ heeft na enkele moeizame weken weer een overwinning geboekt. De Alkmaarders leken thuis tegen FC Groningen op een nederlaag af te stevenen, maar bogen een achterstand van 1-3 om in een zege van 4-3. Mexx Meerdink maakte in een verhitte slotfase vanaf de strafschopstip het winnende [...]",
-          "categories": []
         }
       ]
     },
@@ -407,6 +407,24 @@
       "id": "rodi",
       "label": "Rodi Hoorn",
       "items": [
+        {
+          "title": "25-jarige man uit Zwaag aangehouden na schietincident aan Govert Oostwoudpad, politie zoekt getuigen",
+          "link": "https://www.rodi.nl/hoorn/112-nieuws/513257/25-jarige-man-uit-zwaag-aangehouden-na-schietincident-aan-govert-oostwoudpad-politie-zoekt-getuigen",
+          "pubDate": "Sun, 22 Nov 2026 19:31:32 Z",
+          "description": "ZWAAG - Aan het Govert Oostwoudpad in Zwaag vond in de nacht van zaterdag op zondag rond 02.55 uur een schietincident plaats. De politie zoekt getuigen.",
+          "categories": [
+            "112-nieuws"
+          ]
+        },
+        {
+          "title": "Viool, piano en tuba samen in de Oosterkerk in Hoorn",
+          "link": "https://www.rodi.nl/hoorn/uit/513219/viool-piano-en-tuba-samen-in-de-oosterkerk-in-hoorn",
+          "pubDate": "Sun, 22 Nov 2026 17:00:00 Z",
+          "description": "HOORN - Heleen Hulst (viool) en Gerard Bouwhuis (piano) geven zondag 29 november een concert in de Oosterkerk. Het duo speelt klassieke en eigentijdse stukken, voor de elfde keer samen met tubaspeler David Kutz.",
+          "categories": [
+            "Uit"
+          ]
+        },
         {
           "title": "Sinterklaas is in Zwaag! Bekijk hier de foto’s van de intocht",
           "link": "https://www.rodi.nl/hoorn/nieuws/513234/-fotos-sinterklaas-is-in-zwaag-bekijk-hier-de-fotos-van-de-intocht",
@@ -613,24 +631,6 @@
           "categories": [
             "112-nieuws"
           ]
-        },
-        {
-          "title": "Melle Gols (19) toont abstracte kunst in Pakhuisgalerie Hoorn",
-          "link": "https://www.rodi.nl/hoorn/uit/512844/melle-gols-19-toont-abstracte-kunst-in-pakhuisgalerie-hoorn",
-          "pubDate": "Wed, 18 Nov 2026 08:30:00 Z",
-          "description": "HOORN - Kunstenaar Melle Gols (19) toont tot 4 januari 2027 zijn abstracte werk in de Pakhuisgalerie aan Onder de Boompjes 21 in Hoorn. Zijn schilderijen bestaan uit kubistische vormen met hier en daar een golving.",
-          "categories": [
-            "Uit"
-          ]
-        },
-        {
-          "title": "Gemeente Hoorn roept organisaties op mee te denken over sportpark Middelweg",
-          "link": "https://www.rodi.nl/hoorn/gemeentenieuws/512846/gemeente-hoorn-roept-organisaties-op-mee-te-denken-over-sportpark-middelweg",
-          "pubDate": "Tue, 17 Nov 2026 17:56:48 Z",
-          "description": "HOORN - Sportpark Middelweg kan uitgroeien tot een open, groen en toekomstbestendig wijksportpark voor de Grote Waal en aangrenzende wijken. Deze toekomstvisie heeft de gemeente in de Sportparkennota 2035 vastgelegd.",
-          "categories": [
-            "Gemeentenieuws"
-          ]
         }
       ]
     },
@@ -639,10 +639,10 @@
       "label": "Streekomroep",
       "items": [
         {
-          "title": "Vijf jaar na de sluiting is er heimwee naar 'de Deen': \"Gevoel van een buurtsuper\"",
-          "link": "https://www.streekomroepwestfriesland.nl/vijf-jaar-na-de-sluiting-is-er-heimwee-naar-de-deen-gevoel-van-een-buurtsuper/",
+          "title": "Van knoflooksaus tot buurtgevoel: waarom klanten na vijf jaar nog altijd heimwee hebben naar Deen",
+          "link": "https://www.streekomroepwestfriesland.nl/van-knoflooksaus-tot-buurtgevoel-waarom-klanten-na-vijf-jaar-nog-altijd-heimwee-hebben-naar-deen/",
           "pubDate": "Sun, 22 Nov 2026 14:30:00 +0000",
-          "description": "'Geen dag zonder DEEN', luidde de slogan van supermarktketen DEEN. Maar liefhebbers moeten het al vijf jaar zonder DEEN doen. In november 2021 sloten de laatste winkels van de van origine Hoornse supermarktketen de deuren. 'De Deen' verdween uit het straatbeeld en ging over in Dekamarkt, Vomar of Albert Heijn. En dat gemis laat zich nog altijd voelen. Een nostalgische zweem op een frisse novemberochtend in Zwaag. Supermarktbezoekers aan de voormalige DEEN-vestiging, nu een Albert Heijn, duiken aan de Dorpsstraat in Zwaag diep weg in hun winterjas. Totdat duidelijk wordt waarom ze bij het doen van de boodschappen worden aangesproken. Want als DEEN ter sprake komt, verschijnt in bijna alle gev",
+          "description": "Al vijf jaar moeten Noord-Hollanders het zonder supermarktketen Deen doen. In november 2021 sloten de laatste winkels van het van oorsprong Hoornse familiebedrijf hun deuren. Toch is de supermarkt nog lang niet vergeten. In Zwaag halen oud-klanten herinneringen op aan de volle schappen, de vertrouwde medewerkers en vooral de producten die ze nergens meer kunnen vinden. 'Geen dag zonder Deen', luidde jarenlang de slogan. Maar inmiddels zijn de voormalige winkels omgebouwd tot vestigingen van DekaMarkt, Vomar of Albert Heijn. Op een frisse novemberochtend bij de voormalige Deen aan de Dorpsstraat in Zwaag, tegenwoordig een Albert Heijn, blijkt hoe diep de liefde voor de supermarkt nog zit. Zod",
           "categories": [
             "Werk & economie"
           ]
@@ -666,8 +666,8 @@
           ]
         },
         {
-          "title": "Dak vol zonnepanelen, toch duizenden euro's extra kwijt: dorpshuis vreest sluiting",
-          "link": "https://www.streekomroepwestfriesland.nl/dak-vol-zonnepanelen-toch-duizenden-euros-extra-kwijt-dorpshuis-vreest-sluiting/",
+          "title": "Forse stijging energierekening zorgt voor duurdere koffie dorpshuis Bovenkarspel",
+          "link": "https://www.streekomroepwestfriesland.nl/forse-stijging-energierekening-zorgt-voor-duurdere-koffie-dorpshuis-bovenkarspel/",
           "pubDate": "Sat, 21 Nov 2026 14:30:00 +0000",
           "description": "De energierekening wordt volgend jaar fors hoger voor dorpshuis De Tuf in Bovenkarspel. Het dak van het dorpshuis ligt vol met zonnepanelen, maar door het afschaffen van de salderingsregeling leveren die vanaf volgend jaar niet veel meer op. \"Dit is een strop voor verenigingen en heeft grote gevolgen voor ons\", zegt voorzitter Trude Buysman. Op het dak van het dorpshuis in Bovenkarspel liggen meer dan tachtig zonnepanelen. Dankzij een subsidie is De Tuf, waar veel verenigingen in het dorp gebruik van maken, flink verduurzaamd. Nu de salderingsregeling stopt, komt volgens Buysman het bestaan van het dorpshuis zelfs in gevaar: \"We gaan duizenden euro's meer betalen. We betalen nu al 16.000 eur",
           "categories": [
