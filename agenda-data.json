@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T14:40:02.913Z",
+  "updated": "2026-11-22T14:34:45.231Z",
   "failedSources": [
     {
       "id": "popronde",
@@ -12,241 +12,17 @@
       "error": "fetch failed"
     }
   ],
-  "count": 627,
+  "count": 611,
   "lagen": {
-    "Optreden": 314,
-    "Onbekend": 58,
-    "Verzameling": 30,
-    "Optreden, Verzameling": 24,
+    "Optreden": 310,
+    "Onbekend": 47,
+    "Optreden, Verzameling": 23,
+    "Verzameling": 31,
     "Reeks": 160,
     "Vergadering": 39,
-    "Festival": 2
+    "Festival": 1
   },
   "events": [
-    {
-      "datum": "2026-11-21",
-      "tijd": "20:00",
-      "titel": "“Mooie Liedjes Legends – The Greatest Hits” door Jeffrey Schenk",
-      "beschrijving": "Geniet van de grootste Engelstalige hits én de verhalen erachter! In seizoen 2024/2025 beleefde Jeffrey een succesvol seizoen met ‘Mooie liedjes’, een voorstelling vol met de allergrootste Hollandse hits van de afgelopen 40 jaar. Nu is hij terug met een gloednieuwe editie van ‘Mooie liedjes’. Samen met Wendy en Soraya van Remedy (bekend van onder andere The Voice of Holland ) brengt hij dit keer een volledig Engelsta",
-      "categorie": "Theater",
-      "locatie": "Het Pakhuis",
-      "leeftijd": "Onbekend",
-      "prijs": "€2,50–€23,50",
-      "interval": "Eenmalig",
-      "laag": "Optreden",
-      "bron": "Het Pakhuis",
-      "link": "https://www.pakhuishoorn.nl/voorstelling/mooie-liedjes-legends-the-greatest-hits/"
-    },
-    {
-      "datum": "2026-11-21",
-      "tijd": "18:40–20:49",
-      "titel": "Carnaval",
-      "beschrijving": "Vier beste vrienden uit Brabant leven voor carnaval, maar hun zorgvuldig geplande feest loopt op de eerste dag al in de soep. Zaal 5 NL",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Jongere",
-      "prijs": "€12",
-      "interval": "Onbekend",
-      "laag": "Onbekend",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000538/5156"
-    },
-    {
-      "datum": "2026-11-21",
-      "tijd": "15:15–16:51",
-      "titel": "De Grote Sinterklaasfilm en de Vliegende Pieten",
-      "beschrijving": "De Grote Sinterklaasfilm is terug met een magisch avontuur vol winterse chaos, waarin ook K3 de Pieten te hulp schiet. Door code rood kunnen de Pieten de daken niet meer op en moeten ze alles uit de kast halen met een bijzondere uitvinding en onverwachte superkrachten om Pakjesavond te redden. Nederland wordt getroffen door extreem winterweer en wanneer een zware sneeuwstorm het land platlegt, dreigt Pakjesavond voll",
-      "categorie": "Film",
-      "locatie": "Cinema Oostereiland",
-      "leeftijd": "Onbekend",
-      "prijs": "Onbekend",
-      "interval": "Onbekend",
-      "laag": "Verzameling",
-      "bron": "inHoorn, Uitagenda",
-      "link": "https://www.inhoorn.nl/agenda-item/de-grote-sinterklaasfilm-en-de-vliegende-pieten-5/"
-    },
-    {
-      "datum": "2026-11-21",
-      "tijd": "15:50–17:49",
-      "titel": "De Grote Sinterklaasfilm en de Vliegende Pieten",
-      "beschrijving": "Nederland wordt getroffen door extreem winterweer en Pakjesavond dreigt letterlijk in de sneeuw te vallen. Zaal 4 Donald Duck, NL",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Alle leeftijden",
-      "prijs": "€10",
-      "interval": "Onbekend",
-      "laag": "Onbekend",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000493/5161"
-    },
-    {
-      "datum": "2026-11-21",
-      "tijd": "21:10–23:46",
-      "titel": "Ebenezer",
-      "beschrijving": "In november is Johnny Depp te zien als Ebenezer Scrooge. Een bekende naam, een nieuw verhaal. Zaal 5",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Jongere",
-      "prijs": "€12",
-      "interval": "Onbekend",
-      "laag": "Onbekend",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000500/5151"
-    },
-    {
-      "datum": "2026-11-21",
-      "tijd": "20:00–22:00",
-      "titel": "HAIR | musicalvereniging Westend",
-      "beschrijving": "In deze actuele bewerking wordt de iconische musical Hair opnieuw tot leven gewekt, in een tijd waarin vrijheid en identiteit weer onder druk staan.",
-      "categorie": "Theater",
-      "locatie": "Schouwburg Het Park",
-      "leeftijd": "Onbekend",
-      "prijs": "€28,50",
-      "interval": "Onbekend",
-      "laag": "Optreden, Verzameling",
-      "bron": "Het Park, inHoorn, Uitagenda",
-      "link": "https://www.inhoorn.nl/agenda-item/hair-musicalvereniging-westend-4/"
-    },
-    {
-      "datum": "2026-11-21",
-      "tijd": "20:00–22:00",
-      "titel": "Hoorns Harmonie Orkest: een magisch concert",
-      "beschrijving": "Het orkest brengt deze keer een magisch concert gaat worden. Samen met Jorrit, een getalenteerde goochelaar uit Hoorn, gaat het HHO op een unieke reis. Naast Jorrit’s talent voor magie is hij ook een goede zanger. Muziek, zang en magie komen samen tot een mooi spektakel waarin het publiek betrokken wordt. Ook informatie op de pagina van Jorrit: https://js-entertainment.nl/ en de pagina van het orkest,",
-      "categorie": "Klassiek",
-      "locatie": "Oosterkerk, Grote Oost 58",
-      "leeftijd": "Onbekend",
-      "prijs": "Onbekend",
-      "interval": "Onbekend",
-      "laag": "Optreden, Verzameling",
-      "bron": "inHoorn, Uitagenda, Oosterkerk",
-      "link": "https://www.inhoorn.nl/agenda-item/hoorns-harmonie-orkest-een-magisch-concert/"
-    },
-    {
-      "datum": "2026-11-21",
-      "tijd": "20:50–23:06",
-      "titel": "Laatbloeier",
-      "beschrijving": "Als Joke's man vlak voor zijn pensioen aankondigt dat hij wil scheiden en zijn koffers pakt, worstelt zij met de vraag wie ze nog meer is behalve de vrouw en moeder van. Zaal 4 NL",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Alle leeftijden",
-      "prijs": "€12",
-      "interval": "Onbekend",
-      "laag": "Onbekend",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000564/5152"
-    },
-    {
-      "datum": "2026-11-21",
-      "tijd": "20:15–22:00",
-      "titel": "MEAU",
-      "beschrijving": "In deze intieme en persoonlijke voorstelling brengt de bekroonde singer-songwriter zowel haar bekende hits als nummers van haar nieuwe album ten gehore. Met haar oprechte en eerlijke teksten bezingt MEAU zowel de mooie kanten van de liefde als de twijfels en keerzijden ervan.",
-      "categorie": "Concert",
-      "locatie": "Schouwburg Het Park",
-      "leeftijd": "Onbekend",
-      "prijs": "€41,50",
-      "interval": "Eenmalig",
-      "laag": "Optreden, Verzameling",
-      "bron": "Het Park, inHoorn, Uitagenda",
-      "link": "https://hetpark.nl/agenda/meau-10355764/"
-    },
-    {
-      "datum": "2026-11-21",
-      "tijd": "19:00–21:26",
-      "titel": "Meet the Parents: Focker-In-Law",
-      "beschrijving": "In november worden komedielegende en Emmy-winnaar Ben Stiller en tweevoudig Oscar®-winnaar Robert De Niro herenigd in Meet the Parents: Focker-In-Law Zaal 6 Voorpremière",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Kind",
-      "prijs": "€12",
-      "interval": "Onbekend",
-      "laag": "Onbekend",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000529/4826"
-    },
-    {
-      "datum": "2026-11-21",
-      "tijd": "15:30–18:10",
-      "titel": "Nasza rewolucja",
-      "beschrijving": "He is passionate, outspoken and charismatic. She is brave, gentle and warm-hearted. Zaal 5 Pools, English subtitles",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Volwassene",
-      "prijs": "€12",
-      "interval": "Onbekend",
-      "laag": "Onbekend",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000623/4820"
-    },
-    {
-      "datum": "2026-11-21",
-      "tijd": "Onbekend",
-      "titel": "Pieten Expres",
-      "beschrijving": "De rit duurt circa 2 uur.",
-      "categorie": "Onbekend",
-      "locatie": "Museumstoomtram, Van Dedemstraat 8",
-      "leeftijd": "Kind",
-      "prijs": "Onbekend",
-      "interval": "Onbekend",
-      "laag": "Optreden",
-      "bron": "Stoomtram",
-      "link": "https://www.stoomtram.nl/pietenexpres/"
-    },
-    {
-      "datum": "2026-11-21",
-      "tijd": "19:00–20:33",
-      "titel": "Spinoza",
-      "beschrijving": "De laatste film van Rudolf van den Berg (Tirza) brengt de jonge Spinoza tot leven als een opstandige denker. Met Bart Bijnens als Spinoza en Pierre Bokma als Rembrandt van Rijn. In het Amsterdam van 1656 neemt de jonge filosoof Spinoza het op tegen onrecht. Zijn ideeën brengen hem steeds vaker in conflict met zijn omgeving. Tegelijk moedigen gesprekken met zijn buurman Rembrandt van Rijn hem aan om zijn eigen weg te",
-      "categorie": "Film",
-      "locatie": "Cinema Oostereiland",
-      "leeftijd": "Onbekend",
-      "prijs": "Onbekend",
-      "interval": "Onbekend",
-      "laag": "Verzameling",
-      "bron": "inHoorn, Uitagenda",
-      "link": "https://www.inhoorn.nl/agenda-item/spinoza-4/"
-    },
-    {
-      "datum": "2026-11-21",
-      "tijd": "16:00–19:19",
-      "titel": "The Hunger Games: Sunrise on the Reaping",
-      "beschrijving": "The Hunger Games: Sunrise on the Reaping volgt een 16-jarige Haymitch uit District 12 de arena in voor wat de grootste Spelen ooit moeten worden. Zaal 7 D-Box, Dolby Atmos",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Jongere",
-      "prijs": "€13,25",
-      "interval": "Onbekend",
-      "laag": "Onbekend",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000174/4627"
-    },
-    {
-      "datum": "2026-11-21",
-      "tijd": "21:50–00:27",
-      "titel": "Verity",
-      "beschrijving": "Het verhaal volgt een noodlijdende schrijfster die tijdelijk naar het afgelegen landhuis van de Crawfords verhuist om als ghostwriter voor Verity te werken. Zaal 6",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Jongere",
-      "prijs": "€12",
-      "interval": "Eenmalig",
-      "laag": "Onbekend",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000397/5159"
-    },
-    {
-      "datum": "2026-11-21",
-      "tijd": "18:10–20:34",
-      "titel": "Wen Er Maar Aan",
-      "beschrijving": "Beng! Actrice M. krijgt het zonder omwegen te horen: ‘Je zit in de overgang'. Zaal 4 NL",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Kind",
-      "prijs": "€12",
-      "interval": "Onbekend",
-      "laag": "Onbekend",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000178/5153"
-    },
     {
       "datum": "2026-11-22",
       "tijd": "15:00",
@@ -277,9 +53,9 @@
     },
     {
       "datum": "2026-11-22",
-      "tijd": "11:10–13:08",
+      "tijd": "16:10–18:08",
       "titel": "De Club van Sinterklaas film: Paniek in het Pietendorp",
-      "beschrijving": "In het Pietendorp wordt alles klaargemaakt voor de jaarlijkse grote reis naar Nederland. Er zijn dit jaar meer cadeaus, pepernoten en chocoladeletters dan ooit. Zaal 1 Donald Duck, NL",
+      "beschrijving": "In het Pietendorp wordt alles klaargemaakt voor de jaarlijkse grote reis naar Nederland. Er zijn dit jaar meer cadeaus, pepernoten en chocoladeletters dan ooit. Zaal 4 Donald Duck, NL",
       "categorie": "Film",
       "locatie": "Vue Hoorn, Westfriese Parkweg 3",
       "leeftijd": "Alle leeftijden",
@@ -287,27 +63,13 @@
       "interval": "Onbekend",
       "laag": "Onbekend",
       "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000490/5197"
+      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000490/5196"
     },
     {
       "datum": "2026-11-22",
-      "tijd": "10:30–12:06",
+      "tijd": "15:30–17:29",
       "titel": "De Grote Sinterklaasfilm en de Vliegende Pieten",
-      "beschrijving": "De Grote Sinterklaasfilm is terug met een magisch avontuur vol winterse chaos, waarin ook K3 de Pieten te hulp schiet. Door code rood kunnen de Pieten de daken niet meer op en moeten ze alles uit de kast halen met een bijzondere uitvinding en onverwachte superkrachten om Pakjesavond te redden. Nederland wordt getroffen door extreem winterweer en wanneer een zware sneeuwstorm het land platlegt, dreigt Pakjesavond voll",
-      "categorie": "Film",
-      "locatie": "Cinema Oostereiland",
-      "leeftijd": "Onbekend",
-      "prijs": "Onbekend",
-      "interval": "Onbekend",
-      "laag": "Verzameling",
-      "bron": "inHoorn, Uitagenda",
-      "link": "https://www.inhoorn.nl/agenda-item/de-grote-sinterklaasfilm-en-de-vliegende-pieten-7/"
-    },
-    {
-      "datum": "2026-11-22",
-      "tijd": "10:50–12:49",
-      "titel": "De Grote Sinterklaasfilm en de Vliegende Pieten",
-      "beschrijving": "Nederland wordt getroffen door extreem winterweer en Pakjesavond dreigt letterlijk in de sneeuw te vallen. Zaal 5 Mini Mornings, Donald Duck, NL",
+      "beschrijving": "Nederland wordt getroffen door extreem winterweer en Pakjesavond dreigt letterlijk in de sneeuw te vallen. Zaal 5 Donald Duck, NL",
       "categorie": "Film",
       "locatie": "Vue Hoorn, Westfriese Parkweg 3",
       "leeftijd": "Alle leeftijden",
@@ -315,7 +77,7 @@
       "interval": "Onbekend",
       "laag": "Onbekend",
       "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000493/5195"
+      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000493/5198"
     },
     {
       "datum": "2026-11-22",
@@ -333,45 +95,17 @@
     },
     {
       "datum": "2026-11-22",
-      "tijd": "10:30–12:10",
-      "titel": "Feestelijk Plezier met Peppa: De Bioscoopbelevenis",
-      "beschrijving": "Ga samen met Peppa Pig en haar familie naar de bioscoop voor een feestelijk avontuur op het grote witte doek terwijl ze Evie's allereerste kerst vieren! Zaal 4 Mini Mornings",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Alle leeftijden",
-      "prijs": "€12",
-      "interval": "Onbekend",
-      "laag": "Onbekend",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000592/4010"
-    },
-    {
-      "datum": "2026-11-22",
-      "tijd": "14:30–16:30",
+      "tijd": "19:00–21:00",
       "titel": "HAIR | musicalvereniging Westend",
       "beschrijving": "Musicalvereniging Westend presenteert: HAIR In deze actuele bewerking wordt de iconische musical Hair opnieuw tot leven gewekt, in een tijd waarin vrijheid en identiteit weer onder druk staan. Bekende nummers uit Hair live in het theater Geniet van klassiekers als “Aquarius”, “Let the Sunshine In”, “Good Morning Starshine” en natuurlijk “Hair” zelf — nummers die generaties hebben geïnspireerd en nu een verrassende ur",
       "categorie": "Theater",
       "locatie": "Schouwburg Het Park",
       "leeftijd": "Onbekend",
       "prijs": "€28,50",
-      "interval": "Onbekend",
+      "interval": "Eenmalig",
       "laag": "Optreden, Verzameling",
       "bron": "Het Park, inHoorn, Uitagenda",
       "link": "https://www.inhoorn.nl/agenda-item/hair-musicalvereniging-westend-2/"
-    },
-    {
-      "datum": "2026-11-22",
-      "tijd": "10:30–12:00",
-      "titel": "Het hoornse Sinterklaasfeest",
-      "beschrijving": "De sint komt lamgs om het huis verloren op ijn kop te zetten. meet en greet met Sint en Piet. met kado's en feest. incl limonade en kado per kind",
-      "categorie": "Onbekend",
-      "locatie": "Huisverloren",
-      "leeftijd": "Kind",
-      "prijs": "Onbekend",
-      "interval": "Eenmalig",
-      "laag": "Optreden",
-      "bron": "Huisverloren",
-      "link": "https://huisverloren.stager.co/shop/default/events/111715331"
     },
     {
       "datum": "2026-11-22",
@@ -403,34 +137,6 @@
     },
     {
       "datum": "2026-11-22",
-      "tijd": "14:00–16:26",
-      "titel": "Meet the Parents: Focker-In-Law",
-      "beschrijving": "In november worden komedielegende en Emmy-winnaar Ben Stiller en tweevoudig Oscar®-winnaar Robert De Niro herenigd in Meet the Parents: Focker-In-Law Zaal 6 Voorpremière",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Kind",
-      "prijs": "€12",
-      "interval": "Onbekend",
-      "laag": "Onbekend",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000529/4825"
-    },
-    {
-      "datum": "2026-11-22",
-      "tijd": "14:30–15:30",
-      "titel": "Meneer Monster (6+)",
-      "beschrijving": "Andy en Terry zijn gevraagd om een theaterstuk over hun waanzinnige boomhut te maken. Dat is nog niet zo makkelijk, want waar haal je nou zo snel vliegende katten, een limonadefontein, een apeninvasie en een reuzengorilla vandaan? Gelukkig hebben de jongens keihard gerepeteerd en ze zijn er bijna helemaal klaar voor! Maar eerst nog even 100 marshmallows eten en de papegaai kietelen.",
-      "categorie": "Eten",
-      "locatie": "Schouwburg Het Park",
-      "leeftijd": "Kind",
-      "prijs": "€23,50",
-      "interval": "Eenmalig",
-      "laag": "Optreden, Verzameling",
-      "bron": "Het Park, inHoorn, Uitagenda",
-      "link": "https://hetpark.nl/agenda/meneer-monster-6-10355767/"
-    },
-    {
-      "datum": "2026-11-22",
       "tijd": "15:00",
       "titel": "Meral & Tombaz",
       "beschrijving": "Theatraal concert ‘Changement’ Griekse en Turkse muziek uit de underground scene Is het verrassend dat de pijnlijke geschiedenis tussen Turken en Grieken ook veel moois opleverde? Volgens de musici van het Tombaz ensemble niet. Begin vorige eeuw moesten meer dan anderhalf miljoen Grieken en Turken door een uitwisselingsovereenkomst gedwongen hun geboortegrond verlaten. Onder deze vluchtelingen bevonden zich vele muzi",
@@ -452,7 +158,7 @@
       "locatie": "Vue Hoorn, Westfriese Parkweg 3",
       "leeftijd": "Volwassene",
       "prijs": "€12",
-      "interval": "Onbekend",
+      "interval": "Eenmalig",
       "laag": "Onbekend",
       "bron": "Vue Hoorn",
       "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000623/4819"
@@ -487,20 +193,6 @@
     },
     {
       "datum": "2026-11-22",
-      "tijd": "13:30–17:06",
-      "titel": "RBO 26/27: Manon",
-      "beschrijving": "In de schimmige krochten van het 18e-eeuwse Parijs is geld allesbepalend. Niets is nog heilig, zelfs de liefde is te koop, als de prijs maar hoog genoeg is. Zaal 1 Vue Ballet",
-      "categorie": "Film",
-      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
-      "leeftijd": "Kind",
-      "prijs": "€17,50",
-      "interval": "Onbekend",
-      "laag": "Onbekend",
-      "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000431/1160"
-    },
-    {
-      "datum": "2026-11-22",
       "tijd": "20:00–22:40",
       "titel": "Sneak Preview",
       "beschrijving": "Zaal 6 Sneak Preview",
@@ -515,7 +207,7 @@
     },
     {
       "datum": "2026-11-22",
-      "tijd": "11:00–14:19",
+      "tijd": "15:00–18:19",
       "titel": "The Hunger Games: Sunrise on the Reaping",
       "beschrijving": "The Hunger Games: Sunrise on the Reaping volgt een 16-jarige Haymitch uit District 12 de arena in voor wat de grootste Spelen ooit moeten worden. Zaal 7 D-Box, Dolby Atmos",
       "categorie": "Film",
@@ -525,21 +217,7 @@
       "interval": "Onbekend",
       "laag": "Onbekend",
       "bron": "Vue Hoorn",
-      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000174/4633"
-    },
-    {
-      "datum": "2026-11-22",
-      "tijd": "10:45–12:30",
-      "titel": "Time and Water",
-      "beschrijving": "Van de regisseur van Fire of Love komt een visueel adembenemende documentaire over IJsland. Schrijver Andri Snær Magnason verbindt zijn familiegeschiedenis met de gletsjers, ijsgrotten en ruige landschappen van zijn vaderland. Aan de hand van oude familiebeelden, IJslandse mythes en herinneringen vertelt Magnason hoe nauw zijn familie met de gletsjers verbonden is. Zijn grootouders waren gletsjerwetenschappers en bra",
-      "categorie": "Film",
-      "locatie": "Cinema Oostereiland",
-      "leeftijd": "Onbekend",
-      "prijs": "Onbekend",
-      "interval": "Onbekend",
-      "laag": "Verzameling",
-      "bron": "inHoorn, Uitagenda",
-      "link": "https://www.inhoorn.nl/agenda-item/time-and-water/"
+      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000174/4632"
     },
     {
       "datum": "2026-11-22",
@@ -554,6 +232,20 @@
       "laag": "Optreden",
       "bron": "Huisverloren",
       "link": "https://huisverloren.stager.co/shop/huisverloren/events/111696403"
+    },
+    {
+      "datum": "2026-11-22",
+      "tijd": "10:30–12:00",
+      "titel": "UITVERKOCHT Het hoornse Sinterklaasfeest",
+      "beschrijving": "De sint komt lamgs om het huis verloren op ijn kop te zetten. meet en greet met Sint en Piet. met kado's en feest. incl limonade en kado per kind",
+      "categorie": "Onbekend",
+      "locatie": "Huisverloren",
+      "leeftijd": "Kind",
+      "prijs": "Onbekend",
+      "interval": "Eenmalig",
+      "laag": "Optreden",
+      "bron": "Huisverloren",
+      "link": "https://huisverloren.stager.co/shop/default/events/111715331"
     },
     {
       "datum": "2026-11-23",
@@ -2397,7 +2089,7 @@
       "locatie": "Vue Hoorn, Westfriese Parkweg 3",
       "leeftijd": "Kind",
       "prijs": "€17,50",
-      "interval": "Onbekend",
+      "interval": "Eenmalig",
       "laag": "Onbekend",
       "bron": "Vue Hoorn",
       "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000431/1161"
@@ -2760,7 +2452,7 @@
       "locatie": "Vue Hoorn, Westfriese Parkweg 3",
       "leeftijd": "Kind",
       "prijs": "€12",
-      "interval": "Onbekend",
+      "interval": "Eenmalig",
       "laag": "Onbekend",
       "bron": "Vue Hoorn",
       "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000529/4824"
@@ -3197,6 +2889,20 @@
     },
     {
       "datum": "2026-11-28",
+      "tijd": "15:00–17:29",
+      "titel": "Disney's Hexed (NL)",
+      "beschrijving": "In Disney's Hexed ontdekt de impulsieve en eigenzinnige tiener Billie dat ze over geheime magische krachten beschikt. Zaal 1 NL",
+      "categorie": "Film",
+      "locatie": "Vue Hoorn, Westfriese Parkweg 3",
+      "leeftijd": "Kind",
+      "prijs": "€10",
+      "interval": "Eenmalig",
+      "laag": "Onbekend",
+      "bron": "Vue Hoorn",
+      "link": "https://www.vuecinemas.nl/kopen/overzicht/1023/HO00000591/5074"
+    },
+    {
+      "datum": "2026-11-28",
       "tijd": "10:30–12:30",
       "titel": "Engelse les",
       "beschrijving": "Elke week · Verbeter je Engels in een leuke en leerzame omgeving. De cursus richt zich op spreekvaardigheid en is geschikt voor beginners op niveau A0, A1 en A2.",
@@ -3556,7 +3262,7 @@
     },
     {
       "datum": "2026-12-01",
-      "tijd": "19:45",
+      "tijd": "19:45–21:57",
       "titel": "Mémoire de fille – Orange the World + Nagesprek",
       "beschrijving": "Mémoire de fille volgt Annie Ernaux, die terugblikt op een bepalende zomer uit haar jeugd. De film is gebaseerd op haar gelijknamige autobiografische roman. Parijs, 2020. Wanneer schrijfster Annie Ernaux terugkeert naar de stad waar ze opgroeide, wordt ze geconfronteerd met de zomer van 1958, toen ze als zeventienjarige haar beschermde jeugd achter zich wilde laten. Tijdens een zomerkamp hoopt ze haar vrijheid te vin",
       "categorie": "Film",
@@ -3565,21 +3271,21 @@
       "prijs": "Onbekend",
       "interval": "Onbekend",
       "laag": "Verzameling",
-      "bron": "Uitagenda",
-      "link": "https://westfrieseuitagenda.nl/agenda/01-12-2026-memoire-de-fille-orange-the-world-nagesprek/"
+      "bron": "inHoorn, Uitagenda",
+      "link": "https://www.inhoorn.nl/agenda-item/m-moire-de-fille-orange-the-world-nagesprek/"
     },
     {
       "datum": "2026-12-01",
       "tijd": "14:00–16:05",
       "titel": "Michael Varekamp & The Legends",
-      "beschrijving": "Miles Davis - Celebrating 100 Years!",
-      "categorie": "Theater",
+      "beschrijving": "Op 26 mei 1926 werd de legendarische trompettist Miles Davis geboren. Als geen ander wist Miles zichzelf en de jazz keer op keer te vernieuwen. Davis stond bekend om zijn geniale ingevingen en gepassioneerde levensstijl. De muziek die hij aanraakte zou daarna nooit meer hetzelfde zijn.",
+      "categorie": "Jazz",
       "locatie": "Schouwburg Het Park",
       "leeftijd": "Onbekend",
       "prijs": "€26,50",
       "interval": "Eenmalig",
       "laag": "Optreden, Verzameling",
-      "bron": "Het Park, Uitagenda",
+      "bron": "Het Park, inHoorn, Uitagenda",
       "link": "https://hetpark.nl/agenda/michael-varekamp-the-legends-10356196/"
     },
     {
@@ -3598,7 +3304,7 @@
     },
     {
       "datum": "2026-12-02",
-      "tijd": "16:00",
+      "tijd": "16:00–17:36",
       "titel": "De Grote Sinterklaasfilm en de Vliegende Pieten",
       "beschrijving": "De Grote Sinterklaasfilm is terug met een magisch avontuur vol winterse chaos, waarin ook K3 de Pieten te hulp schiet. Door code rood kunnen de Pieten de daken niet meer op en moeten ze alles uit de kast halen met een bijzondere uitvinding en onverwachte superkrachten om Pakjesavond te redden. Nederland wordt getroffen door extreem winterweer en wanneer een zware sneeuwstorm het land platlegt, dreigt Pakjesavond voll",
       "categorie": "Film",
@@ -3607,12 +3313,12 @@
       "prijs": "Onbekend",
       "interval": "Onbekend",
       "laag": "Verzameling",
-      "bron": "Uitagenda",
-      "link": "https://westfrieseuitagenda.nl/agenda/02-12-2026-de-grote-sinterklaasfilm-en-de-vliegende-pieten/"
+      "bron": "inHoorn, Uitagenda",
+      "link": "https://www.inhoorn.nl/agenda-item/de-grote-sinterklaasfilm-en-de-vliegende-pieten-3/"
     },
     {
       "datum": "2026-12-02",
-      "tijd": "20:00",
+      "tijd": "20:00–22:41",
       "titel": "Fjord – Voorpremière",
       "beschrijving": "Een indringend familiedrama over een gezin dat in Noorwegen een nieuwe start probeert te maken, maar al snel verstrikt raakt in een ingrijpend conflict. De Winnaar van de Gouden Palm op het Filmfestival van Cannes 2026. Na het overlijden van Mihais (Sebastian Stan) ouders laten Mihai en Lisbeth Gheorghiu (Renate Reinsve) alles achter zich in Roemenië en verhuizen ze met hun kinderen naar een afgelegen dorp in Noorweg",
       "categorie": "Film",
@@ -3621,21 +3327,21 @@
       "prijs": "Onbekend",
       "interval": "Onbekend",
       "laag": "Verzameling",
-      "bron": "Uitagenda",
-      "link": "https://westfrieseuitagenda.nl/agenda/02-12-2026-fjord-voorpremiere/"
+      "bron": "inHoorn, Uitagenda",
+      "link": "https://www.inhoorn.nl/agenda-item/fjord-voorpremi-re/"
     },
     {
       "datum": "2026-12-02",
       "tijd": "20:15–21:45",
       "titel": "Liefdesbrieven",
-      "beschrijving": "met Anne Wil Blankers en Hans Croiset",
+      "beschrijving": "Twee legendarische acteurs. Eén tijdloze liefdesgeschiedenis. Anne Wil Blankers en Hans Croiset spelen Liefdesbrieven .",
       "categorie": "Theater",
       "locatie": "Schouwburg Het Park",
       "leeftijd": "Onbekend",
       "prijs": "€36,50",
       "interval": "Eenmalig",
       "laag": "Optreden, Verzameling",
-      "bron": "Het Park, Uitagenda",
+      "bron": "Het Park, inHoorn, Uitagenda",
       "link": "https://hetpark.nl/agenda/liefdesbrieven-10297821/"
     },
     {
@@ -3656,14 +3362,14 @@
       "datum": "2026-12-02",
       "tijd": "20:30–22:10",
       "titel": "Remko Vrijdag",
-      "beschrijving": "Marko Maandag",
-      "categorie": "Comedy",
+      "beschrijving": "Dat belooft weer een onvoorspelbare avond vol absurde wendingen. Zijn eerste soloprogramma Vrijdag, Doemsdag werd unaniem lovend ontvangen. NRC gaf de voorstelling vijf ballen en de show werd genomineerd voor een Poelifinario, de belangrijkste cabaretprijs. Critici prezen vooral Vrijdags vermogen om chaos, fantasie en maatschappelijk commentaar samen te laten komen in een eigen, onnavolgbare stijl.",
+      "categorie": "Theater",
       "locatie": "Schouwburg Het Park",
       "leeftijd": "Onbekend",
       "prijs": "€25",
       "interval": "Eenmalig",
       "laag": "Optreden, Verzameling",
-      "bron": "Het Park, Uitagenda",
+      "bron": "Het Park, inHoorn, Uitagenda",
       "link": "https://hetpark.nl/agenda/remko-vrijdag-10352976/"
     },
     {
@@ -3705,12 +3411,12 @@
       "prijs": "€26",
       "interval": "Eenmalig",
       "laag": "Optreden, Verzameling",
-      "bron": "Het Park, Uitagenda",
+      "bron": "Het Park, inHoorn, Uitagenda",
       "link": "https://hetpark.nl/agenda/lakshmi-10352977/"
     },
     {
       "datum": "2026-12-03",
-      "tijd": "13:10",
+      "tijd": "13:10–15:45",
       "titel": "Minotaur",
       "beschrijving": "Een beklemmende psychologische thriller over macht, schuld en de gevolgen van persoonlijke keuzes in een samenleving die steeds verder onder druk komt te staan. De nieuwe film van regisseur Andrey Zvyagintsev werd bekroond met de Grand Prix op het Filmfestival van Cannes. In een Russisch provinciestadje probeert zakenman Gleb zijn leven onder controle te houden, terwijl de oorlog steeds nadrukkelijker voelbaar wordt.",
       "categorie": "Film",
@@ -3719,12 +3425,12 @@
       "prijs": "Onbekend",
       "interval": "Onbekend",
       "laag": "Verzameling",
-      "bron": "Uitagenda",
-      "link": "https://westfrieseuitagenda.nl/agenda/03-12-2026-minotaur/"
+      "bron": "inHoorn, Uitagenda",
+      "link": "https://www.inhoorn.nl/agenda-item/minotaur/"
     },
     {
       "datum": "2026-12-03",
-      "tijd": "18:20",
+      "tijd": "18:20–20:30",
       "titel": "Paper Tiger",
       "beschrijving": "Een indrukwekkend misdaaddrama van James Gray (The Immigrant) over twee broers die in het New York van de jaren tachtig hun Amerikaanse droom najagen. Met Miles Teller, Adam Driver en Scarlett Johansson in de hoofdrollen. Queens, 1986. Twee broers zetten alles op alles om een beter bestaan op te bouwen. Wanneer ze betrokken raken bij een ogenschijnlijk perfecte deal, komen ze terecht in de meedogenloze wereld van de",
       "categorie": "Film",
@@ -3733,8 +3439,8 @@
       "prijs": "Onbekend",
       "interval": "Onbekend",
       "laag": "Verzameling",
-      "bron": "Uitagenda",
-      "link": "https://westfrieseuitagenda.nl/agenda/03-12-2026-paper-tiger/"
+      "bron": "inHoorn, Uitagenda",
+      "link": "https://www.inhoorn.nl/agenda-item/paper-tiger-2/"
     },
     {
       "datum": "2026-12-03",
@@ -3852,14 +3558,14 @@
       "datum": "2026-12-06",
       "tijd": "20:15–21:45",
       "titel": "Rayen & Friends",
-      "beschrijving": "Wonderful Christmas time",
+      "beschrijving": "Cult. Jongeren Pas €34,00",
       "categorie": "Comedy",
       "locatie": "Schouwburg Het Park",
-      "leeftijd": "Onbekend",
+      "leeftijd": "Jongere",
       "prijs": "€36",
       "interval": "Eenmalig",
-      "laag": "Optreden",
-      "bron": "Het Park",
+      "laag": "Optreden, Verzameling",
+      "bron": "Het Park, Uitagenda",
       "link": "https://hetpark.nl/agenda/rayen-friends-10355783/"
     },
     {
@@ -3877,6 +3583,34 @@
       "link": "https://manifesto-hoorn.nl/productie/unplugged/"
     },
     {
+      "datum": "2026-12-07",
+      "tijd": "20:00",
+      "titel": "Club Kid – Regenboogavond",
+      "beschrijving": "Dé sensatie van het Filmfestival van Cannes! Een uitbundige en verrassend ontroerende komedie over onverwacht vaderschap. Het speelfilmdebuut van Jordan Firstman, die de film schreef, regisseerde en zelf de hoofdrol speelt. Peter Green (Jordan Firstman) leeft voor het bruisende nachtleven van New York. Als clubpromotor organiseert hij de wildste feesten en neemt hij het niet zo nauw met verantwoordelijkheden. Maar zi",
+      "categorie": "Film",
+      "locatie": "Cinema Oostereiland",
+      "leeftijd": "Onbekend",
+      "prijs": "Onbekend",
+      "interval": "Onbekend",
+      "laag": "Verzameling",
+      "bron": "Uitagenda",
+      "link": "https://westfrieseuitagenda.nl/agenda/07-12-2026-club-kid-regenboogavond/"
+    },
+    {
+      "datum": "2026-12-08",
+      "tijd": "10:45",
+      "titel": "Behemoth!",
+      "beschrijving": "Pedro Pascal speelt een getalenteerde cellist die na twintig jaar reizen terugkeert naar Los Angeles en brengt muziek hem opnieuw in contact met zijn verleden, zijn familie en de liefdes die hij achterliet. Alex Serian heeft jarenlang op verschillende plekken in de wereld gespeeld, maar keert uiteindelijk terug naar Los Angeles. Terwijl hij als cellist aan filmmuziek werkt, komen oude keuzes en onverwerkte gevoelens",
+      "categorie": "Film",
+      "locatie": "Cinema Oostereiland",
+      "leeftijd": "Onbekend",
+      "prijs": "Onbekend",
+      "interval": "Onbekend",
+      "laag": "Verzameling",
+      "bron": "Uitagenda",
+      "link": "https://westfrieseuitagenda.nl/agenda/08-12-2026-behemoth/"
+    },
+    {
       "datum": "2026-12-08",
       "tijd": "20:30–22:20",
       "titel": "Firma Mes",
@@ -3886,8 +3620,8 @@
       "leeftijd": "Onbekend",
       "prijs": "€23,50",
       "interval": "Eenmalig",
-      "laag": "Optreden",
-      "bron": "Het Park",
+      "laag": "Optreden, Verzameling",
+      "bron": "Het Park, Uitagenda",
       "link": "https://hetpark.nl/agenda/firma-mes-10352978/"
     },
     {
@@ -3919,6 +3653,20 @@
       "link": "https://www.oosterkerkhoorn.nl/activiteiten/muziekschool-boedijn-kerstconcert/"
     },
     {
+      "datum": "2026-12-08",
+      "tijd": "20:00",
+      "titel": "Violette – Voorpremière",
+      "beschrijving": "Na lang wachten is Jean-Pierre Jeunet, de regisseur van Amélie eindelijk weer terug met de originele en prachtig vormgegeven film,Violette. Over een begraafplaatsbeheerder die wordt geconfronteerd met oude geheimen en nieuwe liefdes. Violette Toussaint leidt een rustig leven als beheerder van een begraafplaats in een klein stadje in Bourgondië. Daar luistert ze naar de verhalen van bezoekers en collega’s over liefde,",
+      "categorie": "Film",
+      "locatie": "Cinema Oostereiland",
+      "leeftijd": "Onbekend",
+      "prijs": "Onbekend",
+      "interval": "Onbekend",
+      "laag": "Verzameling",
+      "bron": "Uitagenda",
+      "link": "https://westfrieseuitagenda.nl/agenda/08-12-2026-violette-voorpremiere/"
+    },
+    {
       "datum": "2026-12-09",
       "tijd": "10:30–11:45",
       "titel": "Taalcafé voor taalleerders Risdam",
@@ -3934,6 +3682,20 @@
     },
     {
       "datum": "2026-12-09",
+      "tijd": "10:00",
+      "titel": "The Debut – Filmclub",
+      "beschrijving": "Julianne Moore (The Room Next Door) en Paul Giamatti (The Holdovers) staan tegenover elkaar in deze originele, muzikale komedie van Jesse Eisenberg (A Real Pain). De filmclub wordt geleid door Marie van der Gaag. Zij verzorgt de inleiding en begeleidt na afloop het gesprek over de film. Wanneer Mona Friedman (Julianne Moore) een rol krijgt in een amateurtheaterproductie, verandert ze van een verlegen, onopvallende hu",
+      "categorie": "Film",
+      "locatie": "Cinema Oostereiland",
+      "leeftijd": "Onbekend",
+      "prijs": "Onbekend",
+      "interval": "Onbekend",
+      "laag": "Verzameling",
+      "bron": "Uitagenda",
+      "link": "https://westfrieseuitagenda.nl/agenda/09-12-2026-the-debut-filmclub/"
+    },
+    {
+      "datum": "2026-12-09",
       "tijd": "20:15–21:45",
       "titel": "TIS HIER GEEN HOTEL 3 (reprise)",
       "beschrijving": "Onbekend",
@@ -3942,8 +3704,8 @@
       "leeftijd": "Onbekend",
       "prijs": "€28,50",
       "interval": "Eenmalig",
-      "laag": "Optreden",
-      "bron": "Het Park",
+      "laag": "Optreden, Verzameling",
+      "bron": "Het Park, Uitagenda",
       "link": "https://hetpark.nl/agenda/tis-hier-geen-hotel-3-reprise-10355785/"
     },
     {
@@ -4172,6 +3934,20 @@
     },
     {
       "datum": "2026-12-10",
+      "tijd": "18:20",
+      "titel": "The Debut",
+      "beschrijving": "Julianne Moore (The Room Next Door) en Paul Giamatti (The Holdovers) staan tegenover elkaar in deze originele, muzikale komedie van Jesse Eisenberg (A Real Pain). Wanneer Mona Friedman (Julianne Moore) een rol krijgt in een amateurtheaterproductie, verandert ze van een verlegen, onopvallende huisvrouw in een gedreven 'method actor'. Ze is tot alles bereid om de artistieke integriteit van haar bescheiden rol te besche",
+      "categorie": "Film",
+      "locatie": "Cinema Oostereiland",
+      "leeftijd": "Onbekend",
+      "prijs": "Onbekend",
+      "interval": "Onbekend",
+      "laag": "Verzameling",
+      "bron": "Uitagenda",
+      "link": "https://westfrieseuitagenda.nl/agenda/10-12-2026-the-debut/"
+    },
+    {
+      "datum": "2026-12-10",
       "tijd": "20:30–22:00",
       "titel": "Theater Rotterdam en Dalton Jansen",
       "beschrijving": "FEAR ME",
@@ -4356,7 +4132,7 @@
       "datum": "2026-12-13",
       "tijd": "15:00–17:00",
       "titel": "Bach Ensemble Amsterdam: trompetten, pauken en pure barokke kerstmagie!",
-      "beschrijving": "Wegens het enorme succes van vorig jaar strikt het Bach Ensemble Amsterdam deze december opnieuw de strikken voor een onvergetelijk kerstconcert.Bereid u voor op een middag vol vocaal en instrumentaal vuurwerk!Dit jaar brengen we het Leipzig van Bach en zijn voorganger Kuhnau rechtstreeks naar u toe. Geniet van het grandioze Magnificat in C-dur van Kuhnau, Bachs uitbundige kerstcantate ‘Unser Mund sei voll Lachens’ (",
+      "beschrijving": "Wegens het enorme succes van vorig jaar strikt het Bach Ensemble Amsterdam deze december opnieuw de strikken voor een onvergetelijk kerstconcert.Bereid u voor op een middag vol vocaal en instrumentaal vuurwerk! Dit jaar brengen we het Leipzig van Bach en zijn voorganger Kuhnau rechtstreeks naar u toe. Trad. – ‘Stille Nacht’J. Kuhnau – Magnificat C gr.t.A. Hammerschmidt – ‘Freuet euch, Ihr Christen alle’ (arr. Stefan",
       "categorie": "Concert",
       "locatie": "Oosterkerk, Grote Oost 58",
       "leeftijd": "Onbekend",
@@ -5881,7 +5657,7 @@
     {
       "datum": "2027-01-31",
       "tijd": "13:30–14:30",
-      "titel": "Blind Date – Jeugd & Familie (8+)",
+      "titel": "Blind Date – Jeugd & Familie (4+)",
       "beschrijving": "Nationaal Theaterweekend 2027",
       "categorie": "Onbekend",
       "locatie": "Schouwburg Het Park",
@@ -5890,7 +5666,7 @@
       "interval": "Eenmalig",
       "laag": "Optreden",
       "bron": "Het Park",
-      "link": "https://hetpark.nl/agenda/blind-date-jeugd-familie-8-10386097/"
+      "link": "https://hetpark.nl/agenda/blind-date-jeugd-familie-4-10386098/"
     },
     {
       "datum": "2027-01-31",
@@ -6384,7 +6160,7 @@
     },
     {
       "datum": "2027-02-19",
-      "tijd": "19:00–20:00",
+      "tijd": "19:00–22:00",
       "titel": "Lumos Live: Een Betoverende Avond",
       "beschrijving": "Lumos brengt je betoverende concert ervaringen als eerbetoon aan wereldberoemde artiesten. We werken samen met spectaculaire locaties en prachtige kerken door heel Nederland om een concertervaring te bieden die niets minder dan magisch is ✨ Muzikaal Thema: Een klassiek eerbetoon aan Coldplay 🌍 Elke maand wordt er een donatie gedaan aan een ander goed doel! Let op: verschillende voorstellingen!1e sessie: 19:00 – 20:0",
       "categorie": "Klassiek",
@@ -9057,20 +8833,6 @@
       "link": "https://www.pakhuishoorn.nl/voorstelling/mooie-liedjes-de-leeuw-de-nijs-door-jeffrey-schenk/"
     },
     {
-      "datum": "2027-11-03",
-      "tijd": "Onbekend",
-      "titel": "Klimaatweek",
-      "beschrijving": "Tijdens de Hoornse Klimaatweek staan bij Cinema Oostereiland twee documentaires op het programma die laten zien hoe innovatie en natuur kunnen bijdragen aan een duurzamere wereld. Van 3 tot en met 15 november vertonen we twee inspirerende documentaires die laten zien hoe mensen zich inzetten voor een duurzamere toekomst. The Green Musketeer vertelt het verhaal van de inmiddels overleden West-Friese uitvinder Pieter H",
-      "categorie": "Film",
-      "locatie": "Cinema Oostereiland",
-      "leeftijd": "Onbekend",
-      "prijs": "Onbekend",
-      "interval": "Eenmalig",
-      "laag": "Festival",
-      "bron": "Cinema",
-      "link": "https://cinemaoostereiland.nl/festivals/klimaatweek/"
-    },
-    {
       "datum": "2027-11-15",
       "tijd": "Onbekend",
       "titel": "Pieten Expres",
@@ -9097,6 +8859,20 @@
       "laag": "Optreden",
       "bron": "Stoomtram",
       "link": "https://www.stoomtram.nl/pieten-expres-prikkelarm/"
+    },
+    {
+      "datum": "2027-11-21",
+      "tijd": "Onbekend",
+      "titel": "Pieten Expres",
+      "beschrijving": "De rit duurt circa 2 uur.",
+      "categorie": "Onbekend",
+      "locatie": "Museumstoomtram, Van Dedemstraat 8",
+      "leeftijd": "Kind",
+      "prijs": "Onbekend",
+      "interval": "Onbekend",
+      "laag": "Optreden",
+      "bron": "Stoomtram",
+      "link": "https://www.stoomtram.nl/pietenexpres/"
     },
     {
       "datum": "2027-11-25",
