@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T23:46:38.054Z",
+  "updated": "2026-11-22T15:14:40.109Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -17,6 +17,33 @@
       "id": "hoornnieuws",
       "label": "Hoornnieuws",
       "items": [
+        {
+          "title": "Stadsstrand Hoorn krijgt minstens 70.000 kuub extra zand",
+          "link": "https://hoornnieuws.nl/2026/11/22/stadsstrand-hoorn-krijgt-minstens-70-000-kuub-extra-zand/",
+          "pubDate": "Sun, 22 Nov 2026 15:12:10 +0000",
+          "description": "HOORN – Het stadsstrand in Hoorn krijgt minstens 70.000 kubieke meter extra zand. Volgens aannemer KWS is in de eerste periode sneller zand weggeslagen dan vooraf was berekend. Het extra zand moet het strand weer breder maken en de oever versterken. Voor het werk wordt zand hergebruikt dat vrijkomt bij dijkwerkzaamheden in Uitdam, Volendam en Katwoude. De eerste werkzaamheden zijn volgens KWS naar verwachting rond kerst afgerond, zodat het strand bij de jaarwisseling weer ruimte biedt aan de nieuwjaarsduik. Bron: KWS .",
+          "categories": [
+            "Gemeentenieuws"
+          ]
+        },
+        {
+          "title": "Sportuitslagen Hoorn en Zwaag: handbalzege voor SEW, gelijkspel bij de hockeyjeugd",
+          "link": "https://hoornnieuws.nl/2026/11/22/sportuitslagen-hoorn-en-zwaag-handbalzege-voor-sew-gelijkspel-bij-de-hockeyjeugd/",
+          "pubDate": "Sun, 22 Nov 2026 14:19:21 +0000",
+          "description": "De sportzaterdag van 21 november leverde in Hoorn en Zwaag uitslagen op in het handbal, hockey en voetbal. Bij het handbal won Westfriesland/SEW D1 in Zwaag met 20–11 van Westfriezen D1. Op het hockeyveld hield WFHC Hoorn MO18-2 een punt over aan het uitduel met Haarlem MO18-5. Het werd 2–2. Bij het voetbal speelden Always Forward MO13-1 en Westfriezen MO13-1 met 3–3 gelijk. Hollandia O11-1 won met 7–3 bij Westfriezen O11-1. Hollandia O21 verloor met 4–2 bij Quick Boys O21. Beeld: sportillustratie. Bronnen: Westfriezen handbal , Westfriezen voetbal , Hockeystanden en Kickmetrics .",
+          "categories": [
+            "Sport"
+          ]
+        },
+        {
+          "title": "Voetbaluitslagen zaterdag 21 november: VIOS-W verrast BOL, Telstar verliest thuis",
+          "link": "https://hoornnieuws.nl/2026/11/22/voetbaluitslagen-zaterdag-21-november-vios-w-verrast-bol-telstar-verliest-thuis/",
+          "pubDate": "Sun, 22 Nov 2026 13:44:47 +0000",
+          "description": "VIOS-W heeft zaterdag 21 november koploper BOL de eerste competitienederlaag van het seizoen bezorgd. In Broek op Langedijk stond het in de tweede helft nog 2–2, maar de ploeg uit Warmenhuizen sloeg in de slotfase twee keer toe. BOL blijft koploper in de eerste klasse A. Dijk en Waard en Schagen: BOL – VIOS-W 2–4. Alkmaar: AFC ’34 O21 – FC Emmen O21 1–0. Hoorn en Zwaag: Quick Boys O21 – Hollandia O21 4–2. Bij de jeugd speelde Always Forward MO13-1 met 3–3 gelijk tegen Westfriezen MO13-1. Hollandia O11-1 won met 7–3 bij Westfriezen O11-1. Noord-Holland: Telstar – PEC Zwolle 1–3. Telstar kwam in Velsen-Zuid op voorsprong door een eigen doelpunt. Dylan Mbayo scoorde vervolgens twee keer voor PE",
+          "categories": [
+            "Sport"
+          ]
+        },
         {
           "title": "Weekendagenda Hoorn: buiten spelen, nostalgie en Meneer Monster",
           "link": "https://hoornnieuws.nl/2026/11/19/weekendagenda-20-22-november-2026/",
@@ -81,34 +108,6 @@
           "categories": [
             "Gemeentenieuws"
           ]
-        },
-        {
-          "title": "Museum BroekerVeiling voor zestiende keer Pakhuis van Sinterklaas",
-          "link": "https://hoornnieuws.nl/2026/11/05/museum-broekerveiling-voor-zestiende-keer-pakhuis-van-sinterklaas/",
-          "pubDate": "Thu, 05 Nov 2026 09:25:46 +0000",
-          "description": "Klimmen, glijden, springen en puzzelen: vanaf zondag 15 november verandert Museum BroekerVeiling voor de zestiende keer in het Pakhuis van Sinterklaas. Tot en met woensdag 2 december kunnen kinderen op woensdag-, zaterdag- en zondagmiddagen hun vaardigheden als Piet testen, een voorstelling bezoeken en proberen hun Pietendiploma te verdienen. De historische lighallen van Museum BroekerVeiling worden voor het Pakhuis omgebouwd tot een groot trainingsparcours. Onder begeleiding van de Pieten gaan kinderen aan de slag met verschillende Pietenproeven. Wie alle opdrachten tot een goed einde brengt, ontvangt een Pietendiploma. Voorstelling Naast het parcours is er een muzikale voorstelling 'De Ver",
-          "categories": [
-            "Museum BroekerVeiling"
-          ]
-        },
-        {
-          "title": "Muzikale voorstelling Mooie Liedjes – LEGENDS komt naar Theater Het Pakhuis in Hoorn",
-          "link": "https://hoornnieuws.nl/2026/11/04/muzikale-voorstelling-mooie-liedjes-legends-komt-naar-theater-het-pakhuis-in-hoorn/",
-          "pubDate": "Wed, 04 Nov 2026 14:10:45 +0000",
-          "description": "Liefhebbers van legendarische hits, prachtige stemmen en herkenbare muziek kunnen zaterdag 21 november terecht in Theater Het Pakhuis in Hoorn. Daar staat de muzikale voorstelling Mooie Liedjes – LEGENDS: The Greatest Hits op het programma. Tijdens deze muzikale avond brengen Jeffrey Schenk en Wendy & Soraya, bekend van zangduo Remedy, een ode aan iconische artiesten en onvergetelijke hits. Samen met pianist Yannick Jochems zorgen zij voor een afwisselende voorstelling vol bekende nummers, uitgevoerd in solo's, duetten en samenzang. Jeffrey Schenk verwierf bekendheid door zijn deelname aan onder meer Bloed, Zweet & Tranen en The Voice . Ook stond hij op het podium tijdens de Ahoy-show van De",
-          "categories": [
-            "Agenda",
-            "Agenda / Evenementen"
-          ]
-        },
-        {
-          "title": "Voorbereidingen Sinterklaasintocht en demonstratie op 14 november",
-          "link": "https://hoornnieuws.nl/2026/11/04/voorbereidingen-sinterklaasintocht-en-demonstratie-op-14-november/",
-          "pubDate": "Wed, 04 Nov 2026 10:13:01 +0000",
-          "description": "Op zaterdag 14 november vinden in Hoorn zowel de Sinterklaasintocht als een aangemelde demonstratie van de Werkgroep Slavernijverleden Hoorn plaats. De gemeente heeft hierover de afgelopen periode gesprekken gevoerd met de betrokken partijen. In de voorbereiding is onderzocht hoe de Sinterklaasintocht en de maandelijkse demonstratie voor de verwijdering en verplaatsing van het standbeeld van Jan Pieterszoon Coen op een veilige en ordelijke manier kunnen verlopen. Niet tegelijk op dezelfde locatie Uit de gesprekken is naar voren gekomen dat de Sinterklaasintocht en de demonstratie beide doorgaan, maar niet tegelijkertijd op de Roode Steen plaatsvinden. De activiteiten raken elkaar daardoor ni",
-          "categories": [
-            "Gemeentenieuws"
-          ]
         }
       ]
     },
@@ -116,6 +115,27 @@
       "id": "hoornsdagblad",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Getuigen gezocht van schoten aan de Govert Oostwoudpad in Zwaag",
+          "link": "https://www.hoornsdagblad.nl/112-hoorn/getuigen-gezocht-van-schoten-aan-de-govert-oostwoudpad-in-zwaag",
+          "pubDate": "Sun, 22 Nov 2026 12:06:27 +0100",
+          "description": "ZWAAG - Op de Govert Oostwoudpad in Zwaag vond op zondagochtend 22 november rond 02.55 uur een schietincident plaats. Niemand raakte gewond. Wij doen onderzoek en zoeken getuigen.Na de melding van het schietincident gingen we in de omgeving van Zwaag op zoek naar de mannen die betrokken waren bij [...]",
+          "categories": []
+        },
+        {
+          "title": "Smartphone fotografie workshops in Noord-Holland!",
+          "link": "https://www.hoornsdagblad.nl/regio/smartphone-fotografie-workshops-in-noord-holland",
+          "pubDate": "Sun, 22 Nov 2026 09:10:46 +0100",
+          "description": "NOORD-HOLLAND - Wil jij in 2027 betere foto's leren maken met jouw smartphone? Dan zijn de workshops smartphone fotografie precies wat je zoekt! Deze worde onder andere gegeven in Alkmaar, Den Helder, Broek op Langedijk en Enkhuizen. De eerste nieuwe datums van de workshops staan inmiddels online [...]",
+          "categories": []
+        },
+        {
+          "title": "Automobilist botst tegen lantaarnpaal op de Westerdijk in Hoorn, veel schade",
+          "link": "https://www.hoornsdagblad.nl/112-hoorn/automobilist-botst-tegen-lantaarnpaal-op-de-westerdijk-in-hoorn-veel-schade",
+          "pubDate": "Sun, 22 Nov 2026 07:08:24 +0100",
+          "description": "HOORN - De hulpdiensten zijn zaterdagavond, iets voor middernacht, gealarmeerd voor een éénzijdig verkeersongeval op de Westerdijk in Hoorn.Ter plaatse bleek een automobilist tot stilstand te zijn gekomen tegen een lantaarnpaal, nadat deze door onbekende oorzaak de macht over het stuur verloor.Veel [...]",
+          "categories": []
+        },
         {
           "title": "Hollandia doet zichzelf tekort bij DOVO",
           "link": "https://www.hoornsdagblad.nl/sport/hollandia-doet-zichzelf-tekort-bij-dovo",
@@ -233,27 +253,6 @@
           "link": "https://www.hoornsdagblad.nl/buitenleven/tuincentra-in-hoorn",
           "pubDate": "Wed, 18 Nov 2026 08:00:00 +0100",
           "description": "Een goed tuincentrum is meer dan een winkel met planten: het is een plek voor inspiratie en advies voor je tuin of balkon. Hoorn telt meerdere tuincentra die opvallen door een ruim assortiment, deskundig personeel en een prettige sfeer.In dit overzicht vind je de tuincentra in de regio die [...]",
-          "categories": []
-        },
-        {
-          "title": "Film Stuk/Gemaakt: over seksueel geweld en herstel",
-          "link": "https://www.hoornsdagblad.nl/regio/film-stuk-gemaakt-over-seksueel-geweld-en-herstel",
-          "pubDate": "Tue, 17 Nov 2026 20:37:36 +0100",
-          "description": "PURMEREND - Wat doet seksueel geweld met iemand? En hoe vind je daarna een weg naar herstel? Op dinsdag 24 november ben je welkom bij de film Stuk/Gemaakt in Wijkplein Where.De film van regisseur Richard Dijkema behandelt dit moeilijke onderwerp op een toegankelijke en zorgvuldige manier, zonder [...]",
-          "categories": []
-        },
-        {
-          "title": "Talland College en AZ sluiten convenant",
-          "link": "https://www.hoornsdagblad.nl/regio/talland-college-en-az-sluiten-convenant",
-          "pubDate": "Tue, 17 Nov 2026 15:59:50 +0100",
-          "description": "ALKMAAR - Het Talland College en AZ hebben een convenant gesloten. Doel van het convenant is om mbo-talent te ontwikkelen, te behouden voor de regio en de verbinding tussen onderwijs, topsport en arbeidsmarkt te versterken. Onderdeel van het convenant is het creëren van stage-, leerwerk- en [...]",
-          "categories": []
-        },
-        {
-          "title": "\"Ik hou van je, maar ik trek het niet meer\" – wanneer liefde je uitput",
-          "link": "https://www.hoornsdagblad.nl/zorg-en-gezondheid/ik-hou-van-je-maar-ik-trek-het-niet-meer-wanneer-liefde-je-uitput",
-          "pubDate": "Tue, 17 Nov 2026 15:57:33 +0100",
-          "description": "\"Ik hou ontzettend veel van mijn partner, maar ik trek het gewoon niet meer.\"Het is een uitspraak die relatiecoach Saskia Karels regelmatig hoort in haar praktijk.Mensen die al jarenlang samen zijn. Die een gezin hebben opgebouwd, mooie herinneringen delen en helemaal niet uit elkaar willen.En toch [...]",
           "categories": []
         }
       ]
@@ -640,8 +639,35 @@
       "label": "Streekomroep",
       "items": [
         {
-          "title": "Kop koffie voor verenigingen wordt duurder door einde saldering dorpshuis Bovenkarspel",
-          "link": "https://www.streekomroepwestfriesland.nl/kop-koffie-voor-verenigingen-wordt-duurder-door-einde-saldering-dorpshuis-bovenkarspel/",
+          "title": "Vijf jaar na de sluiting is er heimwee naar 'de Deen': \"Gevoel van een buurtsuper\"",
+          "link": "https://www.streekomroepwestfriesland.nl/vijf-jaar-na-de-sluiting-is-er-heimwee-naar-de-deen-gevoel-van-een-buurtsuper/",
+          "pubDate": "Sun, 22 Nov 2026 14:30:00 +0000",
+          "description": "'Geen dag zonder DEEN', luidde de slogan van supermarktketen DEEN. Maar liefhebbers moeten het al vijf jaar zonder DEEN doen. In november 2021 sloten de laatste winkels van de van origine Hoornse supermarktketen de deuren. 'De Deen' verdween uit het straatbeeld en ging over in Dekamarkt, Vomar of Albert Heijn. En dat gemis laat zich nog altijd voelen. Een nostalgische zweem op een frisse novemberochtend in Zwaag. Supermarktbezoekers aan de voormalige DEEN-vestiging, nu een Albert Heijn, duiken aan de Dorpsstraat in Zwaag diep weg in hun winterjas. Totdat duidelijk wordt waarom ze bij het doen van de boodschappen worden aangesproken. Want als DEEN ter sprake komt, verschijnt in bijna alle gev",
+          "categories": [
+            "Werk & economie"
+          ]
+        },
+        {
+          "title": "Westfries van de Week: Weten jullie wat een \"matjedor\" is?",
+          "link": "https://www.streekomroepwestfriesland.nl/westfries-van-de-week-weten-jullie-wat-een-matjedor-is/",
+          "pubDate": "Sun, 22 Nov 2026 06:59:00 +0000",
+          "description": "In de serie ‘Westfries van de week’ gaan we op zoek naar typische West-Friese woorden en gebruiken. Want hoeveel mensen spreken het dialect nog? Of kennen de gebruiken nog? In deze aflevering gaan we langs bij Swen Broersen in Hoogkarspel, die op zijn vrije dag lekker aan het 'studderen' is. Toen Swen deze auto voorbij zag komen dacht hij: \"dat is een leuk hok\". Nu klust hij op zijn oprit aan de auto. Een echte automonteur is hij niet, maar hij komt naar eigen zeggen een heel eind. Ondertussen vertelt Swen over zijn muziekcarrière en het publiek waar je dan mee te maken krijgt. De auto die hij opknapt bevat enkele onderdelen die niet meer helemaal lekker in elkaar passen. Vandaar het woord v",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
+        {
+          "title": "Twee dagen geen bussen door staking chauffeurs: dit moet je weten",
+          "link": "https://www.streekomroepwestfriesland.nl/twee-dagen-geen-bussen-door-staking-chauffeurs-dit-moet-je-weten/",
+          "pubDate": "Sun, 22 Nov 2026 06:30:00 +0000",
+          "description": "Het streekvervoer in Noord-Holland ligt morgen en dinsdag opnieuw plat vanwege stakingen. De stakingen zijn een gevolg van – wederom – vastgelopen onderhandelingen over een nieuwe, betere cao. Dat betekent dat er in Noord-Holland die dagen maar beperkt bussen rijden. Waarom wordt er opnieuw gestaakt? Vakbondsleden van FNV en CNV die in het streekvervoer werken, leggen het werk neer omdat de cao-onderhandelingen opnieuw zijn vastgelopen. Zij eisen onder meer een loonsverhoging van 9,5 procent over een periode van twee jaar. Vorige maand werden de stakingen opgeschort, omdat de vakbonden en werkgevers opnieuw met elkaar om tafel gingen. Die gesprekken leken de goede kant op te gaan, maar eerde",
+          "categories": [
+            "Verkeer & wonen"
+          ]
+        },
+        {
+          "title": "Dak vol zonnepanelen, toch duizenden euro's extra kwijt: dorpshuis vreest sluiting",
+          "link": "https://www.streekomroepwestfriesland.nl/dak-vol-zonnepanelen-toch-duizenden-euros-extra-kwijt-dorpshuis-vreest-sluiting/",
           "pubDate": "Sat, 21 Nov 2026 14:30:00 +0000",
           "description": "De energierekening wordt volgend jaar fors hoger voor dorpshuis De Tuf in Bovenkarspel. Het dak van het dorpshuis ligt vol met zonnepanelen, maar door het afschaffen van de salderingsregeling leveren die vanaf volgend jaar niet veel meer op. \"Dit is een strop voor verenigingen en heeft grote gevolgen voor ons\", zegt voorzitter Trude Buysman. Op het dak van het dorpshuis in Bovenkarspel liggen meer dan tachtig zonnepanelen. Dankzij een subsidie is De Tuf, waar veel verenigingen in het dorp gebruik van maken, flink verduurzaamd. Nu de salderingsregeling stopt, komt volgens Buysman het bestaan van het dorpshuis zelfs in gevaar: \"We gaan duizenden euro's meer betalen. We betalen nu al 16.000 eur",
           "categories": [
@@ -701,35 +727,6 @@
           "description": "Fans hebben er lang op moeten wachten, maar vandaag was het eindelijk zover. Na dertien jaar is de nieuwe Grand Theft Auto-game uitgekomen. In het spel bevinden gamers zich in een fictieve open wereld gebaseerd op Miami. Met hoofdpersonages Jason en Lucia verken je de virtuele wereld en begeef je je in criminele circuits. Al weken gaat het over het nieuwe spel. Massaal nemen gamers vrij van hun werk om de game te kunnen spelen. Bij ons op redactie was echter iedereen aanwezig en nam redacteur Hein Keur zijn spelcomputer mee om hoofdredacteur Erik Bout een voorproefje te geven. Bekijk Erik zijn reactie hier: Dit bericht op Instagram bekijken Een bericht gedeeld door Streekomroep West-Frieslan",
           "categories": [
             "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Commissaris van de Koning bezoekt Opmeer: \"In een kleine gemeente is het leven grootser\"",
-          "link": "https://www.streekomroepwestfriesland.nl/commissaris-van-de-koning-bezoekt-opmeer-in-een-kleine-gemeente-is-het-leven-grootser/",
-          "pubDate": "Thu, 19 Nov 2026 12:56:01 +0000",
-          "description": "Commissaris van de Koning Arthur van Dijk heeft woensdag een officieel bezoek gebracht aan de gemeente Opmeer. Tijdens gesprekken met het gemeentebestuur, inwoners en vertegenwoordigers van het verenigingsleven stond de leefbaarheid van de kleine kernen centraal. Ook bezocht hij Aartswoud, waar de saamhorigheid volgens inwoners een belangrijke rol speelt. Burgemeester Herman Wiersema ontving de commissaris. Hij vertelde wat Opmeer volgens hem bijzonder maakt. “De sociale samenhang en korte lijnen tussen bestuur en samenleving zijn factoren die horen bij het samenleven in de kleine gemeente die Opmeer is. En dat gewone, dat willen we behouden. Want dat is onze grote kracht.” Tijdens het gespr",
-          "categories": [
-            "Kunst & cultuur",
-            "Politiek"
-          ]
-        },
-        {
-          "title": "Kraanwagen kukelt van dijk af, bestuurder met schrik vrij",
-          "link": "https://www.streekomroepwestfriesland.nl/kraanwagen-kukelt-van-dijk-af-bestuurder-met-schrik-vrij/",
-          "pubDate": "Thu, 19 Nov 2026 11:13:00 +0000",
-          "description": "Een kraanwagen is vanochtend van de Walingsdijk in Ursem gereden en op de zijkant beland. Wonder boven wonder raakte de chauffeur niet gewond. Het ongeluk werd rond 11.05 gemeld bij de meldkamer. Een politiewoordvoerder vertelt dat de bestuurder door nog onbekende oorzaak van de dijk raakte en vervolgens op de zijkant naast de weg belandde. De bestuurder kon op eigen kracht zijn wagen verlaten en raakte niet gewond. Wel is de berm naast de weg flink beschadigd en zijn er een paar borden kapotgegaan. Daar is de gemeente inmiddels ook van op de hoogte, vertelt de woordvoerder. Er waren geen andere voertuigen betrokken bij het ongeval. The post Kraanwagen kukelt van dijk af, bestuurder met schr",
-          "categories": [
-            "112"
-          ]
-        },
-        {
-          "title": "Talland College en AZ sluiten samenwerking om stagekansen voor mbo-studenten te vergroten",
-          "link": "https://www.streekomroepwestfriesland.nl/talland-college-en-az-sluiten-samenwerking-om-stagekansen-voor-mbo-studenten-te-vergroten/",
-          "pubDate": "Wed, 18 Nov 2026 15:24:09 +0000",
-          "description": "Het Talland College, met ook een school in Hoorn, en voetbalclub AZ gaan samenwerken om mbo-studenten meer kansen te bieden op een stage- of leerwerkplek. De organisaties hebben daarvoor maandag 16 november een convenant gesloten in het AFAS Stadion in Alkmaar. De samenwerking moet jong talent behouden voor Noord-Holland boven het Noordzeekanaal en de aansluiting tussen onderwijs en arbeidsmarkt versterken. Studenten van het Talland College kunnen bij AZ terecht voor stage-, leerwerk- en praktijkleerplaatsen. De samenwerking richt zich op verschillende opleidingen, waaronder hospitality, evenementen, sport, facilitaire dienstverlening, veiligheid, IT en technologie, marketing en communicatie",
-          "categories": [
-            "Onderwijs",
-            "Sport"
           ]
         }
       ]
