@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-22T21:04:15.032Z",
+  "updated": "2026-11-23T03:42:26.104Z",
   "failedSources": [
     {
       "id": "hoornactueel",
       "label": "HoornActueel",
-      "error": "The operation was aborted due to timeout"
+      "error": "fetch failed"
     },
     {
       "id": "onswestfriesland",
