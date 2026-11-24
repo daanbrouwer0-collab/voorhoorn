@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-24T04:17:14.834Z",
+  "updated": "2026-11-24T18:51:32.151Z",
   "failedSources": [
     {
       "id": "hoornactueel",
       "label": "HoornActueel",
-      "error": "HTTP 403"
+      "error": "The operation was aborted due to timeout"
     },
     {
       "id": "onswestfriesland",
@@ -17,6 +17,17 @@
       "id": "hoornnieuws",
       "label": "Hoornnieuws",
       "items": [
+        {
+          "title": "Hoorn bespreekt vanavond verder uitstel van subsidiebesparingen",
+          "link": "https://hoornnieuws.nl/2026/11/24/hoorn-bespreekt-uitstel-subsidiebesparingen-24-november/",
+          "pubDate": "Tue, 24 Nov 2026 16:19:34 +0000",
+          "description": "HOORN – De Hoornse raadscommissie bespreekt dinsdagavond 24 november het voorstel om meer tijd te nemen voor de herziening van subsidies. Het college wil de besparingsopgave uiterlijk op 1 januari 2029 realiseren. Een definitief besluit daarover is nog niet genomen. Eerder was de besparing al doorgeschoven naar 2028. Volgens de gemeente is extra voorbereiding nodig om keuzes te maken die passen bij de ambities van Hoorn. Ook wil zij subsidiepartners zorgvuldig bij de veranderingen betrekken. De gemeente onderzoekt daarnaast hoe subsidies beter kunnen bijdragen aan maatschappelijke doelen. Wat dit betekent voor afzonderlijke organisaties of subsidiebedragen, is nog niet bekend. Het college ho",
+          "categories": [
+            "Gemeentenieuws",
+            "Hoorn",
+            "Laatste nieuws"
+          ]
+        },
         {
           "title": "Oorlogsmuseum Medemblik verwelkomt 40.000e bezoeker van dit jaar",
           "link": "https://hoornnieuws.nl/2026/11/23/oorlogsmuseum-medemblik-verwelkomt-40-000e-bezoeker-van-dit-jaar/",
@@ -99,15 +110,6 @@
           "categories": [
             "Verkeer"
           ]
-        },
-        {
-          "title": "Hoornse raad wil weten waardoor woningbouwprojecten vertragen",
-          "link": "https://hoornnieuws.nl/2026/11/14/hoornse-raad-wil-weten-waardoor-woningbouwprojecten-vertragen/",
-          "pubDate": "Sat, 14 Nov 2026 12:33:02 +0000",
-          "description": "HOORN – De gemeenteraad van Hoorn wil in de voortgangsrapportages over woningbouw kunnen zien welke projecten vertraging oplopen en hoe het college de knelpunten aanpakt. De raad nam daarover een motie aan bij de behandeling van de begroting voor 2027. De raad wil ook weten op welke momenten hij zelf kan helpen, bijvoorbeeld door een besluit te nemen. Een andere motie vraagt het college te onderzoeken onder welke voorwaarden wonen en werken op bedrijventerreinen kunnen samengaan. De gemeente heeft de besluiten en een verwijzing naar de vergadering online gezet. Bron en praktische informatie",
-          "categories": [
-            "Lokaal Nieuws"
-          ]
         }
       ]
     },
@@ -115,6 +117,48 @@
       "id": "hoornsdagblad",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Nieuwe website en online kaartverkoop Museum van de 20 Eeuw",
+          "link": "https://www.hoornsdagblad.nl/regio/nieuwe-website-en-online-kaartverkoop-museum-van-de-20-eeuw",
+          "pubDate": "Tue, 24 Nov 2026 15:02:08 +0100",
+          "description": "HOORN - Zelfs het Museum van de 20e Eeuw gaat met zijn tijd mee en heeft nu een up-to-date website. Hij is sneller, overzichtelijker en toegankelijk via alle beeldschermen dus ook de mobiel. Nieuw is dat er via de website entreekaartjes voor het populaire museum besteld kunnen worden.Dankzij [...]",
+          "categories": []
+        },
+        {
+          "title": "Maakt Marco Borsato zijn comeback in het AFAS-Stadion?",
+          "link": "https://www.hoornsdagblad.nl/regio/maakt-marco-borsato-zijn-comeback-in-het-afas-stadion",
+          "pubDate": "Tue, 24 Nov 2026 14:33:42 +0100",
+          "description": "ALKMAAR - Marco Borsato lijkt zich op te maken voor een comeback op het podium. Zijn management bevestigt dat er achter de schermen serieus wordt gekeken naar mogelijkheden voor nieuwe optredens. Mogelijk gaat die van start in zijn eigen stad Alkmaar met een concertreeks in het AFAS-Stadion.AZ [...]",
+          "categories": []
+        },
+        {
+          "title": "Gemeente Hoorn en Raadkrachtige Vrouwen organiseren schouw: waar voelen inwoners zich onveilig?",
+          "link": "https://www.hoornsdagblad.nl/gemeente/gemeente-hoorn-en-raadkrachtige-vrouwen-organiseren-schouw-waar-voelen-inwoners-zich-onveilig",
+          "pubDate": "Tue, 24 Nov 2026 10:55:59 +0100",
+          "description": "HOORN - Waar voelen inwoners zich onveilig in Hoorn? En wat kan er worden verbeterd aan de openbare ruimte? De gemeente Hoorn en de Raadkrachtige Vrouwen organiseren op donderdag 3 december een schouw in vier gebieden in de stad. Raadsleden en betrokken ambtenaren bekijken dan op de fiets plekken [...]",
+          "categories": []
+        },
+        {
+          "title": "Hoorn opent marathonschaatsen De Vier van Noord-Holland met topsport en schaatsplezier voor iedereen",
+          "link": "https://www.hoornsdagblad.nl/sport/hoorn-opent-marathonschaatsen-de-vier-van-noord-holland-met-topsport-en-schaatsplezier-voor-iedereen",
+          "pubDate": "Tue, 24 Nov 2026 09:25:38 +0100",
+          "description": "HOORN - De eerste wedstrijd van 'De Vier van Noord-Holland', de ultieme uitdaging voor marathonschaatsers, is donderdag 10 december in Hoorn. Om 19.00 en 20.00 uur gaan de vrouwen en mannen van de lange adem op IJsbaan De Westfries achtereenvolgens 60 en 80 ronden strijden voor de dagzege én punten [...]",
+          "categories": []
+        },
+        {
+          "title": "Nieuwe trends in de beveiliging van online entertainmentplatforms",
+          "link": "https://www.hoornsdagblad.nl/algemeen/nieuwe-trends-in-de-beveiliging-van-online-entertainmentplatforms",
+          "pubDate": "Tue, 24 Nov 2026 09:18:24 +0100",
+          "description": "Beveiliging van online platforms staat steeds hoger op de agenda nu een groot deel van de vrijetijdsbesteding zich digitaal afspeelt. Of je nu een livestream bekijkt, deelneemt aan online communities of kiest voor betaalde online diensten, de risico's nemen toe naarmate meer persoonlijke gegevens [...]",
+          "categories": []
+        },
+        {
+          "title": "Net als voorgaande jaren bijna 1,3 miljoen slachtoffers huiselijk geweld",
+          "link": "https://www.hoornsdagblad.nl/algemeen/net-als-voorgaande-jaren-bijna-13-miljoen-slachtoffers-huiselijk-geweld",
+          "pubDate": "Tue, 24 Nov 2026 07:16:48 +0100",
+          "description": "In 2026 zeggen bijna 1,3 miljoen mensen van 16 jaar of ouder (9 procent) dat ze in de afgelopen twaalf maanden slachtoffer zijn geweest van een of meer vormen van huiselijk geweld. Dat aantal is vergelijkbaar met voorgaande jaren. Dat blijkt uit de tweejaarlijkse Prevalentiemonitor Huiselijk Geweld [...]",
+          "categories": []
+        },
         {
           "title": "Mac Donald beslist derby tussen Westfriezen en Always Forward",
           "link": "https://www.hoornsdagblad.nl/sport/mac-donald-beslist-derby-tussen-westfriezen-en-always-forward",
@@ -212,48 +256,6 @@
           "pubDate": "Sat, 21 Nov 2026 19:09:03 +0100",
           "description": "ZWAAG - In de 1e Divisie Futsal heeft ZVV Zwaag de koppositie met succes verdedigd al ging dat in de thuiswedstrijd tegen ZVV Amsterdam met meer moeite dan de laatste weken het geval was. De formatie van coach Sander van Dijk maakte een 1-2 achterstand ongedaan en won met 4-2.ZVV Zwaag scoorde in [...]",
           "categories": []
-        },
-        {
-          "title": "Veiligheidsregio onthult meerdere nieuwe brandweervoertuigen in Opmeer",
-          "link": "https://www.hoornsdagblad.nl/regio/veiligheidsregio-onthult-meerdere-nieuwe-brandweervoertuigen-in-opmeer",
-          "pubDate": "Sat, 21 Nov 2026 15:15:38 +0100",
-          "description": "OPMEER - De Veiligheidsregio heeft zaterdag meerdere nieuwe brandweervoertuigen officieel onthuld en overgedragen. Het gaat in totaal om vijf hoogwerkers, twee tankautospuiten, twee hulpverleningsvoertuigen en een nieuwe dienstauto. De onthulling vond plaats in Museum 't Loosje in Opmeer. Bij de [...]",
-          "categories": []
-        },
-        {
-          "title": "A Magical Christmas Concert in de Bonifaciuskerk",
-          "link": "https://www.hoornsdagblad.nl/uitgaan/a-magical-christmas-concert-in-de-bonifaciuskerk",
-          "pubDate": "Sat, 21 Nov 2026 06:50:09 +0100",
-          "description": "MEDEMBLIK - Lichtjes, warmte, muziek en een vleugje glitter… alles wat je nodig hebt voor een onvergetelijk kerstgevoel.De feestdagen komen tot leven tijdens A Magical Christmas Concert, een betoverende muzikale theatermiddag of avond met Lianne Bakker (piano en zang) en Melissa van Belleghem [...]",
-          "categories": []
-        },
-        {
-          "title": "Laatste volle week van november brengt nachtvorst en geregeld zon",
-          "link": "https://www.hoornsdagblad.nl/regio/laatste-volle-week-van-november-brengt-nachtvorst-en-geregeld-zon",
-          "pubDate": "Sat, 21 Nov 2026 06:21:55 +0100",
-          "description": "NEDERLAND – In de laatste volle week van november komt het op veel plaatsen tot nachtvorst. Overdag laat de zon zich geregeld zien en blijft het op de meeste dagen droog. Vooral woensdag is het koud, met maxima van 1 tot 3 graden.Zaterdag nog buien, zondag kouderZaterdag wisselen zon en [...]",
-          "categories": []
-        },
-        {
-          "title": "Brede politieke steun voor bescherming natuur en landschap in Noord-Holland",
-          "link": "https://www.hoornsdagblad.nl/regio/brede-politieke-steun-voor-bescherming-natuur-en-landschap-in-noord-holland",
-          "pubDate": "Fri, 20 Nov 2026 16:10:40 +0100",
-          "description": "NOORD-HOLLAND - De bescherming van natuur en landschap in Noord-Holland kan rekenen op brede politieke steun. Dat blijkt uit een peiling van Landschap Noord-Holland onder de politieke partijen in de Provinciale Staten. Alle acht doelen uit de nieuwe Agenda 2030 krijgen steun van een ruime [...]",
-          "categories": []
-        },
-        {
-          "title": "Landelijke actieweek tegen bezitters van kinderpornografisch materiaal",
-          "link": "https://www.hoornsdagblad.nl/112-hoorn/landelijke-actieweek-tegen-bezitters-van-kinderpornografisch-materiaal2",
-          "pubDate": "Fri, 20 Nov 2026 15:30:25 +0100",
-          "description": "NEDERLAND - De politie heeft in de afgelopen week 45 personen gewaarschuwd om te stoppen met het downloaden van kinderpornografisch materiaal. Met de vroegtijdige bezoeken wil de politie voorkomen dat deze personen een stap verder gaan. De boodschap is duidelijk: stop met downloaden en zoek hulp, [...]",
-          "categories": []
-        },
-        {
-          "title": "Kerst Samen: een warme plek aan tafel voor wie dat goed kan gebruiken",
-          "link": "https://www.hoornsdagblad.nl/regio/kerst-samen-een-warme-plek-aan-tafel-voor-wie-dat-goed-kan-gebruiken",
-          "pubDate": "Fri, 20 Nov 2026 08:53:51 +0100",
-          "description": "HOORN - Kerst is voor velen een tijd van warmte, gezelligheid en samenzijn. Echter niet voor iedereen zijn de feestdagen vanzelfsprekend een fijne periode. Juist dan kan het gemis aan gezelschap of verbinding extra voelbaar zijn. Daarom organiseren Avontuur-BlachereNL, Precovery, Stichting [...]",
-          "categories": []
         }
       ]
     },
@@ -261,6 +263,13 @@
       "id": "hoornsdagblad-sport",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Hoorn opent marathonschaatsen De Vier van Noord-Holland met topsport en schaatsplezier voor iedereen",
+          "link": "https://www.hoornsdagblad.nl/sport/hoorn-opent-marathonschaatsen-de-vier-van-noord-holland-met-topsport-en-schaatsplezier-voor-iedereen",
+          "pubDate": "Tue, 24 Nov 2026 09:25:38 +0100",
+          "description": "HOORN - De eerste wedstrijd van 'De Vier van Noord-Holland', de ultieme uitdaging voor marathonschaatsers, is donderdag 10 december in Hoorn. Om 19.00 en 20.00 uur gaan de vrouwen en mannen van de lange adem op IJsbaan De Westfries achtereenvolgens 60 en 80 ronden strijden voor de dagzege én punten [...]",
+          "categories": []
+        },
         {
           "title": "Mac Donald beslist derby tussen Westfriezen en Always Forward",
           "link": "https://www.hoornsdagblad.nl/sport/mac-donald-beslist-derby-tussen-westfriezen-en-always-forward",
@@ -393,13 +402,6 @@
           "pubDate": "Mon, 09 Nov 2026 11:22:13 +0100",
           "description": "ALKMAAR - Woensdag 9 tot en met zaterdag 12 juni 2027 staat Alkmaar vier dagen lang in het teken van wandelen. Tijdens De 4 van Alkmaar vertrekken deelnemers iedere dag vanuit Alkmaar om het hart van Noord-Holland te ontdekken. Op zaterdag 12 juni komen daar de wandelaars van De Vierde van de 4 [...]",
           "categories": []
-        },
-        {
-          "title": "De Blokkers haalt flink uit tegen SDW",
-          "link": "https://www.hoornsdagblad.nl/sport/de-blokkers-haalt-flink-uit-tegen-sdw",
-          "pubDate": "Mon, 09 Nov 2026 00:35:48 +0100",
-          "description": "BLOKKER - In de vijfde klasse van het zaterdagvoetbal heeft De Blokkers korte metten gemaakt met tegenstander SDW. De ploeg van Martin Bommels won na een 5-0 ruststand met maar liefst 8-0.De thuisploeg deed snel zaken, want na de openingstreffer van Julian op den Kelder trof Quinten Knook tweemaal [...]",
-          "categories": []
         }
       ]
     },
@@ -407,6 +409,60 @@
       "id": "rodi",
       "label": "Rodi Hoorn",
       "items": [
+        {
+          "title": "Gratis workshops voor jongeren in De Blauwe Schuit in Hoorn",
+          "link": "https://www.rodi.nl/hoorn/nieuws/513553/gratis-workshops-voor-jongeren-in-de-blauwe-schuit-in-hoorn",
+          "pubDate": "Tue, 24 Nov 2026 16:20:25 Z",
+          "description": "HOORN - Jongeren van 12 tot en met 21 jaar kunnen zaterdag 28 november gratis meedoen aan creatieve workshops in De Blauwe Schuit aan de Vredehofstraat 7a in Hoorn. Kunstbende Noord-Holland organiseert dit Open SPOT Atelier samen met De Blauwe Schuit. Aanmelden is nodig.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Peter Haisma is prins van carnavalsvereniging Ospylac in Hoorn",
+          "link": "https://www.rodi.nl/hoorn/nieuws/513533/peter-haisma-is-prins-van-carnavalsvereniging-ospylac-in-hoorn",
+          "pubDate": "Tue, 24 Nov 2026 15:00:44 Z",
+          "description": "HOORN - Peter Haisma is dit carnavalsseizoen prins van carnavalsvereniging Ospylac in Hoorn. Dat maakte de carnavalsvereniging bekend tijdens een feestavond in Huis Verloren. Adjudant Daan Burger en de hofdames Chella, Pascha en Barbara vormen samen met hem het nieuwe decorum.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Effect maatregelen tegen wachttijden Veilig Thuis in Hoorn nog onzeker",
+          "link": "https://www.rodi.nl/hoorn/politiek/513489/effect-maatregelen-tegen-wachttijden-veilig-thuis-in-hoorn-nog-onzeker",
+          "pubDate": "Tue, 24 Nov 2026 13:16:34 Z",
+          "description": "HOORN - Het is nog te vroeg om vast te stellen welk effect de maatregelen bij Veilig Thuis Noord-Holland Noord hebben op de ontwikkeling van de wachttijden en het naleven van wettelijke termijnen. Dat schrijft het Hoornse college in antwoord op schriftelijke vragen van Hoorn Centraal. Veilig Thuis heeft tegelijkertijd te maken met een autonome en onregelmatige groei van het aantal meldingen.",
+          "categories": [
+            "Politiek"
+          ]
+        },
+        {
+          "title": "Aantal verkeersongelukken in Hoorn stijgt met veertien procent: ook meer slachtoffers",
+          "link": "https://www.rodi.nl/hoorn/nieuws/513468/aantal-verkeersongelukken-in-hoorn-stijgt-met-veertien-procent-ook-meer-slachtoffers",
+          "pubDate": "Tue, 24 Nov 2026 11:39:21 Z",
+          "description": "HOORN - Het aantal geregistreerde verkeersongelukken in Hoorn is vorig jaar flink gestegen. In 2025 werden binnen de gemeentegrenzen 444 ongelukken geregistreerd, 54 meer dan een jaar eerder. Dat is een toename van bijna veertien procent. Ook het aantal ongelukken waarbij slachtoffers vielen nam toe.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "Fietsschouw in Hoorn: inwoners wijzen onveilige plekken aan",
+          "link": "https://www.rodi.nl/hoorn/gemeentenieuws/513461/fietsschouw-in-hoorn-inwoners-wijzen-onveilige-plekken-aan",
+          "pubDate": "Tue, 24 Nov 2026 11:19:14 Z",
+          "description": "HOORN - De gemeente Hoorn en Raadkrachtige Vrouwen organiseren donderdag 3 december een fietsschouw in vier gebieden van de stad. Raadsleden en ambtenaren bekijken plekken waar inwoners zich onveilig voelen. Inwoners kunnen tot 1 december locaties aandragen.",
+          "categories": [
+            "Gemeentenieuws"
+          ]
+        },
+        {
+          "title": "WIN! Los de Sinterklaas puzzel(s) op en maak kans op te gekke prijzen!",
+          "link": "https://www.rodi.nl/hoorn/speel-mee/504432/win-los-de-sinterklaas-puzzel-s-op-en-maak-kans-op-te-gekke-prijzen-winactie-",
+          "pubDate": "Tue, 24 Nov 2026 08:00:00 Z",
+          "description": "REGIO - De Sint is weer in het land en dat vieren we met een winactie! Tussen alle voorbereidingen voor pakjesavond door is het tijd om de hersenen even aan het werk te zetten. In de Rodi-nieuwsbladen staan deze week twee Sinterklaas-puzzels. Weet jij de oplossingen te vinden?",
+          "categories": [
+            "Speel mee"
+          ]
+        },
         {
           "title": "Agenten vinden ruim 700 stuks drugs in Hoorn, twee verdachten aangehouden",
           "link": "https://www.rodi.nl/hoorn/112-nieuws/513416/agenten-vinden-ruim-700-stuks-drugs-in-hoorn-twee-verdachten-aangehouden",
@@ -577,60 +633,6 @@
           "categories": [
             "Uit"
           ]
-        },
-        {
-          "title": "Reizigers opgelet: streekvervoer ligt maandag en dinsdag opnieuw plat door staking",
-          "link": "https://www.rodi.nl/hoorn/nieuws/512999/reizigers-opgelet-streekvervoer-ligt-maandag-en-dinsdag-opnieuw-plat-door-staking",
-          "pubDate": "Wed, 18 Nov 2026 16:17:13 Z",
-          "description": "REGIO - Buschauffeurs en machinisten in het streekvervoer leggen komende maandag 23 en dinsdag 24 november landelijk het werk neer. Dat hebben vakbonden FNV en CNV woensdag aangekondigd, zo meldt NU.nl. De cao-onderhandelingen zijn vastgelopen.",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "Thuis in Hoorn: ‘Hier krijg ik de kans om te leren en die wil ik pakken’",
-          "link": "https://www.rodi.nl/hoorn/nieuws/512838/thuis-in-hoorn-hier-krijg-ik-de-kans-om-te-leren-en-die-wil-ik-pakken-thuis-in-hoorn-",
-          "pubDate": "Wed, 18 Nov 2026 15:41:53 Z",
-          "description": "ZWAAG - In de rubriek 'Thuis in Hoorn' vertelt een nieuwkomer, die een (tijdelijk) thuis in Hoorn heeft gevonden, elke maand zijn of haar verhaal. Deze keer: Tahereh Hossaini.",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "‘Prachtig avontuur met mooie ontmoetingen’: borduuratelier About a Jacket in Hoorn stopt na tien jaar",
-          "link": "https://www.rodi.nl/hoorn/nieuws/512982/prachtig-avontuur-met-mooie-ontmoetingen-borduuratelier-about-a-jacket-in-hoorn-stopt-na-tien-jaar",
-          "pubDate": "Wed, 18 Nov 2026 15:03:17 Z",
-          "description": "HOORN - Na tien jaar komt er een einde aan Stichting About a Jacket. De stichting wordt nog voor het einde van dit jaar opgeheven, laat initiatiefnemer Marilou Evelo weten.",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "Hoorns Harmonie Orkest sluit jubileumjaar af met Magisch Feestconcert in Oosterkerk",
-          "link": "https://www.rodi.nl/hoorn/uit/512977/hoorns-harmonie-orkest-sluit-jubileumjaar-af-met-magisch-feestconcert-in-oosterkerk",
-          "pubDate": "Wed, 18 Nov 2026 14:53:01 Z",
-          "description": "HOORN - Het Hoorns Harmonie Orkest (HHO) viert zijn zestigjarig bestaan met het Magische Feestconcert in de Oosterkerk aan het Grote Oost in Hoorn. Samen met goochelaar en entertainer Jorrit Schooneman speelt het orkest zaterdag 21 november een avond vol muziek en verrassingen.",
-          "categories": [
-            "Uit"
-          ]
-        },
-        {
-          "title": "René Huijboom, bewoner Holenkwartier in Hoorn, maakt bezwaar tegen de kap van tien bomen",
-          "link": "https://www.rodi.nl/hoorn/nieuws/512949/rene-huijboom-bewoner-holenkwartier-in-hoorn-maakt-bezwaar-tegen-de-kap-van-tien-bomen",
-          "pubDate": "Wed, 18 Nov 2026 13:45:40 Z",
-          "description": "HOORN - René Huijboom, bewoner van het Holenkwartier, heeft bezwaar gemaakt tegen de kap van tien bomen voor woningbouwproject De Vrijheid. Vooral vijf grote bomen langs het fietspad Holenweg richting Kersenboogerd wil hij behouden. Hij vraagt zich af waarom niet eerst naar alternatieven wordt gekeken.",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "Warmtepomp kan Hoorns huishouden volgens berekening ruim 3.000 euro besparen",
-          "link": "https://www.rodi.nl/hoorn/nieuws/512936/warmtepomp-kan-hoorns-huishouden-volgens-berekening-ruim-3-000-euro-besparen",
-          "pubDate": "Wed, 18 Nov 2026 13:11:59 Z",
-          "description": "HOORN - Huishoudens in Hoorn die hun woning volledig van het gas halen met een warmtepomp, kunnen bij de huidige energieprijzen flink besparen. Voor een gemiddeld Hoorns huishouden zou het volgens een berekening van duurzaamheidsplatform Slimster gaan om ongeveer 3.091 euro in drie jaar. Daar staat wel een investering van duizenden euro's tegenover.",
-          "categories": [
-            "Nieuws"
-          ]
         }
       ]
     },
@@ -638,6 +640,70 @@
       "id": "streekomroep",
       "label": "Streekomroep",
       "items": [
+        {
+          "title": "Enkhuizer Cas Gijsberts vertoont deel twee van filmserie 'Chester'",
+          "link": "https://www.streekomroepwestfriesland.nl/enkhuizer-cas-gijsberts-vertoont-deel-twee-van-filmserie-chester/",
+          "pubDate": "Tue, 24 Nov 2026 16:15:00 +0000",
+          "description": "De nieuwe film van de Enkhuizer Cas Gijsberts gaat na ruim een jaar van crowdfunding, scripts schrijven, filmen en monteren deze week in première. Samen met zijn crew heeft hij hard gewerkt aan een waardig vervolg op deel één van zijn filmserie 'Chester', die in mei 2025 uit kwam. In het tweede deel van de reeks is te zien hoe schurk Crater moet boeten voor de daden uit de eerste film. \"Alleen lijkt er toch een plottwist te zitten. Want is het wel echt allemaal zo makkelijk\", licht de regisseur toe. Na een uitverkochte première bij Hét Postkantoor in Bovenkarspel vorig jaar, was de keuze om een vervolg te maken op 'Chester: De Kronieken van de Nar' snel gemaakt. Volgens Cas moest iedereen de",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
+        {
+          "title": "Joris de Lange wint Maestro Junior in Enkhuizen",
+          "link": "https://www.streekomroepwestfriesland.nl/joris-de-lange-wint-maestro-junior-in-enkhuizen/",
+          "pubDate": "Tue, 24 Nov 2026 15:53:04 +0000",
+          "description": "Zeven jonge dirigenten stonden zondag 22 november voor het opleidingsorkest de Music Stars tijdens Maestro Junior in Enkhuizen. De kinderen vertegenwoordigden alle basisscholen uit de stad en mochten laten zien hoe goed zij een orkest kunnen dirigeren. Na een muzikale en spannende middag werd Joris de Lange uitgeroepen tot winnaar. De middag werd geopend door de vaste dirigente van de Music Stars, Ria van Bijnen, met muziek uit de filmreeks 'Pirates of the Caribbean'. Daarna was het de beurt aan de jonge dirigenten Thijs, Joris, Isabella, Lot, Dagmar, Elise en Djomy. Alle deelnemers dirigeerden ieder twee muziekstukken. Het programma was gevarieerd, met onder meer muziek uit films als Harry ",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
+        {
+          "title": "Gemeente Medemblik gaat zelf onkruid wieden, stopt overeenkomst met HVC",
+          "link": "https://www.streekomroepwestfriesland.nl/gemeente-medemblik-gaat-zelf-onkruid-wieden-stopt-overeenkomst-met-hvc/",
+          "pubDate": "Tue, 24 Nov 2026 14:17:00 +0000",
+          "description": "In een brief aan de raad van Medemblik laat het college van burgemeester en wethouders weten dat de opdracht om onkruid in de gemeente te bestrijden door HVC niet wordt verlengd. De gemeente heeft een overeenkomst met HVC tot 31 december 2026 om deze werkzaamheden uit te voeren. Hoe de onkruidbestrijding er in 2027 uit gaat zien is nog niet bekend. De gemeente heeft nog geen plan. Het college wil \"beter kunnen sturen op de kwaliteit van de openbare ruimte\" laten ze weten in de brief aan de raad. Daarom beginnen ze een onderzoek naar een nieuwe vorm. Met voornamelijk een focus op de kwaliteit en uitvoering van de werkzaamheden. In een reactie laat de gemeente weten dat het niet voortkomt uit ",
+          "categories": [
+            "Natuur & klimaat",
+            "Politiek"
+          ]
+        },
+        {
+          "title": "Ravage bij frontale botsing in Bovenkarspel",
+          "link": "https://www.streekomroepwestfriesland.nl/ravage-bij-frontale-botsing-in-bovenkarspel/",
+          "pubDate": "Tue, 24 Nov 2026 14:15:00 +0000",
+          "description": "Op de N505 bij Bovenkarspel zijn vanmiddag twee auto's door nog onbekende oorzaak op elkaar gebotst. De auto's zijn daarbij zwaar beschadigd geraakt en de weg ligt vol brokstukken. Het is niet bekend of er gewonden zijn. Het ongeluk op de N505 werd rond 13.30 uur gemeld bij de hulpdiensten. Volgens een politiewoordvoerder raakte een van de bestuurders door de klap bekneld in de auto, maar kon diegene uit het voertuig bevrijd worden. Op foto's is te zien dat de ravage enorm is. Een van de auto's heeft een wiel verloren en de weg ligt bezaaid met glas en brokstukken. De N505 is voorlopig in beide richtingen dicht tussen Andijk en Enkhuizen-Noord. Hoelang de weg gesloten blijft, is niet bekend.",
+          "categories": [
+            "112"
+          ]
+        },
+        {
+          "title": "Tijdelijke wegafsluitingen in Stede Broec door werkzaamheden",
+          "link": "https://www.streekomroepwestfriesland.nl/tijdelijke-wegafsluitingen-in-stede-broec-door-werkzaamheden/",
+          "pubDate": "Tue, 24 Nov 2026 13:06:02 +0000",
+          "description": "Het verkeer in Stede Broec moet deze week rekening houden met wegafsluitingen. Aan de Broekerhavenweg in Bovenkarspel worden klinkervakken in het asfalt hersteld. Ook de P.J. Jongstraat in Lutjebroek is tijdelijk gedeeltelijk dicht vanwege asfalteringswerkzaamheden. Aannemer KWS werkt tot en met 1 december aan de Broekerhavenweg. Het gaat om de klinkervakken tussen de nummers 163 en 241. De weg is tijdens de werkzaamheden afgesloten voor doorgaand verkeer. Verkeer wordt met borden omgeleid. Voetgangers kunnen via het voetpad langs het werkvak. Fietsers mogen daar alleen langs als zij afstappen en hun fiets aan de hand meenemen. Door de inzet van zwaar materieel kan de doorgang plaatselijk be",
+          "categories": [
+            "Verkeer & wonen"
+          ]
+        },
+        {
+          "title": "Seinstoring voorbij: treinen tussen Heerhugowaard en Hoorn rijden weer",
+          "link": "https://www.streekomroepwestfriesland.nl/seinstoring-voorbij-treinen-tussen-heerhugowaard-en-hoorn-rijden-weer/",
+          "pubDate": "Tue, 24 Nov 2026 05:14:49 +0000",
+          "description": "Door een seinstoring rijden er momenteel geen treinen tussen Heerhugowaard en Hoorn. Update 7.40 uur: Volgens de NS zijn de beperkingen voorbij en rijden de treinen rond 7.45 uur weer de normale dienstregeling. De storing werd vannacht gemeld. Door de seinstoring rijden er geen treinen tussen Heerhugowaard en Hoorn. Reizigers wordt geadviseerd kort voor vertrek de reis te plannen in de app van NS. The post Seinstoring voorbij: treinen tussen Heerhugowaard en Hoorn rijden weer appeared first on Streekomroep West-Friesland .",
+          "categories": [
+            "Verkeer & wonen"
+          ]
+        },
+        {
+          "title": "Grote hoeveelheid drugs gevonden in woning, twee verdachten aangehouden",
+          "link": "https://www.streekomroepwestfriesland.nl/grote-hoeveelheid-drugs-gevonden-in-woning-twee-verdachten-aangehouden/",
+          "pubDate": "Mon, 23 Nov 2026 20:14:00 +0000",
+          "description": "De politie heeft vanmiddag tijdens een doorzoeking van een huis in Hoorn meer dan 700 stuks drugs gevonden. Twee verdachten van 23 en 24 jaar zijn aangehouden. Het gaat om inwoner van Hoorn en een man uit gemeente Koggenland. Het tweetal kwam in beeld na een anonieme tip over een mogelijke drugsdeal op straat. Toen de politie arriveerde bij de mogelijke drugsdeal, ging de 24-jarige man uit Hoorn er met zijn auto op hoge snelheid vandoor. Daarbij reed hij volgens de politie maar liefst 60 kilometer per uur te hard. Ook bleek de bestuurder onder invloed te zijn van drugs. Zijn rijbewijs is daarom ingenomen. Drugs in auto gevonden Bij de controle van de auto troffen agenten drugs aan. Dat was v",
+          "categories": [
+            "112"
+          ]
+        },
         {
           "title": "'Problemen bij Noord-Hollandse rijschoolketen: mogelijk honderden mensen gedupeerd'",
           "link": "https://www.streekomroepwestfriesland.nl/problemen-bij-noord-hollandse-rijschoolketen-mogelijk-honderden-mensen-gedupeerd/",
@@ -665,70 +731,6 @@
           "description": "De binnenboordmotor uit een rondvaartboot van Peter Fijma uit Enkhuizen is gestolen. De motor met een gewicht van ongeveer 200 kilo verdween ergens tussen 1 oktober en 21 november. De boot lag op dat moment onder de Dreefburg in Enkhuizen. Zaterdag werd de diefstal ontdekt. \"Ik ben in zak en as. Je tilt zo’n motor er niet zomaar uit.\" De 67-jarige Peter had jarenlang een dakdekkersbedrijf en stopte daar op zijn zestigste mee. De rondvaarten begonnen als een soort hobby, maar dit groeide al snel uit tot dagelijkse tochten. Deze boot werd gebruikt voor de grotere groepen van 30 tot 40 personen. De rondvaartboot wordt ieder jaar na het vaarseizoen onder de Dreefbrug gelegd. Begin oktober bracht",
           "categories": [
             "112"
-          ]
-        },
-        {
-          "title": "Kindje in Zwaag aangereden door werkbus",
-          "link": "https://www.streekomroepwestfriesland.nl/kindje-in-zwaag-aangereden-door-werkbus/",
-          "pubDate": "Mon, 23 Nov 2026 11:02:07 +0000",
-          "description": "Een kindje is vanochtend aangereden door een werkbus op de Red Naomistraat in Zwaag. De ambulance heeft het kind met onbekende verwondingen naar het ziekenhuis gebracht. Het ongeluk gebeurde rond 11.00 uur op de Red Naomistraat in Zwaag. Ambulancepersoneel heeft het kind ter plekke nagekeken en vervolgens meegenomen naar het ziekenhuis. Het is niet bekend hoe het met het slachtoffer gaat. \"Het kindje was erg aan het huilen en dat is een goed teken in zo'n situatie\", aldus een woordvoerder van de politie. Hoe de aanrijding kon gebeuren, wordt onderzocht. Tests wezen uit dat de bestuurder in ieder geval niet onder invloed was. The post Kindje in Zwaag aangereden door werkbus appeared first on ",
-          "categories": [
-            "112"
-          ]
-        },
-        {
-          "title": "Oorlogsmuseum Medemblik viert mijlpaal met 40.000ste bezoeker dit jaar",
-          "link": "https://www.streekomroepwestfriesland.nl/oorlogsmuseum-medemblik-viert-mijlpaal-met-40-000ste-bezoeker-dit-jaar/",
-          "pubDate": "Mon, 23 Nov 2026 09:53:09 +0000",
-          "description": "Oorlogsmuseum Medemblik heeft afgelopen vrijdag voor het eerst de grens van 40.000 bezoekers in één jaar bereikt. René Abelmann was degene die als 40.000e bezoeker door de museumdeuren stapte. Hij werd samen met zijn vrouw Anita tijdens de Dag van de Ondernemer feestelijk verrast. De mijlpaal werd bekendgemaakt tijdens een bijeenkomst van de Ondernemers Federatie Medemblik (OFM) met ongeveer 280 aanwezigen. Hoofdgast van de avond was Oos Kesbeke, bekend als de augurkenkoning. Hij gaf een lezing en er werden OFM Awards uitgereikt. Museumdirecteur Lars Rustenburg hield bij binnenkomst van de gasten de bezoekersaantallen bij. Tijdens het programma maakte hij bekend dat René Abelmann de 40.000st",
-          "categories": [
-            "Geschiedenis",
-            "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Column: Fee of heks?",
-          "link": "https://www.streekomroepwestfriesland.nl/column-fee-of-heks/",
-          "pubDate": "Mon, 23 Nov 2026 08:29:57 +0000",
-          "description": "Mevrouw Grosthuizen en ik zijn weer terug van een prettig uitstapje naar en mooi buitenland. Zij heeft mij er liefdevol van overtuigd dat het zeer zou bijdragen tot goede ontspanning wanneer de laptop niet zou worden meegenomen. Het zou te makkelijk kunnen leiden tot meer aandacht voor andere zaken die zich tijdens onze reis aan ons zouden openbaren. Eerlijk gezegd heb ik me toch af en toe gelaafd aan de onderwerpen die doorgaans mijn behoefte aan reageren prikkelen. Zo heb ik toch het één en ander kunnen opvangen over het ongetwijfeld beste vredesakkoord voor de hele wereld ooit door een Amerikaanse president bereikt en bereikten mij ook de fantastische gebeurtenissen rond het spannendste l",
-          "categories": [
-            "Politiek"
-          ]
-        },
-        {
-          "title": "Van knoflooksaus tot buurtgevoel: waarom klanten na vijf jaar nog altijd heimwee hebben naar Deen",
-          "link": "https://www.streekomroepwestfriesland.nl/van-knoflooksaus-tot-buurtgevoel-waarom-klanten-na-vijf-jaar-nog-altijd-heimwee-hebben-naar-deen/",
-          "pubDate": "Sun, 22 Nov 2026 14:30:00 +0000",
-          "description": "Al vijf jaar moeten Noord-Hollanders het zonder supermarktketen Deen doen. In november 2021 sloten de laatste winkels van het van oorsprong Hoornse familiebedrijf hun deuren. Toch is de supermarkt nog lang niet vergeten. In Zwaag halen oud-klanten herinneringen op aan de volle schappen, de vertrouwde medewerkers en vooral de producten die ze nergens meer kunnen vinden. 'Geen dag zonder Deen', luidde jarenlang de slogan. Maar inmiddels zijn de voormalige winkels omgebouwd tot vestigingen van DekaMarkt, Vomar of Albert Heijn. Op een frisse novemberochtend bij de voormalige Deen aan de Dorpsstraat in Zwaag, tegenwoordig een Albert Heijn, blijkt hoe diep de liefde voor de supermarkt nog zit. Zod",
-          "categories": [
-            "Werk & economie"
-          ]
-        },
-        {
-          "title": "Westfries van de Week: Weten jullie wat een \"matjedor\" is?",
-          "link": "https://www.streekomroepwestfriesland.nl/westfries-van-de-week-weten-jullie-wat-een-matjedor-is/",
-          "pubDate": "Sun, 22 Nov 2026 06:59:00 +0000",
-          "description": "In de serie ‘Westfries van de week’ gaan we op zoek naar typische West-Friese woorden en gebruiken. Want hoeveel mensen spreken het dialect nog? Of kennen de gebruiken nog? In deze aflevering gaan we langs bij Swen Broersen in Hoogkarspel, die op zijn vrije dag lekker aan het 'studderen' is. Toen Swen deze auto voorbij zag komen dacht hij: \"dat is een leuk hok\". Nu klust hij op zijn oprit aan de auto. Een echte automonteur is hij niet, maar hij komt naar eigen zeggen een heel eind. Ondertussen vertelt Swen over zijn muziekcarrière en het publiek waar je dan mee te maken krijgt. De auto die hij opknapt bevat enkele onderdelen die niet meer helemaal lekker in elkaar passen. Vandaar het woord v",
-          "categories": [
-            "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Twee dagen geen bussen door staking chauffeurs: dit moet je weten",
-          "link": "https://www.streekomroepwestfriesland.nl/twee-dagen-geen-bussen-door-staking-chauffeurs-dit-moet-je-weten/",
-          "pubDate": "Sun, 22 Nov 2026 06:30:00 +0000",
-          "description": "Het streekvervoer in Noord-Holland ligt morgen en dinsdag opnieuw plat vanwege stakingen. De stakingen zijn een gevolg van – wederom – vastgelopen onderhandelingen over een nieuwe, betere cao. Dat betekent dat er in Noord-Holland die dagen maar beperkt bussen rijden. Waarom wordt er opnieuw gestaakt? Vakbondsleden van FNV en CNV die in het streekvervoer werken, leggen het werk neer omdat de cao-onderhandelingen opnieuw zijn vastgelopen. Zij eisen onder meer een loonsverhoging van 9,5 procent over een periode van twee jaar. Vorige maand werden de stakingen opgeschort, omdat de vakbonden en werkgevers opnieuw met elkaar om tafel gingen. Die gesprekken leken de goede kant op te gaan, maar eerde",
-          "categories": [
-            "Verkeer & wonen"
-          ]
-        },
-        {
-          "title": "Forse stijging energierekening zorgt voor duurdere koffie dorpshuis Bovenkarspel",
-          "link": "https://www.streekomroepwestfriesland.nl/forse-stijging-energierekening-zorgt-voor-duurdere-koffie-dorpshuis-bovenkarspel/",
-          "pubDate": "Sat, 21 Nov 2026 14:30:00 +0000",
-          "description": "De energierekening wordt volgend jaar fors hoger voor dorpshuis De Tuf in Bovenkarspel. Het dak van het dorpshuis ligt vol met zonnepanelen, maar door het afschaffen van de salderingsregeling leveren die vanaf volgend jaar niet veel meer op. \"Dit is een strop voor verenigingen en heeft grote gevolgen voor ons\", zegt voorzitter Trude Buysman. Op het dak van het dorpshuis in Bovenkarspel liggen meer dan tachtig zonnepanelen. Dankzij een subsidie is De Tuf, waar veel verenigingen in het dorp gebruik van maken, flink verduurzaamd. Nu de salderingsregeling stopt, komt volgens Buysman het bestaan van het dorpshuis zelfs in gevaar: \"We gaan duizenden euro's meer betalen. We betalen nu al 16.000 eur",
-          "categories": [
-            "Kunst & cultuur"
           ]
         }
       ]
