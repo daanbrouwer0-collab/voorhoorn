@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T02:10:24.976Z",
+  "updated": "2026-11-26T17:41:33.933Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -17,6 +17,16 @@
       "id": "hoornnieuws",
       "label": "Hoornnieuws",
       "items": [
+        {
+          "title": "Kerstmarkten in Noord-Holland 2026: van winterfair in De Noord tot kerstkramen op Texel",
+          "link": "https://hoornnieuws.nl/2026/11/26/kerstmarkten-in-noord-holland-2026-van-winterfair-in-de-noord-tot-kerstkramen-op-texel/",
+          "pubDate": "Thu, 26 Nov 2026 09:11:17 +0000",
+          "description": "Kerstmarkten in Noord-Holland 2026: van het Stadsplein in Heerhugowaard tot de dorpskerk op Texel NOORD-HOLLAND – De eerste kerstmarkten zijn al begonnen en in december volgen er nog veel meer. Op het Stadsplein in Heerhugowaard gaan de lichtjes in de kerstboom aan bij de opening van een driedaagse kerstmarkt. Datzelfde weekend kun je in de wijk ’t Kruis langs open ateliers en winterkramen. Ook in de rest van Noord-Holland is er volop keuze, van bijna 350 kramen in Haarlem tot een kerstmarkt rond de dorpskerk van Oosterend op Texel. De eerste kerstkramen staan al klaar Op landgoed Duin & Kruidberg in Santpoort-Noord duurt de Castle Christmas Fair nog tot en met zondag 29 november. In Heerhug",
+          "categories": [
+            "Agenda / Evenementen",
+            "Cultuur"
+          ]
+        },
         {
           "title": "Hoorn bespreekt vanavond verder uitstel van subsidiebesparingen",
           "link": "https://hoornnieuws.nl/2026/11/24/hoorn-bespreekt-uitstel-subsidiebesparingen-24-november/",
@@ -101,15 +111,6 @@
           "categories": [
             "Lokaal Nieuws"
           ]
-        },
-        {
-          "title": "Spoorwegovergang Liornestraat eind november twee keer dicht",
-          "link": "https://hoornnieuws.nl/2026/11/14/spoorwegovergang-liornestraat-eind-november-twee-keer-dicht/",
-          "pubDate": "Sat, 14 Nov 2026 15:02:58 +0000",
-          "description": "HOORN – De spoorwegovergang bij de Liornestraat is eind november twee keer dicht vanwege werkzaamheden. De gemeente leidt het verkeer tijdens beide afsluitingen om. Vrijdag 27 november is de overgang dicht van 01.00 tot 06.00 uur. De tweede afsluiting begint zaterdag 28 november om 11.00 uur en duurt tot zondag 29 november om 23.00 uur. Op vrijdag 27 november geldt ook nog de afzonderlijke afsluiting van het kruispunt Liornestraat–Drieboomlaan. Bekijk de actuele verkeersinformatie van de gemeente Hoorn. Archiefbeeld van de Hoornse haven. Gouwenaar via Wikimedia Commons , CC0.",
-          "categories": [
-            "Verkeer"
-          ]
         }
       ]
     },
@@ -117,6 +118,34 @@
       "id": "hoornsdagblad",
       "label": "Hoornsdagblad",
       "items": [
+        {
+          "title": "Zo bouw je een rustige avond routine",
+          "link": "https://www.hoornsdagblad.nl/algemeen/zo-bouw-je-een-rustige-avond-routine",
+          "pubDate": "Thu, 26 Nov 2026 17:37:37 +0100",
+          "description": "Veel mensen liggen 's avonds langer wakker dan ze zouden willen. De oorzaak zit vaak niet in de nacht zelf, maar in de uren ervoor. Wie tot laat doorwerkt of op de bank nog even door zijn telefoon scrolt, kruipt met een vol hoofd onder de dekens. Met een paar vaste gewoontes kun je daar al veel aan [...]",
+          "categories": []
+        },
+        {
+          "title": "Gezond tandvlees: een stevige basis voor uw tanden én implantaten",
+          "link": "https://www.hoornsdagblad.nl/zorg-en-gezondheid/gezond-tandvlees-een-stevige-basis-voor-uw-tanden-en-implantaten",
+          "pubDate": "Thu, 26 Nov 2026 09:29:49 +0100",
+          "description": "Gezond tandvlees fungeert als een sterke barrière tegen schadelijke bacteriën in de mond. Wanneer u uw mondhygiëne verwaarloost, kunnen de gevolgen verder gaan dan alleen een vervelend gevoel in uw mond. Ontstoken tandvlees merkt u niet altijd Tandvleesontsteking begint vaak ongemerkt. Bloedend [...]",
+          "categories": []
+        },
+        {
+          "title": "December bij MAK Blokweer: kerstmarkt, winteractiviteiten en samen aan tafel",
+          "link": "https://www.hoornsdagblad.nl/regio/december-bij-mak-blokweer-kerstmarkt-winteractiviteiten-en-samen-aan-tafel",
+          "pubDate": "Thu, 26 Nov 2026 09:07:30 +0100",
+          "description": "BLOKKER – Bij MAK Blokweer staat de decembermaand in het teken van gezelligheid, creativiteit, natuur en ontmoeting. Van pepernoten bakken en kaarsen maken tot de allereerste MAK Kerstmarkt en een bijzonder kerstdiner op kerstavond. Voor jong en oud is er van alles te beleven. Eerste editie MAK [...]",
+          "categories": []
+        },
+        {
+          "title": "3 simpele & originele Sinterklaastips",
+          "link": "https://www.hoornsdagblad.nl/feestdagen/a3-simpele-originele-sinterklaastips",
+          "pubDate": "Thu, 26 Nov 2026 07:13:35 +0100",
+          "description": "Als ouder wil je eigenlijk maar één ding: dat je kinderen met glinsterende ogen terugdenken aan pakjesavond, en het liefst zonder dat jij er weken van tevoren je avonden en je energie in kwijt bent.Misschien ben je iemand die stiekem net zo hard meeleeft met de spanning als je kinderen zelf, [...]",
+          "categories": []
+        },
         {
           "title": "Inloopavond over het Stationsgebied Poort van Hoorn op 15 december",
           "link": "https://www.hoornsdagblad.nl/gemeente/inloopavond-over-het-stationsgebied-poort-van-hoorn-op-15-december",
@@ -227,34 +256,6 @@
           "link": "https://www.hoornsdagblad.nl/gemeente/gemeente-hoorn-en-raadkrachtige-vrouwen-organiseren-schouw-waar-voelen-inwoners-zich-onveilig",
           "pubDate": "Tue, 24 Nov 2026 10:55:59 +0100",
           "description": "HOORN - Waar voelen inwoners zich onveilig in Hoorn? En wat kan er worden verbeterd aan de openbare ruimte? De gemeente Hoorn en de Raadkrachtige Vrouwen organiseren op donderdag 3 december een schouw in vier gebieden in de stad. Raadsleden en betrokken ambtenaren bekijken dan op de fiets plekken [...]",
-          "categories": []
-        },
-        {
-          "title": "Hoorn opent marathonschaatsen De Vier van Noord-Holland met topsport en schaatsplezier voor iedereen",
-          "link": "https://www.hoornsdagblad.nl/sport/hoorn-opent-marathonschaatsen-de-vier-van-noord-holland-met-topsport-en-schaatsplezier-voor-iedereen",
-          "pubDate": "Tue, 24 Nov 2026 09:25:38 +0100",
-          "description": "HOORN - De eerste wedstrijd van 'De Vier van Noord-Holland', de ultieme uitdaging voor marathonschaatsers, is donderdag 10 december in Hoorn. Om 19.00 en 20.00 uur gaan de vrouwen en mannen van de lange adem op IJsbaan De Westfries achtereenvolgens 60 en 80 ronden strijden voor de dagzege én punten [...]",
-          "categories": []
-        },
-        {
-          "title": "Nieuwe trends in de beveiliging van online entertainmentplatforms",
-          "link": "https://www.hoornsdagblad.nl/algemeen/nieuwe-trends-in-de-beveiliging-van-online-entertainmentplatforms",
-          "pubDate": "Tue, 24 Nov 2026 09:18:24 +0100",
-          "description": "Beveiliging van online platforms staat steeds hoger op de agenda nu een groot deel van de vrijetijdsbesteding zich digitaal afspeelt. Of je nu een livestream bekijkt, deelneemt aan online communities of kiest voor betaalde online diensten, de risico's nemen toe naarmate meer persoonlijke gegevens [...]",
-          "categories": []
-        },
-        {
-          "title": "Net als voorgaande jaren bijna 1,3 miljoen slachtoffers huiselijk geweld",
-          "link": "https://www.hoornsdagblad.nl/algemeen/net-als-voorgaande-jaren-bijna-13-miljoen-slachtoffers-huiselijk-geweld",
-          "pubDate": "Tue, 24 Nov 2026 07:16:48 +0100",
-          "description": "In 2026 zeggen bijna 1,3 miljoen mensen van 16 jaar of ouder (9 procent) dat ze in de afgelopen twaalf maanden slachtoffer zijn geweest van een of meer vormen van huiselijk geweld. Dat aantal is vergelijkbaar met voorgaande jaren. Dat blijkt uit de tweejaarlijkse Prevalentiemonitor Huiselijk Geweld [...]",
-          "categories": []
-        },
-        {
-          "title": "De feestdagen komen eraan! Verras met Ekowax en profiteer van 10% korting",
-          "link": "https://www.hoornsdagblad.nl/kamperen/de-feestdagen-komen-eraan-verras-met-ekowax-en-profiteer-van-10-korting",
-          "pubDate": "Tue, 24 Nov 2026 07:16:07 +0100",
-          "description": "Sinterklaas, de Dag van de Chauffeur en Kerstmis staan alweer voor de deur. Dé momenten om medewerkers, klanten, chauffeurs of zakenrelaties eens extra te verrassen en te bedanken.Daarom profiteer je vanaf nu bij Ekowax van 10% korting op onze Gift & Startersets!Of je nu op zoek bent naar een [...]",
           "categories": []
         }
       ]
@@ -410,10 +411,37 @@
       "label": "Rodi Hoorn",
       "items": [
         {
+          "title": "Commissie bespreekt onderzoek naar opvanglocaties Blauwe Berg en Middelweg/Venneweg in Hoorn",
+          "link": "https://www.rodi.nl/hoorn/gemeentenieuws/513778/commissie-bespreekt-onderzoek-naar-opvanglocaties-blauwe-berg-en-middelweg-venneweg-in-hoorn",
+          "pubDate": "Thu, 26 Nov 2026 15:10:43 Z",
+          "description": "HOORN - Het voormalige rugbyveld aan de Blauwe Berg en de locatie Middelweg/Venneweg in Hoorn blijken geschikt voor de huisvesting van verschillende groepen woningzoekenden. Het advies is om de locaties niet maximaal te bebouwen en mensen die asiel nodig hebben te mengen met bijvoorbeeld spoedzoekers, studenten en starters. De raadscommissie bespreekt het voorstel dinsdag 1 december.",
+          "categories": [
+            "Gemeentenieuws"
+          ]
+        },
+        {
+          "title": "Vrijwel zeker niet-ontplofte vliegtuigbom onder woning aan Drieboomlaan in Hoorn",
+          "link": "https://www.rodi.nl/hoorn/nieuws/513770/vrijwel-zeker-niet-ontplofte-vliegtuigbom-onder-woning-aan-drieboomlaan-in-hoorn",
+          "pubDate": "Thu, 26 Nov 2026 14:26:11 Z",
+          "description": "HOORN - Onder een woning aan de Drieboomlaan in Hoorn ligt vrijwel zeker een niet-ontplofte vliegtuigbom uit de Tweede Wereldoorlog. Dat blijkt uit metingen van onderzoeksbureau T&A Survey. Volgens de Explosieven Opruimingsdienst Defensie (EODD) zijn er op dit moment geen aanwijzingen voor direct gevaar voor bewoners.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
+          "title": "De krant van deze week staat online",
+          "link": "https://www.rodi.nl/hoorn/nieuws/513718/de-krant-van-deze-week-staat-online-zxa10f",
+          "pubDate": "Thu, 26 Nov 2026 10:24:09 Z",
+          "description": "HOORN - De nieuwste editie van het Nieuwsblad Hoorn staat nu online op de website.",
+          "categories": [
+            "Nieuws"
+          ]
+        },
+        {
           "title": "Van Peppa Pig tot Qmusic en de Pieten Expres: dit is er van 27 t/m 29 november te doen in Hoorn",
           "link": "https://www.rodi.nl/hoorn/uit/513506/van-peppa-pig-tot-qmusic-en-de-pieten-expres-dit-is-er-van-27-t-m-29-november-te-doen-in-hoorn",
           "pubDate": "Wed, 25 Nov 2026 20:42:00 Z",
-          "description": "HOORN - Ook dit weekend - van vrijdag 27 tot en met zondag 29 november - is",
+          "description": "HOORN - Ook dit weekend - van vrijdag 27 tot en met zondag 29 november - is er weer genoeg te beleven in Hoorn. Zo kun je uit je dak gaan tijdens het Foute Feestje met Qmusic The Party FOUT, genieten van een voorstelling van Peppa Pig of met de kinderen op avontuur met astronaut André Kuipers. Ook rijdt de Pieten Expres weer door West-Friesland en kun je zondagmiddag uitgebreid winkelen tijdens Superkoopzondag. Er is dus voor jong en oud genoeg te doen in Hoorn!",
           "categories": [
             "Uit"
           ]
@@ -606,33 +634,6 @@
           "categories": [
             "112-nieuws"
           ]
-        },
-        {
-          "title": "25-jarige man uit Zwaag aangehouden na schietincident aan Govert Oostwoudpad, politie zoekt getuigen",
-          "link": "https://www.rodi.nl/hoorn/112-nieuws/513257/25-jarige-man-uit-zwaag-aangehouden-na-schietincident-aan-govert-oostwoudpad-politie-zoekt-getuigen",
-          "pubDate": "Sun, 22 Nov 2026 19:31:32 Z",
-          "description": "ZWAAG - Aan het Govert Oostwoudpad in Zwaag vond in de nacht van zaterdag op zondag rond 02.55 uur een schietincident plaats. De politie zoekt getuigen.",
-          "categories": [
-            "112-nieuws"
-          ]
-        },
-        {
-          "title": "Viool, piano en tuba samen in de Oosterkerk in Hoorn",
-          "link": "https://www.rodi.nl/hoorn/uit/513219/viool-piano-en-tuba-samen-in-de-oosterkerk-in-hoorn",
-          "pubDate": "Sun, 22 Nov 2026 17:00:00 Z",
-          "description": "HOORN - Heleen Hulst (viool) en Gerard Bouwhuis (piano) geven zondag 29 november een concert in de Oosterkerk. Het duo speelt klassieke en eigentijdse stukken, voor de elfde keer samen met tubaspeler David Kutz.",
-          "categories": [
-            "Uit"
-          ]
-        },
-        {
-          "title": "Sinterklaas is in Zwaag! Bekijk hier de foto’s van de intocht",
-          "link": "https://www.rodi.nl/hoorn/nieuws/513234/-fotos-sinterklaas-is-in-zwaag-bekijk-hier-de-fotos-van-de-intocht",
-          "pubDate": "Sat, 21 Nov 2026 16:27:57 Z",
-          "description": "ZWAAG - Pepernoten, pieten, heel veel blije gezichten en natuurlijk Sinterklaas! Onze fotograaf Jan Siebring was er zaterdag 21 november ook bij en legde de sinterklaasintocht in Zwaag uitgebreid vast.",
-          "categories": [
-            "Nieuws"
-          ]
         }
       ]
     },
@@ -641,11 +642,32 @@
       "label": "Streekomroep",
       "items": [
         {
-          "title": "Nieuwe vervoerder heeft ambitieuze plannen: vaker en schonere busritten",
-          "link": "https://www.streekomroepwestfriesland.nl/nieuwe-vervoerder-heeft-ambitieuze-plannen-vaker-en-schonere-busritten/",
-          "pubDate": "Wed, 25 Nov 2026 17:00:00 +0000",
-          "description": "Voorlopig rijden ze nog rond, maar vanaf de zomer van 2028 neemt een groot deel van Noord-Holland afscheid van de bussen van Connexxion. Het vervoersbedrijf wordt dan afgelost door Arriva. En dat merk je dan niet alleen aan de andere stickers op de bus, belooft het bedrijf. \"Van tevoren hadden we de eis van uitsluitend elektrisch rijden niet meegenomen in de concessie, vanwege de druk op het stroomnet\", vertelt Jeroen Olthof. Hij is gedeputeerde voor de Provincie Noord-Holland en verantwoordelijk voor het regelen van het openbaar vervoer. \"Maar Arriva zei het toch te kunnen regelen, en daar zijn we heel blij mee.\" Volledig elektrisch rijden is niet de enige belofte waarmee het nieuwe vervoer",
+          "title": "Liberté: Amsterdam – In de voetsporen van Napoleon",
+          "link": "https://www.streekomroepwestfriesland.nl/liberte-amsterdam-in-de-voetsporen-van-napoleon/",
+          "pubDate": "Thu, 26 Nov 2026 17:00:00 +0000",
+          "description": "Napoleon Bonaparte, ooit de machtigste man op aarde, maakte in 1811 een reis door Noord-Holland als onderdeel van zijn inspectiereis aan de lage landen. Wie was deze man? Welke plaatsen bezocht Napoleon in Noord-Holland? En welke invloeden uit zijn rijk zien we nog terug in de huidige tijd? Presentator Gerben Bakker is gefascineerd door de oud-keizer uit Frankrijk, en volgt dezelfde reis door onze provincie voor het programma Liberté. Voor deze tweede aflevering van de achtdelige serie vervolgt Gerben de reis van Napoleon door Amsterdam, na eerder de Muiderpoort en het Amsterdam Depot te hebben bezocht. De Hoornse presentator spreekt met Koen Kleijn, hoofdredacteur Ons Amsterdam en publicist",
           "categories": [
+            "Geschiedenis",
+            "Kunst & cultuur"
+          ]
+        },
+        {
+          "title": "Column: De Buckler onder de apparaten",
+          "link": "https://www.streekomroepwestfriesland.nl/column-de-buckler-onder-de-apparaten/",
+          "pubDate": "Thu, 26 Nov 2026 12:07:00 +0000",
+          "description": "Er zijn uitvindingen waarvan ik het nut onmiddellijk begrijp. De wasmachine bijvoorbeeld. Of de koelkast. Maar er bestaat ook een apparaat waarvan ik me afvraag welke onverlaat het ooit heeft bedacht: de bladblazer. Wat mij betreft is het de Buckler onder de apparaten. Het toppunt van lulligheid. Met dit verschil dat Buckler alcoholvrij was. Bij de bladblazer vermoed ik juist dat er een paar glazen aan vooraf zijn gegaan. Want nuchter verzin je zoiets niet. Het principe is even eenvoudig als onbegrijpelijk. Er ligt een blad op de grond. Dat moet weg. Niet door het op te rapen, maar door er met een loeiende motor tegenaan te blazen. Het blad vliegt een paar meter verder en landt opnieuw op de",
+          "categories": [
+            "Technologie & wetenschap"
+          ]
+        },
+        {
+          "title": "Inwoners Andijk en gemeente werken samen aan Buurt Energieplan",
+          "link": "https://www.streekomroepwestfriesland.nl/inwoners-andijk-en-gemeente-werken-samen-aan-buurt-energieplan/",
+          "pubDate": "Thu, 26 Nov 2026 10:28:50 +0000",
+          "description": "Inwoners van Andijk-Centrum gaan samen met de gemeente Medemblik werken aan een Buurt Energieplan. Daarin komen stappen te staan om energie te besparen, zelf stroom op te wekken en het gebruik van aardgas te verminderen. De officiële aftrap was afgelopen dinsdag tijdens een informatieavond in het dorpshuis. De gemeente wil bewoners helpen met vragen over het verduurzamen van hun woning. Hoe blijft de energierekening betaalbaar? En hoe zorg je voor een warm huis in de winter en verkoeling in de zomer? In plaats van zelf een kant-en-klaar plan te maken, wil de gemeente samen met inwoners onderzoeken wat bij de buurt en de woningen past. Tijdens de informatieavond gaf Eneregio een presentatie o",
+          "categories": [
+            "Kunst & cultuur",
+            "Politiek",
             "Verkeer & wonen"
           ]
         },
@@ -657,6 +679,15 @@
           "categories": [
             "Kunst & cultuur",
             "Sport"
+          ]
+        },
+        {
+          "title": "Nieuwe vervoerder heeft ambitieuze plannen: vaker en schonere busritten",
+          "link": "https://www.streekomroepwestfriesland.nl/nieuwe-vervoerder-heeft-ambitieuze-plannen-vaker-en-schonere-busritten/",
+          "pubDate": "Wed, 25 Nov 2026 17:00:00 +0000",
+          "description": "Voorlopig rijden ze nog rond, maar vanaf de zomer van 2028 neemt een groot deel van Noord-Holland afscheid van de bussen van Connexxion. Het vervoersbedrijf wordt dan afgelost door Arriva. En dat merk je dan niet alleen aan de andere stickers op de bus, belooft het bedrijf. \"Van tevoren hadden we de eis van uitsluitend elektrisch rijden niet meegenomen in de concessie, vanwege de druk op het stroomnet\", vertelt Jeroen Olthof. Hij is gedeputeerde voor de Provincie Noord-Holland en verantwoordelijk voor het regelen van het openbaar vervoer. \"Maar Arriva zei het toch te kunnen regelen, en daar zijn we heel blij mee.\" Volledig elektrisch rijden is niet de enige belofte waarmee het nieuwe vervoer",
+          "categories": [
+            "Verkeer & wonen"
           ]
         },
         {
@@ -702,34 +733,6 @@
           "description": "De nieuwe film van de Enkhuizer Cas Gijsberts gaat na ruim een jaar van crowdfunding, scripts schrijven, filmen en monteren deze week in première. Samen met zijn crew heeft hij hard gewerkt aan een waardig vervolg op deel één van zijn filmserie 'Chester', die in mei 2025 uit kwam. In het tweede deel van de reeks is te zien hoe schurk Crater moet boeten voor de daden uit de eerste film. \"Alleen lijkt er toch een plottwist te zitten. Want is het wel echt allemaal zo makkelijk\", licht de regisseur toe. Na een uitverkochte première bij Hét Postkantoor in Bovenkarspel vorig jaar, was de keuze om een vervolg te maken op 'Chester: De Kronieken van de Nar' snel gemaakt. Volgens Cas moest iedereen de",
           "categories": [
             "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Joris de Lange wint Maestro Junior in Enkhuizen",
-          "link": "https://www.streekomroepwestfriesland.nl/joris-de-lange-wint-maestro-junior-in-enkhuizen/",
-          "pubDate": "Tue, 24 Nov 2026 15:53:04 +0000",
-          "description": "Zeven jonge dirigenten stonden zondag 22 november voor het opleidingsorkest de Music Stars tijdens Maestro Junior in Enkhuizen. De kinderen vertegenwoordigden alle basisscholen uit de stad en mochten laten zien hoe goed zij een orkest kunnen dirigeren. Na een muzikale en spannende middag werd Joris de Lange uitgeroepen tot winnaar. De middag werd geopend door de vaste dirigente van de Music Stars, Ria van Bijnen, met muziek uit de filmreeks 'Pirates of the Caribbean'. Daarna was het de beurt aan de jonge dirigenten Thijs, Joris, Isabella, Lot, Dagmar, Elise en Djomy. Alle deelnemers dirigeerden ieder twee muziekstukken. Het programma was gevarieerd, met onder meer muziek uit films als Harry ",
-          "categories": [
-            "Kunst & cultuur"
-          ]
-        },
-        {
-          "title": "Gemeente Medemblik gaat zelf onkruid wieden, stopt overeenkomst met HVC",
-          "link": "https://www.streekomroepwestfriesland.nl/gemeente-medemblik-gaat-zelf-onkruid-wieden-stopt-overeenkomst-met-hvc/",
-          "pubDate": "Tue, 24 Nov 2026 14:17:00 +0000",
-          "description": "In een brief aan de raad van Medemblik laat het college van burgemeester en wethouders weten dat de opdracht om onkruid in de gemeente te bestrijden door HVC niet wordt verlengd. De gemeente heeft een overeenkomst met HVC tot 31 december 2026 om deze werkzaamheden uit te voeren. Hoe de onkruidbestrijding er in 2027 uit gaat zien is nog niet bekend. De gemeente heeft nog geen plan. Het college wil \"beter kunnen sturen op de kwaliteit van de openbare ruimte\" laten ze weten in de brief aan de raad. Daarom beginnen ze een onderzoek naar een nieuwe vorm. Met voornamelijk een focus op de kwaliteit en uitvoering van de werkzaamheden. In een reactie laat de gemeente weten dat het niet voortkomt uit ",
-          "categories": [
-            "Natuur & klimaat",
-            "Politiek"
-          ]
-        },
-        {
-          "title": "Ravage bij frontale botsing in Bovenkarspel",
-          "link": "https://www.streekomroepwestfriesland.nl/ravage-bij-frontale-botsing-in-bovenkarspel/",
-          "pubDate": "Tue, 24 Nov 2026 14:15:00 +0000",
-          "description": "Op de N505 bij Bovenkarspel zijn vanmiddag twee auto's door nog onbekende oorzaak op elkaar gebotst. De auto's zijn daarbij zwaar beschadigd geraakt en de weg ligt vol brokstukken. Het is niet bekend of er gewonden zijn. Het ongeluk op de N505 werd rond 13.30 uur gemeld bij de hulpdiensten. Volgens een politiewoordvoerder raakte een van de bestuurders door de klap bekneld in de auto, maar kon diegene uit het voertuig bevrijd worden. Op foto's is te zien dat de ravage enorm is. Een van de auto's heeft een wiel verloren en de weg ligt bezaaid met glas en brokstukken. De N505 is voorlopig in beide richtingen dicht tussen Andijk en Enkhuizen-Noord. Hoelang de weg gesloten blijft, is niet bekend.",
-          "categories": [
-            "112"
           ]
         }
       ]
