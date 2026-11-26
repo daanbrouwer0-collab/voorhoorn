@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T17:56:14.632Z",
+  "updated": "2026-11-26T02:10:24.976Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -410,6 +410,15 @@
       "label": "Rodi Hoorn",
       "items": [
         {
+          "title": "Van Peppa Pig tot Qmusic en de Pieten Expres: dit is er van 27 t/m 29 november te doen in Hoorn",
+          "link": "https://www.rodi.nl/hoorn/uit/513506/van-peppa-pig-tot-qmusic-en-de-pieten-expres-dit-is-er-van-27-t-m-29-november-te-doen-in-hoorn",
+          "pubDate": "Wed, 25 Nov 2026 20:42:00 Z",
+          "description": "HOORN - Ook dit weekend - van vrijdag 27 tot en met zondag 29 november - is",
+          "categories": [
+            "Uit"
+          ]
+        },
+        {
           "title": "Hoornse geboortefotograaf Cynthia van Stiphout in de prijzen bij internationale fotowedstrijd",
           "link": "https://www.rodi.nl/hoorn/nieuws/513668/hoornse-geboortefotograaf-cynthia-van-stiphout-in-de-prijzen-bij-internationale-fotowedstrijd",
           "pubDate": "Wed, 25 Nov 2026 16:44:13 Z",
@@ -621,15 +630,6 @@
           "link": "https://www.rodi.nl/hoorn/nieuws/513234/-fotos-sinterklaas-is-in-zwaag-bekijk-hier-de-fotos-van-de-intocht",
           "pubDate": "Sat, 21 Nov 2026 16:27:57 Z",
           "description": "ZWAAG - Pepernoten, pieten, heel veel blije gezichten en natuurlijk Sinterklaas! Onze fotograaf Jan Siebring was er zaterdag 21 november ook bij en legde de sinterklaasintocht in Zwaag uitgebreid vast.",
-          "categories": [
-            "Nieuws"
-          ]
-        },
-        {
-          "title": "Winterconcert De Herleving in wijkcentrum De Huesmolen in Hoorn in teken van musicals",
-          "link": "https://www.rodi.nl/hoorn/nieuws/513224/winterconcert-de-herleving-in-wijkcentrum-de-huesmolen-in-hoorn-in-teken-van-musicals",
-          "pubDate": "Sat, 21 Nov 2026 15:45:00 Z",
-          "description": "HOORN - Muziekvereniging De Herleving geeft zaterdag 28 november haar jaarlijkse winterconcert in wijkcentrum De Huesmolen in Hoorn. Het programma bestaat volledig uit musicalmuziek, met Zwaagse gastzanger André Vloeijberghs. Het concert begint om 20.00 uur.",
           "categories": [
             "Nieuws"
           ]
