@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T17:25:44.611Z",
+  "updated": "2026-11-28T01:56:07.906Z",
   "failedSources": [
     {
       "id": "hoornactueel",
@@ -119,6 +119,34 @@
       "label": "Hoornsdagblad",
       "items": [
         {
+          "title": "Auto aangetroffen in sloot langs Vredemakersweg in Berkhout; politie zoekt bestuurder",
+          "link": "https://www.hoornsdagblad.nl/112-hoorn/auto-aangetroffen-in-sloot-langs-vredemakersweg-in-berkhout-politie-zoekt-bestuurder",
+          "pubDate": "Sat, 28 Nov 2026 01:48:09 +0100",
+          "description": "​BERKHOUT - Langs de Vredemakersweg in Berkhout is in de nacht van vrijdag op zaterdag omstreeks 01.10 uur een personenauto in een sloot aangetroffen. Het ongeval is mogelijk ontstaan door gladheid.​Een passerende automobilist zag het voertuig in het water liggen en waarschuwde direct de [...]",
+          "categories": []
+        },
+        {
+          "title": "Eerste warmtegidsen in Hoorn uitgereikt",
+          "link": "https://www.hoornsdagblad.nl/gemeente/eerste-warmtegidsen-in-hoorn-uitgereikt",
+          "pubDate": "Fri, 27 Nov 2026 19:33:04 +0100",
+          "description": "HOORN - De gemeente Hoorn heeft een warmteplan opgesteld en vertaald naar een praktische gids voor de bewoners van de Streektuinen. Het is het eerste warmteplan in Hoorn.Op vrijdagmiddag 27 november ontvingen uitgenodigde buurtbewoners hun warmtegids tijdens een feestelijke uitreiking in [...]",
+          "categories": []
+        },
+        {
+          "title": "Wanneer kan je een photobooth inzetten op je bruiloft?",
+          "link": "https://www.hoornsdagblad.nl/algemeen/wanneer-kan-je-een-photobooth-inzetten-op-je-bruiloft",
+          "pubDate": "Fri, 27 Nov 2026 19:06:26 +0100",
+          "description": "Ga je trouwen? Gefeliciteerd! Een photobooth op je bruiloft is inmiddels een onmiskenbaar onderdeel op bruiloften. Je bruiloft is een enorm lange dag, met verschillende geschikte momenten. Dus wanneer kan je een fotobooth het best inzetten? In dit artikel lopen we de hele dag door: van vóór de [...]",
+          "categories": []
+        },
+        {
+          "title": "Voorverkoop van TIMES WERE WHEN over The Cats van start",
+          "link": "https://www.hoornsdagblad.nl/regio/voorverkoop-van-times-were-when-over-the-cats-van-start",
+          "pubDate": "Fri, 27 Nov 2026 16:30:21 +0100",
+          "description": "VOLENDAM - Pophistoricus Leo Weijers vertelt het verhaal van The Cats aan de hand van de mensen, opnamen en gebeurtenissen die hun loopbaan bepaalden. Zijn rijk geïllustreerde boek verschijnt op 20 maart 2027 bij Uitgeverij Doornwater. Wie tijdens de voorverkoop bestelt en betaalt, krijgt het boek [...]",
+          "categories": []
+        },
+        {
           "title": "18-jarige man aangehouden na vondst verboden vuurwerk in Blokker",
           "link": "https://www.hoornsdagblad.nl/112-hoorn/a18-jarige-man-aangehouden-na-vondst-verboden-vuurwerk-in-blokker",
           "pubDate": "Fri, 27 Nov 2026 15:51:15 +0100",
@@ -228,34 +256,6 @@
           "link": "https://www.hoornsdagblad.nl/uitgaan/het-gilde-speelt-hoog-spel-in-theater-het-pakhuis",
           "pubDate": "Wed, 25 Nov 2026 10:57:31 +0100",
           "description": "HOORN - Je hebt ze nog nooit gehoord, maar zult ze absoluut nooit meer vergeten: de razend verrassende liedjes van Het Gilde! Op zaterdag 28 november om 20.00 uur strijkt het sprankelende collectief Het Gilde neer in Theater Het Pakhuis met de nieuwe voorstelling Het Gilde Speelt Hoog Spel. Een [...]",
-          "categories": []
-        },
-        {
-          "title": "Mannen uit Hoornse politiek spreken zich uit tegen vrouwengeweld",
-          "link": "https://www.hoornsdagblad.nl/gemeente/mannen-uit-hoornse-politiek-spreken-zich-uit-tegen-vrouwengeweld",
-          "pubDate": "Wed, 25 Nov 2026 10:52:33 +0100",
-          "description": "HOORN - Iedereen hoort zich veilig te voelen. Thuis, op straat, op school en op het werk. Toch is die veiligheid voor veel meisjes en vrouwen niet vanzelfsprekend. Geweld, intimidatie en grensoverschrijdend gedrag hebben een grote impact op de levens van veel vrouwen. Tijdens Orange the World 2026 [...]",
-          "categories": []
-        },
-        {
-          "title": "Flinke brand in berging van appartementencomplex in Hoorn, enkele woningen ontruimd",
-          "link": "https://www.hoornsdagblad.nl/112-hoorn/flinke-brand-in-berging-van-appartementencomplex-in-hoorn-enkele-woningen-ontruimd",
-          "pubDate": "Wed, 25 Nov 2026 09:53:20 +0100",
-          "description": "HOORN - Aan de Mina Krusemanstraat in Hoorn is woensdagochtend rond 08:25 uur een flinke brand uitgebroken in een berging van een appartementencomplex. De brandweer schaalde al snel op naar middelbrand.De hulpdiensten kwamen groots ter plaatse. Twee tankautospuiten, een officier van dienst en een [...]",
-          "categories": []
-        },
-        {
-          "title": "Armoede gelijk gebleven op 3 procent van de bevolking",
-          "link": "https://www.hoornsdagblad.nl/algemeen/armoede-gelijk-gebleven-op-3-procent-van-de-bevolking",
-          "pubDate": "Wed, 25 Nov 2026 09:20:42 +0100",
-          "description": "In 2025 waren 521 duizend mensen arm. Dat is 3,0 procent van de bevolking, een even groot deel als in 2024. Ook het aandeel arme kinderen is met 2,6 procent hetzelfde gebleven. Onder werkenden steeg de armoede wel iets. Dit blijkt uit nieuwe cijfers van het Centraal Bureau voor de Statistiek (CBS) [...]",
-          "categories": []
-        },
-        {
-          "title": "Nieuwe arrangementen maken van Zuiderzeelicht winters verblijf in Enkhuizen",
-          "link": "https://www.hoornsdagblad.nl/dagje-weg/nieuwe-arrangementen-maken-van-zuiderzeelicht-winters-verblijf-in-enkhuizen",
-          "pubDate": "Wed, 25 Nov 2026 09:08:07 +0100",
-          "description": "ENKHUIZEN - Een bezoek aan Zuiderzeelicht combineren met een diner of zelfs een overnachting in Enkhuizen? Dat kan deze winter dankzij de samenwerking tussen het Zuiderzeemuseum en verschillende ondernemers in de stad. Nieuw dit jaar zijn speciale overnachtingsarrangementen bij EuroParcs Enkhuizer [...]",
           "categories": []
         }
       ]
@@ -642,8 +642,26 @@
       "label": "Streekomroep",
       "items": [
         {
-          "title": "Zwart geschminkte Pietenfeest Medemblik: 'Laatste afkickverschijnselen van racisme'",
-          "link": "https://www.streekomroepwestfriesland.nl/zwart-geschminkte-pietenfeest-medemblik-laatste-afkickverschijnselen-van-racisme/",
+          "title": "WEEFF Top Favoriet komende week in handen van MEAU",
+          "link": "https://www.streekomroepwestfriesland.nl/weeff-top-favoriet-komende-week-in-handen-van-meau/",
+          "pubDate": "Fri, 27 Nov 2026 18:48:00 +0000",
+          "description": "Zangeres Meau heeft een nieuw nummer: 'Karma'. Komende week hoor je het extra vaak op de radio, want we roepen het uit tot WEEFF Top Favoriet. De 26-jarige Meau Hewitt uit Blaricum brak in 2021 door met haar eerste single 'Dat heb jij gedaan'. Hierna ging het snel met de carrière van de zangeres. Het nummer stond meerdere weken op nummer 1 in de Nederlandse Top40, ze mocht optreden op diverse festivals waaronder Dijkpop in Andijk, en won ook een Edison-prijs voor 'Beste Nieuwkomer'. Een jaar later verscheen haar eerste album, dat eveneens een Edison-prijs in de wacht sleepte. Morgen, 28 november, speelt de zangeres een show in Apeldoorn, waarna een Belgische toernee volgt. Wil je alle WEEFF ",
+          "categories": [
+            "Kunst & cultuur"
+          ]
+        },
+        {
+          "title": "‘Nieuwe’ burgemeester voor Koggenland huppelt de raadszaal in",
+          "link": "https://www.streekomroepwestfriesland.nl/nieuwe-burgemeester-voor-koggenland-huppelt-de-raadszaal-in/",
+          "pubDate": "Fri, 27 Nov 2026 18:16:03 +0000",
+          "description": "Waarnemend burgemeester Pieter van Maaren werd deze week in Koggenland voorgedragen voor de rol van kroonbenoemde burgemeester van de gemeente. Dit is meteen de seizoensfinale van de serie ‘Een Nieuwe Burgemeester voor Koggenland’ die voor de zomer bij Streekomroep West-Friesland te zien was. In de nieuwste aflevering van de serie is te zien hoe de laatste stappen van het proces eruit zien. Verder is er een eerste reactie van burgemeester Van Maaren, die huppelend de raadszaal binnenkwam na de bekendmaking. Bij afwezigheid van vaste presentatrice Monique Dekker was het André de Reus die naast presentator Sander Huisman getuige was van de ontknoping van de zoektocht. Bekijk de hele serie teru",
+          "categories": [
+            "Politiek"
+          ]
+        },
+        {
+          "title": "Ondanks kritiek vieren Medemblikkers feest met zwart geschminkte Pieten",
+          "link": "https://www.streekomroepwestfriesland.nl/ondanks-kritiek-vieren-medemblikkers-feest-met-zwart-geschminkte-pieten/",
           "pubDate": "Fri, 27 Nov 2026 17:00:00 +0000",
           "description": "Een sinterklaasfeest van een Medemblikse stichting wordt ook dit jaar weer gevierd met zwart geschminkte Pieten. De Sint en zijn gevolg gaan ook pepernoten uitdelen in het centrum. De gemeente staat dat toe. \"Wie in 2026 nog willens en wetens zijn gezicht zwart verft, is bewust een racist\", reageert de West-Friese anti-discriminatie stichting We Promise. Het sinterklaasfeest wordt georganiseerd door 'Marly's & Macy's Bieb'. Een stichting die zich in Medemblik met een weggeefkast en 'ruilbieb' inzet voor mensen met een kleine beurs. Dit weekend viert de stichting Sinterklaas, mét zo'n vijftig zwart geschminkte pieten. Op zaterdagmiddag maken ze ook een ronde door het centrum van Medemblik. 'T",
           "categories": [
@@ -715,25 +733,6 @@
           "categories": [
             "Kunst & cultuur",
             "Politiek",
-            "Verkeer & wonen"
-          ]
-        },
-        {
-          "title": "Toon (90) had een 'waanzinnig plan' voor een ijsbaan: De Westfries bestaat nu 20 jaar",
-          "link": "https://www.streekomroepwestfriesland.nl/toon-90-had-een-waanzinnig-plan-voor-een-ijsbaan-de-westfries-bestaat-nu-20-jaar/",
-          "pubDate": "Wed, 25 Nov 2026 17:00:00 +0000",
-          "description": "IJsbaan De Westfries in Hoorn bestaat 20 jaar. De baan waar schaatsgrootheden als Sjoerd Huisman en Irene Schouten hun ijzers in zetten is vooral te danken aan de inzet van Toon Steltenpool. Nu 90 jaar oud blikt hij terug op de lange weg naar het eerste West-Friese kunstijs. \"Dit is de mooiste baan van Nederland.\" Toon Steltenpool (90) uit Midwoud is heel slecht ter been. Maar hij staat toch even aan de rand van de ijsbaan in Hoorn. \"Goed zo\", roept hij glunderend naar een paar kinderen die voorbij schaatsen. Zelf is hij maar een keer rond geweest op de ijsbaan. Lachend: \"Ik ben meer van het besturen.\" Tijd voor een eigen baan Het is vlak na de winter van 1996/1997 dat Toon Steltpool – desti",
-          "categories": [
-            "Kunst & cultuur",
-            "Sport"
-          ]
-        },
-        {
-          "title": "Nieuwe vervoerder heeft ambitieuze plannen: vaker en schonere busritten",
-          "link": "https://www.streekomroepwestfriesland.nl/nieuwe-vervoerder-heeft-ambitieuze-plannen-vaker-en-schonere-busritten/",
-          "pubDate": "Wed, 25 Nov 2026 17:00:00 +0000",
-          "description": "Voorlopig rijden ze nog rond, maar vanaf de zomer van 2028 neemt een groot deel van Noord-Holland afscheid van de bussen van Connexxion. Het vervoersbedrijf wordt dan afgelost door Arriva. En dat merk je dan niet alleen aan de andere stickers op de bus, belooft het bedrijf. \"Van tevoren hadden we de eis van uitsluitend elektrisch rijden niet meegenomen in de concessie, vanwege de druk op het stroomnet\", vertelt Jeroen Olthof. Hij is gedeputeerde voor de Provincie Noord-Holland en verantwoordelijk voor het regelen van het openbaar vervoer. \"Maar Arriva zei het toch te kunnen regelen, en daar zijn we heel blij mee.\" Volledig elektrisch rijden is niet de enige belofte waarmee het nieuwe vervoer",
-          "categories": [
             "Verkeer & wonen"
           ]
         }
